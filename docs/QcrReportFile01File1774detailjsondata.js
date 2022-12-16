@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#32"
  , "c1" : "TransformerSupplierAdapter"
  , "c2" : "TransformerSupplierAdapter(TransformerSupplier<KIn,VIn,KeyValue<KOut,VOut>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#22"
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#37"
  , "c1" : "Transformer<KIn,VIn,Iterable<KeyValue<KOut,VOut>>>"
  , "c2" : "get()"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#49"
+ , "c5" : "00064"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#64"
  , "c1" : "Set<StoreBuilder<?>>"
  , "c2" : "stores()"
  , "c3" : "1"
@@ -86,10 +86,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#35"
+ , "c1" : "00050"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter.get@POLYN149220 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter.get@POLYN149310 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

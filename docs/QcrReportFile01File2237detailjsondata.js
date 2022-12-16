@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.WorkerState" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#27"
+ , "c5" : "00044"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#44"
  , "c1" : "WorkerState"
  , "c2" : "WorkerState(String;TaskSpec)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#33"
+ , "c5" : "00050"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#50"
  , "c1" : "String"
  , "c2" : "taskId()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#38"
+ , "c5" : "00055"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#55"
  , "c1" : "TaskSpec"
  , "c2" : "spec()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#42"
+ , "c5" : "00059"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#59"
  , "c1" : "boolean"
  , "c2" : "stopping()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#46"
+ , "c5" : "00063"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#63"
  , "c1" : "boolean"
  , "c2" : "done()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#50"
+ , "c5" : "00067"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#67"
  , "c1" : "long"
  , "c2" : "startedMs()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#54"
+ , "c5" : "00071"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#71"
  , "c1" : "JsonNode"
  , "c2" : "status()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#56"
+ , "c5" : "00073"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#73"
  , "c1" : "boolean"
  , "c2" : "running()"
  , "c3" : "1"
@@ -131,31 +131,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#43"
+ , "c1" : "00060"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.trogdor.rest.WorkerState.stopping@POLYN149105 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.rest.WorkerState.stopping@POLYN149207 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#47"
+ , "c1" : "00064"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.rest.WorkerState.done@POLYN149193 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.trogdor.rest.WorkerState.done@POLYN149295 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#51"
+ , "c1" : "00068"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.trogdor.rest.WorkerState.startedMs@POLYN149281 the MagicNumber/String  'invalid state' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.trogdor.rest.WorkerState.startedMs@POLYN149383 the MagicNumber/String  'invalid state' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#57"
+ , "c1" : "00074"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerState.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.trogdor.rest.WorkerState.running@POLYN149456 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.trogdor.rest.WorkerState.running@POLYN149558 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

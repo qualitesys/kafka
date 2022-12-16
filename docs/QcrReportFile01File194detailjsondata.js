@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.RangeAssignor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#18"
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#71"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#22"
+ , "c5" : "00075"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#75"
  , "c1" : "Map<String,List<MemberInfo>>"
  , "c2" : "consumersPerTopic(Map<String,Subscription>)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#35"
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#88"
  , "c1" : "Map<String,List<TopicPartition>>"
  , "c2" : "assign(Map<String,Integer>;Map<String,Subscription>)"
  , "c3" : "5"
@@ -114,129 +114,129 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#22"
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method consumersPerTopic arguments Map&lt;String ,Subscription &gt;  consumerMetadata"
+ , "c3" : "QC-JAV000006[00075] For method consumersPerTopic arguments Map&lt;String ,Subscription &gt;  consumerMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#22"
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#75"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00022] The argument consumerMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00075] The argument consumerMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#25"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00025] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00078] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#26"
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00026] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00079] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#27"
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00027] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00080] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#35"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method assign arguments Map&lt;String ,Integer &gt;  partitionsPerTopic|Map&lt;String ,Subscription &gt;  subscriptions"
+ , "c3" : "QC-JAV000006[00088] For method assign arguments Map&lt;String ,Integer &gt;  partitionsPerTopic|Map&lt;String ,Subscription &gt;  subscriptions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#35"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00035] For method assign list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; AbstractPartitionAssignor_partitionsN172490"
+ , "c3" : "QC-JAV000007[00088] For method assign list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; AbstractPartitionAssignor_partitionsN172808"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#35"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#88"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00035] The argument partitionsPerTopic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00088] The argument partitionsPerTopic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#36"
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#89"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00036] The argument subscriptions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00089] The argument subscriptions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#44"
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00044] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00097] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#45"
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00045] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00098] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#47"
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00047] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00100] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#56"
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00056] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00109] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#48"
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN171024 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN171342 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#57"
+ , "c1" : "00110"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN171024 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN171342 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#59"
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN171024 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN171342 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#59"
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN171024 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN171342 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#59"
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN171024 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.consumer.RangeAssignor.assign@POLYN171342 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 , 

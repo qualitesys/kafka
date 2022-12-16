@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.serialization.Serdes" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00193"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#193"
+ , "c5" : "00217"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#217"
  , "c1" : "Serde<Long>"
  , "c2" : "Long()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00198"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#198"
+ , "c5" : "00224"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#224"
  , "c1" : "Serde<Integer>"
  , "c2" : "Integer()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00203"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#203"
+ , "c5" : "00231"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#231"
  , "c1" : "Serde<Short>"
  , "c2" : "Short()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00208"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#208"
+ , "c5" : "00238"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#238"
  , "c1" : "Serde<Float>"
  , "c2" : "Float()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00213"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#213"
+ , "c5" : "00245"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#245"
  , "c1" : "Serde<Double>"
  , "c2" : "Double()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00218"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#218"
+ , "c5" : "00252"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#252"
  , "c1" : "Serde<String>"
  , "c2" : "String()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00223"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#223"
+ , "c5" : "00259"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#259"
  , "c1" : "Serde<ByteBuffer>"
  , "c2" : "ByteBuffer()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00228"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#228"
+ , "c5" : "00266"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#266"
  , "c1" : "Serde<Bytes>"
  , "c2" : "Bytes()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00233"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#233"
+ , "c5" : "00273"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#273"
  , "c1" : "Serde<UUID>"
  , "c2" : "UUID()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00238"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#238"
+ , "c5" : "00280"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#280"
  , "c1" : "Serde<byte[]>"
  , "c2" : "ByteArray()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00243"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#243"
+ , "c5" : "00287"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#287"
  , "c1" : "Serde<Void>"
  , "c2" : "Void()"
  , "c3" : "1"
@@ -172,59 +172,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#24"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00041] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#127"
+ , "c1" : "00144"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#144"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00127] The argument serde is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00144] The argument serde is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#176"
+ , "c1" : "00193"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.common.serialization.Serdes the MagicNumber/String  'Unknown class for built-in serializer. Supported types are: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.common.serialization.Serdes the MagicNumber/String  'Unknown class for built-in serializer. Supported types are: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#177"
+ , "c1" : "00194"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.common.serialization.Serdes the MagicNumber/String  'String, Short, Integer, Long, Float, Double, ByteArray, ByteBuffer, Bytes, UUID' should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.common.serialization.Serdes the MagicNumber/String  'String, Short, Integer, Long, Float, Double, ByteArray, ByteBuffer, Bytes, UUID' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#182"
+ , "c1" : "00204"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.common.serialization.Serdes the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.common.serialization.Serdes the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#183"
+ , "c1" : "00205"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.common.serialization.Serdes the MagicNumber/String  'serializer must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.common.serialization.Serdes the MagicNumber/String  'serializer must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#185"
+ , "c1" : "00207"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.common.serialization.Serdes the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.common.serialization.Serdes the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#186"
+ , "c1" : "00208"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.common.serialization.Serdes the MagicNumber/String  'deserializer must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.common.serialization.Serdes the MagicNumber/String  'deserializer must not be null' should be converted to const"
 }} 
 ]
 , 

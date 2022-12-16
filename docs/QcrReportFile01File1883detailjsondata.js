@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#65"
+ , "c5" : "00083"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#83"
  , "c1" : "GlobalStateManagerImpl"
  , "c2" : "GlobalStateManagerImpl(LogContext;Time;ProcessorTopology;Consumer<byte[],byte[]>;StateDirectory;StateRestoreListener;StreamsConfig)"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#104"
+ , "c5" : "00122"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#122"
  , "c1" : "void"
  , "c2" : "setGlobalProcessorContext(InternalProcessorContext)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00109"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#109"
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#127"
  , "c1" : "Set<String>"
  , "c2" : "initialize()"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00139"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#139"
+ , "c5" : "00157"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#157"
  , "c1" : "StateStore"
  , "c2" : "getGlobalStore(String)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00144"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#144"
+ , "c5" : "00162"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#162"
  , "c1" : "StateStore"
  , "c2" : "getStore(String)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00148"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#148"
+ , "c5" : "00166"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#166"
  , "c1" : "File"
  , "c2" : "baseDir()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00153"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#153"
+ , "c5" : "00171"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#171"
  , "c1" : "void"
  , "c2" : "registerStore(StateStore;StateRestoreCallback;CommitCallback)"
  , "c3" : "4"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00200"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#200"
+ , "c5" : "00218"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#218"
  , "c1" : "List<TopicPartition>"
  , "c2" : "topicPartitionsForStore(StateStore)"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00222"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#222"
+ , "c5" : "00240"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#240"
  , "c1" : "void"
  , "c2" : "restoreState(StateRestoreCallback;List<TopicPartition>;Map<TopicPartition,Long>;String;RecordConverter)"
  , "c3" : "9"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00281"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#281"
+ , "c5" : "00299"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#299"
  , "c1" : "long"
  , "c2" : "getGlobalConsumerOffset(TopicPartition)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00316"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#316"
+ , "c5" : "00334"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#334"
  , "c1" : "long"
  , "c2" : "maybeUpdateDeadlineOrThrow(long)"
  , "c3" : "4"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00334"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#334"
+ , "c5" : "00352"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#352"
  , "c1" : "void"
  , "c2" : "flush()"
  , "c3" : "4"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00355"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#355"
+ , "c5" : "00373"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#373"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "6"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00385"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#385"
+ , "c5" : "00403"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#403"
  , "c1" : "void"
  , "c2" : "updateChangelogOffsets(Map<TopicPartition,Long>)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00390"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#390"
+ , "c5" : "00408"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#408"
  , "c1" : "void"
  , "c2" : "checkpoint()"
  , "c3" : "3"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00411"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#411"
+ , "c5" : "00429"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#429"
  , "c1" : "TaskType"
  , "c2" : "taskType()"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00416"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#416"
+ , "c5" : "00434"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#434"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "changelogOffsets()"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00420"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#420"
+ , "c5" : "00438"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#438"
  , "c1" : "String"
  , "c2" : "changelogFor(String)"
  , "c3" : "1"
@@ -272,668 +272,668 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#65"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#83"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00065] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00083] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#67"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#85"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00067] The argument topology is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00085] The argument topology is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#69"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#87"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00069] The argument stateDirectory is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00087] The argument stateDirectory is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#71"
+ , "c1" : "00089"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#89"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00071] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.GlobalStateManagerImpl@POLYN206431 the MagicNumber/String  'dummy' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#104"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method setGlobalProcessorContext arguments InternalProcessorContext  globalProcessorContext"
+ , "c3" : "QC-JAVCWE476[00089] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.GlobalStateManagerImpl@POLYN206539 the MagicNumber/String  'dummy' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00109] For method initialize list of called methods Object monObjet|byte[] storeToChangelogTopic_getN209357"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00118] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#120"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00120] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#113"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN208813 the MagicNumber/String  'Failed to read checkpoints for global state globalStores' should be converted to const"
+ , "c3" : "QC-JAV000006[00122] For method setGlobalProcessorContext arguments InternalProcessorContext  globalProcessorContext"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#127"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN208813 the MagicNumber/String  'Encountered a topic-partition in the global checkpoint file not associated with any global' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#128"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN208813 the MagicNumber/String  ' state store, topic-partition: {}, checkpoint file: {}. If this topic-partition is no longer valid,' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN208813 the MagicNumber/String  ' an application reset and state store directory cleanup will be required.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#133"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN208813 the MagicNumber/String  'Encountered a topic-partition not associated with any global state store' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#139"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00139] For method getGlobalStore arguments String  name"
+ , "c3" : "QC-JAV000007[00127] For method initialize list of called methods Object monObjet|byte[] storeToChangelogTopic_getN209465"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#140"
+ , "c1" : "00136"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.getGlobalStore@POLYN210213 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00136] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#144"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00144] For method getStore arguments String  name"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#153"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00153] For method registerStore arguments StateStore  store|StateRestoreCallback  stateRestoreCallback|CommitCallback  ignored"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#153"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00153] For method registerStore list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; topicPartitionsForStoreN212012"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#153"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00153] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#156"
+ , "c1" : "00138"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN210694 the MagicNumber/String  'Restoring state for global store {}' should be converted to const"
+ , "c3" : "QC-JAV000001[00138] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#131"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN208921 the MagicNumber/String  'Failed to read checkpoints for global state globalStores' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00145"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#145"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN208921 the MagicNumber/String  'Encountered a topic-partition in the global checkpoint file not associated with any global' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00146"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#146"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN208921 the MagicNumber/String  ' state store, topic-partition: {}, checkpoint file: {}. If this topic-partition is no longer valid,' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00147"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#147"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN208921 the MagicNumber/String  ' an application reset and state store directory cleanup will be required.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00151"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#151"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.initialize@POLYN208921 the MagicNumber/String  'Encountered a topic-partition not associated with any global state store' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#157"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00157] For method getGlobalStore arguments String  name"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00158"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#158"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.getGlobalStore@POLYN210321 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#162"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN210694 the MagicNumber/String  'Global Store %s has already been registered' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00162] For method getStore arguments String  name"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#167"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN210694 the MagicNumber/String  'Trying to register store %s that is not a known global store' should be converted to const"
+ , "c1" : "00171"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#171"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00171] For method registerStore arguments StateStore  store|StateRestoreCallback  stateRestoreCallback|CommitCallback  ignored"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#171"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00171] For method registerStore list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; topicPartitionsForStoreN212120"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#171"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00171] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00174"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN210694 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN210802 the MagicNumber/String  'Restoring state for global store {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#175"
+ , "c1" : "00180"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN210694 the MagicNumber/String  'The stateRestoreCallback provided for store %s was null' should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN210802 the MagicNumber/String  'Global Store %s has already been registered' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#182"
+ , "c1" : "00185"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN210694 the MagicNumber/String  'Failed to get offsets for partitions %s. The broker may be transiently unavailable at the moment.' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN210802 the MagicNumber/String  'Trying to register store %s that is not a known global store' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00192"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#192"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN210802 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN210802 the MagicNumber/String  'The stateRestoreCallback provided for store %s was null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00200"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#200"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.registerStore@POLYN210802 the MagicNumber/String  'Failed to get offsets for partitions %s. The broker may be transiently unavailable at the moment.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#218"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00200] For method topicPartitionsForStore arguments StateStore  store"
+ , "c3" : "QC-JAV000006[00218] For method topicPartitionsForStore arguments StateStore  store"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#200"
+ , "c1" : "00218"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#218"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00200] For method topicPartitionsForStore list of called methods Object monObjet|byte[] storeToChangelogTopic_getN212773"
+ , "c3" : "QC-JAV000007[00218] For method topicPartitionsForStore list of called methods Object monObjet|byte[] storeToChangelogTopic_getN212881"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#200"
+ , "c1" : "00218"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#218"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00200] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#206"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.topicPartitionsForStore@POLYN212668 the MagicNumber/String  'Failed to get partitions for topic %s. The broker may be transiently unavailable at the moment.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#211"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.topicPartitionsForStore@POLYN212668 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#212"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.topicPartitionsForStore@POLYN212668 the MagicNumber/String  'There are no partitions available for topic %s when initializing global store %s' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00222"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#222"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00222] For method restoreState arguments StateRestoreCallback  stateRestoreCallback|List&lt;TopicPartition &gt;  topicPartitions|Map&lt;TopicPartition ,Long &gt;  highWatermarks|String  storeName|RecordConverter  recordConverter"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00222"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#222"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00222] For method restoreState list of called methods Object monObjet|long getGlobalConsumerOffsetN214794|org.apache.kafka.streams.processor.internals.RecordBatchingStateRestoreCallback StateRestoreCallbackAdapter_adaptN214987|long maybeUpdateDeadlineOrThrowN215562|long getGlobalConsumerOffsetN216256"
+ , "c3" : "QC-JAVCWE476[00218] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00224"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#224"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00224] The argument highWatermarks is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00226"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#226"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00226] The argument recordConverter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00232"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00232] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.topicPartitionsForStore@POLYN212776 the MagicNumber/String  'Failed to get partitions for topic %s. The broker may be transiently unavailable at the moment.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#241"
+ , "c1" : "00229"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00241] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.topicPartitionsForStore@POLYN212776 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00230"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#230"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.topicPartitionsForStore@POLYN212776 the MagicNumber/String  'There are no partitions available for topic %s when initializing global store %s' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#240"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00240] For method restoreState arguments StateRestoreCallback  stateRestoreCallback|List&lt;TopicPartition &gt;  topicPartitions|Map&lt;TopicPartition ,Long &gt;  highWatermarks|String  storeName|RecordConverter  recordConverter"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#240"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00240] For method restoreState list of called methods Object monObjet|long getGlobalConsumerOffsetN214902|org.apache.kafka.streams.processor.internals.RecordBatchingStateRestoreCallback StateRestoreCallbackAdapter_adaptN215095|long maybeUpdateDeadlineOrThrowN215670|long getGlobalConsumerOffsetN216364"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00242"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#242"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00242] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00242] The argument highWatermarks is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#256"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00256] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00244"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#244"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00244] The argument recordConverter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00263"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#263"
+ , "c1" : "00250"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00263] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00250] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#264"
+ , "c1" : "00259"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#259"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00264] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00259] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#256"
+ , "c1" : "00260"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#260"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00256] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00260] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00263"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#263"
+ , "c1" : "00274"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#274"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00263] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#264"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00264] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#233"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.restoreState@POLYN213810 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.restoreState@POLYN213810 the MagicNumber/String  0L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#265"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.restoreState@POLYN213810 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00274] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00281"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#281"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00281] For method getGlobalConsumerOffset arguments TopicPartition  topicPartition"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00285"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.getGlobalConsumerOffset@POLYN216836 the MagicNumber/String  'Failed to get position for partition %s. The broker may be transiently unavailable at the moment.' should be converted to const"
+ , "c3" : "QC-JAV000001[00281] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00291"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#291"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00291] The argument supplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00298"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#298"
+ , "c1" : "00282"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#282"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00298] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00282] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00274"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#274"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00274] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00281"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#281"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00281] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00282"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#282"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00282] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00251"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#251"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.restoreState@POLYN213918 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#264"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.restoreState@POLYN213918 the MagicNumber/String  0L should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00283"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#283"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.restoreState@POLYN213918 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#299"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl the MagicNumber/String  0L should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00299] For method getGlobalConsumerOffset arguments TopicPartition  topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00302"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#302"
+ , "c1" : "00303"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl the MagicNumber/String  'Retrying is disabled. You can enable it by setting `%s` to a value larger than zero.' should be converted to const"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.getGlobalConsumerOffset@POLYN216944 the MagicNumber/String  'Failed to get position for partition %s. The broker may be transiently unavailable at the moment.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00313"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#313"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl the MagicNumber/String  true should be converted to const"
+ , "c1" : "00309"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#309"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00309] The argument supplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00316"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#316"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00316] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00317"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#317"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl the MagicNumber/String  0L should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00320"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#320"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl the MagicNumber/String  'Retrying is disabled. You can enable it by setting `%s` to a value larger than zero.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00331"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#331"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00334"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#334"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00316] For method maybeUpdateDeadlineOrThrow arguments long  currentDeadlineMs"
+ , "c3" : "QC-JAV000006[00334] For method maybeUpdateDeadlineOrThrow arguments long  currentDeadlineMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00321"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#321"
+ , "c1" : "00339"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#339"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.maybeUpdateDeadlineOrThrow@POLYN217930 the MagicNumber/String  0L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00324"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#324"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.maybeUpdateDeadlineOrThrow@POLYN217930 the MagicNumber/String  'Global task did not make progress to restore state within %d ms. Adjust `%s` if needed.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00338"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#338"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00338] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.maybeUpdateDeadlineOrThrow@POLYN218038 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00342"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#342"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00342] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.maybeUpdateDeadlineOrThrow@POLYN218038 the MagicNumber/String  'Global task did not make progress to restore state within %d ms. Adjust `%s` if needed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00335"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#335"
+ , "c1" : "00356"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#356"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218671 the MagicNumber/String  'Flushing all global globalStores registered in the state manager' should be converted to const"
+ , "c3" : "QC-JAV000001[00356] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00340"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#340"
+ , "c1" : "00360"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#360"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218671 the MagicNumber/String  'Flushing global store={}' should be converted to const"
+ , "c3" : "QC-JAV000001[00360] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00344"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#344"
+ , "c1" : "00353"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#353"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218671 the MagicNumber/String  'Failed to flush global state store %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218779 the MagicNumber/String  'Flushing all global globalStores registered in the state manager' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00349"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#349"
+ , "c1" : "00358"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#358"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218671 the MagicNumber/String  'Expected ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00349"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#349"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218671 the MagicNumber/String  ' to have been initialized' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00365"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#365"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00365] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218779 the MagicNumber/String  'Flushing global store={}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00362"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729 the MagicNumber/String  'Closing global storage engine {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00366"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#366"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729 the MagicNumber/String  'Failed to close global state store {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218779 the MagicNumber/String  'Failed to flush global state store %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00367"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729 the MagicNumber/String  'Failed to close global state store:' should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218779 the MagicNumber/String  'Expected ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00369"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#369"
+ , "c1" : "00367"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729 the MagicNumber/String  '. Reason: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218779 the MagicNumber/String  ' to have been initialized' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00371"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#371"
+ , "c1" : "00383"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#383"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729 the MagicNumber/String  '\n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00375"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#375"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729 the MagicNumber/String  'Skipping to close non-initialized store {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00379"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#379"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00383] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00380"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#380"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729 the MagicNumber/String  'Exceptions caught during close of 1 or more global state globalStores\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837 the MagicNumber/String  'Closing global storage engine {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00384"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#384"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00384] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837 the MagicNumber/String  'Failed to close global state store {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00385"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#385"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837 the MagicNumber/String  'Failed to close global state store:' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00387"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#387"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837 the MagicNumber/String  '. Reason: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00389"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#389"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00389] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837 the MagicNumber/String  '\n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00393"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#393"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837 the MagicNumber/String  'Skipping to close non-initialized store {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00397"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#397"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00398"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#398"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837 the MagicNumber/String  'Exceptions caught during close of 1 or more global state globalStores\n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00403"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#403"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00385] For method updateChangelogOffsets arguments Map&lt;TopicPartition ,Long &gt;  offsets"
+ , "c3" : "QC-JAV000006[00403] For method updateChangelogOffsets arguments Map&lt;TopicPartition ,Long &gt;  offsets"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00395"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#395"
+ , "c1" : "00413"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#413"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00395] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00413] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00404"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#404"
+ , "c1" : "00422"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.checkpoint@POLYN221521 the MagicNumber/String  'Failed to write offset checkpoint file to {} for global stores: {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.checkpoint@POLYN221629 the MagicNumber/String  'Failed to write offset checkpoint file to {} for global stores: {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00405"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#405"
+ , "c1" : "00423"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#423"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00405] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.checkpoint@POLYN221521 the MagicNumber/String  ' This may occur if OS cleaned the state.dir in case when it is located in the (default) ${java.io.tmpdir}/kafka-streams directory.' should be converted to const"
+ , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.checkpoint@POLYN221629 the MagicNumber/String  ' This may occur if OS cleaned the state.dir in case when it is located in the (default) ${java.io.tmpdir}/kafka-streams directory.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00406"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#406"
+ , "c1" : "00424"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#424"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.checkpoint@POLYN221521 the MagicNumber/String  ' Changing the location of state.dir may resolve the problem' should be converted to const"
+ , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.checkpoint@POLYN221629 the MagicNumber/String  ' Changing the location of state.dir may resolve the problem' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00420"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#420"
+ , "c1" : "00438"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#438"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00420] For method changelogFor arguments String  storeName"
+ , "c3" : "QC-JAV000006[00438] For method changelogFor arguments String  storeName"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218671"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00362"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#362"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00362] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729 the MagicNumber/String 'Closing global storage engine {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00366"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#366"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00366] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729 the MagicNumber/String 'Failed to close global state store {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00367"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#367"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00367] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729 the MagicNumber/String 'Failed to close global state store:' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00369"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#369"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00369] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729 the MagicNumber/String '. Reason: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00371"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#371"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00371] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729 the MagicNumber/String '\n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00375"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#375"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00375] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729 the MagicNumber/String 'Skipping to close non-initialized store {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00379"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#379"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00379] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218779"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00380"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#380"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00380] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219729 the MagicNumber/String 'Exceptions caught during close of 1 or more global state globalStores\n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00380] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837 the MagicNumber/String 'Closing global storage engine {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00335"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#335"
+ , "c1" : "00384"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#384"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00335] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218671 the MagicNumber/String 'Flushing all global globalStores registered in the state manager' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00384] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837 the MagicNumber/String 'Failed to close global state store {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00340"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#340"
+ , "c1" : "00385"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#385"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00340] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218671 the MagicNumber/String 'Flushing global store={}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00385] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837 the MagicNumber/String 'Failed to close global state store:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00344"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#344"
+ , "c1" : "00387"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#387"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00344] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218671 the MagicNumber/String 'Failed to flush global state store %s' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00387] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837 the MagicNumber/String '. Reason: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00349"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#349"
+ , "c1" : "00389"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#389"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00349] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218671 the MagicNumber/String ' to have been initialized' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00389] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837 the MagicNumber/String '\n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00349"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#349"
+ , "c1" : "00393"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#393"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00349] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218671 the MagicNumber/String 'Expected ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00393] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837 the MagicNumber/String 'Skipping to close non-initialized store {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00397"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#397"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00397] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00398"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#398"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00398] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN219837 the MagicNumber/String 'Exceptions caught during close of 1 or more global state globalStores\n' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00353"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#353"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00353] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218779 the MagicNumber/String 'Flushing all global globalStores registered in the state manager' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00358"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#358"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00358] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218779 the MagicNumber/String 'Flushing global store={}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00362"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#362"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00362] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218779 the MagicNumber/String 'Failed to flush global state store %s' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00367"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#367"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00367] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218779 the MagicNumber/String ' to have been initialized' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00367"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#367"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00367] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218779 the MagicNumber/String 'Expected ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

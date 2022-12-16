@@ -2,11 +2,11 @@
 !pragma layout smetana
 "KeyValueIterator<Windowed<Bytes>,byte[]>" <|-- "org.apache.kafka.streams.state.internals.WrappedSessionStoreIterator"
 class org.apache.kafka.streams.state.internals.WrappedSessionStoreIterator {
-WrappedSessionStoreIterator(KeyValueIterator<Bytes,byte[]>) : WrappedSessionStoreIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#15]]]
-WrappedSessionStoreIterator(KeyValueIterator<Bytes,byte[]>;Function<Bytes,Windowed<Bytes>>) : WrappedSessionStoreIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#19]]]
-+close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#26]]]
-+peekNextKey() : Windowed<Bytes> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#31]]]
-+hasNext() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#36]]]
-+next() : KeyValue<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#41]]]
+WrappedSessionStoreIterator(KeyValueIterator<Bytes,byte[]>) : WrappedSessionStoreIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#30]]]
+WrappedSessionStoreIterator(KeyValueIterator<Bytes,byte[]>;Function<Bytes,Windowed<Bytes>>) : WrappedSessionStoreIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#34]]]
++close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#41]]]
++peekNextKey() : Windowed<Bytes> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#46]]]
++hasNext() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#51]]]
++next() : KeyValue<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#56]]]
 } 
 @enduml

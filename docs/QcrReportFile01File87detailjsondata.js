@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeProducersResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#34"
  , "c1" : "DescribeProducersResult"
  , "c2" : "DescribeProducersResult(Map<TopicPartition,KafkaFuture<PartitionProducerState>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#38"
  , "c1" : "KafkaFuture<PartitionProducerState>"
  , "c2" : "partitionResult(TopicPartition)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#32"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#47"
  , "c1" : "KafkaFuture<Map<TopicPartition,PartitionProducerState>>"
  , "c2" : "all()"
  , "c3" : "2"
@@ -93,59 +93,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method partitionResult arguments TopicPartition  partition"
+ , "c3" : "QC-JAV000006[00038] For method partitionResult arguments TopicPartition  partition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.admin.DescribeProducersResult.partitionResult@POLYN149301 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.admin.DescribeProducersResult.partitionResult@POLYN149391 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.clients.admin.DescribeProducersResult.partitionResult@POLYN149301 the MagicNumber/String  'Topic partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.clients.admin.DescribeProducersResult.partitionResult@POLYN149391 the MagicNumber/String  'Topic partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#27"
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.admin.DescribeProducersResult.partitionResult@POLYN149301 the MagicNumber/String  ' was not included in the request' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.admin.DescribeProducersResult.partitionResult@POLYN149391 the MagicNumber/String  ' was not included in the request' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.DescribeProducersResult.all@POLYN149780 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.admin.DescribeProducersResult.all@POLYN149870 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#61"
+ , "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.admin.DescribeProducersResult.PartitionProducerState.toString@POLYN151087 the MagicNumber/String  'PartitionProducerState(' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.admin.DescribeProducersResult.PartitionProducerState.toString@POLYN151177 the MagicNumber/String  'PartitionProducerState(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#62"
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.clients.admin.DescribeProducersResult.PartitionProducerState.toString@POLYN151087 the MagicNumber/String  'activeProducers=' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.clients.admin.DescribeProducersResult.PartitionProducerState.toString@POLYN151177 the MagicNumber/String  'activeProducers=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#63"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.admin.DescribeProducersResult.PartitionProducerState.toString@POLYN151087 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.admin.DescribeProducersResult.PartitionProducerState.toString@POLYN151177 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#20"
+ , "c5" : "00067"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#67"
  , "c1" : "RandomComponentPayloadGenerator"
  , "c2" : "RandomComponentPayloadGenerator(long;List<RandomComponent>)"
  , "c3" : "5"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#40"
+ , "c5" : "00087"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#87"
  , "c1" : "long"
  , "c2" : "seed()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#45"
+ , "c5" : "00092"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#92"
  , "c1" : "List<RandomComponent>"
  , "c2" : "components()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#50"
+ , "c5" : "00097"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#97"
  , "c1" : "byte[]"
  , "c2" : "generate(long)"
  , "c3" : "3"
@@ -132,115 +132,115 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#23"
+ , "c1" : "00070"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.RandomComponentPayloadGenerator@POLYN154434 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.RandomComponentPayloadGenerator@POLYN154710 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#24"
+ , "c1" : "00071"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.RandomComponentPayloadGenerator@POLYN154434 the MagicNumber/String  'Components must be a specified, non-empty list of RandomComponents.' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.RandomComponentPayloadGenerator@POLYN154710 the MagicNumber/String  'Components must be a specified, non-empty list of RandomComponents.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#26"
+ , "c1" : "00073"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.RandomComponentPayloadGenerator@POLYN154434 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.RandomComponentPayloadGenerator@POLYN154710 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#28"
+ , "c1" : "00075"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.RandomComponentPayloadGenerator@POLYN154434 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.RandomComponentPayloadGenerator@POLYN154710 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#29"
+ , "c1" : "00076"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.RandomComponentPayloadGenerator@POLYN154434 the MagicNumber/String  'Percent value must be greater than zero.' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.RandomComponentPayloadGenerator@POLYN154710 the MagicNumber/String  'Percent value must be greater than zero.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#33"
+ , "c1" : "00080"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.RandomComponentPayloadGenerator@POLYN154434 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.RandomComponentPayloadGenerator@POLYN154710 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#34"
+ , "c1" : "00081"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.RandomComponentPayloadGenerator@POLYN154434 the MagicNumber/String  'Components must be a list of RandomComponents such that the percent fields sum to 100' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.RandomComponentPayloadGenerator@POLYN154710 the MagicNumber/String  'Components must be a list of RandomComponents such that the percent fields sum to 100' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#50"
+ , "c1" : "00097"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method generate arguments long  position"
+ , "c3" : "QC-JAV000006[00097] For method generate arguments long  position"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#52"
+ , "c1" : "00099"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#99"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00052] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00099] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#54"
+ , "c1" : "00101"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.generate@POLYN155775 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.generate@POLYN156051 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#56"
+ , "c1" : "00103"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.generate@POLYN155775 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.generate@POLYN156051 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#57"
+ , "c1" : "00104"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.generate@POLYN155775 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.generate@POLYN156051 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.generate@POLYN155775"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.generate@POLYN156051"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#54"
+ , "c1" : "00101"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.generate@POLYN155775 the MagicNumber/String 100 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.generate@POLYN156051 the MagicNumber/String 100 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#56"
+ , "c1" : "00103"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.generate@POLYN155775 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.generate@POLYN156051 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#57"
+ , "c1" : "00104"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#104"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.generate@POLYN155775 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.generate@POLYN156051 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

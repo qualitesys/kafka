@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.NamedInternal" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00008"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#8"
+ , "c5" : "00023"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#23"
  , "c1" : "NamedInternal"
  , "c2" : "empty()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#12"
+ , "c5" : "00027"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#27"
  , "c1" : "NamedInternal"
  , "c2" : "with(String)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#17"
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#36"
  , "c1" : "NamedInternal"
  , "c2" : "NamedInternal(Named)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#22"
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#45"
  , "c1" : "NamedInternal"
  , "c2" : "NamedInternal(String)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#27"
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#52"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#32"
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#57"
  , "c1" : "NamedInternal"
  , "c2" : "withName(String)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#36"
+ , "c5" : "00061"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#61"
  , "c1" : "String"
  , "c2" : "suffixWithOrElseGet(String;String)"
  , "c3" : "3"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#44"
+ , "c5" : "00069"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#69"
  , "c1" : "String"
  , "c2" : "suffixWithOrElseGet(String;InternalNameProvider;String)"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#60"
+ , "c5" : "00085"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#85"
  , "c1" : "String"
  , "c2" : "orElseGenerateWithPrefix(InternalNameProvider;String)"
  , "c3" : "3"
@@ -177,108 +177,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00009"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#9"
+ , "c1" : "00024"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00009] In method org.apache.kafka.streams.kstream.internals.NamedInternal.empty@POLYN147662 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.kstream.internals.NamedInternal.empty@POLYN147812 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#12"
+ , "c1" : "00027"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00012] For method with arguments String  name"
+ , "c3" : "QC-JAV000006[00027] For method with arguments String  name"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#32"
+ , "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method withName arguments String  name"
+ , "c3" : "QC-JAV000006[00057] For method withName arguments String  name"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#36"
+ , "c1" : "00061"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method suffixWithOrElseGet arguments String  suffix|String  other"
+ , "c3" : "QC-JAV000006[00061] For method suffixWithOrElseGet arguments String  suffix|String  other"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#37"
+ , "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.kstream.internals.NamedInternal.suffixWithOrElseGet@POLYN148647 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.internals.NamedInternal.suffixWithOrElseGet@POLYN148797 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#44"
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method suffixWithOrElseGet arguments String  suffix|InternalNameProvider  provider|String  prefix"
+ , "c3" : "QC-JAV000006[00069] For method suffixWithOrElseGet arguments String  suffix|InternalNameProvider  provider|String  prefix"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#44"
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#69"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00044] The argument provider is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00069] The argument provider is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#47"
+ , "c1" : "00072"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.kstream.internals.NamedInternal.suffixWithOrElseGet@POLYN148931 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.kstream.internals.NamedInternal.suffixWithOrElseGet@POLYN149081 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#60"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method orElseGenerateWithPrefix arguments InternalNameProvider  provider|String  prefix"
+ , "c3" : "QC-JAV000006[00085] For method orElseGenerateWithPrefix arguments InternalNameProvider  provider|String  prefix"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#60"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#85"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00060] The argument provider is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00085] The argument provider is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#63"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.kstream.internals.NamedInternal.orElseGenerateWithPrefix@POLYN149484 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.kstream.internals.NamedInternal.orElseGenerateWithPrefix@POLYN149634 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.NamedInternal.orElseGenerateWithPrefix@POLYN149484"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.NamedInternal.orElseGenerateWithPrefix@POLYN149634"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.NamedInternal.suffixWithOrElseGet@POLYN148931"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.NamedInternal.suffixWithOrElseGet@POLYN149081"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#63"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#88"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.streams.kstream.internals.NamedInternal.orElseGenerateWithPrefix@POLYN149484 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.streams.kstream.internals.NamedInternal.orElseGenerateWithPrefix@POLYN149634 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#47"
+ , "c1" : "00072"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#72"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.streams.kstream.internals.NamedInternal.suffixWithOrElseGet@POLYN148931 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.streams.kstream.internals.NamedInternal.suffixWithOrElseGet@POLYN149081 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

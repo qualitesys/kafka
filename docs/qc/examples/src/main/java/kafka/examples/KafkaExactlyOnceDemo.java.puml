@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "kafka.examples.KafkaExactlyOnceDemo"
 class kafka.examples.KafkaExactlyOnceDemo {
-+main(String[]) : void [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#26]]]
--recreateTopics(int) : void [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#76]]]
--deleteTopic(Admin;List<String>) : void [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#131]]]
++main(String[]) : void [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#84]]]
+-recreateTopics(int) : void [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#134]]]
+-deleteTopic(Admin;List<String>) : void [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#189]]]
 } 
 @enduml

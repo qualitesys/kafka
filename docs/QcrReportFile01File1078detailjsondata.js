@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.SourceConnectorConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#112"
+ , "c5" : "00127"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#127"
  , "c1" : "ConfigDef"
  , "c2" : "configDef()"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00190"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#190"
+ , "c5" : "00205"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#205"
  , "c1" : "ConfigDef"
  , "c2" : "embedDefaultGroup(ConfigDef)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00198"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#198"
+ , "c5" : "00219"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#219"
  , "c1" : "ConfigDef"
  , "c2" : "enrich(ConfigDef;Map<String,String>;AbstractConfig)"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00222"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#222"
+ , "c5" : "00243"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#243"
  , "c1" : "SourceConnectorConfig"
  , "c2" : "SourceConnectorConfig(Plugins;Map<String,String>;boolean)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00247"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#247"
+ , "c5" : "00268"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#268"
  , "c1" : "boolean"
  , "c2" : "usesTopicCreation(Map<String,String>)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00252"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#252"
+ , "c5" : "00273"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#273"
  , "c1" : "Object"
  , "c2" : "get(String)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00256"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#256"
+ , "c5" : "00277"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#277"
  , "c1" : "TransactionBoundary"
  , "c2" : "transactionBoundary()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00260"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#260"
+ , "c5" : "00281"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#281"
  , "c1" : "Long"
  , "c2" : "transactionBoundaryInterval()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00264"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#264"
+ , "c5" : "00285"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#285"
  , "c1" : "String"
  , "c2" : "offsetsTopic()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00269"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#269"
+ , "c5" : "00294"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#294"
  , "c1" : "boolean"
  , "c2" : "usesTopicCreation()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00273"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#273"
+ , "c5" : "00298"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#298"
  , "c1" : "List<String>"
  , "c2" : "topicCreationInclude(String)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00277"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#277"
+ , "c5" : "00302"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#302"
  , "c1" : "List<String>"
  , "c2" : "topicCreationExclude(String)"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00281"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#281"
+ , "c5" : "00306"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#306"
  , "c1" : "Short"
  , "c2" : "topicCreationReplicationFactor(String)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00285"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#285"
+ , "c5" : "00310"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#310"
  , "c1" : "Integer"
  , "c2" : "topicCreationPartitions(String)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00289"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#289"
+ , "c5" : "00314"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#314"
  , "c1" : "Map<String,Object>"
  , "c2" : "topicCreationOtherConfigs(String)"
  , "c3" : "2"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00302"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#302"
+ , "c5" : "00327"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#327"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "1"
@@ -231,325 +231,325 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#102"
+ , "c1" : "00117"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#117"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00102] For method get arguments String  key"
+ , "c3" : "QC-JAV000006[00117] For method get arguments String  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#112"
+ , "c1" : "00127"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00112] For method configDef list of called methods Object monObjet|org.apache.kafka.common.config.ConfigDef.Range ConfigDef_Range_atLeastN195674"
+ , "c3" : "QC-JAV000007[00127] For method configDef list of called methods Object monObjet|org.apache.kafka.common.config.ConfigDef.Range ConfigDef_Range_atLeastN195824"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#185"
+ , "c1" : "00200"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#200"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE481[00185] Assigning instead of comparing on orderInGroup=1 (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-JAVCWE481[00200] Assigning instead of comparing on orderInGroup=1 (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#113"
+ , "c1" : "00128"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.configDef@POLYN195591 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.configDef@POLYN195591 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.configDef@POLYN195591 the MagicNumber/String  'Duplicate alias provided.' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.configDef@POLYN195741 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.configDef@POLYN195591 the MagicNumber/String  'unique topic creation groups' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.configDef@POLYN195741 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#161"
+ , "c1" : "00141"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.configDef@POLYN195591 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.configDef@POLYN195741 the MagicNumber/String  'Duplicate alias provided.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#164"
+ , "c1" : "00144"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.configDef@POLYN195591 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.configDef@POLYN195741 the MagicNumber/String  'unique topic creation groups' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#180"
+ , "c1" : "00176"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.configDef@POLYN195591 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.configDef@POLYN195741 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#185"
+ , "c1" : "00179"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.configDef@POLYN195591 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.configDef@POLYN195741 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#190"
+ , "c1" : "00195"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#195"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.configDef@POLYN195741 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00200"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#200"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.configDef@POLYN195741 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00205"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#205"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00190] For method embedDefaultGroup arguments ConfigDef  baseConfigDef"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#191"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.embedDefaultGroup@POLYN198570 the MagicNumber/String  'default' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#193"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.embedDefaultGroup@POLYN198570 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#198"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00198] For method enrich arguments ConfigDef  baseConfigDef|Map&lt;String ,String &gt;  props|AbstractConfig  defaultGroupConfig"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#198"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00198] For method enrich list of called methods Object monObjet|java.lang.Object ConfigDef_parseTypeN199493|java.lang.Short defaultGroupConfig_getShortN200053|java.lang.Integer defaultGroupConfig_getIntN200169"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#198"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00198] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#198"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00198] The argument defaultGroupConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00205] For method embedDefaultGroup arguments ConfigDef  baseConfigDef"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.enrich@POLYN199204 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.embedDefaultGroup@POLYN198720 the MagicNumber/String  'default' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#211"
+ , "c1" : "00208"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.enrich@POLYN199204 the MagicNumber/String  'Item in ' should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.embedDefaultGroup@POLYN198720 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#211"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.enrich@POLYN199204 the MagicNumber/String  ' property is not of type String' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00214"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#214"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.enrich@POLYN199204 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00215"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#215"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.enrich@POLYN199204 the MagicNumber/String  ': ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00216"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#216"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.enrich@POLYN199204 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00222"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#222"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00222] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00228"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#228"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.SourceConnectorConfig@POLYN201129 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#240"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.SourceConnectorConfig@POLYN201129 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#247"
+ , "c1" : "00219"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#219"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00247] For method usesTopicCreation arguments Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00219] For method enrich arguments ConfigDef  baseConfigDef|Map&lt;String ,String &gt;  props|AbstractConfig  defaultGroupConfig"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#247"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00247] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#252"
+ , "c1" : "00219"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#219"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00252] For method get arguments String  key"
+ , "c3" : "QC-JAV000007[00219] For method enrich list of called methods Object monObjet|java.lang.Object ConfigDef_parseTypeN199643|java.lang.Short defaultGroupConfig_getShortN200203|java.lang.Integer defaultGroupConfig_getIntN200319"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#253"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.get@POLYN203228 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00219"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#219"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00219] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00270"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#270"
+ , "c1" : "00219"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#219"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00219] The argument defaultGroupConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00227"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.usesTopicCreation@POLYN203848 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.enrich@POLYN199354 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00232"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#232"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.enrich@POLYN199354 the MagicNumber/String  'Item in ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00232"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#232"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.enrich@POLYN199354 the MagicNumber/String  ' property is not of type String' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00235"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#235"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.enrich@POLYN199354 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00236"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#236"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.enrich@POLYN199354 the MagicNumber/String  ': ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00237"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#237"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.enrich@POLYN199354 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00243"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#243"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00243] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00249"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#249"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.SourceConnectorConfig@POLYN201279 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00261"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#261"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.SourceConnectorConfig@POLYN201279 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00268"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#268"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00268] For method usesTopicCreation arguments Map&lt;String ,String &gt;  props"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00268"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#268"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00268] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00273"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#273"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00273] For method topicCreationInclude arguments String  group"
+ , "c3" : "QC-JAV000006[00273] For method get arguments String  key"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00274"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#274"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.topicCreationInclude@POLYN203979 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.get@POLYN203378 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00277"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#277"
+ , "c1" : "00295"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#295"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.usesTopicCreation@POLYN203998 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00298"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#298"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00277] For method topicCreationExclude arguments String  group"
+ , "c3" : "QC-JAV000006[00298] For method topicCreationInclude arguments String  group"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00278"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#278"
+ , "c1" : "00299"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.topicCreationExclude@POLYN204207 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00281"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#281"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00281] For method topicCreationReplicationFactor arguments String  group"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00282"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#282"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.topicCreationReplicationFactor@POLYN204414 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00285"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#285"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00285] For method topicCreationPartitions arguments String  group"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00286"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#286"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.topicCreationPartitions@POLYN204621 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00289"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#289"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00289] For method topicCreationOtherConfigs arguments String  group"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00290"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#290"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.topicCreationOtherConfigs@POLYN204865 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00293"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#293"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.topicCreationOtherConfigs@POLYN204865 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.topicCreationInclude@POLYN204129 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00302"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#302"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00302] For method main arguments String[]  args"
+ , "c3" : "QC-JAV000006[00302] For method topicCreationExclude arguments String  group"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00303"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.main@POLYN205781 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.topicCreationExclude@POLYN204357 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00303"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#303"
+ , "c1" : "00306"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#306"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00306] For method topicCreationReplicationFactor arguments String  group"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00307"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.main@POLYN205781 the MagicNumber/String  'sourceconnectorconfigs_' should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.topicCreationReplicationFactor@POLYN204564 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00310"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#310"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00310] For method topicCreationPartitions arguments String  group"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00311"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#311"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.topicCreationPartitions@POLYN204771 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00314"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#314"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00314] For method topicCreationOtherConfigs arguments String  group"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00315"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#315"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.topicCreationOtherConfigs@POLYN205015 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00318"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#318"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.topicCreationOtherConfigs@POLYN205015 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00327"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#327"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00327] For method main arguments String[]  args"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00328"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#328"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.main@POLYN205931 the MagicNumber/String  4 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00328"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#328"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.connect.runtime.SourceConnectorConfig.main@POLYN205931 the MagicNumber/String  'sourceconnectorconfigs_' should be converted to const"
 }} 
 ]
 , 

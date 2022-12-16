@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.internals.ClusterResourceListeners" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#14"
+ , "c5" : "00029"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#29"
  , "c1" : "ClusterResourceListeners"
  , "c2" : "ClusterResourceListeners()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#19"
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#37"
  , "c1" : "void"
  , "c2" : "maybeAdd(Object)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#26"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#47"
  , "c1" : "void"
  , "c2" : "maybeAddAll(List<?>)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#33"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#57"
  , "c1" : "void"
  , "c2" : "onUpdate(ClusterResource)"
  , "c3" : "2"
@@ -102,31 +102,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#19"
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method maybeAdd arguments Object  candidate"
+ , "c3" : "QC-JAV000006[00037] For method maybeAdd arguments Object  candidate"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#26"
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method maybeAddAll arguments List&lt;? &gt;  candidateList"
+ , "c3" : "QC-JAV000006[00047] For method maybeAddAll arguments List&lt;? &gt;  candidateList"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#33"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method onUpdate arguments ClusterResource  cluster"
+ , "c3" : "QC-JAV000006[00057] For method onUpdate arguments ClusterResource  cluster"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#26"
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#47"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00026] Public method maybeAddAll is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00047] Public method maybeAddAll is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.StandbyTask" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#31"
+ , "c5" : "00056"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#56"
  , "c1" : "StandbyTask"
  , "c2" : "StandbyTask(TaskId;Set<TopicPartition>;ProcessorTopology;TaskConfig;StreamsMetricsImpl;ProcessorStateManager;StateDirectory;ThreadCache;InternalProcessorContext)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#59"
+ , "c5" : "00084"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#84"
  , "c1" : "boolean"
  , "c2" : "isActive()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#65"
+ , "c5" : "00092"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#92"
  , "c1" : "void"
  , "c2" : "initializeIfNeeded()"
  , "c3" : "4"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#88"
+ , "c5" : "00115"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#115"
  , "c1" : "void"
  , "c2" : "completeRestoration(java.util.function.Consumer<Set<TopicPartition>>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#93"
+ , "c5" : "00120"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#120"
  , "c1" : "void"
  , "c2" : "suspend()"
  , "c3" : "6"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00122"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#122"
+ , "c5" : "00149"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#149"
  , "c1" : "void"
  , "c2" : "resume()"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00131"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#131"
+ , "c5" : "00164"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#164"
  , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
  , "c2" : "prepareCommit()"
  , "c3" : "4"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00153"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#153"
+ , "c5" : "00186"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#186"
  , "c1" : "void"
  , "c2" : "postCommit(boolean)"
  , "c3" : "4"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00176"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#176"
+ , "c5" : "00209"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#209"
  , "c1" : "void"
  , "c2" : "closeClean()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00183"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#183"
+ , "c5" : "00216"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#216"
  , "c1" : "void"
  , "c2" : "closeDirty()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00190"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#190"
+ , "c5" : "00223"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#223"
  , "c1" : "void"
  , "c2" : "closeCleanAndRecycleState()"
  , "c3" : "3"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00204"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#204"
+ , "c5" : "00237"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#237"
  , "c1" : "void"
  , "c2" : "close(boolean)"
  , "c3" : "6"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00242"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#242"
+ , "c5" : "00275"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#275"
  , "c1" : "boolean"
  , "c2" : "commitNeeded()"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00249"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#249"
+ , "c5" : "00282"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#282"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "changelogOffsets()"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00254"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#254"
+ , "c5" : "00287"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#287"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "committedOffsets()"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00259"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#259"
+ , "c5" : "00292"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#292"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "highWaterMark()"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00264"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#264"
+ , "c5" : "00297"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#297"
  , "c1" : "Optional<Long>"
  , "c2" : "timeCurrentIdlingStarted()"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00269"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#269"
+ , "c5" : "00302"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#302"
  , "c1" : "void"
  , "c2" : "addRecords(TopicPartition;Iterable<ConsumerRecord<byte[],byte[]>>)"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00273"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#273"
+ , "c5" : "00306"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#306"
  , "c1" : "InternalProcessorContext"
  , "c2" : "processorContext()"
  , "c3" : "1"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00279"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#279"
+ , "c5" : "00317"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#317"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00284"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#284"
+ , "c5" : "00327"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#327"
  , "c1" : "String"
  , "c2" : "toString(String)"
  , "c3" : "2"
@@ -285,612 +285,612 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#34"
+ , "c1" : "00059"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#59"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00034] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00059] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#39"
+ , "c1" : "00064"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#64"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00039] The argument processorContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00064] The argument processorContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#47"
+ , "c1" : "00072"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.processor.internals.StandbyTask.StandbyTask@POLYN182003 the MagicNumber/String  'standby-task' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.processor.internals.StandbyTask.StandbyTask@POLYN182261 the MagicNumber/String  'standby-task' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#60"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.processor.internals.StandbyTask.isActive@POLYN182997 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.processor.internals.StandbyTask.initializeIfNeeded@POLYN183141 the MagicNumber/String  'Initialized' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.processor.internals.StandbyTask.initializeIfNeeded@POLYN183141 the MagicNumber/String  'Illegal state ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.processor.internals.StandbyTask.initializeIfNeeded@POLYN183141 the MagicNumber/String  ' while initializing standby task ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#88"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method completeRestoration arguments java.util.function .Consumer&lt;Set&lt;TopicPartition &gt; &gt;  offsetResetter"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.processor.internals.StandbyTask.completeRestoration@POLYN184056 the MagicNumber/String  'Standby task ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.processor.internals.StandbyTask.completeRestoration@POLYN184056 the MagicNumber/String  ' should never be completing restoration' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184321 the MagicNumber/String  'Suspended created' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184321 the MagicNumber/String  'Suspended running' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.internals.StandbyTask.isActive@POLYN183255 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184321 the MagicNumber/String  'Skip suspending since state is {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.processor.internals.StandbyTask.initializeIfNeeded@POLYN183399 the MagicNumber/String  'Initialized' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#114"
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184321 the MagicNumber/String  'Illegal state ' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.processor.internals.StandbyTask.initializeIfNeeded@POLYN183399 the MagicNumber/String  'Illegal state ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#114"
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184321 the MagicNumber/String  ' while suspending standby task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.processor.internals.StandbyTask.initializeIfNeeded@POLYN183399 the MagicNumber/String  ' while initializing standby task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#117"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184321 the MagicNumber/String  'Unknown state ' should be converted to const"
+ , "c1" : "00115"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#115"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00115] For method completeRestoration arguments java.util.function .Consumer&lt;Set&lt;TopicPartition &gt; &gt;  offsetResetter"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#117"
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184321 the MagicNumber/String  ' while suspending standby task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.processor.internals.StandbyTask.completeRestoration@POLYN184314 the MagicNumber/String  'Standby task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#124"
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.processor.internals.StandbyTask.resume@POLYN185366 the MagicNumber/String  'Illegal state ' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.processor.internals.StandbyTask.completeRestoration@POLYN184314 the MagicNumber/String  ' should never be completing restoration' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#124"
+ , "c1" : "00123"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.processor.internals.StandbyTask.resume@POLYN185366 the MagicNumber/String  ' while resuming standby task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184579 the MagicNumber/String  'Suspended created' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#126"
+ , "c1" : "00129"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.processor.internals.StandbyTask.resume@POLYN185366 the MagicNumber/String  'No-op resume with state {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184579 the MagicNumber/String  'Suspended running' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#134"
+ , "c1" : "00135"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186062 the MagicNumber/String  'Skipped preparing created task for commit' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184579 the MagicNumber/String  'Skip suspending since state is {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186062 the MagicNumber/String  'Prepared {} task for committing' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184579 the MagicNumber/String  'Illegal state ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#146"
+ , "c1" : "00141"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186062 the MagicNumber/String  'Illegal state ' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184579 the MagicNumber/String  ' while suspending standby task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#146"
+ , "c1" : "00144"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186062 the MagicNumber/String  ' while preparing standby task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184579 the MagicNumber/String  'Unknown state ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#146"
+ , "c1" : "00144"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186062 the MagicNumber/String  ' for committing ' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184579 the MagicNumber/String  ' while suspending standby task ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00151"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#151"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.processor.internals.StandbyTask.resume@POLYN185624 the MagicNumber/String  'Illegal state ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00151"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#151"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.processor.internals.StandbyTask.resume@POLYN185624 the MagicNumber/String  ' while resuming standby task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#153"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00153] For method postCommit arguments boolean  enforceCheckpoint"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.processor.internals.StandbyTask.resume@POLYN185624 the MagicNumber/String  'No-op resume with state {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#158"
+ , "c1" : "00167"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186736 the MagicNumber/String  'Skipped writing checkpoint for created task' should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186320 the MagicNumber/String  'Skipped preparing created task for commit' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#166"
+ , "c1" : "00174"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186736 the MagicNumber/String  'Finalized commit for {} task' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#171"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186736 the MagicNumber/String  'Illegal state ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#171"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186736 the MagicNumber/String  ' while post committing standby task ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#178"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.processor.internals.StandbyTask.closeClean@POLYN187417 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186320 the MagicNumber/String  'Prepared {} task for committing' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00179"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.processor.internals.StandbyTask.closeClean@POLYN187417 the MagicNumber/String  'Closed clean' should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186320 the MagicNumber/String  'Illegal state ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#185"
+ , "c1" : "00179"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.processor.internals.StandbyTask.closeDirty@POLYN187763 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186320 the MagicNumber/String  ' while preparing standby task ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#179"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186320 the MagicNumber/String  ' for committing ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#186"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.processor.internals.StandbyTask.closeDirty@POLYN187763 the MagicNumber/String  'Closed dirty' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00186] For method postCommit arguments boolean  enforceCheckpoint"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#195"
+ , "c1" : "00191"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.streams.processor.internals.StandbyTask.closeCleanAndRecycleState@POLYN188109 the MagicNumber/String  'Illegal state ' should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186994 the MagicNumber/String  'Skipped writing checkpoint for created task' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#195"
+ , "c1" : "00199"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.streams.processor.internals.StandbyTask.closeCleanAndRecycleState@POLYN188109 the MagicNumber/String  ' while closing standby task ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#201"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.processor.internals.StandbyTask.closeCleanAndRecycleState@POLYN188109 the MagicNumber/String  'Closed clean and recycled state' should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186994 the MagicNumber/String  'Finalized commit for {} task' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#204"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00204] For method close arguments boolean  clean"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186994 the MagicNumber/String  'Illegal state ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00204"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#204"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186994 the MagicNumber/String  ' while post committing standby task ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#211"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.processor.internals.StandbyTask.closeClean@POLYN187675 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00212"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#212"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.processor.internals.StandbyTask.closeClean@POLYN187675 the MagicNumber/String  'Closed clean' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.processor.internals.StandbyTask.close@POLYN188817 the MagicNumber/String  'state manager close' should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.processor.internals.StandbyTask.closeDirty@POLYN188021 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00225"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#225"
+ , "c1" : "00219"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.streams.processor.internals.StandbyTask.close@POLYN188817 the MagicNumber/String  'Skip closing since state is {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.streams.processor.internals.StandbyTask.closeDirty@POLYN188021 the MagicNumber/String  'Closed dirty' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00231"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#231"
+ , "c1" : "00228"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.streams.processor.internals.StandbyTask.close@POLYN188817 the MagicNumber/String  'Illegal state ' should be converted to const"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.streams.processor.internals.StandbyTask.closeCleanAndRecycleState@POLYN188367 the MagicNumber/String  'Illegal state ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00231"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#231"
+ , "c1" : "00228"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.streams.processor.internals.StandbyTask.close@POLYN188817 the MagicNumber/String  ' while closing standby task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.streams.processor.internals.StandbyTask.closeCleanAndRecycleState@POLYN188367 the MagicNumber/String  ' while closing standby task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00234"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.streams.processor.internals.StandbyTask.close@POLYN188817 the MagicNumber/String  'Unknown state ' should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.streams.processor.internals.StandbyTask.closeCleanAndRecycleState@POLYN188367 the MagicNumber/String  'Closed clean and recycled state' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00237"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#237"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00237] For method close arguments boolean  clean"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00251"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#251"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.streams.processor.internals.StandbyTask.close@POLYN189075 the MagicNumber/String  'state manager close' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00258"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#258"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.streams.processor.internals.StandbyTask.close@POLYN189075 the MagicNumber/String  'Skip closing since state is {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#264"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.streams.processor.internals.StandbyTask.close@POLYN189075 the MagicNumber/String  'Illegal state ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#264"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.streams.processor.internals.StandbyTask.close@POLYN189075 the MagicNumber/String  ' while closing standby task ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00267"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#267"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.streams.processor.internals.StandbyTask.close@POLYN189075 the MagicNumber/String  'Unknown state ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00267"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#267"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.streams.processor.internals.StandbyTask.close@POLYN189075 the MagicNumber/String  ' while closing standby task ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00278"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#278"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.streams.processor.internals.StandbyTask.commitNeeded@POLYN190321 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00302"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#302"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00302] For method addRecords arguments TopicPartition  partition|Iterable&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00303"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#303"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.streams.processor.internals.StandbyTask.addRecords@POLYN191169 the MagicNumber/String  'Attempted to add records to task ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00303"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#303"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.streams.processor.internals.StandbyTask.addRecords@POLYN191169 the MagicNumber/String  ' for invalid input partition ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00318"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#318"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.streams.processor.internals.StandbyTask.toString@POLYN191711 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00327"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#327"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00327] For method toString arguments String  indent"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00330"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#330"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.streams.processor.internals.StandbyTask.toString@POLYN191967 the MagicNumber/String  'TaskId: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00332"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#332"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.streams.processor.internals.StandbyTask.toString@POLYN191967 the MagicNumber/String  '\n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00335"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#335"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.streams.processor.internals.StandbyTask.toString@POLYN191967 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00336"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#336"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.streams.processor.internals.StandbyTask.toString@POLYN191967 the MagicNumber/String  '\t' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StandbyTask.closeClean@POLYN187675"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StandbyTask.closeDirty@POLYN188021"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StandbyTask.closeCleanAndRecycleState@POLYN188367"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StandbyTask.initializeIfNeeded@POLYN183399"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186994"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186320"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184579"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00211] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.closeClean@POLYN187675 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00212"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#212"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00212] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.closeClean@POLYN187675 the MagicNumber/String 'Closed clean' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#218"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00218] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.closeDirty@POLYN188021 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#219"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00219] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.closeDirty@POLYN188021 the MagicNumber/String 'Closed dirty' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00228"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#228"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00228] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.closeCleanAndRecycleState@POLYN188367 the MagicNumber/String ' while closing standby task ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00228"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#228"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00228] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.closeCleanAndRecycleState@POLYN188367 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00234"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#234"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.streams.processor.internals.StandbyTask.close@POLYN188817 the MagicNumber/String  ' while closing standby task ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#245"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.streams.processor.internals.StandbyTask.commitNeeded@POLYN190063 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00269"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#269"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00269] For method addRecords arguments TopicPartition  partition|Iterable&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00270"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#270"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.processor.internals.StandbyTask.addRecords@POLYN190911 the MagicNumber/String  'Attempted to add records to task ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00270"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#270"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.processor.internals.StandbyTask.addRecords@POLYN190911 the MagicNumber/String  ' for invalid input partition ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00280"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#280"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.streams.processor.internals.StandbyTask.toString@POLYN191453 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00284"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#284"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00284] For method toString arguments String  indent"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00287"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#287"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.streams.processor.internals.StandbyTask.toString@POLYN191709 the MagicNumber/String  'TaskId: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00289"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#289"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.streams.processor.internals.StandbyTask.toString@POLYN191709 the MagicNumber/String  '\n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00292"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#292"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.streams.processor.internals.StandbyTask.toString@POLYN191709 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00293"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#293"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.streams.processor.internals.StandbyTask.toString@POLYN191709 the MagicNumber/String  '\t' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StandbyTask.closeClean@POLYN187417"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StandbyTask.closeDirty@POLYN187763"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StandbyTask.closeCleanAndRecycleState@POLYN188109"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StandbyTask.initializeIfNeeded@POLYN183141"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186736"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186062"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184321"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#178"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00178] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.closeClean@POLYN187417 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#179"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00179] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.closeClean@POLYN187417 the MagicNumber/String 'Closed clean' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#185"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00185] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.closeDirty@POLYN187763 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#186"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.closeDirty@POLYN187763 the MagicNumber/String 'Closed dirty' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#195"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00195] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.closeCleanAndRecycleState@POLYN188109 the MagicNumber/String ' while closing standby task ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#195"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00195] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.closeCleanAndRecycleState@POLYN188109 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#201"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00201] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.closeCleanAndRecycleState@POLYN188109 the MagicNumber/String 'Closed clean and recycled state' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#81"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.initializeIfNeeded@POLYN183141 the MagicNumber/String 'Initialized' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#83"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.initializeIfNeeded@POLYN183141 the MagicNumber/String ' while initializing standby task ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#83"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.initializeIfNeeded@POLYN183141 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#158"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00158] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186736 the MagicNumber/String 'Skipped writing checkpoint for created task' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#166"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00166] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186736 the MagicNumber/String 'Finalized commit for {} task' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#171"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186736 the MagicNumber/String ' while post committing standby task ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#171"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186736 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#134"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00134] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186062 the MagicNumber/String 'Skipped preparing created task for commit' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#141"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00141] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186062 the MagicNumber/String 'Prepared {} task for committing' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#146"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186062 the MagicNumber/String ' for committing ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#146"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186062 the MagicNumber/String ' while preparing standby task ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#146"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186062 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#96"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184321 the MagicNumber/String 'Suspended created' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#102"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184321 the MagicNumber/String 'Suspended running' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00234] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.closeCleanAndRecycleState@POLYN188367 the MagicNumber/String 'Closed clean and recycled state' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#108"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184321 the MagicNumber/String 'Skip suspending since state is {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.initializeIfNeeded@POLYN183399 the MagicNumber/String 'Initialized' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#114"
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184321 the MagicNumber/String ' while suspending standby task ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.initializeIfNeeded@POLYN183399 the MagicNumber/String ' while initializing standby task ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#114"
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184321 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.initializeIfNeeded@POLYN183399 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#117"
+ , "c1" : "00191"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#191"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184321 the MagicNumber/String ' while suspending standby task ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186994 the MagicNumber/String 'Skipped writing checkpoint for created task' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#117"
+ , "c1" : "00199"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#199"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184321 the MagicNumber/String 'Unknown state ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00199] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186994 the MagicNumber/String 'Finalized commit for {} task' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00204"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#204"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186994 the MagicNumber/String ' while post committing standby task ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00204"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#204"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.postCommit@POLYN186994 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#167"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00167] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186320 the MagicNumber/String 'Skipped preparing created task for commit' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00174"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#174"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00174] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186320 the MagicNumber/String 'Prepared {} task for committing' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#179"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00179] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186320 the MagicNumber/String ' for committing ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#179"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00179] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186320 the MagicNumber/String ' while preparing standby task ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#179"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00179] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.prepareCommit@POLYN186320 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184579 the MagicNumber/String 'Suspended created' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00129"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#129"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00129] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184579 the MagicNumber/String 'Suspended running' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00135] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184579 the MagicNumber/String 'Skip suspending since state is {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00141"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#141"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00141] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184579 the MagicNumber/String ' while suspending standby task ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00141"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#141"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00141] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184579 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00144"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#144"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184579 the MagicNumber/String ' while suspending standby task ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00144"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#144"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184579 the MagicNumber/String 'Unknown state ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

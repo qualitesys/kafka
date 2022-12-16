@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DeleteTopicsOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#17"
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#40"
  , "c1" : "DeleteTopicsOptions"
  , "c2" : "timeoutMs(Integer)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#23"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#48"
  , "c1" : "DeleteTopicsOptions"
  , "c2" : "retryOnQuotaViolation(boolean)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#29"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#56"
  , "c1" : "boolean"
  , "c2" : "shouldRetryOnQuotaViolation()"
  , "c3" : "1"
@@ -86,17 +86,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#17"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method timeoutMs arguments Integer  timeoutMs"
+ , "c3" : "QC-JAV000006[00040] For method timeoutMs arguments Integer  timeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#23"
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method retryOnQuotaViolation arguments boolean  retryOnQuotaViolation"
+ , "c3" : "QC-JAV000006[00048] For method retryOnQuotaViolation arguments boolean  retryOnQuotaViolation"
 }} 
 ]
 , 

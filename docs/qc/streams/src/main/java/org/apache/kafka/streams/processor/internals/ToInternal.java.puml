@@ -2,11 +2,11 @@
 !pragma layout smetana
 "To" <|-- "org.apache.kafka.streams.processor.internals.ToInternal"
 class org.apache.kafka.streams.processor.internals.ToInternal {
-+ToInternal() : ToInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#7]]]
-+ToInternal(To) : ToInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#11]]]
-+update(To) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#15]]]
-+hasTimestamp() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#19]]]
-+timestamp() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#23]]]
-+child() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#27]]]
++ToInternal() : ToInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#22]]]
++ToInternal(To) : ToInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#26]]]
++update(To) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#30]]]
++hasTimestamp() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#34]]]
++timestamp() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#38]]]
++child() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#42]]]
 } 
 @enduml

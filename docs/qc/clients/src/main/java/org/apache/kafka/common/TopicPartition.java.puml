@@ -2,11 +2,11 @@
 !pragma layout smetana
 "Serializable" <|-- "org.apache.kafka.common.TopicPartition"
 class org.apache.kafka.common.TopicPartition {
-+TopicPartition(String;int) : TopicPartition [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartition.java.html#15]]]
-+partition() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartition.java.html#20]]]
-+topic() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartition.java.html#24]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartition.java.html#29]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartition.java.html#40]]]
-+toString() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartition.java.html#52]]]
++TopicPartition(String;int) : TopicPartition [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartition.java.html#32]]]
++partition() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartition.java.html#37]]]
++topic() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartition.java.html#41]]]
++hashCode() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartition.java.html#46]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartition.java.html#57]]]
++toString() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartition.java.html#69]]]
 } 
 @enduml

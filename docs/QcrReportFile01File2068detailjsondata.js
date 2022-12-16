@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.LRUCacheEntry" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#17"
+ , "c5" : "00034"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#34"
  , "c1" : "LRUCacheEntry"
  , "c2" : "LRUCacheEntry(byte[])"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#21"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#38"
  , "c1" : "LRUCacheEntry"
  , "c2" : "LRUCacheEntry(byte[];Headers;boolean;long;long;int;String)"
  , "c3" : "1"
@@ -36,46 +36,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#40"
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#57"
  , "c1" : "void"
  , "c2" : "markClean()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#44"
- , "c1" : "boolean"
- , "c2" : "isDirty()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#48"
- , "c1" : "long"
- , "c2" : "size()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#52"
- , "c1" : "byte[]"
- , "c2" : "value()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#56"
- , "c1" : "ProcessorRecordContext"
- , "c2" : "context()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -84,14 +48,50 @@ var maDataBlocs = {
  , "c5" : "00061"
  , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#61"
  , "c1" : "boolean"
+ , "c2" : "isDirty()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#65"
+ , "c1" : "long"
+ , "c2" : "size()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#69"
+ , "c1" : "byte[]"
+ , "c2" : "value()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00073"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#73"
+ , "c1" : "ProcessorRecordContext"
+ , "c2" : "context()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00078"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#78"
+ , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#75"
+ , "c5" : "00092"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#92"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -170,108 +170,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#18"
+ , "c1" : "00035"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.LRUCacheEntry@POLYN148972 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.LRUCacheEntry@POLYN149074 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#18"
+ , "c1" : "00035"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.LRUCacheEntry@POLYN148972 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.LRUCacheEntry@POLYN149074 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#18"
+ , "c1" : "00035"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.LRUCacheEntry@POLYN148972 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.LRUCacheEntry@POLYN149074 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#18"
+ , "c1" : "00035"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.LRUCacheEntry@POLYN148972 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.LRUCacheEntry@POLYN149074 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#18"
+ , "c1" : "00035"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.LRUCacheEntry@POLYN148972 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.LRUCacheEntry@POLYN149074 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#36"
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.LRUCacheEntry@POLYN149281 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.LRUCacheEntry@POLYN149383 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#41"
+ , "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.markClean@POLYN149998 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.markClean@POLYN150100 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#61"
+ , "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00078] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#65"
+ , "c1" : "00082"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00065] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00082] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#70"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00070] The same method call that.isDirty()Objects.equals(record,that.record) is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00087] The same method call that.isDirty()Objects.equals(record,that.record) is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#63"
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.equals@POLYN150492 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.equals@POLYN150594 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#65"
+ , "c1" : "00082"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.equals@POLYN150492 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.equals@POLYN150594 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#66"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.equals@POLYN150492 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.state.internals.LRUCacheEntry.equals@POLYN150594 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.LRUCacheEntry.context@POLYN150372"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.LRUCacheEntry.context@POLYN150474"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.LRUCacheEntry.value@POLYN150266"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.LRUCacheEntry.value@POLYN150368"
 }} 
 ]
 , 

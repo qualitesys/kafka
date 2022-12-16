@@ -2,14 +2,14 @@
 !pragma layout smetana
 "AbstractResponse" <|-- "org.apache.kafka.common.requests.ListOffsetsResponse"
 class org.apache.kafka.common.requests.ListOffsetsResponse {
-+ListOffsetsResponse(ListOffsetsResponseData) : ListOffsetsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#27]]]
-+throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#33]]]
-+data() : ListOffsetsResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#38]]]
-+topics() : List<ListOffsetsTopicResponse> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#42]]]
-+errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#47]]]
-+parse(ByteBuffer;short) : ListOffsetsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#57]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#62]]]
-+shouldClientThrottle(short) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#67]]]
-+singletonListOffsetsTopicResponse(TopicPartition;Errors;long;long;int) : ListOffsetsTopicResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#71]]]
++ListOffsetsResponse(ListOffsetsResponseData) : ListOffsetsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#57]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#63]]]
++data() : ListOffsetsResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#68]]]
++topics() : List<ListOffsetsTopicResponse> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#72]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#77]]]
++parse(ByteBuffer;short) : ListOffsetsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#87]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#92]]]
++shouldClientThrottle(short) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#97]]]
++singletonListOffsetsTopicResponse(TopicPartition;Errors;long;long;int) : ListOffsetsTopicResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsResponse.java.html#101]]]
 } 
 @enduml

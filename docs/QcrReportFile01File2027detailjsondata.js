@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.AbstractStoreBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#22"
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#37"
  , "c1" : "AbstractStoreBuilder"
  , "c2" : "AbstractStoreBuilder(String;Serde<K>;Serde<V>;Time)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#35"
+ , "c5" : "00050"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#50"
  , "c1" : "StoreBuilder<T>"
  , "c2" : "withCachingEnabled()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#56"
  , "c1" : "StoreBuilder<T>"
  , "c2" : "withCachingDisabled()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#47"
+ , "c5" : "00062"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#62"
  , "c1" : "StoreBuilder<T>"
  , "c2" : "withLoggingEnabled(Map<String,String>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#55"
+ , "c5" : "00070"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#70"
  , "c1" : "StoreBuilder<T>"
  , "c2" : "withLoggingDisabled()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#62"
+ , "c5" : "00077"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#77"
  , "c1" : "Map<String,String>"
  , "c2" : "logConfig()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#67"
+ , "c5" : "00082"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#82"
  , "c1" : "boolean"
  , "c2" : "loggingEnabled()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#72"
+ , "c5" : "00087"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#87"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -138,59 +138,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.AbstractStoreBuilder.AbstractStoreBuilder@POLYN149522 the MagicNumber/String  'name cannot be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#27"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.state.internals.AbstractStoreBuilder.AbstractStoreBuilder@POLYN149522 the MagicNumber/String  'time cannot be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.state.internals.AbstractStoreBuilder.withCachingEnabled@POLYN150203 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.state.internals.AbstractStoreBuilder.AbstractStoreBuilder@POLYN149612 the MagicNumber/String  'name cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.AbstractStoreBuilder.withCachingDisabled@POLYN150378 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.AbstractStoreBuilder.AbstractStoreBuilder@POLYN149612 the MagicNumber/String  'time cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#47"
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#51"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.state.internals.AbstractStoreBuilder.withCachingEnabled@POLYN150293 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#57"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.state.internals.AbstractStoreBuilder.withCachingDisabled@POLYN150468 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method withLoggingEnabled arguments Map&lt;String ,String &gt;  config"
+ , "c3" : "QC-JAV000006[00062] For method withLoggingEnabled arguments Map&lt;String ,String &gt;  config"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#48"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.state.internals.AbstractStoreBuilder.withLoggingEnabled@POLYN150553 the MagicNumber/String  'config can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.AbstractStoreBuilder.withLoggingEnabled@POLYN150643 the MagicNumber/String  'config can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#49"
+ , "c1" : "00064"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.AbstractStoreBuilder.withLoggingEnabled@POLYN150553 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.AbstractStoreBuilder.withLoggingEnabled@POLYN150643 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#56"
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.state.internals.AbstractStoreBuilder.withLoggingDisabled@POLYN150956 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.AbstractStoreBuilder.withLoggingDisabled@POLYN151046 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

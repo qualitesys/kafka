@@ -2,13 +2,13 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.acl.AclBinding"
 class org.apache.kafka.common.acl.AclBinding {
-+AclBinding(ResourcePattern;AccessControlEntry) : AclBinding [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#17]]]
-+isUnknown() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#23]]]
-+pattern() : ResourcePattern [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#28]]]
-+entry() : AccessControlEntry [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#33]]]
-+toFilter() : AclBindingFilter [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#38]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#43]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#48]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#57]]]
++AclBinding(ResourcePattern;AccessControlEntry) : AclBinding [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#41]]]
++isUnknown() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#49]]]
++pattern() : ResourcePattern [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#56]]]
++entry() : AccessControlEntry [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#63]]]
++toFilter() : AclBindingFilter [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#70]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#75]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#80]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#89]]]
 } 
 @enduml

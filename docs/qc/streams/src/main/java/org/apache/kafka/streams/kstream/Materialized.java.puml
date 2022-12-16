@@ -2,17 +2,17 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.kstream.Materialized"
 class org.apache.kafka.streams.kstream.Materialized {
--Materialized(StoreSupplier<S>) : Materialized [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#41]]]
--Materialized(String) : Materialized [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#45]]]
--Materialized(StoreType) : Materialized [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#49]]]
-Materialized(Materialized<K,V,S>) : Materialized [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#54]]]
-+withValueSerde(Serde<V>) : Materialized<K,V,S> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#103]]]
-+withKeySerde(Serde<K>) : Materialized<K,V,S> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#109]]]
-+withLoggingEnabled(Map<String,String>) : Materialized<K,V,S> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#115]]]
-+withLoggingDisabled() : Materialized<K,V,S> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#122]]]
-+withCachingEnabled() : Materialized<K,V,S> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#129]]]
-+withCachingDisabled() : Materialized<K,V,S> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#135]]]
-+withRetention(Duration) : Materialized<K,V,S> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#141]]]
-+withStoreType(StoreType) : Materialized<K,V,S> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#153]]]
+-Materialized(StoreSupplier<S>) : Materialized [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#75]]]
+-Materialized(String) : Materialized [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#79]]]
+-Materialized(StoreType) : Materialized [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#83]]]
+Materialized(Materialized<K,V,S>) : Materialized [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#91]]]
++withValueSerde(Serde<V>) : Materialized<K,V,S> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#206]]]
++withKeySerde(Serde<K>) : Materialized<K,V,S> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#217]]]
++withLoggingEnabled(Map<String,String>) : Materialized<K,V,S> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#230]]]
++withLoggingDisabled() : Materialized<K,V,S> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#240]]]
++withCachingEnabled() : Materialized<K,V,S> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#250]]]
++withCachingDisabled() : Materialized<K,V,S> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#259]]]
++withRetention(Duration) : Materialized<K,V,S> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#278]]]
++withStoreType(StoreType) : Materialized<K,V,S> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#296]]]
 } 
 @enduml

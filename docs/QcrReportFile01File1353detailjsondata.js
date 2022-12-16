@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.BrokerRegistrationReply" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#11"
+ , "c5" : "00026"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#26"
  , "c1" : "BrokerRegistrationReply"
  , "c2" : "BrokerRegistrationReply(long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#15"
+ , "c5" : "00030"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#30"
  , "c1" : "long"
  , "c2" : "epoch()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#20"
+ , "c5" : "00035"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#35"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#25"
+ , "c5" : "00040"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#40"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#32"
+ , "c5" : "00047"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#47"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -111,31 +111,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00040] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.metadata.BrokerRegistrationReply.equals@POLYN142949 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.metadata.BrokerRegistrationReply.equals@POLYN143039 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.metadata.BrokerRegistrationReply.toString@POLYN143291 the MagicNumber/String  'BrokerRegistrationReply(epoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.metadata.BrokerRegistrationReply.toString@POLYN143381 the MagicNumber/String  'BrokerRegistrationReply(epoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.metadata.BrokerRegistrationReply.toString@POLYN143291 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.metadata.BrokerRegistrationReply.toString@POLYN143381 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

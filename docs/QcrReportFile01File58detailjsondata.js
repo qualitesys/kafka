@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DeleteAclsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#58"
+ , "c5" : "00087"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#87"
  , "c1" : "DeleteAclsResult"
  , "c2" : "DeleteAclsResult(Map<AclBindingFilter,KafkaFuture<FilterResults>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#63"
+ , "c5" : "00095"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#95"
  , "c1" : "Map<AclBindingFilter,KafkaFuture<FilterResults>>"
  , "c2" : "values()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#68"
+ , "c5" : "00103"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#103"
  , "c1" : "KafkaFuture<Collection<AclBinding>>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#72"
+ , "c5" : "00107"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#107"
  , "c1" : "List<AclBinding>"
  , "c2" : "getAclBindings(Map<AclBindingFilter,KafkaFuture<FilterResults>>)"
  , "c3" : "4"
@@ -116,59 +116,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#69"
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.clients.admin.DeleteAclsResult.all@POLYN158206 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.clients.admin.DeleteAclsResult.all@POLYN158416 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#72"
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method getAclBindings arguments Map&lt;AclBindingFilter ,KafkaFuture&lt;FilterResults &gt; &gt;  futures"
+ , "c3" : "QC-JAV000006[00107] For method getAclBindings arguments Map&lt;AclBindingFilter ,KafkaFuture&lt;FilterResults &gt; &gt;  futures"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#72"
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#107"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00072] The argument futures is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00107] The argument futures is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#75"
+ , "c1" : "00110"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00075] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00110] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#78"
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00078] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00113] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#83"
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00083] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00118] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#81"
+ , "c1" : "00116"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.admin.DeleteAclsResult.getAclBindings@POLYN158545 the MagicNumber/String  'DeleteAclsResult#all: internal error' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.admin.DeleteAclsResult.getAclBindings@POLYN158755 the MagicNumber/String  'DeleteAclsResult#all: internal error' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#84"
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.admin.DeleteAclsResult.getAclBindings@POLYN158545 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.DeleteAclsResult.getAclBindings@POLYN158755 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

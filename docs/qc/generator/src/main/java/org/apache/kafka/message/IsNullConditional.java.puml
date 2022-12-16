@@ -2,15 +2,15 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.message.IsNullConditional"
 class org.apache.kafka.message.IsNullConditional {
-forName(String) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#24]]]
-forField(FieldSpec) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#28]]]
--IsNullConditional(String) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#42]]]
-nullableVersions(Versions) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#46]]]
-possibleVersions(Versions) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#51]]]
-ifNull(Runnable) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#56]]]
-ifShouldNotBeNull(Runnable) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#61]]]
-alwaysEmitBlockScope(boolean) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#66]]]
-conditionalGenerator(ConditionalGenerator) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#71]]]
-generate(CodeBuffer) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#76]]]
+forName(String) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#41]]]
+forField(FieldSpec) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#45]]]
+-IsNullConditional(String) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#59]]]
+nullableVersions(Versions) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#63]]]
+possibleVersions(Versions) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#68]]]
+ifNull(Runnable) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#73]]]
+ifShouldNotBeNull(Runnable) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#78]]]
+alwaysEmitBlockScope(boolean) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#83]]]
+conditionalGenerator(ConditionalGenerator) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#88]]]
+generate(CodeBuffer) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#93]]]
 } 
 @enduml

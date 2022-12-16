@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#19"
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#37"
  , "c1" : "TimestampedKeyAndJoinSideDeserializer"
  , "c2" : "TimestampedKeyAndJoinSideDeserializer(Deserializer<K>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#25"
+ , "c5" : "00043"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#43"
  , "c1" : "void"
  , "c2" : "setIfUnset(SerdeGetter)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#34"
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#52"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;boolean)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#39"
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#57"
  , "c1" : "TimestampedKeyAndJoinSide<K>"
  , "c2" : "deserialize(String;byte[])"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#47"
+ , "c5" : "00065"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#65"
  , "c1" : "byte[]"
  , "c2" : "rawTimestamp(byte[])"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#53"
+ , "c5" : "00071"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#71"
  , "c1" : "byte[]"
  , "c2" : "rawKey(byte[])"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#60"
+ , "c5" : "00078"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#78"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -136,94 +136,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#25"
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method setIfUnset arguments SerdeGetter  getter"
+ , "c3" : "QC-JAV000006[00043] For method setIfUnset arguments SerdeGetter  getter"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#25"
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#43"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00025] The argument getter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00043] The argument getter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#26"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer.setIfUnset@POLYN152549 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer.setIfUnset@POLYN152657 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#34"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00052] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#39"
+ , "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method deserialize arguments String  topic|byte[]  data"
+ , "c3" : "QC-JAV000006[00057] For method deserialize arguments String  topic|byte[]  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#40"
+ , "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer.deserialize@POLYN153185 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer.deserialize@POLYN153293 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#47"
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method rawTimestamp arguments byte[]  data"
+ , "c3" : "QC-JAV000006[00065] For method rawTimestamp arguments byte[]  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#48"
+ , "c1" : "00066"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer.rawTimestamp@POLYN153844 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer.rawTimestamp@POLYN153952 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#49"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer.rawTimestamp@POLYN153844 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer.rawTimestamp@POLYN153952 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#49"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer.rawTimestamp@POLYN153844 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer.rawTimestamp@POLYN153952 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#49"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer.rawTimestamp@POLYN153844 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer.rawTimestamp@POLYN153952 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#53"
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method rawKey arguments byte[]  data"
+ , "c3" : "QC-JAV000006[00071] For method rawKey arguments byte[]  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#55"
+ , "c1" : "00073"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer.rawKey@POLYN154236 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer.rawKey@POLYN154344 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

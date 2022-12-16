@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.ForwardingDisabledProcessorContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#31"
+ , "c5" : "00048"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#48"
  , "c1" : "ForwardingDisabledProcessorContext"
  , "c2" : "ForwardingDisabledProcessorContext(ProcessorContext)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#36"
+ , "c5" : "00053"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#53"
  , "c1" : "String"
  , "c2" : "applicationId()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#41"
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#58"
  , "c1" : "TaskId"
  , "c2" : "taskId()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#46"
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#63"
  , "c1" : "Serde<?>"
  , "c2" : "keySerde()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#51"
+ , "c5" : "00068"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#68"
  , "c1" : "Serde<?>"
  , "c2" : "valueSerde()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#56"
+ , "c5" : "00073"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#73"
  , "c1" : "File"
  , "c2" : "stateDir()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#61"
+ , "c5" : "00078"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#78"
  , "c1" : "StreamsMetrics"
  , "c2" : "metrics()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#66"
+ , "c5" : "00083"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#83"
  , "c1" : "void"
  , "c2" : "register(StateStore;StateRestoreCallback)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#77"
+ , "c5" : "00094"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#94"
  , "c1" : "Cancellable"
  , "c2" : "schedule(Duration;PunctuationType;Punctuator)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#94"
+ , "c5" : "00111"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#111"
  , "c1" : "void"
  , "c2" : "commit()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#99"
+ , "c5" : "00116"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#116"
  , "c1" : "String"
  , "c2" : "topic()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#104"
+ , "c5" : "00121"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#121"
  , "c1" : "int"
  , "c2" : "partition()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00109"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#109"
+ , "c5" : "00126"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#126"
  , "c1" : "long"
  , "c2" : "offset()"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00114"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#114"
+ , "c5" : "00131"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#131"
  , "c1" : "Headers"
  , "c2" : "headers()"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00119"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#119"
+ , "c5" : "00136"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#136"
  , "c1" : "long"
  , "c2" : "timestamp()"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00124"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#124"
+ , "c5" : "00141"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#141"
  , "c1" : "Map<String,Object>"
  , "c2" : "appConfigs()"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00129"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#129"
+ , "c5" : "00146"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#146"
  , "c1" : "Map<String,Object>"
  , "c2" : "appConfigsWithPrefix(String)"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00134"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#134"
+ , "c5" : "00151"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#151"
  , "c1" : "long"
  , "c2" : "currentSystemTimeMs()"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00139"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#139"
+ , "c5" : "00156"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#156"
  , "c1" : "long"
  , "c2" : "currentStreamTimeMs()"
  , "c3" : "1"
@@ -237,31 +237,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#32"
+ , "c1" : "00049"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.processor.internals.ForwardingDisabledProcessorContext.ForwardingDisabledProcessorContext@POLYN157565 the MagicNumber/String  'delegate' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.processor.internals.ForwardingDisabledProcessorContext.ForwardingDisabledProcessorContext@POLYN157667 the MagicNumber/String  'delegate' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#66"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method register arguments StateStore  store|StateRestoreCallback  stateRestoreCallback"
+ , "c3" : "QC-JAV000006[00083] For method register arguments StateStore  store|StateRestoreCallback  stateRestoreCallback"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#77"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method schedule arguments Duration  interval|PunctuationType  type|Punctuator  callback"
+ , "c3" : "QC-JAV000006[00094] For method schedule arguments Duration  interval|PunctuationType  type|Punctuator  callback"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#129"
+ , "c1" : "00146"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#146"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00129] For method appConfigsWithPrefix arguments String  prefix"
+ , "c3" : "QC-JAV000006[00146] For method appConfigsWithPrefix arguments String  prefix"
 }} 
 ]
 , 

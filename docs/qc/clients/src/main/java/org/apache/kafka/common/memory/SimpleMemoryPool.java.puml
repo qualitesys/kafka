@@ -2,15 +2,15 @@
 !pragma layout smetana
 "MemoryPool" <|-- "org.apache.kafka.common.memory.SimpleMemoryPool"
 class org.apache.kafka.common.memory.SimpleMemoryPool {
-+SimpleMemoryPool(long;int;boolean;Sensor) : SimpleMemoryPool [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#24]]]
-+tryAllocate(int) : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#36]]]
-+release(ByteBuffer) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#70]]]
-+size() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#80]]]
-+availableMemory() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#85]]]
-+isOutOfMemory() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#90]]]
-bufferToBeReturned(ByteBuffer) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#95]]]
-bufferToBeReleased(ByteBuffer) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#100]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#105]]]
-maybeRecordEndOfDrySpell() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#110]]]
++SimpleMemoryPool(long;int;boolean;Sensor) : SimpleMemoryPool [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#42]]]
++tryAllocate(int) : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#54]]]
++release(ByteBuffer) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#88]]]
++size() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#98]]]
++availableMemory() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#103]]]
++isOutOfMemory() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#108]]]
+bufferToBeReturned(ByteBuffer) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#113]]]
+bufferToBeReleased(ByteBuffer) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#118]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#123]]]
+maybeRecordEndOfDrySpell() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#128]]]
 } 
 @enduml

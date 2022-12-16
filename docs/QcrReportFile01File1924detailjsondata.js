@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.StateUpdater" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#46"
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#63"
  , "c1" : "void"
  , "c2" : "start()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#49"
+ , "c5" : "00073"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#73"
  , "c1" : "void"
  , "c2" : "shutdown(Duration)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#52"
+ , "c5" : "00082"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#82"
  , "c1" : "void"
  , "c2" : "add(Task)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#55"
+ , "c5" : "00095"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#95"
  , "c1" : "void"
  , "c2" : "remove(TaskId)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#58"
+ , "c5" : "00106"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#106"
  , "c1" : "Set<StreamTask>"
  , "c2" : "drainRestoredActiveTasks(Duration)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#62"
+ , "c5" : "00119"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#119"
  , "c1" : "Set<Task>"
  , "c2" : "drainRemovedTasks()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#65"
+ , "c5" : "00128"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#128"
  , "c1" : "List<ExceptionAndTasks>"
  , "c2" : "drainExceptionsAndFailedTasks()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#68"
+ , "c5" : "00143"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#143"
  , "c1" : "Set<Task>"
  , "c2" : "getTasks()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#71"
+ , "c5" : "00158"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#158"
  , "c1" : "Set<StreamTask>"
  , "c2" : "getActiveTasks()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#74"
+ , "c5" : "00172"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#172"
  , "c1" : "Set<StandbyTask>"
  , "c2" : "getStandbyTasks()"
  , "c3" : "1"
@@ -156,24 +156,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#32"
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00047] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.processor.internals.StateUpdater.ExceptionAndTasks.equals@POLYN167626 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.processor.internals.StateUpdater.ExceptionAndTasks.equals@POLYN168214 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#34"
+ , "c1" : "00049"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.processor.internals.StateUpdater.ExceptionAndTasks.equals@POLYN167626 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.processor.internals.StateUpdater.ExceptionAndTasks.equals@POLYN168214 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

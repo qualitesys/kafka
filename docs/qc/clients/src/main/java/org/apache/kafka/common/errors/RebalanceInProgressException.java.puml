@@ -2,9 +2,9 @@
 !pragma layout smetana
 "ApiException" <|-- "org.apache.kafka.common.errors.RebalanceInProgressException"
 class org.apache.kafka.common.errors.RebalanceInProgressException {
-+RebalanceInProgressException() : RebalanceInProgressException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RebalanceInProgressException.java.html#7]]]
-+RebalanceInProgressException(String;Throwable) : RebalanceInProgressException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RebalanceInProgressException.java.html#11]]]
-+RebalanceInProgressException(String) : RebalanceInProgressException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RebalanceInProgressException.java.html#15]]]
-+RebalanceInProgressException(Throwable) : RebalanceInProgressException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RebalanceInProgressException.java.html#19]]]
++RebalanceInProgressException() : RebalanceInProgressException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RebalanceInProgressException.java.html#22]]]
++RebalanceInProgressException(String;Throwable) : RebalanceInProgressException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RebalanceInProgressException.java.html#26]]]
++RebalanceInProgressException(String) : RebalanceInProgressException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RebalanceInProgressException.java.html#30]]]
++RebalanceInProgressException(Throwable) : RebalanceInProgressException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RebalanceInProgressException.java.html#34]]]
 } 
 @enduml

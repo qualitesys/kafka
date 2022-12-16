@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeTransactionsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#32"
  , "c1" : "DescribeTransactionsResult"
  , "c2" : "DescribeTransactionsResult(Map<CoordinatorKey,KafkaFuture<TransactionDescription>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#22"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#47"
  , "c1" : "KafkaFuture<TransactionDescription>"
  , "c2" : "description(String)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#32"
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#66"
  , "c1" : "KafkaFuture<Map<String,TransactionDescription>>"
  , "c2" : "all()"
  , "c3" : "2"
@@ -100,52 +100,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#22"
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method description arguments String  transactionalId"
+ , "c3" : "QC-JAV000006[00047] For method description arguments String  transactionalId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#22"
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00022] For method description list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.CoordinatorKey CoordinatorKey_byTransactionalIdN152344"
+ , "c3" : "QC-JAV000007[00047] For method description list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.CoordinatorKey CoordinatorKey_byTransactionalIdN152548"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#25"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.admin.DescribeTransactionsResult.description@POLYN152247 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.admin.DescribeTransactionsResult.description@POLYN152451 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#26"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.clients.admin.DescribeTransactionsResult.description@POLYN152247 the MagicNumber/String  'TransactionalId ' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.admin.DescribeTransactionsResult.description@POLYN152451 the MagicNumber/String  'TransactionalId ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#27"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.admin.DescribeTransactionsResult.description@POLYN152247 the MagicNumber/String  '`' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.admin.DescribeTransactionsResult.description@POLYN152451 the MagicNumber/String  '`' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#27"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.admin.DescribeTransactionsResult.description@POLYN152247 the MagicNumber/String  '` was not included in the request' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.admin.DescribeTransactionsResult.description@POLYN152451 the MagicNumber/String  '` was not included in the request' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#33"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.DescribeTransactionsResult.all@POLYN153119 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.admin.DescribeTransactionsResult.all@POLYN153323 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

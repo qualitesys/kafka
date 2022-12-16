@@ -2,14 +2,14 @@
 !pragma layout smetana
 "Closeable" <|-- "java.io.InputStream"
 class java.io.InputStream {
-+read() : int [[[./../.././qc/secujava/java.io.InputStream.java.html#14]]]
-+read(byte[]) : int [[[./../.././qc/secujava/java.io.InputStream.java.html#17]]]
-+read(byte[];int;int) : int [[[./../.././qc/secujava/java.io.InputStream.java.html#22]]]
-+skip(long) : long [[[./../.././qc/secujava/java.io.InputStream.java.html#52]]]
-+available() : int [[[./../.././qc/secujava/java.io.InputStream.java.html#78]]]
-+close() : void [[[./../.././qc/secujava/java.io.InputStream.java.html#83]]]
-+mark(int) : void [[[./../.././qc/secujava/java.io.InputStream.java.html#86]]]
-+reset() : void [[[./../.././qc/secujava/java.io.InputStream.java.html#89]]]
-+markSupported() : boolean [[[./../.././qc/secujava/java.io.InputStream.java.html#94]]]
++read() : int [[[./../.././qc/secujava/java.io.InputStream.java.html#66]]]
++read(byte[]) : int [[[./../.././qc/secujava/java.io.InputStream.java.html#101]]]
++read(byte[];int;int) : int [[[./../.././qc/secujava/java.io.InputStream.java.html#162]]]
++skip(long) : long [[[./../.././qc/secujava/java.io.InputStream.java.html#211]]]
++available() : int [[[./../.././qc/secujava/java.io.InputStream.java.html#262]]]
++close() : void [[[./../.././qc/secujava/java.io.InputStream.java.html#275]]]
++mark(int) : void [[[./../.././qc/secujava/java.io.InputStream.java.html#303]]]
++reset() : void [[[./../.././qc/secujava/java.io.InputStream.java.html#350]]]
++markSupported() : boolean [[[./../.././qc/secujava/java.io.InputStream.java.html#366]]]
 } 
 @enduml

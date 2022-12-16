@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.ChangelogReader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#13"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#32"
  , "c1" : "void"
  , "c2" : "restore(Map<TaskId,Task>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#16"
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#37"
  , "c1" : "void"
  , "c2" : "enforceRestoreActive()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#19"
+ , "c5" : "00042"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#42"
  , "c1" : "void"
  , "c2" : "transitToUpdateStandby()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#22"
+ , "c5" : "00047"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#47"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "completedChangelogs()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#25"
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#58"
  , "c1" : "boolean"
  , "c2" : "allChangelogsCompleted()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#28"
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#63"
  , "c1" : "void"
  , "c2" : "clear()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#31"
+ , "c5" : "00068"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#68"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"

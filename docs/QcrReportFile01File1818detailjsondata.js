@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#16"
+ , "c5" : "00031"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#31"
  , "c1" : "EagerBufferConfigImpl"
  , "c2" : "EagerBufferConfigImpl(long;long;Map<String,String>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#25"
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#40"
  , "c1" : "Suppressed.EagerBufferConfig"
  , "c2" : "withMaxRecords(long)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#30"
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#45"
  , "c1" : "Suppressed.EagerBufferConfig"
  , "c2" : "withMaxBytes(long)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#35"
+ , "c5" : "00050"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#50"
  , "c1" : "long"
  , "c2" : "maxRecords()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#40"
+ , "c5" : "00055"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#55"
  , "c1" : "long"
  , "c2" : "maxBytes()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#45"
+ , "c5" : "00060"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#60"
  , "c1" : "BufferFullStrategy"
  , "c2" : "bufferFullStrategy()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#50"
+ , "c5" : "00065"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#65"
  , "c1" : "Suppressed.EagerBufferConfig"
  , "c2" : "withLoggingDisabled()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#55"
+ , "c5" : "00070"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#70"
  , "c1" : "Suppressed.EagerBufferConfig"
  , "c2" : "withLoggingEnabled(Map<String,String>)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#60"
+ , "c5" : "00075"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#75"
  , "c1" : "boolean"
  , "c2" : "isLoggingEnabled()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#65"
+ , "c5" : "00080"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#80"
  , "c1" : "Map<String,String>"
  , "c2" : "getLogConfig()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#70"
+ , "c5" : "00085"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#85"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#84"
+ , "c5" : "00099"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#99"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#89"
+ , "c5" : "00104"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#104"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -190,101 +190,101 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method withMaxRecords arguments long  recordLimit"
+ , "c3" : "QC-JAV000006[00040] For method withMaxRecords arguments long  recordLimit"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method withMaxBytes arguments long  byteLimit"
+ , "c3" : "QC-JAV000006[00045] For method withMaxBytes arguments long  byteLimit"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#51"
+ , "c1" : "00066"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.withLoggingDisabled@POLYN151891 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#55"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method withLoggingEnabled arguments Map&lt;String ,String &gt;  config"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.isLoggingEnabled@POLYN152327 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.withLoggingDisabled@POLYN151981 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00070] For method withLoggingEnabled arguments Map&lt;String ,String &gt;  config"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#74"
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00074] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.isLoggingEnabled@POLYN152417 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.equals@POLYN152664 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#85"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00085] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#74"
+ , "c1" : "00089"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.equals@POLYN152664 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000021[00089] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#75"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.equals@POLYN152664 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.equals@POLYN152754 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00089"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#89"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.equals@POLYN152754 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN153554 the MagicNumber/String  'EagerBufferConfigImpl{maxRecords=' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.equals@POLYN152754 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#91"
+ , "c1" : "00105"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN153554 the MagicNumber/String  ', maxBytes=' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN153644 the MagicNumber/String  'EagerBufferConfigImpl{maxRecords=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#92"
+ , "c1" : "00106"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN153554 the MagicNumber/String  ', logConfig=' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN153644 the MagicNumber/String  ', maxBytes=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#93"
+ , "c1" : "00107"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN153554 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN153644 the MagicNumber/String  ', logConfig=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN153644 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

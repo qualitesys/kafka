@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.mirror.ReplicationPolicy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#12"
+ , "c5" : "00027"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#27"
  , "c1" : "String"
  , "c2" : "formatRemoteTopic(String;String)"
  , "c3" : "1"
@@ -27,46 +27,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#15"
+ , "c5" : "00032"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#32"
  , "c1" : "String"
  , "c2" : "topicSource(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#18"
- , "c1" : "String"
- , "c2" : "upstreamTopic(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#21"
- , "c1" : "String"
- , "c2" : "originalTopic(String)"
- , "c3" : "3"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#31"
- , "c1" : "String"
- , "c2" : "heartbeatsTopic()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#36"
- , "c1" : "String"
- , "c2" : "offsetSyncsTopic(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00041"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#41"
  , "c1" : "String"
- , "c2" : "checkpointsTopic(String)"
+ , "c2" : "upstreamTopic(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -83,26 +47,17 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00046"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#46"
- , "c1" : "boolean"
- , "c2" : "isHeartbeatsTopic(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#51"
- , "c1" : "boolean"
- , "c2" : "isCheckpointsTopic(String)"
- , "c3" : "1"
- , "c4" : "1"
+ , "c1" : "String"
+ , "c2" : "originalTopic(String)"
+ , "c3" : "3"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00056"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#56"
- , "c1" : "boolean"
- , "c2" : "isMM2InternalTopic(String)"
+ , "c1" : "String"
+ , "c2" : "heartbeatsTopic()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -110,6 +65,51 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00061"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#61"
+ , "c1" : "String"
+ , "c2" : "offsetSyncsTopic(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#66"
+ , "c1" : "String"
+ , "c2" : "checkpointsTopic(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#71"
+ , "c1" : "boolean"
+ , "c2" : "isHeartbeatsTopic(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#76"
+ , "c1" : "boolean"
+ , "c2" : "isCheckpointsTopic(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#81"
+ , "c1" : "boolean"
+ , "c2" : "isMM2InternalTopic(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00086"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#86"
  , "c1" : "boolean"
  , "c2" : "isInternalTopic(String)"
  , "c3" : "1"
@@ -158,24 +158,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#51"
+ , "c1" : "00076"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#76"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00051] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00076] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#56"
+ , "c1" : "00081"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#81"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00056] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00081] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#61"
+ , "c1" : "00086"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#86"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00061] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00086] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

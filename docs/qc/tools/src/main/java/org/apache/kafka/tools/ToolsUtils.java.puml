@@ -2,6 +2,6 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.tools.ToolsUtils"
 class org.apache.kafka.tools.ToolsUtils {
-+printMetrics(Map<MetricName,?extendsMetric>) : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#13]]]
++printMetrics(Map<MetricName,?extendsMetric>) : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#31]]]
 } 
 @enduml

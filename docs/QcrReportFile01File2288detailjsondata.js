@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.UniformTransactionsGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#14"
+ , "c5" : "00031"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#31"
  , "c1" : "UniformTransactionsGenerator"
  , "c2" : "UniformTransactionsGenerator(int)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#22"
+ , "c5" : "00039"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#39"
  , "c1" : "int"
  , "c2" : "messagesPerTransaction()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#27"
+ , "c5" : "00044"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#44"
  , "c1" : "TransactionAction"
  , "c2" : "nextAction()"
  , "c3" : "3"
@@ -93,52 +93,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#15"
+ , "c1" : "00032"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.trogdor.workload.UniformTransactionsGenerator.UniformTransactionsGenerator@POLYN144095 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#16"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.trogdor.workload.UniformTransactionsGenerator.UniformTransactionsGenerator@POLYN144095 the MagicNumber/String  'Cannot have less than one message per transaction.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#27"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00027] Lock statement on synchronized method nextAction"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.trogdor.workload.UniformTransactionsGenerator.nextAction@POLYN144525 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#29"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.trogdor.workload.UniformTransactionsGenerator.nextAction@POLYN144525 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.workload.UniformTransactionsGenerator.UniformTransactionsGenerator@POLYN144197 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00033"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.trogdor.workload.UniformTransactionsGenerator.nextAction@POLYN144525 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.trogdor.workload.UniformTransactionsGenerator.UniformTransactionsGenerator@POLYN144197 the MagicNumber/String  'Cannot have less than one message per transaction.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#37"
+ , "c1" : "00044"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#44"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00044] Lock statement on synchronized method nextAction"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.trogdor.workload.UniformTransactionsGenerator.nextAction@POLYN144525 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.trogdor.workload.UniformTransactionsGenerator.nextAction@POLYN144627 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#46"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.trogdor.workload.UniformTransactionsGenerator.nextAction@POLYN144627 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#50"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.trogdor.workload.UniformTransactionsGenerator.nextAction@POLYN144627 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.trogdor.workload.UniformTransactionsGenerator.nextAction@POLYN144627 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 , 

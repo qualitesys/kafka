@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.InFlightRequests" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#21"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#38"
  , "c1" : "InFlightRequests"
  , "c2" : "InFlightRequests(int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#26"
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#45"
  , "c1" : "void"
  , "c2" : "add(NetworkClient.InFlightRequest)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#38"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#59"
  , "c1" : "Deque<NetworkClient.InFlightRequest>"
  , "c2" : "requestQueue(String)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#46"
+ , "c5" : "00069"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#69"
  , "c1" : "NetworkClient.InFlightRequest"
  , "c2" : "completeNext(String)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#53"
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#79"
  , "c1" : "NetworkClient.InFlightRequest"
  , "c2" : "lastSent(String)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#58"
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#88"
  , "c1" : "NetworkClient.InFlightRequest"
  , "c2" : "completeLastSent(String)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#65"
+ , "c5" : "00100"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#100"
  , "c1" : "boolean"
  , "c2" : "canSendMore(String)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#72"
+ , "c5" : "00111"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#111"
  , "c1" : "int"
  , "c2" : "count(String)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#78"
+ , "c5" : "00119"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#119"
  , "c1" : "boolean"
  , "c2" : "isEmpty(String)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#84"
+ , "c5" : "00127"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#127"
  , "c1" : "int"
  , "c2" : "count()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#89"
+ , "c5" : "00134"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#134"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "3"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#98"
+ , "c5" : "00148"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#148"
  , "c1" : "Iterable<NetworkClient.InFlightRequest>"
  , "c2" : "clearAll(String)"
  , "c3" : "3"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00109"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#109"
+ , "c5" : "00159"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#159"
  , "c1" : "Boolean"
  , "c2" : "hasExpiredRequest(long;Deque<NetworkClient.InFlightRequest>)"
  , "c3" : "3"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00118"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#118"
+ , "c5" : "00173"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#173"
  , "c1" : "List<String>"
  , "c2" : "nodesWithTimedOutRequests(long)"
  , "c3" : "3"
@@ -243,388 +243,388 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#26"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method add arguments NetworkClient.InFlightRequest  request"
+ , "c3" : "QC-JAV000006[00045] For method add arguments NetworkClient.InFlightRequest  request"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#26"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#45"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00026] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00045] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#29"
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.clients.InFlightRequests.add@POLYN168393 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.InFlightRequests.add@POLYN168723 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#38"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method requestQueue arguments String  node"
+ , "c3" : "QC-JAV000006[00059] For method requestQueue arguments String  node"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#38"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00038] For method requestQueue list of called methods Object monObjet|java.util.Deque&lt;NetworkClient.InFlightRequest&gt; requests_getN169252"
+ , "c3" : "QC-JAV000007[00059] For method requestQueue list of called methods Object monObjet|java.util.Deque&lt;NetworkClient.InFlightRequest&gt; requests_getN169582"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#40"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.InFlightRequests.requestQueue@POLYN169126 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.InFlightRequests.requestQueue@POLYN169456 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#41"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.clients.InFlightRequests.requestQueue@POLYN169126 the MagicNumber/String  'There are no in-flight requests for node ' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.clients.InFlightRequests.requestQueue@POLYN169456 the MagicNumber/String  'There are no in-flight requests for node ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#46"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method completeNext arguments String  node"
+ , "c3" : "QC-JAV000006[00069] For method completeNext arguments String  node"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#46"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00046] For method completeNext list of called methods Object monObjet|java.util.Deque&lt;NetworkClient.InFlightRequest&gt; requestQueueN169736"
+ , "c3" : "QC-JAV000007[00069] For method completeNext list of called methods Object monObjet|java.util.Deque&lt;NetworkClient.InFlightRequest&gt; requestQueueN170066"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#53"
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method lastSent arguments String  node"
+ , "c3" : "QC-JAV000006[00079] For method lastSent arguments String  node"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#58"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method completeLastSent arguments String  node"
+ , "c3" : "QC-JAV000006[00088] For method completeLastSent arguments String  node"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#58"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00058] For method completeLastSent list of called methods Object monObjet|java.util.Deque&lt;NetworkClient.InFlightRequest&gt; requestQueueN170399"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#65"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method canSendMore arguments String  node"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#65"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method canSendMore list of called methods Object monObjet|boolean requests_getN170822"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.InFlightRequests.canSendMore@POLYN170696 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#72"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method count arguments String  node"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#72"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00072] For method count list of called methods Object monObjet|int requests_getN171393"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.InFlightRequests.count@POLYN171267 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.InFlightRequests.count@POLYN171267 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#78"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method isEmpty arguments String  node"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#78"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00078] For method isEmpty list of called methods Object monObjet|boolean requests_getN171788"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN171662 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN172213 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN172213 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#98"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method clearAll arguments String  node"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#98"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00098] For method clearAll list of called methods Object monObjet|Iterable&lt;NetworkClient.InFlightRequest&gt; requests_getN172833|Iterable&lt;NetworkClient.InFlightRequest&gt; requests_removeN173106"
+ , "c3" : "QC-JAV000007[00088] For method completeLastSent list of called methods Object monObjet|java.util.Deque&lt;NetworkClient.InFlightRequest&gt; requestQueueN170729"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.clients.InFlightRequests.clearAll@POLYN172707 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#109"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00109] For method hasExpiredRequest arguments long  now|Deque&lt;NetworkClient.InFlightRequest &gt;  deque"
+ , "c3" : "QC-JAV000006[00100] For method canSendMore arguments String  node"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#112"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.InFlightRequests.hasExpiredRequest@POLYN173363 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.InFlightRequests.hasExpiredRequest@POLYN173363 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#118"
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00118] For method nodesWithTimedOutRequests arguments long  now"
+ , "c3" : "QC-JAV000007[00100] For method canSendMore list of called methods Object monObjet|boolean requests_getN171152"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.clients.InFlightRequests.canSendMore@POLYN171026 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#111"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00111] For method count arguments String  node"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#111"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00111] For method count list of called methods Object monObjet|int requests_getN171723"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.InFlightRequests.count@POLYN171597 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.InFlightRequests.count@POLYN171597 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#119"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00119] For method isEmpty arguments String  node"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#119"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00119] For method isEmpty list of called methods Object monObjet|boolean requests_getN172118"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00121] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN171992 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#122"
+ , "c1" : "00137"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00122] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN172543 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#46"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00046] Public method completeNext is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00139"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#139"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN172543 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#53"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00053] Public method lastSent is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00148"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#148"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00148] For method clearAll arguments String  node"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#58"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00058] Public method completeLastSent is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00148"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#148"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00148] For method clearAll list of called methods Object monObjet|Iterable&lt;NetworkClient.InFlightRequest&gt; requests_getN173163|Iterable&lt;NetworkClient.InFlightRequest&gt; requests_removeN173436"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#72"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00072] Public method count is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00150"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#150"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.clients.InFlightRequests.clearAll@POLYN173037 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#78"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00078] Public method isEmpty is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00159"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#159"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00159] For method hasExpiredRequest arguments long  now|Deque&lt;NetworkClient.InFlightRequest &gt;  deque"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#84"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00084] Public method count is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00162"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.clients.InFlightRequests.hasExpiredRequest@POLYN173693 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#89"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00089] Public method isEmpty is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00164"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#164"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.clients.InFlightRequests.hasExpiredRequest@POLYN173693 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#98"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00098] Public method clearAll is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00173"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#173"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00173] For method nodesWithTimedOutRequests arguments long  now"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#118"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00118] Public method nodesWithTimedOutRequests is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00176"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#176"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00176] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#26"
+ , "c1" : "00177"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00177] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#69"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00026] Public method add is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00069] Public method completeNext is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#79"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00079] Public method lastSent is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#88"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00088] Public method completeLastSent is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#111"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00111] Public method count is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#119"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00119] Public method isEmpty is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00127] Public method count is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#134"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00134] Public method isEmpty is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#148"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00148] Public method clearAll is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00173"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#173"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00173] Public method nodesWithTimedOutRequests is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#45"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00045] Public method add is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.InFlightRequests.requestQueue@POLYN169126"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.InFlightRequests.requestQueue@POLYN169456"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.InFlightRequests.canSendMore@POLYN170696"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.InFlightRequests.canSendMore@POLYN171026"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.InFlightRequests.clearAll@POLYN172707"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.InFlightRequests.clearAll@POLYN173037"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.InFlightRequests.count@POLYN171267"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.InFlightRequests.count@POLYN171597"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN171662"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN171992"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#40"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#61"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.clients.InFlightRequests.requestQueue@POLYN169126 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.clients.InFlightRequests.requestQueue@POLYN169456 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#41"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#62"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00041] In the recursive method org.apache.kafka.clients.InFlightRequests.requestQueue@POLYN169126 the MagicNumber/String 'There are no in-flight requests for node ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.clients.InFlightRequests.requestQueue@POLYN169456 the MagicNumber/String 'There are no in-flight requests for node ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#67"
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.clients.InFlightRequests.canSendMore@POLYN170696 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.clients.InFlightRequests.canSendMore@POLYN171026 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#100"
+ , "c1" : "00150"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#150"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.clients.InFlightRequests.clearAll@POLYN172707 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00150] In the recursive method org.apache.kafka.clients.InFlightRequests.clearAll@POLYN173037 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#74"
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#113"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.clients.InFlightRequests.count@POLYN171267 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.clients.InFlightRequests.count@POLYN171597 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#74"
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#113"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.clients.InFlightRequests.count@POLYN171267 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.clients.InFlightRequests.count@POLYN171597 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#80"
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#121"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN171662 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN171992 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

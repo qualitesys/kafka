@@ -2,6 +2,6 @@
 !pragma layout smetana
 "Stat" <|-- "org.apache.kafka.common.metrics.CompoundStat"
 class org.apache.kafka.common.metrics.CompoundStat {
-stats() : List<NamedMeasurable> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/CompoundStat.java.html#11]]]
+stats() : List<NamedMeasurable> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/CompoundStat.java.html#29]]]
 } 
 @enduml

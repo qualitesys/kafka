@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.ConnectorConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00152"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#152"
+ , "c5" : "00177"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#177"
  , "c1" : "ConfigDef"
  , "c2" : "configDef()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00180"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#180"
+ , "c5" : "00205"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#205"
  , "c1" : "ConfigDef.CompositeValidator"
  , "c2" : "aliasValidator(String)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00198"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#198"
+ , "c5" : "00223"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#223"
  , "c1" : "ConnectorConfig"
  , "c2" : "ConnectorConfig(Plugins)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00202"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#202"
+ , "c5" : "00227"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#227"
  , "c1" : "ConnectorConfig"
  , "c2" : "ConnectorConfig(Plugins;Map<String,String>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00206"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#206"
+ , "c5" : "00231"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#231"
  , "c1" : "ConnectorConfig"
  , "c2" : "ConnectorConfig(Plugins;ConfigDef;Map<String,String>)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00215"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#215"
+ , "c5" : "00240"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#240"
  , "c1" : "Object"
  , "c2" : "get(String)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00219"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#219"
+ , "c5" : "00244"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#244"
  , "c1" : "long"
  , "c2" : "errorRetryTimeout()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00223"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#223"
+ , "c5" : "00248"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#248"
  , "c1" : "long"
  , "c2" : "errorMaxDelayInMillis()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00227"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#227"
+ , "c5" : "00252"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#252"
  , "c1" : "ToleranceType"
  , "c2" : "errorToleranceType()"
  , "c3" : "3"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00237"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#237"
+ , "c5" : "00262"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#262"
  , "c1" : "boolean"
  , "c2" : "enableErrorLog()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00241"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#241"
+ , "c5" : "00266"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#266"
  , "c1" : "boolean"
  , "c2" : "includeRecordDetailsInErrorLog()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00279"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#279"
+ , "c5" : "00310"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#310"
  , "c1" : "ConfigDef"
  , "c2" : "enrich(Plugins;ConfigDef;Map<String,String>;boolean)"
  , "c3" : "4"
@@ -195,696 +195,696 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#147"
+ , "c1" : "00172"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#172"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00147] For method get arguments String  key"
+ , "c3" : "QC-JAV000006[00172] For method get arguments String  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#153"
+ , "c1" : "00178"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN245179 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN245533 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#154"
+ , "c1" : "00179"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN245179 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN245533 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#159"
+ , "c1" : "00184"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN245179 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN245533 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#160"
+ , "c1" : "00185"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN245179 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#162"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN245179 the MagicNumber/String  'transformation' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#163"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN245179 the MagicNumber/String  'predicate' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#180"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00180] For method aliasValidator arguments String  kind"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#182"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.connect.runtime.ConnectorConfig.aliasValidator@POLYN249336 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN245533 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.connect.runtime.ConnectorConfig.aliasValidator@POLYN249336 the MagicNumber/String  'Duplicate alias provided.' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN245533 the MagicNumber/String  'transformation' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#193"
+ , "c1" : "00188"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.runtime.ConnectorConfig.aliasValidator@POLYN249336 the MagicNumber/String  'unique ' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN245533 the MagicNumber/String  'predicate' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#193"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.runtime.ConnectorConfig.aliasValidator@POLYN249336 the MagicNumber/String  ' aliases' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#209"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.connect.runtime.ConnectorConfig.ConnectorConfig@POLYN250655 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00215"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#215"
+ , "c1" : "00205"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#205"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00215] For method get arguments String  key"
+ , "c3" : "QC-JAV000006[00205] For method aliasValidator arguments String  kind"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00227"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#227"
+ , "c1" : "00207"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#207"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.connect.runtime.ConnectorConfig.aliasValidator@POLYN249690 the MagicNumber/String  'unchecked' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00212"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#212"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.connect.runtime.ConnectorConfig.aliasValidator@POLYN249690 the MagicNumber/String  'Duplicate alias provided.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#218"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.runtime.ConnectorConfig.aliasValidator@POLYN249690 the MagicNumber/String  'unique ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#218"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.runtime.ConnectorConfig.aliasValidator@POLYN249690 the MagicNumber/String  ' aliases' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00234"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#234"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.connect.runtime.ConnectorConfig.ConnectorConfig@POLYN251009 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#240"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00227] For method errorToleranceType list of called methods Object monObjet|java.lang.String getStringN251579"
+ , "c3" : "QC-JAV000006[00240] For method get arguments String  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00251"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#251"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00251] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00255"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#255"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00255] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#256"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00256] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#257"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00257] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00258"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#258"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00258] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#261"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00261] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00263"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#263"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00263] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00269"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#269"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00269] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00251"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#251"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00251"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#251"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#254"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  'unchecked' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00255"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#255"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  'type' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#260"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#261"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00262"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#262"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  'unchecked' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00263"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#263"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  'type' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#265"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#265"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00279"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#279"
+ , "c1" : "00252"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#252"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00279] For method enrich arguments Plugins  plugins|ConfigDef  baseConfigDef|Map&lt;String ,String &gt;  props|boolean  requireFullConfig"
+ , "c3" : "QC-JAV000007[00252] For method errorToleranceType list of called methods Object monObjet|java.lang.String getStringN251933"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00279"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#279"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00279] The argument plugins is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00279"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#279"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00279] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00281"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#281"
+ , "c1" : "00278"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN254885 the MagicNumber/String  'Transformation' should be converted to const"
+ , "c3" : "QC-JAV000001[00278] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00282"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#282"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00282] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00283"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN254885 the MagicNumber/String  'rawtypes' should be converted to const"
+ , "c3" : "QC-JAV000001[00283] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00293"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#293"
+ , "c1" : "00284"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN254885 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000001[00284] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00294"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#294"
+ , "c1" : "00285"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN254885 the MagicNumber/String  'The alias of a predicate used to determine whether to apply this transformation.' should be converted to const"
+ , "c3" : "QC-JAV000001[00285] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00295"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#295"
+ , "c1" : "00288"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN254885 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000001[00288] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00290"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#290"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00290] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN254885 the MagicNumber/String  'Whether the configured predicate should be negated.' should be converted to const"
+ , "c3" : "QC-JAV000001[00296] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00306"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#306"
+ , "c1" : "00278"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN254885 the MagicNumber/String  'Transformer config {} is masked by implicit config of that name' should be converted to const"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00308"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#308"
+ , "c1" : "00278"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN254885 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00281"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#281"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  'unchecked' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00282"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#282"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  'type' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00287"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#287"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00288"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#288"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  'unchecked' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00290"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#290"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  'type' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00292"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#292"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00292"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#292"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.connect.runtime.ConnectorConfig the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00310"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#310"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN254885 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00326"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#326"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN254885 the MagicNumber/String  'Config '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00326"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#326"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN254885 the MagicNumber/String  '' was provided ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00327"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#327"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN254885 the MagicNumber/String  'but there is no config '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00327"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#327"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN254885 the MagicNumber/String  '' defining a predicate to be negated.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00332"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#332"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN254885 the MagicNumber/String  'Predicate' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00370"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#370"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00370] For method enrich arguments ConfigDef  newDef"
+ , "c3" : "QC-JAV000006[00310] For method enrich arguments Plugins  plugins|ConfigDef  baseConfigDef|Map&lt;String ,String &gt;  props|boolean  requireFullConfig"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00370"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#370"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00370] For method enrich list of called methods Object monObjet|java.lang.Object ConfigDef_parseTypeN259620"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00370"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#370"
+ , "c1" : "00310"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#310"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00370] The argument newDef is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00310] The argument plugins is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00378"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#378"
+ , "c1" : "00310"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#310"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00310] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00312"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00378] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN255239 the MagicNumber/String  'Transformation' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00382"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#382"
+ , "c1" : "00314"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00382] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN255239 the MagicNumber/String  'rawtypes' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00382"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#382"
+ , "c1" : "00324"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00382] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN255239 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00383"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#383"
+ , "c1" : "00325"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00383] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN255239 the MagicNumber/String  'The alias of a predicate used to determine whether to apply this transformation.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00384"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#384"
+ , "c1" : "00326"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#326"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00384] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN255239 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00387"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#387"
+ , "c1" : "00327"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#327"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00387] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN255239 the MagicNumber/String  'Whether the configured predicate should be negated.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00388"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#388"
+ , "c1" : "00337"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00388] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN255239 the MagicNumber/String  'Transformer config {} is masked by implicit config of that name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00389"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#389"
+ , "c1" : "00339"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#339"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00389] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN255239 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00389"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#389"
+ , "c1" : "00341"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#341"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00389] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN255239 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00391"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#391"
+ , "c1" : "00357"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00391] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN255239 the MagicNumber/String  'Config '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00399"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#399"
+ , "c1" : "00357"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00399] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN255239 the MagicNumber/String  '' was provided ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00379"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#379"
+ , "c1" : "00358"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#358"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259527 the MagicNumber/String  'Item in ' should be converted to const"
+ , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN255239 the MagicNumber/String  'but there is no config '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00379"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#379"
+ , "c1" : "00358"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#358"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259527 the MagicNumber/String  ' property is not of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN255239 the MagicNumber/String  '' defining a predicate to be negated.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00380"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#380"
+ , "c1" : "00363"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#363"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259527 the MagicNumber/String  'type String' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00383"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#383"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00383] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259527 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00383"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#383"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00383] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259527 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00384"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#384"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00384] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259527 the MagicNumber/String  ': ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00385"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#385"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259527 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00387"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#387"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259527 the MagicNumber/String  'type' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00393"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#393"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259527 the MagicNumber/String  'valid configs for ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00393"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#393"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259527 the MagicNumber/String  ' ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00395"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#395"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259527 the MagicNumber/String  'Class for the '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00395"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#395"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259527 the MagicNumber/String  '' ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00395"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#395"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259527 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00396"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#396"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259527 the MagicNumber/String  ' type for ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00400"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#400"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259527 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00406"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#406"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00406] For method validateProps arguments String  prefix"
+ , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN255239 the MagicNumber/String  'Predicate' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00409"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#409"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00409] For method populateConfigDef arguments String  typeConfig"
+ , "c3" : "QC-JAV000006[00409] For method enrich arguments ConfigDef  newDef"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00409"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#409"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00409] For method enrich list of called methods Object monObjet|java.lang.Object ConfigDef_parseTypeN259974"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00409"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#409"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00409] The argument newDef is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00417"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#417"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00417] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00421"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#421"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00421] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00421"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#421"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00421] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00422"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#422"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00422] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00423"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#423"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00423] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00426"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#426"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00426] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00427"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#427"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00427] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00428"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#428"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00428] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00428"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#428"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00428] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00430"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#430"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00430] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00438"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#438"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00438] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00418"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#418"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259881 the MagicNumber/String  'Item in ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00418"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#418"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259881 the MagicNumber/String  ' property is not of ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00419"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.populateConfigDef@POLYN262430 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259881 the MagicNumber/String  'type String' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00422"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#422"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259881 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00422"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#422"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259881 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00423"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#423"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259881 the MagicNumber/String  ': ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00424"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#424"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259881 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00426"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#426"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00426] For method configDefsForClass arguments String  typeConfig"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259881 the MagicNumber/String  'type' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00438"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#438"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00438] For method getConfigDefFromConfigProvidingClass arguments String  key|Class&lt;? &gt;  cls"
+ , "c1" : "00432"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#432"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259881 the MagicNumber/String  'valid configs for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00438"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#438"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00438] For method getConfigDefFromConfigProvidingClass list of called methods Object monObjet|boolean Utils_isBlankN265123|boolean configN265988"
+ , "c1" : "00432"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#432"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259881 the MagicNumber/String  ' ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00434"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#434"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259881 the MagicNumber/String  'Class for the '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00434"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#434"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259881 the MagicNumber/String  '' ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00434"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#434"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259881 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00435"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#435"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259881 the MagicNumber/String  ' type for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00439"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#439"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN263981 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN259881 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00440"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#440"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00440] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN263981 the MagicNumber/String  'Not a ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00448"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#448"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN263981 the MagicNumber/String  ', ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00450"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#450"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN263981 the MagicNumber/String  ' is abstract and cannot be created.' should be converted to const"
+ , "c1" : "00445"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#445"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00445] For method validateProps arguments String  prefix"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00451"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#451"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN263981 the MagicNumber/String  ' is abstract and cannot be created. Did you mean ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00451"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#451"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN263981 the MagicNumber/String  '?' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00458"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#458"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN263981 the MagicNumber/String  'Error getting config definition from ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00458"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#458"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN263981 the MagicNumber/String  ': ' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00451] For method populateConfigDef arguments String  typeConfig"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00461"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#461"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN263981 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.populateConfigDef@POLYN262784 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00464"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#464"
+ , "c1" : "00471"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#471"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00471] For method configDefsForClass arguments String  typeConfig"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00488"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#488"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00488] For method getConfigDefFromConfigProvidingClass arguments String  key|Class&lt;? &gt;  cls"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00488"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#488"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00488] For method getConfigDefFromConfigProvidingClass list of called methods Object monObjet|boolean Utils_isBlankN265477|boolean configN266342"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00489"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#489"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN263981 the MagicNumber/String  '%s.config() must return a ConfigDef that is not null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN264335 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00473"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#473"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00473] For method config arguments T  t"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00482"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#482"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00482] For method validValues arguments String  name|Map&lt;String ,Object &gt;  parsedConfig"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00491"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#491"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00491] For method visible arguments String  name|Map&lt;String ,Object &gt;  parsedConfig"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00492"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#492"
+ , "c1" : "00490"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#490"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00492] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.ClassRecommender.visible@POLYN267362 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN264335 the MagicNumber/String  'Not a ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00498"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#498"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN264335 the MagicNumber/String  ', ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00500"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#500"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN264335 the MagicNumber/String  ' is abstract and cannot be created.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00501"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#501"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN264335 the MagicNumber/String  ' is abstract and cannot be created. Did you mean ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00501"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#501"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN264335 the MagicNumber/String  '?' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00508"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#508"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN264335 the MagicNumber/String  'Error getting config definition from ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00508"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#508"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN264335 the MagicNumber/String  ': ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00511"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#511"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN264335 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00514"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#514"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN264335 the MagicNumber/String  '%s.config() must return a ConfigDef that is not null.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00527"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#527"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00527] For method config arguments T  t"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00541"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#541"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00541] For method validValues arguments String  name|Map&lt;String ,Object &gt;  parsedConfig"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00550"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#550"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00550] For method visible arguments String  name|Map&lt;String ,Object &gt;  parsedConfig"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00551"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#551"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00551] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.ClassRecommender.visible@POLYN267716 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

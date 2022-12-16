@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "java.io.BufferedReader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#37"
+ , "c5" : "00100"
+ , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#100"
  , "c1" : "BufferedReader"
  , "c2" : "BufferedReader(Reader;int)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#47"
+ , "c5" : "00115"
+ , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#115"
  , "c1" : "BufferedReader"
  , "c2" : "BufferedReader(Reader)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#52"
+ , "c5" : "00120"
+ , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#120"
  , "c1" : "void"
  , "c2" : "ensureOpen()"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#58"
+ , "c5" : "00128"
+ , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#128"
  , "c1" : "void"
  , "c2" : "fill()"
  , "c3" : "10"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00100"
- , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#100"
+ , "c5" : "00177"
+ , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#177"
  , "c1" : "int"
  , "c2" : "read()"
  , "c3" : "6"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00122"
- , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#122"
+ , "c5" : "00202"
+ , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#202"
  , "c1" : "int"
  , "c2" : "read1(char[];int;int)"
  , "c3" : "8"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00148"
- , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#148"
+ , "c5" : "00276"
+ , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#276"
  , "c1" : "int"
  , "c2" : "read(char[];int;int)"
  , "c3" : "7"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00170"
- , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#170"
+ , "c5" : "00312"
+ , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#312"
  , "c1" : "String"
  , "c2" : "readLine(boolean)"
  , "c3" : "14"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00234"
- , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#234"
+ , "c5" : "00388"
+ , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#388"
  , "c1" : "String"
  , "c2" : "readLine()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00239"
- , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#239"
+ , "c5" : "00402"
+ , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#402"
  , "c1" : "long"
  , "c2" : "skip(long)"
  , "c3" : "9"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00273"
- , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#273"
+ , "c5" : "00442"
+ , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#442"
  , "c1" : "boolean"
  , "c2" : "ready()"
  , "c3" : "5"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00294"
- , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#294"
+ , "c5" : "00470"
+ , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#470"
  , "c1" : "boolean"
  , "c2" : "markSupported()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00299"
- , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#299"
+ , "c5" : "00490"
+ , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#490"
  , "c1" : "void"
  , "c2" : "mark(int)"
  , "c3" : "2"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00312"
- , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#312"
+ , "c5" : "00508"
+ , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#508"
  , "c1" : "void"
  , "c2" : "reset()"
  , "c3" : "2"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00324"
- , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#324"
+ , "c5" : "00520"
+ , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#520"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00338"
- , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#338"
+ , "c5" : "00561"
+ , "c5link" : "././qc/secujava/java.io.BufferedReader.java.html#561"
  , "c1" : "Stream<String>"
  , "c2" : "lines()"
  , "c3" : "5"
@@ -254,612 +254,612 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#39"
+ , "c1" : "00102"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method java.io.BufferedReader.BufferedReader@POLYN227764 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method java.io.BufferedReader.BufferedReader@POLYN229102 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#40"
+ , "c1" : "00103"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method java.io.BufferedReader.BufferedReader@POLYN227764 the MagicNumber/String  'Buffer size &amp;lt;= 0' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method java.io.BufferedReader.BufferedReader@POLYN229102 the MagicNumber/String  'Buffer size &amp;lt;= 0' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#43"
+ , "c1" : "00106"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method java.io.BufferedReader.BufferedReader@POLYN227764 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method java.io.BufferedReader.BufferedReader@POLYN229102 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#53"
+ , "c1" : "00121"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method java.io.BufferedReader.ensureOpen@POLYN228516 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method java.io.BufferedReader.ensureOpen@POLYN228516 the MagicNumber/String  'Stream closed' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method java.io.BufferedReader.fill@POLYN228765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method java.io.BufferedReader.fill@POLYN228765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method java.io.BufferedReader.fill@POLYN228765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method java.io.BufferedReader.fill@POLYN228765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method java.io.BufferedReader.fill@POLYN228765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method java.io.BufferedReader.fill@POLYN228765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method java.io.BufferedReader.fill@POLYN228765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method java.io.BufferedReader.fill@POLYN228765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method java.io.BufferedReader.fill@POLYN228765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#101"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00101] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method java.io.BufferedReader.read@POLYN230909 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#110"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method java.io.BufferedReader.read@POLYN230909 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#111"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method java.io.BufferedReader.read@POLYN230909 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method java.io.BufferedReader.ensureOpen@POLYN229854 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#122"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method read1 arguments char[]  cbuf|int  off|int  len"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method java.io.BufferedReader.read1@POLYN231733 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method java.io.BufferedReader.ensureOpen@POLYN229854 the MagicNumber/String  'Stream closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method java.io.BufferedReader.read1@POLYN231733 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method java.io.BufferedReader.fill@POLYN230103 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#133"
+ , "c1" : "00139"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method java.io.BufferedReader.read1@POLYN231733 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method java.io.BufferedReader.fill@POLYN230103 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#138"
+ , "c1" : "00140"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method java.io.BufferedReader.read1@POLYN231733 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method java.io.BufferedReader.fill@POLYN230103 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#148"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00148] For method read arguments char[]  cbuf|int  off|int  len"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#148"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00148] For method read list of called methods Object monObjet|int read1N235823|int read1N236179"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#149"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00149] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#151"
+ , "c1" : "00144"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method java.io.BufferedReader.read@POLYN234939 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method java.io.BufferedReader.fill@POLYN230103 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#151"
+ , "c1" : "00145"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method java.io.BufferedReader.read@POLYN234939 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method java.io.BufferedReader.fill@POLYN230103 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#150"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00150] In method java.io.BufferedReader.fill@POLYN230103 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method java.io.BufferedReader.read@POLYN234939 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#154"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method java.io.BufferedReader.read@POLYN234939 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#155"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method java.io.BufferedReader.read@POLYN234939 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#159"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method java.io.BufferedReader.read@POLYN234939 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method java.io.BufferedReader.fill@POLYN230103 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method java.io.BufferedReader.read@POLYN234939 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method java.io.BufferedReader.fill@POLYN230103 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#170"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00170] For method readLine arguments boolean  ignoreLF"
+ , "c1" : "00163"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00163] In method java.io.BufferedReader.fill@POLYN230103 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#170"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00170] For method readLine list of called methods Object monObjet|java.lang.String s_toStringN239172"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#174"
+ , "c1" : "00178"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#178"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00174] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#212"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00212] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#171"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method java.io.BufferedReader.readLine@POLYN236892 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000019[00178] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00184"
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method java.io.BufferedReader.readLine@POLYN236892 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#184"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method java.io.BufferedReader.readLine@POLYN236892 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method java.io.BufferedReader.read@POLYN232247 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method java.io.BufferedReader.readLine@POLYN236892 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method java.io.BufferedReader.read@POLYN232247 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#189"
+ , "c1" : "00188"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method java.io.BufferedReader.readLine@POLYN236892 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#190"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method java.io.BufferedReader.readLine@POLYN236892 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#194"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method java.io.BufferedReader.readLine@POLYN236892 the MagicNumber/String  '\n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#196"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method java.io.BufferedReader.readLine@POLYN236892 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#197"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method java.io.BufferedReader.readLine@POLYN236892 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method java.io.BufferedReader.read@POLYN232247 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00202"
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#202"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method java.io.BufferedReader.readLine@POLYN236892 the MagicNumber/String  '\n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#202"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method java.io.BufferedReader.readLine@POLYN236892 the MagicNumber/String  '\r' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#203"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method java.io.BufferedReader.readLine@POLYN236892 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#213"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method java.io.BufferedReader.readLine@POLYN236892 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#220"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method java.io.BufferedReader.readLine@POLYN236892 the MagicNumber/String  '\r' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#221"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method java.io.BufferedReader.readLine@POLYN236892 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00226"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#226"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method java.io.BufferedReader.readLine@POLYN236892 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#235"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method java.io.BufferedReader.readLine@POLYN240079 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00239"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#239"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00239] For method skip arguments long  n"
+ , "c3" : "QC-JAV000006[00202] For method read1 arguments char[]  cbuf|int  off|int  len"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00243"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#243"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00243] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#240"
+ , "c1" : "00214"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method java.io.BufferedReader.skip@POLYN240407 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method java.io.BufferedReader.read1@POLYN233071 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#241"
+ , "c1" : "00216"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method java.io.BufferedReader.skip@POLYN240407 the MagicNumber/String  'skip value is negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method java.io.BufferedReader.read1@POLYN233071 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#246"
+ , "c1" : "00217"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method java.io.BufferedReader.skip@POLYN240407 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method java.io.BufferedReader.read1@POLYN233071 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#252"
+ , "c1" : "00222"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method java.io.BufferedReader.skip@POLYN240407 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method java.io.BufferedReader.read1@POLYN233071 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#253"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method java.io.BufferedReader.skip@POLYN240407 the MagicNumber/String  '\n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#260"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00260] In method java.io.BufferedReader.skip@POLYN240407 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#274"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00274] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00284"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#284"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method java.io.BufferedReader.ready@POLYN241913 the MagicNumber/String  '\n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00286"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#286"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method java.io.BufferedReader.ready@POLYN241913 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00295"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#295"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method java.io.BufferedReader.markSupported@POLYN242919 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00299"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#299"
+ , "c1" : "00276"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#276"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00299] For method mark arguments int  readAheadLimit"
+ , "c3" : "QC-JAV000006[00276] For method read arguments char[]  cbuf|int  off|int  len"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00303"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#303"
+ , "c1" : "00276"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#276"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00276] For method read list of called methods Object monObjet|int read1N237161|int read1N237517"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00277"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#277"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00303] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00277] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00300"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#300"
+ , "c1" : "00279"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method java.io.BufferedReader.mark@POLYN243451 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method java.io.BufferedReader.read@POLYN236277 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00301"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#301"
+ , "c1" : "00279"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method java.io.BufferedReader.mark@POLYN243451 the MagicNumber/String  'Read-ahead limit &amp;lt; 0' should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method java.io.BufferedReader.read@POLYN236277 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00280"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#280"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00280] In method java.io.BufferedReader.read@POLYN236277 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00282"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#282"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00282] In method java.io.BufferedReader.read@POLYN236277 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00283"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#283"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00283] In method java.io.BufferedReader.read@POLYN236277 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00287"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#287"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00287] In method java.io.BufferedReader.read@POLYN236277 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00290"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#290"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00290] In method java.io.BufferedReader.read@POLYN236277 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00312"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#312"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00312] For method readLine arguments boolean  ignoreLF"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00312"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#312"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00312] For method readLine list of called methods Object monObjet|java.lang.String s_toStringN240510"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00316"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#316"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00316] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00354"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#354"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00354] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00313"
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#313"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00313] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00315"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#315"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method java.io.BufferedReader.reset@POLYN244058 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00317"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#317"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00317] In method java.io.BufferedReader.reset@POLYN244058 the MagicNumber/String  'Mark invalid' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00318"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#318"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method java.io.BufferedReader.reset@POLYN244058 the MagicNumber/String  'Stream not marked' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00325"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#325"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00325] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000010[00313] In method java.io.BufferedReader.readLine@POLYN238230 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00326"
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#326"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00326] In method java.io.BufferedReader.close@POLYN244610 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00326] In method java.io.BufferedReader.readLine@POLYN238230 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00326"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#326"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00326] In method java.io.BufferedReader.readLine@POLYN238230 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00329"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#329"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00329] In method java.io.BufferedReader.readLine@POLYN238230 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00331"
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method java.io.BufferedReader.close@POLYN244610 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method java.io.BufferedReader.readLine@POLYN238230 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00332"
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method java.io.BufferedReader.close@POLYN244610 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00332] In method java.io.BufferedReader.readLine@POLYN238230 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00340"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#340"
+ , "c1" : "00336"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#336"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00340] In method java.io.BufferedReader.lines@POLYN245899 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00336] In method java.io.BufferedReader.readLine@POLYN238230 the MagicNumber/String  '\n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00338"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#338"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00338] In method java.io.BufferedReader.readLine@POLYN238230 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00339"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#339"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00339] In method java.io.BufferedReader.readLine@POLYN238230 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00344"
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00344] In method java.io.BufferedReader.lines@POLYN245899 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00344] In method java.io.BufferedReader.readLine@POLYN238230 the MagicNumber/String  '\n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00344"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#344"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00344] In method java.io.BufferedReader.readLine@POLYN238230 the MagicNumber/String  '\r' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00345"
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method java.io.BufferedReader.lines@POLYN245899 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00345] In method java.io.BufferedReader.readLine@POLYN238230 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00349"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#349"
+ , "c1" : "00355"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#355"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method java.io.BufferedReader.lines@POLYN245899 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00355] In method java.io.BufferedReader.readLine@POLYN238230 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00358"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#358"
+ , "c1" : "00362"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00358] In method java.io.BufferedReader.lines@POLYN245899 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method java.io.BufferedReader.readLine@POLYN238230 the MagicNumber/String  '\r' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00360"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#360"
+ , "c1" : "00363"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#363"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00360] In method java.io.BufferedReader.lines@POLYN245899 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00363] In method java.io.BufferedReader.readLine@POLYN238230 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00368"
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00368] In method java.io.BufferedReader.lines@POLYN245899 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00368] In method java.io.BufferedReader.readLine@POLYN238230 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00389"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#389"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00389] In method java.io.BufferedReader.readLine@POLYN241417 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00402"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#402"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00402] For method skip arguments long  n"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00406"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#406"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00406] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00403"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#403"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00403] In method java.io.BufferedReader.skip@POLYN241745 the MagicNumber/String  0L should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00404"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#404"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00404] In method java.io.BufferedReader.skip@POLYN241745 the MagicNumber/String  'skip value is negative' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00409"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#409"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00409] In method java.io.BufferedReader.skip@POLYN241745 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00415"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#415"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00415] In method java.io.BufferedReader.skip@POLYN241745 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00416"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#416"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00416] In method java.io.BufferedReader.skip@POLYN241745 the MagicNumber/String  '\n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00423"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#423"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00423] In method java.io.BufferedReader.skip@POLYN241745 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00443"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#443"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00443] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00458"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#458"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00458] In method java.io.BufferedReader.ready@POLYN243251 the MagicNumber/String  '\n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00460"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#460"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00460] In method java.io.BufferedReader.ready@POLYN243251 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00471"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#471"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00471] In method java.io.BufferedReader.markSupported@POLYN244257 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00490"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#490"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00490] For method mark arguments int  readAheadLimit"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00494"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#494"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00494] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00491"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#491"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00491] In method java.io.BufferedReader.mark@POLYN244789 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00492"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#492"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00492] In method java.io.BufferedReader.mark@POLYN244789 the MagicNumber/String  'Read-ahead limit &amp;lt; 0' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00509"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#509"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00509] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00511"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#511"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00511] In method java.io.BufferedReader.reset@POLYN245396 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00513"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#513"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00513] In method java.io.BufferedReader.reset@POLYN245396 the MagicNumber/String  'Mark invalid' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00514"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#514"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00514] In method java.io.BufferedReader.reset@POLYN245396 the MagicNumber/String  'Stream not marked' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00521"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#521"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00521] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00522"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#522"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00522] In method java.io.BufferedReader.close@POLYN245948 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00527"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#527"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00527] In method java.io.BufferedReader.close@POLYN245948 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00528"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#528"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00528] In method java.io.BufferedReader.close@POLYN245948 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00563"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#563"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00563] In method java.io.BufferedReader.lines@POLYN247237 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00567"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#567"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00567] In method java.io.BufferedReader.lines@POLYN247237 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00568"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#568"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00568] In method java.io.BufferedReader.lines@POLYN247237 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00572"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#572"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00572] In method java.io.BufferedReader.lines@POLYN247237 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00581"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#581"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00581] In method java.io.BufferedReader.lines@POLYN247237 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00583"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#583"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00583] In method java.io.BufferedReader.lines@POLYN247237 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00591"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#591"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00591] In method java.io.BufferedReader.lines@POLYN247237 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.BufferedReader.readLine@POLYN240079"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.BufferedReader.readLine@POLYN241417"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#235"
+ , "c1" : "00389"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#389"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00235] In the recursive method java.io.BufferedReader.readLine@POLYN240079 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00389] In the recursive method java.io.BufferedReader.readLine@POLYN241417 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

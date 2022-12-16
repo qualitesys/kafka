@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils"
 class org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils {
-+validateScopes(String;Collection<String>) : Set<String> [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#16]]]
-+validateExpiration(String;Long) : long [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#36]]]
-+validateSubject(String;String) : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#48]]]
-+validateIssuedAt(String;Long) : Long [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#54]]]
-+validateClaimNameOverride(String;String) : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#63]]]
--validateString(String;String) : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#67]]]
++validateScopes(String;Collection<String>) : Set<String> [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#55]]]
++validateExpiration(String;Long) : long [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#90]]]
++validateSubject(String;String) : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#118]]]
++validateIssuedAt(String;Long) : Long [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#138]]]
++validateClaimNameOverride(String;String) : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#163]]]
+-validateString(String;String) : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#167]]]
 } 
 @enduml

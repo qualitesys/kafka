@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.tools.ToolsUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#13"
+ , "c5" : "00031"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#31"
  , "c1" : "void"
  , "c2" : "printMetrics(Map<MetricName,?extendsMetric>)"
  , "c3" : "6"
@@ -89,129 +89,129 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#10"
+ , "c1" : "00025"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00010] The class ToolsUtils contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00025] The class ToolsUtils contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#13"
+ , "c1" : "00031"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#31"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00013] For method printMetrics arguments Map&lt;MetricName ,?  extends Metric &gt;  metrics"
+ , "c3" : "QC-JAV000006[00031] For method printMetrics arguments Map&lt;MetricName ,?  extends Metric &gt;  metrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#18"
+ , "c1" : "00036"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00018] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00036] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#19"
+ , "c1" : "00037"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00019] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00037] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#28"
+ , "c1" : "00046"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00028] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00046] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#29"
+ , "c1" : "00047"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00029] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00047] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#14"
+ , "c1" : "00032"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147459 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#15"
+ , "c1" : "00033"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147459 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#19"
+ , "c1" : "00037"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147459 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#19"
+ , "c1" : "00037"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147459 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#23"
+ , "c1" : "00041"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  '%-' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147459 the MagicNumber/String  '%-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#23"
+ , "c1" : "00041"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  's : %.3f' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147459 the MagicNumber/String  's : %.3f' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#24"
+ , "c1" : "00042"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  '%-' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147459 the MagicNumber/String  '%-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#24"
+ , "c1" : "00042"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  's : %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147459 the MagicNumber/String  's : %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#25"
+ , "c1" : "00043"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  '\n%-' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147459 the MagicNumber/String  '\n%-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#25"
+ , "c1" : "00043"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  's   %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147459 the MagicNumber/String  's   %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#25"
+ , "c1" : "00043"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  'Metric Name' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147459 the MagicNumber/String  'Metric Name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#25"
+ , "c1" : "00043"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  'Value' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147459 the MagicNumber/String  'Value' should be converted to const"
 }} 
 ]
 , 

@@ -2,11 +2,11 @@
 !pragma layout smetana
 "Callback" <|-- "org.apache.kafka.common.security.oauthbearer.OAuthBearerTokenCallback"
 class org.apache.kafka.common.security.oauthbearer.OAuthBearerTokenCallback {
-+token() : OAuthBearerToken [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerTokenCallback.java.html#19]]]
-+errorCode() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerTokenCallback.java.html#24]]]
-+errorDescription() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerTokenCallback.java.html#29]]]
-+errorUri() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerTokenCallback.java.html#34]]]
-+token(OAuthBearerToken) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerTokenCallback.java.html#39]]]
-+error(String;String;String) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerTokenCallback.java.html#47]]]
++token() : OAuthBearerToken [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerTokenCallback.java.html#52]]]
++errorCode() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerTokenCallback.java.html#63]]]
++errorDescription() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerTokenCallback.java.html#74]]]
++errorUri() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerTokenCallback.java.html#85]]]
++token(OAuthBearerToken) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerTokenCallback.java.html#95]]]
++error(String;String;String) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerTokenCallback.java.html#114]]]
 } 
 @enduml

@@ -2,12 +2,12 @@
 !pragma layout smetana
 "TaskSpec" <|-- "org.apache.kafka.trogdor.workload.ExternalCommandSpec"
 class org.apache.kafka.trogdor.workload.ExternalCommandSpec {
-+ExternalCommandSpec(long;long;String;List<String>;JsonNode;Optional<Integer>) : ExternalCommandSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#27]]]
-+commandNode() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#42]]]
-+command() : List<String> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#47]]]
-+workload() : JsonNode [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#52]]]
-+shutdownGracePeriodMs() : Optional<Integer> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#57]]]
-+newController(String) : TaskController [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#62]]]
-+newTaskWorker(String) : TaskWorker [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#67]]]
++ExternalCommandSpec(long;long;String;List<String>;JsonNode;Optional<Integer>) : ExternalCommandSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#72]]]
++commandNode() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#87]]]
++command() : List<String> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#92]]]
++workload() : JsonNode [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#97]]]
++shutdownGracePeriodMs() : Optional<Integer> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#102]]]
++newController(String) : TaskController [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#107]]]
++newTaskWorker(String) : TaskWorker [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#112]]]
 } 
 @enduml

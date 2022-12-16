@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#19"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#38"
  , "c1" : "RemoveMembersFromConsumerGroupResult"
  , "c2" : "RemoveMembersFromConsumerGroupResult(KafkaFuture<Map<MemberIdentity,Errors>>;Set<MemberToRemove>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#26"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#49"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "all()"
  , "c3" : "9"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#56"
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#81"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "memberResult(MemberToRemove)"
  , "c3" : "6"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#75"
+ , "c5" : "00100"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#100"
  , "c1" : "boolean"
  , "c2" : "maybeCompleteExceptionally(Map<MemberIdentity,Errors>;MemberIdentity;KafkaFutureImpl<Void>)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#88"
+ , "c5" : "00113"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#113"
  , "c1" : "boolean"
  , "c2" : "removeAll()"
  , "c3" : "1"
@@ -118,129 +118,129 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#29"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.all@POLYN156063 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.all@POLYN156063 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.all@POLYN156063 the MagicNumber/String  'Encounter exception when trying to remove: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.all@POLYN156063 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method memberResult arguments MemberToRemove  member"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#56"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00056] The argument member is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.all@POLYN156213 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.memberResult@POLYN157549 the MagicNumber/String  'The method: memberResult is not applicable in 'removeAll' mode' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.all@POLYN156213 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#61"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.memberResult@POLYN157549 the MagicNumber/String  'Member ' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.all@POLYN156213 the MagicNumber/String  'Encounter exception when trying to remove: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#61"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.memberResult@POLYN157549 the MagicNumber/String  ' was not included in the original request' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.all@POLYN156213 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.memberResult@POLYN157549 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.memberResult@POLYN157549 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#75"
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method maybeCompleteExceptionally arguments Map&lt;MemberIdentity ,Errors &gt;  memberErrors|MemberIdentity  member|KafkaFutureImpl&lt;Void &gt;  result"
+ , "c3" : "QC-JAV000006[00081] For method memberResult arguments MemberToRemove  member"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#77"
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#81"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00077] The argument result is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00081] The argument member is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#79"
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.maybeCompleteExceptionally@POLYN158610 the MagicNumber/String  'Member \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.memberResult@POLYN157699 the MagicNumber/String  'The method: memberResult is not applicable in 'removeAll' mode' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#79"
+ , "c1" : "00086"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.maybeCompleteExceptionally@POLYN158610 the MagicNumber/String  '\' was not included in the removal response' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.memberResult@POLYN157699 the MagicNumber/String  'Member ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#80"
+ , "c1" : "00086"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.maybeCompleteExceptionally@POLYN158610 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.memberResult@POLYN157699 the MagicNumber/String  ' was not included in the original request' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#82"
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.maybeCompleteExceptionally@POLYN158610 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.memberResult@POLYN157699 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#84"
+ , "c1" : "00094"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.maybeCompleteExceptionally@POLYN158610 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.memberResult@POLYN157699 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#100"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00100] For method maybeCompleteExceptionally arguments Map&lt;MemberIdentity ,Errors &gt;  memberErrors|MemberIdentity  member|KafkaFutureImpl&lt;Void &gt;  result"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#102"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00102] The argument result is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.maybeCompleteExceptionally@POLYN158760 the MagicNumber/String  'Member \'' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.maybeCompleteExceptionally@POLYN158760 the MagicNumber/String  '\' was not included in the removal response' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.maybeCompleteExceptionally@POLYN158760 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.maybeCompleteExceptionally@POLYN158760 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult.maybeCompleteExceptionally@POLYN158760 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

@@ -2,10 +2,10 @@
 !pragma layout smetana
 "Throwable" <|-- "java.lang.Exception"
 class java.lang.Exception {
-+Exception() : Exception [[[./../.././qc/secujava/java.lang.Exception.java.html#53]]]
-+Exception(String) : Exception [[[./../.././qc/secujava/java.lang.Exception.java.html#65]]]
-+Exception(String;Throwable) : Exception [[[./../.././qc/secujava/java.lang.Exception.java.html#83]]]
-+Exception(Throwable) : Exception [[[./../.././qc/secujava/java.lang.Exception.java.html#101]]]
-Exception(String;Throwable;boolean;boolean) : Exception [[[./../.././qc/secujava/java.lang.Exception.java.html#119]]]
++Exception() : Exception [[[./../.././qc/secujava/java.lang.Exception.java.html#96]]]
++Exception(String) : Exception [[[./../.././qc/secujava/java.lang.Exception.java.html#115]]]
++Exception(String;Throwable) : Exception [[[./../.././qc/secujava/java.lang.Exception.java.html#146]]]
++Exception(Throwable) : Exception [[[./../.././qc/secujava/java.lang.Exception.java.html#177]]]
+Exception(String;Throwable;boolean;boolean) : Exception [[[./../.././qc/secujava/java.lang.Exception.java.html#208]]]
 } 
 @enduml

@@ -2,6 +2,6 @@
 !pragma layout smetana
 "EmitStrategy" <|-- "org.apache.kafka.streams.kstream.internals.emitstrategy.WindowUpdateStrategy"
 class org.apache.kafka.streams.kstream.internals.emitstrategy.WindowUpdateStrategy {
-+type() : StrategyType [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowUpdateStrategy.java.html#10]]]
++type() : StrategyType [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowUpdateStrategy.java.html#27]]]
 } 
 @enduml

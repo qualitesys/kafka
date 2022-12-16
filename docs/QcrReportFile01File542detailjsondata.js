@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.types.Type" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#17"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#38"
  , "c1" : "void"
  , "c2" : "write(ByteBuffer;Object)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#20"
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#45"
  , "c1" : "Object"
  , "c2" : "read(ByteBuffer)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#23"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#52"
  , "c1" : "Object"
  , "c2" : "validate(Object)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#26"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#57"
  , "c1" : "int"
  , "c2" : "sizeOf(Object)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#29"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#63"
  , "c1" : "boolean"
  , "c2" : "isNullable()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#34"
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#70"
  , "c1" : "Optional<Type>"
  , "c2" : "arrayElementType()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#39"
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#77"
  , "c1" : "boolean"
  , "c2" : "isArray()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01047"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1047"
+ , "c5" : "01100"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1100"
  , "c1" : "String"
  , "c2" : "toHtml()"
  , "c3" : "2"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01074"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1074"
+ , "c5" : "01127"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1127"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "1"
@@ -147,129 +147,129 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#17"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method write arguments ByteBuffer  buffer|Object  o"
+ , "c3" : "QC-JAV000006[00038] For method write arguments ByteBuffer  buffer|Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#20"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00020] For method read arguments ByteBuffer  buffer"
+ , "c3" : "QC-JAV000006[00045] For method read arguments ByteBuffer  buffer"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#23"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method validate arguments Object  o"
+ , "c3" : "QC-JAV000006[00052] For method validate arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#26"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method sizeOf arguments Object  o"
+ , "c3" : "QC-JAV000006[00057] For method sizeOf arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#30"
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.protocol.types.Type.isNullable@POLYN270390 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.protocol.types.Type.isNullable@POLYN270708 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1055"
+ , "c1" : "01108"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01055] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310302 the MagicNumber/String  '&amp;lt;table class=\'data-table\'&amp;gt;&amp;lt;tbody&amp;gt;\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01108] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310620 the MagicNumber/String  '&amp;lt;table class=\'data-table\'&amp;gt;&amp;lt;tbody&amp;gt;\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1056"
+ , "c1" : "01109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01056] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310302 the MagicNumber/String  '&amp;lt;tr&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310620 the MagicNumber/String  '&amp;lt;tr&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1057"
+ , "c1" : "01110"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01057] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310302 the MagicNumber/String  '&amp;lt;th&amp;gt;Type&amp;lt;/th&amp;gt;\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01110] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310620 the MagicNumber/String  '&amp;lt;th&amp;gt;Type&amp;lt;/th&amp;gt;\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1058"
+ , "c1" : "01111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01058] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310302 the MagicNumber/String  '&amp;lt;th&amp;gt;Description&amp;lt;/th&amp;gt;\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01111] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310620 the MagicNumber/String  '&amp;lt;th&amp;gt;Description&amp;lt;/th&amp;gt;\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1059"
+ , "c1" : "01112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01059] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310302 the MagicNumber/String  '&amp;lt;/tr&amp;gt;\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01112] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310620 the MagicNumber/String  '&amp;lt;/tr&amp;gt;\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1061"
+ , "c1" : "01114"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01061] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310302 the MagicNumber/String  '&amp;lt;tr&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[01114] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310620 the MagicNumber/String  '&amp;lt;tr&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1062"
+ , "c1" : "01115"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01062] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310302 the MagicNumber/String  '&amp;lt;td&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[01115] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310620 the MagicNumber/String  '&amp;lt;td&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1064"
+ , "c1" : "01117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01064] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310302 the MagicNumber/String  '&amp;lt;/td&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[01117] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310620 the MagicNumber/String  '&amp;lt;/td&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1065"
+ , "c1" : "01118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01065] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310302 the MagicNumber/String  '&amp;lt;td&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[01118] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310620 the MagicNumber/String  '&amp;lt;td&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1067"
+ , "c1" : "01120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01067] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310302 the MagicNumber/String  '&amp;lt;/td&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[01120] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310620 the MagicNumber/String  '&amp;lt;/td&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1068"
+ , "c1" : "01121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01068] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310302 the MagicNumber/String  '&amp;lt;/tr&amp;gt;\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01121] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310620 the MagicNumber/String  '&amp;lt;/tr&amp;gt;\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1070"
+ , "c1" : "01123"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01070] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310302 the MagicNumber/String  '&amp;lt;/tbody&amp;gt;&amp;lt;/table&amp;gt;\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01123] In method org.apache.kafka.common.protocol.types.Type.toHtml@POLYN310620 the MagicNumber/String  '&amp;lt;/tbody&amp;gt;&amp;lt;/table&amp;gt;\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1074"
+ , "c1" : "01127"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01074] For method main arguments String[]  args"
+ , "c3" : "QC-JAV000006[01127] For method main arguments String[]  args"
 }} 
 ]
 , 

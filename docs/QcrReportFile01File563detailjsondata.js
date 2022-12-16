@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.LazyDownConversionRecords" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#23"
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#51"
  , "c1" : "LazyDownConversionRecords"
  , "c2" : "LazyDownConversionRecords(TopicPartition;Records;byte;long;Time)"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#48"
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#76"
  , "c1" : "int"
  , "c2" : "sizeInBytes()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#53"
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#81"
  , "c1" : "LazyDownConversionRecordsSend"
  , "c2" : "toSend()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#57"
+ , "c5" : "00085"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#85"
  , "c1" : "TopicPartition"
  , "c2" : "topicPartition()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#62"
+ , "c5" : "00090"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#90"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#74"
+ , "c5" : "00102"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#102"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#83"
+ , "c5" : "00111"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#111"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00091"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#91"
+ , "c5" : "00119"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#119"
  , "c1" : "java.util.Iterator<ConvertedRecords<?>>"
  , "c2" : "iterator(long)"
  , "c3" : "1"
@@ -152,199 +152,199 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#23"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#51"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00023] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00051] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#33"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.record.LazyDownConversionRecords.LazyDownConversionRecords@POLYN166634 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.record.LazyDownConversionRecords.LazyDownConversionRecords@POLYN166634 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.record.LazyDownConversionRecords.LazyDownConversionRecords@POLYN166634 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#62"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.record.LazyDownConversionRecords.LazyDownConversionRecords@POLYN166874 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.record.LazyDownConversionRecords.equals@POLYN168282 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.record.LazyDownConversionRecords.LazyDownConversionRecords@POLYN166874 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#76"
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.record.LazyDownConversionRecords.hashCode@POLYN168801 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.record.LazyDownConversionRecords.LazyDownConversionRecords@POLYN166874 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.record.LazyDownConversionRecords.hashCode@POLYN168801 the MagicNumber/String  31 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.record.LazyDownConversionRecords.hashCode@POLYN168801 the MagicNumber/String  31 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN169335 the MagicNumber/String  'LazyDownConversionRecords(size=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#85"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN169335 the MagicNumber/String  ', underlying=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN169335 the MagicNumber/String  ', toMagic=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#87"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN169335 the MagicNumber/String  ', firstOffset=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#88"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN169335 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#91"
+ , "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#90"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00091] For method iterator arguments long  maximumReadSize"
+ , "c3" : "QC-JAV000006[00090] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#95"
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.record.LazyDownConversionRecords.iterator@POLYN169659 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.record.LazyDownConversionRecords.equals@POLYN168522 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.record.LazyDownConversionRecords.hashCode@POLYN169041 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.record.LazyDownConversionRecords.hashCode@POLYN169041 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#106"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00106] The argument recordsToDownConvert is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.record.LazyDownConversionRecords.hashCode@POLYN169041 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#111"
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.Iterator@POLYN170592 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN169575 the MagicNumber/String  'LazyDownConversionRecords(size=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#126"
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00126] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN169575 the MagicNumber/String  ', underlying=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#133"
+ , "c1" : "00114"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00133] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN169575 the MagicNumber/String  ', toMagic=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#139"
+ , "c1" : "00115"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00139] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN169575 the MagicNumber/String  ', firstOffset=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#133"
+ , "c1" : "00116"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00133] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN169575 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#119"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN171142 the MagicNumber/String  null should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00119] For method iterator arguments long  maximumReadSize"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#121"
+ , "c1" : "00123"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN171142 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.record.LazyDownConversionRecords.iterator@POLYN169899 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#127"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN171142 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00143"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#143"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00143] The argument recordsToDownConvert is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#128"
+ , "c1" : "00148"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN171142 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.Iterator@POLYN170832 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#136"
+ , "c1" : "00166"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN171142 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000001[00166] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#144"
+ , "c1" : "00173"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN171142 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00173] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#179"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00179] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00173"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#173"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00173] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#159"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN171382 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00161"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#161"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN171382 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#167"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN171382 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00168"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#168"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN171382 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00176"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#176"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN171382 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#184"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN171382 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

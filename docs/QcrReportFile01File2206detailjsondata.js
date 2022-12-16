@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.fault.ProcessStopFaultSpec" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#21"
+ , "c5" : "00038"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#38"
  , "c1" : "ProcessStopFaultSpec"
  , "c2" : "ProcessStopFaultSpec(long;long;List<String>;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#31"
+ , "c5" : "00048"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#48"
  , "c1" : "Set<String>"
  , "c2" : "nodeNames()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#36"
+ , "c5" : "00053"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#53"
  , "c1" : "String"
  , "c2" : "javaProcessName()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#41"
+ , "c5" : "00058"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#58"
  , "c1" : "TaskController"
  , "c2" : "newController(String)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#46"
+ , "c5" : "00063"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#63"
  , "c1" : "TaskWorker"
  , "c2" : "newTaskWorker(String)"
  , "c3" : "1"
@@ -111,38 +111,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#26"
+ , "c1" : "00043"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.trogdor.fault.ProcessStopFaultSpec.ProcessStopFaultSpec@POLYN147079 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.trogdor.fault.ProcessStopFaultSpec.ProcessStopFaultSpec@POLYN147181 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#27"
+ , "c1" : "00044"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.fault.ProcessStopFaultSpec.ProcessStopFaultSpec@POLYN147079 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.trogdor.fault.ProcessStopFaultSpec.ProcessStopFaultSpec@POLYN147181 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#27"
+ , "c1" : "00044"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.fault.ProcessStopFaultSpec.ProcessStopFaultSpec@POLYN147079 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.trogdor.fault.ProcessStopFaultSpec.ProcessStopFaultSpec@POLYN147181 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#41"
+ , "c1" : "00058"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method newController arguments String  id"
+ , "c3" : "QC-JAV000006[00058] For method newController arguments String  id"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#46"
+ , "c1" : "00063"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method newTaskWorker arguments String  id"
+ , "c3" : "QC-JAV000006[00063] For method newTaskWorker arguments String  id"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.TopicAuthorizationException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#10"
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#25"
  , "c1" : "TopicAuthorizationException"
  , "c2" : "TopicAuthorizationException(String;Set<String>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#15"
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#30"
  , "c1" : "TopicAuthorizationException"
  , "c2" : "TopicAuthorizationException(Set<String>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#34"
  , "c1" : "TopicAuthorizationException"
  , "c2" : "TopicAuthorizationException(String)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#24"
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#44"
  , "c1" : "Set<String>"
  , "c2" : "unauthorizedTopics()"
  , "c3" : "1"
@@ -95,10 +95,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#16"
+ , "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.errors.TopicAuthorizationException.TopicAuthorizationException@POLYN143878 the MagicNumber/String  'Not authorized to access topics: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.errors.TopicAuthorizationException.TopicAuthorizationException@POLYN143998 the MagicNumber/String  'Not authorized to access topics: ' should be converted to const"
 }} 
 ]
 , 

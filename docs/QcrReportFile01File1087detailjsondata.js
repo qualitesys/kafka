@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.TransformationChain" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#21"
+ , "c5" : "00036"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#36"
  , "c1" : "TransformationChain"
  , "c2" : "TransformationChain(List<Transformation<R>>;RetryWithToleranceOperator)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#26"
+ , "c5" : "00041"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#41"
  , "c1" : "R"
  , "c2" : "apply(R)"
  , "c3" : "4"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#44"
+ , "c5" : "00059"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#59"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#51"
+ , "c5" : "00066"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#66"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#59"
+ , "c5" : "00074"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#74"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#63"
+ , "c5" : "00078"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#78"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "2"
@@ -134,87 +134,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method apply arguments R  record"
+ , "c3" : "QC-JAV000006[00041] For method apply arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00030] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00045] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#32"
+ , "c1" : "00047"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.runtime.TransformationChain.apply@POLYN151395 the MagicNumber/String  'Applying transformation {} to {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.runtime.TransformationChain.apply@POLYN151395 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#51"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00051] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00053] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.runtime.TransformationChain.apply@POLYN151485 the MagicNumber/String  'Applying transformation {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.runtime.TransformationChain.equals@POLYN152432 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.runtime.TransformationChain.apply@POLYN151485 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.runtime.TransformationChain.equals@POLYN152432 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00066"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#66"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00066] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#53"
+ , "c1" : "00068"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.runtime.TransformationChain.equals@POLYN152432 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000021[00068] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#64"
+ , "c1" : "00067"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.runtime.TransformationChain.toString@POLYN153110 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.runtime.TransformationChain.equals@POLYN152522 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#64"
+ , "c1" : "00068"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.runtime.TransformationChain.toString@POLYN153110 the MagicNumber/String  '{' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.runtime.TransformationChain.equals@POLYN152522 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#64"
+ , "c1" : "00068"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.runtime.TransformationChain.toString@POLYN153110 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.runtime.TransformationChain.equals@POLYN152522 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.runtime.TransformationChain.toString@POLYN153200 the MagicNumber/String  ', ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.runtime.TransformationChain.toString@POLYN153200 the MagicNumber/String  '{' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.runtime.TransformationChain.toString@POLYN153200 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

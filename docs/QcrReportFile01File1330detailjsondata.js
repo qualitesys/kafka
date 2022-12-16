@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.ClientQuotasDelta" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#18"
+ , "c5" : "00033"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#33"
  , "c1" : "ClientQuotasDelta"
  , "c2" : "ClientQuotasDelta(ClientQuotasImage)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#22"
+ , "c5" : "00037"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#37"
  , "c1" : "Map<ClientQuotaEntity,ClientQuotaDelta>"
  , "c2" : "changes()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#26"
+ , "c5" : "00041"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#41"
  , "c1" : "void"
  , "c2" : "finishSnapshot()"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#36"
+ , "c5" : "00051"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#51"
  , "c1" : "void"
  , "c2" : "handleMetadataVersionChange(MetadataVersion)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#40"
+ , "c5" : "00055"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#55"
  , "c1" : "void"
  , "c2" : "replay(ClientQuotaRecord)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#48"
+ , "c5" : "00063"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#63"
  , "c1" : "ClientQuotasImage"
  , "c2" : "apply()"
  , "c3" : "8"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#76"
+ , "c5" : "00091"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#91"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -180,164 +180,164 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00028] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00043] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00029] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00044] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00030] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00045] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method handleMetadataVersionChange arguments MetadataVersion  newVersion"
+ , "c3" : "QC-JAV000006[00051] For method handleMetadataVersionChange arguments MetadataVersion  newVersion"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#40"
+ , "c1" : "00055"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method replay arguments ClientQuotaRecord  record"
+ , "c3" : "QC-JAV000006[00055] For method replay arguments ClientQuotaRecord  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#40"
+ , "c1" : "00055"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00040] For method replay list of called methods Object monObjet|org.apache.kafka.common.quota.ClientQuotaEntity ClientQuotaImage_dataToEntityN153057"
+ , "c3" : "QC-JAV000007[00055] For method replay list of called methods Object monObjet|org.apache.kafka.common.quota.ClientQuotaEntity ClientQuotaImage_dataToEntityN153147"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#40"
+ , "c1" : "00055"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#55"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00040] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00055] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00052] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00067] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#53"
+ , "c1" : "00068"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00053] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00068] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#57"
+ , "c1" : "00072"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00057] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00064] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00066] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.image.ClientQuotasDelta.apply@POLYN153489 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN155165 the MagicNumber/String  'ClientQuotasDelta(' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN155165 the MagicNumber/String  'changes=' should be converted to const"
+ , "c3" : "QC-JAV000001[00072] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN155165 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000001[00079] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#22"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00022] Public method changes is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00081"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00081] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#76"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00076] Public method toString is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00069"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#69"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.image.ClientQuotasDelta.apply@POLYN153579 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#36"
+ , "c1" : "00092"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN155255 the MagicNumber/String  'ClientQuotasDelta(' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN155255 the MagicNumber/String  'changes=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN155255 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#37"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00036] Public method handleMetadataVersionChange is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00037] Public method changes is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#91"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00091] Public method toString is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#51"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00051] Public method handleMetadataVersionChange is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClientQuotasDelta.apply@POLYN153489"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClientQuotasDelta.apply@POLYN153579"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClientQuotasDelta.finishSnapshot@POLYN152324"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClientQuotasDelta.finishSnapshot@POLYN152414"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClientQuotasDelta.replay@POLYN152964"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClientQuotasDelta.replay@POLYN153054"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#54"
+ , "c1" : "00069"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#69"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.image.ClientQuotasDelta.apply@POLYN153489 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.image.ClientQuotasDelta.apply@POLYN153579 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

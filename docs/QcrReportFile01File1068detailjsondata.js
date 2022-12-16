@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#54"
+ , "c5" : "00071"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#71"
  , "c1" : "ExactlyOnceWorkerSourceTask"
  , "c2" : "ExactlyOnceWorkerSourceTask(ConnectorTaskId;SourceTask;TaskStatus.Listener;TargetState;Converter;Converter;HeaderConverter;TransformationChain<SourceRecord>;Producer<byte[],byte[]>;TopicAdmin;Map<String,TopicCreationGroup>;CloseableOffsetStorageReader;OffsetStorageWriter;ConnectorOffsetBackingStore;WorkerConfig;ClusterConfigState;ConnectMetrics;ClassLoader;Time;RetryWithToleranceOperator;StatusBackingStore;SourceConnectorConfig;Executor;Runnable;Runnable)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#94"
+ , "c5" : "00111"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#111"
  , "c1" : "WorkerTransactionContext"
  , "c2" : "buildTransactionContext(SourceConnectorConfig)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00101"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#101"
+ , "c5" : "00118"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#118"
  , "c1" : "void"
  , "c2" : "prepareToInitializeTask()"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00114"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#114"
+ , "c5" : "00131"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#131"
  , "c1" : "void"
  , "c2" : "prepareToEnterSendLoop()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00119"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#119"
+ , "c5" : "00136"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#136"
  , "c1" : "void"
  , "c2" : "beginSendIteration()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00124"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#124"
+ , "c5" : "00141"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#141"
  , "c1" : "void"
  , "c2" : "prepareToPollTask()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00129"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#129"
+ , "c5" : "00146"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#146"
  , "c1" : "void"
  , "c2" : "recordDropped(SourceRecord)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00137"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#137"
+ , "c5" : "00154"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#154"
  , "c1" : "Optional<SubmittedRecords.SubmittedRecord>"
  , "c2" : "prepareToSendRecord(SourceRecord;ProducerRecord<byte[],byte[]>)"
  , "c3" : "2"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00156"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#156"
+ , "c5" : "00173"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#173"
  , "c1" : "void"
  , "c2" : "recordDispatched(SourceRecord)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00166"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#166"
+ , "c5" : "00183"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#183"
  , "c1" : "void"
  , "c2" : "batchDispatched()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00171"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#171"
+ , "c5" : "00188"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#188"
  , "c1" : "void"
  , "c2" : "recordSent(SourceRecord;ProducerRecord<byte[],byte[]>;RecordMetadata)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00182"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#182"
+ , "c5" : "00199"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#199"
  , "c1" : "void"
  , "c2" : "producerSendFailed(boolean;ProducerRecord<byte[],byte[]>;SourceRecord;Exception)"
  , "c3" : "3"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00199"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#199"
+ , "c5" : "00216"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#216"
  , "c1" : "void"
  , "c2" : "finalOffsetCommit(boolean)"
  , "c3" : "2"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00215"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#215"
+ , "c5" : "00232"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#232"
  , "c1" : "void"
  , "c2" : "removeMetrics()"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00220"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#220"
+ , "c5" : "00237"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#237"
  , "c1" : "void"
  , "c2" : "onPause()"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00227"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#227"
+ , "c5" : "00244"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#244"
  , "c1" : "void"
  , "c2" : "maybeBeginTransaction()"
  , "c3" : "2"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00234"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#234"
+ , "c5" : "00251"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#251"
  , "c1" : "void"
  , "c2" : "commitTransaction()"
  , "c3" : "5"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00296"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#296"
+ , "c5" : "00313"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#313"
  , "c1" : "RuntimeException"
  , "c2" : "maybeWrapProducerSendException(String;Throwable)"
  , "c3" : "3"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00304"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#304"
+ , "c5" : "00321"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#321"
  , "c1" : "boolean"
  , "c2" : "isPossibleTransactionTimeoutError(Throwable)"
  , "c3" : "1"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00309"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#309"
+ , "c5" : "00326"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#326"
  , "c1" : "ConnectException"
  , "c2" : "wrapTransactionTimeoutError(Throwable)"
  , "c3" : "1"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00322"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#322"
+ , "c5" : "00339"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#339"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00366"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#366"
+ , "c5" : "00389"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#389"
  , "c1" : "TransactionBoundaryManager"
  , "c2" : "buildTransactionManager(WorkerConfig;SourceConnectorConfig;WorkerTransactionContext)"
  , "c3" : "8"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00457"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#457"
+ , "c5" : "00480"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#480"
  , "c1" : "TransactionMetricsGroup"
  , "c2" : "transactionMetricsGroup()"
  , "c3" : "1"
@@ -324,689 +324,689 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#84"
+ , "c1" : "00101"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.ExactlyOnceWorkerSourceTask@POLYN199867 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.ExactlyOnceWorkerSourceTask@POLYN200005 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#94"
+ , "c1" : "00111"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#111"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00094] For method buildTransactionContext arguments SourceConnectorConfig  sourceConfig"
+ , "c3" : "QC-JAV000006[00111] For method buildTransactionContext arguments SourceConnectorConfig  sourceConfig"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#94"
+ , "c1" : "00111"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#111"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00094] The argument sourceConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00111] The argument sourceConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#97"
+ , "c1" : "00114"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionContext@POLYN201886 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionContext@POLYN202024 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#102"
+ , "c1" : "00119"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#119"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE572[00102] The program calls a thread's run() method instead of calling start()"
+ , "c3" : "QC-JAVCWE572[00119] The program calls a thread's run() method instead of calling start()"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#110"
+ , "c1" : "00127"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#127"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE572[00110] The program calls a thread's run() method instead of calling start()"
+ , "c3" : "QC-JAVCWE572[00127] The program calls a thread's run() method instead of calling start()"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#129"
+ , "c1" : "00146"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#146"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00129] For method recordDropped arguments SourceRecord  record"
+ , "c3" : "QC-JAV000006[00146] For method recordDropped arguments SourceRecord  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#130"
+ , "c1" : "00147"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#147"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00130] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00147] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#131"
+ , "c1" : "00148"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.recordDropped@POLYN202620 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.recordDropped@POLYN202758 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#137"
+ , "c1" : "00154"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method prepareToSendRecord arguments SourceRecord  sourceRecord|ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#139"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00139] The argument producerRecord is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.prepareToSendRecord@POLYN202948 the MagicNumber/String  'Source tasks may not produce to their own offsets topics when exactly-once support is enabled' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#156"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00156] For method recordDispatched arguments SourceRecord  record"
+ , "c3" : "QC-JAV000006[00154] For method prepareToSendRecord arguments SourceRecord  sourceRecord|ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00156"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#156"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00156] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00156] The argument producerRecord is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#171"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00171] For method recordSent arguments SourceRecord  sourceRecord|ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord|RecordMetadata  recordMetadata"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#176"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00176] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#182"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00182] For method producerSendFailed arguments boolean  synchronous|ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord|SourceRecord  preTransformRecord|Exception  e"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#190"
+ , "c1" : "00166"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.producerSendFailed@POLYN204161 the MagicNumber/String  'Unrecoverable exception trying to send' should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.prepareToSendRecord@POLYN203086 the MagicNumber/String  'Source tasks may not produce to their own offsets topics when exactly-once support is enabled' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00173"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#173"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00173] For method recordDispatched arguments SourceRecord  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00173"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#173"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00173] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#188"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00188] For method recordSent arguments SourceRecord  sourceRecord|ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord|RecordMetadata  recordMetadata"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#193"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00193] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00199"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#199"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00199] For method finalOffsetCommit arguments boolean  failed"
+ , "c3" : "QC-JAV000006[00199] For method producerSendFailed arguments boolean  synchronous|ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord|SourceRecord  preTransformRecord|Exception  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#201"
+ , "c1" : "00207"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.finalOffsetCommit@POLYN204521 the MagicNumber/String  'Skipping final offset commit as task has failed' should be converted to const"
+ , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.producerSendFailed@POLYN204299 the MagicNumber/String  'Unrecoverable exception trying to send' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00216"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#216"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.removeMetrics@POLYN204789 the MagicNumber/String  'source task transaction metrics tracker' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00216] For method finalOffsetCommit arguments boolean  failed"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#230"
+ , "c1" : "00218"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.maybeBeginTransaction@POLYN205082 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.finalOffsetCommit@POLYN204659 the MagicNumber/String  'Skipping final offset commit as task has failed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00289"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#289"
+ , "c1" : "00233"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#233"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.removeMetrics@POLYN204927 the MagicNumber/String  'source task transaction metrics tracker' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00247"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#247"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.maybeBeginTransaction@POLYN205220 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00306"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#306"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00289] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#235"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String  '{} Committing offsets' should be converted to const"
+ , "c3" : "QC-JAV000019[00306] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00252"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String  '{} Committing offsets' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#253"
+ , "c1" : "00269"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String  '{} Failed to flush offsets to storage: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#254"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#256"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String  '{} Finished flushing offsets to storage' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00266"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#266"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String  '{} Failed to commit producer transaction' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00267"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#267"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00270"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#270"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String  '{} Failed to flush offsets to storage: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00271"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#271"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00273"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#273"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String  '{} Finished flushing offsets to storage' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#274"
+ , "c1" : "00283"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String  '{} Failed to commit producer transaction' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00277"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#277"
+ , "c1" : "00284"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String  'Failed to flush offsets and/or records for task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00286"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#286"
+ , "c1" : "00287"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#287"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String  '{} Finished commitOffsets successfully in {} ms' should be converted to const"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00296"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#296"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00296] For method maybeWrapProducerSendException arguments String  message|Throwable  error"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00304"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#304"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00304] For method isPossibleTransactionTimeoutError arguments Throwable  error"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00304"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#304"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00304] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00309"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#309"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00309] For method wrapTransactionTimeoutError arguments Throwable  error"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00311"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#311"
+ , "c1" : "00290"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.wrapTransactionTimeoutError@POLYN208192 the MagicNumber/String  'The task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00311"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#311"
+ , "c1" : "00291"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.wrapTransactionTimeoutError@POLYN208192 the MagicNumber/String  ' was unable to finish writing records to Kafka before its producer transaction expired. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00312"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#312"
+ , "c1" : "00294"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.wrapTransactionTimeoutError@POLYN208192 the MagicNumber/String  'It may be necessary to reconfigure this connector in order for it to run healthily with exactly-once support. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String  'Failed to flush offsets and/or records for task ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00303"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#303"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String  '{} Finished commitOffsets successfully in {} ms' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00313"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#313"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.wrapTransactionTimeoutError@POLYN208192 the MagicNumber/String  'Options for this include: tune the connector's producer configuration for higher throughput, ' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00313] For method maybeWrapProducerSendException arguments String  message|Throwable  error"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00314"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#314"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.wrapTransactionTimeoutError@POLYN208192 the MagicNumber/String  'increase the transaction timeout for the connector's producers, ' should be converted to const"
+ , "c1" : "00321"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#321"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00321] For method isPossibleTransactionTimeoutError arguments Throwable  error"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00315"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#315"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.wrapTransactionTimeoutError@POLYN208192 the MagicNumber/String  'decrease the offset commit interval (if using interval-based transaction boundaries), ' should be converted to const"
+ , "c1" : "00321"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#321"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00321] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00316"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#316"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.wrapTransactionTimeoutError@POLYN208192 the MagicNumber/String  'or use the 'poll' transaction boundary (if the connector is not already configured to use it).' should be converted to const"
+ , "c1" : "00326"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#326"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00326] For method wrapTransactionTimeoutError arguments Throwable  error"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00323"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#323"
+ , "c1" : "00328"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#328"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.toString@POLYN208542 the MagicNumber/String  'ExactlyOnceWorkerSourceTask{' should be converted to const"
+ , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.wrapTransactionTimeoutError@POLYN208330 the MagicNumber/String  'The task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00324"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#324"
+ , "c1" : "00328"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#328"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.toString@POLYN208542 the MagicNumber/String  'id=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00325"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#325"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.toString@POLYN208542 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.wrapTransactionTimeoutError@POLYN208330 the MagicNumber/String  ' was unable to finish writing records to Kafka before its producer transaction expired. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00329"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#329"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00329] For method shouldCommitTransactionForRecord arguments SourceRecord  record"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.wrapTransactionTimeoutError@POLYN208330 the MagicNumber/String  'It may be necessary to reconfigure this connector in order for it to run healthily with exactly-once support. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00330"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionBoundaryManager.shouldCommitTransactionForRecord@POLYN208737 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.wrapTransactionTimeoutError@POLYN208330 the MagicNumber/String  'Options for this include: tune the connector's producer configuration for higher throughput, ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00331"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#331"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.wrapTransactionTimeoutError@POLYN208330 the MagicNumber/String  'increase the transaction timeout for the connector's producers, ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00332"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#332"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.wrapTransactionTimeoutError@POLYN208330 the MagicNumber/String  'decrease the offset commit interval (if using interval-based transaction boundaries), ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00333"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#333"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00333] For method shouldCommitTransactionForBatch arguments long  currentTimeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00334"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionBoundaryManager.shouldCommitTransactionForBatch@POLYN208847 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.wrapTransactionTimeoutError@POLYN208330 the MagicNumber/String  'or use the 'poll' transaction boundary (if the connector is not already configured to use it).' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00338"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#338"
+ , "c1" : "00340"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#340"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionBoundaryManager.shouldCommitFinalTransaction@POLYN208957 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.toString@POLYN208680 the MagicNumber/String  'ExactlyOnceWorkerSourceTask{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00345"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#345"
+ , "c1" : "00341"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#341"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.toString@POLYN208680 the MagicNumber/String  'id=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00342"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#342"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.toString@POLYN208680 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00346"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#346"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00345] For method maybeCommitTransactionForRecord arguments SourceRecord  record"
+ , "c3" : "QC-JAV000006[00346] For method shouldCommitTransactionForRecord arguments SourceRecord  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00357"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#357"
+ , "c1" : "00347"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#347"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionBoundaryManager.shouldCommitTransactionForRecord@POLYN208875 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#350"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00357] For method maybeCommitTransaction arguments boolean  shouldCommit"
+ , "c3" : "QC-JAV000006[00350] For method shouldCommitTransactionForBatch arguments long  currentTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00366"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#366"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00366] For method buildTransactionManager arguments WorkerConfig  workerConfig|SourceConnectorConfig  sourceConfig|WorkerTransactionContext  transactionContext"
+ , "c1" : "00351"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#351"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionBoundaryManager.shouldCommitTransactionForBatch@POLYN208985 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00366"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#366"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00366] For method buildTransactionManager list of called methods Object monObjet|TransactionBoundary sourceConfig_transactionBoundaryN210273|org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionBoundaryManager time_millisecondsN211150|org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionBoundaryManager time_millisecondsN211426"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00367"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#367"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00367] The argument workerConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00355"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#355"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionBoundaryManager.shouldCommitFinalTransaction@POLYN209095 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00368"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#368"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00368] For method maybeCommitTransactionForRecord arguments SourceRecord  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00380"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#380"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00380] For method maybeCommitTransaction arguments boolean  shouldCommit"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00389"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#389"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00389] For method buildTransactionManager arguments WorkerConfig  workerConfig|SourceConnectorConfig  sourceConfig|WorkerTransactionContext  transactionContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00389"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#389"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00389] For method buildTransactionManager list of called methods Object monObjet|TransactionBoundary sourceConfig_transactionBoundaryN210411|org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionBoundaryManager time_millisecondsN211288|org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionBoundaryManager time_millisecondsN211564"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00390"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#390"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00368] The argument sourceConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00390] The argument workerConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00369"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#369"
+ , "c1" : "00391"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#391"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00369] The argument transactionContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00391] The argument sourceConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00376"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#376"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210126 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00392"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#392"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00392] The argument transactionContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00381"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#381"
+ , "c1" : "00399"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#399"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210126 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00399] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210264 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00401"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#401"
+ , "c1" : "00404"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#404"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210126 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00403"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#403"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210126 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00409"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#409"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210126 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00414"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#414"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210126 the MagicNumber/String  'Transaction context must be provided when using connector-defined transaction boundaries' should be converted to const"
+ , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210264 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00424"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#424"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210126 the MagicNumber/String  'Aborting transaction for batch as requested by connector' should be converted to const"
+ , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210264 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00426"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#426"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210126 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210264 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00436"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#436"
+ , "c1" : "00432"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#432"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210126 the MagicNumber/String  'Aborting transaction for record on topic {} as requested by connector' should be converted to const"
+ , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210264 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00437"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210126 the MagicNumber/String  'Last record in aborted transaction: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210264 the MagicNumber/String  'Transaction context must be provided when using connector-defined transaction boundaries' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00439"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#439"
+ , "c1" : "00447"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#447"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210126 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00447] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210264 the MagicNumber/String  'Aborting transaction for batch as requested by connector' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00449"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#449"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00449] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210126 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00449] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210264 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00453"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#453"
+ , "c1" : "00459"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#459"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00453] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210126 the MagicNumber/String  'Unrecognized transaction boundary: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210264 the MagicNumber/String  'Aborting transaction for record on topic {} as requested by connector' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00467"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#467"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00467] The argument id is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00467"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#467"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00467] The argument connectMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00473"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#473"
+ , "c1" : "00460"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#460"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionMetricsGroup.TransactionMetricsGroup@POLYN213499 the MagicNumber/String  'transaction-size' should be converted to const"
+ , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210264 the MagicNumber/String  'Last record in aborted transaction: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00489"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#489"
+ , "c1" : "00462"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#462"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionMetricsGroup.abortTransaction@POLYN214729 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00462] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210264 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00494"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#494"
+ , "c1" : "00472"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#472"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00494] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionMetricsGroup.commitTransaction@POLYN214821 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210264 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00476"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#476"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210264 the MagicNumber/String  'Unrecognized transaction boundary: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00490"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#490"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00490] The argument id is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00490"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#490"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00490] The argument connectMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00496"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#496"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionMetricsGroup.TransactionMetricsGroup@POLYN213637 the MagicNumber/String  'transaction-size' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00512"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#512"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionMetricsGroup.abortTransaction@POLYN214867 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00517"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#517"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionMetricsGroup.commitTransaction@POLYN214959 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.maybeBeginTransaction@POLYN205082"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.maybeBeginTransaction@POLYN205220"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionMetricsGroup.close@POLYN214568"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionMetricsGroup.close@POLYN214706"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.finalOffsetCommit@POLYN204521"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.finalOffsetCommit@POLYN204659"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.prepareToInitializeTask@POLYN202132"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#235"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00235] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String '{} Committing offsets' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.prepareToInitializeTask@POLYN202270"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00252"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#252"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String '{} Committing offsets' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#253"
+ , "c1" : "00269"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#269"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String '{} Failed to flush offsets to storage: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#254"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00254] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#256"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00256] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String '{} Finished flushing offsets to storage' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00266"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#266"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00266] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String '{} Failed to commit producer transaction' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00267"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#267"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00269] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00270"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#270"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00270] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00270] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String '{} Failed to flush offsets to storage: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00271"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#271"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00271] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00273"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#273"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00273] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00273] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String '{} Finished flushing offsets to storage' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#274"
+ , "c1" : "00283"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#283"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00274] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00283] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String '{} Failed to commit producer transaction' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00277"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#277"
+ , "c1" : "00284"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#284"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00277] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String 'Failed to flush offsets and/or records for task ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00284] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00286"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#286"
+ , "c1" : "00287"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#287"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00286] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205292 the MagicNumber/String '{} Finished commitOffsets successfully in {} ms' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00287] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#230"
+ , "c1" : "00290"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#290"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00230] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.maybeBeginTransaction@POLYN205082 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00290] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#201"
+ , "c1" : "00291"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#291"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00201] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.finalOffsetCommit@POLYN204521 the MagicNumber/String 'Skipping final offset commit as task has failed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00291] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00294"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#294"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00294] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String 'Failed to flush offsets and/or records for task ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00303"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#303"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00303] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitTransaction@POLYN205430 the MagicNumber/String '{} Finished commitOffsets successfully in {} ms' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00247"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#247"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00247] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.maybeBeginTransaction@POLYN205220 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#218"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00218] In the recursive method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.finalOffsetCommit@POLYN204659 the MagicNumber/String 'Skipping final offset commit as task has failed' MUST BE CONVERTED to const"
 }} 
 ]
 , 

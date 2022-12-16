@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.message.StructSpec" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#24"
+ , "c5" : "00039"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#39"
  , "c1" : "StructSpec"
  , "c2" : "StructSpec(String;String;List<FieldSpec>)"
  , "c3" : "8"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#63"
+ , "c5" : "00078"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#78"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#67"
+ , "c5" : "00082"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#82"
  , "c1" : "Versions"
  , "c2" : "versions()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#72"
+ , "c5" : "00087"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#87"
  , "c1" : "String"
  , "c2" : "versionsString()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#77"
+ , "c5" : "00092"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#92"
  , "c1" : "List<FieldSpec>"
  , "c2" : "fields()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#81"
+ , "c5" : "00096"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#96"
  , "c1" : "boolean"
  , "c2" : "hasKeys()"
  , "c3" : "1"
@@ -113,115 +113,115 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151152 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151242 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151152 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151242 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151152 the MagicNumber/String  'You must specify the version of the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151242 the MagicNumber/String  'You must specify the version of the ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151152 the MagicNumber/String  ' structure.' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151242 the MagicNumber/String  ' structure.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#34"
+ , "c1" : "00049"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151152 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151242 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#40"
+ , "c1" : "00055"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151152 the MagicNumber/String  'In ' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151242 the MagicNumber/String  'In ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#40"
+ , "c1" : "00055"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151152 the MagicNumber/String  ', field ' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151242 the MagicNumber/String  ', field ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#41"
+ , "c1" : "00056"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151152 the MagicNumber/String  ' has a duplicate tag ID ' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151242 the MagicNumber/String  ' has a duplicate tag ID ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#41"
+ , "c1" : "00056"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151152 the MagicNumber/String  '.  All tags IDs ' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151242 the MagicNumber/String  '.  All tags IDs ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#42"
+ , "c1" : "00057"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151152 the MagicNumber/String  'must be unique.' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151242 the MagicNumber/String  'must be unique.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#50"
+ , "c1" : "00065"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151152 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151242 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151152 the MagicNumber/String  'In ' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151242 the MagicNumber/String  'In ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151152 the MagicNumber/String  ', the tag IDs are not ' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151242 the MagicNumber/String  ', the tag IDs are not ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#53"
+ , "c1" : "00068"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151152 the MagicNumber/String  'contiguous.  Make use of tag ' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151242 the MagicNumber/String  'contiguous.  Make use of tag ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#53"
+ , "c1" : "00068"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151152 the MagicNumber/String  ' before using any ' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151242 the MagicNumber/String  ' before using any ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#54"
+ , "c1" : "00069"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151152 the MagicNumber/String  'higher tag IDs.' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.message.StructSpec.StructSpec@POLYN151242 the MagicNumber/String  'higher tag IDs.' should be converted to const"
 }} 
 ]
 , 

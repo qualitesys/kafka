@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeLogDirsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#23"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#42"
  , "c1" : "DescribeLogDirsResult"
  , "c2" : "DescribeLogDirsResult(Map<Integer,KafkaFuture<Map<String,LogDirDescription>>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#30"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#52"
  , "c1" : "Map<Integer,KafkaFuture<Map<String,DescribeLogDirsResponse.LogDirInfo>>>"
  , "c2" : "values()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#38"
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#60"
  , "c1" : "Map<String,DescribeLogDirsResponse.LogDirInfo>"
  , "c2" : "convertMapValues(Map<String,LogDirDescription>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#56"
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#81"
  , "c1" : "Map<Integer,KafkaFuture<Map<String,LogDirDescription>>>"
  , "c2" : "descriptions()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#63"
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#91"
  , "c1" : "KafkaFuture<Map<Integer,Map<String,DescribeLogDirsResponse.LogDirInfo>>>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#71"
+ , "c5" : "00103"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#103"
  , "c1" : "KafkaFuture<Map<Integer,Map<String,LogDirDescription>>>"
  , "c2" : "allDescriptions()"
  , "c3" : "2"
@@ -134,45 +134,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#38"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method convertMapValues arguments Map&lt;String ,LogDirDescription &gt;  map"
+ , "c3" : "QC-JAV000006[00060] For method convertMapValues arguments Map&lt;String ,LogDirDescription &gt;  map"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#38"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#60"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00038] The argument map is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00060] The argument map is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#44"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.DescribeLogDirsResult.convertMapValues@POLYN162769 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.admin.DescribeLogDirsResult.convertMapValues@POLYN162961 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#72"
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.admin.DescribeLogDirsResult.allDescriptions@POLYN165246 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.clients.admin.DescribeLogDirsResult.allDescriptions@POLYN165438 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#30"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#52"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00030] Public method values is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00052] Public method values is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#63"
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#91"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00063] Public method all is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00091] Public method all is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.OffsetAndEpoch" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00008"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#8"
+ , "c5" : "00023"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#23"
  , "c1" : "OffsetAndEpoch"
  , "c2" : "OffsetAndEpoch(long;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#14"
+ , "c5" : "00029"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#29"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "4"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#25"
+ , "c5" : "00040"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#40"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#32"
+ , "c5" : "00047"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#47"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#40"
+ , "c5" : "00055"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#55"
  , "c1" : "int"
  , "c2" : "compareTo(OffsetAndEpoch)"
  , "c3" : "2"
@@ -118,94 +118,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#14"
+ , "c1" : "00029"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#29"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00014] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00029] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#16"
+ , "c1" : "00031"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00016] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00031] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#15"
+ , "c1" : "00030"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.raft.OffsetAndEpoch.equals@POLYN145258 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.raft.OffsetAndEpoch.equals@POLYN145348 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#16"
+ , "c1" : "00031"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.raft.OffsetAndEpoch.equals@POLYN145258 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.raft.OffsetAndEpoch.equals@POLYN145348 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#16"
+ , "c1" : "00031"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.raft.OffsetAndEpoch.equals@POLYN145258 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#20"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.raft.OffsetAndEpoch.equals@POLYN145258 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#26"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.raft.OffsetAndEpoch.hashCode@POLYN145841 the MagicNumber/String  32 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#27"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.raft.OffsetAndEpoch.hashCode@POLYN145841 the MagicNumber/String  31 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.raft.OffsetAndEpoch.toString@POLYN146205 the MagicNumber/String  'OffsetAndEpoch(' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.raft.OffsetAndEpoch.toString@POLYN146205 the MagicNumber/String  'offset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.raft.OffsetAndEpoch.equals@POLYN145348 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00035"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.raft.OffsetAndEpoch.toString@POLYN146205 the MagicNumber/String  ', epoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.raft.OffsetAndEpoch.equals@POLYN145348 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#36"
+ , "c1" : "00041"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.raft.OffsetAndEpoch.toString@POLYN146205 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.raft.OffsetAndEpoch.hashCode@POLYN145931 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#40"
+ , "c1" : "00042"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#42"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.raft.OffsetAndEpoch.hashCode@POLYN145931 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#48"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.raft.OffsetAndEpoch.toString@POLYN146295 the MagicNumber/String  'OffsetAndEpoch(' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#49"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.raft.OffsetAndEpoch.toString@POLYN146295 the MagicNumber/String  'offset=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#50"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.raft.OffsetAndEpoch.toString@POLYN146295 the MagicNumber/String  ', epoch=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#51"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.raft.OffsetAndEpoch.toString@POLYN146295 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method compareTo arguments OffsetAndEpoch  o"
+ , "c3" : "QC-JAV000006[00055] For method compareTo arguments OffsetAndEpoch  o"
 }} 
 ]
 , 

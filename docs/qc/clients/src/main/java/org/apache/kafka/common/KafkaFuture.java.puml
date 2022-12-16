@@ -2,17 +2,17 @@
 !pragma layout smetana
 "Future<T>" <|-- "org.apache.kafka.common.KafkaFuture"
 class org.apache.kafka.common.KafkaFuture {
-+allOf(KafkaFuture<?>...) : KafkaFuture<Void> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#40]]]
-+toCompletionStage() : CompletionStage<T> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#61]]]
-+whenComplete(BiConsumer<?superT,?superThrowable>) : KafkaFuture<T> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#70]]]
-complete(T) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#73]]]
-completeExceptionally(Throwable) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#76]]]
-+cancel(boolean) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#80]]]
-+get() : T [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#84]]]
-+get(long;TimeUnit) : T [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#88]]]
-+getNow(T) : T [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#92]]]
-+isCancelled() : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#96]]]
-+isCompletedExceptionally() : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#99]]]
-+isDone() : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#103]]]
++allOf(KafkaFuture<?>...) : KafkaFuture<Void> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#80]]]
++toCompletionStage() : CompletionStage<T> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#118]]]
++whenComplete(BiConsumer<?superT,?superThrowable>) : KafkaFuture<T> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#157]]]
+complete(T) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#163]]]
+completeExceptionally(Throwable) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#169]]]
++cancel(boolean) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#177]]]
++get() : T [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#183]]]
++get(long;TimeUnit) : T [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#190]]]
++getNow(T) : T [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#197]]]
++isCancelled() : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#203]]]
++isCompletedExceptionally() : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#208]]]
++isDone() : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#214]]]
 } 
 @enduml

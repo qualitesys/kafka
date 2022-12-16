@@ -2,8 +2,8 @@
 !pragma layout smetana
 "ConnectException" <|-- "org.apache.kafka.connect.errors.IllegalWorkerStateException"
 class org.apache.kafka.connect.errors.IllegalWorkerStateException {
-+IllegalWorkerStateException(String) : IllegalWorkerStateException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/IllegalWorkerStateException.java.html#6]]]
-+IllegalWorkerStateException(String;Throwable) : IllegalWorkerStateException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/IllegalWorkerStateException.java.html#10]]]
-+IllegalWorkerStateException(Throwable) : IllegalWorkerStateException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/IllegalWorkerStateException.java.html#14]]]
++IllegalWorkerStateException(String) : IllegalWorkerStateException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/IllegalWorkerStateException.java.html#23]]]
++IllegalWorkerStateException(String;Throwable) : IllegalWorkerStateException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/IllegalWorkerStateException.java.html#27]]]
++IllegalWorkerStateException(Throwable) : IllegalWorkerStateException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/IllegalWorkerStateException.java.html#31]]]
 } 
 @enduml

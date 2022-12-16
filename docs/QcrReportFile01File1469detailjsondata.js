@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "java.io.Reader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/secujava/java.io.Reader.java.html#14"
+ , "c5" : "00066"
+ , "c5link" : "././qc/secujava/java.io.Reader.java.html#66"
  , "c1" : "Reader"
  , "c2" : "Reader()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/secujava/java.io.Reader.java.html#19"
+ , "c5" : "00076"
+ , "c5link" : "././qc/secujava/java.io.Reader.java.html#76"
  , "c1" : "Reader"
  , "c2" : "Reader(Object)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/secujava/java.io.Reader.java.html#27"
+ , "c5" : "00097"
+ , "c5link" : "././qc/secujava/java.io.Reader.java.html#97"
  , "c1" : "int"
  , "c2" : "read(java.nio.CharBuffer)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/secujava/java.io.Reader.java.html#37"
+ , "c5" : "00119"
+ , "c5link" : "././qc/secujava/java.io.Reader.java.html#119"
  , "c1" : "int"
  , "c2" : "read()"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/secujava/java.io.Reader.java.html#46"
+ , "c5" : "00139"
+ , "c5link" : "././qc/secujava/java.io.Reader.java.html#139"
  , "c1" : "int"
  , "c2" : "read(char[])"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/secujava/java.io.Reader.java.html#51"
+ , "c5" : "00157"
+ , "c5link" : "././qc/secujava/java.io.Reader.java.html#157"
  , "c1" : "int"
  , "c2" : "read(char[];int;int)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/secujava/java.io.Reader.java.html#60"
+ , "c5" : "00176"
+ , "c5link" : "././qc/secujava/java.io.Reader.java.html#176"
  , "c1" : "long"
  , "c2" : "skip(long)"
  , "c3" : "5"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/secujava/java.io.Reader.java.html#79"
+ , "c5" : "00203"
+ , "c5link" : "././qc/secujava/java.io.Reader.java.html#203"
  , "c1" : "boolean"
  , "c2" : "ready()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/secujava/java.io.Reader.java.html#84"
+ , "c5" : "00214"
+ , "c5link" : "././qc/secujava/java.io.Reader.java.html#214"
  , "c1" : "boolean"
  , "c2" : "markSupported()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/secujava/java.io.Reader.java.html#89"
+ , "c5" : "00231"
+ , "c5link" : "././qc/secujava/java.io.Reader.java.html#231"
  , "c1" : "void"
  , "c2" : "mark(int)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/secujava/java.io.Reader.java.html#94"
+ , "c5" : "00248"
+ , "c5link" : "././qc/secujava/java.io.Reader.java.html#248"
  , "c1" : "void"
  , "c2" : "reset()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/secujava/java.io.Reader.java.html#99"
+ , "c5" : "00260"
+ , "c5link" : "././qc/secujava/java.io.Reader.java.html#260"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -188,199 +188,199 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#20"
+ , "c1" : "00077"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method java.io.Reader.Reader@POLYN179606 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method java.io.Reader.Reader@POLYN180572 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#27"
+ , "c1" : "00097"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method read arguments java.nio.CharBuffer  target"
+ , "c3" : "QC-JAV000006[00097] For method read arguments java.nio.CharBuffer  target"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#27"
+ , "c1" : "00097"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#97"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument target is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00097] The argument target is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#30"
+ , "c1" : "00100"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method java.io.Reader.read@POLYN180288 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method java.io.Reader.read@POLYN181254 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#31"
+ , "c1" : "00101"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method java.io.Reader.read@POLYN180288 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method java.io.Reader.read@POLYN181254 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#32"
+ , "c1" : "00102"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method java.io.Reader.read@POLYN180288 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method java.io.Reader.read@POLYN181254 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#38"
+ , "c1" : "00120"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method java.io.Reader.read@POLYN181280 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method java.io.Reader.read@POLYN182246 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#39"
+ , "c1" : "00121"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method java.io.Reader.read@POLYN181280 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method java.io.Reader.read@POLYN182246 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#39"
+ , "c1" : "00121"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method java.io.Reader.read@POLYN181280 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method java.io.Reader.read@POLYN182246 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#39"
+ , "c1" : "00121"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method java.io.Reader.read@POLYN181280 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method java.io.Reader.read@POLYN182246 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#40"
+ , "c1" : "00122"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method java.io.Reader.read@POLYN181280 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method java.io.Reader.read@POLYN182246 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#42"
+ , "c1" : "00124"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method java.io.Reader.read@POLYN181280 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method java.io.Reader.read@POLYN182246 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#46"
+ , "c1" : "00139"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#139"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method read arguments char[]  cbuf"
+ , "c3" : "QC-JAV000006[00139] For method read arguments char[]  cbuf"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#47"
+ , "c1" : "00140"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method java.io.Reader.read@POLYN181974 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method java.io.Reader.read@POLYN182940 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#51"
+ , "c1" : "00157"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00051] For method read arguments char[]  cbuf|int  off|int  len"
+ , "c3" : "QC-JAV000006[00157] For method read arguments char[]  cbuf|int  off|int  len"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#60"
+ , "c1" : "00176"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#176"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method skip arguments long  n"
+ , "c3" : "QC-JAV000006[00176] For method skip arguments long  n"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#64"
+ , "c1" : "00180"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#180"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00064] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00180] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#61"
+ , "c1" : "00177"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method java.io.Reader.skip@POLYN183110 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method java.io.Reader.skip@POLYN184076 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#62"
+ , "c1" : "00178"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method java.io.Reader.skip@POLYN183110 the MagicNumber/String  'skip value is negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method java.io.Reader.skip@POLYN184076 the MagicNumber/String  'skip value is negative' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#65"
+ , "c1" : "00181"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method java.io.Reader.skip@POLYN183110 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method java.io.Reader.skip@POLYN184076 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#68"
+ , "c1" : "00184"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method java.io.Reader.skip@POLYN183110 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method java.io.Reader.skip@POLYN184076 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#69"
+ , "c1" : "00185"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method java.io.Reader.skip@POLYN183110 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method java.io.Reader.skip@POLYN184076 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#70"
+ , "c1" : "00186"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method java.io.Reader.skip@POLYN183110 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method java.io.Reader.skip@POLYN184076 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#80"
+ , "c1" : "00204"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method java.io.Reader.ready@POLYN184506 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method java.io.Reader.ready@POLYN185472 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#85"
+ , "c1" : "00215"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method java.io.Reader.markSupported@POLYN184764 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method java.io.Reader.markSupported@POLYN185730 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#89"
+ , "c1" : "00231"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#231"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00089] For method mark arguments int  readAheadLimit"
+ , "c3" : "QC-JAV000006[00231] For method mark arguments int  readAheadLimit"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#90"
+ , "c1" : "00232"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method java.io.Reader.mark@POLYN185200 the MagicNumber/String  'mark() not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method java.io.Reader.mark@POLYN186166 the MagicNumber/String  'mark() not supported' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/secujava/java.io.Reader.java.html#95"
+ , "c1" : "00249"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method java.io.Reader.reset@POLYN185776 the MagicNumber/String  'reset() not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method java.io.Reader.reset@POLYN186742 the MagicNumber/String  'reset() not supported' should be converted to const"
 }} 
 ]
 , 

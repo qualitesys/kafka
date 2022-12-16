@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.transforms.Filter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#18"
+ , "c5" : "00038"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#38"
  , "c1" : "R"
  , "c2" : "apply(R)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#23"
+ , "c5" : "00043"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#43"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#28"
+ , "c5" : "00048"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#48"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#33"
+ , "c5" : "00053"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#53"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -116,52 +116,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#18"
+ , "c1" : "00038"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method apply arguments R  record"
+ , "c3" : "QC-JAV000006[00038] For method apply arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#19"
+ , "c1" : "00039"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.connect.transforms.Filter.apply@POLYN145281 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.transforms.Filter.apply@POLYN145401 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#33"
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00053] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#28"
+ , "c1" : "00048"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#48"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00028] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00048] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#28"
+ , "c1" : "00048"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#48"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00028] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00048] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#33"
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#53"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00033] Void method configure is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00053] Void method configure is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#33"
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#53"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00033] Void method configure is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00053] Void method configure is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

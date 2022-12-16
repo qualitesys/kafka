@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.ElectLeadersRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#76"
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#91"
  , "c1" : "ElectLeadersRequest"
  , "c2" : "ElectLeadersRequest(ElectLeadersRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#82"
+ , "c5" : "00097"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#97"
  , "c1" : "ElectLeadersRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#87"
+ , "c5" : "00102"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#102"
  , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "4"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#112"
+ , "c5" : "00127"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#127"
  , "c1" : "ElectLeadersRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -139,199 +139,199 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#34"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method build arguments short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toString@POLYN159087 the MagicNumber/String  'ElectLeadersRequest(' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toString@POLYN159087 the MagicNumber/String  'electionType=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toString@POLYN159087 the MagicNumber/String  ', topicPartitions=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toString@POLYN159087 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toString@POLYN159087 the MagicNumber/String  'null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toString@POLYN159087 the MagicNumber/String  ', timeoutMs=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toString@POLYN159087 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#47"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method toRequestData arguments short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549 the MagicNumber/String  'API Version 0 only supports PREFERRED election type' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00049] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toString@POLYN159177 the MagicNumber/String  'ElectLeadersRequest(' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#56"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toString@POLYN159177 the MagicNumber/String  'electionType=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#57"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toString@POLYN159177 the MagicNumber/String  ', topicPartitions=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#57"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toString@POLYN159177 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#57"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toString@POLYN159177 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toString@POLYN159177 the MagicNumber/String  ', timeoutMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#65"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toString@POLYN159177 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#87"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00087] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00062] For method toRequestData arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#87"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159639 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#64"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159639 the MagicNumber/String  'API Version 0 only supports PREFERRED election type' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#70"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159639 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#73"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159639 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159639 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#102"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN161390"
+ , "c3" : "QC-JAV000006[00102] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00093] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#102"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00102] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN161480"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#96"
+ , "c1" : "00108"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00096] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00108] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#97"
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00097] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00097] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.requests.ElectLeadersRequest.getErrorResponse@POLYN161268 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00111] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00112] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00112] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.requests.ElectLeadersRequest.getErrorResponse@POLYN161358 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00112] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00127] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159639"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#48"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#63"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159639 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#49"
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#64"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549 the MagicNumber/String 'API Version 0 only supports PREFERRED election type' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159639 the MagicNumber/String 'API Version 0 only supports PREFERRED election type' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#55"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#70"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159639 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#58"
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#73"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159639 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#65"
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#80"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159639 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

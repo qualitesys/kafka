@@ -2,12 +2,12 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.kstream.KGroupedTable"
 class org.apache.kafka.streams.kstream.KGroupedTable {
-count(Materialized<K,Long,KeyValueStore<Bytes,byte[]>>) : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#16]]]
-count(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>) : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#19]]]
-count() : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#22]]]
-count(Named) : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#26]]]
-reduce(Reducer<V>;Reducer<V>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#29]]]
-reduce(Reducer<V>;Reducer<V>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#35]]]
-reduce(Reducer<V>;Reducer<V>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#41]]]
+count(Materialized<K,Long,KeyValueStore<Bytes,byte[]>>) : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#84]]]
+count(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>) : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#128]]]
+count() : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#156]]]
+count(Named) : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#186]]]
+reduce(Reducer<V>;Reducer<V>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#256]]]
+reduce(Reducer<V>;Reducer<V>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#330]]]
+reduce(Reducer<V>;Reducer<V>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#388]]]
 } 
 @enduml

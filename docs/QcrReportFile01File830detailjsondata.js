@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.plain.internals.PlainSaslServer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#30"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#57"
  , "c1" : "PlainSaslServer"
  , "c2" : "PlainSaslServer(CallbackHandler)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#36"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#72"
  , "c1" : "byte[]"
  , "c2" : "evaluateResponse(byte[])"
  , "c3" : "5"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#70"
+ , "c5" : "00117"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#117"
  , "c1" : "List<String>"
  , "c2" : "extractTokens(String)"
  , "c3" : "4"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00091"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#91"
+ , "c5" : "00138"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#138"
  , "c1" : "String"
  , "c2" : "getAuthorizationID()"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#98"
+ , "c5" : "00145"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#145"
  , "c1" : "String"
  , "c2" : "getMechanismName()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#103"
+ , "c5" : "00150"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#150"
  , "c1" : "Object"
  , "c2" : "getNegotiatedProperty(String)"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00110"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#110"
+ , "c5" : "00157"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#157"
  , "c1" : "boolean"
  , "c2" : "isComplete()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00115"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#115"
+ , "c5" : "00162"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#162"
  , "c1" : "byte[]"
  , "c2" : "unwrap(byte[];int;int)"
  , "c3" : "2"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00122"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#122"
+ , "c5" : "00169"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#169"
  , "c1" : "byte[]"
  , "c2" : "wrap(byte[];int;int)"
  , "c3" : "2"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00129"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#129"
+ , "c5" : "00176"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#176"
  , "c1" : "void"
  , "c2" : "dispose()"
  , "c3" : "1"
@@ -184,276 +184,276 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#36"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method evaluateResponse arguments byte[]  responseBytes"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#36"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00036] For method evaluateResponse list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; extractTokensN172218"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171597 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171597 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171597 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171597 the MagicNumber/String  'Authentication failed: username not specified' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171597 the MagicNumber/String  'Authentication failed: password not specified' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#52"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171597 the MagicNumber/String  'username' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171597 the MagicNumber/String  'Authentication failed: credentials for user could not be verified' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171597 the MagicNumber/String  'Authentication failed: Invalid username or password' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171597 the MagicNumber/String  'Authentication failed: Client requested an authorization id that is different from username' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171597 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171597 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#70"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method extractTokens arguments String  string"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#70"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00070] For method extractTokens list of called methods Object monObjet|int string_indexOfN174378"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#70"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00070] The argument string is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00072] For method evaluateResponse arguments byte[]  responseBytes"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.extractTokens@POLYN173952 the MagicNumber/String  0 should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00072] For method evaluateResponse list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; extractTokensN172500"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#73"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.extractTokens@POLYN173952 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171879 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#73"
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.extractTokens@POLYN173952 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171879 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#74"
+ , "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.extractTokens@POLYN173952 the MagicNumber/String  '\u0000' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.extractTokens@POLYN173952 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.extractTokens@POLYN173952 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.extractTokens@POLYN173952 the MagicNumber/String  3 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.extractTokens@POLYN173952 the MagicNumber/String  'Invalid SASL/PLAIN response: expected 3 tokens, got ' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171879 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.getAuthorizationID@POLYN175136 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171879 the MagicNumber/String  'Authentication failed: username not specified' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#103"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method getNegotiatedProperty arguments String  propName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#105"
+ , "c1" : "00096"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.getNegotiatedProperty@POLYN175452 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171879 the MagicNumber/String  'Authentication failed: password not specified' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#106"
+ , "c1" : "00099"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.getNegotiatedProperty@POLYN175452 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171879 the MagicNumber/String  'username' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#115"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00115] For method unwrap arguments byte[]  incoming|int  offset|int  len"
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171879 the MagicNumber/String  'Authentication failed: credentials for user could not be verified' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171879 the MagicNumber/String  'Authentication failed: Invalid username or password' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171879 the MagicNumber/String  'Authentication failed: Client requested an authorization id that is different from username' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171879 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.evaluateResponse@POLYN171879 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#117"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00117] For method extractTokens arguments String  string"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#117"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00117] For method extractTokens list of called methods Object monObjet|int string_indexOfN174660"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#117"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00117] The argument string is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.unwrap@POLYN175798 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.extractTokens@POLYN174234 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.extractTokens@POLYN174234 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.extractTokens@POLYN174234 the MagicNumber/String  4 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.extractTokens@POLYN174234 the MagicNumber/String  '\u0000' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#122"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.extractTokens@POLYN174234 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#127"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.extractTokens@POLYN174234 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#130"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.extractTokens@POLYN174234 the MagicNumber/String  3 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#131"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.extractTokens@POLYN174234 the MagicNumber/String  'Invalid SASL/PLAIN response: expected 3 tokens, got ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#140"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.getAuthorizationID@POLYN175418 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method wrap arguments byte[]  outgoing|int  offset|int  len"
+ , "c3" : "QC-JAV000006[00150] For method getNegotiatedProperty arguments String  propName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#124"
+ , "c1" : "00152"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.wrap@POLYN176203 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.getNegotiatedProperty@POLYN175734 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#135"
+ , "c1" : "00153"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#153"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.getNegotiatedProperty@POLYN175734 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00162"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#162"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00135] For method createSaslServer arguments String  mechanism|String  protocol|String  serverName|Map&lt;String ,? &gt;  props|CallbackHandler  cbh"
+ , "c3" : "QC-JAV000006[00162] For method unwrap arguments byte[]  incoming|int  offset|int  len"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#139"
+ , "c1" : "00164"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.PlainSaslServerFactory.createSaslServer@POLYN176708 the MagicNumber/String  'Mechanism \'%s\' is not supported. Only PLAIN is supported.' should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.unwrap@POLYN176080 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#145"
+ , "c1" : "00169"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#169"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00145] For method getMechanismNames arguments Map&lt;String ,? &gt;  props"
+ , "c3" : "QC-JAV000006[00169] For method wrap arguments byte[]  outgoing|int  offset|int  len"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#146"
+ , "c1" : "00171"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.PlainSaslServerFactory.getMechanismNames@POLYN177233 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.wrap@POLYN176485 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#148"
+ , "c1" : "00182"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#182"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00182] For method createSaslServer arguments String  mechanism|String  protocol|String  serverName|Map&lt;String ,? &gt;  props|CallbackHandler  cbh"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00186"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.PlainSaslServerFactory.getMechanismNames@POLYN177233 the MagicNumber/String  'true' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.PlainSaslServerFactory.createSaslServer@POLYN176990 the MagicNumber/String  'Mechanism \'%s\' is not supported. Only PLAIN is supported.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#129"
+ , "c1" : "00192"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#192"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00192] For method getMechanismNames arguments Map&lt;String ,? &gt;  props"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.PlainSaslServerFactory.getMechanismNames@POLYN177515 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00195"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#195"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.common.security.plain.internals.PlainSaslServer.PlainSaslServerFactory.getMechanismNames@POLYN177515 the MagicNumber/String  'true' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00176"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#176"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00129] Void method dispose is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00176] Void method dispose is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#129"
+ , "c1" : "00176"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#176"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00129] Void method dispose is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00176] Void method dispose is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.internals.BatchMemoryPool" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#20"
+ , "c5" : "00037"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#37"
  , "c1" : "BatchMemoryPool"
  , "c2" : "BatchMemoryPool(int;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#28"
+ , "c5" : "00045"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#45"
  , "c1" : "ByteBuffer"
  , "c2" : "tryAllocate(int)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#48"
+ , "c5" : "00065"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#65"
  , "c1" : "void"
  , "c2" : "release(ByteBuffer)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#65"
+ , "c5" : "00082"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#82"
  , "c1" : "long"
  , "c2" : "size()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#75"
+ , "c5" : "00092"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#92"
  , "c1" : "long"
  , "c2" : "availableMemory()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00086"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#86"
+ , "c5" : "00103"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#103"
  , "c1" : "boolean"
  , "c2" : "isOutOfMemory()"
  , "c3" : "1"
@@ -127,66 +127,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#28"
+ , "c1" : "00045"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method tryAllocate arguments int  sizeBytes"
+ , "c3" : "QC-JAV000006[00045] For method tryAllocate arguments int  sizeBytes"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#30"
+ , "c1" : "00047"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN150684 the MagicNumber/String  'Cannot allocate buffers larger than max ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN150684 the MagicNumber/String  'batch size of ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN150684 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN150684 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN150786 the MagicNumber/String  'Cannot allocate buffers larger than max ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method release arguments ByteBuffer  previouslyAllocated"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#48"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00048] The argument previouslyAllocated is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN150786 the MagicNumber/String  'batch size of ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.raft.internals.BatchMemoryPool.release@POLYN151475 the MagicNumber/String  'Released buffer with unexpected size ' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN150786 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#87"
+ , "c1" : "00056"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.raft.internals.BatchMemoryPool.isOutOfMemory@POLYN152735 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN150786 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#65"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00065] For method release arguments ByteBuffer  previouslyAllocated"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#65"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00065] The argument previouslyAllocated is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#71"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.raft.internals.BatchMemoryPool.release@POLYN151577 the MagicNumber/String  'Released buffer with unexpected size ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.raft.internals.BatchMemoryPool.isOutOfMemory@POLYN152837 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

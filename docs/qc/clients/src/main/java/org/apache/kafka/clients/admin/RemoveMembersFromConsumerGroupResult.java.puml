@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult"
 class org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult {
-RemoveMembersFromConsumerGroupResult(KafkaFuture<Map<MemberIdentity,Errors>>;Set<MemberToRemove>) : RemoveMembersFromConsumerGroupResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#19]]]
-+all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#26]]]
-+memberResult(MemberToRemove) : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#56]]]
--maybeCompleteExceptionally(Map<MemberIdentity,Errors>;MemberIdentity;KafkaFutureImpl<Void>) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#75]]]
--removeAll() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#88]]]
+RemoveMembersFromConsumerGroupResult(KafkaFuture<Map<MemberIdentity,Errors>>;Set<MemberToRemove>) : RemoveMembersFromConsumerGroupResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#38]]]
++all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#49]]]
++memberResult(MemberToRemove) : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#81]]]
+-maybeCompleteExceptionally(Map<MemberIdentity,Errors>;MemberIdentity;KafkaFutureImpl<Void>) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#100]]]
+-removeAll() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#113]]]
 } 
 @enduml

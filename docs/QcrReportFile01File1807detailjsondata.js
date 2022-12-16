@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#18"
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#35"
  , "c1" : "StatefulProcessorNode"
  , "c2" : "StatefulProcessorNode(ProcessorParameters<K,V,?,?>;Set<StoreBuilder<?>>;Set<KTableValueGetterSupplier<?,?>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#29"
+ , "c5" : "00048"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#48"
  , "c1" : "StatefulProcessorNode"
  , "c2" : "StatefulProcessorNode(String;ProcessorParameters<K,V,?,?>;String[])"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#40"
+ , "c5" : "00062"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#62"
  , "c1" : "StatefulProcessorNode"
  , "c2" : "StatefulProcessorNode(String;ProcessorParameters<K,V,?,?>;StoreBuilder<?>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#50"
+ , "c5" : "00072"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#72"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#58"
+ , "c5" : "00080"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#80"
  , "c1" : "void"
  , "c2" : "writeToTopology(InternalTopologyBuilder)"
  , "c3" : "3"
@@ -118,108 +118,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#18"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00018] The argument processorParameters is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#19"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00019] The argument preRegisteredStores is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#20"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00020] The argument valueGetterSuppliers is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#25"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.StatefulProcessorNode@POLYN152801 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00035"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.StatefulProcessorNode@POLYN153836 the MagicNumber/String  null should be converted to const"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00035] The argument processorParameters is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.StatefulProcessorNode@POLYN154329 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00036"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#36"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00036] The argument preRegisteredStores is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.toString@POLYN154758 the MagicNumber/String  'StatefulProcessorNode{' should be converted to const"
+ , "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#37"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00037] The argument valueGetterSuppliers is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#52"
+ , "c1" : "00042"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.toString@POLYN154758 the MagicNumber/String  'storeNames=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.toString@POLYN154758 the MagicNumber/String  ', storeBuilder=' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.StatefulProcessorNode@POLYN152933 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.toString@POLYN154758 the MagicNumber/String  '} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.StatefulProcessorNode@POLYN153968 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#58"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#67"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.StatefulProcessorNode@POLYN154461 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#73"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.toString@POLYN154890 the MagicNumber/String  'StatefulProcessorNode{' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.toString@POLYN154890 the MagicNumber/String  'storeNames=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.toString@POLYN154890 the MagicNumber/String  ', storeBuilder=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#76"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.toString@POLYN154890 the MagicNumber/String  '} ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method writeToTopology arguments InternalTopologyBuilder  topologyBuilder"
+ , "c3" : "QC-JAV000006[00080] For method writeToTopology arguments InternalTopologyBuilder  topologyBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#58"
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#80"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00058] The argument topologyBuilder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00080] The argument topologyBuilder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#61"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.writeToTopology@POLYN155047 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.writeToTopology@POLYN155179 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#61"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.writeToTopology@POLYN155047 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.writeToTopology@POLYN155179 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#65"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.writeToTopology@POLYN155047 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode.writeToTopology@POLYN155179 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

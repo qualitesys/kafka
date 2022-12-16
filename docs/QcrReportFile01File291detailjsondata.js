@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.compress.ZstdFactory" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#22"
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#37"
  , "c1" : "ZstdFactory"
  , "c2" : "ZstdFactory()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#24"
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#39"
  , "c1" : "OutputStream"
  , "c2" : "wrapForOutput(ByteBufferOutputStream)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#34"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#49"
  , "c1" : "InputStream"
  , "c2" : "wrapForInput(ByteBuffer;byte;BufferSupplier)"
  , "c3" : "1"
@@ -100,52 +100,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#24"
+ , "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#39"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method wrapForOutput arguments ByteBufferOutputStream  buffer"
+ , "c3" : "QC-JAV000006[00039] For method wrapForOutput arguments ByteBufferOutputStream  buffer"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.compress.ZstdFactory.wrapForOutput@POLYN147472 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.compress.ZstdFactory.wrapForOutput@POLYN147562 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.compress.ZstdFactory.wrapForOutput@POLYN147472 the MagicNumber/String  1024 should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.compress.ZstdFactory.wrapForOutput@POLYN147562 the MagicNumber/String  1024 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#34"
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method wrapForInput arguments ByteBuffer  buffer|byte  messageVersion|BufferSupplier  decompressionBufferSupplier"
+ , "c3" : "QC-JAV000006[00049] For method wrapForInput arguments ByteBuffer  buffer|byte  messageVersion|BufferSupplier  decompressionBufferSupplier"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#34"
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#49"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00034] The argument decompressionBufferSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00049] The argument decompressionBufferSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#53"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.compress.ZstdFactory.wrapForInput@POLYN147878 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.compress.ZstdFactory.wrapForInput@POLYN147968 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#53"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.compress.ZstdFactory.wrapForInput@POLYN147878 the MagicNumber/String  1024 should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.compress.ZstdFactory.wrapForInput@POLYN147968 the MagicNumber/String  1024 should be converted to const"
 }} 
 ]
 , 

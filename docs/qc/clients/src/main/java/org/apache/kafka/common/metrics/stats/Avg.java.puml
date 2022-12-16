@@ -2,8 +2,8 @@
 !pragma layout smetana
 "SampledStat" <|-- "org.apache.kafka.common.metrics.stats.Avg"
 class org.apache.kafka.common.metrics.stats.Avg {
-+Avg() : Avg [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Avg.java.html#11]]]
-update(Sample;MetricConfig;double;long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Avg.java.html#16]]]
-+combine(List<Sample>;MetricConfig;long) : double [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Avg.java.html#21]]]
++Avg() : Avg [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Avg.java.html#28]]]
+update(Sample;MetricConfig;double;long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Avg.java.html#33]]]
++combine(List<Sample>;MetricConfig;long) : double [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Avg.java.html#38]]]
 } 
 @enduml

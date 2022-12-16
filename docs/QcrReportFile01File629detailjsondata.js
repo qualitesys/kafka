@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.CreatePartitionsRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#38"
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#53"
  , "c1" : "CreatePartitionsRequest"
  , "c2" : "CreatePartitionsRequest(CreatePartitionsRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#44"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#59"
  , "c1" : "CreatePartitionsRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#49"
+ , "c5" : "00064"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#64"
  , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#64"
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#79"
  , "c1" : "CreatePartitionsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -118,38 +118,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method build arguments short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#49"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#49"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00049] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN150069"
+ , "c3" : "QC-JAV000006[00043] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#64"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00064] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#64"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00064] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN150159"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#79"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00079] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreatePartitionsRequest.Builder.toString@POLYN149344"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreatePartitionsRequest.Builder.toString@POLYN149434"
 }} 
 ]
 , 

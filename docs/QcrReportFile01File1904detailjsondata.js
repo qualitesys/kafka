@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.QuickUnion" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#11"
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#26"
  , "c1" : "void"
  , "c2" : "add(T)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#15"
+ , "c5" : "00030"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#30"
  , "c1" : "boolean"
  , "c2" : "exists(T)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#20"
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#37"
  , "c1" : "T"
  , "c2" : "root(T)"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#40"
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#57"
  , "c1" : "void"
  , "c2" : "unite(T;T...)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#46"
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#63"
  , "c1" : "void"
  , "c2" : "unitePair(T;T)"
  , "c3" : "2"
@@ -125,66 +125,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#11"
+ , "c1" : "00026"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#26"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00011] For method add arguments T  id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#15"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00015] For method exists arguments T  id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#20"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00020] For method root arguments T  id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#20"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00020] The argument id is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00026] For method add arguments T  id"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00030"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00030] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#24"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.processor.internals.QuickUnion.root@POLYN147102 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#25"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.processor.internals.QuickUnion.root@POLYN147102 the MagicNumber/String  'id: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method unite arguments T  id1|T  ...idList"
+ , "c3" : "QC-JAV000006[00030] For method exists arguments T  id"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#46"
+ , "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method unitePair arguments T  id1|T  id2"
+ , "c3" : "QC-JAV000006[00037] For method root arguments T  id"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#37"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00037] The argument id is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#47"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00047] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#41"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.processor.internals.QuickUnion.root@POLYN147204 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#42"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.processor.internals.QuickUnion.root@POLYN147204 the MagicNumber/String  'id: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#57"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00057] For method unite arguments T  id1|T  ...idList"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#63"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00063] For method unitePair arguments T  id1|T  id2"
 }} 
 ]
 , 

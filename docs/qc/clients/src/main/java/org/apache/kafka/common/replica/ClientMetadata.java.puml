@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.replica.ClientMetadata"
 class org.apache.kafka.common.replica.ClientMetadata {
-rackId() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#13]]]
-clientId() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#16]]]
-clientAddress() : InetAddress [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#19]]]
-principal() : KafkaPrincipal [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#22]]]
-listenerName() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#25]]]
+rackId() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#32]]]
+clientId() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#37]]]
+clientAddress() : InetAddress [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#42]]]
+principal() : KafkaPrincipal [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#47]]]
+listenerName() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#52]]]
 } 
 @enduml

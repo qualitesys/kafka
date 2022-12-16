@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#18"
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#36"
  , "c1" : "LeftOrRightValueSerializer"
  , "c2" : "LeftOrRightValueSerializer(Serializer<V1>;Serializer<V2>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#25"
+ , "c5" : "00043"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#43"
  , "c1" : "void"
  , "c2" : "setIfUnset(SerdeGetter)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#39"
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#57"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;boolean)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#45"
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#63"
  , "c1" : "byte[]"
  , "c2" : "serialize(String;LeftOrRightValue<V1,V2>)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#66"
+ , "c5" : "00084"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#84"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -118,108 +118,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#25"
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method setIfUnset arguments SerdeGetter  getter"
+ , "c3" : "QC-JAV000006[00043] For method setIfUnset arguments SerdeGetter  getter"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#25"
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#43"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00025] The argument getter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00043] The argument getter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#26"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.setIfUnset@POLYN151837 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.setIfUnset@POLYN151945 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#30"
+ , "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.setIfUnset@POLYN151837 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.setIfUnset@POLYN151945 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#39"
+ , "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00057] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#45"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method serialize arguments String  topic|LeftOrRightValue&lt;V1 ,V2 &gt;  data"
+ , "c3" : "QC-JAV000006[00063] For method serialize arguments String  topic|LeftOrRightValue&lt;V1 ,V2 &gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#46"
+ , "c1" : "00064"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152846 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152954 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#47"
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152846 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152954 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#50"
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152846 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152954 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#54"
+ , "c1" : "00072"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152846 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152954 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#55"
+ , "c1" : "00073"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152846 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152954 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#59"
+ , "c1" : "00077"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152846 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152954 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#60"
+ , "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152846 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152954 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#60"
+ , "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152846 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152954 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#60"
+ , "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152846 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer.serialize@POLYN152954 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

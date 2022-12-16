@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.internals.ConsumerInterceptors" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#21"
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#39"
  , "c1" : "ConsumerInterceptors"
  , "c2" : "ConsumerInterceptors(List<ConsumerInterceptor<K,V>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#26"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#57"
  , "c1" : "ConsumerRecords<K,V>"
  , "c2" : "onConsume(ConsumerRecords<K,V>)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#40"
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#79"
  , "c1" : "void"
  , "c2" : "onCommit(Map<TopicPartition,OffsetAndMetadata>)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#53"
+ , "c5" : "00094"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#94"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -109,59 +109,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#26"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method onConsume arguments ConsumerRecords&lt;K ,V &gt;  records"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00031] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.consumer.internals.ConsumerInterceptors.onConsume@POLYN156633 the MagicNumber/String  'Error executing interceptor onConsume callback' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#40"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method onCommit arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00044] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.consumer.internals.ConsumerInterceptors.onCommit@POLYN157511 the MagicNumber/String  'Error executing interceptor onCommit callback' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00057] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00057] For method onConsume arguments ConsumerRecords&lt;K ,V &gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#58"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.consumer.internals.ConsumerInterceptors.close@POLYN158024 the MagicNumber/String  'Failed to close consumer interceptor ' should be converted to const"
+ , "c3" : "QC-JAV000001[00062] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#64"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.consumer.internals.ConsumerInterceptors.onConsume@POLYN156879 the MagicNumber/String  'Error executing interceptor onConsume callback' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#79"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00079] For method onCommit arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00083] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.clients.consumer.internals.ConsumerInterceptors.onCommit@POLYN157757 the MagicNumber/String  'Error executing interceptor onCommit callback' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00098] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.clients.consumer.internals.ConsumerInterceptors.close@POLYN158270 the MagicNumber/String  'Failed to close consumer interceptor ' should be converted to const"
 }} 
 ]
 , 

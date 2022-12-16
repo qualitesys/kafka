@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.BufferKey" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#12"
+ , "c5" : "00027"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#27"
  , "c1" : "BufferKey"
  , "c2" : "BufferKey(long;Bytes)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#32"
  , "c1" : "long"
  , "c2" : "time()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#21"
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#36"
  , "c1" : "Bytes"
  , "c2" : "key()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#26"
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#41"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#39"
+ , "c5" : "00054"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#54"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#44"
+ , "c5" : "00059"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#59"
  , "c1" : "int"
  , "c2" : "compareTo(BufferKey)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#51"
+ , "c5" : "00066"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#66"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -143,87 +143,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00041] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00030] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00045] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.state.internals.BufferKey.equals@POLYN146370 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.state.internals.BufferKey.equals@POLYN146460 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.BufferKey.equals@POLYN146370 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.BufferKey.equals@POLYN146460 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.state.internals.BufferKey.equals@POLYN146370 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.BufferKey.equals@POLYN146460 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#44"
+ , "c1" : "00059"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method compareTo arguments BufferKey  o"
+ , "c3" : "QC-JAV000006[00059] For method compareTo arguments BufferKey  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#44"
+ , "c1" : "00059"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00044] For method compareTo list of called methods Object monObjet|int Long_compareN147255"
+ , "c3" : "QC-JAV000007[00059] For method compareTo list of called methods Object monObjet|int Long_compareN147345"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#47"
+ , "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.state.internals.BufferKey.compareTo@POLYN147150 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.internals.BufferKey.compareTo@POLYN147240 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.state.internals.BufferKey.toString@POLYN147519 the MagicNumber/String  'BufferKey{' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.state.internals.BufferKey.toString@POLYN147609 the MagicNumber/String  'BufferKey{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#53"
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.state.internals.BufferKey.toString@POLYN147519 the MagicNumber/String  'key=' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.state.internals.BufferKey.toString@POLYN147609 the MagicNumber/String  'key=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#54"
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.state.internals.BufferKey.toString@POLYN147519 the MagicNumber/String  ', time=' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.state.internals.BufferKey.toString@POLYN147609 the MagicNumber/String  ', time=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#55"
+ , "c1" : "00070"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.state.internals.BufferKey.toString@POLYN147519 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.state.internals.BufferKey.toString@POLYN147609 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

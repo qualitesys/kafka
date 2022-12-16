@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.SslChannelBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#38"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#56"
  , "c1" : "SslChannelBuilder"
  , "c2" : "SslChannelBuilder(Mode;ListenerName;boolean;LogContext)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#48"
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#66"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#64"
+ , "c5" : "00082"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#82"
  , "c1" : "Set<String>"
  , "c2" : "reconfigurableConfigs()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#69"
+ , "c5" : "00087"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#87"
  , "c1" : "void"
  , "c2" : "validateReconfiguration(Map<String,?>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#74"
+ , "c5" : "00092"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#92"
  , "c1" : "void"
  , "c2" : "reconfigure(Map<String,?>)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#79"
+ , "c5" : "00097"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#97"
  , "c1" : "ListenerName"
  , "c2" : "listenerName()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#84"
+ , "c5" : "00102"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#102"
  , "c1" : "KafkaChannel"
  , "c2" : "buildChannel(String;SelectionKey;int;MemoryPool;ChannelMetadataRegistry)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#99"
+ , "c5" : "00117"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#117"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#103"
+ , "c5" : "00121"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#121"
  , "c1" : "SslTransportLayer"
  , "c2" : "buildTransportLayer(SslFactory;String;SelectionKey;ChannelMetadataRegistry)"
  , "c3" : "1"
@@ -191,171 +191,171 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#41"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#59"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00041] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00059] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#48"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00066] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#48"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#66"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00048] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00066] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#52"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.network.SslChannelBuilder.configure@POLYN167667 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.network.SslChannelBuilder.configure@POLYN167841 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#54"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.network.SslChannelBuilder.configure@POLYN167667 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.network.SslChannelBuilder.configure@POLYN167841 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#69"
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method validateReconfiguration arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00087] For method validateReconfiguration arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#74"
+ , "c1" : "00092"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method reconfigure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00092] For method reconfigure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#84"
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#102"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method buildChannel arguments String  id|SelectionKey  key|int  maxReceiveSize|MemoryPool  memoryPool|ChannelMetadataRegistry  metadataRegistry"
+ , "c3" : "QC-JAV000006[00102] For method buildChannel arguments String  id|SelectionKey  key|int  maxReceiveSize|MemoryPool  memoryPool|ChannelMetadataRegistry  metadataRegistry"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#91"
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.network.SslChannelBuilder.buildChannel@POLYN169172 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.network.SslChannelBuilder.buildChannel@POLYN169346 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#93"
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.network.SslChannelBuilder.buildChannel@POLYN169172 the MagicNumber/String  'Failed to create channel due to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.network.SslChannelBuilder.buildChannel@POLYN169346 the MagicNumber/String  'Failed to create channel due to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#100"
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.network.SslChannelBuilder.close@POLYN170217 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.common.network.SslChannelBuilder.close@POLYN170391 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#103"
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method buildTransportLayer arguments SslFactory  sslFactory|String  id|SelectionKey  key|ChannelMetadataRegistry  metadataRegistry"
+ , "c3" : "QC-JAV000006[00121] For method buildTransportLayer arguments SslFactory  sslFactory|String  id|SelectionKey  key|ChannelMetadataRegistry  metadataRegistry"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#103"
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#121"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00103] The argument sslFactory is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00121] The argument sslFactory is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#103"
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#121"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00103] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00121] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#117"
+ , "c1" : "00138"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.network.SslChannelBuilder.SslAuthenticator.SslAuthenticator@POLYN171138 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.network.SslChannelBuilder.SslAuthenticator.SslAuthenticator@POLYN171312 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#129"
+ , "c1" : "00155"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.network.SslChannelBuilder.SslAuthenticator.principal@POLYN171758 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.network.SslChannelBuilder.SslAuthenticator.principal@POLYN171932 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#130"
+ , "c1" : "00156"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.network.SslChannelBuilder.SslAuthenticator.principal@POLYN171758 the MagicNumber/String  'Unexpected call to principal() when listenerName is null' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.common.network.SslChannelBuilder.SslAuthenticator.principal@POLYN171932 the MagicNumber/String  'Unexpected call to principal() when listenerName is null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#146"
+ , "c1" : "00172"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.network.SslChannelBuilder.SslAuthenticator.close@POLYN172571 the MagicNumber/String  'principal builder' should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.common.network.SslChannelBuilder.SslAuthenticator.close@POLYN172745 the MagicNumber/String  'principal builder' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#152"
+ , "c1" : "00181"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.common.network.SslChannelBuilder.SslAuthenticator.complete@POLYN172872 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.common.network.SslChannelBuilder.SslAuthenticator.complete@POLYN173046 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#122"
+ , "c1" : "00145"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00122] Void method authenticate is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00145] Void method authenticate is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#122"
+ , "c1" : "00145"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00122] Void method authenticate is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00145] Void method authenticate is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslChannelBuilder.buildChannel@POLYN169172"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslChannelBuilder.buildChannel@POLYN169346"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#91"
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#109"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.common.network.SslChannelBuilder.buildChannel@POLYN169172 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.common.network.SslChannelBuilder.buildChannel@POLYN169346 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#93"
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#111"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.common.network.SslChannelBuilder.buildChannel@POLYN169172 the MagicNumber/String 'Failed to create channel due to ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.common.network.SslChannelBuilder.buildChannel@POLYN169346 the MagicNumber/String 'Failed to create channel due to ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

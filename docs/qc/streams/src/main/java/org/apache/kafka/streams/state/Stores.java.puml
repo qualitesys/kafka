@@ -2,16 +2,16 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.state.Stores"
 class org.apache.kafka.streams.state.Stores {
-+persistentKeyValueStore(String) : KeyValueBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#30]]]
-+persistentTimestampedKeyValueStore(String) : KeyValueBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#36]]]
-+inMemoryKeyValueStore(String) : KeyValueBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#42]]]
-+lruMap(String;int) : KeyValueBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#48]]]
-+persistentWindowStore(String;Duration;Duration;boolean) : WindowBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#72]]]
-+persistentTimestampedWindowStore(String;Duration;Duration;boolean) : WindowBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#80]]]
--persistentWindowStore(String;Duration;Duration;boolean;boolean) : WindowBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#87]]]
--persistentWindowStore(String;long;long;boolean;long;boolean) : WindowBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#103]]]
-+inMemoryWindowStore(String;Duration;Duration;boolean) : WindowBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#135]]]
-+persistentSessionStore(String;Duration) : SessionBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#163]]]
-+inMemorySessionStore(String;Duration) : SessionBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#175]]]
++persistentKeyValueStore(String) : KeyValueBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#91]]]
++persistentTimestampedKeyValueStore(String) : KeyValueBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#108]]]
++inMemoryKeyValueStore(String) : KeyValueBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#123]]]
++lruMap(String;int) : KeyValueBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#140]]]
++persistentWindowStore(String;Duration;Duration;boolean) : WindowBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#182]]]
++persistentTimestampedWindowStore(String;Duration;Duration;boolean) : WindowBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#209]]]
+-persistentWindowStore(String;Duration;Duration;boolean;boolean) : WindowBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#216]]]
+-persistentWindowStore(String;long;long;boolean;long;boolean) : WindowBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#232]]]
++inMemoryWindowStore(String;Duration;Duration;boolean) : WindowBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#281]]]
++persistentSessionStore(String;Duration) : SessionBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#317]]]
++inMemorySessionStore(String;Duration) : SessionBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#337]]]
 } 
 @enduml

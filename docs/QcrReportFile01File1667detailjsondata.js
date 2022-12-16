@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.TimeWindowedDeserializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#21"
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#36"
  , "c1" : "TimeWindowedDeserializer"
  , "c2" : "TimeWindowedDeserializer()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#26"
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#41"
  , "c1" : "TimeWindowedDeserializer"
  , "c2" : "TimeWindowedDeserializer(Deserializer<T>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#30"
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#45"
  , "c1" : "TimeWindowedDeserializer"
  , "c2" : "TimeWindowedDeserializer(Deserializer<T>;Long)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#36"
+ , "c5" : "00051"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#51"
  , "c1" : "Long"
  , "c2" : "getWindowSize()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#42"
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#57"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;boolean)"
  , "c3" : "14"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#87"
+ , "c5" : "00102"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#102"
  , "c1" : "Windowed<T>"
  , "c2" : "deserialize(String;byte[])"
  , "c3" : "3"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#104"
+ , "c5" : "00119"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#119"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00110"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#110"
+ , "c5" : "00125"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#125"
  , "c1" : "void"
  , "c2" : "setIsChangelogTopic(boolean)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00115"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#115"
+ , "c5" : "00130"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#130"
  , "c1" : "Deserializer<T>"
  , "c2" : "innerDeserializer()"
  , "c3" : "1"
@@ -154,255 +154,255 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#22"
+ , "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.TimeWindowedDeserializer@POLYN156718 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.TimeWindowedDeserializer@POLYN156808 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#22"
+ , "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.TimeWindowedDeserializer@POLYN156718 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.TimeWindowedDeserializer@POLYN156808 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.TimeWindowedDeserializer@POLYN157024 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.TimeWindowedDeserializer@POLYN157114 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#42"
+ , "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00057] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#42"
+ , "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#57"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00042] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00057] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#50"
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#50"
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#51"
+ , "c1" : "00066"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  'Window size should not be set in both the time windowed deserializer constructor and the window.size.ms config' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  'Window size should not be set in both the time windowed deserializer constructor and the window.size.ms config' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  'Window size needs to be set either through the time windowed deserializer ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  'constructor or the window.size.ms config but not both' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  'Serde class ' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  'Window size needs to be set either through the time windowed deserializer ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#68"
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  ' could not be found.' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  'constructor or the window.size.ms config but not both' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#72"
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  'Inner class deserializer set using constructor ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  '(' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  ' is different from the one set in windowed.inner.class.serde config ' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#77"
+ , "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  '(' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#77"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  ').' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  'Serde class ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#79"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  'Inner class deserializer should be set either via  constructor ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  'or via the windowed.inner.class.serde config' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157488 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  ' could not be found.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#87"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00087] For method deserialize arguments String  topic|byte[]  data"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00089"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#89"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  'Inner class deserializer set using constructor ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.deserialize@POLYN160306 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  '(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.deserialize@POLYN160306 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.deserialize@POLYN160306 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  ' is different from the one set in windowed.inner.class.serde config ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  '(' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  ').' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#95"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  'Inner class deserializer should be set either via  constructor ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00096"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#96"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  'or via the windowed.inner.class.serde config' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#97"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.configure@POLYN157578 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#102"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00102] For method deserialize arguments String  topic|byte[]  data"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.close@POLYN161018 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.deserialize@POLYN160396 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#110"
+ , "c1" : "00105"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.deserialize@POLYN160396 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.deserialize@POLYN160396 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.kstream.TimeWindowedDeserializer.close@POLYN161108 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#125"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00110] For method setIsChangelogTopic arguments boolean  isChangelogTopic"
+ , "c3" : "QC-JAV000006[00125] For method setIsChangelogTopic arguments boolean  isChangelogTopic"
 }} 
 ]
 , 

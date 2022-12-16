@@ -2,7 +2,7 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.metrics.NamedCacheMetrics"
 class org.apache.kafka.streams.state.internals.metrics.NamedCacheMetrics {
--NamedCacheMetrics() : NamedCacheMetrics [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#11]]]
-+hitRatioSensor(StreamsMetricsImpl;String;String;String) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#19]]]
+-NamedCacheMetrics() : NamedCacheMetrics [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#26]]]
++hitRatioSensor(StreamsMetricsImpl;String;String;String) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#34]]]
 } 
 @enduml

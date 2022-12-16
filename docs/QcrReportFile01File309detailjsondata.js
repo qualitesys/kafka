@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.config.internals.QuotaConfigs" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#36"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#54"
  , "c1" : "void"
  , "c2" : "buildUserClientQuotaConfigDef(ConfigDef)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#52"
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#70"
  , "c1" : "boolean"
  , "c2" : "isClientOrUserConfig(String)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#56"
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#74"
  , "c1" : "ConfigDef"
  , "c2" : "userConfigs()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#66"
+ , "c5" : "00084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#84"
  , "c1" : "ConfigDef"
  , "c2" : "clientConfigs()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#72"
+ , "c5" : "00090"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#90"
  , "c1" : "ConfigDef"
  , "c2" : "ipConfigs()"
  , "c3" : "1"
@@ -118,45 +118,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#36"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method buildUserClientQuotaConfigDef arguments ConfigDef  configDef"
+ , "c3" : "QC-JAV000006[00054] For method buildUserClientQuotaConfigDef arguments ConfigDef  configDef"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#36"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#54"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00036] The argument configDef is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00054] The argument configDef is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#52"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method isClientOrUserConfig arguments String  name"
+ , "c3" : "QC-JAV000006[00070] For method isClientOrUserConfig arguments String  name"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#59"
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.config.internals.QuotaConfigs.userConfigs@POLYN155145 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.config.internals.QuotaConfigs.userConfigs@POLYN155253 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#60"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.config.internals.QuotaConfigs.userConfigs@POLYN155145 the MagicNumber/String  'User credentials for SCRAM mechanism ' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.config.internals.QuotaConfigs.userConfigs@POLYN155253 the MagicNumber/String  'User credentials for SCRAM mechanism ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#75"
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.config.internals.QuotaConfigs.ipConfigs@POLYN155926 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.config.internals.QuotaConfigs.ipConfigs@POLYN156034 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

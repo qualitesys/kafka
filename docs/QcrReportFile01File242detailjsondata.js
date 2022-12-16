@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.ProducerInterceptors" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#21"
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#39"
  , "c1" : "ProducerInterceptors"
  , "c2" : "ProducerInterceptors(List<ProducerInterceptor<K,V>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#26"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#57"
  , "c1" : "ProducerRecord<K,V>"
  , "c2" : "onSend(ProducerRecord<K,V>)"
  , "c3" : "4"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#44"
+ , "c5" : "00085"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#85"
  , "c1" : "void"
  , "c2" : "onAcknowledgement(RecordMetadata;Exception)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#56"
+ , "c5" : "00106"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#106"
  , "c1" : "void"
  , "c2" : "onSendError(ProducerRecord<K,V>;TopicPartition;Exception)"
  , "c3" : "5"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#81"
+ , "c5" : "00133"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#133"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -125,164 +125,164 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#26"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method onSend arguments ProducerRecord&lt;K ,V &gt;  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00031] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSend@POLYN166281 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSend@POLYN166281 the MagicNumber/String  'Error executing interceptor onSend callback for topic: {}, partition: {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSend@POLYN166281 the MagicNumber/String  'Error executing interceptor onSend callback' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method onAcknowledgement arguments RecordMetadata  metadata|Exception  exception"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00048] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onAcknowledgement@POLYN167562 the MagicNumber/String  'Error executing interceptor onAcknowledgement callback' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method onSendError arguments ProducerRecord&lt;K ,V &gt;  record|TopicPartition  interceptTopicPartition|Exception  exception"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00068] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168359 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168359 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168359 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000006[00057] For method onSend arguments ProducerRecord&lt;K ,V &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168359 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00062] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168359 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#65"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168359 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSend@POLYN166593 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168359 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSend@POLYN166593 the MagicNumber/String  'Error executing interceptor onSend callback for topic: {}, partition: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#66"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168359 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168359 the MagicNumber/String  'Error executing interceptor onAcknowledgement callback' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#75"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00075] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSend@POLYN166593 the MagicNumber/String  'Error executing interceptor onSend callback' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#85"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00085] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00085] For method onAcknowledgement arguments RecordMetadata  metadata|Exception  exception"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#86"
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.close@POLYN169912 the MagicNumber/String  'Failed to close producer interceptor ' should be converted to const"
+ , "c3" : "QC-JAV000001[00089] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#91"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onAcknowledgement@POLYN167874 the MagicNumber/String  'Error executing interceptor onAcknowledgement callback' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#106"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00106] For method onSendError arguments ProducerRecord&lt;K ,V &gt;  record|TopicPartition  interceptTopicPartition|Exception  exception"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#118"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00118] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168671 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168671 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168671 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168671 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168671 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168671 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168671 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168671 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.onSendError@POLYN168671 the MagicNumber/String  'Error executing interceptor onAcknowledgement callback' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#125"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00125] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00126"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#126"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00137"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#137"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00137] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00138"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#138"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.clients.producer.internals.ProducerInterceptors.close@POLYN170224 the MagicNumber/String  'Failed to close producer interceptor ' should be converted to const"
 }} 
 ]
 , 

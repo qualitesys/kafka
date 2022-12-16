@@ -2,7 +2,7 @@
 !pragma layout smetana
 "ApiException" <|-- "org.apache.kafka.common.errors.InconsistentVoterSetException"
 class org.apache.kafka.common.errors.InconsistentVoterSetException {
-+InconsistentVoterSetException(String) : InconsistentVoterSetException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InconsistentVoterSetException.java.html#8]]]
-+InconsistentVoterSetException(String;Throwable) : InconsistentVoterSetException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InconsistentVoterSetException.java.html#12]]]
++InconsistentVoterSetException(String) : InconsistentVoterSetException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InconsistentVoterSetException.java.html#23]]]
++InconsistentVoterSetException(String;Throwable) : InconsistentVoterSetException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InconsistentVoterSetException.java.html#27]]]
 } 
 @enduml

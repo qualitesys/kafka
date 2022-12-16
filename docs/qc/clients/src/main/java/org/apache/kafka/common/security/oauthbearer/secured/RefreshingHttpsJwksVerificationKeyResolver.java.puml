@@ -2,9 +2,9 @@
 !pragma layout smetana
 "CloseableVerificationKeyResolver" <|-- "org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver"
 class org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver {
-+RefreshingHttpsJwksVerificationKeyResolver(RefreshingHttpsJwks) : RefreshingHttpsJwksVerificationKeyResolver [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#31]]]
-+init() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#37]]]
-+close() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#50]]]
-+resolveKey(JsonWebSignature;List<JsonWebStructure>) : Key [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#61]]]
++RefreshingHttpsJwksVerificationKeyResolver(RefreshingHttpsJwks) : RefreshingHttpsJwksVerificationKeyResolver [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#93]]]
++init() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#99]]]
++close() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#112]]]
++resolveKey(JsonWebSignature;List<JsonWebStructure>) : Key [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#123]]]
 } 
 @enduml

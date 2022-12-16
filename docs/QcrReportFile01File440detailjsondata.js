@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.header.Header" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00006"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/Header.java.html#6"
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/Header.java.html#21"
  , "c1" : "String"
  , "c2" : "key()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00008"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/Header.java.html#8"
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/Header.java.html#23"
  , "c1" : "byte[]"
  , "c2" : "value()"
  , "c3" : "1"

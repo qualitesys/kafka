@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KTableValueGetterSupplier" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00006"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableValueGetterSupplier.java.html#6"
+ , "c5" : "00021"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableValueGetterSupplier.java.html#21"
  , "c1" : "KTableValueGetter<K,V>"
  , "c2" : "get()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00008"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableValueGetterSupplier.java.html#8"
+ , "c5" : "00023"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableValueGetterSupplier.java.html#23"
  , "c1" : "String[]"
  , "c2" : "storeNames()"
  , "c3" : "1"

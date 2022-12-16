@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.DescribeProducersRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#44"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#59"
  , "c1" : "DescribeProducersRequest"
  , "c2" : "DescribeProducersRequest(DescribeProducersRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#50"
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#65"
  , "c1" : "DescribeProducersRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#55"
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#70"
  , "c1" : "DescribeProducersResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#73"
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#88"
  , "c1" : "DescribeProducersRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#79"
+ , "c5" : "00094"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#94"
  , "c1" : "String"
  , "c2" : "toString(boolean)"
  , "c3" : "1"
@@ -127,66 +127,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#24"
+ , "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#39"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method addTopic arguments String  topic"
+ , "c3" : "QC-JAV000006[00039] For method addTopic arguments String  topic"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#32"
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00047] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#55"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00070] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#59"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00059] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00074] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#73"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00088] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#79"
+ , "c1" : "00094"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method toString arguments boolean  verbose"
+ , "c3" : "QC-JAV000006[00094] For method toString arguments boolean  verbose"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeProducersRequest.Builder.addTopic@POLYN151871"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeProducersRequest.Builder.addTopic@POLYN151961"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeProducersRequest.Builder.toString@POLYN152395"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeProducersRequest.Builder.toString@POLYN152485"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeProducersRequest.toString@POLYN154178"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeProducersRequest.toString@POLYN154268"
 }} 
 ]
 , 

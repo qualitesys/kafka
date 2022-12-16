@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.stats.TokenBucket" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#17"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#63"
  , "c1" : "TokenBucket"
  , "c2" : "TokenBucket()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#21"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#67"
  , "c1" : "TokenBucket"
  , "c2" : "TokenBucket(TimeUnit)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#28"
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#74"
  , "c1" : "double"
  , "c2" : "measure(MetricConfig;long)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#38"
+ , "c5" : "00084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#84"
  , "c1" : "void"
  , "c2" : "record(MetricConfig;double;long)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#47"
+ , "c5" : "00093"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#93"
  , "c1" : "void"
  , "c2" : "refill(double;double;long)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#52"
+ , "c5" : "00098"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#98"
  , "c1" : "double"
  , "c2" : "burst(MetricConfig)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#57"
+ , "c5" : "00103"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#103"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -143,129 +143,129 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#23"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.metrics.stats.TokenBucket.TokenBucket@POLYN162823 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.metrics.stats.TokenBucket.TokenBucket@POLYN163099 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#24"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.metrics.stats.TokenBucket.TokenBucket@POLYN162823 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.metrics.stats.TokenBucket.TokenBucket@POLYN163099 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#28"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method measure arguments MetricConfig  config|long  timeMs"
+ , "c3" : "QC-JAV000006[00074] For method measure arguments MetricConfig  config|long  timeMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#28"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00028] For method measure list of called methods Object monObjet|org.apache.kafka.common.metrics.MetricConfig config_quotaN163356"
+ , "c3" : "QC-JAV000007[00074] For method measure list of called methods Object monObjet|org.apache.kafka.common.metrics.MetricConfig config_quotaN163632"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#28"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#74"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00028] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00074] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#29"
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.metrics.stats.TokenBucket.measure@POLYN163104 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.metrics.stats.TokenBucket.measure@POLYN163380 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#38"
+ , "c1" : "00084"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method record arguments MetricConfig  config|double  value|long  timeMs"
+ , "c3" : "QC-JAV000006[00084] For method record arguments MetricConfig  config|double  value|long  timeMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#38"
+ , "c1" : "00084"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00038] For method record list of called methods Object monObjet|org.apache.kafka.common.metrics.MetricConfig config_quotaN163925"
+ , "c3" : "QC-JAV000007[00084] For method record list of called methods Object monObjet|org.apache.kafka.common.metrics.MetricConfig config_quotaN164201"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#38"
+ , "c1" : "00084"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#84"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00038] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00084] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#39"
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.metrics.stats.TokenBucket.record@POLYN163676 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.metrics.stats.TokenBucket.record@POLYN163952 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#47"
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#93"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method refill arguments double  quota|double  burst|long  timeMs"
+ , "c3" : "QC-JAV000006[00093] For method refill arguments double  quota|double  burst|long  timeMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#52"
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#98"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method burst arguments MetricConfig  config"
+ , "c3" : "QC-JAV000006[00098] For method burst arguments MetricConfig  config"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#52"
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#98"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00052] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00098] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#58"
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN165095 the MagicNumber/String  'TokenBucket(' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN165371 the MagicNumber/String  'TokenBucket(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#59"
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN165095 the MagicNumber/String  'unit=' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN165371 the MagicNumber/String  'unit=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#60"
+ , "c1" : "00106"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN165095 the MagicNumber/String  ', tokens=' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN165371 the MagicNumber/String  ', tokens=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#61"
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN165095 the MagicNumber/String  ', lastUpdateMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN165371 the MagicNumber/String  ', lastUpdateMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#62"
+ , "c1" : "00108"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN165095 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN165371 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

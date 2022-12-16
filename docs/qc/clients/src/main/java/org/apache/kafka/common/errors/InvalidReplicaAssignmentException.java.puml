@@ -2,7 +2,7 @@
 !pragma layout smetana
 "ApiException" <|-- "org.apache.kafka.common.errors.InvalidReplicaAssignmentException"
 class org.apache.kafka.common.errors.InvalidReplicaAssignmentException {
-+InvalidReplicaAssignmentException(String) : InvalidReplicaAssignmentException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.html#8]]]
-+InvalidReplicaAssignmentException(String;Throwable) : InvalidReplicaAssignmentException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.html#12]]]
++InvalidReplicaAssignmentException(String) : InvalidReplicaAssignmentException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.html#23]]]
++InvalidReplicaAssignmentException(String;Throwable) : InvalidReplicaAssignmentException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.html#27]]]
 } 
 @enduml

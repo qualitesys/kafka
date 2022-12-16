@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#18"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#43"
  , "c1" : "ListConsumerGroupOffsetsOptions"
  , "c2" : "topicPartitions(List<TopicPartition>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#24"
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#51"
  , "c1" : "ListConsumerGroupOffsetsOptions"
  , "c2" : "requireStable(boolean)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#30"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#59"
  , "c1" : "List<TopicPartition>"
  , "c2" : "topicPartitions()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#34"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#63"
  , "c1" : "boolean"
  , "c2" : "requireStable()"
  , "c3" : "1"
@@ -95,17 +95,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#18"
+ , "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method topicPartitions arguments List&lt;TopicPartition &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00043] For method topicPartitions arguments List&lt;TopicPartition &gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#24"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method requireStable arguments boolean  requireStable"
+ , "c3" : "QC-JAV000006[00051] For method requireStable arguments boolean  requireStable"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.tools.SchemaSourceConnector" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#34"
  , "c1" : "String"
  , "c2" : "version()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#24"
+ , "c5" : "00039"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#39"
  , "c1" : "void"
  , "c2" : "start(Map<String,String>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#29"
+ , "c5" : "00044"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#44"
  , "c1" : "Class<?extendsTask>"
  , "c2" : "taskClass()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#34"
+ , "c5" : "00049"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#49"
  , "c1" : "List<Map<String,String>>"
  , "c2" : "taskConfigs(int)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#45"
+ , "c5" : "00060"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#60"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#49"
+ , "c5" : "00064"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#64"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -127,31 +127,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#24"
+ , "c1" : "00039"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#39"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method start arguments Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00039] For method start arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#34"
+ , "c1" : "00049"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method taskConfigs arguments int  maxTasks"
+ , "c3" : "QC-JAV000006[00049] For method taskConfigs arguments int  maxTasks"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#37"
+ , "c1" : "00052"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00037] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00052] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.tools.SchemaSourceConnector.taskConfigs@POLYN147428 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.tools.SchemaSourceConnector.taskConfigs@POLYN147518 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

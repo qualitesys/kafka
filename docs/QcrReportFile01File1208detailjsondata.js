@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.util.Table" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#12"
+ , "c5" : "00027"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#27"
  , "c1" : "V"
  , "c2" : "put(R;C;V)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#32"
  , "c1" : "V"
  , "c2" : "get(R;C)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#24"
+ , "c5" : "00039"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#39"
  , "c1" : "Map<C,V>"
  , "c2" : "remove(R)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#28"
+ , "c5" : "00043"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#43"
  , "c1" : "V"
  , "c2" : "remove(R;C)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#39"
+ , "c5" : "00054"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#54"
  , "c1" : "Map<C,V>"
  , "c2" : "row(R)"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#46"
+ , "c5" : "00061"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#61"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"
@@ -120,73 +120,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#12"
+ , "c1" : "00027"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00012] For method put arguments R  row|C  column|V  value"
+ , "c3" : "QC-JAV000006[00027] For method put arguments R  row|C  column|V  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#17"
+ , "c1" : "00032"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#32"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method get arguments R  row|C  column"
+ , "c3" : "QC-JAV000006[00032] For method get arguments R  row|C  column"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#19"
+ , "c1" : "00034"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.connect.util.Table.get@POLYN147833 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.util.Table.get@POLYN147923 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#20"
+ , "c1" : "00035"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.connect.util.Table.get@POLYN147833 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#24"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method remove arguments R  row"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#28"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method remove arguments R  row|C  column"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.connect.util.Table.remove@POLYN148413 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.connect.util.Table.remove@POLYN148413 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.util.Table.get@POLYN147923 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00039"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#39"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method row arguments R  row"
+ , "c3" : "QC-JAV000006[00039] For method remove arguments R  row"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#41"
+ , "c1" : "00043"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#43"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00043] For method remove arguments R  row|C  column"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.util.Table.row@POLYN149026 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.util.Table.remove@POLYN148503 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#46"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.util.Table.remove@POLYN148503 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#54"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00054] For method row arguments R  row"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#56"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.util.Table.row@POLYN149116 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

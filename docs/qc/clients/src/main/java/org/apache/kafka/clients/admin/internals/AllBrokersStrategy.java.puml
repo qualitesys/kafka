@@ -2,10 +2,10 @@
 !pragma layout smetana
 "AdminApiLookupStrategy<AllBrokersStrategy.BrokerKey>" <|-- "org.apache.kafka.clients.admin.internals.AllBrokersStrategy"
 class org.apache.kafka.clients.admin.internals.AllBrokersStrategy {
-+AllBrokersStrategy(LogContext) : AllBrokersStrategy [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#30]]]
-+lookupScope(BrokerKey) : ApiRequestScope [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#37]]]
-+buildRequest(Set<BrokerKey>) : MetadataRequest.Builder [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#42]]]
-+handleResponse(Set<BrokerKey>;AbstractResponse) : LookupResult<BrokerKey> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#49]]]
--validateLookupKeys(Set<BrokerKey>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#74]]]
++AllBrokersStrategy(LogContext) : AllBrokersStrategy [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#56]]]
++lookupScope(BrokerKey) : ApiRequestScope [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#63]]]
++buildRequest(Set<BrokerKey>) : MetadataRequest.Builder [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#68]]]
++handleResponse(Set<BrokerKey>;AbstractResponse) : LookupResult<BrokerKey> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#75]]]
+-validateLookupKeys(Set<BrokerKey>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#100]]]
 } 
 @enduml

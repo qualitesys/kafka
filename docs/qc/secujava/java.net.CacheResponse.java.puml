@@ -2,7 +2,7 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "java.net.CacheResponse"
 class java.net.CacheResponse {
-+getHeaders() : Map<String,List<String>> [[[./../.././qc/secujava/java.net.CacheResponse.java.html#14]]]
-+getBody() : InputStream [[[./../.././qc/secujava/java.net.CacheResponse.java.html#17]]]
++getHeaders() : Map<String,List<String>> [[[./../.././qc/secujava/java.net.CacheResponse.java.html#53]]]
++getBody() : InputStream [[[./../.././qc/secujava/java.net.CacheResponse.java.html#63]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.GlobalStateManager" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManager.java.html#10"
+ , "c5" : "00025"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManager.java.html#25"
  , "c1" : "void"
  , "c2" : "setGlobalProcessorContext(InternalProcessorContext)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManager.java.html#13"
+ , "c5" : "00031"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManager.java.html#31"
  , "c1" : "Set<String>"
  , "c2" : "initialize()"
  , "c3" : "1"

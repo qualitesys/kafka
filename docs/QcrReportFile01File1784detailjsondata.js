@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#11"
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#26"
  , "c1" : "CombinedKey"
  , "c2" : "CombinedKey(KF;KP)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#18"
+ , "c5" : "00033"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#33"
  , "c1" : "KF"
  , "c2" : "getForeignKey()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#22"
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#37"
  , "c1" : "KP"
  , "c2" : "getPrimaryKey()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#26"
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#41"
  , "c1" : "boolean"
  , "c2" : "equals(KF;KP)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#31"
+ , "c5" : "00046"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#46"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -118,66 +118,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#12"
+ , "c1" : "00027"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey.CombinedKey@POLYN143594 the MagicNumber/String  'foreignKey can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey.CombinedKey@POLYN143684 the MagicNumber/String  'foreignKey can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#13"
+ , "c1" : "00028"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey.CombinedKey@POLYN143594 the MagicNumber/String  'primaryKey can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey.CombinedKey@POLYN143684 the MagicNumber/String  'primaryKey can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method equals arguments KF  foreignKey|KP  primaryKey"
+ , "c3" : "QC-JAV000006[00041] For method equals arguments KF  foreignKey|KP  primaryKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#41"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00026] The argument foreignKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00041] The argument foreignKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#41"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00026] The argument primaryKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00041] The argument primaryKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#32"
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey.toString@POLYN144459 the MagicNumber/String  'CombinedKey{' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey.toString@POLYN144549 the MagicNumber/String  'CombinedKey{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey.toString@POLYN144459 the MagicNumber/String  'foreignKey=' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey.toString@POLYN144549 the MagicNumber/String  'foreignKey=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#34"
+ , "c1" : "00049"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey.toString@POLYN144459 the MagicNumber/String  ', primaryKey=' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey.toString@POLYN144549 the MagicNumber/String  ', primaryKey=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#35"
+ , "c1" : "00050"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey.toString@POLYN144459 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey.toString@POLYN144549 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

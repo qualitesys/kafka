@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KTableMaterializedValueGetterSupplier" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#11"
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#26"
  , "c1" : "KTableMaterializedValueGetterSupplier"
  , "c2" : "KTableMaterializedValueGetterSupplier(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#15"
+ , "c5" : "00030"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#30"
  , "c1" : "KTableValueGetter<K,V>"
  , "c2" : "get()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#20"
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#35"
  , "c1" : "String[]"
  , "c2" : "storeNames()"
  , "c3" : "1"
@@ -93,24 +93,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method init arguments ProcessorContext&lt;? ,? &gt;  context"
+ , "c3" : "QC-JAV000006[00043] For method init arguments ProcessorContext&lt;? ,? &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#43"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00028] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00043] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method get arguments K  key"
+ , "c3" : "QC-JAV000006[00048] For method get arguments K  key"
 }} 
 ]
 , 

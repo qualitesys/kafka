@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.FlattenedIterator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FlattenedIterator.java.html#13"
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FlattenedIterator.java.html#30"
  , "c1" : "FlattenedIterator"
  , "c2" : "FlattenedIterator(Iterator<O>;Function<O,Iterator<I>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FlattenedIterator.java.html#19"
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FlattenedIterator.java.html#36"
  , "c1" : "I"
  , "c2" : "makeNext()"
  , "c3" : "4"
@@ -77,10 +77,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FlattenedIterator.java.html#20"
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FlattenedIterator.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.utils.FlattenedIterator.makeNext@POLYN144696 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.utils.FlattenedIterator.makeNext@POLYN144798 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

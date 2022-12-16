@@ -2,7 +2,7 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.timeline.Revertable"
 class org.apache.kafka.timeline.Revertable {
-executeRevert(long;Delta) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/Revertable.java.html#8]]]
-reset() : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/Revertable.java.html#11]]]
+executeRevert(long;Delta) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/Revertable.java.html#31]]]
+reset() : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/Revertable.java.html#36]]]
 } 
 @enduml

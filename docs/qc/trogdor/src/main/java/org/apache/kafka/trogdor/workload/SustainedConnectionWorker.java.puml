@@ -2,9 +2,9 @@
 !pragma layout smetana
 "TaskWorker" <|-- "org.apache.kafka.trogdor.workload.SustainedConnectionWorker"
 class org.apache.kafka.trogdor.workload.SustainedConnectionWorker {
-+SustainedConnectionWorker(String;SustainedConnectionSpec) : SustainedConnectionWorker [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionWorker.java.html#74]]]
-+start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionWorker.java.html#80]]]
--findConnectionToMaintain() : Optional<SustainedConnection> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionWorker.java.html#386]]]
-+stop(Platform) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionWorker.java.html#490]]]
++SustainedConnectionWorker(String;SustainedConnectionSpec) : SustainedConnectionWorker [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionWorker.java.html#89]]]
++start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionWorker.java.html#95]]]
+-findConnectionToMaintain() : Optional<SustainedConnection> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionWorker.java.html#401]]]
++stop(Platform) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionWorker.java.html#505]]]
 } 
 @enduml

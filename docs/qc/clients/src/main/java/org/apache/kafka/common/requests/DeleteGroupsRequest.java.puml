@@ -2,9 +2,9 @@
 !pragma layout smetana
 "AbstractRequest" <|-- "org.apache.kafka.common.requests.DeleteGroupsRequest"
 class org.apache.kafka.common.requests.DeleteGroupsRequest {
-+DeleteGroupsRequest(DeleteGroupsRequestData;short) : DeleteGroupsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#36]]]
-+getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#42]]]
-+parse(ByteBuffer;short) : DeleteGroupsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#58]]]
-+data() : DeleteGroupsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#63]]]
++DeleteGroupsRequest(DeleteGroupsRequestData;short) : DeleteGroupsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#51]]]
++getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#57]]]
++parse(ByteBuffer;short) : DeleteGroupsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#73]]]
++data() : DeleteGroupsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#78]]]
 } 
 @enduml

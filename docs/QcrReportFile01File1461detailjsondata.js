@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "java.io.OutputStream" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00008"
- , "c5link" : "././qc/secujava/java.io.OutputStream.java.html#8"
+ , "c5" : "00062"
+ , "c5link" : "././qc/secujava/java.io.OutputStream.java.html#62"
  , "c1" : "void"
  , "c2" : "write(int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/secujava/java.io.OutputStream.java.html#11"
+ , "c5" : "00074"
+ , "c5link" : "././qc/secujava/java.io.OutputStream.java.html#74"
  , "c1" : "void"
  , "c2" : "write(byte[])"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/secujava/java.io.OutputStream.java.html#16"
+ , "c5" : "00106"
+ , "c5link" : "././qc/secujava/java.io.OutputStream.java.html#106"
  , "c1" : "void"
  , "c2" : "write(byte[];int;int)"
  , "c3" : "7"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/secujava/java.io.OutputStream.java.html#31"
+ , "c5" : "00138"
+ , "c5link" : "././qc/secujava/java.io.OutputStream.java.html#138"
  , "c1" : "void"
  , "c2" : "flush()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/secujava/java.io.OutputStream.java.html#35"
+ , "c5" : "00151"
+ , "c5link" : "././qc/secujava/java.io.OutputStream.java.html#151"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -125,101 +125,101 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00008"
- , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#8"
+ , "c1" : "00062"
+ , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00008] For method write arguments int  b"
+ , "c3" : "QC-JAV000006[00062] For method write arguments int  b"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#11"
+ , "c1" : "00074"
+ , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00011] For method write arguments byte[]  b"
+ , "c3" : "QC-JAV000006[00074] For method write arguments byte[]  b"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#12"
+ , "c1" : "00075"
+ , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method java.io.OutputStream.write@POLYN175659 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method java.io.OutputStream.write@POLYN176355 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#16"
+ , "c1" : "00106"
+ , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#106"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00016] For method write arguments byte[]  b|int  off|int  len"
+ , "c3" : "QC-JAV000006[00106] For method write arguments byte[]  b|int  off|int  len"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#17"
+ , "c1" : "00107"
+ , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method java.io.OutputStream.write@POLYN177020 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method java.io.OutputStream.write@POLYN177716 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#19"
+ , "c1" : "00109"
+ , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method java.io.OutputStream.write@POLYN177020 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method java.io.OutputStream.write@POLYN177716 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#19"
+ , "c1" : "00109"
+ , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method java.io.OutputStream.write@POLYN177020 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method java.io.OutputStream.write@POLYN177716 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#20"
+ , "c1" : "00110"
+ , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method java.io.OutputStream.write@POLYN177020 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method java.io.OutputStream.write@POLYN177716 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#22"
+ , "c1" : "00112"
+ , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method java.io.OutputStream.write@POLYN177020 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method java.io.OutputStream.write@POLYN177716 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#25"
+ , "c1" : "00115"
+ , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method java.io.OutputStream.write@POLYN177020 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method java.io.OutputStream.write@POLYN177716 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#31"
+ , "c1" : "00138"
+ , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00031] Void method flush is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00138] Void method flush is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#31"
+ , "c1" : "00138"
+ , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00031] Void method flush is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00138] Void method flush is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#35"
+ , "c1" : "00151"
+ , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00035] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00151] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#35"
+ , "c1" : "00151"
+ , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00035] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00151] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

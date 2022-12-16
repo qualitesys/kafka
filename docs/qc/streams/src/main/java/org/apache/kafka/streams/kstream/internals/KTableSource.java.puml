@@ -2,11 +2,11 @@
 !pragma layout smetana
 "ProcessorSupplier<KIn,VIn,KIn,Change<VIn>>" <|-- "org.apache.kafka.streams.kstream.internals.KTableSource"
 class org.apache.kafka.streams.kstream.internals.KTableSource {
-+KTableSource(String;String) : KTableSource [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableSource.java.html#27]]]
-+queryableName() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableSource.java.html#35]]]
-+get() : Processor<KIn,VIn,KIn,Change<VIn>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableSource.java.html#40]]]
-+enableSendingOldValues() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableSource.java.html#46]]]
-+materialize() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableSource.java.html#53]]]
-+materialized() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableSource.java.html#57]]]
++KTableSource(String;String) : KTableSource [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableSource.java.html#42]]]
++queryableName() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableSource.java.html#50]]]
++get() : Processor<KIn,VIn,KIn,Change<VIn>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableSource.java.html#55]]]
++enableSendingOldValues() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableSource.java.html#61]]]
++materialize() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableSource.java.html#68]]]
++materialized() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableSource.java.html#72]]]
 } 
 @enduml

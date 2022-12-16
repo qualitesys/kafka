@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.VoteResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#20"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#47"
  , "c1" : "VoteResponse"
  , "c2" : "VoteResponse(VoteResponseData)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#25"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#52"
  , "c1" : "VoteResponseData"
  , "c2" : "singletonResponse(Errors;TopicPartition;Errors;int;int;boolean)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#45"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#72"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#59"
+ , "c5" : "00086"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#86"
  , "c1" : "VoteResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#64"
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#91"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#68"
+ , "c5" : "00095"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#95"
  , "c1" : "VoteResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -157,66 +157,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#25"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method singletonResponse arguments Errors  topLevelError|TopicPartition  topicPartition|Errors  partitionLevelError|int  leaderEpoch|int  leaderId|boolean  voteGranted"
+ , "c3" : "QC-JAV000006[00052] For method singletonResponse arguments Errors  topLevelError|TopicPartition  topicPartition|Errors  partitionLevelError|int  leaderEpoch|int  leaderId|boolean  voteGranted"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#25"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#52"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00025] The argument topLevelError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00052] The argument topLevelError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#26"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#53"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00026] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00053] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#27"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#54"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument partitionLevelError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00054] The argument partitionLevelError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#51"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00051] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00078] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#48"
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.requests.VoteResponse.errorCounts@POLYN152723 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.requests.VoteResponse.errorCounts@POLYN152885 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#68"
+ , "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#95"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00095] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.VoteResponse.errorCounts@POLYN152723"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.VoteResponse.errorCounts@POLYN152885"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#48"
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#75"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.common.requests.VoteResponse.errorCounts@POLYN152723 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.common.requests.VoteResponse.errorCounts@POLYN152885 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ]
 , 

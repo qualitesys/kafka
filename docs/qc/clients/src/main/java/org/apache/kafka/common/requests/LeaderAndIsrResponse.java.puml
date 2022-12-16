@@ -2,14 +2,14 @@
 !pragma layout smetana
 "AbstractResponse" <|-- "org.apache.kafka.common.requests.LeaderAndIsrResponse"
 class org.apache.kafka.common.requests.LeaderAndIsrResponse {
-+LeaderAndIsrResponse(LeaderAndIsrResponseData;short) : LeaderAndIsrResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#24]]]
-+topics() : LeaderAndIsrTopicErrorCollection [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#30]]]
-+error() : Errors [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#34]]]
-+errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#39]]]
-+partitionErrors(Map<Uuid,String>) : Map<TopicPartition,Errors> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#58]]]
-+throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#78]]]
-+parse(ByteBuffer;short) : LeaderAndIsrResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#82]]]
-+data() : LeaderAndIsrResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#87]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#92]]]
++LeaderAndIsrResponse(LeaderAndIsrResponseData;short) : LeaderAndIsrResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#44]]]
++topics() : LeaderAndIsrTopicErrorCollection [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#50]]]
++error() : Errors [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#54]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#59]]]
++partitionErrors(Map<Uuid,String>) : Map<TopicPartition,Errors> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#78]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#98]]]
++parse(ByteBuffer;short) : LeaderAndIsrResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#102]]]
++data() : LeaderAndIsrResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#107]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#112]]]
 } 
 @enduml

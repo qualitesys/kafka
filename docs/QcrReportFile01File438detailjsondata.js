@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.feature.Features" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#16"
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#45"
  , "c1" : "Features"
  , "c2" : "Features(Map<String,VersionRangeType>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#22"
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#55"
  , "c1" : "Features<SupportedVersionRange>"
  , "c2" : "supportedFeatures(Map<String,SupportedVersionRange>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#26"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#59"
  , "c1" : "Features<SupportedVersionRange>"
  , "c2" : "emptySupportedFeatures()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#30"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#63"
  , "c1" : "Map<String,VersionRangeType>"
  , "c2" : "features()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#34"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#67"
  , "c1" : "boolean"
  , "c2" : "empty()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#39"
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#77"
  , "c1" : "VersionRangeType"
  , "c2" : "get(String)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#43"
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#81"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#55"
+ , "c5" : "00096"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#96"
  , "c1" : "Map<String,Map<String,Short>>"
  , "c2" : "toMap()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#78"
+ , "c5" : "00134"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#134"
  , "c1" : "Features<SupportedVersionRange>"
  , "c2" : "fromSupportedFeaturesMap(Map<String,Map<String,Short>>)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#84"
+ , "c5" : "00140"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#140"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#97"
+ , "c5" : "00153"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#153"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -179,101 +179,101 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#17"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.feature.Features.Features@POLYN162620 the MagicNumber/String  'Provided features can not be null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.feature.Features.Features@POLYN162956 the MagicNumber/String  'Provided features can not be null.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#22"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method supportedFeatures arguments Map&lt;String ,SupportedVersionRange &gt;  features"
+ , "c3" : "QC-JAV000006[00055] For method supportedFeatures arguments Map&lt;String ,SupportedVersionRange &gt;  features"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#39"
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method get arguments String  feature"
+ , "c3" : "QC-JAV000006[00077] For method get arguments String  feature"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#45"
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.feature.Features.toString@POLYN163876 the MagicNumber/String  'Features{%s}' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.feature.Features.toString@POLYN164212 the MagicNumber/String  'Features{%s}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#49"
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.feature.Features.toString@POLYN163876 the MagicNumber/String  '(%s -&amp;gt; %s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.feature.Features.toString@POLYN164212 the MagicNumber/String  '(%s -&amp;gt; %s)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#50"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.feature.Features.toString@POLYN163876 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.feature.Features.toString@POLYN164212 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#70"
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#119"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00070] The argument featuresMap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00119] The argument featuresMap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#70"
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#119"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00070] The argument converter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00119] The argument converter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#78"
+ , "c1" : "00134"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#134"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method fromSupportedFeaturesMap arguments Map&lt;String ,Map&lt;String ,Short &gt; &gt;  featuresMap"
+ , "c3" : "QC-JAV000006[00134] For method fromSupportedFeaturesMap arguments Map&lt;String ,Map&lt;String ,Short &gt; &gt;  featuresMap"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#84"
+ , "c1" : "00140"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method equals arguments Object  other"
+ , "c3" : "QC-JAV000006[00140] For method equals arguments Object  other"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#86"
+ , "c1" : "00142"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.feature.Features.equals@POLYN166276 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.feature.Features.equals@POLYN166612 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#89"
+ , "c1" : "00145"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.feature.Features.equals@POLYN166276 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.feature.Features.equals@POLYN166612 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#26"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#59"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00026] Public method emptySupportedFeatures is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00059] Public method emptySupportedFeatures is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#78"
+ , "c1" : "00134"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#134"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00078] Public method fromSupportedFeaturesMap is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00134] Public method fromSupportedFeaturesMap is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

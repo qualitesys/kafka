@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#72"
+ , "c5" : "00087"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#87"
  , "c1" : "ConnectorPluginsResource"
  , "c2" : "ConnectorPluginsResource(Herder)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#94"
+ , "c5" : "00109"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#109"
  , "c1" : "void"
  , "c2" : "requestTimeout(long)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00101"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#101"
+ , "c5" : "00116"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#116"
  , "c1" : "ConfigInfos"
  , "c2" : "validateConfigs(String;Map<String,String>)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00132"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#132"
+ , "c5" : "00147"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#147"
  , "c1" : "List<PluginInfo>"
  , "c2" : "listConnectorPlugins(boolean)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00149"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#149"
+ , "c5" : "00164"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#164"
  , "c1" : "List<ConfigKeyInfo>"
  , "c2" : "getConnectorConfigDef(String)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00155"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#155"
+ , "c5" : "00170"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#170"
  , "c1" : "String"
  , "c2" : "normalizedPluginName(String)"
  , "c3" : "1"
@@ -141,108 +141,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#72"
+ , "c1" : "00087"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#87"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00072] The argument herder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#86"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00086] The argument plugins is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#86"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00086] The argument excludes is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#94"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00094] For method requestTimeout arguments long  requestTimeoutMs"
+ , "c3" : "QC-JAVCWE476[00087] The argument herder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#101"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method validateConfigs arguments String  pluginName|Map&lt;String ,String &gt;  connectorConfig"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#103"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00103] The argument connectorConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00101] The argument plugins is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource.validateConfigs@POLYN174449 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource.validateConfigs@POLYN174449 the MagicNumber/String  'Included connector type ' should be converted to const"
+ , "c1" : "00101"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#101"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00101] The argument excludes is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource.validateConfigs@POLYN174449 the MagicNumber/String  ' does not match request type ' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00109] For method requestTimeout arguments long  requestTimeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#116"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource.validateConfigs@POLYN174449 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource.validateConfigs@POLYN174449 the MagicNumber/String  'Request timed out' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#125"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource.validateConfigs@POLYN174449 the MagicNumber/String  'Request interrupted' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00132] For method listConnectorPlugins arguments boolean  connectorsOnly"
+ , "c3" : "QC-JAV000006[00116] For method validateConfigs arguments String  pluginName|Map&lt;String ,String &gt;  connectorConfig"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#135"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00135] Lock statement on synchronized resource"
+ , "c1" : "00118"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#118"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00118] The argument connectorConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#149"
+ , "c1" : "00121"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource.validateConfigs@POLYN174539 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00124"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#124"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource.validateConfigs@POLYN174539 the MagicNumber/String  'Included connector type ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00124"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#124"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource.validateConfigs@POLYN174539 the MagicNumber/String  ' does not match request type ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#131"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource.validateConfigs@POLYN174539 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00138"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#138"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource.validateConfigs@POLYN174539 the MagicNumber/String  'Request timed out' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#140"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource.validateConfigs@POLYN174539 the MagicNumber/String  'Request interrupted' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00147"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00149] For method getConnectorConfigDef arguments String  pluginName"
+ , "c3" : "QC-JAV000006[00147] For method listConnectorPlugins arguments boolean  connectorsOnly"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -253,31 +239,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#155"
+ , "c1" : "00164"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#164"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00155] For method normalizedPluginName arguments String  pluginName"
+ , "c3" : "QC-JAV000006[00164] For method getConnectorConfigDef arguments String  pluginName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#155"
+ , "c1" : "00165"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#165"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00165] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#170"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00170] For method normalizedPluginName arguments String  pluginName"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#170"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00155] The argument pluginName is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00170] The argument pluginName is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#157"
+ , "c1" : "00172"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00157] The same method call ALIAS_SUFFIX.length()pluginName.substring(0,pluginName.length()-ALIAS_SUFFIX.length()) is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00172] The same method call ALIAS_SUFFIX.length()pluginName.substring(0,pluginName.length()-ALIAS_SUFFIX.length()) is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#158"
+ , "c1" : "00173"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource.normalizedPluginName@POLYN177125 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource.normalizedPluginName@POLYN177215 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

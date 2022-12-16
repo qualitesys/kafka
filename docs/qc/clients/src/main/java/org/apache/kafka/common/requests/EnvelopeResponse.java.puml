@@ -2,14 +2,14 @@
 !pragma layout smetana
 "AbstractResponse" <|-- "org.apache.kafka.common.requests.EnvelopeResponse"
 class org.apache.kafka.common.requests.EnvelopeResponse {
-+EnvelopeResponse(ByteBuffer;Errors) : EnvelopeResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#16]]]
-+EnvelopeResponse(Errors) : EnvelopeResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#23]]]
-+EnvelopeResponse(EnvelopeResponseData) : EnvelopeResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#27]]]
-+responseData() : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#32]]]
-+errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#37]]]
-+error() : Errors [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#41]]]
-+data() : EnvelopeResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#46]]]
-+throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#51]]]
-+parse(ByteBuffer;short) : EnvelopeResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#55]]]
++EnvelopeResponse(ByteBuffer;Errors) : EnvelopeResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#31]]]
++EnvelopeResponse(Errors) : EnvelopeResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#38]]]
++EnvelopeResponse(EnvelopeResponseData) : EnvelopeResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#42]]]
++responseData() : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#47]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#52]]]
++error() : Errors [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#56]]]
++data() : EnvelopeResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#61]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#66]]]
++parse(ByteBuffer;short) : EnvelopeResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#70]]]
 } 
 @enduml

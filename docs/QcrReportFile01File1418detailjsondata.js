@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.ReplicatedLog" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#15"
+ , "c5" : "00038"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#38"
  , "c1" : "LogAppendInfo"
  , "c2" : "appendAsLeader(Records;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#18"
+ , "c5" : "00049"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#49"
  , "c1" : "LogAppendInfo"
  , "c2" : "appendAsFollower(Records)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#21"
+ , "c5" : "00054"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#54"
  , "c1" : "LogFetchInfo"
  , "c2" : "read(long;Isolation)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#24"
+ , "c5" : "00065"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#65"
  , "c1" : "int"
  , "c2" : "lastFetchedEpoch()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#27"
+ , "c5" : "00089"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#89"
  , "c1" : "ValidOffsetAndEpoch"
  , "c2" : "validateOffsetAndEpoch(long;int)"
  , "c3" : "6"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#59"
+ , "c5" : "00128"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#128"
  , "c1" : "OffsetAndEpoch"
  , "c2" : "endOffsetForEpoch(int)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#62"
+ , "c5" : "00134"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#134"
  , "c1" : "LogOffsetMetadata"
  , "c2" : "endOffset()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#65"
+ , "c5" : "00139"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#139"
  , "c1" : "LogOffsetMetadata"
  , "c2" : "highWatermark()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#68"
+ , "c5" : "00145"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#145"
  , "c1" : "long"
  , "c2" : "startOffset()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#71"
+ , "c5" : "00154"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#154"
  , "c1" : "void"
  , "c2" : "initializeLeaderEpoch(int)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#74"
+ , "c5" : "00162"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#162"
  , "c1" : "void"
  , "c2" : "truncateTo(long)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#77"
+ , "c5" : "00172"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#172"
  , "c1" : "boolean"
  , "c2" : "truncateToLatestSnapshot()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#80"
+ , "c5" : "00181"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#181"
  , "c1" : "void"
  , "c2" : "updateHighWatermark(LogOffsetMetadata)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#83"
+ , "c5" : "00189"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#189"
  , "c1" : "boolean"
  , "c2" : "deleteBeforeSnapshot(OffsetAndEpoch)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00086"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#86"
+ , "c5" : "00198"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#198"
  , "c1" : "void"
  , "c2" : "flush(boolean)"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#89"
+ , "c5" : "00203"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#203"
  , "c1" : "boolean"
  , "c2" : "maybeClean()"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00092"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#92"
+ , "c5" : "00208"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#208"
  , "c1" : "long"
  , "c2" : "lastFlushedOffset()"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00095"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#95"
+ , "c5" : "00213"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#213"
  , "c1" : "TopicPartition"
  , "c2" : "topicPartition()"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#98"
+ , "c5" : "00218"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#218"
  , "c1" : "Uuid"
  , "c2" : "topicId()"
  , "c3" : "1"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00101"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#101"
+ , "c5" : "00226"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#226"
  , "c1" : "long"
  , "c2" : "truncateToEndOffset(OffsetAndEpoch)"
  , "c3" : "5"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00120"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#120"
+ , "c5" : "00261"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#261"
  , "c1" : "Optional<RawSnapshotWriter>"
  , "c2" : "createNewSnapshot(OffsetAndEpoch)"
  , "c3" : "1"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#123"
+ , "c5" : "00277"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#277"
  , "c1" : "Optional<RawSnapshotWriter>"
  , "c2" : "storeSnapshot(OffsetAndEpoch)"
  , "c3" : "1"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00126"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#126"
+ , "c5" : "00290"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#290"
  , "c1" : "Optional<RawSnapshotReader>"
  , "c2" : "readSnapshot(OffsetAndEpoch)"
  , "c3" : "1"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00129"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#129"
+ , "c5" : "00298"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#298"
  , "c1" : "Optional<RawSnapshotReader>"
  , "c2" : "latestSnapshot()"
  , "c3" : "1"
@@ -234,8 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00132"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#132"
+ , "c5" : "00306"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#306"
  , "c1" : "Optional<OffsetAndEpoch>"
  , "c2" : "latestSnapshotId()"
  , "c3" : "1"
@@ -243,8 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00135"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#135"
+ , "c5" : "00317"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#317"
  , "c1" : "Optional<OffsetAndEpoch>"
  , "c2" : "earliestSnapshotId()"
  , "c3" : "1"
@@ -252,8 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00138"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#138"
+ , "c5" : "00322"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#322"
  , "c1" : "void"
  , "c2" : "onSnapshotFrozen(OffsetAndEpoch)"
  , "c3" : "1"
@@ -261,8 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00140"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#140"
+ , "c5" : "00324"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#324"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -311,10 +311,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#101"
+ , "c1" : "00226"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#226"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00101] The argument endOffset is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00226] The argument endOffset is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.internals.CoordinatorKey"
 class org.apache.kafka.clients.admin.internals.CoordinatorKey {
--CoordinatorKey(FindCoordinatorRequest.CoordinatorType;String) : CoordinatorKey [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#12]]]
-+equals(Object) : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#18]]]
-+hashCode() : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#27]]]
-+toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#32]]]
-+byGroupId(String) : CoordinatorKey [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#39]]]
-+byTransactionalId(String) : CoordinatorKey [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#43]]]
+-CoordinatorKey(FindCoordinatorRequest.CoordinatorType;String) : CoordinatorKey [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#27]]]
++equals(Object) : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#33]]]
++hashCode() : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#42]]]
++toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#47]]]
++byGroupId(String) : CoordinatorKey [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#54]]]
++byTransactionalId(String) : CoordinatorKey [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#58]]]
 } 
 @enduml

@@ -2,7 +2,7 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.metrics.TopicMetrics"
 class org.apache.kafka.streams.processor.internals.metrics.TopicMetrics {
-+consumedSensor(String;String;String;String;StreamsMetricsImpl) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#29]]]
-+producedSensor(String;String;String;String;StreamsMetricsImpl) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#53]]]
++consumedSensor(String;String;String;String;StreamsMetricsImpl) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#44]]]
++producedSensor(String;String;String;String;StreamsMetricsImpl) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#68]]]
 } 
 @enduml

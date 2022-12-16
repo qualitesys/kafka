@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.storage.CloseableOffsetStorageReader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/CloseableOffsetStorageReader.java.html#12"
+ , "c5" : "00032"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/CloseableOffsetStorageReader.java.html#32"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.CreatePartitionsResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#18"
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#33"
  , "c1" : "CreatePartitionsResponse"
  , "c2" : "CreatePartitionsResponse(CreatePartitionsResponseData)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#24"
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#39"
  , "c1" : "CreatePartitionsResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#29"
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#44"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#37"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#52"
  , "c1" : "CreatePartitionsResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#42"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#57"
  , "c1" : "boolean"
  , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#47"
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#62"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -136,31 +136,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#37"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00052] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#42"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method shouldClientThrottle arguments short  version"
+ , "c3" : "QC-JAV000006[00057] For method shouldClientThrottle arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#43"
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.requests.CreatePartitionsResponse.shouldClientThrottle@POLYN147118 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.CreatePartitionsResponse.shouldClientThrottle@POLYN147208 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreatePartitionsResponse.throttleTimeMs@POLYN147264"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreatePartitionsResponse.throttleTimeMs@POLYN147354"
 }} 
 ]
 , 

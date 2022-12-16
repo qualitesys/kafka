@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.ControllerResultAndOffset" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#14"
+ , "c5" : "00029"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#29"
  , "c1" : "ControllerResultAndOffset"
  , "c2" : "ControllerResultAndOffset(long;ControllerResult<T>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#34"
  , "c1" : "long"
  , "c2" : "offset()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#24"
+ , "c5" : "00039"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#39"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#36"
+ , "c5" : "00051"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#51"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#56"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -125,52 +125,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#14"
+ , "c1" : "00029"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#29"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00014] The argument result is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00029] The argument result is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#24"
+ , "c1" : "00039"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#39"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00039] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00031] The same method call other.isAtomic() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00046] The same method call other.isAtomic() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.controller.ControllerResultAndOffset.equals@POLYN147941 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.controller.ControllerResultAndOffset.equals@POLYN148031 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.controller.ControllerResultAndOffset.equals@POLYN147941 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.controller.ControllerResultAndOffset.equals@POLYN148031 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#43"
+ , "c1" : "00058"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.controller.ControllerResultAndOffset.toString@POLYN148905 the MagicNumber/String  'ControllerResultAndOffset(records=%s, response=%s, isAtomic=%s, offset=%s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.controller.ControllerResultAndOffset.toString@POLYN148995 the MagicNumber/String  'ControllerResultAndOffset(records=%s, response=%s, isAtomic=%s, offset=%s)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#44"
+ , "c1" : "00059"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.controller.ControllerResultAndOffset.toString@POLYN148905 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.controller.ControllerResultAndOffset.toString@POLYN148995 the MagicNumber/String  ',' should be converted to const"
 }} 
 ]
 , 

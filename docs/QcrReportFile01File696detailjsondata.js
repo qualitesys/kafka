@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.ListPartitionReassignmentsRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#56"
  , "c1" : "ListPartitionReassignmentsRequest"
  , "c2" : "ListPartitionReassignmentsRequest(ListPartitionReassignmentsRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#46"
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#61"
  , "c1" : "ListPartitionReassignmentsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#52"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#67"
  , "c1" : "ListPartitionReassignmentsRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#57"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#72"
  , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "3"
@@ -125,45 +125,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method build arguments short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#46"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method parse arguments ByteBuffer  buffer|short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#57"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#57"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00057] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN152851"
+ , "c3" : "QC-JAV000006[00044] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#61"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00061] For method parse arguments ByteBuffer  buffer|short  version"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#72"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00072] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#72"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00072] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN152941"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.requests.ListPartitionReassignmentsRequest.getErrorResponse@POLYN152729 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.requests.ListPartitionReassignmentsRequest.getErrorResponse@POLYN152819 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ListPartitionReassignmentsRequest.Builder.toString@POLYN151930"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ListPartitionReassignmentsRequest.Builder.toString@POLYN152020"
 }} 
 ]
 , 

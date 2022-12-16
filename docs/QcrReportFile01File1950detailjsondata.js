@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#47"
+ , "c5" : "00062"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#62"
  , "c1" : "AssignmentInfo"
  , "c2" : "AssignmentInfo(int;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#58"
+ , "c5" : "00073"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#73"
  , "c1" : "AssignmentInfo"
  , "c2" : "AssignmentInfo(int;List<TaskId>;Map<TaskId,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;int)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#67"
+ , "c5" : "00082"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#82"
  , "c1" : "AssignmentInfo"
  , "c2" : "AssignmentInfo(int;int;List<TaskId>;Map<TaskId,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;int)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#88"
+ , "c5" : "00103"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#103"
  , "c1" : "void"
  , "c2" : "setNextRebalanceTime(long)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00092"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#92"
+ , "c5" : "00107"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#107"
  , "c1" : "int"
  , "c2" : "version()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00096"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#96"
+ , "c5" : "00111"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#111"
  , "c1" : "int"
  , "c2" : "errCode()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00100"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#100"
+ , "c5" : "00115"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#115"
  , "c1" : "int"
  , "c2" : "commonlySupportedVersion()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#104"
+ , "c5" : "00119"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#119"
  , "c1" : "List<TaskId>"
  , "c2" : "activeTasks()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00108"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#108"
+ , "c5" : "00123"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#123"
  , "c1" : "Map<TaskId,Set<TopicPartition>>"
  , "c2" : "standbyTasks()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#112"
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#127"
  , "c1" : "Map<HostInfo,Set<TopicPartition>>"
  , "c2" : "partitionsByHost()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00116"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#116"
+ , "c5" : "00131"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#131"
  , "c1" : "Map<HostInfo,Set<TopicPartition>>"
  , "c2" : "standbyPartitionByHost()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00120"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#120"
+ , "c5" : "00135"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#135"
  , "c1" : "long"
  , "c2" : "nextRebalanceMs()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00125"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#125"
+ , "c5" : "00143"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#143"
  , "c1" : "ByteBuffer"
  , "c2" : "encode()"
  , "c3" : "12"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00192"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#192"
+ , "c5" : "00210"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#210"
  , "c1" : "void"
  , "c2" : "encodeActiveAndStandbyTaskAssignment(DataOutputStream)"
  , "c3" : "3"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00210"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#210"
+ , "c5" : "00228"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#228"
  , "c1" : "void"
  , "c2" : "encodePartitionsByHost(DataOutputStream)"
  , "c3" : "2"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00219"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#219"
+ , "c5" : "00237"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#237"
  , "c1" : "void"
  , "c2" : "encodeHostPartitionMapUsingDictionary(DataOutputStream;Map<String,Integer>;Map<HostInfo,Set<TopicPartition>>)"
  , "c3" : "3"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00236"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#236"
+ , "c5" : "00254"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#254"
  , "c1" : "Map<String,Integer>"
  , "c2" : "encodeTopicDictionaryAndGet(DataOutputStream;Set<TopicPartition>)"
  , "c3" : "4"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00257"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#257"
+ , "c5" : "00275"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#275"
  , "c1" : "void"
  , "c2" : "encodePartitionsByHostAsDictionary(DataOutputStream)"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00264"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#264"
+ , "c5" : "00282"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#282"
  , "c1" : "void"
  , "c2" : "encodeActiveAndStandbyHostPartitions(DataOutputStream)"
  , "c3" : "1"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00273"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#273"
+ , "c5" : "00291"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#291"
  , "c1" : "void"
  , "c2" : "writeHostInfo(DataOutputStream;HostInfo)"
  , "c3" : "1"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00278"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#278"
+ , "c5" : "00296"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#296"
  , "c1" : "void"
  , "c2" : "writeTopicPartitions(DataOutputStream;Set<TopicPartition>)"
  , "c3" : "2"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00288"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#288"
+ , "c5" : "00308"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#308"
  , "c1" : "AssignmentInfo"
  , "c2" : "decode(ByteBuffer)"
  , "c3" : "12"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00367"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#367"
+ , "c5" : "00387"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#387"
  , "c1" : "void"
  , "c2" : "decodeActiveTasks(AssignmentInfo;DataInputStream)"
  , "c3" : "2"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00376"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#376"
+ , "c5" : "00396"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#396"
  , "c1" : "void"
  , "c2" : "decodeStandbyTasks(AssignmentInfo;DataInputStream)"
  , "c3" : "2"
@@ -234,8 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00386"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#386"
+ , "c5" : "00406"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#406"
  , "c1" : "void"
  , "c2" : "decodePartitionsByHost(AssignmentInfo;DataInputStream)"
  , "c3" : "2"
@@ -243,8 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00396"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#396"
+ , "c5" : "00416"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#416"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "readTopicPartitions(DataInputStream)"
  , "c3" : "2"
@@ -252,8 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00405"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#405"
+ , "c5" : "00425"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#425"
  , "c1" : "Map<Integer,String>"
  , "c2" : "decodeTopicIndexAndGet(DataInputStream)"
  , "c3" : "2"
@@ -261,8 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00414"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#414"
+ , "c5" : "00434"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#434"
  , "c1" : "Map<HostInfo,Set<TopicPartition>>"
  , "c2" : "decodeHostPartitionMapUsingDictionary(DataInputStream;Map<Integer,String>)"
  , "c3" : "2"
@@ -270,8 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00425"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#425"
+ , "c5" : "00445"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#445"
  , "c1" : "void"
  , "c2" : "decodePartitionsByHostUsingDictionary(AssignmentInfo;DataInputStream)"
  , "c3" : "1"
@@ -279,8 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00431"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#431"
+ , "c5" : "00451"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#451"
  , "c1" : "void"
  , "c2" : "decodeActiveAndStandbyHostPartitions(AssignmentInfo;DataInputStream)"
  , "c3" : "1"
@@ -288,8 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00438"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#438"
+ , "c5" : "00458"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#458"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "readTopicPartitions(DataInputStream;Map<Integer,String>)"
  , "c3" : "2"
@@ -297,8 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00449"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#449"
+ , "c5" : "00469"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#469"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -306,8 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00456"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#456"
+ , "c5" : "00476"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#476"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -315,8 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00472"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#472"
+ , "c5" : "00492"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#492"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -423,171 +423,143 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#55"
+ , "c1" : "00070"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.AssignmentInfo@POLYN220303 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.AssignmentInfo@POLYN220423 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#82"
+ , "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.AssignmentInfo@POLYN221252 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.AssignmentInfo@POLYN221372 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#83"
+ , "c1" : "00098"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.AssignmentInfo@POLYN221252 the MagicNumber/String  'version must be between 1 and ' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.AssignmentInfo@POLYN221372 the MagicNumber/String  'version must be between 1 and ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#84"
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.AssignmentInfo@POLYN221252 the MagicNumber/String  '; was: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.AssignmentInfo@POLYN221372 the MagicNumber/String  '; was: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#88"
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method setNextRebalanceTime arguments long  nextRebalanceTimeMs"
+ , "c3" : "QC-JAV000006[00103] For method setNextRebalanceTime arguments long  nextRebalanceTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#130"
+ , "c1" : "00148"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223509 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#134"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223509 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#139"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223509 the MagicNumber/String  3 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#145"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223509 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223629 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223509 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223629 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#159"
+ , "c1" : "00157"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223509 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223629 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#166"
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223509 the MagicNumber/String  7 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#167"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223509 the MagicNumber/String  8 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#168"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223509 the MagicNumber/String  9 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#169"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223509 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223629 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223509 the MagicNumber/String  11 should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223629 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#179"
+ , "c1" : "00177"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223509 the MagicNumber/String  'Unknown metadata version: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223629 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#180"
+ , "c1" : "00184"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223509 the MagicNumber/String  '; latest commonly supported version: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223629 the MagicNumber/String  7 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00185"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223629 the MagicNumber/String  8 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00186"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#186"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223629 the MagicNumber/String  9 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00187"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#187"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223629 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223509 the MagicNumber/String  'Failed to encode AssignmentInfo' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223629 the MagicNumber/String  11 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#192"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00192] For method encodeActiveAndStandbyTaskAssignment arguments DataOutputStream  out"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#192"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00192] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#202"
+ , "c1" : "00197"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00202] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223629 the MagicNumber/String  'Unknown metadata version: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#205"
+ , "c1" : "00198"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00205] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223629 the MagicNumber/String  '; latest commonly supported version: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00206"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#206"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN223629 the MagicNumber/String  'Failed to encode AssignmentInfo' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00210"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#210"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00210] For method encodePartitionsByHost arguments DataOutputStream  out"
+ , "c3" : "QC-JAV000006[00210] For method encodeActiveAndStandbyTaskAssignment arguments DataOutputStream  out"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -598,689 +570,717 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#219"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00219] For method encodeHostPartitionMapUsingDictionary arguments DataOutputStream  out|Map&lt;String ,Integer &gt;  topicNameDict|Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  hostPartitionMap"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#219"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00219] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#220"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00220] The argument topicNameDict is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#221"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00221] The argument hostPartitionMap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00229"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00229] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00220] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#236"
+ , "c1" : "00223"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#223"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00223] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00228"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#228"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00236] For method encodeTopicDictionaryAndGet arguments DataOutputStream  out|Set&lt;TopicPartition &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00228] For method encodePartitionsByHost arguments DataOutputStream  out"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#236"
+ , "c1" : "00228"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#228"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00236] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00228] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00237"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#237"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00237] For method encodeHostPartitionMapUsingDictionary arguments DataOutputStream  out|Map&lt;String ,Integer &gt;  topicNameDict|Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  hostPartitionMap"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00237"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#237"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00237] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00238"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#238"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00238] The argument topicNameDict is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00239"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#239"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00239] The argument hostPartitionMap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00247"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encodeTopicDictionaryAndGet@POLYN229425 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00247] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00254"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#254"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00254] For method encodeTopicDictionaryAndGet arguments DataOutputStream  out|Set&lt;TopicPartition &gt;  topicPartitions"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00254"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#254"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00254] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00257"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#257"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00257] For method encodePartitionsByHostAsDictionary arguments DataOutputStream  out"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encodeTopicDictionaryAndGet@POLYN229545 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#257"
+ , "c1" : "00275"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#275"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00257] For method encodePartitionsByHostAsDictionary list of called methods Object monObjet|java.util.Map&lt;java.lang.String,?&gt; partitionsByHost_valuesN230642|java.util.Map&lt;java.lang.String,java.lang.Integer&gt; encodeTopicDictionaryAndGetN230889"
+ , "c3" : "QC-JAV000006[00275] For method encodePartitionsByHostAsDictionary arguments DataOutputStream  out"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#264"
+ , "c1" : "00275"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#275"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00264] For method encodeActiveAndStandbyHostPartitions arguments DataOutputStream  out"
+ , "c3" : "QC-JAV000007[00275] For method encodePartitionsByHostAsDictionary list of called methods Object monObjet|java.util.Map&lt;java.lang.String,?&gt; partitionsByHost_valuesN230762|java.util.Map&lt;java.lang.String,java.lang.Integer&gt; encodeTopicDictionaryAndGetN231009"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#264"
+ , "c1" : "00282"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#282"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00264] For method encodeActiveAndStandbyHostPartitions list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Integer&gt; encodeTopicDictionaryAndGetN231556"
+ , "c3" : "QC-JAV000006[00282] For method encodeActiveAndStandbyHostPartitions arguments DataOutputStream  out"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00273"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#273"
+ , "c1" : "00282"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#282"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00273] For method writeHostInfo arguments DataOutputStream  out|HostInfo  hostInfo"
+ , "c3" : "QC-JAV000007[00282] For method encodeActiveAndStandbyHostPartitions list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Integer&gt; encodeTopicDictionaryAndGetN231676"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00273"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#273"
+ , "c1" : "00291"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#291"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00291] For method writeHostInfo arguments DataOutputStream  out|HostInfo  hostInfo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00291"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#291"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00273] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00291] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00273"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#273"
+ , "c1" : "00291"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#291"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00273] The argument hostInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00291] The argument hostInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00278"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#278"
+ , "c1" : "00296"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#296"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00278] For method writeTopicPartitions arguments DataOutputStream  out|Set&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00296] For method writeTopicPartitions arguments DataOutputStream  out|Set&lt;TopicPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00278"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#278"
+ , "c1" : "00296"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#296"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00278] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00296] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00279"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#279"
+ , "c1" : "00297"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#297"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00279] The argument partitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00297] The argument partitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00288"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#288"
+ , "c1" : "00308"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#308"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00288] For method decode arguments ByteBuffer  data"
+ , "c3" : "QC-JAV000006[00308] For method decode arguments ByteBuffer  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00288"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#288"
+ , "c1" : "00308"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#308"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00288] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00308] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00298"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#298"
+ , "c1" : "00318"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00304"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#304"
+ , "c1" : "00324"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00310"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#310"
+ , "c1" : "00330"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00317"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#317"
+ , "c1" : "00337"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String  4 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00325"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#325"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String  5 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00333"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#333"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String  6 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00341"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#341"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String  7 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00342"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#342"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String  8 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00343"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#343"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String  9 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00344"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#344"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00345"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String  11 should be converted to const"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00355"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#355"
+ , "c1" : "00353"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#353"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String  'Unable to decode assignment data: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00356"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#356"
+ , "c1" : "00361"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#361"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String  'used version: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00356"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#356"
+ , "c1" : "00362"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String  '; latest supported version: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00363"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#363"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String  'Failed to decode AssignmentInfo' should be converted to const"
+ , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String  9 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00367"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#367"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00367] For method decodeActiveTasks arguments AssignmentInfo  assignmentInfo|DataInputStream  in"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00367"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#367"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00367] The argument assignmentInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00368"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#368"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00368] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00371"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#371"
+ , "c1" : "00364"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decodeActiveTasks@POLYN237583 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String  10 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00365"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#365"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00365] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String  11 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00375"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#375"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String  'Unable to decode assignment data: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00376"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#376"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00376] For method decodeStandbyTasks arguments AssignmentInfo  assignmentInfo|DataInputStream  in"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String  'used version: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00376"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#376"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00376] The argument assignmentInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00377"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#377"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00377] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00381"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#381"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00381] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String  '; latest supported version: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00380"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#380"
+ , "c1" : "00383"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#383"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decodeStandbyTasks@POLYN238188 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00383] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String  'Failed to decode AssignmentInfo' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00386"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#386"
+ , "c1" : "00387"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#387"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00386] For method decodePartitionsByHost arguments AssignmentInfo  assignmentInfo|DataInputStream  in"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00386"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#386"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00386] The argument assignmentInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00387] For method decodeActiveTasks arguments AssignmentInfo  assignmentInfo|DataInputStream  in"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00387"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#387"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00387] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00387] The argument assignmentInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00388"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#388"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00388] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00391"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#391"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00391] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00390"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#390"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00390] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decodePartitionsByHost@POLYN238906 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decodeActiveTasks@POLYN237703 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00396"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#396"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00396] For method readTopicPartitions arguments DataInputStream  in"
+ , "c3" : "QC-JAV000006[00396] For method decodeStandbyTasks arguments AssignmentInfo  assignmentInfo|DataInputStream  in"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00396"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#396"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00396] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00396] The argument assignmentInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00399"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#399"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00399] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.readTopicPartitions@POLYN239673 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00405"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#405"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00405] For method decodeTopicIndexAndGet arguments DataInputStream  in"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00405"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#405"
+ , "c1" : "00397"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#397"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00405] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00397] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00408"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#408"
+ , "c1" : "00401"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#401"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decodeTopicIndexAndGet@POLYN240382 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00401] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00414"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#414"
+ , "c1" : "00400"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#400"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decodeStandbyTasks@POLYN238308 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00406"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#406"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00414] For method decodeHostPartitionMapUsingDictionary arguments DataInputStream  in|Map&lt;Integer ,String &gt;  topicIndexDict"
+ , "c3" : "QC-JAV000006[00406] For method decodePartitionsByHost arguments AssignmentInfo  assignmentInfo|DataInputStream  in"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00414"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#414"
+ , "c1" : "00406"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#406"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00414] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00406] The argument assignmentInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00407"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#407"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00407] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00411"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#411"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00411] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00410"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#410"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decodePartitionsByHost@POLYN239026 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00416"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#416"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00416] For method readTopicPartitions arguments DataInputStream  in"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00416"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#416"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00416] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00419"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00419] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.readTopicPartitions@POLYN239793 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00418"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#418"
+ , "c1" : "00425"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#425"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00425] For method decodeTopicIndexAndGet arguments DataInputStream  in"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00425"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#425"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00425] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00428"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#428"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decodeHostPartitionMapUsingDictionary@POLYN241090 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decodeTopicIndexAndGet@POLYN240502 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00425"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#425"
+ , "c1" : "00434"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#434"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00425] For method decodePartitionsByHostUsingDictionary arguments AssignmentInfo  assignmentInfo|DataInputStream  in"
+ , "c3" : "QC-JAV000006[00434] For method decodeHostPartitionMapUsingDictionary arguments DataInputStream  in|Map&lt;Integer ,String &gt;  topicIndexDict"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00425"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#425"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00425] For method decodePartitionsByHostUsingDictionary list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,java.lang.String&gt; decodeTopicIndexAndGetN242150|java.util.Map&lt;org.apache.kafka.streams.state.HostInfo,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; decodeHostPartitionMapUsingDictionaryN242243"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00425"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#425"
+ , "c1" : "00434"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#434"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00425] The argument assignmentInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00431"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#431"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00431] For method decodeActiveAndStandbyHostPartitions arguments AssignmentInfo  assignmentInfo|DataInputStream  in"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00431"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#431"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00431] For method decodeActiveAndStandbyHostPartitions list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,java.lang.String&gt; decodeTopicIndexAndGetN242504|java.util.Map&lt;org.apache.kafka.streams.state.HostInfo,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; decodeHostPartitionMapUsingDictionaryN242597|java.util.Map&lt;org.apache.kafka.streams.state.HostInfo,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; decodeHostPartitionMapUsingDictionaryN242712"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00431"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#431"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00431] The argument assignmentInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00438"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#438"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00438] For method readTopicPartitions arguments DataInputStream  in|Map&lt;Integer ,String &gt;  topicIndexDict"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00438"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#438"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00438] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00434] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00439"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#439"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00439] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00438"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#438"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00438] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decodeHostPartitionMapUsingDictionary@POLYN241210 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00445"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#445"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00445] For method decodePartitionsByHostUsingDictionary arguments AssignmentInfo  assignmentInfo|DataInputStream  in"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00445"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#445"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00445] For method decodePartitionsByHostUsingDictionary list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,java.lang.String&gt; decodeTopicIndexAndGetN242270|java.util.Map&lt;org.apache.kafka.streams.state.HostInfo,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; decodeHostPartitionMapUsingDictionaryN242363"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00445"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#445"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00439] The argument topicIndexDict is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00445] The argument assignmentInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00442"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#442"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.readTopicPartitions@POLYN242824 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00449"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#449"
+ , "c1" : "00451"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#451"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00449] For method hashCode list of called methods Object monObjet|int partitionsByHost_hashCodeN243689"
+ , "c3" : "QC-JAV000006[00451] For method decodeActiveAndStandbyHostPartitions arguments AssignmentInfo  assignmentInfo|DataInputStream  in"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00456"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#456"
+ , "c1" : "00451"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#451"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00456] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000007[00451] For method decodeActiveAndStandbyHostPartitions list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,java.lang.String&gt; decodeTopicIndexAndGetN242624|java.util.Map&lt;org.apache.kafka.streams.state.HostInfo,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; decodeHostPartitionMapUsingDictionaryN242717|java.util.Map&lt;org.apache.kafka.streams.state.HostInfo,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; decodeHostPartitionMapUsingDictionaryN242832"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00467"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#467"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00467] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.equals@POLYN243981 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00451"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#451"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00451] The argument assignmentInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00473"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#473"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.toString@POLYN244717 the MagicNumber/String  '[version=' should be converted to const"
+ , "c1" : "00458"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#458"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00458] For method readTopicPartitions arguments DataInputStream  in|Map&lt;Integer ,String &gt;  topicIndexDict"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00474"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#474"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.toString@POLYN244717 the MagicNumber/String  ', supported version=' should be converted to const"
+ , "c1" : "00458"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#458"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00458] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00475"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#475"
+ , "c1" : "00459"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#459"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00459] The argument topicIndexDict is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00462"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#462"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.toString@POLYN244717 the MagicNumber/String  ', active tasks=' should be converted to const"
+ , "c3" : "QC-JAV000010[00462] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.readTopicPartitions@POLYN242944 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00469"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#469"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00469] For method hashCode list of called methods Object monObjet|int partitionsByHost_hashCodeN243809"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00476"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#476"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.toString@POLYN244717 the MagicNumber/String  ', standby tasks=' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00476] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00477"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#477"
+ , "c1" : "00487"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#487"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.toString@POLYN244717 the MagicNumber/String  ', partitions by host=' should be converted to const"
+ , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.equals@POLYN244101 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00478"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#478"
+ , "c1" : "00493"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#493"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.toString@POLYN244717 the MagicNumber/String  ', standbyPartitions by host=' should be converted to const"
+ , "c3" : "QC-JAV000010[00493] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.toString@POLYN244837 the MagicNumber/String  '[version=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00479"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#479"
+ , "c1" : "00494"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#494"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.toString@POLYN244717 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00494] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.toString@POLYN244837 the MagicNumber/String  ', supported version=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#120"
+ , "c1" : "00495"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#495"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00495] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.toString@POLYN244837 the MagicNumber/String  ', active tasks=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00496"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#496"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.toString@POLYN244837 the MagicNumber/String  ', standby tasks=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00497"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#497"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00497] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.toString@POLYN244837 the MagicNumber/String  ', partitions by host=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00498"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#498"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.toString@POLYN244837 the MagicNumber/String  ', standbyPartitions by host=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00499"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#499"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.toString@POLYN244837 the MagicNumber/String  ']' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#135"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00120] Public method nextRebalanceMs is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00135] Public method nextRebalanceMs is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#88"
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00088] Public method setNextRebalanceTime is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00103] Public method setNextRebalanceTime is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.hashCode@POLYN243609"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.hashCode@POLYN243729"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00298"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#298"
+ , "c1" : "00318"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#318"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00298] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00318] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00304"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#304"
+ , "c1" : "00324"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#324"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00304] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00324] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00310"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#310"
+ , "c1" : "00330"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#330"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00310] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String 3 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00330] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String 3 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00317"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#317"
+ , "c1" : "00337"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#337"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00317] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String 4 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00325"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#325"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00325] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String 5 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00333"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#333"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00333] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String 6 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00341"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#341"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00341] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String 7 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00342"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#342"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00342] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String 8 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00343"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#343"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00343] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String 9 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00344"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#344"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00344] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String 10 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00337] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String 4 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00345"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#345"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00345] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String 11 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00345] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String 5 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00355"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#355"
+ , "c1" : "00353"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#353"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00355] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String 'Unable to decode assignment data: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00353] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String 6 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00356"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#356"
+ , "c1" : "00361"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#361"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00356] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String '; latest supported version: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00361] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String 7 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00356"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#356"
+ , "c1" : "00362"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#362"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00356] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String 'used version: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00362] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String 8 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00363"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#363"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00363] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String 'Failed to decode AssignmentInfo' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00363] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String 9 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00364"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#364"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00364] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String 10 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00365"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#365"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00365] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String 11 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00375"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#375"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00375] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String 'Unable to decode assignment data: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00376"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#376"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00376] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String '; latest supported version: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00376"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#376"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00376] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String 'used version: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00383"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#383"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00383] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232820 the MagicNumber/String 'Failed to decode AssignmentInfo' MUST BE CONVERTED to const"
 }} 
 ]
 , 

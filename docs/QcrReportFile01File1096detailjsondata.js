@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.WorkerSourceTask" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#46"
+ , "c5" : "00063"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#63"
  , "c1" : "WorkerSourceTask"
  , "c2" : "WorkerSourceTask(ConnectorTaskId;SourceTask;TaskStatus.Listener;TargetState;Converter;Converter;HeaderConverter;TransformationChain<SourceRecord>;Producer<byte[],byte[]>;TopicAdmin;Map<String,TopicCreationGroup>;CloseableOffsetStorageReader;OffsetStorageWriter;ConnectorOffsetBackingStore;WorkerConfig;ClusterConfigState;ConnectMetrics;ClassLoader;Time;RetryWithToleranceOperator;StatusBackingStore;Executor)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#80"
+ , "c5" : "00097"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#97"
  , "c1" : "void"
  , "c2" : "prepareToInitializeTask()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#85"
+ , "c5" : "00102"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#102"
  , "c1" : "void"
  , "c2" : "prepareToEnterSendLoop()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#90"
+ , "c5" : "00107"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#107"
  , "c1" : "void"
  , "c2" : "beginSendIteration()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00095"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#95"
+ , "c5" : "00112"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#112"
  , "c1" : "void"
  , "c2" : "prepareToPollTask()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00100"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#100"
+ , "c5" : "00117"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#117"
  , "c1" : "void"
  , "c2" : "recordDropped(SourceRecord)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00105"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#105"
+ , "c5" : "00122"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#122"
  , "c1" : "Optional<SubmittedRecords.SubmittedRecord>"
  , "c2" : "prepareToSendRecord(SourceRecord;ProducerRecord<byte[],byte[]>)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00114"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#114"
+ , "c5" : "00131"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#131"
  , "c1" : "void"
  , "c2" : "recordDispatched(SourceRecord)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00119"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#119"
+ , "c5" : "00136"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#136"
  , "c1" : "void"
  , "c2" : "batchDispatched()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00124"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#124"
+ , "c5" : "00141"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#141"
  , "c1" : "void"
  , "c2" : "recordSent(SourceRecord;ProducerRecord<byte[],byte[]>;RecordMetadata)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00133"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#133"
+ , "c5" : "00150"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#150"
  , "c1" : "void"
  , "c2" : "producerSendFailed(boolean;ProducerRecord<byte[],byte[]>;SourceRecord;Exception)"
  , "c3" : "4"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00165"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#165"
+ , "c5" : "00182"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#182"
  , "c1" : "void"
  , "c2" : "finalOffsetCommit(boolean)"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00178"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#178"
+ , "c5" : "00195"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#195"
  , "c1" : "boolean"
  , "c2" : "commitOffsets()"
  , "c3" : "9"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00284"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#284"
+ , "c5" : "00301"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#301"
  , "c1" : "void"
  , "c2" : "updateCommittableOffsets()"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00291"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#291"
+ , "c5" : "00308"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#308"
  , "c1" : "void"
  , "c2" : "maybeThrowProducerSendException()"
  , "c3" : "2"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00301"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#301"
+ , "c5" : "00318"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#318"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -254,570 +254,570 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#70"
+ , "c1" : "00087"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.connect.runtime.WorkerSourceTask.WorkerSourceTask@POLYN178658 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.runtime.WorkerSourceTask.WorkerSourceTask@POLYN178760 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#100"
+ , "c1" : "00117"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#117"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00100] For method recordDropped arguments SourceRecord  record"
+ , "c3" : "QC-JAV000006[00117] For method recordDropped arguments SourceRecord  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#101"
+ , "c1" : "00118"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.runtime.WorkerSourceTask.recordDropped@POLYN180560 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.runtime.WorkerSourceTask.recordDropped@POLYN180662 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#105"
+ , "c1" : "00122"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method prepareToSendRecord arguments SourceRecord  sourceRecord|ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord"
+ , "c3" : "QC-JAV000006[00122] For method prepareToSendRecord arguments SourceRecord  sourceRecord|ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#114"
+ , "c1" : "00131"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#131"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00114] For method recordDispatched arguments SourceRecord  record"
+ , "c3" : "QC-JAV000006[00131] For method recordDispatched arguments SourceRecord  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#124"
+ , "c1" : "00141"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#141"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00124] For method recordSent arguments SourceRecord  sourceRecord|ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord|RecordMetadata  recordMetadata"
+ , "c3" : "QC-JAV000006[00141] For method recordSent arguments SourceRecord  sourceRecord|ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord|RecordMetadata  recordMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#133"
+ , "c1" : "00150"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00133] For method producerSendFailed arguments boolean  synchronous|ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord|SourceRecord  preTransformRecord|Exception  e"
+ , "c3" : "QC-JAV000006[00150] For method producerSendFailed arguments boolean  synchronous|ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord|SourceRecord  preTransformRecord|Exception  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#135"
+ , "c1" : "00152"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#152"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00135] The argument producerRecord is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00152] The argument producerRecord is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#140"
+ , "c1" : "00157"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181464 the MagicNumber/String  'Unrecoverable exception trying to send' should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181566 the MagicNumber/String  'Unrecoverable exception trying to send' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#146"
+ , "c1" : "00163"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181464 the MagicNumber/String  'Ignoring failed record send: {} failed to send record to {}: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181566 the MagicNumber/String  'Ignoring failed record send: {} failed to send record to {}: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#158"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181464 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181566 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#160"
+ , "c1" : "00177"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181464 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181566 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#165"
+ , "c1" : "00182"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#182"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00165] For method finalOffsetCommit arguments boolean  failed"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#178"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00178] For method commitOffsets list of called methods Object monObjet|boolean time_millisecondsN183071|boolean time_millisecondsN184475|boolean time_millisecondsN186904"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#187"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00187] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#181"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  '{} Committing offsets' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#193"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  '{} Either no records were produced by the task since the last offset commit, ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#194"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  'or every record has been filtered out by a transformation ' should be converted to const"
+ , "c3" : "QC-JAV000006[00182] For method finalOffsetCommit arguments boolean  failed"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00195"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#195"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  'or dropped due to transformation or conversion errors.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#201"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  '{} Committing offsets for {} acknowledged messages' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#203"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  '{} There are currently {} pending messages spread across {} source partitions whose offsets will not be committed. ' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00195] For method commitOffsets list of called methods Object monObjet|boolean time_millisecondsN183173|boolean time_millisecondsN184577|boolean time_millisecondsN187006"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#204"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00204] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00198"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  'The source partition with the most pending messages is {}, with {} pending messages' should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  '{} Committing offsets' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00210"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#210"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  '{} Either no records were produced by the task since the last offset commit, ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#211"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  'or every record has been filtered out by a transformation ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00212"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  '{} There are currently no pending messages for this offset commit; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  'or dropped due to transformation or conversion errors.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#213"
+ , "c1" : "00218"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  'all messages dispatched to the task's producer since the last commit have been acknowledged' should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  '{} Committing offsets for {} acknowledged messages' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00220"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#220"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  '{} There are currently {} pending messages spread across {} source partitions whose offsets will not be committed. ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00221"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#221"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  'The source partition with the most pending messages is {}, with {} pending messages' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00229"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  '{} Finished offset commitOffsets successfully in {} ms' should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  '{} There are currently no pending messages for this offset commit; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#233"
+ , "c1" : "00230"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#238"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00239"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#239"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  '{} Failed to flush offsets to storage: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#241"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  '{} Finished flushing offsets to storage' should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  'all messages dispatched to the task's producer since the last commit have been acknowledged' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00246"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  '{} Finished offset commitOffsets successfully in {} ms' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#248"
+ , "c1" : "00250"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00249"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#249"
+ , "c1" : "00255"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#252"
+ , "c1" : "00256"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  '{} Failed to flush offsets to storage: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00258"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#258"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  '{} Flush of offsets interrupted, cancelling' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#261"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  '{} Finished flushing offsets to storage' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00263"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  '{} Flush of offsets threw an unexpected exception: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00265"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#265"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00266"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#266"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00268"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#268"
+ , "c1" : "00269"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  '{} Timed out waiting to flush offsets to storage; will try again on next flush interval with latest offsets' should be converted to const"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00270"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#270"
+ , "c1" : "00275"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#275"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  '{} Flush of offsets interrupted, cancelling' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00271"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#271"
+ , "c1" : "00278"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00276"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#276"
+ , "c1" : "00280"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  '{} Finished commitOffsets successfully in {} ms' should be converted to const"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  '{} Flush of offsets threw an unexpected exception: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00281"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#281"
+ , "c1" : "00283"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00286"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#286"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00286] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00292"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#292"
+ , "c1" : "00285"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.connect.runtime.WorkerSourceTask.maybeThrowProducerSendException@POLYN187503 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  '{} Timed out waiting to flush offsets to storage; will try again on next flush interval with latest offsets' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00294"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#294"
+ , "c1" : "00287"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#287"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.runtime.WorkerSourceTask.maybeThrowProducerSendException@POLYN187503 the MagicNumber/String  'Unrecoverable exception from producer send callback' should be converted to const"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00302"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#302"
+ , "c1" : "00288"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.connect.runtime.WorkerSourceTask.toString@POLYN187777 the MagicNumber/String  'WorkerSourceTask{' should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00293"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#293"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  '{} Finished commitOffsets successfully in {} ms' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00298"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#298"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00303"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#303"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.connect.runtime.WorkerSourceTask.toString@POLYN187777 the MagicNumber/String  'id=' should be converted to const"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00303] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00304"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#304"
+ , "c1" : "00309"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.connect.runtime.WorkerSourceTask.toString@POLYN187777 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.runtime.WorkerSourceTask.maybeThrowProducerSendException@POLYN187605 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00311"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#311"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.connect.runtime.WorkerSourceTask.maybeThrowProducerSendException@POLYN187605 the MagicNumber/String  'Unrecoverable exception from producer send callback' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00319"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#319"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.connect.runtime.WorkerSourceTask.toString@POLYN187879 the MagicNumber/String  'WorkerSourceTask{' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00320"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#320"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.connect.runtime.WorkerSourceTask.toString@POLYN187879 the MagicNumber/String  'id=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00321"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#321"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.connect.runtime.WorkerSourceTask.toString@POLYN187879 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181464"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181566"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#181"
+ , "c1" : "00198"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#198"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00181] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String '{} Committing offsets' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00198] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String '{} Committing offsets' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#193"
+ , "c1" : "00210"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#210"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00193] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String '{} Either no records were produced by the task since the last offset commit, ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00210] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String '{} Either no records were produced by the task since the last offset commit, ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#194"
+ , "c1" : "00211"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00194] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String 'or every record has been filtered out by a transformation ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#195"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00195] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String 'or dropped due to transformation or conversion errors.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#201"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00201] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String '{} Committing offsets for {} acknowledged messages' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#203"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String '{} There are currently {} pending messages spread across {} source partitions whose offsets will not be committed. ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#204"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String 'The source partition with the most pending messages is {}, with {} pending messages' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00211] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String 'or every record has been filtered out by a transformation ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00212"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#212"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00212] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String '{} There are currently no pending messages for this offset commit; ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00212] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String 'or dropped due to transformation or conversion errors.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#213"
+ , "c1" : "00218"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#218"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String 'all messages dispatched to the task's producer since the last commit have been acknowledged' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00218] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String '{} Committing offsets for {} acknowledged messages' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00220"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#220"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00220] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String '{} There are currently {} pending messages spread across {} source partitions whose offsets will not be committed. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00221"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#221"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00221] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String 'The source partition with the most pending messages is {}, with {} pending messages' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00229"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#229"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00229] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String '{} Finished offset commitOffsets successfully in {} ms' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00229] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String '{} There are currently no pending messages for this offset commit; ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#233"
+ , "c1" : "00230"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#230"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00233] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#238"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00239"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#239"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00239] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String '{} Failed to flush offsets to storage: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#241"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00241] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String '{} Finished flushing offsets to storage' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00230] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String 'all messages dispatched to the task's producer since the last commit have been acknowledged' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00246"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#246"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String '{} Finished offset commitOffsets successfully in {} ms' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#248"
+ , "c1" : "00250"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#250"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00248] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00250] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00249"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#249"
+ , "c1" : "00255"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#255"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00255] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#252"
+ , "c1" : "00256"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#256"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00256] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String '{} Failed to flush offsets to storage: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00258"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#258"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00258] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String '{} Flush of offsets interrupted, cancelling' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#261"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00261] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00258] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String '{} Finished flushing offsets to storage' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00263"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#263"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00263] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String '{} Flush of offsets threw an unexpected exception: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00263] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00265"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#265"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00265] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00266"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#266"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00266] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00266] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00268"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#268"
+ , "c1" : "00269"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#269"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00268] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String '{} Timed out waiting to flush offsets to storage; will try again on next flush interval with latest offsets' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00269] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00270"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#270"
+ , "c1" : "00275"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#275"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00270] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00275] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String '{} Flush of offsets interrupted, cancelling' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00271"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#271"
+ , "c1" : "00278"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#278"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00271] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00278] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00276"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#276"
+ , "c1" : "00280"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#280"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00276] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String '{} Finished commitOffsets successfully in {} ms' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00280] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String '{} Flush of offsets threw an unexpected exception: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00281"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#281"
+ , "c1" : "00283"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#283"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00281] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182801 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00283] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#140"
+ , "c1" : "00285"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#285"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00140] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181464 the MagicNumber/String 'Unrecoverable exception trying to send' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00285] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String '{} Timed out waiting to flush offsets to storage; will try again on next flush interval with latest offsets' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#146"
+ , "c1" : "00287"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#287"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181464 the MagicNumber/String 'Ignoring failed record send: {} failed to send record to {}: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00287] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#158"
+ , "c1" : "00288"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#288"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00158] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181464 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00288] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#160"
+ , "c1" : "00293"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#293"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181464 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String '{} Finished commitOffsets successfully in {} ms' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00298"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#298"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00298] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181566 the MagicNumber/String 'Unrecoverable exception trying to send' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#163"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181566 the MagicNumber/String 'Ignoring failed record send: {} failed to send record to {}: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#175"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181566 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.connect.runtime.WorkerSourceTask.producerSendFailed@POLYN181566 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

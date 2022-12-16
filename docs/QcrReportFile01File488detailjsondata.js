@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.stats.WindowedSum" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#11"
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#31"
  , "c1" : "WindowedSum"
  , "c2" : "WindowedSum()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#16"
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#36"
  , "c1" : "void"
  , "c2" : "update(Sample;MetricConfig;double;long)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#21"
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#41"
  , "c1" : "double"
  , "c2" : "combine(List<Sample>;MetricConfig;long)"
  , "c3" : "2"
@@ -100,38 +100,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#12"
+ , "c1" : "00032"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.metrics.stats.WindowedSum.WindowedSum@POLYN144131 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.metrics.stats.WindowedSum.WindowedSum@POLYN144251 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#16"
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#36"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00016] For method update arguments Sample  sample|MetricConfig  config|double  value|long  now"
+ , "c3" : "QC-JAV000006[00036] For method update arguments Sample  sample|MetricConfig  config|double  value|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#16"
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#36"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00016] The argument sample is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00036] The argument sample is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#21"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00021] For method combine arguments List&lt;Sample &gt;  samples|MetricConfig  config|long  now"
+ , "c3" : "QC-JAV000006[00041] For method combine arguments List&lt;Sample &gt;  samples|MetricConfig  config|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#22"
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.metrics.stats.WindowedSum.combine@POLYN144471 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.metrics.stats.WindowedSum.combine@POLYN144591 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ]
 , 

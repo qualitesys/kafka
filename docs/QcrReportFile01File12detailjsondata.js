@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.GroupRebalanceConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/GroupRebalanceConfig.java.html#31"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/GroupRebalanceConfig.java.html#48"
  , "c1" : "GroupRebalanceConfig"
  , "c2" : "GroupRebalanceConfig(AbstractConfig;ProtocolType)"
  , "c3" : "9"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/GroupRebalanceConfig.java.html#68"
+ , "c5" : "00085"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/GroupRebalanceConfig.java.html#85"
  , "c1" : "GroupRebalanceConfig"
  , "c2" : "GroupRebalanceConfig(int;int;int;String;Optional<String>;long;boolean)"
  , "c3" : "1"
@@ -84,31 +84,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/GroupRebalanceConfig.java.html#31"
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/GroupRebalanceConfig.java.html#48"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00031] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00048] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/GroupRebalanceConfig.java.html#47"
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/GroupRebalanceConfig.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.clients.GroupRebalanceConfig.GroupRebalanceConfig@POLYN150649 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.GroupRebalanceConfig.GroupRebalanceConfig@POLYN150751 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/GroupRebalanceConfig.java.html#61"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/GroupRebalanceConfig.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.GroupRebalanceConfig.GroupRebalanceConfig@POLYN150649 the MagicNumber/String  'internal.leave.group.on.close' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.GroupRebalanceConfig.GroupRebalanceConfig@POLYN150751 the MagicNumber/String  'internal.leave.group.on.close' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/GroupRebalanceConfig.java.html#63"
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/GroupRebalanceConfig.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.GroupRebalanceConfig.GroupRebalanceConfig@POLYN150649 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.GroupRebalanceConfig.GroupRebalanceConfig@POLYN150751 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

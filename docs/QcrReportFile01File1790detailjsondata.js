@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#32"
  , "c1" : "SubscriptionResponseWrapper"
  , "c2" : "SubscriptionResponseWrapper(long[];FV;Integer)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#21"
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#36"
  , "c1" : "SubscriptionResponseWrapper"
  , "c2" : "SubscriptionResponseWrapper(long[];FV;byte;Integer)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#35"
+ , "c5" : "00050"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#50"
  , "c1" : "long[]"
  , "c2" : "getOriginalValueHash()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#39"
+ , "c5" : "00054"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#54"
  , "c1" : "FV"
  , "c2" : "getForeignValue()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#43"
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#58"
  , "c1" : "byte"
  , "c2" : "getVersion()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#47"
+ , "c5" : "00062"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#62"
  , "c1" : "Integer"
  , "c2" : "getPrimaryPartition()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#52"
+ , "c5" : "00067"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#67"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -122,59 +122,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.SubscriptionResponseWrapper@POLYN146285 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.SubscriptionResponseWrapper@POLYN146375 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#27"
+ , "c1" : "00042"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.SubscriptionResponseWrapper@POLYN146285 the MagicNumber/String  'SubscriptionWrapper does not support version ' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.SubscriptionResponseWrapper@POLYN146375 the MagicNumber/String  'SubscriptionWrapper does not support version ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#53"
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.toString@POLYN147284 the MagicNumber/String  'SubscriptionResponseWrapper{' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.toString@POLYN147374 the MagicNumber/String  'SubscriptionResponseWrapper{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#54"
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.toString@POLYN147284 the MagicNumber/String  'version=' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.toString@POLYN147374 the MagicNumber/String  'version=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#55"
+ , "c1" : "00070"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.toString@POLYN147284 the MagicNumber/String  ', foreignValue=' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.toString@POLYN147374 the MagicNumber/String  ', foreignValue=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#56"
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.toString@POLYN147284 the MagicNumber/String  ', originalValueHash=' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.toString@POLYN147374 the MagicNumber/String  ', originalValueHash=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#57"
+ , "c1" : "00072"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.toString@POLYN147284 the MagicNumber/String  ', primaryPartition=' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.toString@POLYN147374 the MagicNumber/String  ', primaryPartition=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#58"
+ , "c1" : "00073"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.toString@POLYN147284 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.toString@POLYN147374 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

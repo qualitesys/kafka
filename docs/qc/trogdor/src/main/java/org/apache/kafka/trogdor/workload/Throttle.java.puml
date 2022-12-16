@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.trogdor.workload.Throttle"
 class org.apache.kafka.trogdor.workload.Throttle {
-Throttle(int;int) : Throttle [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#14]]]
-+increment() : boolean [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#22]]]
-+lastTimeMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#42]]]
-time() : Time [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#46]]]
-delay(long) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#50]]]
+Throttle(int;int) : Throttle [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#29]]]
++increment() : boolean [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#37]]]
++lastTimeMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#57]]]
+time() : Time [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#61]]]
+delay(long) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#65]]]
 } 
 @enduml

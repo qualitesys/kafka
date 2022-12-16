@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.KTable" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#25"
+ , "c5" : "00092"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#92"
  , "c1" : "KTable<K,V>"
  , "c2" : "filter(Predicate<?superK,?superV>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#28"
+ , "c5" : "00115"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#115"
  , "c1" : "KTable<K,V>"
  , "c2" : "filter(Predicate<?superK,?superV>;Named)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#31"
+ , "c5" : "00153"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#153"
  , "c1" : "KTable<K,V>"
  , "c2" : "filter(Predicate<?superK,?superV>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#35"
+ , "c5" : "00193"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#193"
  , "c1" : "KTable<K,V>"
  , "c2" : "filter(Predicate<?superK,?superV>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#40"
+ , "c5" : "00217"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#217"
  , "c1" : "KTable<K,V>"
  , "c2" : "filterNot(Predicate<?superK,?superV>)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#43"
+ , "c5" : "00240"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#240"
  , "c1" : "KTable<K,V>"
  , "c2" : "filterNot(Predicate<?superK,?superV>;Named)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#46"
+ , "c5" : "00277"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#277"
  , "c1" : "KTable<K,V>"
  , "c2" : "filterNot(Predicate<?superK,?superV>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#50"
+ , "c5" : "00316"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#316"
  , "c1" : "KTable<K,V>"
  , "c2" : "filterNot(Predicate<?superK,?superV>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#87"
+ , "c5" : "00646"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#646"
  , "c1" : "KStream<K,V>"
  , "c2" : "toStream()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#90"
+ , "c5" : "00658"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#658"
  , "c1" : "KStream<K,V>"
  , "c2" : "toStream(Named)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00100"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#100"
+ , "c5" : "00724"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#724"
  , "c1" : "KTable<K,V>"
  , "c2" : "suppress(Suppressed<?superK>)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00270"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#270"
+ , "c5" : "02368"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#2368"
  , "c1" : "String"
  , "c2" : "queryableStoreName()"
  , "c3" : "1"

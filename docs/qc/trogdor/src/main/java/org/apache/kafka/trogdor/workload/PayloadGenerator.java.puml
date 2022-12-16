@@ -2,6 +2,6 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.trogdor.workload.PayloadGenerator"
 class org.apache.kafka.trogdor.workload.PayloadGenerator {
-generate(long) : byte[] [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadGenerator.java.html#25]]]
+generate(long) : byte[] [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadGenerator.java.html#52]]]
 } 
 @enduml

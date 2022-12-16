@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogSegmentMetadataTransform" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#20"
+ , "c5" : "00035"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#35"
  , "c1" : "ApiMessageAndVersion"
  , "c2" : "toApiMessageAndVersion(RemoteLogSegmentMetadata)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#35"
+ , "c5" : "00050"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#50"
  , "c1" : "List<RemoteLogSegmentMetadataRecord.SegmentLeaderEpochEntry>"
  , "c2" : "createSegmentLeaderEpochsEntry(RemoteLogSegmentMetadata)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#43"
+ , "c5" : "00058"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#58"
  , "c1" : "RemoteLogSegmentMetadataRecord.RemoteLogSegmentIdEntry"
  , "c2" : "createRemoteLogSegmentIdEntry(RemoteLogSegmentMetadata)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#54"
+ , "c5" : "00069"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#69"
  , "c1" : "RemoteLogSegmentMetadata"
  , "c2" : "fromApiMessageAndVersion(ApiMessageAndVersion)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#76"
+ , "c5" : "00091"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#91"
  , "c1" : "RemoteLogSegmentId"
  , "c2" : "buildRemoteLogSegmentId(RemoteLogSegmentMetadataRecord.RemoteLogSegmentIdEntry)"
  , "c3" : "1"
@@ -111,73 +111,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#20"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00020] For method toApiMessageAndVersion arguments RemoteLogSegmentMetadata  segmentMetadata"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#20"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00020] The argument segmentMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00035"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#35"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method createSegmentLeaderEpochsEntry arguments RemoteLogSegmentMetadata  data"
+ , "c3" : "QC-JAV000006[00035] For method toApiMessageAndVersion arguments RemoteLogSegmentMetadata  segmentMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00035"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#35"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00035] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00035] The argument segmentMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#43"
+ , "c1" : "00050"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method createRemoteLogSegmentIdEntry arguments RemoteLogSegmentMetadata  data"
+ , "c3" : "QC-JAV000006[00050] For method createSegmentLeaderEpochsEntry arguments RemoteLogSegmentMetadata  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#43"
+ , "c1" : "00050"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#50"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00043] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00050] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#54"
+ , "c1" : "00058"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method fromApiMessageAndVersion arguments ApiMessageAndVersion  apiMessageAndVersion"
+ , "c3" : "QC-JAV000006[00058] For method createRemoteLogSegmentIdEntry arguments RemoteLogSegmentMetadata  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#54"
+ , "c1" : "00058"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#58"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00054] The argument apiMessageAndVersion is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00058] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#76"
+ , "c1" : "00069"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method buildRemoteLogSegmentId arguments RemoteLogSegmentMetadataRecord.RemoteLogSegmentIdEntry  entry"
+ , "c3" : "QC-JAV000006[00069] For method fromApiMessageAndVersion arguments ApiMessageAndVersion  apiMessageAndVersion"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#76"
+ , "c1" : "00069"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#69"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00076] The argument entry is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00069] The argument apiMessageAndVersion is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#91"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00091] For method buildRemoteLogSegmentId arguments RemoteLogSegmentMetadataRecord.RemoteLogSegmentIdEntry  entry"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataTransform.java.html#91"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00091] The argument entry is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

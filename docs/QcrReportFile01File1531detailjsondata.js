@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.shell.HelpCommandHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#54"
+ , "c5" : "00071"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#71"
  , "c1" : "void"
  , "c2" : "run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#62"
+ , "c5" : "00079"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#79"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#67"
+ , "c5" : "00084"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#84"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -114,136 +114,136 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#23"
+ , "c1" : "00040"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.shell.HelpCommandHandler.HelpCommandType.name@POLYN147040 the MagicNumber/String  'help' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.shell.HelpCommandHandler.HelpCommandType.name@POLYN147142 the MagicNumber/String  'help' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#28"
+ , "c1" : "00045"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.shell.HelpCommandHandler.HelpCommandType.description@POLYN147142 the MagicNumber/String  'Display this help message.' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.shell.HelpCommandHandler.HelpCommandType.description@POLYN147244 the MagicNumber/String  'Display this help message.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#33"
+ , "c1" : "00050"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.shell.HelpCommandHandler.HelpCommandType.shellOnly@POLYN147244 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#37"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method addArguments arguments ArgumentParser  parser"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#42"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method createHandler arguments Namespace  namespace"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#47"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String &gt;  nextWords|List&lt;Candidate &gt;  candidates"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#37"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00037] Void method addArguments is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#37"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00037] Void method addArguments is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#47"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00047] Void method completeNext is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#47"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00047] Void method completeNext is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.shell.HelpCommandHandler.HelpCommandType.shellOnly@POLYN147346 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
+ , "c3" : "QC-JAV000006[00054] For method addArguments arguments ArgumentParser  parser"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#59"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00059] For method createHandler arguments Namespace  namespace"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#64"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00064] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String &gt;  nextWords|List&lt;Candidate &gt;  candidates"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#54"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00054] The argument shell is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00054] Void method addArguments is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#55"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00055] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00054"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#54"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00054] Void method addArguments is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.shell.HelpCommandHandler.run@POLYN147748 the MagicNumber/String  'Welcome to the Apache Kafka metadata shell.%n%n' should be converted to const"
+ , "c1" : "00064"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#64"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00064] Void method completeNext is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.HelpCommandHandler.run@POLYN147748 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00064"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#64"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00064] Void method completeNext is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.shell.HelpCommandHandler.hashCode@POLYN148108 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#67"
+ , "c1" : "00071"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method equals arguments Object  other"
+ , "c3" : "QC-JAV000006[00071] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.HelpCommandHandler.equals@POLYN148210 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00071"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#71"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00071] The argument shell is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#69"
+ , "c1" : "00072"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#72"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00072] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.HelpCommandHandler.equals@POLYN148210 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.shell.HelpCommandHandler.run@POLYN147850 the MagicNumber/String  'Welcome to the Apache Kafka metadata shell.%n%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.shell.HelpCommandHandler.run@POLYN147850 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.shell.HelpCommandHandler.hashCode@POLYN148210 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#84"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00084] For method equals arguments Object  other"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.shell.HelpCommandHandler.equals@POLYN148312 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.shell.HelpCommandHandler.equals@POLYN148312 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

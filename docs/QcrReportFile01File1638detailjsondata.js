@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.GlobalKTable" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/GlobalKTable.java.html#12"
+ , "c5" : "00073"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/GlobalKTable.java.html#73"
  , "c1" : "String"
  , "c2" : "queryableStoreName()"
  , "c3" : "1"

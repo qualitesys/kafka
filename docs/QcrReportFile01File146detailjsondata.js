@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.UpdateFeaturesResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesResult.java.html#12"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesResult.java.html#34"
  , "c1" : "UpdateFeaturesResult"
  , "c2" : "UpdateFeaturesResult(Map<String,KafkaFuture<Void>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesResult.java.html#16"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesResult.java.html#38"
  , "c1" : "Map<String,KafkaFuture<Void>>"
  , "c2" : "values()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesResult.java.html#21"
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesResult.java.html#45"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -86,10 +86,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesResult.java.html#22"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesResult.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.clients.admin.UpdateFeaturesResult.all@POLYN145472 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.admin.UpdateFeaturesResult.all@POLYN145616 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

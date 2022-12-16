@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.KGroupedStream" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#18"
+ , "c5" : "00072"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#72"
  , "c1" : "KTable<K,Long>"
  , "c2" : "count()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#21"
+ , "c5" : "00102"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#102"
  , "c1" : "KTable<K,Long>"
  , "c2" : "count(Named)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#24"
+ , "c5" : "00148"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#148"
  , "c1" : "KTable<K,Long>"
  , "c2" : "count(Materialized<K,Long,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#27"
+ , "c5" : "00195"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#195"
  , "c1" : "KTable<K,Long>"
  , "c2" : "count(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#31"
+ , "c5" : "00234"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#234"
  , "c1" : "KTable<K,V>"
  , "c2" : "reduce(Reducer<V>)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#34"
+ , "c5" : "00296"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#296"
  , "c1" : "KTable<K,V>"
  , "c2" : "reduce(Reducer<V>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#39"
+ , "c5" : "00363"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#363"
  , "c1" : "KTable<K,V>"
  , "c2" : "reduce(Reducer<V>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#62"
+ , "c5" : "00548"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#548"
  , "c1" : "TimeWindowedKStream<K,V>"
  , "c2" : "windowedBy(SlidingWindows)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#65"
+ , "c5" : "00555"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#555"
  , "c1" : "SessionWindowedKStream<K,V>"
  , "c2" : "windowedBy(SessionWindows)"
  , "c3" : "1"

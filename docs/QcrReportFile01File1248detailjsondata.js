@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.message.CodeBuffer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#13"
+ , "c5" : "00028"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#28"
  , "c1" : "CodeBuffer"
  , "c2" : "CodeBuffer()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#18"
+ , "c5" : "00033"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#33"
  , "c1" : "void"
  , "c2" : "incrementIndent()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#22"
+ , "c5" : "00037"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#37"
  , "c1" : "void"
  , "c2" : "decrementIndent()"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#29"
+ , "c5" : "00044"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#44"
  , "c1" : "void"
  , "c2" : "printf(String;Object...)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#33"
+ , "c5" : "00048"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#48"
  , "c1" : "void"
  , "c2" : "write(Writer)"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#39"
+ , "c5" : "00054"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#54"
  , "c1" : "void"
  , "c2" : "write(CodeBuffer)"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#45"
+ , "c5" : "00060"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#60"
  , "c1" : "String"
  , "c2" : "indentSpaces()"
  , "c3" : "2"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#54"
+ , "c5" : "00069"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#69"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#63"
+ , "c5" : "00078"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#78"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -154,87 +154,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#15"
+ , "c1" : "00030"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.message.CodeBuffer.CodeBuffer@POLYN147158 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#24"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.message.CodeBuffer.decrementIndent@POLYN147436 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#25"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.message.CodeBuffer.decrementIndent@POLYN147436 the MagicNumber/String  'Indent &amp;lt; 0' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#29"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method printf arguments String  format|Object  ...args"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#33"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method write arguments Writer  writer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#33"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00033] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.message.CodeBuffer.CodeBuffer@POLYN147248 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00039"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#39"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method write arguments CodeBuffer  other"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#39"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00039] The argument other is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN148412 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.message.CodeBuffer.decrementIndent@POLYN147526 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00040"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#40"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.message.CodeBuffer.decrementIndent@POLYN147526 the MagicNumber/String  'Indent &amp;lt; 0' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00044"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#44"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00044] For method printf arguments String  format|Object  ...args"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN148412 the MagicNumber/String  '    ' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00048] For method write arguments Writer  writer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#48"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00048] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method equals arguments Object  other"
+ , "c3" : "QC-JAV000006[00054] For method write arguments CodeBuffer  other"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#56"
+ , "c1" : "00054"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#54"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00054] The argument other is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.message.CodeBuffer.equals@POLYN148843 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN148502 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN148502 the MagicNumber/String  '    ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#69"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00069] For method equals arguments Object  other"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#71"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.message.CodeBuffer.equals@POLYN148933 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

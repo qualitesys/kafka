@@ -2,10 +2,10 @@
 !pragma layout smetana
 "AuthenticateCallbackHandler" <|-- "org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler"
 class org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler {
-+configure(Map<String,?>;String;List<AppConfigurationEntry>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#26]]]
-+handle(Callback[]) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#31]]]
--handleRealmCallback(RealmCallback) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#42]]]
--handleAuthorizeCallback(AuthorizeCallback) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#47]]]
-+close() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#57]]]
++configure(Map<String,?>;String;List<AppConfigurationEntry>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#46]]]
++handle(Callback[]) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#51]]]
+-handleRealmCallback(RealmCallback) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#62]]]
+-handleAuthorizeCallback(AuthorizeCallback) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#67]]]
++close() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#77]]]
 } 
 @enduml

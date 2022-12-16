@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.internals.AdminApiDriver" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#39"
+ , "c5" : "00113"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#113"
  , "c1" : "AdminApiDriver"
  , "c2" : "AdminApiDriver(AdminApiHandler<K,V>;AdminApiFuture<K,V>;long;long;LogContext)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#55"
+ , "c5" : "00135"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#135"
  , "c1" : "void"
  , "c2" : "map(K;Integer)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#61"
+ , "c5" : "00144"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#144"
  , "c1" : "void"
  , "c2" : "unmap(K)"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#74"
+ , "c5" : "00157"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#157"
  , "c1" : "void"
  , "c2" : "clear(Collection<K>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#81"
+ , "c5" : "00164"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#164"
  , "c1" : "OptionalInt"
  , "c2" : "keyToBrokerId(K)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#89"
+ , "c5" : "00176"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#176"
  , "c1" : "void"
  , "c2" : "completeExceptionally(Map<K,Throwable>)"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00096"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#96"
+ , "c5" : "00183"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#183"
  , "c1" : "void"
  , "c2" : "completeLookupExceptionally(Map<K,Throwable>)"
  , "c3" : "2"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#103"
+ , "c5" : "00190"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#190"
  , "c1" : "void"
  , "c2" : "retryLookup(Collection<K>)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00108"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#108"
+ , "c5" : "00198"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#198"
  , "c1" : "void"
  , "c2" : "complete(Map<K,V>)"
  , "c3" : "2"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00115"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#115"
+ , "c5" : "00205"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#205"
  , "c1" : "void"
  , "c2" : "completeLookup(Map<K,Integer>)"
  , "c3" : "2"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#123"
+ , "c5" : "00220"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#220"
  , "c1" : "List<RequestSpec<K>>"
  , "c2" : "poll()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00131"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#131"
+ , "c5" : "00232"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#232"
  , "c1" : "void"
  , "c2" : "onResponse(long;RequestSpec<K>;AbstractResponse;Node)"
  , "c3" : "3"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00161"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#161"
+ , "c5" : "00266"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#266"
  , "c1" : "void"
  , "c2" : "onFailure(long;RequestSpec<K>;Throwable)"
  , "c3" : "7"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00199"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#199"
+ , "c5" : "00304"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#304"
  , "c1" : "void"
  , "c2" : "clearInflightRequest(long;RequestSpec<K>)"
  , "c3" : "4"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00255"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#255"
+ , "c5" : "00360"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#360"
  , "c1" : "void"
  , "c2" : "collectLookupRequests(List<RequestSpec<K>>)"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00263"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#263"
+ , "c5" : "00368"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#368"
  , "c1" : "void"
  , "c2" : "collectFulfillmentRequests(List<RequestSpec<K>>)"
  , "c3" : "1"
@@ -245,444 +245,444 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#41"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00041] The argument future is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#44"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00044] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#55"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method map arguments K  key|Integer  brokerId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#61"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method unmap arguments K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#74"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method clear arguments Collection&lt;K &gt;  keys"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#74"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00074] The argument keys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#81"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00081] For method keyToBrokerId arguments K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#89"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00089] For method completeExceptionally arguments Map&lt;K ,Throwable &gt;  errors"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#89"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00089] The argument errors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#96"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00096] For method completeLookupExceptionally arguments Map&lt;K ,Throwable &gt;  errors"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#96"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00096] The argument errors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#103"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method retryLookup arguments Collection&lt;K &gt;  keys"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#103"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00103] The argument keys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#108"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method complete arguments Map&lt;K ,V &gt;  values"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#108"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00108] The argument values is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#115"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00115] For method completeLookup arguments Map&lt;K ,Integer &gt;  brokerIdMapping"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#115"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00115] The argument brokerIdMapping is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00115] The argument future is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#131"
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#118"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00118] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#135"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00131] For method onResponse arguments long  currentTimeMs|RequestSpec&lt;K &gt;  spec|AbstractResponse  response|Node  node"
+ , "c3" : "QC-JAV000006[00135] For method map arguments K  key|Integer  brokerId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#133"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00133] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#161"
+ , "c1" : "00144"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#144"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00161] For method onFailure arguments long  currentTimeMs|RequestSpec&lt;K &gt;  spec|Throwable  t"
+ , "c3" : "QC-JAV000006[00144] For method unmap arguments K  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#161"
+ , "c1" : "00157"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00161] For method onFailure list of called methods Object monObjet|ApiResult&lt;org.apache.kafka.common.TopicPartition,java.lang.Void&gt; spec_keys_streamN228986|ApiResult&lt;org.apache.kafka.common.TopicPartition,java.lang.Void&gt; spec_keys_streamN229312"
+ , "c3" : "QC-JAV000006[00157] For method clear arguments Collection&lt;K &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#163"
+ , "c1" : "00157"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#157"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00163] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00157] The argument keys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#168"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.onFailure@POLYN228055 the MagicNumber/String  'Node disconnected before response could be received for request {}. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#169"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.onFailure@POLYN228055 the MagicNumber/String  'Will attempt retry' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#199"
+ , "c1" : "00164"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#164"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00199] For method clearInflightRequest arguments long  currentTimeMs|RequestSpec&lt;K &gt;  spec"
+ , "c3" : "QC-JAV000006[00164] For method keyToBrokerId arguments K  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#199"
+ , "c1" : "00176"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#176"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00176] For method completeExceptionally arguments Map&lt;K ,Throwable &gt;  errors"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00176"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#176"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00199] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00176] The argument errors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#201"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.clearInflightRequest@POLYN229735 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00183"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#183"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00183] For method completeLookupExceptionally arguments Map&lt;K ,Throwable &gt;  errors"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#212"
+ , "c1" : "00183"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#183"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00212] The argument requests is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00183] The argument errors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#213"
+ , "c1" : "00190"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#190"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00190] For method retryLookup arguments Collection&lt;K &gt;  keys"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00190"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#190"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00213] The argument multimap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00190] The argument keys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00214"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#214"
+ , "c1" : "00198"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#198"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00198] For method complete arguments Map&lt;K ,V &gt;  values"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00198"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#198"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00214] The argument buildRequest is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00198] The argument values is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#217"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00217] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00205"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#205"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00205] For method completeLookup arguments Map&lt;K ,Integer &gt;  brokerIdMapping"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#219"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00219] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00224"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#224"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00224] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#230"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00230] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00205"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#205"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00205] The argument brokerIdMapping is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#232"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00232] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00239"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#239"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00239] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#240"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00240] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#241"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.clients.admin.internals.AdminApiDriver the MagicNumber/String  '(api=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#241"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.clients.admin.internals.AdminApiDriver the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00255"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#255"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00255] For method collectLookupRequests arguments List&lt;RequestSpec&lt;K &gt; &gt;  requests"
+ , "c3" : "QC-JAV000006[00232] For method onResponse arguments long  currentTimeMs|RequestSpec&lt;K &gt;  spec|AbstractResponse  response|Node  node"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00263"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#263"
+ , "c1" : "00234"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#234"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00234] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00266"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#266"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00263] For method collectFulfillmentRequests arguments List&lt;RequestSpec&lt;K &gt; &gt;  requests"
+ , "c3" : "QC-JAV000006[00266] For method onFailure arguments long  currentTimeMs|RequestSpec&lt;K &gt;  spec|Throwable  t"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00301"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#301"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN234438 the MagicNumber/String  'RequestSpec(' should be converted to const"
+ , "c1" : "00266"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#266"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00266] For method onFailure list of called methods Object monObjet|ApiResult&lt;org.apache.kafka.common.TopicPartition,java.lang.Void&gt; spec_keys_streamN229742|ApiResult&lt;org.apache.kafka.common.TopicPartition,java.lang.Void&gt; spec_keys_streamN230068"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00302"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#302"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN234438 the MagicNumber/String  'name=' should be converted to const"
+ , "c1" : "00268"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#268"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00268] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00303"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#303"
+ , "c1" : "00273"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#273"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN234438 the MagicNumber/String  ', scope=' should be converted to const"
+ , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.onFailure@POLYN228811 the MagicNumber/String  'Node disconnected before response could be received for request {}. ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00274"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#274"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.onFailure@POLYN228811 the MagicNumber/String  'Will attempt retry' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00304"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#304"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN234438 the MagicNumber/String  ', keys=' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00304] For method clearInflightRequest arguments long  currentTimeMs|RequestSpec&lt;K &gt;  spec"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00305"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#305"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN234438 the MagicNumber/String  ', request=' should be converted to const"
+ , "c1" : "00304"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#304"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00304] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00306"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#306"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN234438 the MagicNumber/String  ', nextAllowedTryMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.clearInflightRequest@POLYN230491 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00307"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#307"
+ , "c1" : "00317"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#317"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00317] The argument requests is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00318"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#318"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00318] The argument multimap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00319"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#319"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00319] The argument buildRequest is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00322"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#322"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN234438 the MagicNumber/String  ', deadlineMs=' should be converted to const"
+ , "c3" : "QC-JAV000001[00322] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00308"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#308"
+ , "c1" : "00324"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN234438 the MagicNumber/String  ', tries=' should be converted to const"
+ , "c3" : "QC-JAV000001[00324] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00309"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#309"
+ , "c1" : "00329"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#329"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN234438 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000001[00329] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00323"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#323"
+ , "c1" : "00335"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#335"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00335] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00337"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#337"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00337] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00344"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#344"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00344] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00345"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#345"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00345] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00346"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#346"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.clients.admin.internals.AdminApiDriver the MagicNumber/String  '(api=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00346"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#346"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.clients.admin.internals.AdminApiDriver the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00360"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#360"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00323] For method clearInflight arguments long  nextAllowedRetryMs"
+ , "c3" : "QC-JAV000006[00360] For method collectLookupRequests arguments List&lt;RequestSpec&lt;K &gt; &gt;  requests"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00328"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#328"
+ , "c1" : "00368"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#368"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00328] For method setInflight arguments RequestSpec&lt;K &gt;  spec"
+ , "c3" : "QC-JAV000006[00368] For method collectFulfillmentRequests arguments List&lt;RequestSpec&lt;K &gt; &gt;  requests"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00348"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#348"
+ , "c1" : "00412"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#412"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN235194 the MagicNumber/String  'RequestSpec(' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00413"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#413"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN235194 the MagicNumber/String  'name=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00414"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#414"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN235194 the MagicNumber/String  ', scope=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00415"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#415"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN235194 the MagicNumber/String  ', keys=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00416"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#416"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN235194 the MagicNumber/String  ', request=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00417"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#417"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN235194 the MagicNumber/String  ', nextAllowedTryMs=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00418"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#418"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN235194 the MagicNumber/String  ', deadlineMs=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00419"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#419"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN235194 the MagicNumber/String  ', tries=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00420"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#420"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN235194 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00438"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#438"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00348] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00438] For method clearInflight arguments long  nextAllowedRetryMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00350"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#350"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00350] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00349"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#349"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.FulfillmentScope.equals@POLYN236340 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00350"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#350"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.FulfillmentScope.equals@POLYN236340 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00350"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#350"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.FulfillmentScope.equals@POLYN236340 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00366"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#366"
+ , "c1" : "00443"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#443"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00366] For method put arguments K  key|V  value"
+ , "c3" : "QC-JAV000006[00443] For method setInflight arguments RequestSpec&lt;K &gt;  spec"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00372"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#372"
+ , "c1" : "00467"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#467"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00372] For method remove arguments V  value"
+ , "c3" : "QC-JAV000006[00467] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00374"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#374"
+ , "c1" : "00469"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#469"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.BiMultimap.remove@POLYN237940 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000021[00469] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00376"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#376"
+ , "c1" : "00468"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#468"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.BiMultimap.remove@POLYN237940 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00468] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.FulfillmentScope.equals@POLYN237096 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00385"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#385"
+ , "c1" : "00469"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#469"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00469] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.FulfillmentScope.equals@POLYN237096 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00469"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#469"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00469] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.FulfillmentScope.equals@POLYN237096 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00492"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#492"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00385] For method getKey arguments V  value"
+ , "c3" : "QC-JAV000006[00492] For method put arguments K  key|V  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#123"
+ , "c1" : "00498"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#498"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00498] For method remove arguments V  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00500"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#500"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.BiMultimap.remove@POLYN238696 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00502"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#502"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.BiMultimap.remove@POLYN238696 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00511"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#511"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00511] For method getKey arguments V  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00220"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#220"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00123] Public method poll is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00220] Public method poll is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

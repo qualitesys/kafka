@@ -2,9 +2,9 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.replica.ReplicaView"
 class org.apache.kafka.common.replica.ReplicaView {
-endpoint() : Node [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#13]]]
-logEndOffset() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#16]]]
-timeSinceLastCaughtUpMs() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#19]]]
-comparator() : Comparator<ReplicaView> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#22]]]
+endpoint() : Node [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#32]]]
+logEndOffset() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#37]]]
+timeSinceLastCaughtUpMs() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#43]]]
+comparator() : Comparator<ReplicaView> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#49]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.util.SnapshotFileWriter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#28"
+ , "c5" : "00046"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#46"
  , "c1" : "SnapshotFileWriter"
  , "c2" : "SnapshotFileWriter(FileChannel;BatchAccumulator<ApiMessageAndVersion>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#33"
+ , "c5" : "00051"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#51"
  , "c1" : "void"
  , "c2" : "append(ApiMessageAndVersion)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#37"
+ , "c5" : "00055"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#55"
  , "c1" : "void"
  , "c2" : "append(List<ApiMessageAndVersion>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#41"
+ , "c5" : "00059"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#59"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#48"
+ , "c5" : "00066"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#66"
  , "c1" : "SnapshotFileWriter"
  , "c2" : "open(Path)"
  , "c3" : "1"
@@ -111,59 +111,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#33"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method append arguments ApiMessageAndVersion  apiMessageAndVersion"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.metadata.util.SnapshotFileWriter.append@POLYN151219 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#37"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method append arguments List&lt;ApiMessageAndVersion &gt;  messageBatch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.metadata.util.SnapshotFileWriter.append@POLYN151416 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method open arguments Path  snapshotPath"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.metadata.util.SnapshotFileWriter.open@POLYN151960 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.metadata.util.SnapshotFileWriter.open@POLYN151960 the MagicNumber/String  0 should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00051] For method append arguments ApiMessageAndVersion  apiMessageAndVersion"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#54"
+ , "c1" : "00052"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.metadata.util.SnapshotFileWriter.open@POLYN151960 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.metadata.util.SnapshotFileWriter.append@POLYN151327 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#55"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00055] For method append arguments List&lt;ApiMessageAndVersion &gt;  messageBatch"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#56"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.metadata.util.SnapshotFileWriter.append@POLYN151524 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#66"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00066] For method open arguments Path  snapshotPath"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.metadata.util.SnapshotFileWriter.open@POLYN152068 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#69"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.metadata.util.SnapshotFileWriter.open@POLYN152068 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.metadata.util.SnapshotFileWriter.open@POLYN152068 the MagicNumber/String  5 should be converted to const"
 }} 
 ]
 , 

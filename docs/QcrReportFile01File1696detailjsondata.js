@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.FullChangeSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#24"
+ , "c5" : "00039"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#39"
  , "c1" : "FullChangeSerde"
  , "c2" : "FullChangeSerde(Serde<T>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#28"
+ , "c5" : "00043"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#43"
  , "c1" : "Serde<T>"
  , "c2" : "innerSerde()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#32"
+ , "c5" : "00047"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#47"
  , "c1" : "Change<byte[]>"
  , "c2" : "serializeParts(String;Change<T>)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#43"
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#58"
  , "c1" : "Change<T>"
  , "c2" : "deserializeParts(String;Change<byte[]>)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#58"
+ , "c5" : "00076"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#76"
  , "c1" : "Change<byte[]>"
  , "c2" : "decomposeLegacyFormattedArrayIntoChangeArrays(byte[])"
  , "c3" : "2"
@@ -118,157 +118,157 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#17"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#18"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00032"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#32"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method serializeParts arguments String  topic|Change&lt;T &gt;  data"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00033"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.serializeParts@POLYN153338 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.serializeParts@POLYN153338 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.serializeParts@POLYN153338 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.serializeParts@POLYN153338 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.serializeParts@POLYN153338 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.serializeParts@POLYN153338 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#43"
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method deserializeParts arguments String  topic|Change&lt;byte[] &gt;  serialChange"
+ , "c3" : "QC-JAV000006[00047] For method serializeParts arguments String  topic|Change&lt;T &gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#44"
+ , "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.deserializeParts@POLYN154239 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.serializeParts@POLYN153446 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#45"
+ , "c1" : "00049"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.deserializeParts@POLYN154239 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.deserializeParts@POLYN154239 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.deserializeParts@POLYN154239 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.serializeParts@POLYN153446 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.deserializeParts@POLYN154239 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.serializeParts@POLYN153446 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.deserializeParts@POLYN154239 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.serializeParts@POLYN153446 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.serializeParts@POLYN153446 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.serializeParts@POLYN153446 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method decomposeLegacyFormattedArrayIntoChangeArrays arguments byte[]  data"
+ , "c3" : "QC-JAV000006[00058] For method deserializeParts arguments String  topic|Change&lt;byte[] &gt;  serialChange"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.decomposeLegacyFormattedArrayIntoChangeArrays@POLYN155312 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.deserializeParts@POLYN154347 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.decomposeLegacyFormattedArrayIntoChangeArrays@POLYN155312 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.deserializeParts@POLYN154347 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#32"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00032] Public method serializeParts is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.deserializeParts@POLYN154347 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#43"
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.deserializeParts@POLYN154347 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#67"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.deserializeParts@POLYN154347 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#67"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.deserializeParts@POLYN154347 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#76"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00076] For method decomposeLegacyFormattedArrayIntoChangeArrays arguments byte[]  data"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.decomposeLegacyFormattedArrayIntoChangeArrays@POLYN155420 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.kstream.internals.FullChangeSerde.decomposeLegacyFormattedArrayIntoChangeArrays@POLYN155420 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#47"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00043] Public method deserializeParts is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00047] Public method serializeParts is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00058] Public method decomposeLegacyFormattedArrayIntoChangeArrays is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00058] Public method deserializeParts is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#76"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00076] Public method decomposeLegacyFormattedArrayIntoChangeArrays is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

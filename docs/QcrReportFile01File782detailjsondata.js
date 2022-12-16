@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerToken" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerToken.java.html#12"
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerToken.java.html#61"
  , "c1" : "String"
  , "c2" : "value()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerToken.java.html#15"
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerToken.java.html#74"
  , "c1" : "Set<String>"
  , "c2" : "scope()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerToken.java.html#18"
+ , "c5" : "00086"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerToken.java.html#86"
  , "c1" : "long"
  , "c2" : "lifetimeMs()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerToken.java.html#21"
+ , "c5" : "00093"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerToken.java.html#93"
  , "c1" : "String"
  , "c2" : "principalName()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerToken.java.html#24"
+ , "c5" : "00104"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerToken.java.html#104"
  , "c1" : "Long"
  , "c2" : "startTimeMs()"
  , "c3" : "1"

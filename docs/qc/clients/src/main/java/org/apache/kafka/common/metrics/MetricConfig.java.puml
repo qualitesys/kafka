@@ -2,18 +2,18 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.metrics.MetricConfig"
 class org.apache.kafka.common.metrics.MetricConfig {
-+MetricConfig() : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#18]]]
-+quota() : Quota [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#27]]]
-+quota(Quota) : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#31]]]
-+eventWindow() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#36]]]
-+eventWindow(long) : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#40]]]
-+timeWindowMs() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#45]]]
-+timeWindow(long;TimeUnit) : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#49]]]
-+tags() : Map<String,String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#54]]]
-+tags(Map<String,String>) : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#58]]]
-+samples() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#63]]]
-+samples(int) : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#67]]]
-+recordLevel() : Sensor.RecordingLevel [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#74]]]
-+recordLevel(Sensor.RecordingLevel) : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#78]]]
++MetricConfig() : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#35]]]
++quota() : Quota [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#44]]]
++quota(Quota) : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#48]]]
++eventWindow() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#53]]]
++eventWindow(long) : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#57]]]
++timeWindowMs() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#62]]]
++timeWindow(long;TimeUnit) : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#66]]]
++tags() : Map<String,String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#71]]]
++tags(Map<String,String>) : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#75]]]
++samples() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#80]]]
++samples(int) : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#84]]]
++recordLevel() : Sensor.RecordingLevel [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#91]]]
++recordLevel(Sensor.RecordingLevel) : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#95]]]
 } 
 @enduml

@@ -2,12 +2,12 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.TaskMetadata"
 class org.apache.kafka.streams.TaskMetadata {
-taskId() : TaskId [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#16]]]
-topicPartitions() : Set<TopicPartition> [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#19]]]
-committedOffsets() : Map<TopicPartition,Long> [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#22]]]
-endOffsets() : Map<TopicPartition,Long> [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#25]]]
-timeCurrentIdlingStarted() : Optional<Long> [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#28]]]
-equals(Object) : boolean [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#31]]]
-hashCode() : int [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#34]]]
+taskId() : TaskId [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#37]]]
+topicPartitions() : Set<TopicPartition> [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#44]]]
+committedOffsets() : Map<TopicPartition,Long> [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#51]]]
+endOffsets() : Map<TopicPartition,Long> [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#58]]]
+timeCurrentIdlingStarted() : Optional<Long> [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#65]]]
+equals(Object) : boolean [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#73]]]
+hashCode() : int [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#85]]]
 } 
 @enduml

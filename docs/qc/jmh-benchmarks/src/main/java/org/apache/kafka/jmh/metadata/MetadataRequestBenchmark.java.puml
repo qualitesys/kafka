@@ -2,14 +2,14 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.jmh.metadata.MetadataRequestBenchmark"
 class org.apache.kafka.jmh.metadata.MetadataRequestBenchmark {
-+setup() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#113]]]
--initializeMetadataCache() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#119]]]
--endpoints(int) : List<UpdateMetadataEndpoint> [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#151]]]
--createKafkaApis() : KafkaApis [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#160]]]
-+tearDown() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#189]]]
--buildAllTopicMetadataRequest() : RequestChannel.Request [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#194]]]
-+testMetadataRequestForAllTopics() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#206]]]
-+testRequestToJson() : String [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#211]]]
-+testTopicIdInfo() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#216]]]
++setup() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#128]]]
+-initializeMetadataCache() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#134]]]
+-endpoints(int) : List<UpdateMetadataEndpoint> [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#166]]]
+-createKafkaApis() : KafkaApis [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#175]]]
++tearDown() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#204]]]
+-buildAllTopicMetadataRequest() : RequestChannel.Request [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#209]]]
++testMetadataRequestForAllTopics() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#221]]]
++testRequestToJson() : String [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#226]]]
++testTopicIdInfo() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#231]]]
 } 
 @enduml

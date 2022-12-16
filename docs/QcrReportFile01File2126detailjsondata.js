@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.Segments" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#10"
+ , "c5" : "00025"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#25"
  , "c1" : "long"
  , "c2" : "segmentId(long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#12"
+ , "c5" : "00027"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#27"
  , "c1" : "String"
  , "c2" : "segmentName(long)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#14"
+ , "c5" : "00029"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#29"
  , "c1" : "S"
  , "c2" : "getSegmentForTimestamp(long)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#16"
+ , "c5" : "00031"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#31"
  , "c1" : "S"
  , "c2" : "getOrCreateSegmentIfLive(long;ProcessorContext;long)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#18"
+ , "c5" : "00033"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#33"
  , "c1" : "S"
  , "c2" : "getOrCreateSegment(long;ProcessorContext)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#20"
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#35"
  , "c1" : "void"
  , "c2" : "openExisting(ProcessorContext;long)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#22"
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#37"
  , "c1" : "List<S>"
  , "c2" : "segments(long;long;boolean)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#24"
+ , "c5" : "00039"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#39"
  , "c1" : "List<S>"
  , "c2" : "allSegments(boolean)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#26"
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#41"
  , "c1" : "void"
  , "c2" : "flush()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#28"
+ , "c5" : "00043"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#43"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

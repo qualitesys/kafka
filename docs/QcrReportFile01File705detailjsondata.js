@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.OffsetDeleteResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#18"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#49"
  , "c1" : "OffsetDeleteResponse"
  , "c2" : "OffsetDeleteResponse(OffsetDeleteResponseData)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#24"
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#55"
  , "c1" : "OffsetDeleteResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#29"
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#60"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#40"
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#71"
  , "c1" : "OffsetDeleteResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#45"
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#76"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#50"
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#81"
  , "c1" : "boolean"
  , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"
@@ -136,31 +136,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#40"
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00071] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#50"
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method shouldClientThrottle arguments short  version"
+ , "c3" : "QC-JAV000006[00081] For method shouldClientThrottle arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#51"
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.requests.OffsetDeleteResponse.shouldClientThrottle@POLYN151327 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.OffsetDeleteResponse.shouldClientThrottle@POLYN151513 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetDeleteResponse.throttleTimeMs@POLYN151207"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetDeleteResponse.throttleTimeMs@POLYN151393"
 }} 
 ]
 , 

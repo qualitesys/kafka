@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#14"
+ , "c5" : "00029"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#29"
  , "c1" : "FinalResultsSuppressionBuilder"
  , "c2" : "FinalResultsSuppressionBuilder(String;Suppressed.StrictBufferConfig)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#34"
  , "c1" : "SuppressedInternal<K>"
  , "c2" : "buildFinalResultsSuppression(Duration)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#30"
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#45"
  , "c1" : "Suppressed<K>"
  , "c2" : "withName(String)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#35"
+ , "c5" : "00050"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#50"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#48"
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#63"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#53"
+ , "c5" : "00068"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#68"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#58"
+ , "c5" : "00073"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#73"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -136,94 +136,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#19"
+ , "c1" : "00034"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method buildFinalResultsSuppression arguments Duration  gracePeriod"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#25"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.buildFinalResultsSuppression@POLYN147863 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#30"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method withName arguments String  name"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#35"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00039] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.equals@POLYN148370 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.equals@POLYN148370 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000006[00034] For method buildFinalResultsSuppression arguments Duration  gracePeriod"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00040"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.equals@POLYN148370 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.buildFinalResultsSuppression@POLYN147953 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.toString@POLYN149319 the MagicNumber/String  'FinalResultsSuppressionBuilder{' should be converted to const"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#45"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00045] For method withName arguments String  name"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.toString@POLYN149319 the MagicNumber/String  'name='' should be converted to const"
+ , "c1" : "00050"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#50"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00050] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#60"
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.toString@POLYN149319 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000021[00054] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#61"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.toString@POLYN149319 the MagicNumber/String  ', bufferConfig=' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.equals@POLYN148460 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#62"
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.toString@POLYN149319 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.equals@POLYN148460 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#55"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.equals@POLYN148460 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.toString@POLYN149409 the MagicNumber/String  'FinalResultsSuppressionBuilder{' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.toString@POLYN149409 the MagicNumber/String  'name='' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.toString@POLYN149409 the MagicNumber/String  '\'' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#76"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.toString@POLYN149409 the MagicNumber/String  ', bufferConfig=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder.toString@POLYN149409 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

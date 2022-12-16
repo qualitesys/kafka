@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.FeaturesDelta" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#22"
+ , "c5" : "00039"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#39"
  , "c1" : "FeaturesDelta"
  , "c2" : "FeaturesDelta(FeaturesImage)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#26"
+ , "c5" : "00043"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#43"
  , "c1" : "Map<String,Optional<Short>>"
  , "c2" : "changes()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#30"
+ , "c5" : "00047"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#47"
  , "c1" : "Optional<MetadataVersion>"
  , "c2" : "metadataVersionChange()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#34"
+ , "c5" : "00051"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#51"
  , "c1" : "void"
  , "c2" : "finishSnapshot()"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#42"
+ , "c5" : "00059"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#59"
  , "c1" : "void"
  , "c2" : "replay(FeatureLevelRecord)"
  , "c3" : "5"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#54"
+ , "c5" : "00071"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#71"
  , "c1" : "FeaturesImage"
  , "c2" : "apply()"
  , "c3" : "10"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00086"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#86"
+ , "c5" : "00103"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#103"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -157,129 +157,129 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#42"
+ , "c1" : "00059"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method replay arguments FeatureLevelRecord  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#42"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00042] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.image.FeaturesDelta.replay@POLYN154879 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#54"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00054] For method apply list of called methods Object monObjet|org.apache.kafka.image.FeaturesImage image_metadataVersionN157308"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00058] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000006[00059] For method replay arguments FeatureLevelRecord  record"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00059] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00059] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#67"
+ , "c1" : "00063"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00067] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.image.FeaturesDelta.replay@POLYN154981 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00068] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00071"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#71"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00071] For method apply list of called methods Object monObjet|org.apache.kafka.image.FeaturesImage image_metadataVersionN157410"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#60"
+ , "c1" : "00075"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.image.FeaturesDelta.apply@POLYN155621 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00075] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#76"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00076] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00084] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00085] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.image.FeaturesDelta.apply@POLYN155621 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.image.FeaturesDelta.apply@POLYN155723 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#87"
+ , "c1" : "00094"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.image.FeaturesDelta.toString@POLYN157544 the MagicNumber/String  'FeaturesDelta(' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.image.FeaturesDelta.apply@POLYN155723 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#88"
+ , "c1" : "00104"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.image.FeaturesDelta.toString@POLYN157544 the MagicNumber/String  'changes=' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.image.FeaturesDelta.toString@POLYN157646 the MagicNumber/String  'FeaturesDelta(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#89"
+ , "c1" : "00105"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.image.FeaturesDelta.toString@POLYN157544 the MagicNumber/String  ', metadataVersionChange=' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.image.FeaturesDelta.toString@POLYN157646 the MagicNumber/String  'changes=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#90"
+ , "c1" : "00106"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.image.FeaturesDelta.toString@POLYN157544 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.image.FeaturesDelta.toString@POLYN157646 the MagicNumber/String  ', metadataVersionChange=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#26"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00026] Public method changes is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00107"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.image.FeaturesDelta.toString@POLYN157646 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#30"
+ , "c1" : "00043"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#43"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00030] Public method metadataVersionChange is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00043] Public method changes is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#86"
+ , "c1" : "00047"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#47"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00086] Public method toString is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00047] Public method metadataVersionChange is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#42"
+ , "c1" : "00103"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00042] Public method replay is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00103] Public method toString is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#59"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00059] Public method replay is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

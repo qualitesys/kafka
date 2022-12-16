@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamJoinWindow" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#15"
+ , "c5" : "00030"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#30"
  , "c1" : "KStreamJoinWindow"
  , "c2" : "KStreamJoinWindow(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#20"
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#35"
  , "c1" : "Processor<K,V,K,V>"
  , "c2" : "get()"
  , "c3" : "1"
@@ -91,38 +91,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method init arguments ProcessorContext&lt;K ,V &gt;  context"
+ , "c3" : "QC-JAV000006[00044] For method init arguments ProcessorContext&lt;K ,V &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#44"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00029] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00044] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method process arguments Record&lt;K ,V &gt;  record"
+ , "c3" : "QC-JAV000006[00051] For method process arguments Record&lt;K ,V &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#51"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00036] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00051] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#39"
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.internals.KStreamJoinWindow.KStreamJoinWindowProcessor.process@POLYN147761 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.internals.KStreamJoinWindow.KStreamJoinWindowProcessor.process@POLYN147851 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

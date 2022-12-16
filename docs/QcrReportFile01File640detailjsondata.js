@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.DeleteTopicsResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#19"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#43"
  , "c1" : "DeleteTopicsResponse"
  , "c2" : "DeleteTopicsResponse(DeleteTopicsResponseData)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#25"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#49"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#30"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#54"
  , "c1" : "DeleteTopicsResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#35"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#59"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#43"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#67"
  , "c1" : "DeleteTopicsResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#48"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#72"
  , "c1" : "boolean"
  , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"
@@ -136,31 +136,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#43"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00067] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#48"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method shouldClientThrottle arguments short  version"
+ , "c3" : "QC-JAV000006[00072] For method shouldClientThrottle arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#49"
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.requests.DeleteTopicsResponse.shouldClientThrottle@POLYN148542 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.requests.DeleteTopicsResponse.shouldClientThrottle@POLYN148686 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteTopicsResponse.throttleTimeMs@POLYN147561"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteTopicsResponse.throttleTimeMs@POLYN147705"
 }} 
 ]
 , 

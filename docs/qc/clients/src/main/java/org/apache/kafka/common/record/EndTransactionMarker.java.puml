@@ -2,15 +2,15 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.record.EndTransactionMarker"
 class org.apache.kafka.common.record.EndTransactionMarker {
-+EndTransactionMarker(ControlRecordType;int) : EndTransactionMarker [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#31]]]
-+coordinatorEpoch() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#37]]]
-+controlType() : ControlRecordType [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#41]]]
--buildRecordValue() : Struct [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#45]]]
-+serializeValue() : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#52]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#61]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#70]]]
--ensureTransactionMarkerControlType(ControlRecordType) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#76]]]
-+deserialize(Record) : EndTransactionMarker [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#81]]]
-deserializeValue(ControlRecordType;ByteBuffer) : EndTransactionMarker [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#86]]]
++EndTransactionMarker(ControlRecordType;int) : EndTransactionMarker [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#50]]]
++coordinatorEpoch() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#56]]]
++controlType() : ControlRecordType [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#60]]]
+-buildRecordValue() : Struct [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#64]]]
++serializeValue() : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#71]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#80]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#89]]]
+-ensureTransactionMarkerControlType(ControlRecordType) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#95]]]
++deserialize(Record) : EndTransactionMarker [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#100]]]
+deserializeValue(ControlRecordType;ByteBuffer) : EndTransactionMarker [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#105]]]
 } 
 @enduml

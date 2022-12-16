@@ -2,10 +2,10 @@
 !pragma layout smetana
 "AbstractOptions<DescribeProducersOptions>" <|-- "org.apache.kafka.clients.admin.DescribeProducersOptions"
 class org.apache.kafka.clients.admin.DescribeProducersOptions {
-+brokerId(int) : DescribeProducersOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#15]]]
-+brokerId() : OptionalInt [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#20]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#25]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#34]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#39]]]
++brokerId(int) : DescribeProducersOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#34]]]
++brokerId() : OptionalInt [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#39]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#44]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#53]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#58]]]
 } 
 @enduml

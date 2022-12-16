@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.health.ConnectClusterDetails" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00009"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectClusterDetails.java.html#9"
+ , "c5" : "00031"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectClusterDetails.java.html#31"
  , "c1" : "String"
  , "c2" : "kafkaClusterId()"
  , "c3" : "1"

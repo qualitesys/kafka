@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.TimeWindowedKStream" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#20"
+ , "c5" : "00084"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#84"
  , "c1" : "KTable<Windowed<K>,Long>"
  , "c2" : "count()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#23"
+ , "c5" : "00115"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#115"
  , "c1" : "KTable<Windowed<K>,Long>"
  , "c2" : "count(Named)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#26"
+ , "c5" : "00164"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#164"
  , "c1" : "KTable<Windowed<K>,Long>"
  , "c2" : "count(Materialized<K,Long,WindowStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#29"
+ , "c5" : "00214"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#214"
  , "c1" : "KTable<Windowed<K>,Long>"
  , "c2" : "count(Named;Materialized<K,Long,WindowStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#53"
+ , "c5" : "00476"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#476"
  , "c1" : "KTable<Windowed<K>,V>"
  , "c2" : "reduce(Reducer<V>)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#56"
+ , "c5" : "00522"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#522"
  , "c1" : "KTable<Windowed<K>,V>"
  , "c2" : "reduce(Reducer<V>;Named)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#59"
+ , "c5" : "00584"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#584"
  , "c1" : "KTable<Windowed<K>,V>"
  , "c2" : "reduce(Reducer<V>;Materialized<K,V,WindowStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#63"
+ , "c5" : "00648"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#648"
  , "c1" : "KTable<Windowed<K>,V>"
  , "c2" : "reduce(Reducer<V>;Named;Materialized<K,V,WindowStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#68"
+ , "c5" : "00653"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#653"
  , "c1" : "TimeWindowedKStream<K,V>"
  , "c2" : "emitStrategy(EmitStrategy)"
  , "c3" : "1"

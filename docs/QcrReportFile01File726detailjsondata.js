@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.SyncGroupResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#16"
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#31"
  , "c1" : "SyncGroupResponse"
  , "c2" : "SyncGroupResponse(SyncGroupResponseData)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#22"
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#37"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#26"
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#41"
  , "c1" : "Errors"
  , "c2" : "error()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#31"
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#46"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#36"
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#51"
  , "c1" : "SyncGroupResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#56"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#45"
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#60"
  , "c1" : "SyncGroupResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#50"
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#65"
  , "c1" : "boolean"
  , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"
@@ -154,45 +154,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#45"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00060] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#50"
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method shouldClientThrottle arguments short  version"
+ , "c3" : "QC-JAV000006[00065] For method shouldClientThrottle arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#51"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.requests.SyncGroupResponse.shouldClientThrottle@POLYN147178 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.requests.SyncGroupResponse.shouldClientThrottle@POLYN147268 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.SyncGroupResponse.errorCounts@POLYN146494"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.SyncGroupResponse.errorCounts@POLYN146584"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.SyncGroupResponse.throttleTimeMs@POLYN146192"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.SyncGroupResponse.throttleTimeMs@POLYN146282"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.SyncGroupResponse.toString@POLYN146784"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.SyncGroupResponse.toString@POLYN146874"
 }} 
 ]
 , 

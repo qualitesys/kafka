@@ -2,7 +2,7 @@
 !pragma layout smetana
 "Serializer<String>" <|-- "org.apache.kafka.common.serialization.StringSerializer"
 class org.apache.kafka.common.serialization.StringSerializer {
-+configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#15]]]
-+serialize(String;String) : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#25]]]
++configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#33]]]
++serialize(String;String) : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#43]]]
 } 
 @enduml

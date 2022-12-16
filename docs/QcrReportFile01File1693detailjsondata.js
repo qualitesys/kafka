@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#34"
+ , "c5" : "00049"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#49"
  , "c1" : "CogroupedKStreamImpl"
  , "c2" : "CogroupedKStreamImpl(String;Set<String>;GraphNode;InternalStreamsBuilder)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#55"
+ , "c5" : "00070"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#70"
  , "c1" : "KTable<K,VOut>"
  , "c2" : "aggregate(Initializer<VOut>;Materialized<K,VOut,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#61"
+ , "c5" : "00076"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#76"
  , "c1" : "KTable<K,VOut>"
  , "c2" : "aggregate(Initializer<VOut>;Named)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#66"
+ , "c5" : "00081"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#81"
  , "c1" : "KTable<K,VOut>"
  , "c2" : "aggregate(Initializer<VOut>;Named;Materialized<K,VOut,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#79"
+ , "c5" : "00094"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#94"
  , "c1" : "KTable<K,VOut>"
  , "c2" : "aggregate(Initializer<VOut>)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#97"
+ , "c5" : "00112"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#112"
  , "c1" : "TimeWindowedCogroupedKStream<K,VOut>"
  , "c2" : "windowedBy(SlidingWindows)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00110"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#110"
+ , "c5" : "00125"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#125"
  , "c1" : "SessionWindowedCogroupedKStream<K,VOut>"
  , "c2" : "windowedBy(SessionWindows)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00121"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#121"
+ , "c5" : "00136"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#136"
  , "c1" : "KTable<K,VOut>"
  , "c2" : "doAggregate(Initializer<VOut>;NamedInternal;MaterializedInternal<K,VOut,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -145,143 +145,143 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#38"
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.CogroupedKStreamImpl@POLYN164063 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.CogroupedKStreamImpl@POLYN164153 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#38"
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.CogroupedKStreamImpl@POLYN164063 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl the MagicNumber/String  'groupedStream can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl the MagicNumber/String  'aggregator can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#55"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method aggregate arguments Initializer&lt;VOut &gt;  initializer|Materialized&lt;K ,VOut ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#61"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method aggregate arguments Initializer&lt;VOut &gt;  initializer|Named  named"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.CogroupedKStreamImpl@POLYN164153 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.aggregate@POLYN165822 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl the MagicNumber/String  'groupedStream can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#66"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method aggregate arguments Initializer&lt;VOut &gt;  initializer|Named  named|Materialized&lt;K ,VOut ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#69"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.aggregate@POLYN166171 the MagicNumber/String  'initializer can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl the MagicNumber/String  'aggregator can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.aggregate@POLYN166171 the MagicNumber/String  'named can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.aggregate@POLYN166171 the MagicNumber/String  'materialized can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method aggregate arguments Initializer&lt;VOut &gt;  initializer"
+ , "c3" : "QC-JAV000006[00070] For method aggregate arguments Initializer&lt;VOut &gt;  initializer|Materialized&lt;K ,VOut ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#80"
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#76"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00076] For method aggregate arguments Initializer&lt;VOut &gt;  initializer|Named  named"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.aggregate@POLYN166996 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.aggregate@POLYN165912 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#81"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00081] For method aggregate arguments Initializer&lt;VOut &gt;  initializer|Named  named|Materialized&lt;K ,VOut ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.aggregate@POLYN166261 the MagicNumber/String  'initializer can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl the MagicNumber/String  'windows can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.aggregate@POLYN166261 the MagicNumber/String  'named can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#97"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method windowedBy arguments SlidingWindows  slidingWindows"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#98"
+ , "c1" : "00086"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.windowedBy@POLYN167782 the MagicNumber/String  'slidingWindows can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.aggregate@POLYN166261 the MagicNumber/String  'materialized can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#110"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00110] For method windowedBy arguments SessionWindows  sessionWindows"
+ , "c3" : "QC-JAV000006[00094] For method aggregate arguments Initializer&lt;VOut &gt;  initializer"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#111"
+ , "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.windowedBy@POLYN168219 the MagicNumber/String  'sessionWindows can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.aggregate@POLYN167086 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#121"
+ , "c1" : "00100"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl the MagicNumber/String  'windows can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00121] For method doAggregate arguments Initializer&lt;VOut &gt;  initializer|NamedInternal  named|MaterializedInternal&lt;K ,VOut ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materializedInternal"
+ , "c3" : "QC-JAV000006[00112] For method windowedBy arguments SlidingWindows  slidingWindows"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#123"
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.windowedBy@POLYN167872 the MagicNumber/String  'slidingWindows can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#125"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00125] For method windowedBy arguments SessionWindows  sessionWindows"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00126"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#126"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl.windowedBy@POLYN168309 the MagicNumber/String  'sessionWindows can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00136"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#136"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00136] For method doAggregate arguments Initializer&lt;VOut &gt;  initializer|NamedInternal  named|MaterializedInternal&lt;K ,VOut ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materializedInternal"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00138"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedKStreamImpl.java.html#138"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00123] The argument materializedInternal is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00138] The argument materializedInternal is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

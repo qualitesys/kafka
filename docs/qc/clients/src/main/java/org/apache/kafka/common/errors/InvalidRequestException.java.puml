@@ -2,7 +2,7 @@
 !pragma layout smetana
 "ApiException" <|-- "org.apache.kafka.common.errors.InvalidRequestException"
 class org.apache.kafka.common.errors.InvalidRequestException {
-+InvalidRequestException(String) : InvalidRequestException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidRequestException.java.html#9]]]
-+InvalidRequestException(String;Throwable) : InvalidRequestException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidRequestException.java.html#13]]]
++InvalidRequestException(String) : InvalidRequestException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidRequestException.java.html#28]]]
++InvalidRequestException(String;Throwable) : InvalidRequestException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidRequestException.java.html#32]]]
 } 
 @enduml

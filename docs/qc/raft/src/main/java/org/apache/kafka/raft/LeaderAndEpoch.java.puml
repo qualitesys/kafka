@@ -2,12 +2,12 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.raft.LeaderAndEpoch"
 class org.apache.kafka.raft.LeaderAndEpoch {
-+LeaderAndEpoch(OptionalInt;int) : LeaderAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#12]]]
-+leaderId() : OptionalInt [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#17]]]
-+epoch() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#21]]]
-+isLeader(int) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#25]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#30]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#39]]]
-+toString() : String [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#44]]]
++LeaderAndEpoch(OptionalInt;int) : LeaderAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#27]]]
++leaderId() : OptionalInt [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#32]]]
++epoch() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#36]]]
++isLeader(int) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#40]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#45]]]
++hashCode() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#54]]]
++toString() : String [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#59]]]
 } 
 @enduml

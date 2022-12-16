@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.LeftOrRightValueSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00008"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#8"
+ , "c5" : "00023"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#23"
  , "c1" : "LeftOrRightValueSerde"
  , "c2" : "LeftOrRightValueSerde(Serde<V1>;Serde<V2>)"
  , "c3" : "1"
@@ -68,59 +68,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#11"
+ , "c1" : "00026"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143322 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143412 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#11"
+ , "c1" : "00026"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143322 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143412 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#12"
+ , "c1" : "00027"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143322 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143412 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#12"
+ , "c1" : "00027"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143322 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143412 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#14"
+ , "c1" : "00029"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143322 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143412 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#14"
+ , "c1" : "00029"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143322 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143412 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#15"
+ , "c1" : "00030"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143322 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143412 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#15"
+ , "c1" : "00030"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143322 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143412 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

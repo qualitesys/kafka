@@ -2,10 +2,10 @@
 !pragma layout smetana
 "LoginModule" <|-- "org.apache.kafka.common.security.scram.ScramLoginModule"
 class org.apache.kafka.common.security.scram.ScramLoginModule {
-+initialize(Subject;CallbackHandler;Map<String,?>;Map<String,?>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#26]]]
-+login() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#42]]]
-+logout() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#47]]]
-+commit() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#52]]]
-+abort() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#57]]]
++initialize(Subject;CallbackHandler;Map<String,?>;Map<String,?>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#41]]]
++login() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#57]]]
++logout() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#62]]]
++commit() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#67]]]
++abort() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#72]]]
 } 
 @enduml

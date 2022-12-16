@@ -2,14 +2,14 @@
 !pragma layout smetana
 "AutoCloseable" <|-- "org.apache.kafka.metadata.util.SnapshotFileReader"
 class org.apache.kafka.metadata.util.SnapshotFileReader {
-+SnapshotFileReader(String;RaftClient.Listener<ApiMessageAndVersion>) : SnapshotFileReader [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#45]]]
-+startup() : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#53]]]
--handleNextBatch() : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#73]]]
--scheduleHandleNextBatch() : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#87]]]
--handleControlBatch(FileChannelRecordBatch) : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#102]]]
--handleMetadataBatch(FileChannelRecordBatch) : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#127]]]
-+beginShutdown(String) : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#154]]]
-+close() : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#179]]]
-+caughtUpFuture() : CompletableFuture<Void> [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#184]]]
++SnapshotFileReader(String;RaftClient.Listener<ApiMessageAndVersion>) : SnapshotFileReader [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#62]]]
++startup() : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#70]]]
+-handleNextBatch() : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#90]]]
+-scheduleHandleNextBatch() : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#104]]]
+-handleControlBatch(FileChannelRecordBatch) : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#119]]]
+-handleMetadataBatch(FileChannelRecordBatch) : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#144]]]
++beginShutdown(String) : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#171]]]
++close() : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#196]]]
++caughtUpFuture() : CompletableFuture<Void> [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#201]]]
 } 
 @enduml

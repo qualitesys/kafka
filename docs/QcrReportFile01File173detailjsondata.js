@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.internals.StaticBrokerStrategy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#14"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#34"
  , "c1" : "StaticBrokerStrategy"
  , "c2" : "StaticBrokerStrategy(int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#19"
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#39"
  , "c1" : "ApiRequestScope"
  , "c2" : "lookupScope(K)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#24"
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#44"
  , "c1" : "AbstractRequest.Builder<?>"
  , "c2" : "buildRequest(Set<K>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#29"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#49"
  , "c1" : "LookupResult<K>"
  , "c2" : "handleResponse(Set<K>;AbstractResponse)"
  , "c3" : "1"
@@ -95,24 +95,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#19"
+ , "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#39"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method lookupScope arguments K  key"
+ , "c3" : "QC-JAV000006[00039] For method lookupScope arguments K  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#24"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method buildRequest arguments Set&lt;K &gt;  keys"
+ , "c3" : "QC-JAV000006[00044] For method buildRequest arguments Set&lt;K &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#29"
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method handleResponse arguments Set&lt;K &gt;  keys|AbstractResponse  response"
+ , "c3" : "QC-JAV000006[00049] For method handleResponse arguments Set&lt;K &gt;  keys|AbstractResponse  response"
 }} 
 ]
 , 

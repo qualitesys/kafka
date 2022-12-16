@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.mirror.TopicFilter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/TopicFilter.java.html#13"
+ , "c5" : "00028"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/TopicFilter.java.html#28"
  , "c1" : "boolean"
  , "c2" : "shouldReplicateTopic(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/TopicFilter.java.html#15"
+ , "c5" : "00030"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/TopicFilter.java.html#30"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/TopicFilter.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/TopicFilter.java.html#34"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"

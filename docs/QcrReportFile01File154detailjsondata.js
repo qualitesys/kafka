@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.internals.AdminApiHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#18"
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#35"
  , "c1" : "String"
  , "c2" : "apiName()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#21"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#49"
  , "c1" : "Collection<RequestAndKeys<K>>"
  , "c2" : "buildRequest(int;Set<K>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#24"
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#71"
  , "c1" : "ApiResult<K,V>"
  , "c2" : "handleResponse(Node;Set<K>;AbstractResponse)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#27"
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#79"
  , "c1" : "AdminApiLookupStrategy<K>"
  , "c2" : "lookupStrategy()"
  , "c3" : "1"
@@ -109,73 +109,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#89"
+ , "c1" : "00146"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#146"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00089] For method buildBatchedRequest arguments int  brokerId|Set&lt;K &gt;  keys"
+ , "c3" : "QC-JAV000006[00146] For method buildBatchedRequest arguments int  brokerId|Set&lt;K &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#92"
+ , "c1" : "00149"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#149"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method buildRequest arguments int  brokerId|Set&lt;K &gt;  keys"
+ , "c3" : "QC-JAV000006[00149] For method buildRequest arguments int  brokerId|Set&lt;K &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#99"
+ , "c1" : "00160"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#160"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00099] For method buildSingleRequest arguments int  brokerId|K  key"
+ , "c3" : "QC-JAV000006[00160] For method buildSingleRequest arguments int  brokerId|K  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#100"
+ , "c1" : "00161"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00100] For method handleSingleResponse arguments Node  broker|K  key|AbstractResponse  response"
+ , "c3" : "QC-JAV000006[00161] For method handleSingleResponse arguments Node  broker|K  key|AbstractResponse  response"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#103"
+ , "c1" : "00164"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#164"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method buildRequest arguments int  brokerId|Set&lt;K &gt;  keys"
+ , "c3" : "QC-JAV000006[00164] For method buildRequest arguments int  brokerId|Set&lt;K &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#103"
+ , "c1" : "00164"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#164"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00103] The argument keys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00164] The argument keys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#110"
+ , "c1" : "00171"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#171"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00110] For method handleResponse arguments Node  broker|Set&lt;K &gt;  keys|AbstractResponse  response"
+ , "c3" : "QC-JAV000006[00171] For method handleResponse arguments Node  broker|Set&lt;K &gt;  keys|AbstractResponse  response"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#110"
+ , "c1" : "00171"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#171"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00110] The argument keys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00171] The argument keys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#111"
+ , "c1" : "00172"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.admin.internals.AdminApiHandler.Unbatched.handleResponse@POLYN177984 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.clients.admin.internals.AdminApiHandler.Unbatched.handleResponse@POLYN178350 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#112"
+ , "c1" : "00173"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.admin.internals.AdminApiHandler.Unbatched.handleResponse@POLYN177984 the MagicNumber/String  'Unbatched admin handler should only be required to handle responses for a single key at a time' should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.clients.admin.internals.AdminApiHandler.Unbatched.handleResponse@POLYN178350 the MagicNumber/String  'Unbatched admin handler should only be required to handle responses for a single key at a time' should be converted to const"
 }} 
 ]
 , 

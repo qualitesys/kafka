@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ListConsumerGroupOffsetsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsResult.java.html#18"
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsResult.java.html#37"
  , "c1" : "ListConsumerGroupOffsetsResult"
  , "c2" : "ListConsumerGroupOffsetsResult(KafkaFuture<Map<TopicPartition,OffsetAndMetadata>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsResult.java.html#23"
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsResult.java.html#45"
  , "c1" : "KafkaFuture<Map<TopicPartition,OffsetAndMetadata>>"
  , "c2" : "partitionsToOffsetAndMetadata()"
  , "c3" : "1"

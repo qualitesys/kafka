@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.Sanitizer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#21"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#54"
  , "c1" : "String"
  , "c2" : "sanitize(String)"
  , "c3" : "6"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#43"
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#79"
  , "c1" : "String"
  , "c2" : "desanitize(String)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#52"
+ , "c5" : "00097"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#97"
  , "c1" : "String"
  , "c2" : "jmxSanitize(String)"
  , "c3" : "1"
@@ -93,66 +93,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#21"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00021] For method sanitize arguments String  name"
+ , "c3" : "QC-JAV000006[00054] For method sanitize arguments String  name"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#22"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN155075 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN155345 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#26"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN155075 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN155345 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#28"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN155075 the MagicNumber/String  '*' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN155345 the MagicNumber/String  '*' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#29"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN155075 the MagicNumber/String  '%2A' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN155345 the MagicNumber/String  '%2A' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#30"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN155075 the MagicNumber/String  '+' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN155345 the MagicNumber/String  '+' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#31"
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN155075 the MagicNumber/String  '%20' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.utils.Sanitizer.sanitize@POLYN155345 the MagicNumber/String  '%20' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#43"
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method desanitize arguments String  name"
+ , "c3" : "QC-JAV000006[00079] For method desanitize arguments String  name"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#52"
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method jmxSanitize arguments String  name"
+ , "c3" : "QC-JAV000006[00097] For method jmxSanitize arguments String  name"
 }} 
 ]
 , 

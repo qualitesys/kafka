@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedKeyValueBytesStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedKeyValueBytesStore.java.html#12"
+ , "c5" : "00027"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedKeyValueBytesStore.java.html#27"
  , "c1" : "ChangeLoggingTimestampedKeyValueBytesStore"
  , "c2" : "ChangeLoggingTimestampedKeyValueBytesStore(KeyValueStore<Bytes,byte[]>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedKeyValueBytesStore.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedKeyValueBytesStore.java.html#32"
  , "c1" : "void"
  , "c2" : "log(Bytes;byte[])"
  , "c3" : "3"
@@ -84,24 +84,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedKeyValueBytesStore.java.html#17"
+ , "c1" : "00032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedKeyValueBytesStore.java.html#32"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method log arguments Bytes  key|byte[]  valueAndTimestamp"
+ , "c3" : "QC-JAV000006[00032] For method log arguments Bytes  key|byte[]  valueAndTimestamp"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedKeyValueBytesStore.java.html#19"
+ , "c1" : "00034"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedKeyValueBytesStore.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedKeyValueBytesStore.log@POLYN144477 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedKeyValueBytesStore.log@POLYN144567 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedKeyValueBytesStore.java.html#22"
+ , "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedKeyValueBytesStore.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedKeyValueBytesStore.log@POLYN144477 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedKeyValueBytesStore.log@POLYN144567 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

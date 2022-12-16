@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeProducersOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#15"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#34"
  , "c1" : "DescribeProducersOptions"
  , "c2" : "brokerId(int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#20"
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#39"
  , "c1" : "OptionalInt"
  , "c2" : "brokerId()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#25"
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#44"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#34"
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#53"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#39"
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#58"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -118,73 +118,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#15"
+ , "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00015] For method brokerId arguments int  brokerId"
+ , "c3" : "QC-JAV000006[00034] For method brokerId arguments int  brokerId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#25"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00044] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#27"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00027] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00046] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#26"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.clients.admin.DescribeProducersOptions.equals@POLYN146441 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.admin.DescribeProducersOptions.equals@POLYN146555 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#27"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.admin.DescribeProducersOptions.equals@POLYN146441 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.admin.DescribeProducersOptions.equals@POLYN146555 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#27"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.admin.DescribeProducersOptions.equals@POLYN146441 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.admin.DescribeProducersOptions.equals@POLYN146555 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#40"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.admin.DescribeProducersOptions.toString@POLYN147216 the MagicNumber/String  'DescribeProducersOptions(' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.admin.DescribeProducersOptions.toString@POLYN147330 the MagicNumber/String  'DescribeProducersOptions(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#41"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.clients.admin.DescribeProducersOptions.toString@POLYN147216 the MagicNumber/String  'brokerId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.admin.DescribeProducersOptions.toString@POLYN147330 the MagicNumber/String  'brokerId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#42"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.admin.DescribeProducersOptions.toString@POLYN147216 the MagicNumber/String  ', timeoutMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.admin.DescribeProducersOptions.toString@POLYN147330 the MagicNumber/String  ', timeoutMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#43"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.admin.DescribeProducersOptions.toString@POLYN147216 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.clients.admin.DescribeProducersOptions.toString@POLYN147330 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

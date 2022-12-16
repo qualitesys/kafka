@@ -2,14 +2,14 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.connect.runtime.WorkerMetricsGroup"
 class org.apache.kafka.connect.runtime.WorkerMetricsGroup {
-+WorkerMetricsGroup(Map<String,WorkerConnector>;Map<ConnectorTaskId,WorkerTask>;ConnectMetrics) : WorkerMetricsGroup [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#23]]]
-close() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#61]]]
-recordConnectorStartupFailure() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#65]]]
-recordConnectorStartupSuccess() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#71]]]
-recordTaskFailure() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#77]]]
-recordTaskSuccess() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#83]]]
-metricGroup() : ConnectMetrics.MetricGroup [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#89]]]
-wrapStatusListener(ConnectorStatus.Listener) : ConnectorStatus.Listener [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#93]]]
-wrapStatusListener(TaskStatus.Listener) : TaskStatus.Listener [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#97]]]
++WorkerMetricsGroup(Map<String,WorkerConnector>;Map<ConnectorTaskId,WorkerTask>;ConnectMetrics) : WorkerMetricsGroup [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#38]]]
+close() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#76]]]
+recordConnectorStartupFailure() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#80]]]
+recordConnectorStartupSuccess() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#86]]]
+recordTaskFailure() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#92]]]
+recordTaskSuccess() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#98]]]
+metricGroup() : ConnectMetrics.MetricGroup [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#104]]]
+wrapStatusListener(ConnectorStatus.Listener) : ConnectorStatus.Listener [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#108]]]
+wrapStatusListener(TaskStatus.Listener) : TaskStatus.Listener [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#112]]]
 } 
 @enduml

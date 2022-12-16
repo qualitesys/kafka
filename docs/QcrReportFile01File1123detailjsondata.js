@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#45"
+ , "c5" : "00082"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#82"
  , "c1" : "RetryWithToleranceOperator"
  , "c2" : "RetryWithToleranceOperator(long;long;ToleranceType;Time)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#50"
+ , "c5" : "00087"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#87"
  , "c1" : "RetryWithToleranceOperator"
  , "c2" : "RetryWithToleranceOperator(long;long;ToleranceType;Time;ProcessingContext)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#60"
+ , "c5" : "00097"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#97"
  , "c1" : "Future<Void>"
  , "c2" : "executeFailed(Stage;Class<?>;ConsumerRecord<byte[],byte[]>;Throwable)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#77"
+ , "c5" : "00114"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#114"
  , "c1" : "Future<Void>"
  , "c2" : "executeFailed(Stage;Class<?>;SourceRecord;Throwable)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00174"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#174"
+ , "c5" : "00232"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#232"
  , "c1" : "void"
  , "c2" : "markAsFailed()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00180"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#180"
+ , "c5" : "00238"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#238"
  , "c1" : "boolean"
  , "c2" : "withinToleranceLimits()"
  , "c3" : "4"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00194"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#194"
+ , "c5" : "00252"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#252"
  , "c1" : "ToleranceType"
  , "c2" : "getErrorToleranceType()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00199"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#199"
+ , "c5" : "00257"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#257"
  , "c1" : "boolean"
  , "c2" : "checkRetry(long)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00204"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#204"
+ , "c5" : "00262"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#262"
  , "c1" : "void"
  , "c2" : "backoff(int;long)"
  , "c3" : "3"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00217"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#217"
+ , "c5" : "00275"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#275"
  , "c1" : "void"
  , "c2" : "metrics(ErrorHandlingMetrics)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00222"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#222"
+ , "c5" : "00280"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#280"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00234"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#234"
+ , "c5" : "00296"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#296"
  , "c1" : "void"
  , "c2" : "reporters(List<ErrorReporter>)"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00239"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#239"
+ , "c5" : "00305"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#305"
  , "c1" : "void"
  , "c2" : "sourceRecord(SourceRecord)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00244"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#244"
+ , "c5" : "00314"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#314"
  , "c1" : "void"
  , "c2" : "consumerRecord(ConsumerRecord<byte[],byte[]>)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00249"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#249"
+ , "c5" : "00321"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#321"
  , "c1" : "boolean"
  , "c2" : "failed()"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00254"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#254"
+ , "c5" : "00330"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#330"
  , "c1" : "Throwable"
  , "c2" : "error()"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00259"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#259"
+ , "c5" : "00335"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#335"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -263,381 +263,381 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#60"
+ , "c1" : "00097"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#97"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00060] Lock statement on synchronized method executeFailed"
+ , "c3" : "QC-JAV000019[00097] Lock statement on synchronized method executeFailed"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#60"
+ , "c1" : "00097"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method executeFailed arguments Stage  stage|Class&lt;? &gt;  executingClass|ConsumerRecord&lt;byte[] ,byte[] &gt;  consumerRecord|Throwable  error"
+ , "c3" : "QC-JAV000006[00097] For method executeFailed arguments Stage  stage|Class&lt;? &gt;  executingClass|ConsumerRecord&lt;byte[] ,byte[] &gt;  consumerRecord|Throwable  error"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#72"
+ , "c1" : "00109"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.executeFailed@POLYN192498 the MagicNumber/String  'Tolerance exceeded in error handler' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.executeFailed@POLYN192954 the MagicNumber/String  'Tolerance exceeded in error handler' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#77"
+ , "c1" : "00114"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#114"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00077] Lock statement on synchronized method executeFailed"
+ , "c3" : "QC-JAV000019[00114] Lock statement on synchronized method executeFailed"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#77"
+ , "c1" : "00114"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#114"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method executeFailed arguments Stage  stage|Class&lt;? &gt;  executingClass|SourceRecord  sourceRecord|Throwable  error"
+ , "c3" : "QC-JAV000006[00114] For method executeFailed arguments Stage  stage|Class&lt;? &gt;  executingClass|SourceRecord  sourceRecord|Throwable  error"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#89"
+ , "c1" : "00126"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.executeFailed@POLYN193418 the MagicNumber/String  'Tolerance exceeded in Source Worker error handler' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.executeFailed@POLYN193874 the MagicNumber/String  'Tolerance exceeded in Source Worker error handler' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#95"
+ , "c1" : "00139"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#139"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00095] Lock statement on synchronized method "
+ , "c3" : "QC-JAV000019[00139] Lock statement on synchronized method "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#95"
+ , "c1" : "00139"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#139"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00095] The argument operation is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00139] The argument operation is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#99"
+ , "c1" : "00143"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  'ProcessingContext is already in failed state. Ignoring requested operation.' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  'ProcessingContext is already in failed state. Ignoring requested operation.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#100"
+ , "c1" : "00144"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#115"
+ , "c1" : "00166"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#166"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00115] The argument operation is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00166] The argument operation is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#123"
+ , "c1" : "00174"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00123] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00174] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#116"
+ , "c1" : "00167"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#124"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  'Caught a retriable exception while executing {} operation with {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  'Thread was interrupted. Marking operation as failed.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#131"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#135"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  'Can't retry. start={}, attempt={}, deadline={}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#137"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#142"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#147"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00147] The argument tolerated is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#161"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  'Unhandled exception in error handler' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#165"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  'Tolerance exceeded in error handler' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#169"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  'Caught a retriable exception while executing {} operation with {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#180"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00180] Lock statement on synchronized method withinToleranceLimits"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.withinToleranceLimits@POLYN198800 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  'Thread was interrupted. Marking operation as failed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#183"
+ , "c1" : "00182"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.withinToleranceLimits@POLYN198800 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#185"
+ , "c1" : "00186"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.withinToleranceLimits@POLYN198800 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  'Can't retry. start={}, attempt={}, deadline={}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#187"
+ , "c1" : "00188"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.withinToleranceLimits@POLYN198800 the MagicNumber/String  'Unknown tolerance type: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#199"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00199] For method checkRetry arguments long  startTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#204"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00204] For method backoff arguments int  attempt|long  deadline"
+ , "c1" : "00193"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00205"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#205"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00205] The argument tolerated is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.backoff@POLYN199468 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#213"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.backoff@POLYN199468 the MagicNumber/String  'Sleeping for {} millis' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#217"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00217] Lock statement on synchronized method metrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#217"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00217] For method metrics arguments ErrorHandlingMetrics  errorHandlingMetrics"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  'Unhandled exception in error handler' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00223"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#223"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.toString@POLYN200431 the MagicNumber/String  'RetryWithToleranceOperator{' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00224"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#224"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.toString@POLYN200431 the MagicNumber/String  'errorRetryTimeout=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00225"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#225"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.toString@POLYN200431 the MagicNumber/String  ', errorMaxDelayInMillis=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00226"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#226"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.toString@POLYN200431 the MagicNumber/String  ', errorToleranceType=' should be converted to const"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  'Tolerance exceeded in error handler' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00227"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.toString@POLYN200431 the MagicNumber/String  ', totalFailures=' should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00228"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#228"
+ , "c1" : "00238"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#238"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00238] Lock statement on synchronized method withinToleranceLimits"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00241"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#241"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.toString@POLYN200431 the MagicNumber/String  ', time=' should be converted to const"
+ , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.withinToleranceLimits@POLYN199256 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00229"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#229"
+ , "c1" : "00241"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#241"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.toString@POLYN200431 the MagicNumber/String  ', context=' should be converted to const"
+ , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.withinToleranceLimits@POLYN199256 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#230"
+ , "c1" : "00243"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.toString@POLYN200431 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.withinToleranceLimits@POLYN199256 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00234"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#234"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00234] Lock statement on synchronized method reporters"
+ , "c1" : "00245"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#245"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.withinToleranceLimits@POLYN199256 the MagicNumber/String  'Unknown tolerance type: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00234"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#234"
+ , "c1" : "00257"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#257"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00234] For method reporters arguments List&lt;ErrorReporter &gt;  reporters"
+ , "c3" : "QC-JAV000006[00257] For method checkRetry arguments long  startTime"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00239"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#239"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00239] Lock statement on synchronized method sourceRecord"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00239"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#239"
+ , "c1" : "00262"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#262"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00239] For method sourceRecord arguments SourceRecord  preTransformRecord"
+ , "c3" : "QC-JAV000006[00262] For method backoff arguments int  attempt|long  deadline"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00244"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#244"
+ , "c1" : "00263"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#263"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.backoff@POLYN199924 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00271"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#271"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.backoff@POLYN199924 the MagicNumber/String  'Sleeping for {} millis' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00275"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#275"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00244] Lock statement on synchronized method consumerRecord"
+ , "c3" : "QC-JAV000019[00275] Lock statement on synchronized method metrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00244"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#244"
+ , "c1" : "00275"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#275"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00244] For method consumerRecord arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  consumedMessage"
+ , "c3" : "QC-JAV000006[00275] For method metrics arguments ErrorHandlingMetrics  errorHandlingMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00249"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#249"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00249] Lock statement on synchronized method failed"
+ , "c1" : "00281"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#281"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.toString@POLYN200887 the MagicNumber/String  'RetryWithToleranceOperator{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#254"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00254] Lock statement on synchronized method error"
+ , "c1" : "00282"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#282"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.toString@POLYN200887 the MagicNumber/String  'errorRetryTimeout=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00259"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#259"
+ , "c1" : "00283"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#283"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.toString@POLYN200887 the MagicNumber/String  ', errorMaxDelayInMillis=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00284"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#284"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.toString@POLYN200887 the MagicNumber/String  ', errorToleranceType=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00285"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#285"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.toString@POLYN200887 the MagicNumber/String  ', totalFailures=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00286"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#286"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.toString@POLYN200887 the MagicNumber/String  ', time=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00287"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#287"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.toString@POLYN200887 the MagicNumber/String  ', context=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00288"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#288"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.toString@POLYN200887 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00296"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#296"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00259] Lock statement on synchronized method close"
+ , "c3" : "QC-JAV000019[00296] Lock statement on synchronized method reporters"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00296"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#296"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00296] For method reporters arguments List&lt;ErrorReporter &gt;  reporters"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00305"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#305"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00305] Lock statement on synchronized method sourceRecord"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00305"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#305"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00305] For method sourceRecord arguments SourceRecord  preTransformRecord"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00314"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#314"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00314] Lock statement on synchronized method consumerRecord"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00314"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#314"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00314] For method consumerRecord arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  consumedMessage"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00321"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#321"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00321] Lock statement on synchronized method failed"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00330"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#330"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00330] Lock statement on synchronized method error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00335"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#335"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00335] Lock statement on synchronized method close"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.backoff@POLYN199468"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.backoff@POLYN199924"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#205"
+ , "c1" : "00263"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#263"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00205] In the recursive method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.backoff@POLYN199468 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00263] In the recursive method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.backoff@POLYN199924 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#213"
+ , "c1" : "00271"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#271"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.backoff@POLYN199468 the MagicNumber/String 'Sleeping for {} millis' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00271] In the recursive method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.backoff@POLYN199924 the MagicNumber/String 'Sleeping for {} millis' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.shell.GlobVisitor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#17"
+ , "c5" : "00034"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#34"
  , "c1" : "GlobVisitor"
  , "c2" : "GlobVisitor(String;Consumer<Optional<MetadataNodeInfo>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#79"
+ , "c5" : "00096"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#96"
  , "c1" : "void"
  , "c2" : "accept(MetadataNodeManager.Data)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#89"
+ , "c5" : "00106"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#106"
  , "c1" : "boolean"
  , "c2" : "accept(List<String>;int;MetadataNode;String[])"
  , "c3" : "9"
@@ -107,290 +107,290 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.lastPathComponent@POLYN161385 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.lastPathComponent@POLYN161385 the MagicNumber/String  '/' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.lastPathComponent@POLYN161385 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.absolutePath@POLYN161670 the MagicNumber/String  '/' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.absolutePath@POLYN161670 the MagicNumber/String  '/' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#58"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method equals arguments Object  o"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.lastPathComponent@POLYN161487 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.equals@POLYN162018 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.lastPathComponent@POLYN161487 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.equals@POLYN162018 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.lastPathComponent@POLYN161487 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#62"
+ , "c1" : "00066"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.equals@POLYN162018 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.absolutePath@POLYN161772 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#63"
+ , "c1" : "00066"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.equals@POLYN162018 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.absolutePath@POLYN161772 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.toString@POLYN162604 the MagicNumber/String  'MetadataNodeInfo(path=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.toString@POLYN162604 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.toString@POLYN162604 the MagicNumber/String  '/' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.toString@POLYN162604 the MagicNumber/String  ', node=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.toString@POLYN162604 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#79"
+ , "c1" : "00075"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method accept arguments MetadataNodeManager.Data  data"
+ , "c3" : "QC-JAV000006[00075] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#76"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.equals@POLYN162120 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.equals@POLYN162120 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#79"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00079] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.equals@POLYN162120 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN163312 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.equals@POLYN162120 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#81"
+ , "c1" : "00085"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN163312 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.toString@POLYN162706 the MagicNumber/String  'MetadataNodeInfo(path=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#84"
+ , "c1" : "00086"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN163312 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.toString@POLYN162706 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#84"
+ , "c1" : "00087"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN163312 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.toString@POLYN162706 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#89"
+ , "c1" : "00090"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#90"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.toString@POLYN162706 the MagicNumber/String  ', node=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#90"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo.toString@POLYN162706 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00096"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#96"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00089] For method accept arguments List&lt;String &gt;  globComponents|int  componentIndex|MetadataNode  node|String[]  path"
+ , "c3" : "QC-JAV000006[00096] For method accept arguments MetadataNodeManager.Data  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#89"
+ , "c1" : "00096"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#96"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00089] The argument globComponents is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00096] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#92"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00092] The argument path is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#119"
+ , "c1" : "00097"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00119] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN163414 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#121"
+ , "c1" : "00098"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00121] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164060 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN163414 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164060 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN163414 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#105"
+ , "c1" : "00101"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164060 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN163414 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164060 the MagicNumber/String  false should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00106] For method accept arguments List&lt;String &gt;  globComponents|int  componentIndex|MetadataNode  node|String[]  path"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164060 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164060 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00106"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#106"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00106] The argument globComponents is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164060 the MagicNumber/String  0 should be converted to const"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00109] The argument path is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#111"
+ , "c1" : "00136"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164060 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000001[00136] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#114"
+ , "c1" : "00138"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164060 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000001[00138] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#117"
+ , "c1" : "00112"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164060 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164162 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#121"
+ , "c1" : "00118"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164060 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164162 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164060 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164162 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#122"
+ , "c1" : "00123"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164060 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#124"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164060 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164162 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164060 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164162 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00126"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#126"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164162 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00126"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#126"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164162 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#128"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164162 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#131"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164162 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#134"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164162 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00138"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#138"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164162 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#139"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164162 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#139"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164162 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00141"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#141"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164162 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00142"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#142"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.shell.GlobVisitor.accept@POLYN164162 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

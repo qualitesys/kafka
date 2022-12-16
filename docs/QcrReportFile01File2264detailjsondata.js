@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.NullPayloadGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00009"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#9"
+ , "c5" : "00026"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#26"
  , "c1" : "NullPayloadGenerator"
  , "c2" : "NullPayloadGenerator()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#13"
+ , "c5" : "00030"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#30"
  , "c1" : "byte[]"
  , "c2" : "generate(long)"
  , "c3" : "1"
@@ -84,17 +84,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#13"
+ , "c1" : "00030"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00013] For method generate arguments long  position"
+ , "c3" : "QC-JAV000006[00030] For method generate arguments long  position"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#14"
+ , "c1" : "00031"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.trogdor.workload.NullPayloadGenerator.generate@POLYN141348 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.workload.NullPayloadGenerator.generate@POLYN141450 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

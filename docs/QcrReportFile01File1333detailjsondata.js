@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.ClusterImage" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#22"
+ , "c5" : "00041"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#41"
  , "c1" : "ClusterImage"
  , "c2" : "ClusterImage(Map<Integer,BrokerRegistration>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#26"
+ , "c5" : "00045"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#45"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#30"
+ , "c5" : "00049"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#49"
  , "c1" : "Map<Integer,BrokerRegistration>"
  , "c2" : "brokers()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#34"
+ , "c5" : "00053"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#53"
  , "c1" : "BrokerRegistration"
  , "c2" : "broker(int)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#38"
+ , "c5" : "00057"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#57"
  , "c1" : "void"
  , "c2" : "write(Consumer<List<ApiMessageAndVersion>>;MetadataVersion)"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#47"
+ , "c5" : "00066"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#66"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#52"
+ , "c5" : "00071"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#71"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#59"
+ , "c5" : "00078"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#78"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -168,80 +168,80 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#34"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method broker arguments int  nodeId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method write arguments Consumer&lt;List&lt;ApiMessageAndVersion &gt; &gt;  out|MetadataVersion  metadataVersion"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#38"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00038] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#52"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.image.ClusterImage.equals@POLYN150926 the MagicNumber/String  false should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00053] For method broker arguments int  nodeId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.image.ClusterImage.toString@POLYN151285 the MagicNumber/String  ':' should be converted to const"
+ , "c1" : "00057"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#57"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00057] For method write arguments Consumer&lt;List&lt;ApiMessageAndVersion &gt; &gt;  out|MetadataVersion  metadataVersion"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#61"
+ , "c1" : "00057"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#57"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00057] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#71"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00071] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.image.ClusterImage.toString@POLYN151285 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.image.ClusterImage.equals@POLYN151040 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.image.ClusterImage.toString@POLYN151399 the MagicNumber/String  ':' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.image.ClusterImage.toString@POLYN151399 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterImage.equals@POLYN150926"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterImage.equals@POLYN151040"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterImage.hashCode@POLYN150806"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterImage.hashCode@POLYN150920"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterImage.isEmpty@POLYN149903"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterImage.isEmpty@POLYN150017"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#53"
+ , "c1" : "00072"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#72"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.image.ClusterImage.equals@POLYN150926 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.image.ClusterImage.equals@POLYN151040 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

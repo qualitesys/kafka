@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.EndQuorumEpochRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#37"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#52"
  , "c1" : "EndQuorumEpochRequest"
  , "c2" : "EndQuorumEpochRequest(EndQuorumEpochRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#43"
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#58"
  , "c1" : "EndQuorumEpochRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#48"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#63"
  , "c1" : "EndQuorumEpochResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#53"
+ , "c5" : "00068"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#68"
  , "c1" : "EndQuorumEpochRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#57"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#72"
  , "c1" : "EndQuorumEpochRequestData"
  , "c2" : "singletonRequest(TopicPartition;int;int;List<Integer>)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#64"
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#79"
  , "c1" : "EndQuorumEpochRequestData"
  , "c2" : "singletonRequest(TopicPartition;String;int;int;List<Integer>)"
  , "c3" : "1"
@@ -143,59 +143,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00040] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#48"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00063] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#53"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00068] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#57"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method singletonRequest arguments TopicPartition  topicPartition|int  leaderEpoch|int  leaderId|List&lt;Integer &gt;  preferredSuccessors"
+ , "c3" : "QC-JAV000006[00072] For method singletonRequest arguments TopicPartition  topicPartition|int  leaderEpoch|int  leaderId|List&lt;Integer &gt;  preferredSuccessors"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#61"
+ , "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.requests.EndQuorumEpochRequest.singletonRequest@POLYN152404 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.requests.EndQuorumEpochRequest.singletonRequest@POLYN152494 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#64"
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method singletonRequest arguments TopicPartition  topicPartition|String  clusterId|int  leaderEpoch|int  leaderId|List&lt;Integer &gt;  preferredSuccessors"
+ , "c3" : "QC-JAV000006[00079] For method singletonRequest arguments TopicPartition  topicPartition|String  clusterId|int  leaderEpoch|int  leaderId|List&lt;Integer &gt;  preferredSuccessors"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#64"
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#79"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00064] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00079] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.EndQuorumEpochRequest.Builder.toString@POLYN151307"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.EndQuorumEpochRequest.Builder.toString@POLYN151397"
 }} 
 ]
 , 

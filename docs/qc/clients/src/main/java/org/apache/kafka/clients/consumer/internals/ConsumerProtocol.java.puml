@@ -2,16 +2,16 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.consumer.internals.ConsumerProtocol"
 class org.apache.kafka.clients.consumer.internals.ConsumerProtocol {
-+deserializeVersion(ByteBuffer) : short [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#37]]]
-+serializeSubscription(Subscription) : ByteBuffer [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#45]]]
-+serializeSubscription(Subscription;short) : ByteBuffer [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#49]]]
-+deserializeSubscription(ByteBuffer;short) : Subscription [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#74]]]
-+deserializeSubscription(ByteBuffer) : Subscription [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#97]]]
-+serializeAssignment(Assignment) : ByteBuffer [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#101]]]
-+serializeAssignment(Assignment;short) : ByteBuffer [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#105]]]
-+deserializeAssignment(ByteBuffer;short) : Assignment [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#121]]]
-+deserializeAssignment(ByteBuffer) : Assignment [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#143]]]
--checkSubscriptionVersion(short) : short [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#147]]]
--checkAssignmentVersion(short) : short [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#156]]]
++deserializeVersion(ByteBuffer) : short [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#59]]]
++serializeSubscription(Subscription) : ByteBuffer [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#67]]]
++serializeSubscription(Subscription;short) : ByteBuffer [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#71]]]
++deserializeSubscription(ByteBuffer;short) : Subscription [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#96]]]
++deserializeSubscription(ByteBuffer) : Subscription [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#119]]]
++serializeAssignment(Assignment) : ByteBuffer [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#123]]]
++serializeAssignment(Assignment;short) : ByteBuffer [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#127]]]
++deserializeAssignment(ByteBuffer;short) : Assignment [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#143]]]
++deserializeAssignment(ByteBuffer) : Assignment [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#165]]]
+-checkSubscriptionVersion(short) : short [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#169]]]
+-checkAssignmentVersion(short) : short [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#178]]]
 } 
 @enduml

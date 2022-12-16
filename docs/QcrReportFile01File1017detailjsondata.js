@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.mirror.MirrorClientConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#31"
+ , "c5" : "00064"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#64"
  , "c1" : "MirrorClientConfig"
  , "c2" : "MirrorClientConfig(Map<?,?>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#35"
+ , "c5" : "00068"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#68"
  , "c1" : "ReplicationPolicy"
  , "c2" : "replicationPolicy()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#40"
+ , "c5" : "00073"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#73"
  , "c1" : "Map<String,Object>"
  , "c2" : "adminConfig()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#45"
+ , "c5" : "00078"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#78"
  , "c1" : "Map<String,Object>"
  , "c2" : "consumerConfig()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#50"
+ , "c5" : "00083"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#83"
  , "c1" : "Map<String,Object>"
  , "c2" : "producerConfig()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#54"
+ , "c5" : "00087"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#87"
  , "c1" : "Map<String,Object>"
  , "c2" : "clientConfig(String)"
  , "c3" : "1"
@@ -120,24 +120,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#32"
+ , "c1" : "00065"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.mirror.MirrorClientConfig.MirrorClientConfig@POLYN159651 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.connect.mirror.MirrorClientConfig.MirrorClientConfig@POLYN159849 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#54"
+ , "c1" : "00087"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method clientConfig arguments String  prefix"
+ , "c3" : "QC-JAV000006[00087] For method clientConfig arguments String  prefix"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#58"
+ , "c1" : "00091"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.mirror.MirrorClientConfig.clientConfig@POLYN160502 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.mirror.MirrorClientConfig.clientConfig@POLYN160700 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

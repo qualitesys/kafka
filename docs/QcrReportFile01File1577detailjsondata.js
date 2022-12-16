@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.examples.pageview.PageViewTypedDemo" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00124"
- , "c5link" : "././qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#124"
+ , "c5" : "00175"
+ , "c5link" : "././qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#175"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "3"
@@ -96,297 +96,297 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#39"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00088] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#43"
+ , "c1" : "00092"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method deserialize arguments String  topic|byte[]  data"
+ , "c3" : "QC-JAV000006[00092] For method deserialize arguments String  topic|byte[]  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#44"
+ , "c1" : "00093"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.deserialize@POLYN188689 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.deserialize@POLYN188995 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#45"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.deserialize@POLYN188689 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method serialize arguments String  topic|T  data"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.serialize@POLYN189197 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.serialize@POLYN189197 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.serialize@POLYN189197 the MagicNumber/String  'Error serializing JSON message' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#39"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00039] Void method configure is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#39"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00039] Void method configure is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#69"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00069] Void method close is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#69"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00069] Void method close is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#98"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00098] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#99"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00099] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00100] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#104"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00104] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.deserialize@POLYN188995 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#105"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00105] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00109] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#110"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00110] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#111"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00111] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#115"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00115] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#116"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00116] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#120"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00120] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#121"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00121] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#124"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00124] For method main arguments String[]  args"
+ , "c3" : "QC-JAV000006[00105] For method serialize arguments String  topic|T  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#126"
+ , "c1" : "00106"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  'streams-pageview-typed' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.serialize@POLYN189503 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#127"
+ , "c1" : "00107"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  'localhost:9092' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.serialize@POLYN189503 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#131"
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde.serialize@POLYN189503 the MagicNumber/String  'Error serializing JSON message' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  1000L should be converted to const"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#88"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00088] Void method configure is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#135"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  'earliest' should be converted to const"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#88"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00088] Void method configure is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#139"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  'streams-pageview-input' should be converted to const"
+ , "c1" : "00118"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#118"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00118] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  'streams-userprofile-input' should be converted to const"
+ , "c1" : "00118"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#118"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00118] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#143"
+ , "c1" : "00149"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAVCWE493[00149] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#150"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAVCWE493[00150] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAVCWE493[00151] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#154"
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  'UNKNOWN' should be converted to const"
+ , "c3" : "QC-JAVCWE493[00155] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00156"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#156"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAVCWE493[00156] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAVCWE493[00160] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#160"
+ , "c1" : "00161"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAVCWE493[00161] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#176"
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  'streams-pageviewstats-typed-output' should be converted to const"
+ , "c3" : "QC-JAVCWE493[00162] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#179"
+ , "c1" : "00166"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAVCWE493[00166] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#167"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAVCWE493[00167] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#171"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAVCWE493[00171] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAVCWE493[00172] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#175"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00175] For method main arguments String[]  args"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  'streams-pageview-typed' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00178"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#178"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  'localhost:9092' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  'streams-pipe-shutdown-hook' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#195"
+ , "c1" : "00183"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  1000L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#197"
+ , "c1" : "00186"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191615 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  'earliest' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00190"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  'streams-pageview-input' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00192"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#192"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  'streams-userprofile-input' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00194"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#194"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  24 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00202"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00205"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#205"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  'UNKNOWN' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#211"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  7 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#211"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00227"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#227"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  'streams-pageviewstats-typed-output' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00230"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#230"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00233"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#233"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  'streams-pipe-shutdown-hook' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00246"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#246"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00248"
+ , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#248"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.main@POLYN191921 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

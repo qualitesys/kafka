@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.ProducerManager" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#28"
+ , "c5" : "00047"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#47"
  , "c1" : "ProducerManager"
  , "c2" : "ProducerManager(TopicBasedRemoteLogMetadataManagerConfig;RemoteLogMetadataTopicPartitioner)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#36"
+ , "c5" : "00061"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#61"
  , "c1" : "CompletableFuture<RecordMetadata>"
  , "c2" : "publishMessage(RemoteLogMetadata)"
  , "c3" : "4"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#70"
+ , "c5" : "00095"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#95"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -100,73 +100,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#28"
+ , "c1" : "00047"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#47"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00028] The argument rlmmConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#36"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method publishMessage arguments RemoteLogMetadata  remoteLogMetadata"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#36"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00036] The argument remoteLogMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.server.log.remote.metadata.storage.ProducerManager.publishMessage@POLYN155314 the MagicNumber/String  'Publishing metadata message of partition:[{}] into metadata topic partition:[{}] with payload: [{}]' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.server.log.remote.metadata.storage.ProducerManager.publishMessage@POLYN155314 the MagicNumber/String  'Chosen partition no ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.server.log.remote.metadata.storage.ProducerManager.publishMessage@POLYN155314 the MagicNumber/String  ' must be less than the partition count: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.server.log.remote.metadata.storage.ProducerManager.publishMessage@POLYN155314 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAVCWE476[00047] The argument rlmmConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.server.log.remote.metadata.storage.ProducerManager.publishMessage@POLYN155314 the MagicNumber/String  null should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00061] For method publishMessage arguments RemoteLogMetadata  remoteLogMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.server.log.remote.metadata.storage.ProducerManager.close@POLYN156912 the MagicNumber/String  30 should be converted to const"
+ , "c1" : "00061"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#61"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00061] The argument remoteLogMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#74"
+ , "c1" : "00066"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.server.log.remote.metadata.storage.ProducerManager.close@POLYN156912 the MagicNumber/String  'Error encountered while closing the producer' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.server.log.remote.metadata.storage.ProducerManager.publishMessage@POLYN155464 the MagicNumber/String  'Publishing metadata message of partition:[{}] into metadata topic partition:[{}] with payload: [{}]' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00070"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#70"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.server.log.remote.metadata.storage.ProducerManager.publishMessage@POLYN155464 the MagicNumber/String  'Chosen partition no ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#71"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.server.log.remote.metadata.storage.ProducerManager.publishMessage@POLYN155464 the MagicNumber/String  ' must be less than the partition count: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.server.log.remote.metadata.storage.ProducerManager.publishMessage@POLYN155464 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.server.log.remote.metadata.storage.ProducerManager.publishMessage@POLYN155464 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#97"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.server.log.remote.metadata.storage.ProducerManager.close@POLYN157062 the MagicNumber/String  30 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.server.log.remote.metadata.storage.ProducerManager.close@POLYN157062 the MagicNumber/String  'Error encountered while closing the producer' should be converted to const"
 }} 
 ]
 , 

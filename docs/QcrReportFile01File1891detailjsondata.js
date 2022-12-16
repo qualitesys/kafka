@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.PartitionGroup" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#54"
+ , "c5" : "00090"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#90"
  , "c1" : "PartitionGroup"
  , "c2" : "PartitionGroup(LogContext;Map<TopicPartition,RecordQueue>;Function<TopicPartition,OptionalLong>;Sensor;Sensor;long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#72"
+ , "c5" : "00108"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#108"
  , "c1" : "boolean"
  , "c2" : "readyToProcess(long)"
  , "c3" : "20"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00174"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#174"
+ , "c5" : "00210"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#210"
  , "c1" : "long"
  , "c2" : "partitionTimestamp(TopicPartition)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00183"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#183"
+ , "c5" : "00219"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#219"
  , "c1" : "void"
  , "c2" : "updatePartitions(Set<TopicPartition>;Function<TopicPartition,RecordQueue>)"
  , "c3" : "4"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00204"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#204"
+ , "c5" : "00240"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#240"
  , "c1" : "void"
  , "c2" : "setPartitionTime(TopicPartition;long)"
  , "c3" : "3"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00216"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#216"
+ , "c5" : "00256"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#256"
  , "c1" : "StampedRecord"
  , "c2" : "nextRecord(RecordInfo;long)"
  , "c3" : "7"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00250"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#250"
+ , "c5" : "00296"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#296"
  , "c1" : "int"
  , "c2" : "addRawRecords(TopicPartition;Iterable<ConsumerRecord<byte[],byte[]>>)"
  , "c3" : "4"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00277"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#277"
+ , "c5" : "00323"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#323"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "partitions()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00282"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#282"
+ , "c5" : "00330"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#330"
  , "c1" : "long"
  , "c2" : "streamTime()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00286"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#286"
+ , "c5" : "00334"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#334"
  , "c1" : "Long"
  , "c2" : "headRecordOffset(TopicPartition)"
  , "c3" : "2"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00297"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#297"
+ , "c5" : "00347"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#347"
  , "c1" : "int"
  , "c2" : "numBuffered(TopicPartition)"
  , "c3" : "2"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00307"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#307"
+ , "c5" : "00357"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#357"
  , "c1" : "int"
  , "c2" : "numBuffered()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00311"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#311"
+ , "c5" : "00361"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#361"
  , "c1" : "boolean"
  , "c2" : "allPartitionsBufferedLocally()"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00315"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#315"
+ , "c5" : "00365"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#365"
  , "c1" : "void"
  , "c2" : "clear()"
  , "c3" : "2"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00324"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#324"
+ , "c5" : "00374"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#374"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -245,626 +245,626 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#54"
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#90"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00054] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#55"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00055] The argument partitionQueues is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.processor.internals.PartitionGroup.PartitionGroup@POLYN192365 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.processor.internals.PartitionGroup.PartitionGroup@POLYN192365 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#72"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method readyToProcess arguments long  wallClockTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#98"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00098] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#99"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00099] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00107] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  'Ready for processing because max.task.idle.ms is disabled.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#85"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  '\n\tThere may be out-of-order processing for this task as a result.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  '\n\tBuffered partitions: {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#87"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  '\n\tNon-buffered partitions: {}' should be converted to const"
+ , "c3" : "QC-JAVCWE476[00090] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  true should be converted to const"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00091] The argument partitionQueues is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#95"
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.processor.internals.PartitionGroup.PartitionGroup@POLYN192665 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#112"
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  'Waiting to fetch data for {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.internals.PartitionGroup.PartitionGroup@POLYN192665 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#113"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  0L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  'Lag for {} is currently {}, but no data is buffered locally. Waiting to buffer some records.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#122"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#108"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00108] For method readyToProcess arguments long  wallClockTime"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  'Lag for {} is currently 0 and current time is {}. Waiting for new data to be produced for configured idle time {} (deadline is {}).' should be converted to const"
+ , "c3" : "QC-JAV000001[00134] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#140"
+ , "c1" : "00135"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000001[00135] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00143] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#151"
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#152"
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  'All partitions were buffered locally, so this task is ready for processing.' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  'Ready for processing because max.task.idle.ms is disabled.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#153"
+ , "c1" : "00121"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  '\n\tThere may be out-of-order processing for this task as a result.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#155"
+ , "c1" : "00122"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  'No partitions were buffered locally, so this task is not ready for processing.' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  '\n\tBuffered partitions: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#156"
+ , "c1" : "00123"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  '\n\tNon-buffered partitions: {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#127"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#131"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  'Waiting to fetch data for {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00149"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#149"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#150"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  0L should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#154"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  'Lag for {} is currently {}, but no data is buffered locally. Waiting to buffer some records.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  1.0d should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#159"
+ , "c1" : "00170"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  'Continuing to process although some partitions are empty on the broker.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#160"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  '\n\tThere may be out-of-order processing for this task as a result.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#161"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  '\n\tPartitions with local data: {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#162"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  '\n\tPartitions we gave up waiting for, with their corresponding deadlines: {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#163"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  '\n\tConfigured max.task.idle.ms: {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#164"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  '\n\tCurrent wall-clock time: {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#169"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193455 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#173"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00173] For method partitionTimestamp arguments TopicPartition  partition"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  'Lag for {} is currently 0 and current time is {}. Waiting for new data to be produced for configured idle time {} (deadline is {}).' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00176"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN197674 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#177"
+ , "c1" : "00179"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN197674 the MagicNumber/String  'Partition ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#177"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN197674 the MagicNumber/String  ' not found.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#182"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00182] For method updatePartitions arguments Set&lt;TopicPartition &gt;  newInputPartitions|Function&lt;TopicPartition ,RecordQueue &gt;  recordQueueCreator"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#183"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00183] The argument newInputPartitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#183"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00183] The argument recordQueueCreator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00187] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00188] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  'All partitions were buffered locally, so this task is ready for processing.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#204"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00204] For method setPartitionTime arguments TopicPartition  partition|long  partitionTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#206"
+ , "c1" : "00189"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.processor.internals.PartitionGroup.setPartitionTime@POLYN199638 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#207"
+ , "c1" : "00191"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.streams.processor.internals.PartitionGroup.setPartitionTime@POLYN199638 the MagicNumber/String  'Partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  'No partitions were buffered locally, so this task is not ready for processing.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#207"
+ , "c1" : "00192"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.streams.processor.internals.PartitionGroup.setPartitionTime@POLYN199638 the MagicNumber/String  ' not found.' should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00216"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#216"
+ , "c1" : "00194"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#194"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  1.0d should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00195"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#195"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  'Continuing to process although some partitions are empty on the broker.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  '\n\tThere may be out-of-order processing for this task as a result.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00197"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#197"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  '\n\tPartitions with local data: {}.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00198"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#198"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  '\n\tPartitions we gave up waiting for, with their corresponding deadlines: {}.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00199"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#199"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  '\n\tConfigured max.task.idle.ms: {}.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00200"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#200"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  '\n\tCurrent wall-clock time: {}.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00205"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#205"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00209"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#209"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00216] For method nextRecord arguments RecordInfo  info|long  wallClockTime"
+ , "c3" : "QC-JAV000006[00209] For method partitionTimestamp arguments TopicPartition  partition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00216"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#216"
+ , "c1" : "00212"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#212"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN197974 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00213"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#213"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN197974 the MagicNumber/String  'Partition ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00213"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#213"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN197974 the MagicNumber/String  ' not found.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#218"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00216] For method nextRecord list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.StampedRecord queue_pollN200686"
+ , "c3" : "QC-JAV000006[00218] For method updatePartitions arguments Set&lt;TopicPartition &gt;  newInputPartitions|Function&lt;TopicPartition ,RecordQueue &gt;  recordQueueCreator"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00216"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#216"
+ , "c1" : "00219"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#219"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00216] The argument info is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00219] The argument newInputPartitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#217"
+ , "c1" : "00219"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#219"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00219] The argument recordQueueCreator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00223"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#223"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.processor.internals.PartitionGroup.nextRecord@POLYN200287 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00223] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00222"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#222"
+ , "c1" : "00224"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.streams.processor.internals.PartitionGroup.nextRecord@POLYN200287 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00224] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00226"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#226"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.streams.processor.internals.PartitionGroup.nextRecord@POLYN200287 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00231"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#231"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.streams.processor.internals.PartitionGroup.nextRecord@POLYN200287 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00239"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#239"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.streams.processor.internals.PartitionGroup.nextRecord@POLYN200287 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#250"
+ , "c1" : "00240"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#240"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00250] For method addRawRecords arguments TopicPartition  partition|Iterable&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  rawRecords"
+ , "c3" : "QC-JAV000006[00240] For method setPartitionTime arguments TopicPartition  partition|long  partitionTime"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#253"
+ , "c1" : "00242"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#242"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201627 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.streams.processor.internals.PartitionGroup.setPartitionTime@POLYN199938 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#254"
+ , "c1" : "00243"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201627 the MagicNumber/String  'Partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.streams.processor.internals.PartitionGroup.setPartitionTime@POLYN199938 the MagicNumber/String  'Partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#254"
+ , "c1" : "00243"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201627 the MagicNumber/String  ' not found.' should be converted to const"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.streams.processor.internals.PartitionGroup.setPartitionTime@POLYN199938 the MagicNumber/String  ' not found.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#261"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201627 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#261"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201627 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00268"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#268"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201627 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00286"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#286"
+ , "c1" : "00256"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#256"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00286] For method headRecordOffset arguments TopicPartition  partition"
+ , "c3" : "QC-JAV000006[00256] For method nextRecord arguments RecordInfo  info|long  wallClockTime"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00289"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#289"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.streams.processor.internals.PartitionGroup.headRecordOffset@POLYN203069 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00290"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#290"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.streams.processor.internals.PartitionGroup.headRecordOffset@POLYN203069 the MagicNumber/String  'Partition ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00290"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#290"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.streams.processor.internals.PartitionGroup.headRecordOffset@POLYN203069 the MagicNumber/String  ' not found.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#297"
+ , "c1" : "00256"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#256"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00297] For method numBuffered arguments TopicPartition  partition"
+ , "c3" : "QC-JAV000007[00256] For method nextRecord list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.StampedRecord queue_pollN200986"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00256"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#256"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00256] The argument info is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00257"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#257"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.streams.processor.internals.PartitionGroup.nextRecord@POLYN200587 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00262"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#262"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.streams.processor.internals.PartitionGroup.nextRecord@POLYN200587 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00266"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#266"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.streams.processor.internals.PartitionGroup.nextRecord@POLYN200587 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00271"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#271"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.streams.processor.internals.PartitionGroup.nextRecord@POLYN200587 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00279"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#279"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.streams.processor.internals.PartitionGroup.nextRecord@POLYN200587 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00296"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#296"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00296] For method addRawRecords arguments TopicPartition  partition|Iterable&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  rawRecords"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00299"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#299"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201927 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00300"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.streams.processor.internals.PartitionGroup.numBuffered@POLYN203554 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201927 the MagicNumber/String  'Partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00301"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#301"
+ , "c1" : "00300"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.streams.processor.internals.PartitionGroup.numBuffered@POLYN203554 the MagicNumber/String  'Partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201927 the MagicNumber/String  ' not found.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00301"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#301"
+ , "c1" : "00307"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.streams.processor.internals.PartitionGroup.numBuffered@POLYN203554 the MagicNumber/String  ' not found.' should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201927 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00320"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#320"
+ , "c1" : "00307"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.streams.processor.internals.PartitionGroup.clear@POLYN204128 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201927 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00314"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#314"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201927 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00334"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#334"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00334] For method headRecordOffset arguments TopicPartition  partition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00337"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#337"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.streams.processor.internals.PartitionGroup.headRecordOffset@POLYN203369 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00338"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#338"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.streams.processor.internals.PartitionGroup.headRecordOffset@POLYN203369 the MagicNumber/String  'Partition ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00338"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#338"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.streams.processor.internals.PartitionGroup.headRecordOffset@POLYN203369 the MagicNumber/String  ' not found.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00347"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#347"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00347] For method numBuffered arguments TopicPartition  partition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#350"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.streams.processor.internals.PartitionGroup.numBuffered@POLYN203854 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00351"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#351"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.streams.processor.internals.PartitionGroup.numBuffered@POLYN203854 the MagicNumber/String  'Partition ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00351"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#351"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.streams.processor.internals.PartitionGroup.numBuffered@POLYN203854 the MagicNumber/String  ' not found.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00370"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#370"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.streams.processor.internals.PartitionGroup.clear@POLYN204428 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.RecordInfo.node@POLYN192090"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.RecordInfo.node@POLYN192390"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.RecordInfo.partition@POLYN192191"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.RecordInfo.partition@POLYN192491"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201627"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201927"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.clear@POLYN204128"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.clear@POLYN204428"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.close@POLYN204486"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.close@POLYN204786"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN197674"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN197974"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#253"
+ , "c1" : "00299"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#299"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201627 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00299] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201927 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#254"
+ , "c1" : "00300"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#300"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00254] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201627 the MagicNumber/String ' not found.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00300] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201927 the MagicNumber/String ' not found.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#254"
+ , "c1" : "00300"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#300"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00254] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201627 the MagicNumber/String 'Partition ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00300] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201927 the MagicNumber/String 'Partition ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#261"
+ , "c1" : "00307"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#307"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00261] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201627 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00307] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201927 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#261"
+ , "c1" : "00307"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#307"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00261] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201627 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00307] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201927 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00268"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#268"
+ , "c1" : "00314"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#314"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00268] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201627 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00314] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.addRawRecords@POLYN201927 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00320"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#320"
+ , "c1" : "00370"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#370"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00320] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.clear@POLYN204128 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00370] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.clear@POLYN204428 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#176"
+ , "c1" : "00212"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#212"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00176] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN197674 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00212] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN197974 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#177"
+ , "c1" : "00213"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#213"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN197674 the MagicNumber/String ' not found.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN197974 the MagicNumber/String ' not found.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#177"
+ , "c1" : "00213"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#213"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN197674 the MagicNumber/String 'Partition ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN197974 the MagicNumber/String 'Partition ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

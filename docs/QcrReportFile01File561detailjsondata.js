@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.FileLogInputStream" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#32"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#54"
  , "c1" : "FileLogInputStream"
  , "c2" : "FileLogInputStream(FileRecords;int;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#41"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#63"
  , "c1" : "FileChannelRecordBatch"
  , "c2" : "nextBatch()"
  , "c3" : "6"
@@ -121,311 +121,311 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#44"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.record.FileLogInputStream.nextBatch@POLYN174543 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.record.FileLogInputStream.nextBatch@POLYN174699 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#47"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.record.FileLogInputStream.nextBatch@POLYN174543 the MagicNumber/String  'log header' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.record.FileLogInputStream.nextBatch@POLYN174699 the MagicNumber/String  'log header' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#55"
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.record.FileLogInputStream.nextBatch@POLYN174543 the MagicNumber/String  'Found record size %d smaller than minimum record ' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.record.FileLogInputStream.nextBatch@POLYN174699 the MagicNumber/String  'Found record size %d smaller than minimum record ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#56"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.record.FileLogInputStream.nextBatch@POLYN174543 the MagicNumber/String  'overhead (%d) in file %s.' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.record.FileLogInputStream.nextBatch@POLYN174699 the MagicNumber/String  'overhead (%d) in file %s.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#59"
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.record.FileLogInputStream.nextBatch@POLYN174543 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.record.FileLogInputStream.nextBatch@POLYN174699 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#131"
+ , "c1" : "00157"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00131] For method streamingIterator arguments BufferSupplier  bufferSupplier"
+ , "c3" : "QC-JAV000006[00157] For method streamingIterator arguments BufferSupplier  bufferSupplier"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#151"
+ , "c1" : "00177"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#177"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00151] For method writeTo arguments ByteBuffer  buffer"
+ , "c3" : "QC-JAV000006[00177] For method writeTo arguments ByteBuffer  buffer"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#151"
+ , "c1" : "00177"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#177"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00151] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#159"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.writeTo@POLYN178763 the MagicNumber/String  'Failed to read record batch at position ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#159"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.writeTo@POLYN178763 the MagicNumber/String  ' from ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#163"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00163] For method toMemoryRecordBatch arguments ByteBuffer  buffer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#167"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00167] For method loadFullBatch list of called methods Object monObjet|org.apache.kafka.common.record.RecordBatch loadBatchWithSizeN179849"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#168"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN179646 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#169"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN179646 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#170"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN179646 the MagicNumber/String  'full record batch' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#175"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00175] For method loadBatchHeader list of called methods Object monObjet|org.apache.kafka.common.record.RecordBatch loadBatchWithSizeN180208"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#176"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchHeader@POLYN179985 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#179"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchHeader@POLYN179985 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#180"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchHeader@POLYN179985 the MagicNumber/String  'record batch header' should be converted to const"
+ , "c3" : "QC-JAVCWE476[00177] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00185"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.writeTo@POLYN178919 the MagicNumber/String  'Failed to read record batch at position ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00185"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.writeTo@POLYN178919 the MagicNumber/String  ' from ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00189"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#189"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00185] For method loadBatchWithSize arguments int  size|String  description"
+ , "c3" : "QC-JAV000006[00189] For method toMemoryRecordBatch arguments ByteBuffer  buffer"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00193"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#193"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN180341 the MagicNumber/String  'Failed to load record batch at position ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#193"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN180341 the MagicNumber/String  ' from ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#198"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00198] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000007[00193] For method loadFullBatch list of called methods Object monObjet|org.apache.kafka.common.record.RecordBatch loadBatchWithSizeN180005"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00194"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#194"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN179802 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00195"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#195"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN179802 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN179802 the MagicNumber/String  'full record batch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#201"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00201] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#200"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.equals@POLYN181108 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#201"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.equals@POLYN181108 the MagicNumber/String  null should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00201] For method loadBatchHeader list of called methods Object monObjet|org.apache.kafka.common.record.RecordBatch loadBatchWithSizeN180364"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00202"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.equals@POLYN181108 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchHeader@POLYN180141 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00205"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#205"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchHeader@POLYN180141 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.equals@POLYN181108 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchHeader@POLYN180141 the MagicNumber/String  'record batch header' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#206"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.equals@POLYN181108 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#207"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.equals@POLYN181108 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#207"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.equals@POLYN181108 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00216"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#216"
+ , "c1" : "00211"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#211"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00216] For method hashCode list of called methods Object monObjet|int Long_hashCodeN182305"
+ , "c3" : "QC-JAV000006[00211] For method loadBatchWithSize arguments int  size|String  description"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#217"
+ , "c1" : "00219"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.hashCode@POLYN182085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN180497 the MagicNumber/String  'Failed to load record batch at position ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#217"
+ , "c1" : "00219"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.hashCode@POLYN182085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN180497 the MagicNumber/String  ' from ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#220"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.hashCode@POLYN182085 the MagicNumber/String  31 should be converted to const"
+ , "c1" : "00224"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#224"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00224] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#220"
+ , "c1" : "00227"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.hashCode@POLYN182085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000021[00227] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#220"
+ , "c1" : "00226"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.hashCode@POLYN182085 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.equals@POLYN181264 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#221"
+ , "c1" : "00227"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.hashCode@POLYN182085 the MagicNumber/String  31 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00222"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#222"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.hashCode@POLYN182085 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.equals@POLYN181264 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00228"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.toString@POLYN182836 the MagicNumber/String  'FileChannelRecordBatch(magic: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.equals@POLYN181264 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00229"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#229"
+ , "c1" : "00232"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.toString@POLYN182836 the MagicNumber/String  ', offset: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.equals@POLYN181264 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#230"
+ , "c1" : "00232"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.toString@POLYN182836 the MagicNumber/String  ', size: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.equals@POLYN181264 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#230"
+ , "c1" : "00233"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.toString@POLYN182836 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.equals@POLYN181264 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00233"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#233"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.equals@POLYN181264 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00242"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#242"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00242] For method hashCode list of called methods Object monObjet|int Long_hashCodeN182461"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00243"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#243"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.hashCode@POLYN182241 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00243"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#243"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.hashCode@POLYN182241 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00246"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#246"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.hashCode@POLYN182241 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00246"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#246"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.hashCode@POLYN182241 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00246"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#246"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.hashCode@POLYN182241 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00247"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#247"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.hashCode@POLYN182241 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00248"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#248"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.hashCode@POLYN182241 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00254"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#254"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.toString@POLYN182992 the MagicNumber/String  'FileChannelRecordBatch(magic: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00255"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#255"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.toString@POLYN182992 the MagicNumber/String  ', offset: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00256"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#256"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.toString@POLYN182992 the MagicNumber/String  ', size: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00256"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#256"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.toString@POLYN182992 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.ensureValid@POLYN178522"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.ensureValid@POLYN178678"
 }} 
 ]
 , 

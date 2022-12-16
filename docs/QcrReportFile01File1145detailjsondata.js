@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#25"
+ , "c5" : "00040"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#40"
  , "c1" : "ConfigKeyInfo"
  , "c2" : "ConfigKeyInfo(String;String;boolean;String;String;String;String;int;String;String;List<String>)"
  , "c3" : "1"
@@ -27,37 +27,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#50"
- , "c1" : "String"
- , "c2" : "name()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#55"
- , "c1" : "String"
- , "c2" : "type()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#60"
- , "c1" : "boolean"
- , "c2" : "required()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
  , "c5" : "00065"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#65"
  , "c1" : "String"
- , "c2" : "defaultValue()"
+ , "c2" : "name()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00070"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#70"
  , "c1" : "String"
- , "c2" : "documentation()"
+ , "c2" : "type()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -74,8 +47,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00075"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#75"
- , "c1" : "String"
- , "c2" : "group()"
+ , "c1" : "boolean"
+ , "c2" : "required()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -83,8 +56,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00080"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#80"
- , "c1" : "int"
- , "c2" : "orderInGroup()"
+ , "c1" : "String"
+ , "c2" : "defaultValue()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -93,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00085"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#85"
  , "c1" : "String"
- , "c2" : "width()"
+ , "c2" : "documentation()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -102,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00090"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#90"
  , "c1" : "String"
- , "c2" : "importance()"
+ , "c2" : "group()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -110,8 +83,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00095"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#95"
- , "c1" : "String"
- , "c2" : "displayName()"
+ , "c1" : "int"
+ , "c2" : "orderInGroup()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -119,8 +92,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00100"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#100"
- , "c1" : "List<String>"
- , "c2" : "dependents()"
+ , "c1" : "String"
+ , "c2" : "width()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -128,6 +101,33 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00105"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#105"
+ , "c1" : "String"
+ , "c2" : "importance()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#110"
+ , "c1" : "String"
+ , "c2" : "displayName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#115"
+ , "c1" : "List<String>"
+ , "c2" : "dependents()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#120"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#123"
+ , "c5" : "00138"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#138"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00128"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#128"
+ , "c5" : "00143"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#143"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -208,122 +208,122 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#105"
+ , "c1" : "00120"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00120] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#107"
+ , "c1" : "00122"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00107] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00122] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#106"
+ , "c1" : "00121"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.equals@POLYN162184 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.equals@POLYN162274 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#107"
+ , "c1" : "00122"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.equals@POLYN162184 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.equals@POLYN162274 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#107"
+ , "c1" : "00122"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.equals@POLYN162184 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.equals@POLYN162274 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#130"
+ , "c1" : "00145"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN163976 the MagicNumber/String  '[' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN164066 the MagicNumber/String  '[' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#132"
+ , "c1" : "00147"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN163976 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN164066 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#134"
+ , "c1" : "00149"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN163976 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN164066 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#136"
+ , "c1" : "00151"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN163976 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN164066 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#138"
+ , "c1" : "00153"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN163976 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN164066 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#140"
+ , "c1" : "00155"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN163976 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN164066 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#142"
+ , "c1" : "00157"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN163976 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN164066 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#144"
+ , "c1" : "00159"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN163976 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN164066 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#146"
+ , "c1" : "00161"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN163976 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN164066 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#148"
+ , "c1" : "00163"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN163976 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN164066 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#150"
+ , "c1" : "00165"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN163976 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN164066 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#152"
+ , "c1" : "00167"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN163976 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo.toString@POLYN164066 the MagicNumber/String  ']' should be converted to const"
 }} 
 ]
 , 

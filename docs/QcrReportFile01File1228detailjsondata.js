@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.transforms.predicates.HasHeaderKey" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#24"
+ , "c5" : "00042"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#42"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#29"
+ , "c5" : "00047"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#47"
  , "c1" : "boolean"
  , "c2" : "test(R)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#35"
+ , "c5" : "00053"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#53"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#40"
+ , "c5" : "00058"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#58"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#45"
+ , "c5" : "00063"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#63"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -132,73 +132,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#29"
+ , "c1" : "00047"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method test arguments R  record"
+ , "c3" : "QC-JAV000006[00047] For method test arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#29"
+ , "c1" : "00047"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#47"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00029] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00047] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#31"
+ , "c1" : "00049"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.connect.transforms.predicates.HasHeaderKey.test@POLYN148268 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.transforms.predicates.HasHeaderKey.test@POLYN148376 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#40"
+ , "c1" : "00058"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00058] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#46"
+ , "c1" : "00064"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.transforms.predicates.HasHeaderKey.toString@POLYN148929 the MagicNumber/String  'HasHeaderKey{' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.transforms.predicates.HasHeaderKey.toString@POLYN149037 the MagicNumber/String  'HasHeaderKey{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#47"
+ , "c1" : "00065"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.transforms.predicates.HasHeaderKey.toString@POLYN148929 the MagicNumber/String  'name='' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.connect.transforms.predicates.HasHeaderKey.toString@POLYN149037 the MagicNumber/String  'name='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#47"
+ , "c1" : "00065"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.transforms.predicates.HasHeaderKey.toString@POLYN148929 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.connect.transforms.predicates.HasHeaderKey.toString@POLYN149037 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#48"
+ , "c1" : "00066"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.transforms.predicates.HasHeaderKey.toString@POLYN148929 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.transforms.predicates.HasHeaderKey.toString@POLYN149037 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#35"
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#53"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00035] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00053] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#35"
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#53"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00035] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00053] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

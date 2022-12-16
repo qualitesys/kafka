@@ -2,13 +2,13 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.query.PositionBound"
 class org.apache.kafka.streams.query.PositionBound {
--PositionBound(Position) : PositionBound [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#15]]]
-+unbounded() : PositionBound [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#20]]]
-+at(Position) : PositionBound [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#25]]]
-+isUnbounded() : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#30]]]
-+position() : Position [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#35]]]
-+toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#40]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#45]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#57]]]
+-PositionBound(Position) : PositionBound [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#34]]]
++unbounded() : PositionBound [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#41]]]
++at(Position) : PositionBound [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#48]]]
++isUnbounded() : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#55]]]
++position() : Position [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#62]]]
++toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#67]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#72]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#84]]]
 } 
 @enduml

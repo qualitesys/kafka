@@ -2,7 +2,7 @@
 !pragma layout smetana
 "RetriableException" <|-- "org.apache.kafka.common.errors.InvalidFetchSessionEpochException"
 class org.apache.kafka.common.errors.InvalidFetchSessionEpochException {
-+InvalidFetchSessionEpochException() : InvalidFetchSessionEpochException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidFetchSessionEpochException.java.html#8]]]
-+InvalidFetchSessionEpochException(String) : InvalidFetchSessionEpochException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidFetchSessionEpochException.java.html#11]]]
++InvalidFetchSessionEpochException() : InvalidFetchSessionEpochException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidFetchSessionEpochException.java.html#23]]]
++InvalidFetchSessionEpochException(String) : InvalidFetchSessionEpochException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidFetchSessionEpochException.java.html#26]]]
 } 
 @enduml

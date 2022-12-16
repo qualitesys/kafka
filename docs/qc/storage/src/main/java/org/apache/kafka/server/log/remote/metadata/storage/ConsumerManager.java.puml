@@ -2,13 +2,13 @@
 !pragma layout smetana
 "Closeable" <|-- "org.apache.kafka.server.log.remote.metadata.storage.ConsumerManager"
 class org.apache.kafka.server.log.remote.metadata.storage.ConsumerManager {
-+ConsumerManager(TopicBasedRemoteLogMetadataManagerConfig;RemotePartitionMetadataEventHandler;RemoteLogMetadataTopicPartitioner;Time) : ConsumerManager [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#35]]]
-+startConsumerThread() : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#49]]]
-+waitTillConsumptionCatchesUp(RecordMetadata) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#60]]]
-+waitTillConsumptionCatchesUp(RecordMetadata;long) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#65]]]
-+close() : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#97]]]
-+addAssignmentsForPartitions(Set<TopicIdPartition>) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#109]]]
-+removeAssignmentsForPartitions(Set<TopicIdPartition>) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#113]]]
-+receivedOffsetForPartition(int) : Optional<Long> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#117]]]
++ConsumerManager(TopicBasedRemoteLogMetadataManagerConfig;RemotePartitionMetadataEventHandler;RemoteLogMetadataTopicPartitioner;Time) : ConsumerManager [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#54]]]
++startConsumerThread() : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#68]]]
++waitTillConsumptionCatchesUp(RecordMetadata) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#85]]]
++waitTillConsumptionCatchesUp(RecordMetadata;long) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#96]]]
++close() : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#128]]]
++addAssignmentsForPartitions(Set<TopicIdPartition>) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#140]]]
++removeAssignmentsForPartitions(Set<TopicIdPartition>) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#144]]]
++receivedOffsetForPartition(int) : Optional<Long> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#148]]]
 } 
 @enduml

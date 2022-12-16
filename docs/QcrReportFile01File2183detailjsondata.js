@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.basic.BasicTopology" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#16"
+ , "c5" : "00031"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#31"
  , "c1" : "BasicTopology"
  , "c2" : "BasicTopology(NavigableMap<String,Node>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#20"
+ , "c5" : "00035"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#35"
  , "c1" : "BasicTopology"
  , "c2" : "BasicTopology(JsonNode)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#35"
+ , "c5" : "00050"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#50"
  , "c1" : "Node"
  , "c2" : "node(String)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#40"
+ , "c5" : "00055"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#55"
  , "c1" : "NavigableMap<String,Node>"
  , "c2" : "nodes()"
  , "c3" : "1"
@@ -116,52 +116,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#20"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00020] The argument configRoot is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#27"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00027] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00028] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#29"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00029] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#22"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.trogdor.basic.BasicTopology.BasicTopology@POLYN145914 the MagicNumber/String  'Expected the 'nodes' element to be ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.trogdor.basic.BasicTopology.BasicTopology@POLYN145914 the MagicNumber/String  'a JSON object.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00035"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#35"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00035] The argument configRoot is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#42"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00042] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00043"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#43"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00043] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00044"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#44"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00044] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#37"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.trogdor.basic.BasicTopology.BasicTopology@POLYN146004 the MagicNumber/String  'Expected the 'nodes' element to be ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00038"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#38"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.trogdor.basic.BasicTopology.BasicTopology@POLYN146004 the MagicNumber/String  'a JSON object.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method node arguments String  id"
+ , "c3" : "QC-JAV000006[00050] For method node arguments String  id"
 }} 
 ]
 , 

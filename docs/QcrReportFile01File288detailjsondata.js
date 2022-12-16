@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.compress.KafkaLZ4BlockInputStream" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#62"
+ , "c5" : "00089"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#89"
  , "c1" : "KafkaLZ4BlockInputStream"
  , "c2" : "KafkaLZ4BlockInputStream(ByteBuffer;BufferSupplier;boolean)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#75"
+ , "c5" : "00106"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#106"
  , "c1" : "boolean"
  , "c2" : "ignoreFlagDescriptorChecksum()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#80"
+ , "c5" : "00115"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#115"
  , "c1" : "void"
  , "c2" : "readHeader()"
  , "c3" : "7"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00120"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#120"
+ , "c5" : "00160"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#160"
  , "c1" : "void"
  , "c2" : "readBlock()"
  , "c3" : "12"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00171"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#171"
+ , "c5" : "00211"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#211"
  , "c1" : "int"
  , "c2" : "read()"
  , "c3" : "4"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00186"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#186"
+ , "c5" : "00226"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#226"
  , "c1" : "int"
  , "c2" : "read(byte[];int;int)"
  , "c3" : "4"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00204"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#204"
+ , "c5" : "00244"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#244"
  , "c1" : "long"
  , "c2" : "skip(long)"
  , "c3" : "4"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00220"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#220"
+ , "c5" : "00260"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#260"
  , "c1" : "int"
  , "c2" : "available()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00225"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#225"
+ , "c5" : "00265"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#265"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00230"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#230"
+ , "c5" : "00270"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#270"
  , "c1" : "void"
  , "c2" : "mark(int)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00235"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#235"
+ , "c5" : "00275"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#275"
  , "c1" : "void"
  , "c2" : "reset()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00240"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#240"
+ , "c5" : "00280"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#280"
  , "c1" : "boolean"
  , "c2" : "markSupported()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00245"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#245"
+ , "c5" : "00288"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#288"
  , "c1" : "void"
  , "c2" : "detectBrokenLz4Version()"
  , "c3" : "1"
@@ -220,696 +220,696 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#62"
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#89"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00062] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00089] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#62"
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#89"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00062] The argument bufferSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00089] The argument bufferSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#63"
+ , "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.KafkaLZ4BlockInputStream@POLYN183646 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.KafkaLZ4BlockInputStream@POLYN183904 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#71"
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.KafkaLZ4BlockInputStream@POLYN183646 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.KafkaLZ4BlockInputStream@POLYN183904 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#80"
+ , "c1" : "00115"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#115"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00080] For method readHeader list of called methods Object monObjet|org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.FLG FLG_fromByteN185081|org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.BD BD_fromByteN185194"
+ , "c3" : "QC-JAV000007[00115] For method readHeader list of called methods Object monObjet|org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.FLG FLG_fromByteN185339|org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.BD BD_fromByteN185452"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#82"
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readHeader@POLYN184615 the MagicNumber/String  6 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readHeader@POLYN184615 the MagicNumber/String  8 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#99"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readHeader@POLYN184615 the MagicNumber/String  8 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readHeader@POLYN184615 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#112"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readHeader@POLYN184615 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readHeader@POLYN184615 the MagicNumber/String  8 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readHeader@POLYN184615 the MagicNumber/String  0xFF should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#121"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readBlock@POLYN186660 the MagicNumber/String  4 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readBlock@POLYN186660 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#130"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readBlock@POLYN186660 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readHeader@POLYN184873 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readBlock@POLYN186660 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readHeader@POLYN184873 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#136"
+ , "c1" : "00134"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readBlock@POLYN186660 the MagicNumber/String  'Block size %d exceeded max: %d' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readHeader@POLYN184873 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#145"
+ , "c1" : "00141"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readBlock@POLYN186660 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readHeader@POLYN184873 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readBlock@POLYN186660 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readHeader@POLYN184873 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#160"
+ , "c1" : "00149"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readBlock@POLYN186660 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readHeader@POLYN184873 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#173"
+ , "c1" : "00149"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.read@POLYN189255 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readHeader@POLYN184873 the MagicNumber/String  0xFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#175"
+ , "c1" : "00161"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.read@POLYN189255 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readBlock@POLYN186918 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#179"
+ , "c1" : "00166"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.read@POLYN189255 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readBlock@POLYN186918 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#182"
+ , "c1" : "00170"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.read@POLYN189255 the MagicNumber/String  0xFF should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readBlock@POLYN186918 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#186"
+ , "c1" : "00171"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#171"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readBlock@POLYN186918 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00176"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#176"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readBlock@POLYN186918 the MagicNumber/String  'Block size %d exceeded max: %d' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00185"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readBlock@POLYN186918 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00187"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#187"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readBlock@POLYN186918 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00200"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#200"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.readBlock@POLYN186918 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00213"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#213"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.read@POLYN189513 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00215"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#215"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.read@POLYN189513 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#219"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.read@POLYN189513 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00222"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#222"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.read@POLYN189513 the MagicNumber/String  0xFF should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00226"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#226"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00186] For method read arguments byte[]  b|int  off|int  len"
+ , "c3" : "QC-JAV000006[00226] For method read arguments byte[]  b|int  off|int  len"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#189"
+ , "c1" : "00229"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.read@POLYN189735 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#191"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.read@POLYN189735 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#195"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.read@POLYN189735 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#204"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00204] For method skip arguments long  n"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#206"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.skip@POLYN190630 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#208"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.skip@POLYN190630 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#212"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.skip@POLYN190630 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#221"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.available@POLYN191330 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#221"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.available@POLYN191330 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#230"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00230] For method mark arguments int  readlimit"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.read@POLYN189993 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00231"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.mark@POLYN191638 the MagicNumber/String  'mark not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.read@POLYN189993 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#236"
+ , "c1" : "00235"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.reset@POLYN191788 the MagicNumber/String  'reset not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.read@POLYN189993 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#241"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.markSupported@POLYN191924 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  1 should be converted to const"
+ , "c1" : "00244"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#244"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00244] For method skip arguments long  n"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00246"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.skip@POLYN190888 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00248"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#248"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.skip@POLYN190888 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00252"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.skip@POLYN190888 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00261"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#261"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.available@POLYN191588 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00261"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#261"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  3 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  3 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  3 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  3 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  3 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#250"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#250"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#256"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#256"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#256"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#256"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#256"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#265"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#265"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00267"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#267"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  'Kafka has detected detected a buggy lz4-java library (&amp;lt; 1.4.x) on the classpath.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00268"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#268"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  ' If you are using Kafka client libraries, make sure your application does not' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00269"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#269"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  ' accidentally override the version provided by Kafka or include multiple versions' should be converted to const"
+ , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.available@POLYN191588 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00270"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#270"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  ' of the library on the classpath. The lz4-java version on the classpath should' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00270] For method mark arguments int  readlimit"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  ' match the version the Kafka client libraries depend on. Adding -verbose:class' should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.mark@POLYN191896 the MagicNumber/String  'mark not supported' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00272"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#272"
+ , "c1" : "00276"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String  ' to your JVM arguments may help understand which lz4-java version is getting loaded.' should be converted to const"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.reset@POLYN192046 the MagicNumber/String  'reset not supported' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00281"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#281"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.markSupported@POLYN192182 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  3 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  3 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  3 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  3 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  3 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00293"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#293"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00293"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#293"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00299"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#299"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00299"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#299"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00299"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#299"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00299"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#299"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00299"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#299"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00308"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#308"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00308"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#308"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00310"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#310"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  'Kafka has detected detected a buggy lz4-java library (&amp;lt; 1.4.x) on the classpath.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00311"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#311"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  ' If you are using Kafka client libraries, make sure your application does not' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00312"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#312"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  ' accidentally override the version provided by Kafka or include multiple versions' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00313"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#313"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  ' of the library on the classpath. The lz4-java version on the classpath should' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00314"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#314"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  ' match the version the Kafka client libraries depend on. Adding -verbose:class' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00315"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#315"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String  ' to your JVM arguments may help understand which lz4-java version is getting loaded.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 3 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 3 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 3 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 3 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 3 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 3 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 3 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 3 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#246"
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 3 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 3 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#250"
+ , "c1" : "00293"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#293"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00250] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#250"
+ , "c1" : "00293"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#293"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00250] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#256"
+ , "c1" : "00299"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#299"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00256] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00299] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#256"
+ , "c1" : "00299"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#299"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00256] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00299] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#256"
+ , "c1" : "00299"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#299"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00256] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00299] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#256"
+ , "c1" : "00299"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#299"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00256] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00299] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#256"
+ , "c1" : "00299"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#299"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00256] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00299] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#265"
+ , "c1" : "00308"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#308"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00265] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00308] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#265"
+ , "c1" : "00308"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#308"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00265] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00308] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00267"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#267"
+ , "c1" : "00310"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#310"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String 'Kafka has detected detected a buggy lz4-java library -&amp;lt; 1.4.x- on the classpath.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00310] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String 'Kafka has detected detected a buggy lz4-java library -&amp;lt; 1.4.x- on the classpath.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00268"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#268"
+ , "c1" : "00311"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#311"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00268] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String ' If you are using Kafka client libraries, make sure your application does not' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00311] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String ' If you are using Kafka client libraries, make sure your application does not' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00269"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#269"
+ , "c1" : "00312"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#312"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00269] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String ' accidentally override the version provided by Kafka or include multiple versions' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00312] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String ' accidentally override the version provided by Kafka or include multiple versions' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00270"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#270"
+ , "c1" : "00313"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#313"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00270] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String ' of the library on the classpath. The lz4-java version on the classpath should' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00313] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String ' of the library on the classpath. The lz4-java version on the classpath should' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00271"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#271"
+ , "c1" : "00314"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#314"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00271] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String ' match the version the Kafka client libraries depend on. Adding -verbose:class' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00314] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String ' match the version the Kafka client libraries depend on. Adding -verbose:class' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00272"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#272"
+ , "c1" : "00315"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#315"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00272] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String ' to your JVM arguments may help understand which lz4-java version is getting loaded.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00315] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192414 the MagicNumber/String ' to your JVM arguments may help understand which lz4-java version is getting loaded.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

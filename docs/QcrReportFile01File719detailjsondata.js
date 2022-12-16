@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.SaslAuthenticateRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#36"
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#58"
  , "c1" : "SaslAuthenticateRequest"
  , "c2" : "SaslAuthenticateRequest(SaslAuthenticateRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#42"
+ , "c5" : "00064"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#64"
  , "c1" : "SaslAuthenticateRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#47"
+ , "c5" : "00069"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#69"
  , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#55"
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#77"
  , "c1" : "SaslAuthenticateRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -109,38 +109,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#24"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00046] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#30"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.SaslAuthenticateRequest.Builder.toString@POLYN149641 the MagicNumber/String  '(type=SaslAuthenticateRequest)' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.requests.SaslAuthenticateRequest.Builder.toString@POLYN149773 the MagicNumber/String  '(type=SaslAuthenticateRequest)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#47"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00069] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#47"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00047] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN150253"
+ , "c3" : "QC-JAV000007[00069] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN150385"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#55"
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00077] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#38"
  , "c1" : "byte"
  , "c2" : "extractPrefix(byte[])"
  , "c3" : "1"
@@ -103,703 +103,703 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method extractPrefix arguments byte[]  binaryBytes"
+ , "c3" : "QC-JAV000006[00038] For method extractPrefix arguments byte[]  binaryBytes"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#24"
+ , "c1" : "00039"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.extractPrefix@POLYN204340 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.extractPrefix@POLYN204466 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method upperRange arguments Bytes  key|long  to"
+ , "c3" : "QC-JAV000006[00045] For method upperRange arguments Bytes  key|long  to"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.upperRange@POLYN204553 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.upperRange@POLYN204553 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.upperRange@POLYN204553 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method lowerRange arguments Bytes  key|long  from"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.upperRange@POLYN204679 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.lowerRange@POLYN205418 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.upperRange@POLYN204679 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#56"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.lowerRange@POLYN205418 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.upperRange@POLYN204679 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.lowerRange@POLYN205418 the MagicNumber/String  0L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#66"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method upperRangeFixedSize arguments Bytes  key|long  to"
+ , "c3" : "QC-JAV000006[00063] For method lowerRange arguments Bytes  key|long  from"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#72"
+ , "c1" : "00064"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#64"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.lowerRange@POLYN205544 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#71"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.lowerRange@POLYN205544 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.lowerRange@POLYN205544 the MagicNumber/String  0L should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method lowerRangeFixedSize arguments Bytes  key|long  from"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.lowerRangeFixedSize@POLYN206641 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.lowerRangeFixedSize@POLYN206641 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method segmentTimestamp arguments Bytes  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#77"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00077] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#82"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method hasNextCondition arguments Bytes  binaryKeyFrom|Bytes  binaryKeyTo|long  from|long  to|boolean  forward"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00106] The same method call windowedKey.key() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00089] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00096] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00106] The same method call windowedKey.key() is used several times, should be optimized "
+ , "c3" : "QC-JAV000006[00084] For method upperRangeFixedSize arguments Bytes  key|long  to"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#93"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00093] For method lowerRangeFixedSize arguments Bytes  key|long  from"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.hasNextCondition@POLYN207110 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.lowerRangeFixedSize@POLYN206767 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.lowerRangeFixedSize@POLYN206767 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#98"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00098] For method segmentTimestamp arguments Bytes  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#98"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00098] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.hasNextCondition@POLYN207110 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.hasNextCondition@POLYN207110 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.hasNextCondition@POLYN207110 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.hasNextCondition@POLYN207110 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.hasNextCondition@POLYN207110 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.hasNextCondition@POLYN207110 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#113"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.hasNextCondition@POLYN207110 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#118"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00118] The argument segments is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#125"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00125] For method extractStartTimestamp arguments byte[]  binaryKey"
+ , "c3" : "QC-JAV000006[00103] For method hasNextCondition arguments Bytes  binaryKeyFrom|Bytes  binaryKeyTo|long  from|long  to|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#129"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00129] For method extractEndTimestamp arguments byte[]  binaryKey"
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#127"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00127] The same method call windowedKey.key() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00110] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00117] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#127"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00127] The same method call windowedKey.key() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.hasNextCondition@POLYN207236 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00124"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#124"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.hasNextCondition@POLYN207236 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#127"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.hasNextCondition@POLYN207236 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#127"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.hasNextCondition@POLYN207236 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#128"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.hasNextCondition@POLYN207236 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#128"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.hasNextCondition@POLYN207236 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#130"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.hasNextCondition@POLYN207236 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#134"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00134] The argument deserializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.hasNextCondition@POLYN207236 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#139"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00139] For method extractKeyBytes arguments byte[]  binaryKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.extractKeyBytes@POLYN209855 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.extractKeyBytes@POLYN209855 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.extractKeyBytes@POLYN209855 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#145"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00145] For method extractWindow arguments byte[]  binaryKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#145"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00145] For method extractWindow list of called methods Object monObjet|java.lang.Long buffer_getLongN210575|java.lang.Long buffer_getLongN210696"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#152"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00152] For method from arguments Bytes  bytesKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#152"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00152] For method from list of called methods Object monObjet|byte[] bytesKey_getN210998|org.apache.kafka.streams.kstream.Window extractWindowN211078"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#152"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00152] The argument bytesKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00139] The argument segments is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00146"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#146"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00146] For method extractStartTimestamp arguments byte[]  binaryKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#150"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00150] For method extractEndTimestamp arguments byte[]  binaryKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#155"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00155] The argument deserializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#160"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00160] For method extractKeyBytes arguments byte[]  binaryKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00161"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#161"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.extractKeyBytes@POLYN209981 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.extractKeyBytes@POLYN209981 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.extractKeyBytes@POLYN209981 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00166"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#166"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00166] The argument sessionKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00166] For method extractWindow arguments byte[]  binaryKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#167"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00167] The argument serializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00166"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#166"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00166] For method extractWindow list of called methods Object monObjet|java.lang.Long buffer_getLongN210701|java.lang.Long buffer_getLongN210822"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#173"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00173] For method toBinary arguments Windowed&lt;Bytes &gt;  sessionKey"
+ , "c3" : "QC-JAV000006[00173] For method from arguments Bytes  bytesKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00173"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#173"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00173] For method from list of called methods Object monObjet|byte[] bytesKey_getN211124|org.apache.kafka.streams.kstream.Window extractWindowN211204"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#173"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00173] The argument sessionKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00173] The argument bytesKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#179"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00179] For method writeBinary arguments ByteBuffer  buf|Bytes  key|long  startTime|long  endTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#179"
+ , "c1" : "00187"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#187"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00179] The argument buf is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00187] The argument sessionKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#185"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.writeBinary@POLYN212751 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00188"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#188"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00188] The argument serializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#190"
+ , "c1" : "00194"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00190] For method toBinary arguments Bytes  key|long  startTime|long  endTime"
+ , "c3" : "QC-JAV000006[00194] For method toBinary arguments Windowed&lt;Bytes &gt;  sessionKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#199"
+ , "c1" : "00194"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#194"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00194] The argument sessionKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00200"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00199] For method extractWindowBytesFromNonPrefixSessionKey arguments byte[]  binaryKey"
+ , "c3" : "QC-JAV000006[00200] For method writeBinary arguments ByteBuffer  buf|Bytes  key|long  startTime|long  endTime"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#202"
+ , "c1" : "00200"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#200"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00200] The argument buf is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00206"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.extractWindowBytesFromNonPrefixSessionKey@POLYN213820 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.writeBinary@POLYN212877 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#202"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.extractWindowBytesFromNonPrefixSessionKey@POLYN213820 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#203"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.extractWindowBytesFromNonPrefixSessionKey@POLYN213820 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#203"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.extractWindowBytesFromNonPrefixSessionKey@POLYN213820 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#212"
+ , "c1" : "00211"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#211"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00212] For method upperRange arguments Bytes  key|long  to"
+ , "c3" : "QC-JAV000006[00211] For method toBinary arguments Bytes  key|long  startTime|long  endTime"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00214"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#214"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.upperRange@POLYN214557 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#218"
+ , "c1" : "00220"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#220"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00218] For method lowerRange arguments Bytes  key|long  from"
+ , "c3" : "QC-JAV000006[00220] For method extractWindowBytesFromNonPrefixSessionKey arguments byte[]  binaryKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#221"
+ , "c1" : "00223"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#223"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.lowerRange@POLYN214905 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.extractWindowBytesFromNonPrefixSessionKey@POLYN213946 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00225"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#225"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00225] For method upperRangeFixedSize arguments Bytes  key|long  to"
+ , "c1" : "00223"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#223"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.extractWindowBytesFromNonPrefixSessionKey@POLYN213946 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00224"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#224"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.extractWindowBytesFromNonPrefixSessionKey@POLYN213946 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00224"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#224"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.extractWindowBytesFromNonPrefixSessionKey@POLYN213946 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00233"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#233"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00233] For method lowerRangeFixedSize arguments Bytes  key|long  from"
+ , "c3" : "QC-JAV000006[00233] For method upperRange arguments Bytes  key|long  to"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#241"
+ , "c1" : "00235"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#235"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.upperRange@POLYN214683 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00239"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#239"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00241] For method segmentTimestamp arguments Bytes  key"
+ , "c3" : "QC-JAV000006[00239] For method lowerRange arguments Bytes  key|long  from"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#241"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00241] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00242"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#242"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.lowerRange@POLYN215031 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00246"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#246"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00246] For method hasNextCondition arguments Bytes  binaryKeyFrom|Bytes  binaryKeyTo|long  from|long  to|boolean  forward"
+ , "c3" : "QC-JAV000006[00246] For method upperRangeFixedSize arguments Bytes  key|long  to"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#264"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00264] The same method call windowedKey.key() is used several times, should be optimized "
+ , "c1" : "00254"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#254"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00254] For method lowerRangeFixedSize arguments Bytes  key|long  from"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#253"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00253] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00262"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#262"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00262] For method segmentTimestamp arguments Bytes  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#260"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00260] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#264"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00264] The same method call windowedKey.key() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#257"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.hasNextCondition@POLYN216623 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#264"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.hasNextCondition@POLYN216623 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#264"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.hasNextCondition@POLYN216623 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#265"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.hasNextCondition@POLYN216623 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#265"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.hasNextCondition@POLYN216623 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00268"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#268"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.hasNextCondition@POLYN216623 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00272"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#272"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.hasNextCondition@POLYN216623 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00277"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#277"
+ , "c1" : "00262"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#262"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00277] The argument segments is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00262] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00284"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#284"
+ , "c1" : "00267"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#267"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00284] For method extractWindow arguments byte[]  binaryKey"
+ , "c3" : "QC-JAV000006[00267] For method hasNextCondition arguments Bytes  binaryKeyFrom|Bytes  binaryKeyTo|long  from|long  to|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00284"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#284"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00284] For method extractWindow list of called methods Object monObjet|java.lang.Long buffer_getLongN218714|java.lang.Long buffer_getLongN218843"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00287"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#287"
+ , "c1" : "00285"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.extractWindow@POLYN218504 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000021[00285] The same method call windowedKey.key() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00291"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#291"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00291] For method extractKeyBytes arguments byte[]  binaryKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00292"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#292"
+ , "c1" : "00274"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#274"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.extractKeyBytes@POLYN219068 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000001[00274] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00281"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#281"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00281] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00285"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#285"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00285] The same method call windowedKey.key() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00278"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#278"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.hasNextCondition@POLYN216749 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00285"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#285"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.hasNextCondition@POLYN216749 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00285"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#285"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.hasNextCondition@POLYN216749 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00286"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#286"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.hasNextCondition@POLYN216749 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00286"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#286"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.hasNextCondition@POLYN216749 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.hasNextCondition@POLYN216749 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.extractKeyBytes@POLYN219068 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.hasNextCondition@POLYN216749 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#297"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00297] For method from arguments Bytes  bytesKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#297"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00297] For method from list of called methods Object monObjet|byte[] bytesKey_getN219669|org.apache.kafka.streams.kstream.Window extractWindowN219749"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#297"
+ , "c1" : "00298"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#298"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00297] The argument bytesKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00298] The argument segments is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00304"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#304"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00304] The argument deserializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00317"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#317"
+ , "c1" : "00305"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#305"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00317] For method extractStartTimestamp arguments byte[]  binaryKey"
+ , "c3" : "QC-JAV000006[00305] For method extractWindow arguments byte[]  binaryKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00321"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#321"
+ , "c1" : "00305"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#305"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00321] For method extractEndTimestamp arguments byte[]  binaryKey"
+ , "c3" : "QC-JAV000007[00305] For method extractWindow list of called methods Object monObjet|java.lang.Long buffer_getLongN218840|java.lang.Long buffer_getLongN218969"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00322"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#322"
+ , "c1" : "00308"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.extractEndTimestamp@POLYN221048 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.extractWindow@POLYN218630 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00312"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#312"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00312] For method extractKeyBytes arguments byte[]  binaryKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00313"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#313"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.extractKeyBytes@POLYN219194 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00314"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#314"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.extractKeyBytes@POLYN219194 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00318"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#318"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00318] For method from arguments Bytes  bytesKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00318"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#318"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00318] For method from list of called methods Object monObjet|byte[] bytesKey_getN219795|org.apache.kafka.streams.kstream.Window extractWindowN219875"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00318"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#318"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00318] The argument bytesKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00325"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#325"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00325] For method toBinary arguments Windowed&lt;Bytes &gt;  sessionKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00325"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#325"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00325] The argument sessionKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00325] The argument deserializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00329"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#329"
+ , "c1" : "00338"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#338"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00338] For method extractStartTimestamp arguments byte[]  binaryKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00342"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#342"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00342] For method extractEndTimestamp arguments byte[]  binaryKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00343"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#343"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.extractEndTimestamp@POLYN221174 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00346"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#346"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00346] For method toBinary arguments Windowed&lt;Bytes &gt;  sessionKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00346"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#346"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00329] The argument sessionKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00346] The argument sessionKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00330"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#330"
+ , "c1" : "00350"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#350"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00330] The argument serializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00350] The argument sessionKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00336"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#336"
+ , "c1" : "00351"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#351"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00351] The argument serializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00357"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#357"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00336] For method toBinary arguments Bytes  key|long  startTime|long  endTime"
+ , "c3" : "QC-JAV000006[00357] For method toBinary arguments Bytes  key|long  startTime|long  endTime"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00345"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#345"
+ , "c1" : "00366"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#366"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00345] For method wrapPrefix arguments Bytes  noPrefixKey|boolean  upperRange"
+ , "c3" : "QC-JAV000006[00366] For method wrapPrefix arguments Bytes  noPrefixKey|boolean  upperRange"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00347"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#347"
+ , "c1" : "00368"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.wrapPrefix@POLYN222809 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.wrapPrefix@POLYN222935 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00348"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#348"
+ , "c1" : "00369"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#369"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.wrapPrefix@POLYN222809 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.wrapPrefix@POLYN222935 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00361"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#361"
+ , "c1" : "00382"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#382"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00361] For method prefixNonPrefixSessionKey arguments byte[]  binaryKey"
+ , "c3" : "QC-JAV000006[00382] For method prefixNonPrefixSessionKey arguments byte[]  binaryKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00362"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#362"
+ , "c1" : "00383"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#383"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.prefixNonPrefixSessionKey@POLYN223715 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00383] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.prefixNonPrefixSessionKey@POLYN223841 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00364"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#364"
+ , "c1" : "00385"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#385"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.prefixNonPrefixSessionKey@POLYN223715 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.prefixNonPrefixSessionKey@POLYN223841 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

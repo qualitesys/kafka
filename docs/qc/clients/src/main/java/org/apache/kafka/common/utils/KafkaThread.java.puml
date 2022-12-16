@@ -2,10 +2,10 @@
 !pragma layout smetana
 "Thread" <|-- "org.apache.kafka.common.utils.KafkaThread"
 class org.apache.kafka.common.utils.KafkaThread {
-+daemon(String;Runnable) : KafkaThread [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#12]]]
-+nonDaemon(String;Runnable) : KafkaThread [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#16]]]
-+KafkaThread(String;boolean) : KafkaThread [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#20]]]
-+KafkaThread(String;Runnable;boolean) : KafkaThread [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#25]]]
--configureThread(String;boolean) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#30]]]
++daemon(String;Runnable) : KafkaThread [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#29]]]
++nonDaemon(String;Runnable) : KafkaThread [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#33]]]
++KafkaThread(String;boolean) : KafkaThread [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#37]]]
++KafkaThread(String;Runnable;boolean) : KafkaThread [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#42]]]
+-configureThread(String;boolean) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#47]]]
 } 
 @enduml

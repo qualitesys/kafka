@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.internals.KafkaCompletableFuture" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#13"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#38"
  , "c1" : "boolean"
  , "c2" : "kafkaComplete(T)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#18"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#48"
  , "c1" : "boolean"
  , "c2" : "kafkaCompleteExceptionally(Throwable)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#23"
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#53"
  , "c1" : "boolean"
  , "c2" : "complete(T)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#28"
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#58"
  , "c1" : "boolean"
  , "c2" : "completeExceptionally(Throwable)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#33"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#63"
  , "c1" : "void"
  , "c2" : "obtrudeValue(T)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#38"
+ , "c5" : "00068"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#68"
  , "c1" : "void"
  , "c2" : "obtrudeException(Throwable)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#48"
+ , "c5" : "00078"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#78"
  , "c1" : "CompletableFuture<T>"
  , "c2" : "completeAsync(Supplier<?extendsT>;Executor)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#53"
+ , "c5" : "00083"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#83"
  , "c1" : "CompletableFuture<T>"
  , "c2" : "completeAsync(Supplier<?extendsT>)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#58"
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#88"
  , "c1" : "CompletableFuture<T>"
  , "c2" : "completeOnTimeout(T;long;TimeUnit)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#62"
+ , "c5" : "00092"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#92"
  , "c1" : "UnsupportedOperationException"
  , "c2" : "erroneousCompletionException()"
  , "c3" : "1"
@@ -156,73 +156,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#13"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00013] For method kafkaComplete arguments T  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#18"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method kafkaCompleteExceptionally arguments Throwable  throwable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#23"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method complete arguments T  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#28"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method completeExceptionally arguments Throwable  ex"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#33"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method obtrudeValue arguments T  value"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method obtrudeException arguments Throwable  ex"
+ , "c3" : "QC-JAV000006[00038] For method kafkaComplete arguments T  value"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method completeAsync arguments Supplier&lt;?  extends T &gt;  supplier|Executor  executor"
+ , "c3" : "QC-JAV000006[00048] For method kafkaCompleteExceptionally arguments Throwable  throwable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method completeAsync arguments Supplier&lt;?  extends T &gt;  supplier"
+ , "c3" : "QC-JAV000006[00053] For method complete arguments T  value"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method completeOnTimeout arguments T  value|long  timeout|TimeUnit  unit"
+ , "c3" : "QC-JAV000006[00058] For method completeExceptionally arguments Throwable  ex"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#63"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00063] For method obtrudeValue arguments T  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#68"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00068] For method obtrudeException arguments Throwable  ex"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#78"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00078] For method completeAsync arguments Supplier&lt;?  extends T &gt;  supplier|Executor  executor"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#83"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00083] For method completeAsync arguments Supplier&lt;?  extends T &gt;  supplier"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#88"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00088] For method completeOnTimeout arguments T  value|long  timeout|TimeUnit  unit"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.internals.KafkaCompletableFuture.erroneousCompletionException@POLYN152731 the MagicNumber/String  'User code should not complete futures returned from Kafka clients' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.internals.KafkaCompletableFuture.erroneousCompletionException@POLYN152911 the MagicNumber/String  'User code should not complete futures returned from Kafka clients' should be converted to const"
 }} 
 ]
 , 

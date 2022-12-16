@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.message.MetadataRecordTypeGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#16"
+ , "c5" : "00031"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#31"
  , "c1" : "MetadataRecordTypeGenerator"
  , "c2" : "MetadataRecordTypeGenerator(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#38"
  , "c1" : "String"
  , "c2" : "outputName()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#28"
+ , "c5" : "00043"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#43"
  , "c1" : "void"
  , "c2" : "registerMessageType(MessageSpec)"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#56"
  , "c1" : "void"
  , "c2" : "generateAndWrite(BufferedWriter)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#46"
+ , "c5" : "00061"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#61"
  , "c1" : "void"
  , "c2" : "generate()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#71"
+ , "c5" : "00086"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#86"
  , "c1" : "void"
  , "c2" : "generateEnumValues()"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#87"
+ , "c5" : "00102"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#102"
  , "c1" : "void"
  , "c2" : "generateInstanceVariables()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#94"
+ , "c5" : "00109"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#109"
  , "c1" : "void"
  , "c2" : "generateEnumConstructor()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00105"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#105"
+ , "c5" : "00120"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#120"
  , "c1" : "void"
  , "c2" : "generateFromApiKey()"
  , "c3" : "2"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00129"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#129"
+ , "c5" : "00144"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#144"
  , "c1" : "void"
  , "c2" : "generateNewMetadataRecord()"
  , "c3" : "2"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00154"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#154"
+ , "c5" : "00169"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#169"
  , "c1" : "void"
  , "c2" : "generateAccessor(String;String)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00162"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#162"
+ , "c5" : "00177"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#177"
  , "c1" : "void"
  , "c2" : "generateToString()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00171"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#171"
+ , "c5" : "00186"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#186"
  , "c1" : "void"
  , "c2" : "write(BufferedWriter)"
  , "c3" : "1"
@@ -227,521 +227,521 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method registerMessageType arguments MessageSpec  spec"
+ , "c3" : "QC-JAV000006[00043] For method registerMessageType arguments MessageSpec  spec"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00028] For method registerMessageType list of called methods Object monObjet|java.util.Optional&lt;java.lang.Short&gt; spec_apiKeyN167234"
+ , "c3" : "QC-JAV000007[00043] For method registerMessageType list of called methods Object monObjet|java.util.Optional&lt;java.lang.Short&gt; spec_apiKeyN167324"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#43"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00028] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167042 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167042 the MagicNumber/String  'Duplicate metadata record entry for type ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167042 the MagicNumber/String  '. Original claimant: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167042 the MagicNumber/String  '. New ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167042 the MagicNumber/String  'claimant: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#41"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method generateAndWrite arguments BufferedWriter  writer"
+ , "c3" : "QC-JAVCWE476[00043] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN167941 the MagicNumber/String  'public enum MetadataRecordType {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#48"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132 the MagicNumber/String  'Duplicate metadata record entry for type ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#49"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132 the MagicNumber/String  '. Original claimant: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#49"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132 the MagicNumber/String  '. New ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN167941 the MagicNumber/String  '%n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#52"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN167941 the MagicNumber/String  '%n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN167941 the MagicNumber/String  '%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132 the MagicNumber/String  'claimant: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN167941 the MagicNumber/String  '%n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN167941 the MagicNumber/String  '%n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN167941 the MagicNumber/String  'id' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN167941 the MagicNumber/String  'short' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN167941 the MagicNumber/String  '%n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN167941 the MagicNumber/String  'lowestSupportedVersion' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN167941 the MagicNumber/String  'short' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00056] For method generateAndWrite arguments BufferedWriter  writer"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN167941 the MagicNumber/String  '%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN168031 the MagicNumber/String  'public enum MetadataRecordType {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#63"
+ , "c1" : "00065"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN167941 the MagicNumber/String  'highestSupportedVersion' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN167941 the MagicNumber/String  'short' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN167941 the MagicNumber/String  '%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN168031 the MagicNumber/String  '%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN167941 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN168031 the MagicNumber/String  '%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#69"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN168031 the MagicNumber/String  '%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#71"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN168031 the MagicNumber/String  '%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#73"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN168031 the MagicNumber/String  '%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00074] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN168031 the MagicNumber/String  'id' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN168031 the MagicNumber/String  'short' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00075] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN168031 the MagicNumber/String  '%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#72"
+ , "c1" : "00076"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumValues@POLYN169399 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN168031 the MagicNumber/String  'lowestSupportedVersion' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#76"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN168031 the MagicNumber/String  'short' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumValues@POLYN169399 the MagicNumber/String  '%s(\'%s\', (short) %d, (short) %d, (short) %d)%s%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN168031 the MagicNumber/String  '%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#83"
+ , "c1" : "00078"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumValues@POLYN169399 the MagicNumber/String  ';' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN168031 the MagicNumber/String  'highestSupportedVersion' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#83"
+ , "c1" : "00078"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumValues@POLYN169399 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN168031 the MagicNumber/String  'short' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#88"
+ , "c1" : "00079"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateInstanceVariables@POLYN170486 the MagicNumber/String  'private final String name;%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN168031 the MagicNumber/String  '%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generate@POLYN168031 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateInstanceVariables@POLYN170486 the MagicNumber/String  'private final short id;%n' should be converted to const"
+ , "c3" : "QC-JAV000001[00089] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateInstanceVariables@POLYN170486 the MagicNumber/String  'private final short lowestSupportedVersion;%n' should be converted to const"
+ , "c3" : "QC-JAV000001[00090] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#91"
+ , "c1" : "00087"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateInstanceVariables@POLYN170486 the MagicNumber/String  'private final short highestSupportedVersion;%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumValues@POLYN169489 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#95"
+ , "c1" : "00092"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumConstructor@POLYN170819 the MagicNumber/String  'MetadataRecordType(String name, short id, short lowestSupportedVersion, short highestSupportedVersion) {%n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumConstructor@POLYN170819 the MagicNumber/String  'this.name = name;%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumValues@POLYN169489 the MagicNumber/String  '%s(\'%s\', (short) %d, (short) %d, (short) %d)%s%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumConstructor@POLYN170819 the MagicNumber/String  'this.id = id;%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumValues@POLYN169489 the MagicNumber/String  ';' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#99"
+ , "c1" : "00098"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumConstructor@POLYN170819 the MagicNumber/String  'this.lowestSupportedVersion = lowestSupportedVersion;%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumValues@POLYN169489 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#100"
+ , "c1" : "00103"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumConstructor@POLYN170819 the MagicNumber/String  'this.highestSupportedVersion = highestSupportedVersion;%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateInstanceVariables@POLYN170576 the MagicNumber/String  'private final String name;%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#102"
+ , "c1" : "00104"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumConstructor@POLYN170819 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateInstanceVariables@POLYN170576 the MagicNumber/String  'private final short id;%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateInstanceVariables@POLYN170576 the MagicNumber/String  'private final short lowestSupportedVersion;%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171402 the MagicNumber/String  'public static MetadataRecordType fromId(short id) {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateInstanceVariables@POLYN170576 the MagicNumber/String  'private final short highestSupportedVersion;%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#108"
+ , "c1" : "00110"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171402 the MagicNumber/String  'switch (id) {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumConstructor@POLYN170909 the MagicNumber/String  'MetadataRecordType(String name, short id, short lowestSupportedVersion, short highestSupportedVersion) {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#111"
+ , "c1" : "00112"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171402 the MagicNumber/String  'case %d:%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumConstructor@POLYN170909 the MagicNumber/String  'this.name = name;%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171402 the MagicNumber/String  'return %s;%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumConstructor@POLYN170909 the MagicNumber/String  'this.id = id;%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumConstructor@POLYN170909 the MagicNumber/String  'this.lowestSupportedVersion = lowestSupportedVersion;%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumConstructor@POLYN170909 the MagicNumber/String  'this.highestSupportedVersion = highestSupportedVersion;%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171402 the MagicNumber/String  'default:%n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#120"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171402 the MagicNumber/String  'throw new UnsupportedVersionException(\'Unknown metadata id \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateEnumConstructor@POLYN170909 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171402 the MagicNumber/String  ' + id);%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171492 the MagicNumber/String  'public static MetadataRecordType fromId(short id) {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#124"
+ , "c1" : "00123"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171402 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171492 the MagicNumber/String  'switch (id) {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00126"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171402 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171492 the MagicNumber/String  'case %d:%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#131"
+ , "c1" : "00128"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172878 the MagicNumber/String  'public ApiMessage newMetadataRecord() {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171492 the MagicNumber/String  'return %s;%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#133"
+ , "c1" : "00132"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172878 the MagicNumber/String  'switch (id) {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171492 the MagicNumber/String  'default:%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#135"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171492 the MagicNumber/String  'throw new UnsupportedVersionException(\'Unknown metadata id \'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172878 the MagicNumber/String  'case %d:%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171492 the MagicNumber/String  ' + id);%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#138"
+ , "c1" : "00139"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172878 the MagicNumber/String  'return new %s();%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171492 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#142"
+ , "c1" : "00141"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172878 the MagicNumber/String  'default:%n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#145"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172878 the MagicNumber/String  'throw new UnsupportedVersionException(\'Unknown metadata id \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateFromApiKey@POLYN171492 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172878 the MagicNumber/String  ' + id);%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172968 the MagicNumber/String  'public ApiMessage newMetadataRecord() {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#149"
+ , "c1" : "00148"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172878 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172968 the MagicNumber/String  'switch (id) {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172878 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172968 the MagicNumber/String  'case %d:%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#154"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00154] For method generateAccessor arguments String  name|String  type"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#155"
+ , "c1" : "00153"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateAccessor@POLYN174386 the MagicNumber/String  'public %s %s() {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172968 the MagicNumber/String  'return new %s();%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateAccessor@POLYN174386 the MagicNumber/String  'return this.%s;%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172968 the MagicNumber/String  'default:%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#159"
+ , "c1" : "00160"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateAccessor@POLYN174386 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172968 the MagicNumber/String  'throw new UnsupportedVersionException(\'Unknown metadata id \'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#163"
+ , "c1" : "00161"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateToString@POLYN174863 the MagicNumber/String  '@Override%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172968 the MagicNumber/String  ' + id);%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00164"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateToString@POLYN174863 the MagicNumber/String  'public String toString() {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172968 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00166"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateToString@POLYN174863 the MagicNumber/String  'return this.name();%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateNewMetadataRecord@POLYN172968 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#168"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateToString@POLYN174863 the MagicNumber/String  '}%n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#171"
+ , "c1" : "00169"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#169"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00171] For method write arguments BufferedWriter  writer"
+ , "c3" : "QC-JAV000006[00169] For method generateAccessor arguments String  name|String  type"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateAccessor@POLYN174476 the MagicNumber/String  'public %s %s() {%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateAccessor@POLYN174476 the MagicNumber/String  'return this.%s;%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00174"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#174"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateAccessor@POLYN174476 the MagicNumber/String  '}%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00178"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#178"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateToString@POLYN174953 the MagicNumber/String  '@Override%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#179"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateToString@POLYN174953 the MagicNumber/String  'public String toString() {%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00181"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#181"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateToString@POLYN174953 the MagicNumber/String  'return this.name();%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00183"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#183"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.message.MetadataRecordTypeGenerator.generateToString@POLYN174953 the MagicNumber/String  '}%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00186"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#186"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00186] For method write arguments BufferedWriter  writer"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167042"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#32"
+ , "c1" : "00047"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#47"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00032] In the recursive method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167042 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#48"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167042 the MagicNumber/String 'Duplicate metadata record entry for type ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132 the MagicNumber/String 'Duplicate metadata record entry for type ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#34"
+ , "c1" : "00049"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#49"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167042 the MagicNumber/String '. New ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132 the MagicNumber/String '. New ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#34"
+ , "c1" : "00049"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#49"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167042 the MagicNumber/String '. Original claimant: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132 the MagicNumber/String '. Original claimant: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#35"
+ , "c1" : "00050"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#50"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00035] In the recursive method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167042 the MagicNumber/String 'claimant: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132 the MagicNumber/String 'claimant: ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

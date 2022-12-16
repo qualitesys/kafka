@@ -2,7 +2,7 @@
 !pragma layout smetana
 "ApiException" <|-- "org.apache.kafka.common.errors.InvalidSessionTimeoutException"
 class org.apache.kafka.common.errors.InvalidSessionTimeoutException {
-+InvalidSessionTimeoutException(String;Throwable) : InvalidSessionTimeoutException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidSessionTimeoutException.java.html#7]]]
-+InvalidSessionTimeoutException(String) : InvalidSessionTimeoutException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidSessionTimeoutException.java.html#11]]]
++InvalidSessionTimeoutException(String;Throwable) : InvalidSessionTimeoutException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidSessionTimeoutException.java.html#22]]]
++InvalidSessionTimeoutException(String) : InvalidSessionTimeoutException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidSessionTimeoutException.java.html#26]]]
 } 
 @enduml

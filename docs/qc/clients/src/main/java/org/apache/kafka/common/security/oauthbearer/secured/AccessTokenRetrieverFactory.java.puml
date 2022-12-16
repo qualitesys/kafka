@@ -2,7 +2,7 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory"
 class org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetrieverFactory {
-+create(Map<String,?>;Map<String,Object>) : AccessTokenRetriever [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#23]]]
-+create(Map<String,?>;String;Map<String,Object>) : AccessTokenRetriever [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#27]]]
++create(Map<String,?>;Map<String,Object>) : AccessTokenRetriever [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#48]]]
++create(Map<String,?>;String;Map<String,Object>) : AccessTokenRetriever [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#52]]]
 } 
 @enduml

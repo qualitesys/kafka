@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.ChangelogTopics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#33"
+ , "c5" : "00048"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#48"
  , "c1" : "ChangelogTopics"
  , "c2" : "ChangelogTopics(InternalTopicManager;Map<Subtopology,TopicsInfo>;Map<Subtopology,Set<TaskId>>;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#44"
+ , "c5" : "00059"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#59"
  , "c1" : "void"
  , "c2" : "setup()"
  , "c3" : "14"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00101"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#101"
+ , "c5" : "00116"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#116"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "preExistingNonSourceTopicBasedPartitions()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00105"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#105"
+ , "c5" : "00120"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#120"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "preExistingPartitionsFor(TaskId)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#112"
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#127"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "preExistingSourceTopicBasedPartitions()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00116"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#116"
+ , "c5" : "00131"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#131"
  , "c1" : "Set<TaskId>"
  , "c2" : "statefulTaskIds()"
  , "c3" : "1"
@@ -164,73 +164,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00044] For method setup list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; internalTopicManager_makeReadyN165201"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00048] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00049] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00051] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00059] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00059] For method setup list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; internalTopicManager_makeReadyN165291"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#60"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00060] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00063] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#68"
+ , "c1" : "00064"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00068] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00064] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#71"
+ , "c1" : "00066"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00071] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00066] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#60"
+ , "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00060] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00074] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#71"
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00071] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00075] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00083] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -241,129 +220,150 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00075] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00086] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00101] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00102] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00103] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#67"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163135 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163135 the MagicNumber/String  'No tasks found for subtopology {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00087] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163135 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00088] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163135 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#52"
+ , "c1" : "00098"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163045 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163135 the MagicNumber/String  'Created state changelog topics {} from the parsed topology.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163045 the MagicNumber/String  'No tasks found for subtopology {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163045 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163045 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163045 the MagicNumber/String  'Created state changelog topics {} from the parsed topology.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#105"
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method preExistingPartitionsFor arguments TaskId  taskId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#101"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00101] Public method preExistingNonSourceTopicBasedPartitions is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#105"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00105] Public method preExistingPartitionsFor is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#112"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00112] Public method preExistingSourceTopicBasedPartitions is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000006[00120] For method preExistingPartitionsFor arguments TaskId  taskId"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#116"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00116] Public method statefulTaskIds is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00116] Public method preExistingNonSourceTopicBasedPartitions is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00120] Public method preExistingPartitionsFor is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00127] Public method preExistingSourceTopicBasedPartitions is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#131"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00131] Public method statefulTaskIds is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163045"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163135"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#67"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163045 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163135 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#53"
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#68"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163045 the MagicNumber/String 'No tasks found for subtopology {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163135 the MagicNumber/String 'No tasks found for subtopology {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#72"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#87"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163045 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163135 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#73"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#88"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163045 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163135 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#83"
+ , "c1" : "00098"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#98"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163045 the MagicNumber/String 'Created state changelog topics {} from the parsed topology.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.streams.processor.internals.ChangelogTopics.setup@POLYN163135 the MagicNumber/String 'Created state changelog topics {} from the parsed topology.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.MutableRecordBatch" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#12"
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#33"
  , "c1" : "void"
  , "c2" : "setLastOffset(long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#15"
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#46"
  , "c1" : "void"
  , "c2" : "setMaxTimestamp(TimestampType;long)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#18"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#52"
  , "c1" : "void"
  , "c2" : "setPartitionLeaderEpoch(int)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#21"
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#58"
  , "c1" : "void"
  , "c2" : "writeTo(ByteBufferOutputStream)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#24"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#67"
  , "c1" : "CloseableIterator<Record>"
  , "c2" : "skipKeyValueIterator(BufferSupplier)"
  , "c3" : "1"

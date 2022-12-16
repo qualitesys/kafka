@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.ControlRecordUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#18"
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#35"
  , "c1" : "LeaderChangeMessage"
  , "c2" : "deserializeLeaderChangeMessage(Record)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#27"
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#44"
  , "c1" : "LeaderChangeMessage"
  , "c2" : "deserializeLeaderChangeMessage(ByteBuffer)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#32"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#49"
  , "c1" : "SnapshotHeaderRecord"
  , "c2" : "deserializedSnapshotHeaderRecord(Record)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#41"
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#58"
  , "c1" : "SnapshotHeaderRecord"
  , "c2" : "deserializedSnapshotHeaderRecord(ByteBuffer)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#46"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#63"
  , "c1" : "SnapshotFooterRecord"
  , "c2" : "deserializedSnapshotFooterRecord(Record)"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#55"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#72"
  , "c1" : "SnapshotFooterRecord"
  , "c2" : "deserializedSnapshotFooterRecord(ByteBuffer)"
  , "c3" : "1"
@@ -127,108 +127,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#18"
+ , "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#35"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method deserializeLeaderChangeMessage arguments Record  record"
+ , "c3" : "QC-JAV000006[00035] For method deserializeLeaderChangeMessage arguments Record  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#18"
+ , "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#35"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00018] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00035] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#22"
+ , "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.record.ControlRecordUtils.deserializeLeaderChangeMessage@POLYN149875 the MagicNumber/String  'Expected LEADER_CHANGE control record type(2), but found ' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.record.ControlRecordUtils.deserializeLeaderChangeMessage@POLYN149977 the MagicNumber/String  'Expected LEADER_CHANGE control record type(2), but found ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#27"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method deserializeLeaderChangeMessage arguments ByteBuffer  data"
+ , "c3" : "QC-JAV000006[00044] For method deserializeLeaderChangeMessage arguments ByteBuffer  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#27"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#44"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00044] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#32"
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method deserializedSnapshotHeaderRecord arguments Record  record"
+ , "c3" : "QC-JAV000006[00049] For method deserializedSnapshotHeaderRecord arguments Record  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#32"
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#49"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00032] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00049] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#36"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.record.ControlRecordUtils.deserializedSnapshotHeaderRecord@POLYN150656 the MagicNumber/String  'Expected SNAPSHOT_HEADER control record type(3), but found ' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.record.ControlRecordUtils.deserializedSnapshotHeaderRecord@POLYN150758 the MagicNumber/String  'Expected SNAPSHOT_HEADER control record type(3), but found ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#41"
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method deserializedSnapshotHeaderRecord arguments ByteBuffer  data"
+ , "c3" : "QC-JAV000006[00058] For method deserializedSnapshotHeaderRecord arguments ByteBuffer  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#41"
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#58"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00041] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00058] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#46"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method deserializedSnapshotFooterRecord arguments Record  record"
+ , "c3" : "QC-JAV000006[00063] For method deserializedSnapshotFooterRecord arguments Record  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#46"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#63"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00046] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00063] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#50"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.record.ControlRecordUtils.deserializedSnapshotFooterRecord@POLYN151437 the MagicNumber/String  'Expected SNAPSHOT_FOOTER control record type(4), but found ' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.record.ControlRecordUtils.deserializedSnapshotFooterRecord@POLYN151539 the MagicNumber/String  'Expected SNAPSHOT_FOOTER control record type(4), but found ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#55"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method deserializedSnapshotFooterRecord arguments ByteBuffer  data"
+ , "c3" : "QC-JAV000006[00072] For method deserializedSnapshotFooterRecord arguments ByteBuffer  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#55"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#72"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00055] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00072] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

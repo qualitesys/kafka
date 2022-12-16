@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.emitstrategy.WindowCloseStrategy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java.html#10"
+ , "c5" : "00027"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java.html#27"
  , "c1" : "StrategyType"
  , "c2" : "type()"
  , "c3" : "1"

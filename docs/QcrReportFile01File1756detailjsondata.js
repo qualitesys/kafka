@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.PrintForeachAction" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#20"
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#41"
  , "c1" : "PrintForeachAction"
  , "c2" : "PrintForeachAction(OutputStream;KeyValueMapper<?superK,?superV,String>;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#30"
+ , "c5" : "00051"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#51"
  , "c1" : "void"
  , "c2" : "apply(K;V)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#38"
+ , "c5" : "00059"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#59"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "3"
@@ -93,17 +93,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#30"
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method apply arguments K  key|V  value"
+ , "c3" : "QC-JAV000006[00051] For method apply arguments K  key|V  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#31"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.internals.PrintForeachAction.apply@POLYN149527 the MagicNumber/String  '[%s]: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.internals.PrintForeachAction.apply@POLYN149653 the MagicNumber/String  '[%s]: %s' should be converted to const"
 }} 
 ]
 , 

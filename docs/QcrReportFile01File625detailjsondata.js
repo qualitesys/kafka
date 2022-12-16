@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.CreateAclsRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#47"
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#62"
  , "c1" : "CreateAclsRequest"
  , "c2" : "CreateAclsRequest(CreateAclsRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#53"
+ , "c5" : "00068"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#68"
  , "c1" : "List<AclCreation>"
  , "c2" : "aclCreations()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#58"
+ , "c5" : "00073"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#73"
  , "c1" : "CreateAclsRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#63"
+ , "c5" : "00078"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#78"
  , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#71"
+ , "c5" : "00086"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#86"
  , "c1" : "CreateAclsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#75"
+ , "c5" : "00090"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#90"
  , "c1" : "void"
  , "c2" : "validate(CreateAclsRequestData)"
  , "c3" : "4"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00092"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#92"
+ , "c5" : "00107"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#107"
  , "c1" : "AclBinding"
  , "c2" : "aclBinding(AclCreation)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00105"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#105"
+ , "c5" : "00120"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#120"
  , "c1" : "AclCreation"
  , "c2" : "aclCreation(AclBinding)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00116"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#116"
+ , "c5" : "00131"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#131"
  , "c1" : "AclCreationResult"
  , "c2" : "aclResult(Throwable)"
  , "c3" : "1"
@@ -177,122 +177,122 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#35"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00050] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#63"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00063] For method getErrorResponse arguments int  throttleTimeMs|Throwable  throwable"
+ , "c3" : "QC-JAV000006[00078] For method getErrorResponse arguments int  throttleTimeMs|Throwable  throwable"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#63"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00063] For method getErrorResponse list of called methods Object monObjet|AclCreationResult CreateAclsRequest_aclResultN163582"
+ , "c3" : "QC-JAV000007[00078] For method getErrorResponse list of called methods Object monObjet|AclCreationResult CreateAclsRequest_aclResultN163672"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#71"
+ , "c1" : "00086"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00071] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00086] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#75"
+ , "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#90"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method validate arguments CreateAclsRequestData  data"
+ , "c3" : "QC-JAV000006[00090] For method validate arguments CreateAclsRequestData  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#75"
+ , "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#90"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00075] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00090] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#76"
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.requests.CreateAclsRequest.validate@POLYN164295 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.requests.CreateAclsRequest.validate@POLYN164385 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#80"
+ , "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.requests.CreateAclsRequest.validate@POLYN164295 the MagicNumber/String  'Version 0 only supports literal resource pattern types' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.requests.CreateAclsRequest.validate@POLYN164385 the MagicNumber/String  'Version 0 only supports literal resource pattern types' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#89"
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.requests.CreateAclsRequest.validate@POLYN164295 the MagicNumber/String  'CreatableAcls contain unknown elements: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.requests.CreateAclsRequest.validate@POLYN164385 the MagicNumber/String  'CreatableAcls contain unknown elements: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#92"
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method aclBinding arguments AclCreation  acl"
+ , "c3" : "QC-JAV000006[00107] For method aclBinding arguments AclCreation  acl"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#92"
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#107"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00092] The argument acl is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00107] The argument acl is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#105"
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method aclCreation arguments AclBinding  binding"
+ , "c3" : "QC-JAV000006[00120] For method aclCreation arguments AclBinding  binding"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#105"
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#120"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00105] The argument binding is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00120] The argument binding is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#116"
+ , "c1" : "00131"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#131"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method aclResult arguments Throwable  throwable"
+ , "c3" : "QC-JAV000006[00131] For method aclResult arguments Throwable  throwable"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#116"
+ , "c1" : "00131"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#131"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00116] For method aclResult list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN167088"
+ , "c3" : "QC-JAV000007[00131] For method aclResult list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN167178"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreateAclsRequest.Builder.toString@POLYN162759"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreateAclsRequest.Builder.toString@POLYN162849"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreateAclsRequest.aclCreations@POLYN163232"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreateAclsRequest.aclCreations@POLYN163322"
 }} 
 ]
 , 

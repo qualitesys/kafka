@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.message.FieldType" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00366"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#366"
+ , "c5" : "00381"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#381"
  , "c1" : "FieldType"
  , "c2" : "parse(String)"
  , "c3" : "19"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00414"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#414"
+ , "c5" : "00429"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#429"
  , "c1" : "String"
  , "c2" : "getBoxedJavaType(HeaderGenerator)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00417"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#417"
+ , "c5" : "00434"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#434"
  , "c1" : "boolean"
  , "c2" : "isArray()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00422"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#422"
+ , "c5" : "00441"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#441"
  , "c1" : "boolean"
  , "c2" : "isStructArray()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00427"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#427"
+ , "c5" : "00448"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#448"
  , "c1" : "boolean"
  , "c2" : "serializationIsDifferentInFlexibleVersions()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00432"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#432"
+ , "c5" : "00455"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#455"
  , "c1" : "boolean"
  , "c2" : "isString()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00437"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#437"
+ , "c5" : "00462"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#462"
  , "c1" : "boolean"
  , "c2" : "isBytes()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00442"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#442"
+ , "c5" : "00469"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#469"
  , "c1" : "boolean"
  , "c2" : "isRecords()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00447"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#447"
+ , "c5" : "00476"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#476"
  , "c1" : "boolean"
  , "c2" : "isFloat()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00452"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#452"
+ , "c5" : "00483"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#483"
  , "c1" : "boolean"
  , "c2" : "isStruct()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00457"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#457"
+ , "c5" : "00490"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#490"
  , "c1" : "boolean"
  , "c2" : "canBeNullable()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00462"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#462"
+ , "c5" : "00497"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#497"
  , "c1" : "Optional<Integer>"
  , "c2" : "fixedLength()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00466"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#466"
+ , "c5" : "00501"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#501"
  , "c1" : "boolean"
  , "c2" : "isVariableLength()"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00471"
- , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#471"
+ , "c5" : "00508"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#508"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -199,388 +199,388 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#15"
+ , "c1" : "00030"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00015] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+ , "c3" : "QC-JAV000006[00030] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#16"
+ , "c1" : "00031"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.message.FieldType.BoolFieldType.getBoxedJavaType@POLYN184358 the MagicNumber/String  'Boolean' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#21"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.message.FieldType.BoolFieldType.fixedLength@POLYN184503 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#35"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.message.FieldType.BoolFieldType.getBoxedJavaType@POLYN184580 the MagicNumber/String  'Boolean' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00036"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.message.FieldType.Int8FieldType.getBoxedJavaType@POLYN184963 the MagicNumber/String  'Byte' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.message.FieldType.BoolFieldType.fixedLength@POLYN184725 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.message.FieldType.Int8FieldType.fixedLength@POLYN185108 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#55"
+ , "c1" : "00050"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+ , "c3" : "QC-JAV000006[00050] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#51"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.message.FieldType.Int8FieldType.getBoxedJavaType@POLYN185185 the MagicNumber/String  'Byte' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.message.FieldType.Int16FieldType.getBoxedJavaType@POLYN185568 the MagicNumber/String  'Short' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.message.FieldType.Int8FieldType.fixedLength@POLYN185330 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.message.FieldType.Int16FieldType.fixedLength@POLYN185713 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#75"
+ , "c1" : "00070"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+ , "c3" : "QC-JAV000006[00070] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#71"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.message.FieldType.Int16FieldType.getBoxedJavaType@POLYN185790 the MagicNumber/String  'Short' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.message.FieldType.Uint16FieldType.getBoxedJavaType@POLYN186173 the MagicNumber/String  'Integer' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.message.FieldType.Int16FieldType.fixedLength@POLYN185935 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.message.FieldType.Uint16FieldType.fixedLength@POLYN186318 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#95"
+ , "c1" : "00090"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#90"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00095] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+ , "c3" : "QC-JAV000006[00090] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#91"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.message.FieldType.Uint16FieldType.getBoxedJavaType@POLYN186395 the MagicNumber/String  'Integer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00096"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.message.FieldType.Int32FieldType.getBoxedJavaType@POLYN186778 the MagicNumber/String  'Integer' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.message.FieldType.Uint16FieldType.fixedLength@POLYN186540 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#101"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.message.FieldType.Int32FieldType.fixedLength@POLYN186923 the MagicNumber/String  4 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#115"
+ , "c1" : "00110"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00115] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+ , "c3" : "QC-JAV000006[00110] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.message.FieldType.Int32FieldType.getBoxedJavaType@POLYN187000 the MagicNumber/String  'Integer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.message.FieldType.Uint32FieldType.getBoxedJavaType@POLYN187383 the MagicNumber/String  'Long' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.message.FieldType.Int32FieldType.fixedLength@POLYN187145 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#121"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.message.FieldType.Uint32FieldType.fixedLength@POLYN187528 the MagicNumber/String  4 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#135"
+ , "c1" : "00130"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#130"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00135] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+ , "c3" : "QC-JAV000006[00130] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#131"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.message.FieldType.Uint32FieldType.getBoxedJavaType@POLYN187605 the MagicNumber/String  'Long' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.message.FieldType.Int64FieldType.getBoxedJavaType@POLYN187988 the MagicNumber/String  'Long' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.message.FieldType.Uint32FieldType.fixedLength@POLYN187750 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.message.FieldType.Int64FieldType.fixedLength@POLYN188133 the MagicNumber/String  8 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#155"
+ , "c1" : "00150"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00155] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+ , "c3" : "QC-JAV000006[00150] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#155"
+ , "c1" : "00151"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#151"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.message.FieldType.Int64FieldType.getBoxedJavaType@POLYN188210 the MagicNumber/String  'Long' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00156"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#156"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.message.FieldType.Int64FieldType.fixedLength@POLYN188355 the MagicNumber/String  8 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#170"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00170] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#170"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00155] The argument headerGenerator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00170] The argument headerGenerator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#157"
+ , "c1" : "00172"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.message.FieldType.UUIDFieldType.getBoxedJavaType@POLYN188593 the MagicNumber/String  'Uuid' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#162"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.message.FieldType.UUIDFieldType.fixedLength@POLYN188817 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.message.FieldType.UUIDFieldType.getBoxedJavaType@POLYN188815 the MagicNumber/String  'Uuid' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.message.FieldType.Float64FieldType.fixedLength@POLYN189298 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.message.FieldType.UUIDFieldType.fixedLength@POLYN189039 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#181"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00181] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#182"
+ , "c1" : "00192"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.message.FieldType.Float64FieldType.getBoxedJavaType@POLYN189439 the MagicNumber/String  'Double' should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.message.FieldType.Float64FieldType.fixedLength@POLYN189520 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.message.FieldType.Float64FieldType.isFloat@POLYN189563 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#201"
+ , "c1" : "00196"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#196"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00201] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+ , "c3" : "QC-JAV000006[00196] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00197"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#197"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.message.FieldType.Float64FieldType.getBoxedJavaType@POLYN189661 the MagicNumber/String  'Double' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00202"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.message.FieldType.StringFieldType.getBoxedJavaType@POLYN189984 the MagicNumber/String  'String' should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.message.FieldType.Float64FieldType.isFloat@POLYN189785 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#207"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.message.FieldType.StringFieldType.serializationIsDifferentInFlexibleVersions@POLYN190108 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#212"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.message.FieldType.StringFieldType.isString@POLYN190210 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00216"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#216"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00216] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.message.FieldType.StringFieldType.canBeNullable@POLYN190312 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.message.FieldType.StringFieldType.getBoxedJavaType@POLYN190206 the MagicNumber/String  'String' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00231"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#231"
+ , "c1" : "00222"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#222"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.message.FieldType.StringFieldType.serializationIsDifferentInFlexibleVersions@POLYN190330 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00227"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#227"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.message.FieldType.StringFieldType.isString@POLYN190432 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00232"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#232"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.message.FieldType.StringFieldType.canBeNullable@POLYN190534 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00246"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#246"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00231] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+ , "c3" : "QC-JAV000006[00246] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00231"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#231"
+ , "c1" : "00246"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#246"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00231] The argument headerGenerator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#233"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.message.FieldType.BytesFieldType.getBoxedJavaType@POLYN190733 the MagicNumber/String  'ByteBuffer' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#238"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.message.FieldType.BytesFieldType.serializationIsDifferentInFlexibleVersions@POLYN190936 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00243"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#243"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.message.FieldType.BytesFieldType.isBytes@POLYN191038 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAVCWE476[00246] The argument headerGenerator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00248"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#248"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.message.FieldType.BytesFieldType.canBeNullable@POLYN191140 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.message.FieldType.BytesFieldType.getBoxedJavaType@POLYN190955 the MagicNumber/String  'ByteBuffer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00262"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#262"
+ , "c1" : "00253"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#253"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.message.FieldType.BytesFieldType.serializationIsDifferentInFlexibleVersions@POLYN191158 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00258"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#258"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.message.FieldType.BytesFieldType.isBytes@POLYN191260 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00263"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#263"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.message.FieldType.BytesFieldType.canBeNullable@POLYN191362 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00277"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#277"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00262] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+ , "c3" : "QC-JAV000006[00277] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00262"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#262"
+ , "c1" : "00277"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#277"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00262] The argument headerGenerator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#264"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.message.FieldType.RecordsFieldType.getBoxedJavaType@POLYN191561 the MagicNumber/String  'BaseRecords' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00269"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#269"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.message.FieldType.RecordsFieldType.serializationIsDifferentInFlexibleVersions@POLYN191764 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#274"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.message.FieldType.RecordsFieldType.isRecords@POLYN191866 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAVCWE476[00277] The argument headerGenerator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00279"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.message.FieldType.RecordsFieldType.canBeNullable@POLYN191968 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.message.FieldType.RecordsFieldType.getBoxedJavaType@POLYN191783 the MagicNumber/String  'BaseRecords' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00296"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#296"
+ , "c1" : "00284"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#284"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.message.FieldType.RecordsFieldType.serializationIsDifferentInFlexibleVersions@POLYN191986 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.message.FieldType.RecordsFieldType.isRecords@POLYN192088 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00294"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#294"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.message.FieldType.RecordsFieldType.canBeNullable@POLYN192190 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00311"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#311"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00296] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+ , "c3" : "QC-JAV000006[00311] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00302"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#302"
+ , "c1" : "00317"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.message.FieldType.StructType.serializationIsDifferentInFlexibleVersions@POLYN192507 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.message.FieldType.StructType.serializationIsDifferentInFlexibleVersions@POLYN192729 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00307"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#307"
+ , "c1" : "00322"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#322"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.message.FieldType.StructType.isStruct@POLYN192609 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.message.FieldType.StructType.isStruct@POLYN192831 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00329"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#329"
+ , "c1" : "00344"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.message.FieldType.ArrayType.serializationIsDifferentInFlexibleVersions@POLYN193112 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.message.FieldType.ArrayType.serializationIsDifferentInFlexibleVersions@POLYN193334 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00333"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#333"
+ , "c1" : "00348"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#348"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00333] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
+ , "c3" : "QC-JAV000006[00348] For method getBoxedJavaType arguments HeaderGenerator  headerGenerator"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00339"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#339"
+ , "c1" : "00354"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.message.FieldType.ArrayType.isArray@POLYN193355 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.message.FieldType.ArrayType.isArray@POLYN193577 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00349"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#349"
+ , "c1" : "00364"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.message.FieldType.ArrayType.canBeNullable@POLYN193577 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.message.FieldType.ArrayType.canBeNullable@POLYN193799 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00362"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#362"
+ , "c1" : "00377"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.message.FieldType.ArrayType.toString@POLYN193871 the MagicNumber/String  '[]' should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.message.FieldType.ArrayType.toString@POLYN194093 the MagicNumber/String  '[]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00366"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#366"
+ , "c1" : "00381"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#381"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00366] The argument string is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00381] The argument string is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

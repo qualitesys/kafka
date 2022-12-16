@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.TimeWindow" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#10"
+ , "c5" : "00044"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#44"
  , "c1" : "TimeWindow"
  , "c2" : "TimeWindow(long;long)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#19"
+ , "c5" : "00059"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#59"
  , "c1" : "boolean"
  , "c2" : "overlap(Window)"
  , "c3" : "2"
@@ -98,45 +98,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#13"
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.streams.kstream.internals.TimeWindow.TimeWindow@POLYN151262 the MagicNumber/String  'Window endMs must be greater than window startMs.' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.kstream.internals.TimeWindow.TimeWindow@POLYN151502 the MagicNumber/String  'Window endMs must be greater than window startMs.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#19"
+ , "c1" : "00059"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method overlap arguments Window  other"
+ , "c3" : "QC-JAV000006[00059] For method overlap arguments Window  other"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#19"
+ , "c1" : "00059"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#59"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00019] The argument other is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00059] The argument other is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#20"
+ , "c1" : "00060"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00020] The same method call other.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00060] The same method call other.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#21"
+ , "c1" : "00061"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.kstream.internals.TimeWindow.overlap@POLYN151850 the MagicNumber/String  'Cannot compare windows of different type. Other window has type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.TimeWindow.overlap@POLYN152090 the MagicNumber/String  'Cannot compare windows of different type. Other window has type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#22"
+ , "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.kstream.internals.TimeWindow.overlap@POLYN151850 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.internals.TimeWindow.overlap@POLYN152090 the MagicNumber/String  '.' should be converted to const"
 }} 
 ]
 , 

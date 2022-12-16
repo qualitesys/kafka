@@ -2,15 +2,15 @@
 !pragma layout smetana
 "WrappingNullableSerializer<ValueAndTimestamp<V>,Void,V>" <|-- "org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer"
 class org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer {
-ValueAndTimestampSerializer(Serializer<V>) : ValueAndTimestampSerializer [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#20]]]
-+valuesAreSameAndTimeIsIncreasing(byte[];byte[]) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#26]]]
-+configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#47]]]
-+serialize(String;ValueAndTimestamp<V>) : byte[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#54]]]
-+serialize(String;V;long) : byte[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#62]]]
-+close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#88]]]
--timeIsDecreasing(byte[];byte[]) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#93]]]
--extractTimestamp(byte[]) : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#97]]]
--valuesAreSame(byte[];byte[]) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#103]]]
-+setIfUnset(SerdeGetter) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#113]]]
+ValueAndTimestampSerializer(Serializer<V>) : ValueAndTimestampSerializer [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#35]]]
++valuesAreSameAndTimeIsIncreasing(byte[];byte[]) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#41]]]
++configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#62]]]
++serialize(String;ValueAndTimestamp<V>) : byte[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#69]]]
++serialize(String;V;long) : byte[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#77]]]
++close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#103]]]
+-timeIsDecreasing(byte[];byte[]) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#108]]]
+-extractTimestamp(byte[]) : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#112]]]
+-valuesAreSame(byte[];byte[]) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#118]]]
++setIfUnset(SerdeGetter) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#128]]]
 } 
 @enduml

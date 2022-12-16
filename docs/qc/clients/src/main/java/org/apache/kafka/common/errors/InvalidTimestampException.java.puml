@@ -2,7 +2,7 @@
 !pragma layout smetana
 "ApiException" <|-- "org.apache.kafka.common.errors.InvalidTimestampException"
 class org.apache.kafka.common.errors.InvalidTimestampException {
-+InvalidTimestampException(String) : InvalidTimestampException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTimestampException.java.html#9]]]
-+InvalidTimestampException(String;Throwable) : InvalidTimestampException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTimestampException.java.html#13]]]
++InvalidTimestampException(String) : InvalidTimestampException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTimestampException.java.html#26]]]
++InvalidTimestampException(String;Throwable) : InvalidTimestampException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTimestampException.java.html#30]]]
 } 
 @enduml

@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult"
 class org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult {
-AlterConsumerGroupOffsetsResult(KafkaFuture<Map<TopicPartition,Errors>>) : AlterConsumerGroupOffsetsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.html#20]]]
-+partitionResult(TopicPartition) : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.html#25]]]
-+all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.html#48]]]
+AlterConsumerGroupOffsetsResult(KafkaFuture<Map<TopicPartition,Errors>>) : AlterConsumerGroupOffsetsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.html#39]]]
++partitionResult(TopicPartition) : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.html#46]]]
++all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.html#71]]]
 } 
 @enduml

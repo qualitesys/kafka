@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.sink.SinkTaskContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#13"
+ , "c5" : "00036"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#36"
  , "c1" : "Map<String,String>"
  , "c2" : "configs()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#16"
+ , "c5" : "00048"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#48"
  , "c1" : "void"
  , "c2" : "offset(Map<TopicPartition,Long>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#19"
+ , "c5" : "00061"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#61"
  , "c1" : "void"
  , "c2" : "offset(TopicPartition;long)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#22"
+ , "c5" : "00070"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#70"
  , "c1" : "void"
  , "c2" : "timeout(long)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#25"
+ , "c5" : "00076"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#76"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "assignment()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#28"
+ , "c5" : "00082"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#82"
  , "c1" : "void"
  , "c2" : "pause(TopicPartition...)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#31"
+ , "c5" : "00088"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#88"
  , "c1" : "void"
  , "c2" : "resume(TopicPartition...)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#34"
+ , "c5" : "00096"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#96"
  , "c1" : "void"
  , "c2" : "requestCommit()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#37"
+ , "c5" : "00122"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.html#122"
  , "c1" : "ErrantRecordReporter"
  , "c2" : "errantRecordReporter()"
  , "c3" : "1"

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreKeyValueIterator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#21"
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#36"
  , "c1" : "MergedSortedCacheWindowStoreKeyValueIterator"
  , "c2" : "MergedSortedCacheWindowStoreKeyValueIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<Windowed<Bytes>,byte[]>;StateSerdes<Bytes,byte[]>;long;SegmentedCacheFunction;boolean)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#33"
+ , "c5" : "00048"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#48"
  , "c1" : "MergedSortedCacheWindowStoreKeyValueIterator"
  , "c2" : "MergedSortedCacheWindowStoreKeyValueIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<Windowed<Bytes>,byte[]>;StateSerdes<Bytes,byte[]>;long;SegmentedCacheFunction;boolean;StoreKeyToWindowKey;WindowKeyToBytes)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#52"
+ , "c5" : "00067"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#67"
  , "c1" : "Windowed<Bytes>"
  , "c2" : "deserializeStoreKey(Windowed<Bytes>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#57"
+ , "c5" : "00072"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#72"
  , "c1" : "KeyValue<Windowed<Bytes>,byte[]>"
  , "c2" : "deserializeStorePair(KeyValue<Windowed<Bytes>,byte[]>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#62"
+ , "c5" : "00077"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#77"
  , "c1" : "Windowed<Bytes>"
  , "c2" : "deserializeCacheKey(Bytes)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#68"
+ , "c5" : "00083"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#83"
  , "c1" : "byte[]"
  , "c2" : "deserializeCacheValue(LRUCacheEntry)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#73"
+ , "c5" : "00088"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#88"
  , "c1" : "int"
  , "c2" : "compare(Bytes;Windowed<Bytes>)"
  , "c3" : "1"
@@ -136,59 +136,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method deserializeStoreKey arguments Windowed&lt;Bytes &gt;  key"
+ , "c3" : "QC-JAV000006[00067] For method deserializeStoreKey arguments Windowed&lt;Bytes &gt;  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#57"
+ , "c1" : "00072"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method deserializeStorePair arguments KeyValue&lt;Windowed&lt;Bytes &gt; ,byte[] &gt;  pair"
+ , "c3" : "QC-JAV000006[00072] For method deserializeStorePair arguments KeyValue&lt;Windowed&lt;Bytes &gt; ,byte[] &gt;  pair"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#62"
+ , "c1" : "00077"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method deserializeCacheKey arguments Bytes  cacheKey"
+ , "c3" : "QC-JAV000006[00077] For method deserializeCacheKey arguments Bytes  cacheKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#68"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method deserializeCacheValue arguments LRUCacheEntry  cacheEntry"
+ , "c3" : "QC-JAV000006[00083] For method deserializeCacheValue arguments LRUCacheEntry  cacheEntry"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#68"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#83"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00068] The argument cacheEntry is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00083] The argument cacheEntry is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#73"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method compare arguments Bytes  cacheKey|Windowed&lt;Bytes &gt;  storeKey"
+ , "c3" : "QC-JAV000006[00088] For method compare arguments Bytes  cacheKey|Windowed&lt;Bytes &gt;  storeKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#73"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#88"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00073] The argument storeKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00088] The argument storeKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#74"
+ , "c1" : "00089"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreKeyValueIterator.compare@POLYN156292 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreKeyValueIterator.compare@POLYN156382 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

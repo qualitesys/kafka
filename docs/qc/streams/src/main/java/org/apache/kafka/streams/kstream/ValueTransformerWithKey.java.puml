@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.kstream.ValueTransformerWithKey"
 class org.apache.kafka.streams.kstream.ValueTransformerWithKey {
-init(ProcessorContext) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueTransformerWithKey.java.html#18]]]
-transform(K;V) : VR [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueTransformerWithKey.java.html#21]]]
-close() : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueTransformerWithKey.java.html#24]]]
+init(ProcessorContext) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueTransformerWithKey.java.html#75]]]
+transform(K;V) : VR [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueTransformerWithKey.java.html#98]]]
+close() : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueTransformerWithKey.java.html#107]]]
 } 
 @enduml

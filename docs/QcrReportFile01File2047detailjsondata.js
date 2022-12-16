@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#22"
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#40"
  , "c1" : "CompositeReadOnlyWindowStore"
  , "c2" : "CompositeReadOnlyWindowStore(StateStoreProvider;QueryableStoreType<ReadOnlyWindowStore<K,V>>;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#31"
+ , "c5" : "00049"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#49"
  , "c1" : "V"
  , "c2" : "fetch(K;long)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#50"
+ , "c5" : "00068"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#68"
  , "c1" : "WindowStoreIterator<V>"
  , "c2" : "fetch(K;Instant;Instant)"
  , "c3" : "4"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#73"
+ , "c5" : "00091"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#91"
  , "c1" : "WindowStoreIterator<V>"
  , "c2" : "backwardFetch(K;Instant;Instant)"
  , "c3" : "4"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00096"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#96"
+ , "c5" : "00114"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#114"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "fetch(K;K;Instant;Instant)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00110"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#110"
+ , "c5" : "00128"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#128"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardFetch(K;K;Instant;Instant)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00124"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#124"
+ , "c5" : "00142"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#142"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00135"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#135"
+ , "c5" : "00153"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#153"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardAll()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00146"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#146"
+ , "c5" : "00164"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#164"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "fetchAll(Instant;Instant)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00158"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#158"
+ , "c5" : "00176"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#176"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardFetchAll(Instant;Instant)"
  , "c3" : "1"
@@ -163,171 +163,171 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#31"
+ , "c1" : "00049"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method fetch arguments K  key|long  time"
+ , "c3" : "QC-JAV000006[00049] For method fetch arguments K  key|long  time"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#36"
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00036] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00054] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#40"
+ , "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00040] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN168421 the MagicNumber/String  'key can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN168421 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN168421 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN168421 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN168421 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00058] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#50"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN168529 the MagicNumber/String  'key can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#55"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN168529 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN168529 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#61"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN168529 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#64"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN168529 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method fetch arguments K  key|Instant  timeFrom|Instant  timeTo"
+ , "c3" : "QC-JAV000006[00068] For method fetch arguments K  key|Instant  timeFrom|Instant  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#57"
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00057] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00075] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#63"
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00063] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00081] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#53"
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN169386 the MagicNumber/String  'key can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN169494 the MagicNumber/String  'key can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#65"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN169386 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN169494 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#66"
+ , "c1" : "00084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN169386 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.fetch@POLYN169494 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#73"
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method backwardFetch arguments K  key|Instant  timeFrom|Instant  timeTo"
+ , "c3" : "QC-JAV000006[00091] For method backwardFetch arguments K  key|Instant  timeFrom|Instant  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#80"
+ , "c1" : "00098"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00080] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00098] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#86"
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00086] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00104] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#76"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.backwardFetch@POLYN170516 the MagicNumber/String  'key can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.backwardFetch@POLYN170624 the MagicNumber/String  'key can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#88"
+ , "c1" : "00106"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.backwardFetch@POLYN170516 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.backwardFetch@POLYN170624 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#89"
+ , "c1" : "00107"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.backwardFetch@POLYN170516 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore.backwardFetch@POLYN170624 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#96"
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#114"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00096] For method fetch arguments K  keyFrom|K  keyTo|Instant  timeFrom|Instant  timeTo"
+ , "c3" : "QC-JAV000006[00114] For method fetch arguments K  keyFrom|K  keyTo|Instant  timeFrom|Instant  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#110"
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00110] For method backwardFetch arguments K  keyFrom|K  keyTo|Instant  timeFrom|Instant  timeTo"
+ , "c3" : "QC-JAV000006[00128] For method backwardFetch arguments K  keyFrom|K  keyTo|Instant  timeFrom|Instant  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#146"
+ , "c1" : "00164"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#164"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00146] For method fetchAll arguments Instant  timeFrom|Instant  timeTo"
+ , "c3" : "QC-JAV000006[00164] For method fetchAll arguments Instant  timeFrom|Instant  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#158"
+ , "c1" : "00176"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#176"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00158] For method backwardFetchAll arguments Instant  timeFrom|Instant  timeTo"
+ , "c3" : "QC-JAV000006[00176] For method backwardFetchAll arguments Instant  timeFrom|Instant  timeTo"
 }} 
 ]
 , 

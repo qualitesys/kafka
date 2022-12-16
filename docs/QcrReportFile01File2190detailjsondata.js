@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.common.WorkerUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#40"
+ , "c5" : "00065"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#65"
  , "c1" : "void"
  , "c2" : "abort(Logger;String;Throwable;KafkaFutureImpl<String>)"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#52"
+ , "c5" : "00083"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#83"
  , "c1" : "int"
  , "c2" : "perSecToPerPeriod(float;long)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#60"
+ , "c5" : "00097"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#97"
  , "c1" : "void"
  , "c2" : "addConfigsToProperties(Properties;Map<String,String>;Map<String,String>)"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#77"
+ , "c5" : "00128"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#128"
  , "c1" : "void"
  , "c2" : "createTopics(Logger;String;Map<String,String>;Map<String,String>;Map<String,NewTopic>;boolean)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#94"
+ , "c5" : "00151"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#151"
  , "c1" : "void"
  , "c2" : "createTopics(Logger;Admin;Map<String,NewTopic>;boolean)"
  , "c3" : "5"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00114"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#114"
+ , "c5" : "00178"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#178"
  , "c1" : "Collection<String>"
  , "c2" : "createTopics(Logger;Admin;Collection<NewTopic>)"
  , "c3" : "12"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00174"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#174"
+ , "c5" : "00252"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#252"
  , "c1" : "void"
  , "c2" : "verifyTopics(Logger;Admin;Collection<String>;Map<String,NewTopic>;int;long)"
  , "c3" : "3"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00195"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#195"
+ , "c5" : "00273"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#273"
  , "c1" : "Map<String,TopicDescription>"
  , "c2" : "topicDescriptions(Collection<String>;Admin;int;long)"
  , "c3" : "4"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00218"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#218"
+ , "c5" : "00303"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#303"
  , "c1" : "Collection<TopicPartition>"
  , "c2" : "getMatchingTopicPartitions(Admin;String;int;int)"
  , "c3" : "6"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00251"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#251"
+ , "c5" : "00336"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#336"
  , "c1" : "Admin"
  , "c2" : "createAdminClient(String;Map<String,String>;Map<String,String>)"
  , "c3" : "1"
@@ -207,528 +207,241 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#40"
+ , "c1" : "00065"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method abort arguments Logger  log|String  what|Throwable  exception|KafkaFutureImpl&lt;String &gt;  doneFuture"
+ , "c3" : "QC-JAV000006[00065] For method abort arguments Logger  log|String  what|Throwable  exception|KafkaFutureImpl&lt;String &gt;  doneFuture"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#40"
+ , "c1" : "00065"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#65"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00040] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00065] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#40"
+ , "c1" : "00065"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#65"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00040] The argument exception is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00065] The argument exception is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#41"
+ , "c1" : "00066"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#66"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00041] The argument doneFuture is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00066] The argument doneFuture is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#43"
+ , "c1" : "00068"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00043] The same method call exception.getMessage() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00068] The same method call exception.getMessage() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#42"
+ , "c1" : "00067"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN205991 the MagicNumber/String  '{} caught an exception' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN206501 the MagicNumber/String  '{} caught an exception' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#43"
+ , "c1" : "00068"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN205991 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN206501 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#52"
+ , "c1" : "00083"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method perSecToPerPeriod arguments float  perSec|long  periodMs"
+ , "c3" : "QC-JAV000006[00083] For method perSecToPerPeriod arguments float  perSec|long  periodMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#53"
+ , "c1" : "00084"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN206927 the MagicNumber/String  1000.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN207437 the MagicNumber/String  1000.0f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#55"
+ , "c1" : "00086"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN206927 the MagicNumber/String  1.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN207437 the MagicNumber/String  1.0f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#60"
+ , "c1" : "00097"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method addConfigsToProperties arguments Properties  props|Map&lt;String ,String &gt;  commonConf|Map&lt;String ,String &gt;  clientConf"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#61"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00061] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#61"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00061] The argument commonConf is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#61"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00061] The argument clientConf is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method createTopics arguments Logger  log|String  bootstrapServers|Map&lt;String ,String &gt;  commonClientConf|Map&lt;String ,String &gt;  adminClientConf|Map&lt;String ,NewTopic &gt;  topics|boolean  failOnExisting"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#78"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00078] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#88"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN208997 the MagicNumber/String  'Failed to create or verify topics {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#94"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00094] For method createTopics arguments Logger  log|Admin  adminClient|Map&lt;String ,NewTopic &gt;  topics|boolean  failOnExisting"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#94"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00094] For method createTopics list of called methods Object monObjet|java.util.Collection&lt;java.lang.String&gt; createTopicsN210443"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#95"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00095] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#96"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00096] The argument topics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00097] For method addConfigsToProperties arguments Properties  props|Map&lt;String ,String &gt;  commonConf|Map&lt;String ,String &gt;  clientConf"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#98"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210046 the MagicNumber/String  'Request to create topics has an empty topic list.' should be converted to const"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00098] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#105"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210046 the MagicNumber/String  'Topic(s) {} already exist.' should be converted to const"
+ , "c1" : "00098"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#98"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00098] The argument commonConf is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210046 the MagicNumber/String  'One or more topics already exist.' should be converted to const"
+ , "c1" : "00098"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#98"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00098] The argument clientConf is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210046 the MagicNumber/String  3 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210046 the MagicNumber/String  2500 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#114"
+ , "c1" : "00128"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00114] For method createTopics arguments Logger  log|Admin  adminClient|Collection&lt;NewTopic &gt;  topics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#114"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00114] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#114"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00114] The argument adminClient is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#127"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00127] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000006[00128] For method createTopics arguments Logger  log|String  bootstrapServers|Map&lt;String ,String &gt;  commonClientConf|Map&lt;String ,String &gt;  adminClientConf|Map&lt;String ,NewTopic &gt;  topics|boolean  failOnExisting"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00129] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00132] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00129] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00139] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00140] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00141] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#145"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00145] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#146"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00146] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00147] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN209507 the MagicNumber/String  'Failed to create or verify topics {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#151"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00151] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#164"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00164] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00129] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00132] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00132] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00140] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00141] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#145"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00145] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#146"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00146] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00147] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00151] For method createTopics arguments Logger  log|Admin  adminClient|Map&lt;String ,NewTopic &gt;  topics|boolean  failOnExisting"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#151"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00151] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#146"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00146] The same method call e.getCause() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#117"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#125"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String  'Attempting to create {} topics (try {})...' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#130"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#144"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String  'Successfully created {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#148"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String  'Attempt to create topic `{}` failed: {}' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00151] For method createTopics list of called methods Object monObjet|java.util.Collection&lt;java.lang.String&gt; createTopicsN210953"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#152"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String  'Topic {} already exists.' should be converted to const"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00152] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00153"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#153"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00153] The argument topics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String  'Failed to create {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210556 the MagicNumber/String  'Request to create topics has an empty topic list.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#164"
+ , "c1" : "00162"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String  'Unable to create topic(s): ' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210556 the MagicNumber/String  'Topic(s) {} already exist.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210556 the MagicNumber/String  'One or more topics already exist.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210556 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String  'after ' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210556 the MagicNumber/String  2500 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#165"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String  ' attempt(s)' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#174"
+ , "c1" : "00178"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#178"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00174] For method verifyTopics arguments Logger  log|Admin  adminClient|Collection&lt;String &gt;  topicsToVerify|Map&lt;String ,NewTopic &gt;  topicsInfo|int  retryCount|long  retryBackoffMs"
+ , "c3" : "QC-JAV000006[00178] For method createTopics arguments Logger  log|Admin  adminClient|Collection&lt;NewTopic &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#174"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00174] For method verifyTopics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.TopicDescription&gt; topicDescriptionsN216067"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#175"
+ , "c1" : "00178"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#178"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00175] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00178] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#176"
+ , "c1" : "00178"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#178"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00176] The argument topicsInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00178] The argument adminClient is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#186"
+ , "c1" : "00191"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00186] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00191] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#186"
+ , "c1" : "00193"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN215742 the MagicNumber/String  'Topic '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#186"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN215742 the MagicNumber/String  '' exists, but has ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN215742 the MagicNumber/String  ' partitions, while requested ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#188"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN215742 the MagicNumber/String  ' number of partitions is ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#195"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00195] For method topicDescriptions arguments Collection&lt;String &gt;  topicsToVerify|Admin  adminClient|int  retryCount|long  retryBackoffMs"
+ , "c3" : "QC-JAV000001[00193] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#196"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00196] The argument adminClient is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00196] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#202"
+ , "c1" : "00203"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00202] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00203] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00204"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#204"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00204] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -739,311 +452,598 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#206"
+ , "c1" : "00209"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00206] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00209] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#207"
+ , "c1" : "00210"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00207] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00210] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#199"
+ , "c1" : "00211"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.trogdor.common.WorkerUtils.topicDescriptions@POLYN217033 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00211] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#200"
+ , "c1" : "00215"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.trogdor.common.WorkerUtils.topicDescriptions@POLYN217033 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00215] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#218"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00218] For method getMatchingTopicPartitions arguments Admin  adminClient|String  topicRegex|int  startPartition|int  endPartition"
+ , "c1" : "00228"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#228"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00228] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#218"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00218] For method getMatchingTopicPartitions list of called methods Object monObjet|org.apache.kafka.clients.admin.ListTopicsResult adminClient_listTopicsN218723|org.apache.kafka.clients.admin.DescribeTopicsResult adminClient_describeTopicsN219547"
+ , "c1" : "00193"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00193] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00196] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00196] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00204"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#204"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00204] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00205"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#205"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00205] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00209"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#209"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00209] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00210"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#210"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00210] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#211"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00211] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00215"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#215"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00215] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00210"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#210"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00210] The same method call e.getCause() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00181"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#181"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00189"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#189"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00190"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String  'Attempting to create {} topics (try {})...' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00194"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#194"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00208"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#208"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String  'Successfully created {}.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00212"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#212"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String  'Attempt to create topic `{}` failed: {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00216"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#216"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String  'Topic {} already exists.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#219"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00219] The argument adminClient is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#241"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00241] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String  'Failed to create {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00242"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#242"
+ , "c1" : "00228"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00242] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String  'Unable to create topic(s): ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00243"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#243"
+ , "c1" : "00229"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00243] The same method call info.partition() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00251"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#251"
+ , "c1" : "00229"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#229"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String  'after ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00229"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#229"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String  ' attempt(s)' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00252"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#252"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00251] For method createAdminClient arguments String  bootstrapServers|Map&lt;String ,String &gt;  commonClientConf|Map&lt;String ,String &gt;  adminClientConf"
+ , "c3" : "QC-JAV000006[00252] For method verifyTopics arguments Logger  log|Admin  adminClient|Collection&lt;String &gt;  topicsToVerify|Map&lt;String ,NewTopic &gt;  topicsInfo|int  retryCount|long  retryBackoffMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00252"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#252"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00252] For method verifyTopics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.TopicDescription&gt; topicDescriptionsN216577"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00253"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#253"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00253] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00254"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#254"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00254] The argument topicsInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#264"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00264] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#264"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN216252 the MagicNumber/String  'Topic '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#264"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN216252 the MagicNumber/String  '' exists, but has ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00265"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#265"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN216252 the MagicNumber/String  ' partitions, while requested ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00266"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#266"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN216252 the MagicNumber/String  ' number of partitions is ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00273"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#273"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00273] For method topicDescriptions arguments Collection&lt;String &gt;  topicsToVerify|Admin  adminClient|int  retryCount|long  retryBackoffMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00274"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#274"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00274] The argument adminClient is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00280"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#280"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00280] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00283"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#283"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00283] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00284"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#284"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00284] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00285"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#285"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00285] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00277"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#277"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.trogdor.common.WorkerUtils.topicDescriptions@POLYN217543 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00278"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#278"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.trogdor.common.WorkerUtils.topicDescriptions@POLYN217543 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00303"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#303"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00303] For method getMatchingTopicPartitions arguments Admin  adminClient|String  topicRegex|int  startPartition|int  endPartition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00303"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#303"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00303] For method getMatchingTopicPartitions list of called methods Object monObjet|org.apache.kafka.clients.admin.ListTopicsResult adminClient_listTopicsN219233|org.apache.kafka.clients.admin.DescribeTopicsResult adminClient_describeTopicsN220057"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00304"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#304"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00304] The argument adminClient is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00326"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#326"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00326] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00327"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#327"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00327] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00328"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#328"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00328] The same method call info.partition() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00336"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#336"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00336] For method createAdminClient arguments String  bootstrapServers|Map&lt;String ,String &gt;  commonClientConf|Map&lt;String ,String &gt;  adminClientConf"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210046"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210556"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN215742"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN216252"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN208997"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN209507"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN205991"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN206501"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN206927"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#98"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210046 the MagicNumber/String 'Request to create topics has an empty topic list.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#105"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210046 the MagicNumber/String 'Topic-s- {} already exist.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#106"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210046 the MagicNumber/String 'One or more topics already exist.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#108"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210046 the MagicNumber/String 2500 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#108"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210046 the MagicNumber/String 3 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#117"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#125"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00125] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#126"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00126] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String 'Attempting to create {} topics -try {}-...' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#130"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#132"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00132] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#144"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String 'Successfully created {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#148"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String 'Attempt to create topic `{}` failed: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#152"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String 'Topic {} already exists.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN207437"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#155"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String 'Failed to create {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210556 the MagicNumber/String 'Request to create topics has an empty topic list.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#164"
+ , "c1" : "00162"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#162"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String 'Unable to create topic-s-: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00162] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210556 the MagicNumber/String 'Topic-s- {} already exist.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#165"
+ , "c1" : "00163"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#163"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String ' attempt-s-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#165"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210556 the MagicNumber/String 'One or more topics already exist.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#165"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211324 the MagicNumber/String 'after ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210556 the MagicNumber/String 2500 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#186"
+ , "c1" : "00165"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#165"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN215742 the MagicNumber/String '' exists, but has ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN210556 the MagicNumber/String 3 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#186"
+ , "c1" : "00181"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#181"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN215742 the MagicNumber/String 'Topic '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00181] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#187"
+ , "c1" : "00189"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#189"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN215742 the MagicNumber/String ' partitions, while requested ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#188"
+ , "c1" : "00190"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#190"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN215742 the MagicNumber/String ' number of partitions is ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00190] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String 'Attempting to create {} topics -try {}-...' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#88"
+ , "c1" : "00194"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#194"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN208997 the MagicNumber/String 'Failed to create or verify topics {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00194] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#42"
+ , "c1" : "00196"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#196"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN205991 the MagicNumber/String '{} caught an exception' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00196] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#43"
+ , "c1" : "00208"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#208"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00043] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN205991 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00208] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String 'Successfully created {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#53"
+ , "c1" : "00212"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#212"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN206927 the MagicNumber/String 1000.0f MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00212] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String 'Attempt to create topic `{}` failed: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#55"
+ , "c1" : "00216"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#216"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN206927 the MagicNumber/String 1.0f MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00216] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String 'Topic {} already exists.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#219"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00219] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String 'Failed to create {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00228"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#228"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00228] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String 'Unable to create topic-s-: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00229"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#229"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00229] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String ' attempt-s-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00229"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#229"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00229] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00229"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#229"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00229] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN211834 the MagicNumber/String 'after ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00264] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN216252 the MagicNumber/String '' exists, but has ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00264] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN216252 the MagicNumber/String 'Topic '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00265"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#265"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00265] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN216252 the MagicNumber/String ' partitions, while requested ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00266"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#266"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00266] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN216252 the MagicNumber/String ' number of partitions is ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#139"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN209507 the MagicNumber/String 'Failed to create or verify topics {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00067"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#67"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN206501 the MagicNumber/String '{} caught an exception' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#68"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN206501 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#84"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN207437 the MagicNumber/String 1000.0f MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#86"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN207437 the MagicNumber/String 1.0f MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.CacheFunction"
 class org.apache.kafka.streams.state.internals.CacheFunction {
-key(Bytes) : Bytes [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CacheFunction.java.html#8]]]
-cacheKey(Bytes) : Bytes [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CacheFunction.java.html#9]]]
+key(Bytes) : Bytes [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CacheFunction.java.html#23]]]
+cacheKey(Bytes) : Bytes [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CacheFunction.java.html#24]]]
 } 
 @enduml

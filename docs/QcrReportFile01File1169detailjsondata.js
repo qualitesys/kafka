@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.storage.ConnectorOffsetBackingStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#33"
+ , "c5" : "00063"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#63"
  , "c1" : "ConnectorOffsetBackingStore"
  , "c2" : "withConnectorAndWorkerStores(Supplier<LoggingContext>;OffsetBackingStore;KafkaOffsetBackingStore;String;TopicAdmin)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#56"
+ , "c5" : "00095"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#95"
  , "c1" : "ConnectorOffsetBackingStore"
  , "c2" : "withOnlyWorkerStore(Supplier<LoggingContext>;OffsetBackingStore;String)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#67"
+ , "c5" : "00115"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#115"
  , "c1" : "ConnectorOffsetBackingStore"
  , "c2" : "withOnlyConnectorStore(Supplier<LoggingContext>;KafkaOffsetBackingStore;String;TopicAdmin)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#93"
+ , "c5" : "00141"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#141"
  , "c1" : "ConnectorOffsetBackingStore"
  , "c2" : "ConnectorOffsetBackingStore(Time;Supplier<LoggingContext>;String;OffsetBackingStore;KafkaOffsetBackingStore;TopicAdmin)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#112"
+ , "c5" : "00160"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#160"
  , "c1" : "String"
  , "c2" : "primaryOffsetsTopic()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00118"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#118"
+ , "c5" : "00171"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#171"
  , "c1" : "void"
  , "c2" : "start()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00125"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#125"
+ , "c5" : "00184"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#184"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00133"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#133"
+ , "c5" : "00204"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#204"
  , "c1" : "Future<Map<ByteBuffer,ByteBuffer>>"
  , "c2" : "get(Collection<ByteBuffer>)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00179"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#179"
+ , "c5" : "00265"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#265"
  , "c1" : "Future<Void>"
  , "c2" : "set(Map<ByteBuffer,ByteBuffer>;Callback<Void>)"
  , "c3" : "10"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00224"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#224"
+ , "c5" : "00316"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#316"
  , "c1" : "void"
  , "c2" : "configure(WorkerConfig)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00230"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#230"
+ , "c5" : "00322"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#322"
  , "c1" : "boolean"
  , "c2" : "hasConnectorSpecificStore()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00235"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#235"
+ , "c5" : "00327"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#327"
  , "c1" : "boolean"
  , "c2" : "hasWorkerGlobalStore()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00239"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#239"
+ , "c5" : "00331"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#331"
  , "c1" : "LoggingContext"
  , "c2" : "loggingContext()"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00245"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#245"
+ , "c5" : "00337"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#337"
  , "c1" : "Future<Map<ByteBuffer,ByteBuffer>>"
  , "c2" : "getFromStore(Optional<?extendsOffsetBackingStore>;Collection<ByteBuffer>)"
  , "c3" : "1"
@@ -229,276 +229,276 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#33"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method withConnectorAndWorkerStores arguments Supplier&lt;LoggingContext &gt;  loggingContext|OffsetBackingStore  workerStore|KafkaOffsetBackingStore  connectorStore|String  connectorOffsetsTopic|TopicAdmin  connectorStoreAdmin"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method withOnlyWorkerStore arguments Supplier&lt;LoggingContext &gt;  loggingContext|OffsetBackingStore  workerStore|String  workerOffsetsTopic"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.withOnlyWorkerStore@POLYN202050 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.withOnlyWorkerStore@POLYN202050 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method withOnlyConnectorStore arguments Supplier&lt;LoggingContext &gt;  loggingContext|KafkaOffsetBackingStore  connectorStore|String  connectorOffsetsTopic|TopicAdmin  connectorStoreAdmin"
+ , "c3" : "QC-JAV000006[00063] For method withConnectorAndWorkerStores arguments Supplier&lt;LoggingContext &gt;  loggingContext|OffsetBackingStore  workerStore|KafkaOffsetBackingStore  connectorStore|String  connectorOffsetsTopic|TopicAdmin  connectorStoreAdmin"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.withOnlyConnectorStore@POLYN202991 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#101"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.ConnectorOffsetBackingStore@POLYN203904 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#101"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.ConnectorOffsetBackingStore@POLYN203904 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00095"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#95"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00095] For method withOnlyWorkerStore arguments Supplier&lt;LoggingContext &gt;  loggingContext|OffsetBackingStore  workerStore|String  workerOffsetsTopic"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.ConnectorOffsetBackingStore@POLYN203904 the MagicNumber/String  'At least one non-null offset store must be provided' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.withOnlyWorkerStore@POLYN202602 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#133"
+ , "c1" : "00102"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.withOnlyWorkerStore@POLYN202602 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#115"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00133] For method get arguments Collection&lt;ByteBuffer &gt;  keys"
+ , "c3" : "QC-JAV000006[00115] For method withOnlyConnectorStore arguments Supplier&lt;LoggingContext &gt;  loggingContext|KafkaOffsetBackingStore  connectorStore|String  connectorOffsetsTopic|TopicAdmin  connectorStoreAdmin"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#133"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00133] For method get list of called methods Object monObjet|java.util.concurrent.Future&lt;java.util.Map&lt;java.nio.ByteBuffer,java.nio.ByteBuffer&gt;&gt; getFromStoreN206467|java.util.concurrent.Future&lt;java.util.Map&lt;java.nio.ByteBuffer,java.nio.ByteBuffer&gt;&gt; getFromStoreN206633|java.util.concurrent.Future&lt;java.util.Map&lt;java.nio.ByteBuffer,java.nio.ByteBuffer&gt;&gt; time_millisecondsN208083"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#170"
+ , "c1" : "00128"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.get@POLYN206291 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.withOnlyConnectorStore@POLYN203543 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#179"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00179] For method set arguments Map&lt;ByteBuffer ,ByteBuffer &gt;  values|Callback&lt;Void &gt;  callback"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#179"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00179] The argument callback is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#184"
+ , "c1" : "00149"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.ConnectorOffsetBackingStore@POLYN204456 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#187"
+ , "c1" : "00149"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.ConnectorOffsetBackingStore@POLYN204456 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#191"
+ , "c1" : "00150"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String  'At least one non-null offset store must be provided' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#195"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#196"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#197"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String  'Skipping offsets write to secondary store because primary write has failed' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.ConnectorOffsetBackingStore@POLYN204456 the MagicNumber/String  'At least one non-null offset store must be provided' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#204"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#205"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String  'Failed to write offsets to secondary backing store' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#207"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String  'Successfully flushed offsets to secondary backing store' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#212"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String  'Failed to write offsets to secondary backing store' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00224"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#224"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00224] For method configure arguments WorkerConfig  config"
+ , "c3" : "QC-JAV000006[00204] For method get arguments Collection&lt;ByteBuffer &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00239"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#239"
+ , "c1" : "00204"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#204"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00239] For method loggingContext list of called methods Object monObjet|java.util.concurrent.Future&lt;java.util.Map&lt;java.nio.ByteBuffer,java.nio.ByteBuffer&gt;&gt; loggingContext_getN212191"
+ , "c3" : "QC-JAV000007[00204] For method get list of called methods Object monObjet|java.util.concurrent.Future&lt;java.util.Map&lt;java.nio.ByteBuffer,java.nio.ByteBuffer&gt;&gt; getFromStoreN207019|java.util.concurrent.Future&lt;java.util.Map&lt;java.nio.ByteBuffer,java.nio.ByteBuffer&gt;&gt; getFromStoreN207185|java.util.concurrent.Future&lt;java.util.Map&lt;java.nio.ByteBuffer,java.nio.ByteBuffer&gt;&gt; time_millisecondsN208635"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#245"
+ , "c1" : "00241"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#241"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.get@POLYN206843 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00265"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#265"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00245] For method getFromStore arguments Optional&lt;?  extends OffsetBackingStore &gt;  store|Collection&lt;ByteBuffer &gt;  keys"
+ , "c3" : "QC-JAV000006[00265] For method set arguments Map&lt;ByteBuffer ,ByteBuffer &gt;  values|Callback&lt;Void &gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#245"
+ , "c1" : "00265"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#265"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00245] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00265] The argument callback is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00270"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#270"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00273"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#273"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00277"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#277"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String  'At least one non-null offset store must be provided' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00281"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#281"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00282"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#282"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00283"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#283"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String  'Skipping offsets write to secondary store because primary write has failed' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00290"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#290"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00291"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#291"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String  'Failed to write offsets to secondary backing store' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00293"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#293"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String  'Successfully flushed offsets to secondary backing store' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00298"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#298"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String  'Failed to write offsets to secondary backing store' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00316"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#316"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00316] For method configure arguments WorkerConfig  config"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00331"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#331"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00331] For method loggingContext list of called methods Object monObjet|java.util.concurrent.Future&lt;java.util.Map&lt;java.nio.ByteBuffer,java.nio.ByteBuffer&gt;&gt; loggingContext_getN212743"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00337"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#337"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00337] For method getFromStore arguments Optional&lt;?  extends OffsetBackingStore &gt;  store|Collection&lt;ByteBuffer &gt;  keys"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00337"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#337"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00337] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#184"
+ , "c1" : "00270"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#270"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00184] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00270] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#187"
+ , "c1" : "00273"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#273"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00273] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#191"
+ , "c1" : "00277"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#277"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String 'At least one non-null offset store must be provided' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00277] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String 'At least one non-null offset store must be provided' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#195"
+ , "c1" : "00281"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#281"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00195] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00281] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#196"
+ , "c1" : "00282"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#282"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00196] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00282] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#197"
+ , "c1" : "00283"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#283"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00197] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String 'Skipping offsets write to secondary store because primary write has failed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00283] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String 'Skipping offsets write to secondary store because primary write has failed' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#204"
+ , "c1" : "00290"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#290"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00290] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#205"
+ , "c1" : "00291"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#291"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00205] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String 'Failed to write offsets to secondary backing store' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00291] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String 'Failed to write offsets to secondary backing store' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#207"
+ , "c1" : "00293"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#293"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00207] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String 'Successfully flushed offsets to secondary backing store' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String 'Successfully flushed offsets to secondary backing store' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#212"
+ , "c1" : "00298"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#298"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00212] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209427 the MagicNumber/String 'Failed to write offsets to secondary backing store' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00298] In the recursive method org.apache.kafka.connect.storage.ConnectorOffsetBackingStore.set@POLYN209979 the MagicNumber/String 'Failed to write offsets to secondary backing store' MUST BE CONVERTED to const"
 }} 
 ]
 , 

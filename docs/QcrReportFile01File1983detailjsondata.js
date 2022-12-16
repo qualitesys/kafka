@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.query.KeyQuery" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#15"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#32"
  , "c1" : "KeyQuery"
  , "c2" : "KeyQuery(K;boolean)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#26"
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#52"
  , "c1" : "KeyQuery<K,V>"
  , "c2" : "skipCache()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#31"
+ , "c5" : "00059"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#59"
  , "c1" : "K"
  , "c2" : "getKey()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#36"
+ , "c5" : "00066"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#66"
  , "c1" : "boolean"
  , "c2" : "isSkipCache()"
  , "c3" : "1"
@@ -95,17 +95,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#22"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.query.KeyQuery the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.query.KeyQuery the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#27"
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.query.KeyQuery.skipCache@POLYN148625 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.query.KeyQuery.skipCache@POLYN148805 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

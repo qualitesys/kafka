@@ -2,14 +2,14 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.snapshot.Snapshots"
 class org.apache.kafka.snapshot.Snapshots {
-snapshotDir(Path) : Path [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#36]]]
-filenameFromSnapshotId(OffsetAndEpoch) : String [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#40]]]
-moveRename(Path;OffsetAndEpoch) : Path [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#44]]]
-deleteRename(Path;OffsetAndEpoch) : Path [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#48]]]
-+snapshotPath(Path;OffsetAndEpoch) : Path [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#52]]]
-+createTempFile(Path;OffsetAndEpoch) : Path [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#56]]]
-+parse(Path) : Optional<SnapshotPath> [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#71]]]
-+deleteIfExists(Path;OffsetAndEpoch) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#98]]]
-+markForDelete(Path;OffsetAndEpoch) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#116]]]
+snapshotDir(Path) : Path [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#51]]]
+filenameFromSnapshotId(OffsetAndEpoch) : String [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#55]]]
+moveRename(Path;OffsetAndEpoch) : Path [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#59]]]
+deleteRename(Path;OffsetAndEpoch) : Path [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#63]]]
++snapshotPath(Path;OffsetAndEpoch) : Path [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#67]]]
++createTempFile(Path;OffsetAndEpoch) : Path [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#71]]]
++parse(Path) : Optional<SnapshotPath> [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#86]]]
++deleteIfExists(Path;OffsetAndEpoch) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#115]]]
++markForDelete(Path;OffsetAndEpoch) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#135]]]
 } 
 @enduml

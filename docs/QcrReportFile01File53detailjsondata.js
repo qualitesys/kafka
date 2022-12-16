@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.CreatePartitionsOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#16"
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#35"
  , "c1" : "CreatePartitionsOptions"
  , "c2" : "CreatePartitionsOptions()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#20"
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#41"
  , "c1" : "boolean"
  , "c2" : "validateOnly()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#25"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#48"
  , "c1" : "CreatePartitionsOptions"
  , "c2" : "validateOnly(boolean)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#31"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#56"
  , "c1" : "CreatePartitionsOptions"
  , "c2" : "retryOnQuotaViolation(boolean)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#37"
+ , "c5" : "00064"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#64"
  , "c1" : "boolean"
  , "c2" : "shouldRetryOnQuotaViolation()"
  , "c3" : "1"
@@ -104,17 +104,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#25"
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method validateOnly arguments boolean  validateOnly"
+ , "c3" : "QC-JAV000006[00048] For method validateOnly arguments boolean  validateOnly"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#31"
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method retryOnQuotaViolation arguments boolean  retryOnQuotaViolation"
+ , "c3" : "QC-JAV000006[00056] For method retryOnQuotaViolation arguments boolean  retryOnQuotaViolation"
 }} 
 ]
 , 

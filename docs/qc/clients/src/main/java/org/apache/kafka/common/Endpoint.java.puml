@@ -2,13 +2,13 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.Endpoint"
 class org.apache.kafka.common.Endpoint {
-+Endpoint(String;SecurityProtocol;String;int) : Endpoint [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#20]]]
-+listenerName() : Optional<String> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#28]]]
-+securityProtocol() : SecurityProtocol [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#33]]]
-+host() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#38]]]
-+port() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#43]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#48]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#65]]]
-+toString() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#70]]]
++Endpoint(String;SecurityProtocol;String;int) : Endpoint [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#37]]]
++listenerName() : Optional<String> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#48]]]
++securityProtocol() : SecurityProtocol [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#55]]]
++host() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#62]]]
++port() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#69]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#74]]]
++hashCode() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#91]]]
++toString() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#96]]]
 } 
 @enduml

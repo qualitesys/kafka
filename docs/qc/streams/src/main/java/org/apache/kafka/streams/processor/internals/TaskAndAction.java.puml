@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.TaskAndAction"
 class org.apache.kafka.streams.processor.internals.TaskAndAction {
--TaskAndAction(Task;TaskId;Action) : TaskAndAction [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#19]]]
-+createAddTask(Task) : TaskAndAction [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#25]]]
-+createRemoveTask(TaskId) : TaskAndAction [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#30]]]
-+getTask() : Task [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#35]]]
-+getTaskId() : TaskId [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#42]]]
-+getAction() : Action [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#49]]]
+-TaskAndAction(Task;TaskId;Action) : TaskAndAction [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#34]]]
++createAddTask(Task) : TaskAndAction [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#40]]]
++createRemoveTask(TaskId) : TaskAndAction [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#45]]]
++getTask() : Task [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#50]]]
++getTaskId() : TaskId [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#57]]]
++getAction() : Action [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#64]]]
 } 
 @enduml

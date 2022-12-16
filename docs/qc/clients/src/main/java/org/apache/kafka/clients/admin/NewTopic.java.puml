@@ -2,18 +2,18 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.NewTopic"
 class org.apache.kafka.clients.admin.NewTopic {
-+NewTopic(String;int;short) : NewTopic [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#28]]]
-+NewTopic(String;Optional<Integer>;Optional<Short>) : NewTopic [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#33]]]
-+NewTopic(String;Map<Integer,List<Integer>>) : NewTopic [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#41]]]
-+name() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#49]]]
-+numPartitions() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#54]]]
-+replicationFactor() : short [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#59]]]
-+replicasAssignments() : Map<Integer,List<Integer>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#64]]]
-+configs(Map<String,String>) : NewTopic [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#69]]]
-+configs() : Map<String,String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#75]]]
-convertToCreatableTopic() : CreatableTopic [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#79]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#104]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#116]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#128]]]
++NewTopic(String;int;short) : NewTopic [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#47]]]
++NewTopic(String;Optional<Integer>;Optional<Short>) : NewTopic [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#56]]]
++NewTopic(String;Map<Integer,List<Integer>>) : NewTopic [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#70]]]
++name() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#80]]]
++numPartitions() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#87]]]
++replicationFactor() : short [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#94]]]
++replicasAssignments() : Map<Integer,List<Integer>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#102]]]
++configs(Map<String,String>) : NewTopic [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#112]]]
++configs() : Map<String,String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#120]]]
+convertToCreatableTopic() : CreatableTopic [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#124]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#149]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#161]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#173]]]
 } 
 @enduml

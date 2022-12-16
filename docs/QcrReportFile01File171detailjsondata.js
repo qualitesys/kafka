@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#29"
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#46"
  , "c1" : "PartitionLeaderStrategy"
  , "c2" : "PartitionLeaderStrategy(LogContext)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#34"
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#51"
  , "c1" : "ApiRequestScope"
  , "c2" : "lookupScope(TopicPartition)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#41"
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#58"
  , "c1" : "MetadataRequest.Builder"
  , "c2" : "buildRequest(Set<TopicPartition>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#50"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#67"
  , "c1" : "void"
  , "c2" : "handleTopicError(String;Errors;Set<TopicPartition>;Map<TopicPartition,Throwable>)"
  , "c3" : "6"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#88"
+ , "c5" : "00105"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#105"
  , "c1" : "void"
  , "c2" : "failAllPartitionsForTopic(String;Set<TopicPartition>;Map<TopicPartition,Throwable>;Function<TopicPartition,Throwable>)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#99"
+ , "c5" : "00116"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#116"
  , "c1" : "void"
  , "c2" : "handlePartitionError(TopicPartition;Errors;Map<TopicPartition,Throwable>)"
  , "c3" : "6"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#123"
+ , "c5" : "00140"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#140"
  , "c1" : "LookupResult<TopicPartition>"
  , "c2" : "handleResponse(Set<TopicPartition>;AbstractResponse)"
  , "c3" : "8"
@@ -173,409 +173,409 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#29"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#46"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00029] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00046] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#34"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method lookupScope arguments TopicPartition  key"
+ , "c3" : "QC-JAV000006[00051] For method lookupScope arguments TopicPartition  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#41"
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method buildRequest arguments Set&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00058] For method buildRequest arguments Set&lt;TopicPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#41"
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#58"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00041] The argument partitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.buildRequest@POLYN164542 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#50"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method handleTopicError arguments String  topic|Errors  topicError|Set&lt;TopicPartition &gt;  requestPartitions|Map&lt;TopicPartition ,Throwable &gt;  failed"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#52"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00052] The argument topicError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#80"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE484[00080] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-JAVCWE476[00058] The argument partitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String  'Metadata request for topic {} returned topic-level error {}. Will retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.buildRequest@POLYN164644 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#65"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String  'Received authorization failure for topic {} in `Metadata` response' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String  'Failed to fetch metadata for partition ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String  ' due to topic authorization failure' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String  'Received invalid topic error for topic {} in `Metadata` response' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String  'Failed to fetch metadata for partition ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String  ' due to invalid topic `' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String  '`' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String  'Received unexpected error for topic {} in `Metadata` response' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String  'Failed to fetch metadata for partition ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String  ' due to unexpected error for topic `' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String  '`' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#88"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method failAllPartitionsForTopic arguments String  topic|Set&lt;TopicPartition &gt;  partitions|Map&lt;TopicPartition ,Throwable &gt;  failed|Function&lt;TopicPartition ,Throwable &gt;  exceptionGenerator"
+ , "c3" : "QC-JAV000006[00067] For method handleTopicError arguments String  topic|Errors  topicError|Set&lt;TopicPartition &gt;  requestPartitions|Map&lt;TopicPartition ,Throwable &gt;  failed"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#69"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00069] The argument topicError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#97"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE484[00097] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String  'Metadata request for topic {} returned topic-level error {}. Will retry' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String  'Received authorization failure for topic {} in `Metadata` response' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String  'Failed to fetch metadata for partition ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String  ' due to topic authorization failure' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#90"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00090] The argument partitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String  'Received invalid topic error for topic {} in `Metadata` response' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#91"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00091] The argument failed is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String  'Failed to fetch metadata for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#92"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00092] The argument exceptionGenerator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String  ' due to invalid topic `' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#99"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00099] For method handlePartitionError arguments TopicPartition  topicPartition|Errors  partitionError|Map&lt;TopicPartition ,Throwable &gt;  failed"
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String  '`' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String  'Received unexpected error for topic {} in `Metadata` response' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#101"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00101] The argument partitionError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#102"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00102] The argument failed is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#114"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE484[00114] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handlePartitionError@POLYN167705 the MagicNumber/String  'Metadata request for partition {} returned partition-level error {}. Will retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String  'Failed to fetch metadata for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#115"
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handlePartitionError@POLYN167705 the MagicNumber/String  'Received unexpected error for partition {} in `Metadata` response' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String  ' due to unexpected error for topic `' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String  '`' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#105"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00105] For method failAllPartitionsForTopic arguments String  topic|Set&lt;TopicPartition &gt;  partitions|Map&lt;TopicPartition ,Throwable &gt;  failed|Function&lt;TopicPartition ,Throwable &gt;  exceptionGenerator"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#107"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00107] The argument partitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#108"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00108] The argument failed is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#109"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00109] The argument exceptionGenerator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#116"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00116] For method handlePartitionError arguments TopicPartition  topicPartition|Errors  partitionError|Map&lt;TopicPartition ,Throwable &gt;  failed"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handlePartitionError@POLYN167705 the MagicNumber/String  'Unexpected error during metadata lookup for ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#123"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00123] For method handleResponse arguments Set&lt;TopicPartition &gt;  requestPartitions|AbstractResponse  abstractResponse"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#124"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00124] The argument requestPartitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00118] The argument partitionError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#119"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00119] The argument failed is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#131"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE484[00131] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#127"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handlePartitionError@POLYN167807 the MagicNumber/String  'Metadata request for partition {} returned partition-level error {}. Will retry' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00132] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handlePartitionError@POLYN167807 the MagicNumber/String  'Received unexpected error for partition {} in `Metadata` response' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#133"
+ , "c1" : "00135"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00133] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#139"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00139] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handlePartitionError@POLYN167807 the MagicNumber/String  'Unexpected error during metadata lookup for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00140] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00140] For method handleResponse arguments Set&lt;TopicPartition &gt;  requestPartitions|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00141] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00141] The argument requestPartitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#140"
+ , "c1" : "00149"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00140] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00149] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#141"
+ , "c1" : "00150"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00141] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00150] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#155"
+ , "c1" : "00156"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN168557 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00156] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#157"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00157] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN168557 the MagicNumber/String  'Metadata request for {} returned no error, but the leader is unknown. Will retry' should be converted to const"
+ , "c3" : "QC-JAV000001[00158] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN168557"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#60"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String 'Metadata request for topic {} returned topic-level error {}. Will retry' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#65"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String 'Received authorization failure for topic {} in `Metadata` response' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#68"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String ' due to topic authorization failure' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#68"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String 'Failed to fetch metadata for partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#73"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String 'Received invalid topic error for topic {} in `Metadata` response' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#76"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String ' due to invalid topic `' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#76"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String 'Failed to fetch metadata for partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#76"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String '`' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#81"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String 'Received unexpected error for topic {} in `Metadata` response' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#84"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String ' due to unexpected error for topic `' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#84"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String 'Failed to fetch metadata for partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#84"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165169 the MagicNumber/String '`' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#155"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN168557 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c1" : "00157"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#157"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00157] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#158"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00158] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN168659 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#175"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN168659 the MagicNumber/String  'Metadata request for {} returned no error, but the leader is unknown. Will retry' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN168659"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#77"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00158] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN168557 the MagicNumber/String 'Metadata request for {} returned no error, but the leader is unknown. Will retry' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String 'Metadata request for topic {} returned topic-level error {}. Will retry' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#82"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String 'Received authorization failure for topic {} in `Metadata` response' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#85"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String ' due to topic authorization failure' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#85"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String 'Failed to fetch metadata for partition ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#90"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String 'Received invalid topic error for topic {} in `Metadata` response' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#93"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String ' due to invalid topic `' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#93"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String 'Failed to fetch metadata for partition ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#93"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String '`' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#98"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String 'Received unexpected error for topic {} in `Metadata` response' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String ' due to unexpected error for topic `' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String 'Failed to fetch metadata for partition ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN165271 the MagicNumber/String '`' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#172"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN168659 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#175"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN168659 the MagicNumber/String 'Metadata request for {} returned no error, but the leader is unknown. Will retry' MUST BE CONVERTED to const"
 }} 
 ]
 , 

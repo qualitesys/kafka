@@ -2,19 +2,19 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.image.MetadataImage"
 class org.apache.kafka.image.MetadataImage {
-+MetadataImage(OffsetAndEpoch;FeaturesImage;ClusterImage;TopicsImage;ConfigurationsImage;ClientQuotasImage;ProducerIdsImage;AclsImage) : MetadataImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#42]]]
-+isEmpty() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#62]]]
-+highestOffsetAndEpoch() : OffsetAndEpoch [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#72]]]
-+features() : FeaturesImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#76]]]
-+cluster() : ClusterImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#80]]]
-+topics() : TopicsImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#84]]]
-+configs() : ConfigurationsImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#88]]]
-+clientQuotas() : ClientQuotasImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#92]]]
-+producerIds() : ProducerIdsImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#96]]]
-+acls() : AclsImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#100]]]
-+write(Consumer<List<ApiMessageAndVersion>>) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#104]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#118]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#132]]]
-+toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#144]]]
++MetadataImage(OffsetAndEpoch;FeaturesImage;ClusterImage;TopicsImage;ConfigurationsImage;ClientQuotasImage;ProducerIdsImage;AclsImage) : MetadataImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#61]]]
++isEmpty() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#81]]]
++highestOffsetAndEpoch() : OffsetAndEpoch [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#91]]]
++features() : FeaturesImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#95]]]
++cluster() : ClusterImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#99]]]
++topics() : TopicsImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#103]]]
++configs() : ConfigurationsImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#107]]]
++clientQuotas() : ClientQuotasImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#111]]]
++producerIds() : ProducerIdsImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#115]]]
++acls() : AclsImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#119]]]
++write(Consumer<List<ApiMessageAndVersion>>) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#123]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#137]]]
++hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#151]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#163]]]
 } 
 @enduml

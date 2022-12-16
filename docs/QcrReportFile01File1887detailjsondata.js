@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.InternalTopicConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#25"
+ , "c5" : "00043"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#43"
  , "c1" : "InternalTopicConfig"
  , "c2" : "InternalTopicConfig(String;Map<String,String>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#32"
+ , "c5" : "00050"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#50"
  , "c1" : "InternalTopicConfig"
  , "c2" : "InternalTopicConfig(String;Map<String,String>;int;boolean)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#45"
+ , "c5" : "00069"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#69"
  , "c1" : "Map<String,String>"
  , "c2" : "getProperties(Map<String,String>;long)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#47"
+ , "c5" : "00071"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#71"
  , "c1" : "boolean"
  , "c2" : "hasEnforcedNumberOfPartitions()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#51"
+ , "c5" : "00075"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#75"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#55"
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#79"
  , "c1" : "Optional<Integer>"
  , "c2" : "numberOfPartitions()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#59"
+ , "c5" : "00083"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#83"
  , "c1" : "void"
  , "c2" : "setNumberOfPartitions(int)"
  , "c3" : "2"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#70"
+ , "c5" : "00094"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#94"
  , "c1" : "void"
  , "c2" : "validateNumberOfPartitions(int)"
  , "c3" : "2"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#77"
+ , "c5" : "00101"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#101"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -154,143 +154,143 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#26"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.InternalTopicConfig@POLYN153244 the MagicNumber/String  'name can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.InternalTopicConfig@POLYN153388 the MagicNumber/String  'name can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#28"
+ , "c1" : "00046"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.InternalTopicConfig@POLYN153244 the MagicNumber/String  'topicConfigs can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.InternalTopicConfig@POLYN153388 the MagicNumber/String  'topicConfigs can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#29"
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.InternalTopicConfig@POLYN153244 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.InternalTopicConfig@POLYN153388 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#36"
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.InternalTopicConfig@POLYN153758 the MagicNumber/String  'name can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.InternalTopicConfig@POLYN153902 the MagicNumber/String  'name can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#39"
+ , "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.InternalTopicConfig@POLYN153758 the MagicNumber/String  'topicConfigs can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.InternalTopicConfig@POLYN153902 the MagicNumber/String  'topicConfigs can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#45"
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method getProperties arguments Map&lt;String ,String &gt;  defaultProperties|long  additionalRetentionMs"
+ , "c3" : "QC-JAV000006[00069] For method getProperties arguments Map&lt;String ,String &gt;  defaultProperties|long  additionalRetentionMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#59"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method setNumberOfPartitions arguments int  numberOfPartitions"
+ , "c3" : "QC-JAV000006[00083] For method setNumberOfPartitions arguments int  numberOfPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#61"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.setNumberOfPartitions@POLYN155158 the MagicNumber/String  'number of partitions are enforced on topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.setNumberOfPartitions@POLYN155302 the MagicNumber/String  'number of partitions are enforced on topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#62"
+ , "c1" : "00086"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.setNumberOfPartitions@POLYN155158 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.setNumberOfPartitions@POLYN155302 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#62"
+ , "c1" : "00086"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.setNumberOfPartitions@POLYN155158 the MagicNumber/String  ' and can't be altered.' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.setNumberOfPartitions@POLYN155302 the MagicNumber/String  ' and can't be altered.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#70"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method validateNumberOfPartitions arguments int  numberOfPartitions"
+ , "c3" : "QC-JAV000006[00094] For method validateNumberOfPartitions arguments int  numberOfPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#71"
+ , "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.validateNumberOfPartitions@POLYN155614 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.validateNumberOfPartitions@POLYN155758 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#72"
+ , "c1" : "00096"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.validateNumberOfPartitions@POLYN155614 the MagicNumber/String  'Number of partitions must be at least 1.' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.validateNumberOfPartitions@POLYN155758 the MagicNumber/String  'Number of partitions must be at least 1.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#78"
+ , "c1" : "00102"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.toString@POLYN155851 the MagicNumber/String  'InternalTopicConfig(' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.toString@POLYN155995 the MagicNumber/String  'InternalTopicConfig(' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.toString@POLYN155995 the MagicNumber/String  'name=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.toString@POLYN155995 the MagicNumber/String  ', topicConfigs=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.toString@POLYN155995 the MagicNumber/String  ', enforceNumberOfPartitions=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.toString@POLYN155995 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#69"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00069] Public method getProperties is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.toString@POLYN155851 the MagicNumber/String  'name=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.toString@POLYN155851 the MagicNumber/String  ', topicConfigs=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.toString@POLYN155851 the MagicNumber/String  ', enforceNumberOfPartitions=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.toString@POLYN155851 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#45"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00045] Public method getProperties is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#55"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00055] Public method numberOfPartitions is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00079] Public method numberOfPartitions is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

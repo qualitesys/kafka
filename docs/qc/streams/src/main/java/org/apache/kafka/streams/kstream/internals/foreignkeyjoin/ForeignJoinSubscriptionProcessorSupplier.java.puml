@@ -2,7 +2,7 @@
 !pragma layout smetana
 "ProcessorSupplier<KO,Change<VO>,K,SubscriptionResponseWrapper<VO>>" <|-- "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.ForeignJoinSubscriptionProcessorSupplier"
 class org.apache.kafka.streams.kstream.internals.foreignkeyjoin.ForeignJoinSubscriptionProcessorSupplier {
-+ForeignJoinSubscriptionProcessorSupplier(StoreBuilder<TimestampedKeyValueStore<Bytes,SubscriptionWrapper<K>>>;CombinedKeySchema<KO,K>) : ForeignJoinSubscriptionProcessorSupplier [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/ForeignJoinSubscriptionProcessorSupplier.java.html#32]]]
-+get() : Processor<KO,Change<VO>,K,SubscriptionResponseWrapper<VO>> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/ForeignJoinSubscriptionProcessorSupplier.java.html#41]]]
++ForeignJoinSubscriptionProcessorSupplier(StoreBuilder<TimestampedKeyValueStore<Bytes,SubscriptionWrapper<K>>>;CombinedKeySchema<KO,K>) : ForeignJoinSubscriptionProcessorSupplier [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/ForeignJoinSubscriptionProcessorSupplier.java.html#47]]]
++get() : Processor<KO,Change<VO>,K,SubscriptionResponseWrapper<VO>> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/ForeignJoinSubscriptionProcessorSupplier.java.html#56]]]
 } 
 @enduml

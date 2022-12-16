@@ -2,8 +2,8 @@
 !pragma layout smetana
 "KTableValueGetterSupplier<K,V>" <|-- "org.apache.kafka.streams.kstream.internals.KTableMaterializedValueGetterSupplier"
 class org.apache.kafka.streams.kstream.internals.KTableMaterializedValueGetterSupplier {
-KTableMaterializedValueGetterSupplier(String) : KTableMaterializedValueGetterSupplier [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#11]]]
-+get() : KTableValueGetter<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#15]]]
-+storeNames() : String[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#20]]]
+KTableMaterializedValueGetterSupplier(String) : KTableMaterializedValueGetterSupplier [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#26]]]
++get() : KTableValueGetter<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#30]]]
++storeNames() : String[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMaterializedValueGetterSupplier.java.html#35]]]
 } 
 @enduml

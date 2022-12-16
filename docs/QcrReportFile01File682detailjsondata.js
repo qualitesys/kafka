@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.IncrementalAlterConfigsRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#68"
+ , "c5" : "00083"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#83"
  , "c1" : "IncrementalAlterConfigsRequest"
  , "c2" : "IncrementalAlterConfigsRequest(IncrementalAlterConfigsRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#74"
+ , "c5" : "00089"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#89"
  , "c1" : "IncrementalAlterConfigsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#80"
+ , "c5" : "00095"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#95"
  , "c1" : "IncrementalAlterConfigsRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#85"
+ , "c5" : "00100"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#100"
  , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "2"
@@ -132,80 +132,80 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#44"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00029] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00044] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#35"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00035] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00050] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#37"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00037] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00052] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#42"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00042] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00057] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#49"
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#64"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00049] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00064] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#55"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00070] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#74"
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#89"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00089] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#85"
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00100] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#85"
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN159007"
+ , "c3" : "QC-JAV000007[00100] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN159097"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.IncrementalAlterConfigsRequest.Builder.Builder@POLYN156036"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.IncrementalAlterConfigsRequest.Builder.Builder@POLYN156126"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.IncrementalAlterConfigsRequest.Builder.toString@POLYN157892"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.IncrementalAlterConfigsRequest.Builder.toString@POLYN157982"
 }} 
 ]
 , 

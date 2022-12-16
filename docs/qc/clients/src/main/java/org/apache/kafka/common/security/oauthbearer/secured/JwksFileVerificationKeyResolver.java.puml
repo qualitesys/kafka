@@ -2,8 +2,8 @@
 !pragma layout smetana
 "CloseableVerificationKeyResolver" <|-- "org.apache.kafka.common.security.oauthbearer.secured.JwksFileVerificationKeyResolver"
 class org.apache.kafka.common.security.oauthbearer.secured.JwksFileVerificationKeyResolver {
-+JwksFileVerificationKeyResolver(Path) : JwksFileVerificationKeyResolver [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JwksFileVerificationKeyResolver.java.html#30]]]
-+init() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JwksFileVerificationKeyResolver.java.html#35]]]
-+resolveKey(JsonWebSignature;List<JsonWebStructure>) : Key [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JwksFileVerificationKeyResolver.java.html#51]]]
++JwksFileVerificationKeyResolver(Path) : JwksFileVerificationKeyResolver [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JwksFileVerificationKeyResolver.java.html#89]]]
++init() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JwksFileVerificationKeyResolver.java.html#94]]]
++resolveKey(JsonWebSignature;List<JsonWebStructure>) : Key [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JwksFileVerificationKeyResolver.java.html#110]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KTableTransformValues" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#28"
+ , "c5" : "00043"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#43"
  , "c1" : "KTableTransformValues"
  , "c2" : "KTableTransformValues(KTableImpl<K,?,V>;ValueTransformerWithKeySupplier<?superK,?superV,?extendsVOut>;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#37"
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#52"
  , "c1" : "Processor<K,Change<V>,K,Change<VOut>>"
  , "c2" : "get()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#42"
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#57"
  , "c1" : "KTableValueGetterSupplier<K,VOut>"
  , "c2" : "view()"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#64"
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#79"
  , "c1" : "boolean"
  , "c2" : "enableSendingOldValues(boolean)"
  , "c3" : "3"
@@ -109,185 +109,185 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValues@POLYN170481 the MagicNumber/String  'parent' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValues@POLYN170571 the MagicNumber/String  'parent' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#32"
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValues@POLYN170481 the MagicNumber/String  'transformerSupplier' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValues@POLYN170571 the MagicNumber/String  'transformerSupplier' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#43"
+ , "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.view@POLYN171367 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.view@POLYN171457 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#64"
+ , "c1" : "00079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method enableSendingOldValues arguments boolean  forceMaterialization"
+ , "c3" : "QC-JAV000006[00079] For method enableSendingOldValues arguments boolean  forceMaterialization"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#65"
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.enableSendingOldValues@POLYN172156 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.enableSendingOldValues@POLYN172246 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#66"
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.enableSendingOldValues@POLYN172156 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.enableSendingOldValues@POLYN172156 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.enableSendingOldValues@POLYN172156 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.enableSendingOldValues@POLYN172246 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesProcessor.KTableTransformValuesProcessor@POLYN172995 the MagicNumber/String  'valueTransformer' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.enableSendingOldValues@POLYN172246 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#86"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method init arguments ProcessorContext&lt;K ,Change&lt;VOut &gt; &gt;  context"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#86"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00086] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesProcessor.init@POLYN173273 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.enableSendingOldValues@POLYN172246 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#97"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesProcessor.KTableTransformValuesProcessor@POLYN173085 the MagicNumber/String  'valueTransformer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method process arguments Record&lt;K ,Change&lt;V &gt; &gt;  record"
+ , "c3" : "QC-JAV000006[00101] For method init arguments ProcessorContext&lt;K ,Change&lt;VOut &gt; &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#101"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00101] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#104"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesProcessor.process@POLYN174169 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAVCWE476[00101] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesProcessor.process@POLYN174169 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesProcessor.init@POLYN173363 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesProcessor.process@POLYN174169 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#128"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesGetter.KTableTransformValuesGetter@POLYN175965 the MagicNumber/String  'parentGetter' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesGetter.KTableTransformValuesGetter@POLYN175965 the MagicNumber/String  'valueTransformer' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#133"
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#116"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00133] For method init arguments ProcessorContext&lt;? ,? &gt;  context"
+ , "c3" : "QC-JAV000006[00116] For method process arguments Record&lt;K ,Change&lt;V &gt; &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#140"
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#116"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00116] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#119"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesProcessor.process@POLYN174259 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesProcessor.process@POLYN174259 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#123"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesProcessor.process@POLYN174259 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00143"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#143"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesGetter.KTableTransformValuesGetter@POLYN176055 the MagicNumber/String  'parentGetter' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00144"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#144"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesGetter.KTableTransformValuesGetter@POLYN176055 the MagicNumber/String  'valueTransformer' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method get arguments K  key"
+ , "c3" : "QC-JAV000006[00148] For method init arguments ProcessorContext&lt;? ,? &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#146"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesGetter.get@POLYN176822 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#155"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00155] For method get arguments K  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#147"
+ , "c1" : "00161"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesGetter.get@POLYN176822 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesGetter.get@POLYN176912 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#152"
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesGetter.get@POLYN176822 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesGetter.get@POLYN176912 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#153"
+ , "c1" : "00167"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesGetter.get@POLYN176822 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesGetter.get@POLYN176912 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#159"
+ , "c1" : "00168"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesGetter.get@POLYN176822 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesGetter.get@POLYN176912 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00174"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#174"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValuesGetter.get@POLYN176912 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

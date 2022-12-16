@@ -2,17 +2,17 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.NodeApiVersions"
 class org.apache.kafka.clients.NodeApiVersions {
-+create() : NodeApiVersions [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#35]]]
-+create(Collection<ApiVersion>) : NodeApiVersions [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#40]]]
-+create(short;short;short) : NodeApiVersions [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#57]]]
-+NodeApiVersions(Collection<ApiVersion>;Collection<SupportedFeatureKey>) : NodeApiVersions [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#64]]]
-+latestUsableVersion(ApiKeys) : short [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#84]]]
-+latestUsableVersion(ApiKeys;short;short) : short [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#89]]]
-+toString() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#109]]]
-+toString(boolean) : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#114]]]
--apiVersionToText(ApiVersion) : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#146]]]
-+apiVersion(ApiKeys) : ApiVersion [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#177]]]
-+allSupportedApiVersions() : Map<ApiKeys,ApiVersion> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#181]]]
-+supportedFeatures() : Map<String,SupportedVersionRange> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#185]]]
++create() : NodeApiVersions [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#56]]]
++create(Collection<ApiVersion>) : NodeApiVersions [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#67]]]
++create(short;short;short) : NodeApiVersions [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#91]]]
++NodeApiVersions(Collection<ApiVersion>;Collection<SupportedFeatureKey>) : NodeApiVersions [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#98]]]
++latestUsableVersion(ApiKeys) : short [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#120]]]
++latestUsableVersion(ApiKeys;short;short) : short [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#127]]]
++toString() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#151]]]
++toString(boolean) : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#160]]]
+-apiVersionToText(ApiVersion) : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#192]]]
++apiVersion(ApiKeys) : ApiVersion [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#228]]]
++allSupportedApiVersions() : Map<ApiKeys,ApiVersion> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#232]]]
++supportedFeatures() : Map<String,SupportedVersionRange> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#236]]]
 } 
 @enduml

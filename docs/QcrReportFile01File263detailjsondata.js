@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.KafkaFuture" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#40"
+ , "c5" : "00080"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#80"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "allOf(KafkaFuture<?>...)"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#61"
+ , "c5" : "00118"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#118"
  , "c1" : "CompletionStage<T>"
  , "c2" : "toCompletionStage()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#70"
+ , "c5" : "00157"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#157"
  , "c1" : "KafkaFuture<T>"
  , "c2" : "whenComplete(BiConsumer<?superT,?superThrowable>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#73"
+ , "c5" : "00163"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#163"
  , "c1" : "boolean"
  , "c2" : "complete(T)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#76"
+ , "c5" : "00169"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#169"
  , "c1" : "boolean"
  , "c2" : "completeExceptionally(Throwable)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#80"
+ , "c5" : "00177"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#177"
  , "c1" : "boolean"
  , "c2" : "cancel(boolean)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#84"
+ , "c5" : "00183"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#183"
  , "c1" : "T"
  , "c2" : "get()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#88"
+ , "c5" : "00190"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#190"
  , "c1" : "T"
  , "c2" : "get(long;TimeUnit)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00092"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#92"
+ , "c5" : "00197"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#197"
  , "c1" : "T"
  , "c2" : "getNow(T)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00096"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#96"
+ , "c5" : "00203"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#203"
  , "c1" : "boolean"
  , "c2" : "isCancelled()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#99"
+ , "c5" : "00208"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#208"
  , "c1" : "boolean"
  , "c2" : "isCompletedExceptionally()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#103"
+ , "c5" : "00214"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#214"
  , "c1" : "boolean"
  , "c2" : "isDone()"
  , "c3" : "1"
@@ -174,59 +174,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#40"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method allOf arguments KafkaFuture&lt;? &gt;  ...futures"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.KafkaFuture.allOf@POLYN181732 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#70"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method whenComplete arguments BiConsumer&lt;? super T ,? super Throwable &gt;  action"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#73"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method complete arguments T  newValue"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#76"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method completeExceptionally arguments Throwable  newException"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method cancel arguments boolean  mayInterruptIfRunning"
+ , "c3" : "QC-JAV000006[00080] For method allOf arguments KafkaFuture&lt;? &gt;  ...futures"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#88"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method get arguments long  timeout|TimeUnit  unit"
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#89"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.KafkaFuture.allOf@POLYN182398 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#92"
+ , "c1" : "00157"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method getNow arguments T  valueIfAbsent"
+ , "c3" : "QC-JAV000006[00157] For method whenComplete arguments BiConsumer&lt;? super T ,? super Throwable &gt;  action"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#163"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00163] For method complete arguments T  newValue"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#169"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00169] For method completeExceptionally arguments Throwable  newException"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#177"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00177] For method cancel arguments boolean  mayInterruptIfRunning"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00190"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#190"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00190] For method get arguments long  timeout|TimeUnit  unit"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00197"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#197"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00197] For method getNow arguments T  valueIfAbsent"
 }} 
 ]
 , 

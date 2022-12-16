@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#16"
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#36"
  , "c1" : "AbstractMergedSortedCacheStoreIterator"
  , "c2" : "AbstractMergedSortedCacheStoreIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<KS,VS>;boolean)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#24"
+ , "c5" : "00044"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#44"
  , "c1" : "int"
  , "c2" : "compare(Bytes;KS)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#26"
+ , "c5" : "00046"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#46"
  , "c1" : "K"
  , "c2" : "deserializeStoreKey(KS)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#28"
+ , "c5" : "00048"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#48"
  , "c1" : "KeyValue<K,V>"
  , "c2" : "deserializeStorePair(KeyValue<KS,VS>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#30"
+ , "c5" : "00050"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#50"
  , "c1" : "K"
  , "c2" : "deserializeCacheKey(Bytes)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#32"
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#52"
  , "c1" : "V"
  , "c2" : "deserializeCacheValue(LRUCacheEntry)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#34"
+ , "c5" : "00054"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#54"
  , "c1" : "boolean"
  , "c2" : "isDeletedCacheEntry(KeyValue<Bytes,LRUCacheEntry>)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#39"
+ , "c5" : "00059"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#59"
  , "c1" : "boolean"
  , "c2" : "hasNext()"
  , "c3" : "4"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#56"
+ , "c5" : "00076"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#76"
  , "c1" : "KeyValue<K,V>"
  , "c2" : "next()"
  , "c3" : "4"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#76"
+ , "c5" : "00096"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#96"
  , "c1" : "KeyValue<K,V>"
  , "c2" : "chooseNextValue(Bytes;KS;int)"
  , "c3" : "11"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00102"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#102"
+ , "c5" : "00122"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#122"
  , "c1" : "KeyValue<K,V>"
  , "c2" : "nextStoreValue(KS)"
  , "c3" : "2"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#112"
+ , "c5" : "00132"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#132"
  , "c1" : "KeyValue<K,V>"
  , "c2" : "nextCacheValue(Bytes)"
  , "c3" : "2"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#123"
+ , "c5" : "00143"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#143"
  , "c1" : "K"
  , "c2" : "peekNextKey()"
  , "c3" : "4"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00143"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#143"
+ , "c5" : "00163"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#163"
  , "c1" : "K"
  , "c2" : "chooseNextKey(Bytes;KS;int)"
  , "c3" : "11"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00170"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#170"
+ , "c5" : "00190"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#190"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -215,227 +215,227 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#24"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method compare arguments Bytes  cacheKey|KS  storeKey"
+ , "c3" : "QC-JAV000006[00044] For method compare arguments Bytes  cacheKey|KS  storeKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#26"
+ , "c1" : "00046"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method deserializeStoreKey arguments KS  key"
+ , "c3" : "QC-JAV000006[00046] For method deserializeStoreKey arguments KS  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#28"
+ , "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method deserializeStorePair arguments KeyValue&lt;KS ,VS &gt;  pair"
+ , "c3" : "QC-JAV000006[00048] For method deserializeStorePair arguments KeyValue&lt;KS ,VS &gt;  pair"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#30"
+ , "c1" : "00050"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method deserializeCacheKey arguments Bytes  cacheKey"
+ , "c3" : "QC-JAV000006[00050] For method deserializeCacheKey arguments Bytes  cacheKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#32"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method deserializeCacheValue arguments LRUCacheEntry  cacheEntry"
+ , "c3" : "QC-JAV000006[00052] For method deserializeCacheValue arguments LRUCacheEntry  cacheEntry"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#34"
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method isDeletedCacheEntry arguments KeyValue&lt;Bytes ,LRUCacheEntry &gt;  nextFromCache"
+ , "c3" : "QC-JAV000006[00054] For method isDeletedCacheEntry arguments KeyValue&lt;Bytes ,LRUCacheEntry &gt;  nextFromCache"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#34"
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#54"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00034] The argument nextFromCache is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00054] The argument nextFromCache is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#35"
+ , "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.isDeletedCacheEntry@POLYN164824 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.isDeletedCacheEntry@POLYN164944 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#43"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00043] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00063] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#45"
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.hasNext@POLYN165038 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.hasNext@POLYN165158 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#61"
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.next@POLYN165787 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.next@POLYN165787 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.next@POLYN165787 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.next@POLYN165787 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#76"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method chooseNextValue arguments Bytes  nextCacheKey|KS  nextStoreKey|int  comparison"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.chooseNextValue@POLYN166795 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.next@POLYN165907 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.chooseNextValue@POLYN166795 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.next@POLYN165907 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#90"
+ , "c1" : "00084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.chooseNextValue@POLYN166795 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.next@POLYN165907 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#92"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.chooseNextValue@POLYN166795 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.next@POLYN165907 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00096"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#96"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00096] For method chooseNextValue arguments Bytes  nextCacheKey|KS  nextStoreKey|int  comparison"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.chooseNextValue@POLYN166915 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#102"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00102] For method nextStoreValue arguments KS  nextStoreKey"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.chooseNextValue@POLYN166915 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#106"
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.nextStoreValue@POLYN167861 the MagicNumber/String  'Next record key is not the peeked key value; this should not happen' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.chooseNextValue@POLYN166915 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.chooseNextValue@POLYN166915 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00112] For method nextCacheValue arguments Bytes  nextCacheKey"
+ , "c3" : "QC-JAV000006[00122] For method nextStoreValue arguments KS  nextStoreKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#116"
+ , "c1" : "00126"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.nextCacheValue@POLYN168338 the MagicNumber/String  'Next record key is not the peeked key value; this should not happen' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.nextStoreValue@POLYN167981 the MagicNumber/String  'Next record key is not the peeked key value; this should not happen' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#128"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.peekNextKey@POLYN168900 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.peekNextKey@POLYN168900 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#131"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.peekNextKey@POLYN168900 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#135"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.peekNextKey@POLYN168900 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#143"
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method chooseNextKey arguments Bytes  nextCacheKey|KS  nextStoreKey|int  comparison"
+ , "c3" : "QC-JAV000006[00132] For method nextCacheValue arguments Bytes  nextCacheKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#147"
+ , "c1" : "00136"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.chooseNextKey@POLYN169871 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.nextCacheValue@POLYN168458 the MagicNumber/String  'Next record key is not the peeked key value; this should not happen' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.peekNextKey@POLYN169020 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.chooseNextKey@POLYN169871 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.peekNextKey@POLYN169020 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#157"
+ , "c1" : "00151"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.chooseNextKey@POLYN169871 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.peekNextKey@POLYN169020 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#159"
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.chooseNextKey@POLYN169871 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.peekNextKey@POLYN169020 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#163"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00163] For method chooseNextKey arguments Bytes  nextCacheKey|KS  nextStoreKey|int  comparison"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#167"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.chooseNextKey@POLYN169991 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.chooseNextKey@POLYN169991 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.chooseNextKey@POLYN169991 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#179"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.chooseNextKey@POLYN169991 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

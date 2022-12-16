@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.common.Node" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#32"
+ , "c5" : "00051"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#51"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#35"
+ , "c5" : "00056"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#56"
  , "c1" : "String"
  , "c2" : "hostname()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#38"
+ , "c5" : "00062"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#62"
  , "c1" : "String"
  , "c2" : "getConfig(String)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#41"
+ , "c5" : "00067"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#67"
  , "c1" : "Set<String>"
  , "c2" : "tags()"
  , "c3" : "1"
@@ -116,45 +116,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#13"
+ , "c1" : "00030"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00013] For method getIntConfig arguments Node  node|String  key|int  defaultVal"
+ , "c3" : "QC-JAV000006[00030] For method getIntConfig arguments Node  node|String  key|int  defaultVal"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#13"
+ , "c1" : "00030"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00013] For method getIntConfig list of called methods Object monObjet|int node_getConfigN146113"
+ , "c3" : "QC-JAV000007[00030] For method getIntConfig list of called methods Object monObjet|int node_getConfigN146269"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#13"
+ , "c1" : "00030"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#30"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00013] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00030] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#15"
+ , "c1" : "00032"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.trogdor.common.Node.Util.getIntConfig@POLYN145966 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.common.Node.Util.getIntConfig@POLYN146122 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#22"
+ , "c1" : "00039"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#39"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method getTrogdorAgentPort arguments Node  node"
+ , "c3" : "QC-JAV000006[00039] For method getTrogdorAgentPort arguments Node  node"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#26"
+ , "c1" : "00043"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method getTrogdorCoordinatorPort arguments Node  node"
+ , "c3" : "QC-JAV000006[00043] For method getTrogdorCoordinatorPort arguments Node  node"
 }} 
 ]
 , 

@@ -2,8 +2,8 @@
 !pragma layout smetana
 "RaftMessage" <|-- "org.apache.kafka.raft.RaftResponse"
 class org.apache.kafka.raft.RaftResponse {
-RaftResponse(int;ApiMessage) : RaftResponse [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#10]]]
-+correlationId() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#16]]]
-+data() : ApiMessage [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#21]]]
+RaftResponse(int;ApiMessage) : RaftResponse [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#25]]]
++correlationId() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#31]]]
++data() : ApiMessage [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#36]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#31"
+ , "c5" : "00093"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#93"
  , "c1" : "RefreshingHttpsJwksVerificationKeyResolver"
  , "c2" : "RefreshingHttpsJwksVerificationKeyResolver(RefreshingHttpsJwks)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#37"
+ , "c5" : "00099"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#99"
  , "c1" : "void"
  , "c2" : "init()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#50"
+ , "c5" : "00112"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#112"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#61"
+ , "c5" : "00123"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#123"
  , "c1" : "Key"
  , "c2" : "resolveKey(JsonWebSignature;List<JsonWebStructure>)"
  , "c3" : "4"
@@ -132,164 +132,164 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#39"
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.init@POLYN165117 the MagicNumber/String  'init started' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.init@POLYN165477 the MagicNumber/String  'init started' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#43"
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.init@POLYN165117 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.init@POLYN165477 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#45"
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.init@POLYN165117 the MagicNumber/String  'init completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.init@POLYN165477 the MagicNumber/String  'init completed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#52"
+ , "c1" : "00114"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.close@POLYN165474 the MagicNumber/String  'close started' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.close@POLYN165834 the MagicNumber/String  'close started' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#56"
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.close@POLYN165474 the MagicNumber/String  'close completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.close@POLYN165834 the MagicNumber/String  'close completed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#61"
+ , "c1" : "00123"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#123"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method resolveKey arguments JsonWebSignature  jws|List&lt;JsonWebStructure &gt;  nestingContext"
+ , "c3" : "QC-JAV000006[00123] For method resolveKey arguments JsonWebSignature  jws|List&lt;JsonWebStructure &gt;  nestingContext"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#61"
+ , "c1" : "00123"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#123"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00061] The argument jws is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00123] The argument jws is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#63"
+ , "c1" : "00125"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN165771 the MagicNumber/String  'Please call init() first' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN166131 the MagicNumber/String  'Please call init() first' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#69"
+ , "c1" : "00131"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN165771 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN166131 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#75"
+ , "c1" : "00137"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN165771 the MagicNumber/String  'Refreshing JWKs from {} as no suitable verification key for JWS w/ header {} was found in {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN166131 the MagicNumber/String  'Refreshing JWKs from {} as no suitable verification key for JWS w/ header {} was found in {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#78"
+ , "c1" : "00140"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN165771 the MagicNumber/String  'Unable to find a suitable verification key for JWS w/ header ' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN166131 the MagicNumber/String  'Unable to find a suitable verification key for JWS w/ header ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#79"
+ , "c1" : "00141"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN165771 the MagicNumber/String  ' from JWKs ' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN166131 the MagicNumber/String  ' from JWKs ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#79"
+ , "c1" : "00141"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN165771 the MagicNumber/String  ' obtained from ' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN166131 the MagicNumber/String  ' obtained from ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#84"
+ , "c1" : "00146"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN165771 the MagicNumber/String  'Unable to find a suitable verification key for JWS w/ header ' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN166131 the MagicNumber/String  'Unable to find a suitable verification key for JWS w/ header ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#85"
+ , "c1" : "00147"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN165771 the MagicNumber/String  ' due to an unexpected exception (' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN166131 the MagicNumber/String  ' due to an unexpected exception (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#85"
+ , "c1" : "00147"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN165771 the MagicNumber/String  ') while obtaining or using keys from JWKS endpoint at ' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.resolveKey@POLYN166131 the MagicNumber/String  ') while obtaining or using keys from JWKS endpoint at ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.close@POLYN165474"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.close@POLYN165834"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.init@POLYN165117"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.init@POLYN165477"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#52"
+ , "c1" : "00114"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#114"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.close@POLYN165474 the MagicNumber/String 'close started' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.close@POLYN165834 the MagicNumber/String 'close started' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#56"
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#118"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.close@POLYN165474 the MagicNumber/String 'close completed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00118] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.close@POLYN165834 the MagicNumber/String 'close completed' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#39"
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00039] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.init@POLYN165117 the MagicNumber/String 'init started' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.init@POLYN165477 the MagicNumber/String 'init started' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#43"
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#105"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00043] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.init@POLYN165117 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.init@POLYN165477 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#45"
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#107"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.init@POLYN165117 the MagicNumber/String 'init completed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.init@POLYN165477 the MagicNumber/String 'init completed' MUST BE CONVERTED to const"
 }} 
 ]
 , 

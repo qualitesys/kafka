@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.GlobalStateStoreProvider" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/GlobalStateStoreProvider.java.html#18"
+ , "c5" : "00033"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/GlobalStateStoreProvider.java.html#33"
  , "c1" : "GlobalStateStoreProvider"
  , "c2" : "GlobalStateStoreProvider(Map<String,StateStore>)"
  , "c3" : "1"
@@ -75,31 +75,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/GlobalStateStoreProvider.java.html#24"
+ , "c1" : "00039"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/GlobalStateStoreProvider.java.html#39"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00024] The argument queryableStoreType is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00039] The argument queryableStoreType is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/GlobalStateStoreProvider.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/GlobalStateStoreProvider.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.GlobalStateStoreProvider the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.state.internals.GlobalStateStoreProvider the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/GlobalStateStoreProvider.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/GlobalStateStoreProvider.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.GlobalStateStoreProvider the MagicNumber/String  'the state store, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.GlobalStateStoreProvider the MagicNumber/String  'the state store, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/GlobalStateStoreProvider.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/GlobalStateStoreProvider.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.GlobalStateStoreProvider the MagicNumber/String  ', is not open.' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.GlobalStateStoreProvider the MagicNumber/String  ', is not open.' should be converted to const"
 }} 
 ]
 , 

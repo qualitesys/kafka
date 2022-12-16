@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KTableAggregate" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#25"
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#40"
  , "c1" : "KTableAggregate"
  , "c2" : "KTableAggregate(String;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>;Aggregator<?superKIn,?superVIn,VAgg>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#36"
+ , "c5" : "00051"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#51"
  , "c1" : "boolean"
  , "c2" : "enableSendingOldValues(boolean)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#43"
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#58"
  , "c1" : "Processor<KIn,Change<VIn>,KIn,Change<VAgg>>"
  , "c2" : "get()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00111"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#111"
+ , "c5" : "00128"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#128"
  , "c1" : "KTableValueGetterSupplier<KIn,VAgg>"
  , "c2" : "view()"
  , "c3" : "1"
@@ -109,115 +109,115 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method enableSendingOldValues arguments boolean  forceMaterialization"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.enableSendingOldValues@POLYN160140 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.enableSendingOldValues@POLYN160140 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000006[00051] For method enableSendingOldValues arguments boolean  forceMaterialization"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.enableSendingOldValues@POLYN160242 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.enableSendingOldValues@POLYN160242 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method init arguments ProcessorContext&lt;KIn ,Change&lt;VAgg &gt; &gt;  context"
+ , "c3" : "QC-JAV000006[00068] For method init arguments ProcessorContext&lt;KIn ,Change&lt;VAgg &gt; &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#53"
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#68"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00053] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00068] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#64"
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method process arguments Record&lt;KIn ,Change&lt;VIn &gt; &gt;  record"
+ , "c3" : "QC-JAV000006[00081] For method process arguments Record&lt;KIn ,Change&lt;VIn &gt; &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#64"
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#81"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00064] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00081] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#66"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161445 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161547 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#67"
+ , "c1" : "00084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161445 the MagicNumber/String  'Record key for KTable aggregate operator with state ' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161547 the MagicNumber/String  'Record key for KTable aggregate operator with state ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#67"
+ , "c1" : "00084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161445 the MagicNumber/String  ' should not be null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161547 the MagicNumber/String  ' should not be null.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#76"
+ , "c1" : "00093"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161445 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161547 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#76"
+ , "c1" : "00093"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161445 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161547 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#85"
+ , "c1" : "00102"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161445 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#87"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161445 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161445 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161547 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161445 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161547 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161547 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.kstream.internals.KTableAggregate.KTableAggregateProcessor.process@POLYN161547 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

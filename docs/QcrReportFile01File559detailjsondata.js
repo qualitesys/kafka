@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.DefaultRecordsSend" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00009"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#9"
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#24"
  , "c1" : "DefaultRecordsSend"
  , "c2" : "DefaultRecordsSend(T)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#13"
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#28"
  , "c1" : "DefaultRecordsSend"
  , "c2" : "DefaultRecordsSend(T;int)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#18"
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#33"
  , "c1" : "long"
  , "c2" : "writeTo(TransferableChannel;long;int)"
  , "c3" : "1"
@@ -93,17 +93,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00009"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#9"
+ , "c1" : "00024"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#24"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00009] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00024] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#18"
+ , "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#33"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method writeTo arguments TransferableChannel  channel|long  previouslyWritten|int  remaining"
+ , "c3" : "QC-JAV000006[00033] For method writeTo arguments TransferableChannel  channel|long  previouslyWritten|int  remaining"
 }} 
 ]
 , 

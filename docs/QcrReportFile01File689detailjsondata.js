@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.LeaderAndIsrResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#24"
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#44"
  , "c1" : "LeaderAndIsrResponse"
  , "c2" : "LeaderAndIsrResponse(LeaderAndIsrResponseData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#30"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#50"
  , "c1" : "LeaderAndIsrTopicErrorCollection"
  , "c2" : "topics()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#34"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#54"
  , "c1" : "Errors"
  , "c2" : "error()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#39"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#59"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "5"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#58"
+ , "c5" : "00078"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#78"
  , "c1" : "Map<TopicPartition,Errors>"
  , "c2" : "partitionErrors(Map<Uuid,String>)"
  , "c3" : "5"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#78"
+ , "c5" : "00098"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#98"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#82"
+ , "c5" : "00102"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#102"
  , "c1" : "LeaderAndIsrResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#87"
+ , "c5" : "00107"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#107"
  , "c1" : "LeaderAndIsrResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00092"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#92"
+ , "c5" : "00112"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#112"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -184,87 +184,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#39"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00039] For method errorCounts list of called methods Object monObjet|java.util.Map&lt;Errors,java.lang.Integer&gt; errorCountsN158566|java.util.Map&lt;Errors,java.lang.Integer&gt; errorCountsN158816"
+ , "c3" : "QC-JAV000007[00059] For method errorCounts list of called methods Object monObjet|java.util.Map&lt;Errors,java.lang.Integer&gt; errorCountsN158686|java.util.Map&lt;Errors,java.lang.Integer&gt; errorCountsN158936"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#43"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.requests.LeaderAndIsrResponse.errorCounts@POLYN157720 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.requests.LeaderAndIsrResponse.errorCounts@POLYN157840 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#44"
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.requests.LeaderAndIsrResponse.errorCounts@POLYN157720 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.requests.LeaderAndIsrResponse.errorCounts@POLYN157720 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.requests.LeaderAndIsrResponse.errorCounts@POLYN157720 the MagicNumber/String  5 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#58"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method partitionErrors arguments Map&lt;Uuid ,String &gt;  topicNames"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#58"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00058] The argument topicNames is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.requests.LeaderAndIsrResponse.errorCounts@POLYN157840 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00066] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.requests.LeaderAndIsrResponse.errorCounts@POLYN157840 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#60"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.requests.LeaderAndIsrResponse.partitionErrors@POLYN159312 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.requests.LeaderAndIsrResponse.errorCounts@POLYN157840 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.requests.LeaderAndIsrResponse.partitionErrors@POLYN159312 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#82"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00078] For method partitionErrors arguments Map&lt;Uuid ,String &gt;  topicNames"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#78"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00078] The argument topicNames is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00086] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.requests.LeaderAndIsrResponse.partitionErrors@POLYN159432 the MagicNumber/String  5 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.requests.LeaderAndIsrResponse.partitionErrors@POLYN159432 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#102"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00102] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaderAndIsrResponse.toString@POLYN161124"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaderAndIsrResponse.toString@POLYN161244"
 }} 
 ]
 , 

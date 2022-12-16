@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.Records" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#25"
+ , "c5" : "00064"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#64"
  , "c1" : "Iterable<?extendsRecordBatch>"
  , "c2" : "batches()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#28"
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#71"
  , "c1" : "AbstractIterator<?extendsRecordBatch>"
  , "c2" : "batchIterator()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#31"
+ , "c5" : "00078"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#78"
  , "c1" : "boolean"
  , "c2" : "hasMatchingMagic(byte)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#34"
+ , "c5" : "00089"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#89"
  , "c1" : "ConvertedRecords<?extendsRecords>"
  , "c2" : "downConvert(byte;long;Time)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#37"
+ , "c5" : "00096"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#96"
  , "c1" : "Iterable<Record>"
  , "c2" : "records()"
  , "c3" : "1"

@@ -2,16 +2,16 @@
 !pragma layout smetana
 "AbstractControlRequest" <|-- "org.apache.kafka.common.requests.LeaderAndIsrRequest"
 class org.apache.kafka.common.requests.LeaderAndIsrRequest {
-LeaderAndIsrRequest(LeaderAndIsrRequestData;short) : LeaderAndIsrRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#100]]]
--normalize() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#107]]]
-+getErrorResponse(int;Throwable) : LeaderAndIsrResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#119]]]
-+controllerId() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#152]]]
-+controllerEpoch() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#157]]]
-+brokerEpoch() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#162]]]
-+partitionStates() : Iterable<LeaderAndIsrPartitionState> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#166]]]
-+topicIds() : Map<String,Uuid> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#173]]]
-+liveLeaders() : List<LeaderAndIsrLiveLeader> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#178]]]
-+data() : LeaderAndIsrRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#183]]]
-+parse(ByteBuffer;short) : LeaderAndIsrRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#187]]]
+LeaderAndIsrRequest(LeaderAndIsrRequestData;short) : LeaderAndIsrRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#115]]]
+-normalize() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#122]]]
++getErrorResponse(int;Throwable) : LeaderAndIsrResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#134]]]
++controllerId() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#167]]]
++controllerEpoch() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#172]]]
++brokerEpoch() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#177]]]
++partitionStates() : Iterable<LeaderAndIsrPartitionState> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#181]]]
++topicIds() : Map<String,Uuid> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#188]]]
++liveLeaders() : List<LeaderAndIsrLiveLeader> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#193]]]
++data() : LeaderAndIsrRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#198]]]
++parse(ByteBuffer;short) : LeaderAndIsrRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#202]]]
 } 
 @enduml

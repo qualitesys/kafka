@@ -2,6 +2,6 @@
 !pragma layout smetana
 "KeyValueIterator<Long,V>" <|-- "org.apache.kafka.streams.state.WindowStoreIterator"
 class org.apache.kafka.streams.state.WindowStoreIterator {
-close() : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStoreIterator.java.html#13]]]
+close() : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStoreIterator.java.html#36]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.ByteBufferSend" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#16"
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#33"
  , "c1" : "ByteBufferSend"
  , "c2" : "ByteBufferSend(ByteBuffer...)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#23"
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#40"
  , "c1" : "ByteBufferSend"
  , "c2" : "ByteBufferSend(ByteBuffer[];long)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#30"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#47"
  , "c1" : "boolean"
  , "c2" : "completed()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#35"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#52"
  , "c1" : "long"
  , "c2" : "size()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#40"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#57"
  , "c1" : "long"
  , "c2" : "writeTo(TransferableChannel)"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#49"
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#66"
  , "c1" : "long"
  , "c2" : "remaining()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#54"
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#71"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#62"
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#79"
  , "c1" : "ByteBufferSend"
  , "c2" : "sizePrefixed(ByteBuffer)"
  , "c3" : "1"
@@ -152,108 +152,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#31"
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.network.ByteBufferSend.completed@POLYN148041 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#40"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method writeTo arguments TransferableChannel  channel"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#40"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00040] For method writeTo list of called methods Object monObjet|boolean channel_hasPendingWritesN148693"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#40"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00040] The argument channel is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.network.ByteBufferSend.writeTo@POLYN148306 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.network.ByteBufferSend.writeTo@POLYN148306 the MagicNumber/String  'Wrote negative bytes to channel. This shouldn't happen.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN148879 the MagicNumber/String  'ByteBufferSend(' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN148879 the MagicNumber/String  ', size=' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.network.ByteBufferSend.completed@POLYN148143 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN148879 the MagicNumber/String  ', remaining=' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00057] For method writeTo arguments TransferableChannel  channel"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN148879 the MagicNumber/String  ', pending=' should be converted to const"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#57"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00057] For method writeTo list of called methods Object monObjet|boolean channel_hasPendingWritesN148795"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#57"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00057] The argument channel is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN148879 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.network.ByteBufferSend.writeTo@POLYN148408 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#62"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.network.ByteBufferSend.writeTo@POLYN148408 the MagicNumber/String  'Wrote negative bytes to channel. This shouldn't happen.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN148981 the MagicNumber/String  'ByteBufferSend(' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#73"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN148981 the MagicNumber/String  ', size=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN148981 the MagicNumber/String  ', remaining=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN148981 the MagicNumber/String  ', pending=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#76"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.network.ByteBufferSend.toString@POLYN148981 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method sizePrefixed arguments ByteBuffer  buffer"
+ , "c3" : "QC-JAV000006[00079] For method sizePrefixed arguments ByteBuffer  buffer"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#62"
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#79"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00062] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00079] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#63"
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.network.ByteBufferSend.sizePrefixed@POLYN149134 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.network.ByteBufferSend.sizePrefixed@POLYN149236 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#64"
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.network.ByteBufferSend.sizePrefixed@POLYN149134 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.network.ByteBufferSend.sizePrefixed@POLYN149236 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

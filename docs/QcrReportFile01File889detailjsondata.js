@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.Bytes" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#20"
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#37"
  , "c1" : "Bytes"
  , "c2" : "wrap(byte[])"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#27"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#48"
  , "c1" : "Bytes"
  , "c2" : "Bytes(byte[])"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#35"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#59"
  , "c1" : "byte[]"
  , "c2" : "get()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#41"
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#70"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#50"
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#79"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "5"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#67"
+ , "c5" : "00096"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#96"
  , "c1" : "int"
  , "c2" : "compareTo(Bytes)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#72"
+ , "c5" : "00101"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#101"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#77"
+ , "c5" : "00117"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#117"
  , "c1" : "String"
  , "c2" : "toString(byte[];int;int)"
  , "c3" : "7"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#104"
+ , "c5" : "00150"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#150"
  , "c1" : "Bytes"
  , "c2" : "increment(Bytes)"
  , "c3" : "6"
@@ -168,297 +168,297 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#11"
+ , "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#28"
  , "c2" : "MINOR"
- , "c3" : "QC-JAVCWE582[00011] Array declared public, final and static (see http://cwe.mitre.org/data/definitions/582.html)"
+ , "c3" : "QC-JAVCWE582[00028] Array declared public, final and static (see http://cwe.mitre.org/data/definitions/582.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#20"
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00020] For method wrap arguments byte[]  bytes"
+ , "c3" : "QC-JAV000006[00037] For method wrap arguments byte[]  bytes"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#21"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.utils.Bytes.wrap@POLYN168192 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.utils.Bytes.wrap@POLYN168480 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#22"
+ , "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.utils.Bytes.wrap@POLYN168192 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.utils.Bytes.Bytes@POLYN168521 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.utils.Bytes.hashCode@POLYN169027 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#50"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method equals arguments Object  other"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.utils.Bytes.wrap@POLYN168480 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.utils.Bytes.equals@POLYN169296 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.utils.Bytes.Bytes@POLYN168809 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#53"
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.utils.Bytes.equals@POLYN169296 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.utils.Bytes.hashCode@POLYN169315 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.utils.Bytes.equals@POLYN169296 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.utils.Bytes.equals@POLYN169296 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.utils.Bytes.equals@POLYN169296 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#67"
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method compareTo arguments Bytes  that"
+ , "c3" : "QC-JAV000006[00079] For method equals arguments Object  other"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#67"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00067] The argument that is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#73"
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170147 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.utils.Bytes.equals@POLYN169584 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method toString arguments byte[]  b|int  off|int  len"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#80"
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170612 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.utils.Bytes.equals@POLYN169584 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#91"
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170612 the MagicNumber/String  0xFF should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.utils.Bytes.equals@POLYN169584 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.utils.Bytes.equals@POLYN169584 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170612 the MagicNumber/String  ' ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170612 the MagicNumber/String  '~' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170612 the MagicNumber/String  '\\' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170612 the MagicNumber/String  '\\x' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.utils.Bytes.equals@POLYN169584 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170612 the MagicNumber/String  0x10 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170612 the MagicNumber/String  0x10 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method increment arguments Bytes  input"
+ , "c3" : "QC-JAV000006[00096] For method compareTo arguments Bytes  that"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#104"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00104] For method increment list of called methods Object monObjet|byte[] input_getN172458"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#104"
+ , "c1" : "00096"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#96"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00104] The argument input is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00096] The argument that is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#107"
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.utils.Bytes.increment@POLYN172343 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170435 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.utils.Bytes.increment@POLYN172343 the MagicNumber/String  1 should be converted to const"
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#117"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00117] For method toString arguments byte[]  b|int  off|int  len"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#108"
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.utils.Bytes.increment@POLYN172343 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170900 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#109"
+ , "c1" : "00131"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.utils.Bytes.increment@POLYN172343 the MagicNumber/String  0xFF should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170900 the MagicNumber/String  0xFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#109"
+ , "c1" : "00132"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.utils.Bytes.increment@POLYN172343 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170900 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#110"
+ , "c1" : "00132"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.common.utils.Bytes.increment@POLYN172343 the MagicNumber/String  0x00 should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170900 the MagicNumber/String  '~' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#113"
+ , "c1" : "00132"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.common.utils.Bytes.increment@POLYN172343 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#116"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.utils.Bytes.increment@POLYN172343 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170900 the MagicNumber/String  '\\' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#135"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00135] For method compare arguments byte[]  buffer1|byte[]  buffer2"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170900 the MagicNumber/String  '\\x' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.utils.Bytes.LexicographicByteArrayComparator.compare@POLYN174103 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170900 the MagicNumber/String  0x10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#136"
+ , "c1" : "00137"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.utils.Bytes.LexicographicByteArrayComparator.compare@POLYN174103 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.common.utils.Bytes.toString@POLYN170900 the MagicNumber/String  0x10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#139"
+ , "c1" : "00150"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00139] For method compare arguments byte[]  buffer1|int  offset1|int  length1|byte[]  buffer2|int  offset2|int  length2"
+ , "c3" : "QC-JAV000006[00150] For method increment arguments Bytes  input"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#146"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.utils.Bytes.LexicographicByteArrayComparator.compare@POLYN174409 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00150"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#150"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00150] For method increment list of called methods Object monObjet|byte[] input_getN172746"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#150"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00150] The argument input is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.common.utils.Bytes.LexicographicByteArrayComparator.compare@POLYN174409 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.common.utils.Bytes.increment@POLYN172631 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.common.utils.Bytes.LexicographicByteArrayComparator.compare@POLYN174409 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.common.utils.Bytes.increment@POLYN172631 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#154"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.common.utils.Bytes.increment@POLYN172631 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00155"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#155"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.utils.Bytes.increment@POLYN172631 the MagicNumber/String  0xFF should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00155"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#155"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.utils.Bytes.increment@POLYN172631 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00156"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#156"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.common.utils.Bytes.increment@POLYN172631 the MagicNumber/String  0x00 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#159"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.utils.Bytes.increment@POLYN172631 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00162"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.common.utils.Bytes.increment@POLYN172631 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00183"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#183"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00183] For method compare arguments byte[]  buffer1|byte[]  buffer2"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#184"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.utils.Bytes.LexicographicByteArrayComparator.compare@POLYN174391 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#184"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.utils.Bytes.LexicographicByteArrayComparator.compare@POLYN174391 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00187"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#187"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00187] For method compare arguments byte[]  buffer1|int  offset1|int  length1|byte[]  buffer2|int  offset2|int  length2"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00194"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#194"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.common.utils.Bytes.LexicographicByteArrayComparator.compare@POLYN174697 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00201"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#201"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.common.utils.Bytes.LexicographicByteArrayComparator.compare@POLYN174697 the MagicNumber/String  0xff should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00202"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.common.utils.Bytes.LexicographicByteArrayComparator.compare@POLYN174697 the MagicNumber/String  0xff should be converted to const"
 }} 
 ]
 , 

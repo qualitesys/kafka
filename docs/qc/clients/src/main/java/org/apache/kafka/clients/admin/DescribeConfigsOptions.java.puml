@@ -2,10 +2,10 @@
 !pragma layout smetana
 "AbstractOptions<DescribeConfigsOptions>" <|-- "org.apache.kafka.clients.admin.DescribeConfigsOptions"
 class org.apache.kafka.clients.admin.DescribeConfigsOptions {
-+timeoutMs(Integer) : DescribeConfigsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#18]]]
-+includeSynonyms() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#24]]]
-+includeDocumentation() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#29]]]
-+includeSynonyms(boolean) : DescribeConfigsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#34]]]
-+includeDocumentation(boolean) : DescribeConfigsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#40]]]
++timeoutMs(Integer) : DescribeConfigsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#41]]]
++includeSynonyms() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#49]]]
++includeDocumentation() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#56]]]
++includeSynonyms(boolean) : DescribeConfigsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#63]]]
++includeDocumentation(boolean) : DescribeConfigsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#71]]]
 } 
 @enduml

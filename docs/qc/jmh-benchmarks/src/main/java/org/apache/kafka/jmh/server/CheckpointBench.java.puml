@@ -2,9 +2,9 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.jmh.server.CheckpointBench"
 class org.apache.kafka.jmh.server.CheckpointBench {
-+setup() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#82]]]
-+tearDown() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#139]]]
-+measureCheckpointHighWatermarks() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#152]]]
-+measureCheckpointLogStartOffsets() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#158]]]
++setup() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#97]]]
++tearDown() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#154]]]
++measureCheckpointHighWatermarks() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#167]]]
++measureCheckpointLogStartOffsets() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#173]]]
 } 
 @enduml

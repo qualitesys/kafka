@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamBranch" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#16"
+ , "c5" : "00031"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#31"
  , "c1" : "KStreamBranch"
  , "c2" : "KStreamBranch(List<Predicate<?superK,?superV>>;List<String>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#38"
  , "c1" : "Processor<K,V,K,V>"
  , "c2" : "get()"
  , "c3" : "1"
@@ -91,24 +91,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method process arguments Record&lt;K ,V &gt;  record"
+ , "c3" : "QC-JAV000006[00045] For method process arguments Record&lt;K ,V &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#45"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00030] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00045] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.internals.KStreamBranch.KStreamBranchProcessor.process@POLYN148922 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.kstream.internals.KStreamBranch.KStreamBranchProcessor.process@POLYN149012 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KTableMapValues" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#20"
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#35"
  , "c1" : "KTableMapValues"
  , "c2" : "KTableMapValues(KTableImpl<KIn,?,VIn>;ValueMapperWithKey<?superKIn,?superVIn,?extendsVOut>;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#29"
+ , "c5" : "00044"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#44"
  , "c1" : "Processor<KIn,Change<VIn>,KIn,Change<VOut>>"
  , "c2" : "get()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#34"
+ , "c5" : "00049"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#49"
  , "c1" : "KTableValueGetterSupplier<KIn,VOut>"
  , "c2" : "view()"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#56"
+ , "c5" : "00071"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#71"
  , "c1" : "boolean"
  , "c2" : "enableSendingOldValues(boolean)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#69"
+ , "c5" : "00084"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#84"
  , "c1" : "VOut"
  , "c2" : "computeValue(KIn;VIn)"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#79"
+ , "c5" : "00094"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#94"
  , "c1" : "ValueAndTimestamp<VOut>"
  , "c2" : "computeValueAndTimestamp(KIn;ValueAndTimestamp<VIn>)"
  , "c3" : "2"
@@ -127,178 +127,178 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#37"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.view@POLYN164107 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.view@POLYN164197 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#56"
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method enableSendingOldValues arguments boolean  forceMaterialization"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.enableSendingOldValues@POLYN164873 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.enableSendingOldValues@POLYN164873 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.enableSendingOldValues@POLYN164873 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.enableSendingOldValues@POLYN164873 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#69"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method computeValue arguments KIn  key|VIn  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.computeValue@POLYN165298 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000006[00071] For method enableSendingOldValues arguments boolean  forceMaterialization"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.computeValue@POLYN165298 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.enableSendingOldValues@POLYN164963 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#79"
+ , "c1" : "00073"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#73"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.enableSendingOldValues@POLYN164963 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.enableSendingOldValues@POLYN164963 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.enableSendingOldValues@POLYN164963 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method computeValueAndTimestamp arguments KIn  key|ValueAndTimestamp&lt;VIn &gt;  valueAndTimestamp"
+ , "c3" : "QC-JAV000006[00084] For method computeValue arguments KIn  key|VIn  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#80"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.computeValueAndTimestamp@POLYN165706 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.computeValue@POLYN165388 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#81"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.computeValueAndTimestamp@POLYN165706 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.computeValue@POLYN165388 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#83"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#94"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00094] For method computeValueAndTimestamp arguments KIn  key|ValueAndTimestamp&lt;VIn &gt;  valueAndTimestamp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.computeValueAndTimestamp@POLYN165706 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.computeValueAndTimestamp@POLYN165796 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00096"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#96"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.computeValueAndTimestamp@POLYN165796 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#98"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method init arguments ProcessorContext&lt;KIn ,Change&lt;VOut &gt; &gt;  context"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#98"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00098] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.KTableMapValuesProcessor.init@POLYN166741 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.computeValueAndTimestamp@POLYN165796 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#111"
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#113"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00111] For method process arguments Record&lt;KIn ,Change&lt;VIn &gt; &gt;  record"
+ , "c3" : "QC-JAV000006[00113] For method init arguments ProcessorContext&lt;KIn ,Change&lt;VOut &gt; &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#111"
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#113"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00111] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00113] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.KTableMapValuesProcessor.process@POLYN167328 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.KTableMapValuesProcessor.init@POLYN166831 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#123"
+ , "c1" : "00126"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#126"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00123] For method computeOldValue arguments KIn  key|Change&lt;VIn &gt;  change"
+ , "c3" : "QC-JAV000006[00126] For method process arguments Record&lt;KIn ,Change&lt;VIn &gt; &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#123"
+ , "c1" : "00126"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#126"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00123] The argument change is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00126] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#125"
+ , "c1" : "00130"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.KTableMapValuesProcessor.computeOldValue@POLYN168427 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.KTableMapValuesProcessor.process@POLYN167418 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#128"
+ , "c1" : "00138"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#138"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00138] For method computeOldValue arguments KIn  key|Change&lt;VIn &gt;  change"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00138"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#138"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00138] The argument change is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.KTableMapValuesProcessor.computeOldValue@POLYN168427 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.KTableMapValuesProcessor.computeOldValue@POLYN168517 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#143"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method init arguments ProcessorContext&lt;? ,? &gt;  context"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.kstream.internals.KTableMapValues.KTableMapValuesProcessor.computeOldValue@POLYN168517 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#148"
+ , "c1" : "00158"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#158"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00148] For method get arguments KIn  key"
+ , "c3" : "QC-JAV000006[00158] For method init arguments ProcessorContext&lt;? ,? &gt;  context"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#163"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00163] For method get arguments KIn  key"
 }} 
 ]
 , 

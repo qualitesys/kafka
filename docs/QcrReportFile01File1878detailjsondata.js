@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#12"
+ , "c5" : "00027"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#27"
  , "c1" : "DefaultStreamPartitioner"
  , "c2" : "DefaultStreamPartitioner(Serializer<K>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#32"
  , "c1" : "Integer"
  , "c2" : "partition(String;K;V;int)"
  , "c3" : "3"
@@ -84,24 +84,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#17"
+ , "c1" : "00032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#32"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method partition arguments String  topic|K  key|V  value|int  numPartitions"
+ , "c3" : "QC-JAV000006[00032] For method partition arguments String  topic|K  key|V  value|int  numPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner.partition@POLYN143905 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner.partition@POLYN143995 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#24"
+ , "c1" : "00039"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner.partition@POLYN143905 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner.partition@POLYN143995 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

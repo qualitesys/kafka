@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.UnsupportedCompressionTypeException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00009"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/UnsupportedCompressionTypeException.java.html#9"
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/UnsupportedCompressionTypeException.java.html#26"
  , "c1" : "UnsupportedCompressionTypeException"
  , "c2" : "UnsupportedCompressionTypeException(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/UnsupportedCompressionTypeException.java.html#13"
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/UnsupportedCompressionTypeException.java.html#30"
  , "c1" : "UnsupportedCompressionTypeException"
  , "c2" : "UnsupportedCompressionTypeException(String;Throwable)"
  , "c3" : "1"

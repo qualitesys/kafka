@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.FollowerState" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#28"
+ , "c5" : "00045"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#45"
  , "c1" : "FollowerState"
  , "c2" : "FollowerState(Time;int;int;Set<Integer>;Optional<LogOffsetMetadata>;int;LogContext)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#48"
+ , "c5" : "00065"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#65"
  , "c1" : "ElectionState"
  , "c2" : "election()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#58"
+ , "c5" : "00075"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#75"
  , "c1" : "int"
  , "c2" : "epoch()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#63"
+ , "c5" : "00080"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#80"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#67"
+ , "c5" : "00084"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#84"
  , "c1" : "long"
  , "c2" : "remainingFetchTimeMs(long)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#72"
+ , "c5" : "00089"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#89"
  , "c1" : "int"
  , "c2" : "leaderId()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#76"
+ , "c5" : "00093"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#93"
  , "c1" : "boolean"
  , "c2" : "hasFetchTimeoutExpired(long)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#81"
+ , "c5" : "00098"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#98"
  , "c1" : "void"
  , "c2" : "resetFetchTimeout(long)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00086"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#86"
+ , "c5" : "00103"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#103"
  , "c1" : "void"
  , "c2" : "overrideFetchTimeout(long;long)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00091"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#91"
+ , "c5" : "00108"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#108"
  , "c1" : "boolean"
  , "c2" : "updateHighWatermark(OptionalLong)"
  , "c3" : "6"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00115"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#115"
+ , "c5" : "00132"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#132"
  , "c1" : "Optional<LogOffsetMetadata>"
  , "c2" : "highWatermark()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00119"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#119"
+ , "c5" : "00136"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#136"
  , "c1" : "Optional<RawSnapshotWriter>"
  , "c2" : "fetchingSnapshot()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#123"
+ , "c5" : "00140"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#140"
  , "c1" : "void"
  , "c2" : "setFetchingSnapshot(Optional<RawSnapshotWriter>)"
  , "c3" : "2"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00131"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#131"
+ , "c5" : "00148"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#148"
  , "c1" : "boolean"
  , "c2" : "canGrantVote(int;boolean)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00138"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#138"
+ , "c5" : "00155"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#155"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00150"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#150"
+ , "c5" : "00167"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#167"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -217,199 +217,199 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#29"
+ , "c1" : "00046"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#46"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00029] The argument time is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00046] The argument time is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#35"
+ , "c1" : "00052"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#52"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00035] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.raft.FollowerState.name@POLYN159848 the MagicNumber/String  'Follower' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#67"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method remainingFetchTimeMs arguments long  currentTimeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#76"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method hasFetchTimeoutExpired arguments long  currentTimeMs"
+ , "c3" : "QC-JAVCWE476[00052] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#81"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00081] For method resetFetchTimeout arguments long  currentTimeMs"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.raft.FollowerState.name@POLYN159950 the MagicNumber/String  'Follower' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#86"
+ , "c1" : "00084"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method overrideFetchTimeout arguments long  currentTimeMs|long  timeoutMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#91"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00091] For method updateHighWatermark arguments OptionalLong  highWatermark"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#91"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00091] The argument highWatermark is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00084] For method remainingFetchTimeMs arguments long  currentTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160855 the MagicNumber/String  'Attempt to overwrite current high watermark ' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00093] For method hasFetchTimeoutExpired arguments long  currentTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160855 the MagicNumber/String  ' with unknown value' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160855 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#101"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160855 the MagicNumber/String  'Illegal negative high watermark update' should be converted to const"
+ , "c1" : "00098"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#98"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00098] For method resetFetchTimeout arguments long  currentTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160855 the MagicNumber/String  'Non-monotonic update of high watermark attempted' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00103] For method overrideFetchTimeout arguments long  currentTimeMs|long  timeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#105"
+ , "c1" : "00108"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#108"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00108] For method updateHighWatermark arguments OptionalLong  highWatermark"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#108"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00108] The argument highWatermark is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160855 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160957 the MagicNumber/String  'Attempt to overwrite current high watermark ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160855 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160957 the MagicNumber/String  ' with unknown value' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#123"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00123] For method setFetchingSnapshot arguments Optional&lt;RawSnapshotWriter &gt;  newSnapshot"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#131"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00131] For method canGrantVote arguments int  candidateId|boolean  isLogUpToDate"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#132"
+ , "c1" : "00117"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.raft.FollowerState.canGrantVote@POLYN162583 the MagicNumber/String  'Rejecting vote request from candidate {} since we already have a leader {} in epoch {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160957 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#134"
+ , "c1" : "00118"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.raft.FollowerState.canGrantVote@POLYN162583 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160957 the MagicNumber/String  'Illegal negative high watermark update' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#139"
+ , "c1" : "00120"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.raft.FollowerState.toString@POLYN162883 the MagicNumber/String  'FollowerState(' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160957 the MagicNumber/String  'Non-monotonic update of high watermark attempted' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#122"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160957 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#128"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160957 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.raft.FollowerState.toString@POLYN162883 the MagicNumber/String  'fetchTimeoutMs=' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00140] For method setFetchingSnapshot arguments Optional&lt;RawSnapshotWriter &gt;  newSnapshot"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.raft.FollowerState.toString@POLYN162883 the MagicNumber/String  ', epoch=' should be converted to const"
+ , "c1" : "00148"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#148"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00148] For method canGrantVote arguments int  candidateId|boolean  isLogUpToDate"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#142"
+ , "c1" : "00149"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.raft.FollowerState.toString@POLYN162883 the MagicNumber/String  ', leaderId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.raft.FollowerState.canGrantVote@POLYN162685 the MagicNumber/String  'Rejecting vote request from candidate {} since we already have a leader {} in epoch {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#143"
+ , "c1" : "00151"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.raft.FollowerState.toString@POLYN162883 the MagicNumber/String  ', voters=' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.raft.FollowerState.canGrantVote@POLYN162685 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#144"
+ , "c1" : "00156"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.raft.FollowerState.toString@POLYN162883 the MagicNumber/String  ', highWatermark=' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.raft.FollowerState.toString@POLYN162985 the MagicNumber/String  'FollowerState(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#145"
+ , "c1" : "00157"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.raft.FollowerState.toString@POLYN162883 the MagicNumber/String  ', fetchingSnapshot=' should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.raft.FollowerState.toString@POLYN162985 the MagicNumber/String  'fetchTimeoutMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#146"
+ , "c1" : "00158"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.raft.FollowerState.toString@POLYN162883 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.raft.FollowerState.toString@POLYN162985 the MagicNumber/String  ', epoch=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#159"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.raft.FollowerState.toString@POLYN162985 the MagicNumber/String  ', leaderId=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#160"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.raft.FollowerState.toString@POLYN162985 the MagicNumber/String  ', voters=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00161"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#161"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.raft.FollowerState.toString@POLYN162985 the MagicNumber/String  ', highWatermark=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00162"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.raft.FollowerState.toString@POLYN162985 the MagicNumber/String  ', fetchingSnapshot=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.raft.FollowerState.toString@POLYN162985 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

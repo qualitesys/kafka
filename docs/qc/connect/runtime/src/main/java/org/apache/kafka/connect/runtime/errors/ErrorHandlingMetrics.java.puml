@@ -2,15 +2,15 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics"
 class org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics {
-+ErrorHandlingMetrics(ConnectorTaskId;ConnectMetrics) : ErrorHandlingMetrics [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#29]]]
-+recordFailure() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#63]]]
-+recordError() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#68]]]
-+recordSkipped() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#73]]]
-+recordRetry() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#78]]]
-+recordErrorLogged() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#83]]]
-+recordDeadLetterQueueProduceRequest() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#88]]]
-+recordDeadLetterQueueProduceFailed() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#93]]]
-+recordErrorTimestamp() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#98]]]
-+metricGroup() : ConnectMetrics.MetricGroup [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#103]]]
++ErrorHandlingMetrics(ConnectorTaskId;ConnectMetrics) : ErrorHandlingMetrics [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#46]]]
++recordFailure() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#82]]]
++recordError() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#89]]]
++recordSkipped() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#96]]]
++recordRetry() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#103]]]
++recordErrorLogged() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#110]]]
++recordDeadLetterQueueProduceRequest() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#117]]]
++recordDeadLetterQueueProduceFailed() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#124]]]
++recordErrorTimestamp() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#131]]]
++metricGroup() : ConnectMetrics.MetricGroup [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#138]]]
 } 
 @enduml

@@ -2,12 +2,12 @@
 !pragma layout smetana
 "AbstractQueryResult<R>QueryResult<R>" <|-- "org.apache.kafka.streams.query.internals.FailedQueryResult"
 class org.apache.kafka.streams.query.internals.FailedQueryResult {
-+FailedQueryResult(FailureReason;String) : FailedQueryResult [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#17]]]
-+isSuccess() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#23]]]
-+isFailure() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#29]]]
-+getFailureReason() : FailureReason [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#34]]]
-+getFailureMessage() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#39]]]
-+getResult() : R [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#44]]]
-+toString() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#51]]]
++FailedQueryResult(FailureReason;String) : FailedQueryResult [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#36]]]
++isSuccess() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#45]]]
++isFailure() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#54]]]
++getFailureReason() : FailureReason [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#63]]]
++getFailureMessage() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#72]]]
++getResult() : R [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#84]]]
++toString() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#91]]]
 } 
 @enduml

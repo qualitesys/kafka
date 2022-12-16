@@ -2,6 +2,6 @@
 !pragma layout smetana
 "Closeable" <|-- "org.apache.kafka.connect.storage.CloseableOffsetStorageReader"
 class org.apache.kafka.connect.storage.CloseableOffsetStorageReader {
-close() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/CloseableOffsetStorageReader.java.html#12]]]
+close() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/CloseableOffsetStorageReader.java.html#32]]]
 } 
 @enduml

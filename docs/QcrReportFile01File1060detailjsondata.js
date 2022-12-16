@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.AbstractStatus" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#38"
  , "c1" : "AbstractStatus"
  , "c2" : "AbstractStatus(T;State;String;int;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#35"
+ , "c5" : "00050"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#50"
  , "c1" : "T"
  , "c2" : "id()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#39"
+ , "c5" : "00054"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#54"
  , "c1" : "State"
  , "c2" : "state()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#43"
+ , "c5" : "00058"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#58"
  , "c1" : "String"
  , "c2" : "trace()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#47"
+ , "c5" : "00062"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#62"
  , "c1" : "String"
  , "c2" : "workerId()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#51"
+ , "c5" : "00066"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#66"
  , "c1" : "int"
  , "c2" : "generation()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#56"
+ , "c5" : "00071"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#71"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#66"
+ , "c5" : "00081"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#81"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#80"
+ , "c5" : "00095"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#95"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -154,171 +154,171 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#57"
+ , "c1" : "00072"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.runtime.AbstractStatus.toString@POLYN150671 the MagicNumber/String  'Status{' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.runtime.AbstractStatus.toString@POLYN150761 the MagicNumber/String  'Status{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#58"
+ , "c1" : "00073"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.runtime.AbstractStatus.toString@POLYN150671 the MagicNumber/String  'id=' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.runtime.AbstractStatus.toString@POLYN150761 the MagicNumber/String  'id=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#59"
+ , "c1" : "00074"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.runtime.AbstractStatus.toString@POLYN150671 the MagicNumber/String  ', state=' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.runtime.AbstractStatus.toString@POLYN150761 the MagicNumber/String  ', state=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#60"
+ , "c1" : "00075"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.runtime.AbstractStatus.toString@POLYN150671 the MagicNumber/String  ', workerId='' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.runtime.AbstractStatus.toString@POLYN150761 the MagicNumber/String  ', workerId='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#60"
+ , "c1" : "00075"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.runtime.AbstractStatus.toString@POLYN150671 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.runtime.AbstractStatus.toString@POLYN150761 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#61"
+ , "c1" : "00076"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.runtime.AbstractStatus.toString@POLYN150671 the MagicNumber/String  ', generation=' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.runtime.AbstractStatus.toString@POLYN150761 the MagicNumber/String  ', generation=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#62"
+ , "c1" : "00077"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.runtime.AbstractStatus.toString@POLYN150671 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.runtime.AbstractStatus.toString@POLYN150761 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#66"
+ , "c1" : "00081"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00068] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.runtime.AbstractStatus.equals@POLYN151005 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.runtime.AbstractStatus.equals@POLYN151005 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.runtime.AbstractStatus.equals@POLYN151005 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151844 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151844 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151844 the MagicNumber/String  31 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151844 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151844 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000006[00081] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151844 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000021[00083] The same method call o.getClass() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.AbstractStatus.equals@POLYN151095 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151844 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.AbstractStatus.equals@POLYN151095 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151844 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.AbstractStatus.equals@POLYN151095 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#84"
+ , "c1" : "00096"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151844 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151934 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#84"
+ , "c1" : "00096"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151844 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151934 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#84"
+ , "c1" : "00097"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151844 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151934 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#85"
+ , "c1" : "00097"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151844 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151934 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#97"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151934 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151934 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151934 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151934 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151934 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151934 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151934 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151934 the MagicNumber/String  31 should be converted to const"
 }} 
 ]
 , 

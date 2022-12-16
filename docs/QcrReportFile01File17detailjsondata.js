@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.Metadata" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#54"
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#88"
  , "c1" : "Metadata"
  , "c2" : "Metadata(long;long;LogContext;ClusterResourceListeners)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#75"
+ , "c5" : "00111"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#111"
  , "c1" : "Cluster"
  , "c2" : "fetch()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#80"
+ , "c5" : "00121"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#121"
  , "c1" : "long"
  , "c2" : "timeToAllowUpdate(long)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#85"
+ , "c5" : "00133"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#133"
  , "c1" : "long"
  , "c2" : "timeToNextUpdate(long)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#90"
+ , "c5" : "00138"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#138"
  , "c1" : "long"
  , "c2" : "metadataExpireMs()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00095"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#95"
+ , "c5" : "00145"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#145"
  , "c1" : "int"
  , "c2" : "requestUpdate()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00100"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#100"
+ , "c5" : "00150"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#150"
  , "c1" : "int"
  , "c2" : "requestUpdateForNewTopics()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00109"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#109"
+ , "c5" : "00167"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#167"
  , "c1" : "boolean"
  , "c2" : "updateLastSeenEpochIfNewer(TopicPartition;int)"
  , "c3" : "6"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00134"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#134"
+ , "c5" : "00192"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#192"
  , "c1" : "Optional<Integer>"
  , "c2" : "lastSeenLeaderEpoch(TopicPartition)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00139"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#139"
+ , "c5" : "00201"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#201"
  , "c1" : "boolean"
  , "c2" : "updateRequested()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00144"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#144"
+ , "c5" : "00208"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#208"
  , "c1" : "Optional<MetadataResponse.PartitionMetadata>"
  , "c2" : "partitionMetadataIfCurrent(TopicPartition)"
  , "c3" : "3"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00157"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#157"
+ , "c5" : "00223"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#223"
  , "c1" : "Map<String,Uuid>"
  , "c2" : "topicIds()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00161"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#161"
+ , "c5" : "00227"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#227"
  , "c1" : "LeaderAndEpoch"
  , "c2" : "currentLeader(TopicPartition)"
  , "c3" : "2"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00172"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#172"
+ , "c5" : "00238"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#238"
  , "c1" : "void"
  , "c2" : "bootstrap(List<InetSocketAddress>)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00179"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#179"
+ , "c5" : "00249"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#249"
  , "c1" : "void"
  , "c2" : "updateWithCurrentRequestVersion(MetadataResponse;boolean;long)"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00184"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#184"
+ , "c5" : "00263"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#263"
  , "c1" : "void"
  , "c2" : "update(int;MetadataResponse;boolean;long)"
  , "c3" : "4"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00215"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#215"
+ , "c5" : "00294"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#294"
  , "c1" : "void"
  , "c2" : "maybeSetMetadataError(Cluster)"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00221"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#221"
+ , "c5" : "00300"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#300"
  , "c1" : "void"
  , "c2" : "checkInvalidTopics(Cluster)"
  , "c3" : "2"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00228"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#228"
+ , "c5" : "00307"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#307"
  , "c1" : "void"
  , "c2" : "checkUnauthorizedTopics(Cluster)"
  , "c3" : "2"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00236"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#236"
+ , "c5" : "00317"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#317"
  , "c1" : "MetadataCache"
  , "c2" : "handleMetadataResponse(MetadataResponse;boolean;long)"
  , "c3" : "16"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00304"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#304"
+ , "c5" : "00388"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#388"
  , "c1" : "Optional<MetadataResponse.PartitionMetadata>"
  , "c2" : "updateLatestMetadata(MetadataResponse.PartitionMetadata;boolean;Uuid;Uuid)"
  , "c3" : "7"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00340"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#340"
+ , "c5" : "00428"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#428"
  , "c1" : "void"
  , "c2" : "maybeThrowAnyException()"
  , "c3" : "1"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00345"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#345"
+ , "c5" : "00437"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#437"
  , "c1" : "void"
  , "c2" : "maybeThrowFatalException()"
  , "c3" : "2"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00354"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#354"
+ , "c5" : "00450"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#450"
  , "c1" : "void"
  , "c2" : "maybeThrowExceptionForTopic(String)"
  , "c3" : "1"
@@ -234,8 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00358"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#358"
+ , "c5" : "00454"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#454"
  , "c1" : "void"
  , "c2" : "clearErrorsAndMaybeThrowException(Supplier<KafkaException>)"
  , "c3" : "2"
@@ -243,8 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00367"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#367"
+ , "c5" : "00463"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#463"
  , "c1" : "KafkaException"
  , "c2" : "recoverableException()"
  , "c3" : "5"
@@ -252,8 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00376"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#376"
+ , "c5" : "00472"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#472"
  , "c1" : "KafkaException"
  , "c2" : "recoverableExceptionForTopic(String)"
  , "c3" : "5"
@@ -261,8 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00385"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#385"
+ , "c5" : "00481"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#481"
  , "c1" : "void"
  , "c2" : "clearRecoverableErrors()"
  , "c3" : "1"
@@ -270,8 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00391"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#391"
+ , "c5" : "00490"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#490"
  , "c1" : "void"
  , "c2" : "failedUpdate(long)"
  , "c3" : "1"
@@ -279,8 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00396"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#396"
+ , "c5" : "00500"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#500"
  , "c1" : "void"
  , "c2" : "fatalError(KafkaException)"
  , "c3" : "1"
@@ -288,8 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00401"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#401"
+ , "c5" : "00507"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#507"
  , "c1" : "int"
  , "c2" : "updateVersion()"
  , "c3" : "1"
@@ -297,8 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00406"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#406"
+ , "c5" : "00514"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#514"
  , "c1" : "long"
  , "c2" : "lastSuccessfulUpdate()"
  , "c3" : "1"
@@ -306,8 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00412"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#412"
+ , "c5" : "00522"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#522"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -315,8 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00417"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#417"
+ , "c5" : "00531"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#531"
  , "c1" : "boolean"
  , "c2" : "isClosed()"
  , "c3" : "1"
@@ -324,8 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00421"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#421"
+ , "c5" : "00535"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#535"
  , "c1" : "MetadataRequestAndVersion"
  , "c2" : "newMetadataRequestAndVersion(long)"
  , "c3" : "3"
@@ -333,8 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00439"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#439"
+ , "c5" : "00557"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#557"
  , "c1" : "MetadataRequest.Builder"
  , "c2" : "newMetadataRequestBuilder()"
  , "c3" : "1"
@@ -342,8 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00444"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#444"
+ , "c5" : "00567"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#567"
  , "c1" : "MetadataRequest.Builder"
  , "c2" : "newMetadataRequestBuilderForNewTopics()"
  , "c3" : "1"
@@ -351,8 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00448"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#448"
+ , "c5" : "00571"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#571"
  , "c1" : "boolean"
  , "c2" : "retainTopic(String;boolean;long)"
  , "c3" : "1"
@@ -391,29 +391,29 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.clients.Metadata.update@POLYN251599.requestVersion" }
+{ "ligne" :  "R0:org.apache.kafka.clients.Metadata.update@POLYN252367.requestVersion" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.clients.Metadata.update@POLYN251599.response" }
+{ "ligne" :  "R1:org.apache.kafka.clients.Metadata.update@POLYN252367.response" }
 ,
-{ "ligne" :  "R2:org.apache.kafka.clients.Metadata.update@POLYN251599.isPartialUpdate" }
+{ "ligne" :  "R2:org.apache.kafka.clients.Metadata.update@POLYN252367.isPartialUpdate" }
 ,
-{ "ligne" :  "R3:org.apache.kafka.clients.Metadata.update@POLYN251599.nowMs" }
+{ "ligne" :  "R3:org.apache.kafka.clients.Metadata.update@POLYN252367.nowMs" }
 ]
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.clients.Metadata.update@POLYN251599 (R0 in line [00184],R1 in line [00184],R2 in line [00184],R3 in line [00184])" }
+{ "ligne" : "S0:org.apache.kafka.clients.Metadata.update@POLYN252367 (R0 in line [00263],R1 in line [00263],R2 in line [00263],R3 in line [00263])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.common.ClusterResource.clusterId@POLYN146889" }
+{ "ligne" : "S0:org.apache.kafka.common.ClusterResource.clusterId@POLYN147039" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.clients.Metadata.update@POLYN251599 (R0 in line [00184],R1 in line [00184],R2 in line [00184],R3 in line [00184])" }
+{ "ligne" : "S1:org.apache.kafka.clients.Metadata.update@POLYN252367 (R0 in line [00263],R1 in line [00263],R2 in line [00263],R3 in line [00263])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.clients.Metadata.update@POLYN251599 (R0 in line [00184],R1 in line [00184],R2 in line [00184],R3 in line [00184])" }
+{ "ligne" : "S1:org.apache.kafka.clients.Metadata.update@POLYN252367 (R0 in line [00263],R1 in line [00263],R2 in line [00263],R3 in line [00263])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.common.ClusterResource.clusterId@POLYN146889" }
+{ "ligne" : "S1:org.apache.kafka.common.ClusterResource.clusterId@POLYN147039" }
  ]
  } }
 ]
@@ -502,1312 +502,1312 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#56"
+ , "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#90"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00056] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.Metadata.Metadata@POLYN243506 the MagicNumber/String  0L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.clients.Metadata.Metadata@POLYN243506 the MagicNumber/String  0L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.Metadata.Metadata@POLYN243506 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.Metadata.Metadata@POLYN243506 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#65"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.Metadata.Metadata@POLYN243506 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.Metadata.Metadata@POLYN243506 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.Metadata.Metadata@POLYN243506 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#75"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00075] Lock statement on synchronized method fetch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#80"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00080] Lock statement on synchronized method timeToAllowUpdate"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#80"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method timeToAllowUpdate arguments long  nowMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.Metadata.timeToAllowUpdate@POLYN245010 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#85"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00085] Lock statement on synchronized method timeToNextUpdate"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#85"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method timeToNextUpdate arguments long  nowMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#85"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method timeToNextUpdate list of called methods Object monObjet|boolean updateRequestedN245604"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.Metadata.timeToNextUpdate@POLYN245507 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.Metadata.timeToNextUpdate@POLYN245507 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAVCWE476[00090] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#95"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00095] Lock statement on synchronized method requestUpdate"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.clients.Metadata.Metadata@POLYN244274 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.clients.Metadata.requestUpdate@POLYN246119 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.clients.Metadata.Metadata@POLYN244274 the MagicNumber/String  0L should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#97"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.clients.Metadata.Metadata@POLYN244274 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.clients.Metadata.Metadata@POLYN244274 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.clients.Metadata.Metadata@POLYN244274 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#100"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00100] Lock statement on synchronized method requestUpdateForNewTopics"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.clients.Metadata.Metadata@POLYN244274 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.clients.Metadata.requestUpdateForNewTopics@POLYN246286 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.clients.Metadata.requestUpdateForNewTopics@POLYN246286 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#109"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00109] Lock statement on synchronized method updateLastSeenEpochIfNewer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#109"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00109] For method updateLastSeenEpochIfNewer arguments TopicPartition  topicPartition|int  leaderEpoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#110"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String  'TopicPartition cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.clients.Metadata.Metadata@POLYN244274 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#111"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String  0 should be converted to const"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00111] Lock statement on synchronized method fetch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#112"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String  'Invalid leader epoch ' should be converted to const"
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#121"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00121] Lock statement on synchronized method timeToAllowUpdate"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#112"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String  ' (must be non-negative)' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#115"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String  'Determining if we should replace existing epoch {} with new epoch {} for partition {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#119"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String  'Not replacing null epoch with new epoch {} for partition {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#120"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#121"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00121] For method timeToAllowUpdate arguments long  nowMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String  'Updating last seen epoch from {} to {} for partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.clients.Metadata.timeToAllowUpdate@POLYN245778 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#124"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00133"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#133"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00133] Lock statement on synchronized method timeToNextUpdate"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String  'Not replacing existing epoch {} with new epoch {} for partition {}' should be converted to const"
+ , "c1" : "00133"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#133"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00133] For method timeToNextUpdate arguments long  nowMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#127"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00133"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#133"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00133] For method timeToNextUpdate list of called methods Object monObjet|boolean updateRequestedN246372"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#134"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00134] For method lastSeenLeaderEpoch arguments TopicPartition  topicPartition"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#139"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00139] Lock statement on synchronized method updateRequested"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#144"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00144] Lock statement on synchronized method partitionMetadataIfCurrent"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#144"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00144] For method partitionMetadataIfCurrent arguments TopicPartition  topicPartition"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#144"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00144] For method partitionMetadataIfCurrent list of called methods Object monObjet|java.util.Optional&lt;MetadataResponse.PartitionMetadata&gt; cache_partitionMetadataN249183"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.Metadata.partitionMetadataIfCurrent@POLYN248963 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.clients.Metadata.timeToNextUpdate@POLYN246275 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#157"
+ , "c1" : "00134"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#134"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.clients.Metadata.timeToNextUpdate@POLYN246275 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00145"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#145"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00157] Lock statement on synchronized method topicIds"
+ , "c3" : "QC-JAV000019[00145] Lock statement on synchronized method requestUpdate"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#161"
+ , "c1" : "00146"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#146"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.clients.Metadata.requestUpdate@POLYN246887 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#150"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00161] Lock statement on synchronized method currentLeader"
+ , "c3" : "QC-JAV000019[00150] Lock statement on synchronized method requestUpdateForNewTopics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#161"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00161] For method currentLeader arguments TopicPartition  topicPartition"
+ , "c1" : "00152"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#152"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.Metadata.requestUpdateForNewTopics@POLYN247054 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#161"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00161] For method currentLeader list of called methods Object monObjet|java.util.Optional&lt;MetadataResponse.PartitionMetadata&gt; partitionMetadataIfCurrentN249923"
+ , "c1" : "00153"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#153"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.Metadata.requestUpdateForNewTopics@POLYN247054 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#172"
+ , "c1" : "00167"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#167"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00172] Lock statement on synchronized method bootstrap"
+ , "c3" : "QC-JAV000019[00167] Lock statement on synchronized method updateLastSeenEpochIfNewer"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#172"
+ , "c1" : "00167"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#167"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00172] For method bootstrap arguments List&lt;InetSocketAddress &gt;  addresses"
+ , "c3" : "QC-JAV000006[00167] For method updateLastSeenEpochIfNewer arguments TopicPartition  topicPartition|int  leaderEpoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#172"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00172] For method bootstrap list of called methods Object monObjet|org.apache.kafka.clients.MetadataCache MetadataCache_bootstrapN250888"
+ , "c1" : "00168"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#168"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String  'TopicPartition cannot be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String  'Invalid leader epoch ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String  ' (must be non-negative)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.clients.Metadata.bootstrap@POLYN250633 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String  'Determining if we should replace existing epoch {} with new epoch {} for partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#174"
+ , "c1" : "00176"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.clients.Metadata.bootstrap@POLYN250633 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#179"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00179] Lock statement on synchronized method updateWithCurrentRequestVersion"
+ , "c1" : "00177"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String  'Not replacing null epoch with new epoch {} for partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#179"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00179] For method updateWithCurrentRequestVersion arguments MetadataResponse  response|boolean  isPartialUpdate|long  nowMs"
+ , "c1" : "00178"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#178"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00180"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#180"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String  'Updating last seen epoch from {} to {} for partition {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00182"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#182"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00184"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#184"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00184] Lock statement on synchronized method update"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#184"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00184] For method update arguments int  requestVersion|MetadataResponse  response|boolean  isPartialUpdate|long  nowMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#184"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00184] For method update list of called methods Object monObjet|org.apache.kafka.clients.MetadataCache handleMetadataResponseN252502"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String  'Not replacing existing epoch {} with new epoch {} for partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00185"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.clients.Metadata.update@POLYN251599 the MagicNumber/String  'Metadata response cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.clients.Metadata.update@POLYN251599 the MagicNumber/String  'Update requested after metadata close' should be converted to const"
+ , "c1" : "00192"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#192"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00192] For method lastSeenLeaderEpoch arguments TopicPartition  topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#191"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.clients.Metadata.update@POLYN251599 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#193"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.clients.Metadata.update@POLYN251599 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#204"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.clients.Metadata.update@POLYN251599 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00201"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#201"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00201] Lock statement on synchronized method updateRequested"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#208"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.clients.Metadata.update@POLYN251599 the MagicNumber/String  'Cluster ID: {}' should be converted to const"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00208] Lock statement on synchronized method partitionMetadataIfCurrent"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#212"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.clients.Metadata.update@POLYN251599 the MagicNumber/String  'Updated cluster metadata updateVersion {} to {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00215"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#215"
+ , "c1" : "00208"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#208"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00215] For method maybeSetMetadataError arguments Cluster  cluster"
+ , "c3" : "QC-JAV000006[00208] For method partitionMetadataIfCurrent arguments TopicPartition  topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#221"
+ , "c1" : "00208"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#208"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00221] For method checkInvalidTopics arguments Cluster  cluster"
+ , "c3" : "QC-JAV000007[00208] For method partitionMetadataIfCurrent list of called methods Object monObjet|java.util.Optional&lt;MetadataResponse.PartitionMetadata&gt; cache_partitionMetadataN249951"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#221"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00221] The argument cluster is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00211"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#211"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.clients.Metadata.partitionMetadataIfCurrent@POLYN249731 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00223"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#223"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00223] Lock statement on synchronized method topicIds"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00227"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#227"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00227] Lock statement on synchronized method currentLeader"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00227"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#227"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00227] For method currentLeader arguments TopicPartition  topicPartition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00227"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#227"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00227] For method currentLeader list of called methods Object monObjet|java.util.Optional&lt;MetadataResponse.PartitionMetadata&gt; partitionMetadataIfCurrentN250691"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00238"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#238"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00238] Lock statement on synchronized method bootstrap"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00238"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#238"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00238] For method bootstrap arguments List&lt;InetSocketAddress &gt;  addresses"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00238"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#238"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00238] For method bootstrap list of called methods Object monObjet|org.apache.kafka.clients.MetadataCache MetadataCache_bootstrapN251656"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00239"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#239"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.clients.Metadata.checkInvalidTopics@POLYN253746 the MagicNumber/String  'Metadata response reported invalid topics {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.clients.Metadata.bootstrap@POLYN251401 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00228"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#228"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00228] For method checkUnauthorizedTopics arguments Cluster  cluster"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00228"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#228"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00228] The argument cluster is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#230"
+ , "c1" : "00240"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.clients.Metadata.checkUnauthorizedTopics@POLYN254147 the MagicNumber/String  'Topic authorization failed for topics {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#236"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00236] For method handleMetadataResponse arguments MetadataResponse  metadataResponse|boolean  isPartialUpdate|long  nowMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#236"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00236] For method handleMetadataResponse list of called methods Object monObjet|org.apache.kafka.clients.MetadataCache metadata_topicN255618|org.apache.kafka.clients.MetadataCache metadata_topicIdN255693|java.util.Map&lt;java.lang.Integer,org.apache.kafka.common.Node&gt; metadataResponse_brokersByIdN257877"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#236"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00236] The argument metadataResponse is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.clients.Metadata.bootstrap@POLYN251401 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00249"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#249"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00249] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00249] Lock statement on synchronized method updateWithCurrentRequestVersion"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#250"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00250] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#253"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00253] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00268"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#268"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00268] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#274"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00274] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00281"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#281"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00281] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#274"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00274] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#253"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN254603 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00258"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#258"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN254603 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00275"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#275"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN254603 the MagicNumber/String  'Requesting metadata update for partition {} due to error {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00282"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#282"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN254603 the MagicNumber/String  'Requesting metadata update for topic {} due to error {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00304"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#304"
+ , "c1" : "00249"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#249"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00304] For method updateLatestMetadata arguments MetadataResponse.PartitionMetadata  partitionMetadata|boolean  hasReliableLeaderEpoch|Uuid  topicId|Uuid  oldTopicId"
+ , "c3" : "QC-JAV000006[00249] For method updateWithCurrentRequestVersion arguments MetadataResponse  response|boolean  isPartialUpdate|long  nowMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00305"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#305"
+ , "c1" : "00263"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#263"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00263] Lock statement on synchronized method update"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00263"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#263"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00263] For method update arguments int  requestVersion|MetadataResponse  response|boolean  isPartialUpdate|long  nowMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00263"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#263"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00263] For method update list of called methods Object monObjet|org.apache.kafka.clients.MetadataCache handleMetadataResponseN253270"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#264"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.clients.Metadata.update@POLYN252367 the MagicNumber/String  'Metadata response cannot be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00266"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#266"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.clients.Metadata.update@POLYN252367 the MagicNumber/String  'Update requested after metadata close' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00270"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#270"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.clients.Metadata.update@POLYN252367 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00272"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#272"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.clients.Metadata.update@POLYN252367 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00283"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#283"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.clients.Metadata.update@POLYN252367 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00287"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#287"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.clients.Metadata.update@POLYN252367 the MagicNumber/String  'Cluster ID: {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00291"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#291"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.clients.Metadata.update@POLYN252367 the MagicNumber/String  'Updated cluster metadata updateVersion {} to {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00294"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#294"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00294] For method maybeSetMetadataError arguments Cluster  cluster"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00300"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#300"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00300] For method checkInvalidTopics arguments Cluster  cluster"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00300"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#300"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00305] The argument partitionMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00300] The argument cluster is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00313"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#313"
+ , "c1" : "00302"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN258848 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.clients.Metadata.checkInvalidTopics@POLYN254514 the MagicNumber/String  'Metadata response reported invalid topics {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00318"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#318"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN258848 the MagicNumber/String  'Resetting the last seen epoch of partition {} to {} since the associated topicId changed from {} to {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00322"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#322"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN258848 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00324"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#324"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN258848 the MagicNumber/String  'Updating last seen epoch for partition {} from {} to epoch {} from new metadata' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00329"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#329"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN258848 the MagicNumber/String  'Got metadata for an older epoch {} (current is {}) for partition {}, not updating' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00340"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#340"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00340] Lock statement on synchronized method maybeThrowAnyException"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00345"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#345"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00345] Lock statement on synchronized method maybeThrowFatalException"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00347"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#347"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.clients.Metadata.maybeThrowFatalException@POLYN261092 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00348"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#348"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.clients.Metadata.maybeThrowFatalException@POLYN261092 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00354"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#354"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00354] Lock statement on synchronized method maybeThrowExceptionForTopic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00354"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#354"
+ , "c1" : "00307"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#307"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00354] For method maybeThrowExceptionForTopic arguments String  topic"
+ , "c3" : "QC-JAV000006[00307] For method checkUnauthorizedTopics arguments Cluster  cluster"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00358"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#358"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00358] For method clearErrorsAndMaybeThrowException arguments Supplier&lt;KafkaException &gt;  recoverableExceptionSupplier"
+ , "c1" : "00307"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#307"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00307] The argument cluster is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00360"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#360"
+ , "c1" : "00309"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.clients.Metadata.clearErrorsAndMaybeThrowException@POLYN261739 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.clients.Metadata.checkUnauthorizedTopics@POLYN254915 the MagicNumber/String  'Topic authorization failed for topics {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00317"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#317"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00317] For method handleMetadataResponse arguments MetadataResponse  metadataResponse|boolean  isPartialUpdate|long  nowMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00317"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#317"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00317] For method handleMetadataResponse list of called methods Object monObjet|org.apache.kafka.clients.MetadataCache metadata_topicN256386|org.apache.kafka.clients.MetadataCache metadata_topicIdN256461|java.util.Map&lt;java.lang.Integer,org.apache.kafka.common.Node&gt; metadataResponse_brokersByIdN258645"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00317"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#317"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00317] The argument metadataResponse is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00330"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#330"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00330] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00331"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#331"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00331] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00334"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#334"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00334] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00349"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#349"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00349] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00355"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#355"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00355] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00362"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.clients.Metadata.clearErrorsAndMaybeThrowException@POLYN261739 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00362] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00373"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#373"
+ , "c1" : "00355"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#355"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.clients.Metadata.recoverableException@POLYN262155 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00355] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00376"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#376"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00376] For method recoverableExceptionForTopic arguments String  topic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00382"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#382"
+ , "c1" : "00334"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.clients.Metadata.recoverableExceptionForTopic@POLYN262509 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN255371 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00391"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#391"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00391] Lock statement on synchronized method failedUpdate"
+ , "c1" : "00339"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#339"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN255371 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00391"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#391"
+ , "c1" : "00356"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#356"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN255371 the MagicNumber/String  'Requesting metadata update for partition {} due to error {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00363"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#363"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN255371 the MagicNumber/String  'Requesting metadata update for topic {} due to error {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00388"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#388"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00391] For method failedUpdate arguments long  now"
+ , "c3" : "QC-JAV000006[00388] For method updateLatestMetadata arguments MetadataResponse.PartitionMetadata  partitionMetadata|boolean  hasReliableLeaderEpoch|Uuid  topicId|Uuid  oldTopicId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00396"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#396"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00396] Lock statement on synchronized method fatalError"
+ , "c1" : "00389"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#389"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00389] The argument partitionMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00396"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#396"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00396] For method fatalError arguments KafkaException  exception"
+ , "c1" : "00397"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#397"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN259616 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00401"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#401"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00401] Lock statement on synchronized method updateVersion"
+ , "c1" : "00402"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#402"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN259616 the MagicNumber/String  'Resetting the last seen epoch of partition {} to {} since the associated topicId changed from {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00406"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#406"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00406] Lock statement on synchronized method lastSuccessfulUpdate"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN259616 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00412"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#412"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00412] Lock statement on synchronized method close"
+ , "c1" : "00408"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#408"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN259616 the MagicNumber/String  'Updating last seen epoch for partition {} from {} to epoch {} from new metadata' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00413"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#413"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.clients.Metadata.close@POLYN264013 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN259616 the MagicNumber/String  'Got metadata for an older epoch {} (current is {}) for partition {}, not updating' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00417"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#417"
+ , "c1" : "00428"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#428"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00417] Lock statement on synchronized method isClosed"
+ , "c3" : "QC-JAV000019[00428] Lock statement on synchronized method maybeThrowAnyException"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00421"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#421"
+ , "c1" : "00437"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#437"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00421] Lock statement on synchronized method newMetadataRequestAndVersion"
+ , "c3" : "QC-JAV000019[00437] Lock statement on synchronized method maybeThrowFatalException"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00421"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#421"
+ , "c1" : "00439"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#439"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.clients.Metadata.maybeThrowFatalException@POLYN261860 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00440"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#440"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00440] In method org.apache.kafka.clients.Metadata.maybeThrowFatalException@POLYN261860 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00450"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#450"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00450] Lock statement on synchronized method maybeThrowExceptionForTopic"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00450"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#450"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00421] For method newMetadataRequestAndVersion arguments long  nowMs"
+ , "c3" : "QC-JAV000006[00450] For method maybeThrowExceptionForTopic arguments String  topic"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00421"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#421"
+ , "c1" : "00454"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#454"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00421] For method newMetadataRequestAndVersion list of called methods Object monObjet|org.apache.kafka.common.requests.MetadataRequest.Builder newMetadataRequestBuilderForNewTopicsN264737|org.apache.kafka.common.requests.MetadataRequest.Builder newMetadataRequestBuilderN264935"
+ , "c3" : "QC-JAV000006[00454] For method clearErrorsAndMaybeThrowException arguments Supplier&lt;KafkaException &gt;  recoverableExceptionSupplier"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00422"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#422"
+ , "c1" : "00456"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#456"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN264365 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00456] In method org.apache.kafka.clients.Metadata.clearErrorsAndMaybeThrowException@POLYN262507 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00423"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#423"
+ , "c1" : "00458"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#458"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN264365 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.clients.Metadata.clearErrorsAndMaybeThrowException@POLYN262507 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00429"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#429"
+ , "c1" : "00469"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#469"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN264365 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00469] In method org.apache.kafka.clients.Metadata.recoverableException@POLYN262923 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00431"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#431"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00431] In method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN264365 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00433"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#433"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00433] In method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN264365 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00445"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#445"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00445] In method org.apache.kafka.clients.Metadata.newMetadataRequestBuilderForNewTopics@POLYN265540 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00448"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#448"
+ , "c1" : "00472"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#472"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00448] For method retainTopic arguments String  topic|boolean  isInternal|long  nowMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00449"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#449"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00449] In method org.apache.kafka.clients.Metadata.retainTopic@POLYN265628 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00483"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#483"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00483] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00485"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#485"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00485] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00484"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#484"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00484] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.equals@POLYN267321 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00485"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#485"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00485] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.equals@POLYN267321 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00485"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#485"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00485] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.equals@POLYN267321 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00489"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#489"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.equals@POLYN267321 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00494"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#494"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00494] For method hashCode list of called methods Object monObjet|int leader_hashCodeN268022"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00496"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#496"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.hashCode@POLYN267947 the MagicNumber/String  31 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00502"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#502"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.toString@POLYN268242 the MagicNumber/String  'LeaderAndEpoch{' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00503"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#503"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.toString@POLYN268242 the MagicNumber/String  'leader=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00504"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#504"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.toString@POLYN268242 the MagicNumber/String  ', epoch=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00504"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#504"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.toString@POLYN268242 the MagicNumber/String  'absent' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00505"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#505"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00505] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.toString@POLYN268242 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000006[00472] For method recoverableExceptionForTopic arguments String  topic"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00478"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#478"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.clients.Metadata.recoverableExceptionForTopic@POLYN263277 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00490"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#490"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00490] Lock statement on synchronized method failedUpdate"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00490"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#490"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00490] For method failedUpdate arguments long  now"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00500"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#500"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00500] Lock statement on synchronized method fatalError"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00500"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#500"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00500] For method fatalError arguments KafkaException  exception"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00507"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#507"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00507] Lock statement on synchronized method updateVersion"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00514"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#514"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00514] Lock statement on synchronized method lastSuccessfulUpdate"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00522"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#522"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00522] Lock statement on synchronized method close"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00523"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#523"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.clients.Metadata.close@POLYN264781 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00531"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#531"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00531] Lock statement on synchronized method isClosed"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00535"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#535"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00535] Lock statement on synchronized method newMetadataRequestAndVersion"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00535"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#535"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00535] For method newMetadataRequestAndVersion arguments long  nowMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00535"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#535"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00535] For method newMetadataRequestAndVersion list of called methods Object monObjet|org.apache.kafka.common.requests.MetadataRequest.Builder newMetadataRequestBuilderForNewTopicsN265505|org.apache.kafka.common.requests.MetadataRequest.Builder newMetadataRequestBuilderN265703"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00536"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#536"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00536] In method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN265133 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00537"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#537"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN265133 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00543"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#543"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN265133 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00545"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#545"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN265133 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00547"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#547"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN265133 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00568"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#568"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00568] In method org.apache.kafka.clients.Metadata.newMetadataRequestBuilderForNewTopics@POLYN266308 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00571"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#571"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00571] For method retainTopic arguments String  topic|boolean  isInternal|long  nowMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00572"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#572"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00572] In method org.apache.kafka.clients.Metadata.retainTopic@POLYN266396 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00611"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#611"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00611] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00613"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#613"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00613] The same method call o.getClass() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00612"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#612"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00612] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.equals@POLYN268089 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00613"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#613"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00613] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.equals@POLYN268089 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00613"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#613"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00613] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.equals@POLYN268089 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00617"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#617"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00617] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.equals@POLYN268089 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00622"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#622"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00622] For method hashCode list of called methods Object monObjet|int leader_hashCodeN268790"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00624"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#624"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00624] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.hashCode@POLYN268715 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00630"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#630"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00630] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.toString@POLYN269010 the MagicNumber/String  'LeaderAndEpoch{' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00631"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#631"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00631] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.toString@POLYN269010 the MagicNumber/String  'leader=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00632"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#632"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00632] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.toString@POLYN269010 the MagicNumber/String  ', epoch=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00632"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#632"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00632] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.toString@POLYN269010 the MagicNumber/String  'absent' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00633"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#633"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00633] In method org.apache.kafka.clients.Metadata.LeaderAndEpoch.toString@POLYN269010 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00606"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#606"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00478] Public method noLeaderOrEpoch is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00606] Public method noLeaderOrEpoch is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.clients.Metadata.update@POLYN251599.requestVersion"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.clients.Metadata.update@POLYN252367.requestVersion"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.clients.Metadata.update@POLYN251599.response"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.clients.Metadata.update@POLYN252367.response"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.clients.Metadata.update@POLYN251599.isPartialUpdate"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.clients.Metadata.update@POLYN252367.isPartialUpdate"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.clients.Metadata.update@POLYN251599.nowMs"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.clients.Metadata.update@POLYN252367.nowMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.topicIds@POLYN249686"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.topicIds@POLYN250454"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN254603"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN255371"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN258848"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN259616"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.checkInvalidTopics@POLYN253746"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.checkInvalidTopics@POLYN254514"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.checkUnauthorizedTopics@POLYN254147"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.checkUnauthorizedTopics@POLYN254915"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.update@POLYN251599"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.update@POLYN252367"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN264365"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN265133"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.partitionMetadataIfCurrent@POLYN248963"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.partitionMetadataIfCurrent@POLYN249731"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.fetch@POLYN244726"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.fetch@POLYN245494"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#253"
+ , "c1" : "00334"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#334"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN254603 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00334] In the recursive method org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN255371 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00258"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#258"
+ , "c1" : "00339"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#339"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00258] In the recursive method org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN254603 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00339] In the recursive method org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN255371 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00275"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#275"
+ , "c1" : "00356"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#356"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00275] In the recursive method org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN254603 the MagicNumber/String 'Requesting metadata update for partition {} due to error {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00356] In the recursive method org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN255371 the MagicNumber/String 'Requesting metadata update for partition {} due to error {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00282"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#282"
+ , "c1" : "00363"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#363"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00282] In the recursive method org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN254603 the MagicNumber/String 'Requesting metadata update for topic {} due to error {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00363] In the recursive method org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN255371 the MagicNumber/String 'Requesting metadata update for topic {} due to error {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00313"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#313"
+ , "c1" : "00397"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#397"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00313] In the recursive method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN258848 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00397] In the recursive method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN259616 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00318"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#318"
+ , "c1" : "00402"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#402"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00318] In the recursive method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN258848 the MagicNumber/String 'Resetting the last seen epoch of partition {} to {} since the associated topicId changed from {} to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00402] In the recursive method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN259616 the MagicNumber/String 'Resetting the last seen epoch of partition {} to {} since the associated topicId changed from {} to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00322"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#322"
+ , "c1" : "00406"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#406"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00322] In the recursive method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN258848 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00406] In the recursive method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN259616 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00324"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#324"
+ , "c1" : "00408"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#408"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00324] In the recursive method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN258848 the MagicNumber/String 'Updating last seen epoch for partition {} from {} to epoch {} from new metadata' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00408] In the recursive method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN259616 the MagicNumber/String 'Updating last seen epoch for partition {} from {} to epoch {} from new metadata' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00329"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#329"
+ , "c1" : "00413"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#413"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00329] In the recursive method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN258848 the MagicNumber/String 'Got metadata for an older epoch {} -current is {}- for partition {}, not updating' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00413] In the recursive method org.apache.kafka.clients.Metadata.updateLatestMetadata@POLYN259616 the MagicNumber/String 'Got metadata for an older epoch {} -current is {}- for partition {}, not updating' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00223"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#223"
+ , "c1" : "00302"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#302"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00223] In the recursive method org.apache.kafka.clients.Metadata.checkInvalidTopics@POLYN253746 the MagicNumber/String 'Metadata response reported invalid topics {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00302] In the recursive method org.apache.kafka.clients.Metadata.checkInvalidTopics@POLYN254514 the MagicNumber/String 'Metadata response reported invalid topics {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#230"
+ , "c1" : "00309"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#309"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00230] In the recursive method org.apache.kafka.clients.Metadata.checkUnauthorizedTopics@POLYN254147 the MagicNumber/String 'Topic authorization failed for topics {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.clients.Metadata.checkUnauthorizedTopics@POLYN254915 the MagicNumber/String 'Topic authorization failed for topics {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00264] In the recursive method org.apache.kafka.clients.Metadata.update@POLYN252367 the MagicNumber/String 'Metadata response cannot be null' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00266"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#266"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00266] In the recursive method org.apache.kafka.clients.Metadata.update@POLYN252367 the MagicNumber/String 'Update requested after metadata close' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00270"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#270"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00270] In the recursive method org.apache.kafka.clients.Metadata.update@POLYN252367 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00272"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#272"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00272] In the recursive method org.apache.kafka.clients.Metadata.update@POLYN252367 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00283"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#283"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00283] In the recursive method org.apache.kafka.clients.Metadata.update@POLYN252367 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00287"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#287"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00287] In the recursive method org.apache.kafka.clients.Metadata.update@POLYN252367 the MagicNumber/String 'Cluster ID: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00291"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#291"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00291] In the recursive method org.apache.kafka.clients.Metadata.update@POLYN252367 the MagicNumber/String 'Updated cluster metadata updateVersion {} to {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00536"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#536"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00536] In the recursive method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN265133 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00537"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#537"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00537] In the recursive method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN265133 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00543"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#543"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00543] In the recursive method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN265133 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00545"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#545"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00545] In the recursive method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN265133 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00547"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#547"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00547] In the recursive method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN265133 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00211] In the recursive method org.apache.kafka.clients.Metadata.partitionMetadataIfCurrent@POLYN249731 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00168"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#168"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String 'TopicPartition cannot be null' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#169"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00169] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#170"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00170] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String ' -must be non-negative-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#170"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00170] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String 'Invalid leader epoch ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00173"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#173"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String 'Determining if we should replace existing epoch {} with new epoch {} for partition {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00176"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#176"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00176] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String 'Not replacing null epoch with new epoch {} for partition {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00178"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#178"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00178] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00180"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#180"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00180] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String 'Updating last seen epoch from {} to {} for partition {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00182"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#182"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00182] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#184"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00184] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String 'Not replacing existing epoch {} with new epoch {} for partition {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00185"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#185"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00185] In the recursive method org.apache.kafka.clients.Metadata.update@POLYN251599 the MagicNumber/String 'Metadata response cannot be null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#187"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.clients.Metadata.update@POLYN251599 the MagicNumber/String 'Update requested after metadata close' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#191"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.clients.Metadata.update@POLYN251599 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#193"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00193] In the recursive method org.apache.kafka.clients.Metadata.update@POLYN251599 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#204"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.clients.Metadata.update@POLYN251599 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#208"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00208] In the recursive method org.apache.kafka.clients.Metadata.update@POLYN251599 the MagicNumber/String 'Cluster ID: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#212"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00212] In the recursive method org.apache.kafka.clients.Metadata.update@POLYN251599 the MagicNumber/String 'Updated cluster metadata updateVersion {} to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00422"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#422"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00422] In the recursive method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN264365 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00423"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#423"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00423] In the recursive method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN264365 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00429"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#429"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00429] In the recursive method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN264365 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00431"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#431"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00431] In the recursive method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN264365 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00433"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#433"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00433] In the recursive method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN264365 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#147"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00147] In the recursive method org.apache.kafka.clients.Metadata.partitionMetadataIfCurrent@POLYN248963 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#110"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String 'TopicPartition cannot be null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#111"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#112"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00112] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String ' -must be non-negative-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#112"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00112] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String 'Invalid leader epoch ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#115"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String 'Determining if we should replace existing epoch {} with new epoch {} for partition {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#118"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00118] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#119"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String 'Not replacing null epoch with new epoch {} for partition {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#120"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#122"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00122] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String 'Updating last seen epoch from {} to {} for partition {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#124"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#126"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00126] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String 'Not replacing existing epoch {} with new epoch {} for partition {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#127"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN246838 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00185] In the recursive method org.apache.kafka.clients.Metadata.updateLastSeenEpochIfNewer@POLYN247606 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

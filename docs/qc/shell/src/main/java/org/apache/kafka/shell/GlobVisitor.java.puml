@@ -2,8 +2,8 @@
 !pragma layout smetana
 "Consumer<MetadataNodeManager.Data>" <|-- "org.apache.kafka.shell.GlobVisitor"
 class org.apache.kafka.shell.GlobVisitor {
-+GlobVisitor(String;Consumer<Optional<MetadataNodeInfo>>) : GlobVisitor [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#17]]]
-+accept(MetadataNodeManager.Data) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#79]]]
--accept(List<String>;int;MetadataNode;String[]) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#89]]]
++GlobVisitor(String;Consumer<Optional<MetadataNodeInfo>>) : GlobVisitor [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#34]]]
++accept(MetadataNodeManager.Data) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#96]]]
+-accept(List<String>;int;MetadataNode;String[]) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#106]]]
 } 
 @enduml

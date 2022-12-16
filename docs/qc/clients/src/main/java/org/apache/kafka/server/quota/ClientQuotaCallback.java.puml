@@ -2,12 +2,12 @@
 !pragma layout smetana
 "Configurable" <|-- "org.apache.kafka.server.quota.ClientQuotaCallback"
 class org.apache.kafka.server.quota.ClientQuotaCallback {
-quotaMetricTags(ClientQuotaType;KafkaPrincipal;String) : Map<String,String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#14]]]
-quotaLimit(ClientQuotaType;Map<String,String>) : Double [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#17]]]
-updateQuota(ClientQuotaType;ClientQuotaEntity;double) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#20]]]
-removeQuota(ClientQuotaType;ClientQuotaEntity) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#23]]]
-quotaResetRequired(ClientQuotaType) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#26]]]
-updateClusterMetadata(Cluster) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#29]]]
-close() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#32]]]
+quotaMetricTags(ClientQuotaType;KafkaPrincipal;String) : Map<String,String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#40]]]
+quotaLimit(ClientQuotaType;Map<String,String>) : Double [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#56]]]
+updateQuota(ClientQuotaType;ClientQuotaEntity;double) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#67]]]
+removeQuota(ClientQuotaType;ClientQuotaEntity) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#77]]]
+quotaResetRequired(ClientQuotaType) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#91]]]
+updateClusterMetadata(Cluster) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#103]]]
+close() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#108]]]
 } 
 @enduml

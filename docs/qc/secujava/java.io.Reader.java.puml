@@ -2,17 +2,17 @@
 !pragma layout smetana
 "Readable" <|-- "java.io.Reader"
 class java.io.Reader {
-Reader() : Reader [[[./../.././qc/secujava/java.io.Reader.java.html#14]]]
-Reader(Object) : Reader [[[./../.././qc/secujava/java.io.Reader.java.html#19]]]
-+read(java.nio.CharBuffer) : int [[[./../.././qc/secujava/java.io.Reader.java.html#27]]]
-+read() : int [[[./../.././qc/secujava/java.io.Reader.java.html#37]]]
-+read(char[]) : int [[[./../.././qc/secujava/java.io.Reader.java.html#46]]]
-+read(char[];int;int) : int [[[./../.././qc/secujava/java.io.Reader.java.html#51]]]
-+skip(long) : long [[[./../.././qc/secujava/java.io.Reader.java.html#60]]]
-+ready() : boolean [[[./../.././qc/secujava/java.io.Reader.java.html#79]]]
-+markSupported() : boolean [[[./../.././qc/secujava/java.io.Reader.java.html#84]]]
-+mark(int) : void [[[./../.././qc/secujava/java.io.Reader.java.html#89]]]
-+reset() : void [[[./../.././qc/secujava/java.io.Reader.java.html#94]]]
-+close() : void [[[./../.././qc/secujava/java.io.Reader.java.html#99]]]
+Reader() : Reader [[[./../.././qc/secujava/java.io.Reader.java.html#66]]]
+Reader(Object) : Reader [[[./../.././qc/secujava/java.io.Reader.java.html#76]]]
++read(java.nio.CharBuffer) : int [[[./../.././qc/secujava/java.io.Reader.java.html#97]]]
++read() : int [[[./../.././qc/secujava/java.io.Reader.java.html#119]]]
++read(char[]) : int [[[./../.././qc/secujava/java.io.Reader.java.html#139]]]
++read(char[];int;int) : int [[[./../.././qc/secujava/java.io.Reader.java.html#157]]]
++skip(long) : long [[[./../.././qc/secujava/java.io.Reader.java.html#176]]]
++ready() : boolean [[[./../.././qc/secujava/java.io.Reader.java.html#203]]]
++markSupported() : boolean [[[./../.././qc/secujava/java.io.Reader.java.html#214]]]
++mark(int) : void [[[./../.././qc/secujava/java.io.Reader.java.html#231]]]
++reset() : void [[[./../.././qc/secujava/java.io.Reader.java.html#248]]]
++close() : void [[[./../.././qc/secujava/java.io.Reader.java.html#260]]]
 } 
 @enduml

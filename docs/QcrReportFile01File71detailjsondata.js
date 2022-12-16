@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeClientQuotasResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClientQuotasResult.java.html#19"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClientQuotasResult.java.html#43"
  , "c1" : "DescribeClientQuotasResult"
  , "c2" : "DescribeClientQuotasResult(KafkaFuture<Map<ClientQuotaEntity,Map<String,Double>>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClientQuotasResult.java.html#24"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClientQuotasResult.java.html#50"
  , "c1" : "KafkaFuture<Map<ClientQuotaEntity,Map<String,Double>>>"
  , "c2" : "entities()"
  , "c3" : "1"

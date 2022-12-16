@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.stats.Value" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#12"
+ , "c5" : "00029"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#29"
  , "c1" : "double"
  , "c2" : "measure(MetricConfig;long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#17"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#34"
  , "c1" : "void"
  , "c2" : "record(MetricConfig;double;long)"
  , "c3" : "1"
@@ -77,17 +77,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#12"
+ , "c1" : "00029"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#29"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00012] For method measure arguments MetricConfig  config|long  now"
+ , "c3" : "QC-JAV000006[00029] For method measure arguments MetricConfig  config|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#17"
+ , "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method record arguments MetricConfig  config|double  value|long  timeMs"
+ , "c3" : "QC-JAV000006[00034] For method record arguments MetricConfig  config|double  value|long  timeMs"
 }} 
 ]
 , 

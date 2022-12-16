@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.Topology" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#32"
+ , "c5" : "00059"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#59"
  , "c1" : "Topology"
  , "c2" : "Topology()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#36"
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#63"
  , "c1" : "Topology"
  , "c2" : "Topology(TopologyConfig)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#40"
+ , "c5" : "00067"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#67"
  , "c1" : "Topology"
  , "c2" : "Topology(InternalTopologyBuilder)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#50"
+ , "c5" : "00093"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#93"
  , "c1" : "Topology"
  , "c2" : "addSource(String;String...)"
  , "c3" : "1"
@@ -54,82 +54,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#57"
+ , "c5" : "00113"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#113"
  , "c1" : "Topology"
  , "c2" : "addSource(String;Pattern)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#64"
- , "c1" : "Topology"
- , "c2" : "addSource(AutoOffsetReset;String;String...)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#72"
- , "c1" : "Topology"
- , "c2" : "addSource(AutoOffsetReset;String;Pattern)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#80"
- , "c1" : "Topology"
- , "c2" : "addSource(TimestampExtractor;String;String...)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#88"
- , "c1" : "Topology"
- , "c2" : "addSource(TimestampExtractor;String;Pattern)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00096"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#96"
- , "c1" : "Topology"
- , "c2" : "addSource(AutoOffsetReset;TimestampExtractor;String;String...)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00105"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#105"
- , "c1" : "Topology"
- , "c2" : "addSource(AutoOffsetReset;TimestampExtractor;String;Pattern)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00114"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#114"
- , "c1" : "Topology"
- , "c2" : "addSource(String;Deserializer<?>;Deserializer<?>;String...)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#123"
- , "c1" : "Topology"
- , "c2" : "addSource(String;Deserializer<?>;Deserializer<?>;Pattern)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -138,14 +66,86 @@ var maDataBlocs = {
  , "c5" : "00133"
  , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#133"
  , "c1" : "Topology"
+ , "c2" : "addSource(AutoOffsetReset;String;String...)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00155"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#155"
+ , "c1" : "Topology"
+ , "c2" : "addSource(AutoOffsetReset;String;Pattern)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00176"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#176"
+ , "c1" : "Topology"
+ , "c2" : "addSource(TimestampExtractor;String;String...)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00198"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#198"
+ , "c1" : "Topology"
+ , "c2" : "addSource(TimestampExtractor;String;Pattern)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00221"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#221"
+ , "c1" : "Topology"
+ , "c2" : "addSource(AutoOffsetReset;TimestampExtractor;String;String...)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00246"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#246"
+ , "c1" : "Topology"
+ , "c2" : "addSource(AutoOffsetReset;TimestampExtractor;String;Pattern)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00269"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#269"
+ , "c1" : "Topology"
+ , "c2" : "addSource(String;Deserializer<?>;Deserializer<?>;String...)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00295"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#295"
+ , "c1" : "Topology"
+ , "c2" : "addSource(String;Deserializer<?>;Deserializer<?>;Pattern)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00323"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#323"
+ , "c1" : "Topology"
  , "c2" : "addSource(AutoOffsetReset;String;Deserializer<?>;Deserializer<?>;String...)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00143"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#143"
+ , "c5" : "00351"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#351"
  , "c1" : "Topology"
  , "c2" : "addSource(AutoOffsetReset;String;Deserializer<?>;Deserializer<?>;Pattern)"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00154"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#154"
+ , "c5" : "00379"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#379"
  , "c1" : "Topology"
  , "c2" : "addSource(AutoOffsetReset;String;TimestampExtractor;Deserializer<?>;Deserializer<?>;String...)"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00166"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#166"
+ , "c5" : "00411"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#411"
  , "c1" : "Topology"
  , "c2" : "addSource(AutoOffsetReset;String;TimestampExtractor;Deserializer<?>;Deserializer<?>;Pattern)"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00177"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#177"
+ , "c5" : "00437"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#437"
  , "c1" : "Topology"
  , "c2" : "addSink(String;String;String...)"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00255"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#255"
+ , "c5" : "00679"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#679"
  , "c1" : "Topology"
  , "c2" : "addProcessor(String;org.apache.kafka.streams.processor.ProcessorSupplier;String...)"
  , "c3" : "1"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00290"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#290"
+ , "c5" : "00734"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#734"
  , "c1" : "Topology"
  , "c2" : "addStateStore(StoreBuilder<?>;String...)"
  , "c3" : "1"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00385"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#385"
+ , "c5" : "00938"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#938"
  , "c1" : "Topology"
  , "c2" : "connectProcessorAndStateStores(String;String...)"
  , "c3" : "1"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00393"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#393"
+ , "c5" : "00950"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#950"
  , "c1" : "TopologyDescription"
  , "c2" : "describe()"
  , "c3" : "1"
@@ -285,339 +285,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#50"
+ , "c1" : "00093"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#93"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00050] Lock statement on synchronized method addSource"
+ , "c3" : "QC-JAV000019[00093] Lock statement on synchronized method addSource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#50"
+ , "c1" : "00093"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#93"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method addSource arguments String  name|String  ...topics"
+ , "c3" : "QC-JAV000006[00093] For method addSource arguments String  name|String  ...topics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#52"
+ , "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.Topology.addSource@POLYN383652 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.Topology.addSource@POLYN386994 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#52"
+ , "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.Topology.addSource@POLYN383652 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.Topology.addSource@POLYN386994 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#52"
+ , "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.Topology.addSource@POLYN383652 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.Topology.addSource@POLYN386994 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#52"
+ , "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.Topology.addSource@POLYN383652 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.Topology.addSource@POLYN386994 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#57"
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#113"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00057] Lock statement on synchronized method addSource"
+ , "c3" : "QC-JAV000019[00113] Lock statement on synchronized method addSource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#57"
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#113"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method addSource arguments String  name|Pattern  topicPattern"
+ , "c3" : "QC-JAV000006[00113] For method addSource arguments String  name|Pattern  topicPattern"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#59"
+ , "c1" : "00115"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.Topology.addSource@POLYN384519 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.Topology.addSource@POLYN387861 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#59"
+ , "c1" : "00115"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.Topology.addSource@POLYN384519 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.Topology.addSource@POLYN387861 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#59"
+ , "c1" : "00115"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.Topology.addSource@POLYN384519 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.Topology.addSource@POLYN387861 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#59"
+ , "c1" : "00115"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.Topology.addSource@POLYN384519 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#64"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00064] Lock statement on synchronized method addSource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#64"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method addSource arguments AutoOffsetReset  offsetReset|String  name|String  ...topics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.Topology.addSource@POLYN385449 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.Topology.addSource@POLYN385449 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.Topology.addSource@POLYN385449 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#72"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00072] Lock statement on synchronized method addSource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#72"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method addSource arguments AutoOffsetReset  offsetReset|String  name|Pattern  topicPattern"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.Topology.addSource@POLYN386420 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.Topology.addSource@POLYN386420 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.Topology.addSource@POLYN386420 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#80"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00080] Lock statement on synchronized method addSource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#80"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method addSource arguments TimestampExtractor  timestampExtractor|String  name|String  ...topics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.Topology.addSource@POLYN387319 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.Topology.addSource@POLYN387319 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.Topology.addSource@POLYN387319 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#88"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00088] Lock statement on synchronized method addSource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#88"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method addSource arguments TimestampExtractor  timestampExtractor|String  name|Pattern  topicPattern"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.Topology.addSource@POLYN388233 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.Topology.addSource@POLYN388233 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.Topology.addSource@POLYN388233 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#96"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00096] Lock statement on synchronized method addSource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#96"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00096] For method addSource arguments AutoOffsetReset  offsetReset|TimestampExtractor  timestampExtractor|String  name|String  ...topics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.Topology.addSource@POLYN389216 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.Topology.addSource@POLYN389216 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#105"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00105] Lock statement on synchronized method addSource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#105"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method addSource arguments AutoOffsetReset  offsetReset|TimestampExtractor  timestampExtractor|String  name|Pattern  topicPattern"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.Topology.addSource@POLYN390240 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.Topology.addSource@POLYN390240 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#114"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00114] Lock statement on synchronized method addSource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#114"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00114] For method addSource arguments String  name|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|String  ...topics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.Topology.addSource@POLYN391231 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.Topology.addSource@POLYN391231 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#123"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00123] Lock statement on synchronized method addSource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#123"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00123] For method addSource arguments String  name|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|Pattern  topicPattern"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#127"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.Topology.addSource@POLYN392378 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#127"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.Topology.addSource@POLYN392378 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.Topology.addSource@POLYN387861 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -631,350 +379,602 @@ var maDataBlocs = {
  , "c1" : "00133"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#133"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00133] For method addSource arguments AutoOffsetReset  offsetReset|String  name|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|String  ...topics"
+ , "c3" : "QC-JAV000006[00133] For method addSource arguments AutoOffsetReset  offsetReset|String  name|String  ...topics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#138"
+ , "c1" : "00136"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.streams.Topology.addSource@POLYN393588 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.Topology.addSource@POLYN388791 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#143"
+ , "c1" : "00136"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#136"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.Topology.addSource@POLYN388791 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00136"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#136"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.Topology.addSource@POLYN388791 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#155"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00143] Lock statement on synchronized method addSource"
+ , "c3" : "QC-JAV000019[00155] Lock statement on synchronized method addSource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#143"
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method addSource arguments AutoOffsetReset  offsetReset|String  name|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|Pattern  topicPattern"
+ , "c3" : "QC-JAV000006[00155] For method addSource arguments AutoOffsetReset  offsetReset|String  name|Pattern  topicPattern"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#148"
+ , "c1" : "00158"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.Topology.addSource@POLYN394782 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.Topology.addSource@POLYN389762 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#154"
+ , "c1" : "00158"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#158"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.Topology.addSource@POLYN389762 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00158"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#158"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.Topology.addSource@POLYN389762 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00176"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#176"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00154] Lock statement on synchronized method addSource"
+ , "c3" : "QC-JAV000019[00176] Lock statement on synchronized method addSource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#154"
+ , "c1" : "00176"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#176"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00154] For method addSource arguments AutoOffsetReset  offsetReset|String  name|TimestampExtractor  timestampExtractor|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|String  ...topics"
+ , "c3" : "QC-JAV000006[00176] For method addSource arguments TimestampExtractor  timestampExtractor|String  name|String  ...topics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#166"
+ , "c1" : "00179"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#179"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.Topology.addSource@POLYN390661 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#179"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.Topology.addSource@POLYN390661 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#179"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.Topology.addSource@POLYN390661 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00198"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#198"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00166] Lock statement on synchronized method addSource"
+ , "c3" : "QC-JAV000019[00198] Lock statement on synchronized method addSource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#166"
+ , "c1" : "00198"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#198"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00166] For method addSource arguments AutoOffsetReset  offsetReset|String  name|TimestampExtractor  timestampExtractor|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|Pattern  topicPattern"
+ , "c3" : "QC-JAV000006[00198] For method addSource arguments TimestampExtractor  timestampExtractor|String  name|Pattern  topicPattern"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#177"
+ , "c1" : "00201"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#201"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.Topology.addSource@POLYN391575 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00201"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#201"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.Topology.addSource@POLYN391575 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00201"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#201"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.Topology.addSource@POLYN391575 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00221"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#221"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00177] Lock statement on synchronized method addSink"
+ , "c3" : "QC-JAV000019[00221] Lock statement on synchronized method addSource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#177"
+ , "c1" : "00221"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#221"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method addSink arguments String  name|String  topic|String  ...parentNames"
+ , "c3" : "QC-JAV000006[00221] For method addSource arguments AutoOffsetReset  offsetReset|TimestampExtractor  timestampExtractor|String  name|String  ...topics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#180"
+ , "c1" : "00225"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.Topology.addSink@POLYN398446 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.streams.Topology.addSource@POLYN392558 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#180"
+ , "c1" : "00225"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.Topology.addSink@POLYN398446 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.streams.Topology.addSource@POLYN392558 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#180"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.Topology.addSink@POLYN398446 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#185"
+ , "c1" : "00246"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#246"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00185] Lock statement on synchronized method "
+ , "c3" : "QC-JAV000019[00246] Lock statement on synchronized method addSource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#189"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#189"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#194"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00194] Lock statement on synchronized method "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#199"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#204"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00204] Lock statement on synchronized method "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00215"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#215"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00215] Lock statement on synchronized method "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#218"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#218"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#218"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00223"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#223"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00223] Lock statement on synchronized method "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00227"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#227"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00227"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#227"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00232"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#232"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00232] Lock statement on synchronized method "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00237"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#237"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00242"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#242"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00242] Lock statement on synchronized method "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00255"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#255"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00255] Lock statement on synchronized method addProcessor"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00255"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#255"
+ , "c1" : "00246"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#246"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00255] For method addProcessor arguments String  name|org.apache.kafka.streams.processor.ProcessorSupplier  supplier|String  ...parentNames"
+ , "c3" : "QC-JAV000006[00246] For method addSource arguments AutoOffsetReset  offsetReset|TimestampExtractor  timestampExtractor|String  name|Pattern  topicPattern"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#256"
+ , "c1" : "00250"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#250"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.streams.Topology.addSource@POLYN393582 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00250"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#250"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.streams.Topology.addSource@POLYN393582 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00269"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#269"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00269] Lock statement on synchronized method addSource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00269"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#269"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00269] For method addSource arguments String  name|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|String  ...topics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00273"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#273"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.streams.Topology.addSource@POLYN394573 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00273"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#273"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.streams.Topology.addSource@POLYN394573 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00295"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#295"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00295] Lock statement on synchronized method addSource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00295"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#295"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00295] For method addSource arguments String  name|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|Pattern  topicPattern"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00299"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#299"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.streams.Topology.addSource@POLYN395720 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00299"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#299"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.streams.Topology.addSource@POLYN395720 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00323"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#323"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00323] Lock statement on synchronized method addSource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00323"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#323"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00323] For method addSource arguments AutoOffsetReset  offsetReset|String  name|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|String  ...topics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00328"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#328"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.streams.Topology.addSource@POLYN396930 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00351"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#351"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00351] Lock statement on synchronized method addSource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00351"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#351"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00351] For method addSource arguments AutoOffsetReset  offsetReset|String  name|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|Pattern  topicPattern"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00356"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#356"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.streams.Topology.addSource@POLYN398124 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00379"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#379"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00379] Lock statement on synchronized method addSource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00379"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#379"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00379] For method addSource arguments AutoOffsetReset  offsetReset|String  name|TimestampExtractor  timestampExtractor|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|String  ...topics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00411"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#411"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00411] Lock statement on synchronized method addSource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00411"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#411"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00411] For method addSource arguments AutoOffsetReset  offsetReset|String  name|TimestampExtractor  timestampExtractor|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|Pattern  topicPattern"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00437"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#437"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00437] Lock statement on synchronized method addSink"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00437"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#437"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00437] For method addSink arguments String  name|String  topic|String  ...parentNames"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00440"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#440"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00440] In method org.apache.kafka.streams.Topology.addSink@POLYN401788 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00440"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#440"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00440] In method org.apache.kafka.streams.Topology.addSink@POLYN401788 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00440"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#440"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00440] In method org.apache.kafka.streams.Topology.addSink@POLYN401788 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00469"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#469"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00469] Lock statement on synchronized method "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00473"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#473"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00473"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#473"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00497"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#497"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00497] Lock statement on synchronized method "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00502"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#502"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00527"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#527"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00527] Lock statement on synchronized method "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00554"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#554"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00554] Lock statement on synchronized method "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00557"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#557"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00557] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00557"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#557"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00557] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00557"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#557"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00557] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00587"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#587"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00587] Lock statement on synchronized method "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00591"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#591"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00591] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00591"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#591"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00591] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00616"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#616"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00616] Lock statement on synchronized method "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00621"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#621"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00621] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00647"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#647"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00647] Lock statement on synchronized method "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00679"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#679"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00679] Lock statement on synchronized method addProcessor"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00679"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#679"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00679] For method addProcessor arguments String  name|org.apache.kafka.streams.processor.ProcessorSupplier  supplier|String  ...parentNames"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00680"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#680"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00256] The argument supplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00680] The argument supplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00276"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#276"
+ , "c1" : "00713"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#713"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00276] Lock statement on synchronized method "
+ , "c3" : "QC-JAV000019[00713] Lock statement on synchronized method "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00277"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#277"
+ , "c1" : "00714"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#714"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00277] The argument supplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00714] The argument supplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00281"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#281"
+ , "c1" : "00718"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#718"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00718] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00290"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#290"
+ , "c1" : "00734"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#734"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00290] Lock statement on synchronized method addStateStore"
+ , "c3" : "QC-JAV000019[00734] Lock statement on synchronized method addStateStore"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00290"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#290"
+ , "c1" : "00734"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#734"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00290] For method addStateStore arguments StoreBuilder&lt;? &gt;  storeBuilder|String  ...processorNames"
+ , "c3" : "QC-JAV000006[00734] For method addStateStore arguments StoreBuilder&lt;? &gt;  storeBuilder|String  ...processorNames"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00298"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#298"
+ , "c1" : "00770"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#770"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00298] Lock statement on synchronized method "
+ , "c3" : "QC-JAV000019[00770] Lock statement on synchronized method "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00304"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#304"
+ , "c1" : "00776"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#776"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00304] The argument stateUpdateSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00776] The argument stateUpdateSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00308"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#308"
+ , "c1" : "00780"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#780"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00780] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00320"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#320"
+ , "c1" : "00821"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#821"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00320] Lock statement on synchronized method "
+ , "c3" : "QC-JAV000019[00821] Lock statement on synchronized method "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00327"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#327"
+ , "c1" : "00828"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#828"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00327] The argument stateUpdateSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00828] The argument stateUpdateSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00342"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#342"
+ , "c1" : "00865"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#865"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00342] Lock statement on synchronized method "
+ , "c3" : "QC-JAV000019[00865] Lock statement on synchronized method "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00352"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#352"
+ , "c1" : "00875"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#875"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00875] In method org.apache.kafka.streams.Topology the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00363"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#363"
+ , "c1" : "00909"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#909"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00363] Lock statement on synchronized method "
+ , "c3" : "QC-JAV000019[00909] Lock statement on synchronized method "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00385"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#385"
+ , "c1" : "00938"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#938"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00385] Lock statement on synchronized method connectProcessorAndStateStores"
+ , "c3" : "QC-JAV000019[00938] Lock statement on synchronized method connectProcessorAndStateStores"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00385"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#385"
+ , "c1" : "00938"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#938"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00385] For method connectProcessorAndStateStores arguments String  processorName|String  ...stateStoreNames"
+ , "c3" : "QC-JAV000006[00938] For method connectProcessorAndStateStores arguments String  processorName|String  ...stateStoreNames"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00393"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#393"
+ , "c1" : "00950"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#950"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00393] Lock statement on synchronized method describe"
+ , "c3" : "QC-JAV000019[00950] Lock statement on synchronized method describe"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00255"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#255"
+ , "c1" : "00679"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#679"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00255] Public method addProcessor is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00679] Public method addProcessor is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

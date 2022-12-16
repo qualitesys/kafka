@@ -2,19 +2,19 @@
 !pragma layout smetana
 "FilterInputStream" <|-- "java.io.BufferedInputStream"
 class java.io.BufferedInputStream {
--getInIfOpen() : InputStream [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#37]]]
--getBufIfOpen() : byte[] [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#45]]]
-+BufferedInputStream(InputStream) : BufferedInputStream [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#53]]]
-+BufferedInputStream(InputStream;int) : BufferedInputStream [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#58]]]
--fill() : void [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#67]]]
-+read() : int [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#106]]]
--read1(byte[];int;int) : int [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#116]]]
-+read(byte[];int;int) : int [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#134]]]
-+skip(long) : long [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#160]]]
-+available() : int [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#185]]]
-+mark(int) : void [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#194]]]
-+reset() : void [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#200]]]
-+markSupported() : boolean [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#208]]]
-+close() : void [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#213]]]
+-getInIfOpen() : InputStream [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#156]]]
+-getBufIfOpen() : byte[] [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#167]]]
++BufferedInputStream(InputStream) : BufferedInputStream [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#182]]]
++BufferedInputStream(InputStream;int) : BufferedInputStream [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#198]]]
+-fill() : void [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#213]]]
++read() : int [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#263]]]
+-read1(byte[];int;int) : int [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#276]]]
++read(byte[];int;int) : int [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#333]]]
++skip(long) : long [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#367]]]
++available() : int [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#408]]]
++mark(int) : void [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#424]]]
++reset() : void [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#445]]]
++markSupported() : boolean [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#463]]]
++close() : void [[[./../.././qc/secujava/java.io.BufferedInputStream.java.html#476]]]
 } 
 @enduml

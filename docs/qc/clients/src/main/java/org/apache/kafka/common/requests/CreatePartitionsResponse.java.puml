@@ -2,11 +2,11 @@
 !pragma layout smetana
 "AbstractResponse" <|-- "org.apache.kafka.common.requests.CreatePartitionsResponse"
 class org.apache.kafka.common.requests.CreatePartitionsResponse {
-+CreatePartitionsResponse(CreatePartitionsResponseData) : CreatePartitionsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#18]]]
-+data() : CreatePartitionsResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#24]]]
-+errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#29]]]
-+parse(ByteBuffer;short) : CreatePartitionsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#37]]]
-+shouldClientThrottle(short) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#42]]]
-+throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#47]]]
++CreatePartitionsResponse(CreatePartitionsResponseData) : CreatePartitionsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#33]]]
++data() : CreatePartitionsResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#39]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#44]]]
++parse(ByteBuffer;short) : CreatePartitionsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#52]]]
++shouldClientThrottle(short) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#57]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsResponse.java.html#62]]]
 } 
 @enduml

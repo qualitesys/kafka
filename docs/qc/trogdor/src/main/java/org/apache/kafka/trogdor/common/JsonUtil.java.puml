@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.trogdor.common.JsonUtil"
 class org.apache.kafka.trogdor.common.JsonUtil {
-+toJsonString(Object) : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#28]]]
-+toPrettyJsonString(Object) : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#36]]]
-openBraceComesFirst(String) : boolean [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#45]]]
++toJsonString(Object) : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#45]]]
++toPrettyJsonString(Object) : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#53]]]
+openBraceComesFirst(String) : boolean [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#68]]]
 } 
 @enduml

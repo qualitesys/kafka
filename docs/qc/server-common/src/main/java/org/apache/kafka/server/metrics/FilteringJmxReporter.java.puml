@@ -2,8 +2,8 @@
 !pragma layout smetana
 "JmxReporter" <|-- "org.apache.kafka.server.metrics.FilteringJmxReporter"
 class org.apache.kafka.server.metrics.FilteringJmxReporter {
-+FilteringJmxReporter(MetricsRegistry;Predicate<MetricName>) : FilteringJmxReporter [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#16]]]
-+onMetricAdded(MetricName;Metric) : void [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#22]]]
-+updatePredicate(Predicate<MetricName>) : void [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#28]]]
++FilteringJmxReporter(MetricsRegistry;Predicate<MetricName>) : FilteringJmxReporter [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#31]]]
++onMetricAdded(MetricName;Metric) : void [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#37]]]
++updatePredicate(Predicate<MetricName>) : void [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#43]]]
 } 
 @enduml

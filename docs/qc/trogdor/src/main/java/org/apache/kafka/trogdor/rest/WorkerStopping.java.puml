@@ -2,10 +2,10 @@
 !pragma layout smetana
 "WorkerState" <|-- "org.apache.kafka.trogdor.rest.WorkerStopping"
 class org.apache.kafka.trogdor.rest.WorkerStopping {
-+WorkerStopping(String;TaskSpec;long;JsonNode) : WorkerStopping [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#20]]]
-+startedMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#31]]]
-+status() : JsonNode [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#37]]]
-+stopping() : boolean [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#42]]]
-+running() : boolean [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#47]]]
++WorkerStopping(String;TaskSpec;long;JsonNode) : WorkerStopping [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#42]]]
++startedMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#53]]]
++status() : JsonNode [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#59]]]
++stopping() : boolean [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#64]]]
++running() : boolean [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#69]]]
 } 
 @enduml

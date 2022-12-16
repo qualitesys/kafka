@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.authorizer.AuthorizerServerInfo" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#15"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#34"
  , "c1" : "ClusterResource"
  , "c2" : "clusterResource()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#18"
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#41"
  , "c1" : "int"
  , "c2" : "brokerId()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#21"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#47"
  , "c1" : "Collection<Endpoint>"
  , "c2" : "endpoints()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#24"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#52"
  , "c1" : "Endpoint"
  , "c2" : "interBrokerEndpoint()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#27"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#57"
  , "c1" : "Collection<String>"
  , "c2" : "earlyStartListeners()"
  , "c3" : "1"

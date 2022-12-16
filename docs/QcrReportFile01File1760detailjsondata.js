@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.SessionCacheFlushListener" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#32"
  , "c1" : "SessionCacheFlushListener"
  , "c2" : "SessionCacheFlushListener(ProcessorContext<Windowed<KOut>,Change<VOut>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#38"
  , "c1" : "void"
  , "c2" : "apply(Record<Windowed<KOut>,Change<VOut>>)"
  , "c3" : "1"
@@ -91,31 +91,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#17"
+ , "c1" : "00032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#32"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00017] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00032] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method apply arguments Record&lt;Windowed&lt;KOut &gt; ,Change&lt;VOut &gt; &gt;  record"
+ , "c3" : "QC-JAV000006[00038] For method apply arguments Record&lt;Windowed&lt;KOut &gt; ,Change&lt;VOut &gt; &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#38"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00023] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00038] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#24"
+ , "c1" : "00039"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.kstream.internals.SessionCacheFlushListener.apply@POLYN147331 the MagicNumber/String  'rawtypes' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.internals.SessionCacheFlushListener.apply@POLYN147421 the MagicNumber/String  'rawtypes' should be converted to const"
 }} 
 ]
 , 

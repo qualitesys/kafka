@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.UnalignedFileRecords" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html#16"
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html#33"
  , "c1" : "UnalignedFileRecords"
  , "c2" : "UnalignedFileRecords(FileChannel;long;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html#23"
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html#40"
  , "c1" : "int"
  , "c2" : "sizeInBytes()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html#28"
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html#45"
  , "c1" : "long"
  , "c2" : "writeTo(TransferableChannel;long;int)"
  , "c3" : "1"
@@ -93,17 +93,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html#28"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method writeTo arguments TransferableChannel  destChannel|long  previouslyWritten|int  remaining"
+ , "c3" : "QC-JAV000006[00045] For method writeTo arguments TransferableChannel  destChannel|long  previouslyWritten|int  remaining"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html#28"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html#45"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00028] The argument destChannel is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00045] The argument destChannel is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

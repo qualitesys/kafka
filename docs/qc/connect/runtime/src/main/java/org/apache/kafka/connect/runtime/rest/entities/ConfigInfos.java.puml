@@ -2,13 +2,13 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.connect.runtime.rest.entities.ConfigInfos"
 class org.apache.kafka.connect.runtime.rest.entities.ConfigInfos {
-+ConfigInfos(String;int;List<String>;List<ConfigInfo>) : ConfigInfos [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#25]]]
-+name() : String [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#36]]]
-+groups() : List<String> [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#41]]]
-+errorCount() : int [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#46]]]
-+values() : List<ConfigInfo> [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#51]]]
-+equals(Object) : boolean [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#56]]]
-+hashCode() : int [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#67]]]
-+toString() : String [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#72]]]
++ConfigInfos(String;int;List<String>;List<ConfigInfo>) : ConfigInfos [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#40]]]
++name() : String [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#51]]]
++groups() : List<String> [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#56]]]
++errorCount() : int [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#61]]]
++values() : List<ConfigInfo> [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#66]]]
++equals(Object) : boolean [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#71]]]
++hashCode() : int [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#82]]]
++toString() : String [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.html#87]]]
 } 
 @enduml

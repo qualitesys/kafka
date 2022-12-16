@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.CreateTopicsOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#18"
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#41"
  , "c1" : "CreateTopicsOptions"
  , "c2" : "timeoutMs(Integer)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#24"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#49"
  , "c1" : "CreateTopicsOptions"
  , "c2" : "validateOnly(boolean)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#30"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#57"
  , "c1" : "boolean"
  , "c2" : "shouldValidateOnly()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#36"
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#65"
  , "c1" : "CreateTopicsOptions"
  , "c2" : "retryOnQuotaViolation(boolean)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#42"
+ , "c5" : "00073"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#73"
  , "c1" : "boolean"
  , "c2" : "shouldRetryOnQuotaViolation()"
  , "c3" : "1"
@@ -104,24 +104,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#18"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method timeoutMs arguments Integer  timeoutMs"
+ , "c3" : "QC-JAV000006[00041] For method timeoutMs arguments Integer  timeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#24"
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method validateOnly arguments boolean  validateOnly"
+ , "c3" : "QC-JAV000006[00049] For method validateOnly arguments boolean  validateOnly"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#36"
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method retryOnQuotaViolation arguments boolean  retryOnQuotaViolation"
+ , "c3" : "QC-JAV000006[00065] For method retryOnQuotaViolation arguments boolean  retryOnQuotaViolation"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.internals.PartitionStates" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#25"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#57"
  , "c1" : "PartitionStates"
  , "c2" : "PartitionStates()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#27"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#59"
  , "c1" : "void"
  , "c2" : "moveToEnd(TopicPartition)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#33"
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#65"
  , "c1" : "void"
  , "c2" : "updateAndMoveToEnd(TopicPartition;S)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#39"
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#71"
  , "c1" : "void"
  , "c2" : "update(TopicPartition;S)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#44"
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#76"
  , "c1" : "void"
  , "c2" : "remove(TopicPartition)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#50"
+ , "c5" : "00085"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#85"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "partitionSet()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#54"
+ , "c5" : "00089"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#89"
  , "c1" : "void"
  , "c2" : "clear()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#59"
+ , "c5" : "00094"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#94"
  , "c1" : "boolean"
  , "c2" : "contains(TopicPartition)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#63"
+ , "c5" : "00098"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#98"
  , "c1" : "Iterator<S>"
  , "c2" : "stateIterator()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#67"
+ , "c5" : "00102"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#102"
  , "c1" : "void"
  , "c2" : "forEach(BiConsumer<TopicPartition,S>)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#71"
+ , "c5" : "00106"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#106"
  , "c1" : "Map<TopicPartition,S>"
  , "c2" : "partitionStateMap()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#76"
+ , "c5" : "00113"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#113"
  , "c1" : "List<S>"
  , "c2" : "partitionStateValues()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#80"
+ , "c5" : "00117"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#117"
  , "c1" : "S"
  , "c2" : "stateValue(TopicPartition)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#85"
+ , "c5" : "00124"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#124"
  , "c1" : "int"
  , "c2" : "size()"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#90"
+ , "c5" : "00134"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#134"
  , "c1" : "void"
  , "c2" : "set(Map<TopicPartition,S>)"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00096"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#96"
+ , "c5" : "00140"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#140"
  , "c1" : "void"
  , "c2" : "updateSize()"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00100"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#100"
+ , "c5" : "00144"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#144"
  , "c1" : "void"
  , "c2" : "update(Map<TopicPartition,S>)"
  , "c3" : "4"
@@ -240,171 +240,171 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#27"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method moveToEnd arguments TopicPartition  topicPartition"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#29"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.internals.PartitionStates.moveToEnd@POLYN169519 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#33"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method updateAndMoveToEnd arguments TopicPartition  topicPartition|S  state"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#39"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method update arguments TopicPartition  topicPartition|S  state"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method remove arguments TopicPartition  topicPartition"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method contains arguments TopicPartition  topicPartition"
+ , "c3" : "QC-JAV000006[00059] For method moveToEnd arguments TopicPartition  topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#67"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#61"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.internals.PartitionStates.moveToEnd@POLYN169783 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method forEach arguments BiConsumer&lt;TopicPartition ,S &gt;  biConsumer"
+ , "c3" : "QC-JAV000006[00065] For method updateAndMoveToEnd arguments TopicPartition  topicPartition|S  state"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#80"
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method stateValue arguments TopicPartition  topicPartition"
+ , "c3" : "QC-JAV000006[00071] For method update arguments TopicPartition  topicPartition|S  state"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#90"
+ , "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00090] For method set arguments Map&lt;TopicPartition ,S &gt;  partitionToState"
+ , "c3" : "QC-JAV000006[00076] For method remove arguments TopicPartition  topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#100"
+ , "c1" : "00094"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00100] For method update arguments Map&lt;TopicPartition ,S &gt;  partitionToState"
+ , "c3" : "QC-JAV000006[00094] For method contains arguments TopicPartition  topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#100"
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#102"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00102] For method forEach arguments BiConsumer&lt;TopicPartition ,S &gt;  biConsumer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#117"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00117] For method stateValue arguments TopicPartition  topicPartition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#134"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00134] For method set arguments Map&lt;TopicPartition ,S &gt;  partitionToState"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00144"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#144"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00144] For method update arguments Map&lt;TopicPartition ,S &gt;  partitionToState"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00144"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#144"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00100] The argument partitionToState is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00144] The argument partitionToState is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#103"
+ , "c1" : "00147"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00103] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00147] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#107"
+ , "c1" : "00151"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00107] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00151] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#108"
+ , "c1" : "00152"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00108] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00152] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#108"
+ , "c1" : "00152"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00108] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00152] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#128"
+ , "c1" : "00172"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#172"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00128] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00172] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#131"
+ , "c1" : "00175"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00131] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00175] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#130"
+ , "c1" : "00174"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.equals@POLYN174289 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.equals@POLYN174553 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#131"
+ , "c1" : "00175"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.equals@POLYN174289 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.equals@POLYN174553 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#132"
+ , "c1" : "00176"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.equals@POLYN174289 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.equals@POLYN174553 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#142"
+ , "c1" : "00186"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.hashCode@POLYN174889 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.hashCode@POLYN175153 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#152"
+ , "c1" : "00196"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.toString@POLYN175270 the MagicNumber/String  'PartitionState(' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.toString@POLYN175534 the MagicNumber/String  'PartitionState(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#152"
+ , "c1" : "00196"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.toString@POLYN175270 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.toString@POLYN175534 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#152"
+ , "c1" : "00196"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.toString@POLYN175270 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.toString@POLYN175534 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

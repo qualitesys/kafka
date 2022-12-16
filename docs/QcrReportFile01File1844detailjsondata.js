@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.TaskId" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#35"
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#52"
  , "c1" : "TaskId"
  , "c2" : "TaskId(int;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#39"
+ , "c5" : "00056"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#56"
  , "c1" : "TaskId"
  , "c2" : "TaskId(int;int;String)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#51"
+ , "c5" : "00068"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#68"
  , "c1" : "int"
  , "c2" : "subtopology()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#55"
+ , "c5" : "00072"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#72"
  , "c1" : "int"
  , "c2" : "partition()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#60"
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#79"
  , "c1" : "String"
  , "c2" : "topologyName()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#65"
+ , "c5" : "00084"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#84"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#70"
+ , "c5" : "00091"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#91"
  , "c1" : "TaskId"
  , "c2" : "parse(String)"
  , "c3" : "3"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#98"
+ , "c5" : "00122"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#122"
  , "c1" : "void"
  , "c2" : "writeTo(DataOutputStream;int)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#104"
+ , "c5" : "00131"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#131"
  , "c1" : "TaskId"
  , "c2" : "readFrom(DataInputStream;int)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00110"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#110"
+ , "c5" : "00139"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#139"
  , "c1" : "void"
  , "c2" : "writeTo(ByteBuffer;int)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00116"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#116"
+ , "c5" : "00147"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#147"
  , "c1" : "TaskId"
  , "c2" : "readFrom(ByteBuffer;int)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00121"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#121"
+ , "c5" : "00152"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#152"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "6"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00142"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#142"
+ , "c5" : "00173"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#173"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00147"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#147"
+ , "c5" : "00178"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#178"
  , "c1" : "int"
  , "c2" : "compareTo(TaskId)"
  , "c3" : "5"
@@ -236,437 +236,437 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#36"
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.processor.TaskId.TaskId@POLYN165321 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.processor.TaskId.TaskId@POLYN165507 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#42"
+ , "c1" : "00059"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.processor.TaskId.TaskId@POLYN165515 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.processor.TaskId.TaskId@POLYN165701 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#42"
+ , "c1" : "00059"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.processor.TaskId.TaskId@POLYN165515 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.processor.TaskId.TaskId@POLYN165701 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#43"
+ , "c1" : "00060"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.processor.TaskId.TaskId@POLYN165515 the MagicNumber/String  'Empty string passed in for task's namedTopology, since NamedTopology name cannot be empty, we ' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.processor.TaskId.TaskId@POLYN165701 the MagicNumber/String  'Empty string passed in for task's namedTopology, since NamedTopology name cannot be empty, we ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#44"
+ , "c1" : "00061"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.processor.TaskId.TaskId@POLYN165515 the MagicNumber/String  'assume this task does not belong to a NamedTopology and downgrade this to null' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.TaskId.TaskId@POLYN165701 the MagicNumber/String  'assume this task does not belong to a NamedTopology and downgrade this to null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#45"
+ , "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.processor.TaskId.TaskId@POLYN165515 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.processor.TaskId.toString@POLYN166471 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.processor.TaskId.toString@POLYN166471 the MagicNumber/String  '_' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.processor.TaskId.toString@POLYN166471 the MagicNumber/String  '_' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#70"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method parse arguments String  taskIdStr"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#70"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00070] The argument taskIdStr is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.processor.TaskId.parse@POLYN166831 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.processor.TaskId.parse@POLYN166831 the MagicNumber/String  '_' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.processor.TaskId.parse@POLYN166831 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.processor.TaskId.parse@POLYN166831 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.processor.TaskId.parse@POLYN166831 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.processor.TaskId.parse@POLYN166831 the MagicNumber/String  '_' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.TaskId.TaskId@POLYN165701 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.TaskId.parse@POLYN166831 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.TaskId.toString@POLYN166657 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#87"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.processor.TaskId.parse@POLYN166831 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.TaskId.toString@POLYN166657 the MagicNumber/String  '_' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.TaskId.toString@POLYN166657 the MagicNumber/String  '_' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#91"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00091] For method parse arguments String  taskIdStr"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#91"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00091] The argument taskIdStr is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#95"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.processor.TaskId.parse@POLYN167017 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00096"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#96"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.streams.processor.TaskId.parse@POLYN167017 the MagicNumber/String  '_' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#98"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method writeTo arguments DataOutputStream  out|int  version"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.processor.TaskId.parse@POLYN167017 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.processor.TaskId.parse@POLYN167017 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.processor.TaskId.parse@POLYN167017 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#104"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method readFrom arguments DataInputStream  in|int  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#110"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00110] For method writeTo arguments ByteBuffer  buf|int  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#116"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method readFrom arguments ByteBuffer  buf|int  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#121"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00121] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00125] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.TaskId.parse@POLYN167017 the MagicNumber/String  '_' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#123"
+ , "c1" : "00106"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.TaskId.equals@POLYN169706 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.processor.TaskId.parse@POLYN167017 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#125"
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.streams.processor.TaskId.equals@POLYN169706 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.processor.TaskId.parse@POLYN167017 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.processor.TaskId.equals@POLYN169706 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00122"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#122"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00122] For method writeTo arguments DataOutputStream  out|int  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#131"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.streams.processor.TaskId.equals@POLYN169706 the MagicNumber/String  false should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00131] For method readFrom arguments DataInputStream  in|int  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#134"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.processor.TaskId.equals@POLYN169706 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#134"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.processor.TaskId.equals@POLYN169706 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#137"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.processor.TaskId.equals@POLYN169706 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#137"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.processor.TaskId.equals@POLYN169706 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00139"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#139"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00139] For method writeTo arguments ByteBuffer  buf|int  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00147] For method compareTo arguments TaskId  other"
+ , "c3" : "QC-JAV000006[00147] For method readFrom arguments ByteBuffer  buf|int  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#147"
+ , "c1" : "00152"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#152"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00147] For method compareTo list of called methods Object monObjet|int topologyName_compareToN171095|int Integer_compareN171629"
+ , "c3" : "QC-JAV000006[00152] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#147"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00147] The argument other is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#148"
+ , "c1" : "00156"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#148"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#150"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000021[00156] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863 the MagicNumber/String  'Tried to compare this = {} with other = {}, but only one had a valid named topology' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.processor.TaskId.equals@POLYN169892 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#155"
+ , "c1" : "00156"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863 the MagicNumber/String  'Can't compare a TaskId with a namedTopology to one without' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.processor.TaskId.equals@POLYN169892 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#158"
+ , "c1" : "00157"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.streams.processor.TaskId.equals@POLYN169892 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.processor.TaskId.equals@POLYN169892 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#165"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.processor.TaskId.equals@POLYN169892 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#165"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.processor.TaskId.equals@POLYN169892 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00168"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#168"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.processor.TaskId.equals@POLYN169892 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00168"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#168"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.processor.TaskId.equals@POLYN169892 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00178"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#178"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00178] For method compareTo arguments TaskId  other"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00178"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#178"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00178] For method compareTo list of called methods Object monObjet|int topologyName_compareToN171281|int Integer_compareN171815"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00178"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#178"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00178] The argument other is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#179"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#179"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00181"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#181"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#184"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#184"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00185"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049 the MagicNumber/String  'Tried to compare this = {} with other = {}, but only one had a valid named topology' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00186"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#186"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049 the MagicNumber/String  'Can't compare a TaskId with a namedTopology to one without' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00189"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#189"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.TaskId.equals@POLYN169706"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.TaskId.equals@POLYN169892"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#148"
+ , "c1" : "00179"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#179"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00179] In the recursive method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#148"
+ , "c1" : "00179"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#179"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00179] In the recursive method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#150"
+ , "c1" : "00181"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#181"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00150] In the recursive method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00181] In the recursive method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#153"
+ , "c1" : "00184"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#184"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00184] In the recursive method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#153"
+ , "c1" : "00184"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#184"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00184] In the recursive method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00185"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#185"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00185] In the recursive method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049 the MagicNumber/String 'Tried to compare this = {} with other = {}, but only one had a valid named topology' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00186"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#186"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049 the MagicNumber/String 'Can't compare a TaskId with a namedTopology to one without' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00189"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#189"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN171049 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#154"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00154] In the recursive method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863 the MagicNumber/String 'Tried to compare this = {} with other = {}, but only one had a valid named topology' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00154] In the recursive method org.apache.kafka.streams.processor.TaskId.equals@POLYN169892 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#155"
+ , "c1" : "00156"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#156"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863 the MagicNumber/String 'Can't compare a TaskId with a namedTopology to one without' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00156] In the recursive method org.apache.kafka.streams.processor.TaskId.equals@POLYN169892 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#158"
+ , "c1" : "00157"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#157"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00158] In the recursive method org.apache.kafka.streams.processor.TaskId.compareTo@POLYN170863 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.streams.processor.TaskId.equals@POLYN169892 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#123"
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#162"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.streams.processor.TaskId.equals@POLYN169706 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00162] In the recursive method org.apache.kafka.streams.processor.TaskId.equals@POLYN169892 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#125"
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#165"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00125] In the recursive method org.apache.kafka.streams.processor.TaskId.equals@POLYN169706 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.streams.processor.TaskId.equals@POLYN169892 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#126"
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#165"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00126] In the recursive method org.apache.kafka.streams.processor.TaskId.equals@POLYN169706 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.streams.processor.TaskId.equals@POLYN169892 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#131"
+ , "c1" : "00168"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.streams.processor.TaskId.equals@POLYN169706 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.streams.processor.TaskId.equals@POLYN169892 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#134"
+ , "c1" : "00168"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00134] In the recursive method org.apache.kafka.streams.processor.TaskId.equals@POLYN169706 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#134"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00134] In the recursive method org.apache.kafka.streams.processor.TaskId.equals@POLYN169706 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#137"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.streams.processor.TaskId.equals@POLYN169706 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#137"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.streams.processor.TaskId.equals@POLYN169706 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.streams.processor.TaskId.equals@POLYN169892 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

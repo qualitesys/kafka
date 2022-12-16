@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.WorkerSourceTaskContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#18"
+ , "c5" : "00033"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#33"
  , "c1" : "WorkerSourceTaskContext"
  , "c2" : "WorkerSourceTaskContext(OffsetStorageReader;ConnectorTaskId;ClusterConfigState;WorkerTransactionContext)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#29"
+ , "c5" : "00044"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#44"
  , "c1" : "Map<String,String>"
  , "c2" : "configs()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#34"
+ , "c5" : "00049"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#49"
  , "c1" : "OffsetStorageReader"
  , "c2" : "offsetStorageReader()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#39"
+ , "c5" : "00054"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#54"
  , "c1" : "WorkerTransactionContext"
  , "c2" : "transactionContext()"
  , "c3" : "1"

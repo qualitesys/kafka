@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.LeaveGroupRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#68"
+ , "c5" : "00085"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#85"
  , "c1" : "LeaveGroupRequest"
  , "c2" : "LeaveGroupRequest(LeaveGroupRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#74"
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#91"
  , "c1" : "LeaveGroupRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#78"
+ , "c5" : "00095"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#95"
  , "c1" : "List<MemberIdentity>"
  , "c2" : "members()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00086"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#86"
+ , "c5" : "00103"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#103"
  , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00096"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#96"
+ , "c5" : "00113"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#113"
  , "c1" : "LeaveGroupRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -118,129 +118,129 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#27"
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#42"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument members is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00042] The argument members is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#32"
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.Builder@POLYN155371 the MagicNumber/String  'leaving members should not be empty' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.Builder@POLYN155473 the MagicNumber/String  'leaving members should not be empty' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#38"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00055] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#41"
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.build@POLYN155985 the MagicNumber/String  3 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.build@POLYN155985 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.build@POLYN155985 the MagicNumber/String  'Version ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.build@POLYN155985 the MagicNumber/String  ' leave group request only ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.build@POLYN155985 the MagicNumber/String  'supports single member instance than ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.build@POLYN155985 the MagicNumber/String  ' members' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.build@POLYN155985 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.toString@POLYN156964 the MagicNumber/String  '(type=LeaveGroupRequest' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.toString@POLYN156964 the MagicNumber/String  ', groupId=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.toString@POLYN156964 the MagicNumber/String  ', members=' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.build@POLYN156087 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.toString@POLYN156964 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.build@POLYN156087 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#64"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.build@POLYN156087 the MagicNumber/String  'Version ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#64"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.build@POLYN156087 the MagicNumber/String  ' leave group request only ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.build@POLYN156087 the MagicNumber/String  'supports single member instance than ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.build@POLYN156087 the MagicNumber/String  ' members' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#70"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.build@POLYN156087 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.toString@POLYN157066 the MagicNumber/String  '(type=LeaveGroupRequest' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.toString@POLYN157066 the MagicNumber/String  ', groupId=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.toString@POLYN157066 the MagicNumber/String  ', members=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.requests.LeaveGroupRequest.members@POLYN157636 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.requests.LeaveGroupRequest.Builder.toString@POLYN157066 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#86"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#90"
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.requests.LeaveGroupRequest.getErrorResponse@POLYN157953 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.requests.LeaveGroupRequest.members@POLYN157738 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#96"
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00096] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00103] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.requests.LeaveGroupRequest.getErrorResponse@POLYN158055 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#113"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00113] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ]
 , 

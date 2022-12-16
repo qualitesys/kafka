@@ -2,11 +2,11 @@
 !pragma layout smetana
 "BatchReader<T>" <|-- "org.apache.kafka.raft.internals.MemoryBatchReader"
 class org.apache.kafka.raft.internals.MemoryBatchReader {
--MemoryBatchReader(long;long;Iterator<Batch<T>>;CloseListener<BatchReader<T>>) : MemoryBatchReader [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#18]]]
-+hasNext() : boolean [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#31]]]
-+next() : Batch<T> [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#36]]]
-+baseOffset() : long [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#41]]]
-+lastOffset() : OptionalLong [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#46]]]
-+close() : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#51]]]
+-MemoryBatchReader(long;long;Iterator<Batch<T>>;CloseListener<BatchReader<T>>) : MemoryBatchReader [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#33]]]
++hasNext() : boolean [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#46]]]
++next() : Batch<T> [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#51]]]
++baseOffset() : long [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#56]]]
++lastOffset() : OptionalLong [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#61]]]
++close() : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#66]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.WindowStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#17"
+ , "c5" : "00049"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#49"
  , "c1" : "void"
  , "c2" : "put(K;V;long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#22"
+ , "c5" : "00086"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#86"
  , "c1" : "WindowStoreIterator<V>"
  , "c2" : "fetch(K;long;long)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#25"
+ , "c5" : "00089"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#89"
  , "c1" : "WindowStoreIterator<V>"
  , "c2" : "fetch(K;Instant;Instant)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#34"
+ , "c5" : "00098"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#98"
  , "c1" : "WindowStoreIterator<V>"
  , "c2" : "backwardFetch(K;long;long)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#41"
+ , "c5" : "00105"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#105"
  , "c1" : "WindowStoreIterator<V>"
  , "c2" : "backwardFetch(K;Instant;Instant)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#53"
+ , "c5" : "00130"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#130"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "fetch(K;K;long;long)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#56"
+ , "c5" : "00133"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#133"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "fetch(K;K;Instant;Instant)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#67"
+ , "c5" : "00144"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#144"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardFetch(K;K;long;long)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#75"
+ , "c5" : "00152"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#152"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardFetch(K;K;Instant;Instant)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#89"
+ , "c5" : "00173"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#173"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "fetchAll(long;long)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00092"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#92"
+ , "c5" : "00176"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#176"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "fetchAll(Instant;Instant)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#98"
+ , "c5" : "00182"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#182"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardFetchAll(long;long)"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#103"
+ , "c5" : "00187"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#187"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardFetchAll(Instant;Instant)"
  , "c3" : "1"

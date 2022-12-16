@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.timeline.TimelineHashMap" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#73"
+ , "c5" : "00097"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#97"
  , "c1" : "TimelineHashMap"
  , "c2" : "TimelineHashMap(SnapshotRegistry;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#78"
+ , "c5" : "00102"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#102"
  , "c1" : "int"
  , "c2" : "size()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#82"
+ , "c5" : "00106"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#106"
  , "c1" : "int"
  , "c2" : "size(long)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#87"
+ , "c5" : "00111"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#111"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00091"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#91"
+ , "c5" : "00115"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#115"
  , "c1" : "boolean"
  , "c2" : "isEmpty(long)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00096"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#96"
+ , "c5" : "00120"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#120"
  , "c1" : "boolean"
  , "c2" : "containsKey(Object)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00100"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#100"
+ , "c5" : "00124"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#124"
  , "c1" : "boolean"
  , "c2" : "containsKey(Object;long)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00105"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#105"
+ , "c5" : "00129"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#129"
  , "c1" : "boolean"
  , "c2" : "containsValue(Object)"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00117"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#117"
+ , "c5" : "00141"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#141"
  , "c1" : "V"
  , "c2" : "get(Object)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00121"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#121"
+ , "c5" : "00145"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#145"
  , "c1" : "V"
  , "c2" : "get(Object;long)"
  , "c3" : "2"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00131"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#131"
+ , "c5" : "00155"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#155"
  , "c1" : "V"
  , "c2" : "put(K;V)"
  , "c3" : "2"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00143"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#143"
+ , "c5" : "00167"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#167"
  , "c1" : "V"
  , "c2" : "remove(Object)"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00150"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#150"
+ , "c5" : "00174"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#174"
  , "c1" : "void"
  , "c2" : "putAll(Map<?extendsK,?extendsV>)"
  , "c3" : "2"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00157"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#157"
+ , "c5" : "00181"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#181"
  , "c1" : "void"
  , "c2" : "clear()"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00220"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#220"
+ , "c5" : "00244"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#244"
  , "c1" : "Set<K>"
  , "c2" : "keySet()"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00224"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#224"
+ , "c5" : "00248"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#248"
  , "c1" : "Set<K>"
  , "c2" : "keySet(long)"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00280"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#280"
+ , "c5" : "00304"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#304"
  , "c1" : "Collection<V>"
  , "c2" : "values()"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00284"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#284"
+ , "c5" : "00308"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#308"
  , "c1" : "Collection<V>"
  , "c2" : "values(long)"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00346"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#346"
+ , "c5" : "00370"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#370"
  , "c1" : "Set<Entry<K,V>>"
  , "c2" : "entrySet()"
  , "c3" : "1"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00350"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#350"
+ , "c5" : "00374"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#374"
  , "c1" : "Set<Entry<K,V>>"
  , "c2" : "entrySet(long)"
  , "c3" : "1"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00355"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#355"
+ , "c5" : "00379"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#379"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "2"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00365"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#365"
+ , "c5" : "00389"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#389"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "6"
@@ -278,395 +278,395 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#40"
+ , "c1" : "00064"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#64"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method setValue arguments V  value"
+ , "c3" : "QC-JAV000006[00064] For method setValue arguments V  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#50"
+ , "c1" : "00074"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method setStartEpoch arguments long  startEpoch"
+ , "c3" : "QC-JAV000006[00074] For method setStartEpoch arguments long  startEpoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#61"
+ , "c1" : "00085"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00085] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#62"
+ , "c1" : "00086"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.timeline.TimelineHashMap.TimelineHashMapEntry.equals@POLYN189688 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.timeline.TimelineHashMap.TimelineHashMapEntry.equals@POLYN189832 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#82"
+ , "c1" : "00106"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#106"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method size arguments long  epoch"
+ , "c3" : "QC-JAV000006[00106] For method size arguments long  epoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#91"
+ , "c1" : "00115"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#115"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00091] For method isEmpty arguments long  epoch"
+ , "c3" : "QC-JAV000006[00115] For method isEmpty arguments long  epoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#92"
+ , "c1" : "00116"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.timeline.TimelineHashMap.isEmpty@POLYN190815 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.timeline.TimelineHashMap.isEmpty@POLYN190959 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#96"
+ , "c1" : "00120"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00096] For method containsKey arguments Object  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#100"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00100] For method containsKey arguments Object  key|long  epoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#101"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.timeline.TimelineHashMap.containsKey@POLYN191161 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#101"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.timeline.TimelineHashMap.containsKey@POLYN191161 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#105"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method containsValue arguments Object  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#105"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00105] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00108] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#110"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.timeline.TimelineHashMap.containsValue@POLYN191457 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#113"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.timeline.TimelineHashMap.containsValue@POLYN191457 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#117"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00117] For method get arguments Object  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#121"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00121] For method get arguments Object  key|long  epoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.timeline.TimelineHashMap.get@POLYN192225 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000006[00120] For method containsKey arguments Object  key"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#124"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.timeline.TimelineHashMap.get@POLYN192225 the MagicNumber/String  null should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00124] For method containsKey arguments Object  key|long  epoch"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.timeline.TimelineHashMap.get@POLYN192225 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.timeline.TimelineHashMap.containsKey@POLYN191305 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#131"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00131] For method put arguments K  key|V  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#136"
+ , "c1" : "00125"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.timeline.TimelineHashMap.put@POLYN192720 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.timeline.TimelineHashMap.containsKey@POLYN191305 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00129"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#129"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00129] For method containsValue arguments Object  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00129"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#129"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00129] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#132"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00132] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#134"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.timeline.TimelineHashMap.containsValue@POLYN191601 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.timeline.TimelineHashMap.put@POLYN192720 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.timeline.TimelineHashMap.containsValue@POLYN191601 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#143"
+ , "c1" : "00141"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#141"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method remove arguments Object  key"
+ , "c3" : "QC-JAV000006[00141] For method get arguments Object  key"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00145"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#145"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.timeline.TimelineHashMap.remove@POLYN193425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#146"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.timeline.TimelineHashMap.remove@POLYN193425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#146"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.timeline.TimelineHashMap.remove@POLYN193425 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00150] For method putAll arguments Map&lt;?  extends K ,?  extends V &gt;  map"
+ , "c3" : "QC-JAV000006[00145] For method get arguments Object  key|long  epoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#150"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00150] The argument map is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00147"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#147"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.timeline.TimelineHashMap.get@POLYN192369 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.timeline.TimelineHashMap.get@POLYN192369 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00149"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#149"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.timeline.TimelineHashMap.get@POLYN192369 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00155"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#155"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00155] For method put arguments K  key|V  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#160"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.timeline.TimelineHashMap.put@POLYN192864 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00161"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#161"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.timeline.TimelineHashMap.put@POLYN192864 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#167"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00167] For method remove arguments Object  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.timeline.TimelineHashMap.remove@POLYN193569 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.timeline.TimelineHashMap.remove@POLYN193569 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.timeline.TimelineHashMap.remove@POLYN193569 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00174"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#174"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.timeline.TimelineHashMap.KeySet.clear@POLYN194676 the MagicNumber/String  'can't modify snapshot' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#183"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00183] For method contains arguments Object  o"
+ , "c3" : "QC-JAV000006[00174] For method putAll arguments Map&lt;?  extends K ,?  extends V &gt;  map"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#187"
+ , "c1" : "00174"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#174"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00174] The argument map is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00198"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#198"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.timeline.TimelineHashMap.KeySet.clear@POLYN194820 the MagicNumber/String  'can't modify snapshot' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00207"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#207"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00187] For method remove arguments Object  o"
+ , "c3" : "QC-JAV000006[00207] For method contains arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#189"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.timeline.TimelineHashMap.KeySet.remove@POLYN195281 the MagicNumber/String  'can't modify snapshot' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#191"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.timeline.TimelineHashMap.KeySet.remove@POLYN195281 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00224"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#224"
+ , "c1" : "00211"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#211"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00224] For method keySet arguments long  epoch"
+ , "c3" : "QC-JAV000006[00211] For method remove arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#241"
+ , "c1" : "00213"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.timeline.TimelineHashMap.Values.clear@POLYN197095 the MagicNumber/String  'can't modify snapshot' should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.timeline.TimelineHashMap.KeySet.remove@POLYN195425 the MagicNumber/String  'can't modify snapshot' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#250"
+ , "c1" : "00215"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#215"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.timeline.TimelineHashMap.KeySet.remove@POLYN195425 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00248"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#248"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00250] For method contains arguments Object  o"
+ , "c3" : "QC-JAV000006[00248] For method keySet arguments long  epoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00284"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#284"
+ , "c1" : "00265"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#265"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.timeline.TimelineHashMap.Values.clear@POLYN197239 the MagicNumber/String  'can't modify snapshot' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00274"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#274"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00284] For method values arguments long  epoch"
+ , "c3" : "QC-JAV000006[00274] For method contains arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00301"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#301"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.timeline.TimelineHashMap.EntrySet.clear@POLYN199218 the MagicNumber/String  'can't modify snapshot' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00310"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#310"
+ , "c1" : "00308"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#308"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00310] For method contains arguments Object  o"
+ , "c3" : "QC-JAV000006[00308] For method values arguments long  epoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00311"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#311"
+ , "c1" : "00325"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.timeline.TimelineHashMap.EntrySet.contains@POLYN199684 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.timeline.TimelineHashMap.EntrySet.clear@POLYN199362 the MagicNumber/String  'can't modify snapshot' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00314"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#314"
+ , "c1" : "00334"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#334"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00314] For method remove arguments Object  o"
+ , "c3" : "QC-JAV000006[00334] For method contains arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00316"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#316"
+ , "c1" : "00335"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#335"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.timeline.TimelineHashMap.EntrySet.remove@POLYN199874 the MagicNumber/String  'can't modify snapshot' should be converted to const"
+ , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.timeline.TimelineHashMap.EntrySet.contains@POLYN199828 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00318"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#318"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.timeline.TimelineHashMap.EntrySet.remove@POLYN199874 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00318"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#318"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.timeline.TimelineHashMap.EntrySet.remove@POLYN199874 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00350"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#350"
+ , "c1" : "00338"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#338"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00350] For method entrySet arguments long  epoch"
+ , "c3" : "QC-JAV000006[00338] For method remove arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00356"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#356"
+ , "c1" : "00340"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#340"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.timeline.TimelineHashMap.hashCode@POLYN201442 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.timeline.TimelineHashMap.EntrySet.remove@POLYN200018 the MagicNumber/String  'can't modify snapshot' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00365"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#365"
+ , "c1" : "00342"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#342"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.timeline.TimelineHashMap.EntrySet.remove@POLYN200018 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00342"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#342"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.timeline.TimelineHashMap.EntrySet.remove@POLYN200018 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00374"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#374"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00365] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00374] For method entrySet arguments long  epoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00376"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#376"
+ , "c1" : "00380"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#380"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00376] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.timeline.TimelineHashMap.hashCode@POLYN201586 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00367"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#367"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN201910 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00389"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#389"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00389] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00369"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#369"
+ , "c1" : "00400"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#400"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN201910 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000001[00400] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00372"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#372"
+ , "c1" : "00391"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#391"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN201910 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN202054 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00378"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#378"
+ , "c1" : "00393"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#393"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN201910 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN202054 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00382"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#382"
+ , "c1" : "00396"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#396"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN201910 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN202054 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00384"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#384"
+ , "c1" : "00402"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#402"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00384] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN201910 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN202054 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00406"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#406"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN202054 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00408"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#408"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.timeline.TimelineHashMap.equals@POLYN202054 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

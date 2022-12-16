@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.internals.ConsumerMetadata" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#20"
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#35"
  , "c1" : "ConsumerMetadata"
  , "c2" : "ConsumerMetadata(long;long;boolean;boolean;SubscriptionState;LogContext;ClusterResourceListeners)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#34"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#49"
  , "c1" : "boolean"
  , "c2" : "allowAutoTopicCreation()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#39"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#54"
  , "c1" : "MetadataRequest.Builder"
  , "c2" : "newMetadataRequestBuilder()"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#48"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#63"
  , "c1" : "void"
  , "c2" : "addTransientTopics(Set<String>)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#54"
+ , "c5" : "00069"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#69"
  , "c1" : "void"
  , "c2" : "clearTransientTopics()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#59"
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#74"
  , "c1" : "boolean"
  , "c2" : "retainTopic(String;boolean;long)"
  , "c3" : "3"
@@ -127,59 +127,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#39"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00039] Lock statement on synchronized method newMetadataRequestBuilder"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#48"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00048] Lock statement on synchronized method addTransientTopics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method addTransientTopics arguments Set&lt;String &gt;  topics"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#54"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00054] Lock statement on synchronized method clearTransientTopics"
+ , "c3" : "QC-JAV000019[00054] Lock statement on synchronized method newMetadataRequestBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#59"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#63"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00059] Lock statement on synchronized method retainTopic"
+ , "c3" : "QC-JAV000019[00063] Lock statement on synchronized method addTransientTopics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#59"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method retainTopic arguments String  topic|boolean  isInternal|long  nowMs"
+ , "c3" : "QC-JAV000006[00063] For method addTransientTopics arguments Set&lt;String &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.consumer.internals.ConsumerMetadata.retainTopic@POLYN151155 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#69"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00069] Lock statement on synchronized method clearTransientTopics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#64"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#74"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00074] Lock statement on synchronized method retainTopic"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#74"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00074] For method retainTopic arguments String  topic|boolean  isInternal|long  nowMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.consumer.internals.ConsumerMetadata.retainTopic@POLYN151155 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.consumer.internals.ConsumerMetadata.retainTopic@POLYN151245 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.consumer.internals.ConsumerMetadata.retainTopic@POLYN151245 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerIllegalTokenException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerIllegalTokenException.java.html#14"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerIllegalTokenException.java.html#38"
  , "c1" : "OAuthBearerIllegalTokenException"
  , "c2" : "OAuthBearerIllegalTokenException(OAuthBearerValidationResult)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerIllegalTokenException.java.html#22"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerIllegalTokenException.java.html#50"
  , "c1" : "OAuthBearerValidationResult"
  , "c2" : "reason()"
  , "c3" : "1"
@@ -84,17 +84,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerIllegalTokenException.java.html#14"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerIllegalTokenException.java.html#38"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00014] The argument reason is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00038] The argument reason is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerIllegalTokenException.java.html#17"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerIllegalTokenException.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerIllegalTokenException.OAuthBearerIllegalTokenException@POLYN144930 the MagicNumber/String  'The reason indicates success; it must instead indicate failure' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerIllegalTokenException.OAuthBearerIllegalTokenException@POLYN145098 the MagicNumber/String  'The reason indicates success; it must instead indicate failure' should be converted to const"
 }} 
 ]
 , 

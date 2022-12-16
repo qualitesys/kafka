@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#22"
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#40"
  , "c1" : "WindowedChangelogTopicConfig"
  , "c2" : "WindowedChangelogTopicConfig(String;Map<String,String>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#28"
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#52"
  , "c1" : "Map<String,String>"
  , "c2" : "getProperties(Map<String,String>;long)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#49"
+ , "c5" : "00073"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#73"
  , "c1" : "void"
  , "c2" : "setRetentionMs(long)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#56"
+ , "c5" : "00080"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#80"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#71"
+ , "c5" : "00095"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#95"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#76"
+ , "c5" : "00100"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#100"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -127,101 +127,101 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#28"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method getProperties arguments Map&lt;String ,String &gt;  defaultProperties|long  additionalRetentionMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.getProperties@POLYN153881 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#49"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method setRetentionMs arguments long  retentionMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00052] For method getProperties arguments Map&lt;String ,String &gt;  defaultProperties|long  additionalRetentionMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00060] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.getProperties@POLYN154025 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.equals@POLYN155084 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.equals@POLYN155084 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.equals@POLYN155084 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.toString@POLYN156129 the MagicNumber/String  'WindowedChangelogTopicConfig(' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.toString@POLYN156129 the MagicNumber/String  'name=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.toString@POLYN156129 the MagicNumber/String  ', topicConfigs=' should be converted to const"
+ , "c1" : "00073"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#73"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00073] For method setRetentionMs arguments long  retentionMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.toString@POLYN156129 the MagicNumber/String  ', retentionMs=' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00080] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#81"
+ , "c1" : "00084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.toString@POLYN156129 the MagicNumber/String  ', enforceNumberOfPartitions=' should be converted to const"
+ , "c3" : "QC-JAV000021[00084] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.toString@POLYN156129 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.equals@POLYN155228 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.equals@POLYN155228 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.equals@POLYN155228 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.toString@POLYN156273 the MagicNumber/String  'WindowedChangelogTopicConfig(' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.toString@POLYN156273 the MagicNumber/String  'name=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.toString@POLYN156273 the MagicNumber/String  ', topicConfigs=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.toString@POLYN156273 the MagicNumber/String  ', retentionMs=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.toString@POLYN156273 the MagicNumber/String  ', enforceNumberOfPartitions=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig.toString@POLYN156273 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

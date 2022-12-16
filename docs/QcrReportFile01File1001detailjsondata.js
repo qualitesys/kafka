@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#38"
+ , "c5" : "00060"
+ , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#60"
  , "c1" : "void"
  , "c2" : "initialize(Subject;CallbackHandler;Map<String,?>;Map<String,?>)"
  , "c3" : "5"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#69"
+ , "c5" : "00091"
+ , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#91"
  , "c1" : "boolean"
  , "c2" : "login()"
  , "c3" : "9"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00113"
- , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#113"
+ , "c5" : "00135"
+ , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#135"
  , "c1" : "boolean"
  , "c2" : "commit()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00118"
- , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#118"
+ , "c5" : "00140"
+ , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#140"
  , "c1" : "boolean"
  , "c2" : "abort()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#123"
+ , "c5" : "00145"
+ , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#145"
  , "c1" : "boolean"
  , "c2" : "logout()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00127"
- , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#127"
+ , "c5" : "00149"
+ , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#149"
  , "c1" : "Callback[]"
  , "c2" : "configureCallbacks()"
  , "c3" : "1"
@@ -157,444 +157,444 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#38"
+ , "c1" : "00060"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method initialize arguments Subject  subject|CallbackHandler  callbackHandler|Map&lt;String ,? &gt;  sharedState|Map&lt;String ,? &gt;  options"
+ , "c3" : "QC-JAV000006[00060] For method initialize arguments Subject  subject|CallbackHandler  callbackHandler|Map&lt;String ,? &gt;  sharedState|Map&lt;String ,? &gt;  options"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#38"
+ , "c1" : "00060"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#60"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00038] The argument options is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00060] The argument options is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#42"
+ , "c1" : "00064"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN162903 the MagicNumber/String  'Property Credentials file must be specified' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN163035 the MagicNumber/String  'Property Credentials file must be specified' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#46"
+ , "c1" : "00068"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN162903 the MagicNumber/String  'Opening credential properties file '{}'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN162903 the MagicNumber/String  'Parsing credential properties file '{}'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN162903 the MagicNumber/String  'Credential properties file '{}' is empty; all requests will be permitted' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN162903 the MagicNumber/String  'Error loading credentials file ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN162903 the MagicNumber/String  'Error loading Property Credentials file' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN162903 the MagicNumber/String  'Credential properties file '{}' has already been opened and parsed; will read from cached, in-memory store' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#69"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00069] For method login list of called methods Object monObjet|javax.security.auth.callback.Callback[] configureCallbacksN164740"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN163035 the MagicNumber/String  'Opening credential properties file '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  'Authenticating user; invoking JAAS login callbacks' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN163035 the MagicNumber/String  'Parsing credential properties file '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#75"
+ , "c1" : "00077"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  'Authentication failed while invoking JAAS login callbacks' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN163035 the MagicNumber/String  'Credential properties file '{}' is empty; all requests will be permitted' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN163035 the MagicNumber/String  'Error loading credentials file ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN163035 the MagicNumber/String  'Error loading Property Credentials file' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  'Not validating credentials for user '{}' as credential properties file '{}' is empty' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#88"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  'No credentials were provided or the provided credentials were malformed' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN163035 the MagicNumber/String  'Credential properties file '{}' has already been opened and parsed; will read from cached, in-memory store' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  false should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00091] For method login list of called methods Object monObjet|javax.security.auth.callback.Callback[] configureCallbacksN164872"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#92"
+ , "c1" : "00094"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  'Authenticating user; invoking JAAS login callbacks' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#93"
+ , "c1" : "00097"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  'Credentials provided for user '{}' match those present in the credential properties file '{}'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#98"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  'User '{}' is not present in the credential properties file '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  'Authentication failed while invoking JAAS login callbacks' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  'Credentials provided for user '{}' do not match those present in the credential properties file '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#106"
+ , "c1" : "00103"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#119"
+ , "c1" : "00107"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.abort@POLYN167154 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  'Not validating credentials for user '{}' as credential properties file '{}' is empty' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#124"
+ , "c1" : "00110"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.logout@POLYN167268 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  'No credentials were provided or the provided credentials were malformed' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  'Credentials provided for user '{}' match those present in the credential properties file '{}'' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00118"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#118"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  'User '{}' is not present in the credential properties file '{}'' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#123"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#125"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  'Credentials provided for user '{}' do not match those present in the credential properties file '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.configureCallbacks@POLYN167374 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#129"
+ , "c1" : "00141"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.configureCallbacks@POLYN167374 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.abort@POLYN167286 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#129"
+ , "c1" : "00146"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.configureCallbacks@POLYN167374 the MagicNumber/String  'Enter user name' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.logout@POLYN167400 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#130"
+ , "c1" : "00150"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.configureCallbacks@POLYN167374 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.configureCallbacks@POLYN167506 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#130"
+ , "c1" : "00151"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.configureCallbacks@POLYN167374 the MagicNumber/String  'Enter password' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.configureCallbacks@POLYN167506 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#130"
+ , "c1" : "00151"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.configureCallbacks@POLYN167374 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.configureCallbacks@POLYN167506 the MagicNumber/String  'Enter user name' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00152"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#152"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.configureCallbacks@POLYN167506 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00152"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#152"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.configureCallbacks@POLYN167506 the MagicNumber/String  'Enter password' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00152"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#152"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.configureCallbacks@POLYN167506 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN162903"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN163035"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#42"
+ , "c1" : "00064"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#64"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN162903 the MagicNumber/String 'Property Credentials file must be specified' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN163035 the MagicNumber/String 'Property Credentials file must be specified' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#46"
+ , "c1" : "00068"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#68"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN162903 the MagicNumber/String 'Opening credential properties file '{}'' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#50"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN162903 the MagicNumber/String 'Parsing credential properties file '{}'' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#55"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN162903 the MagicNumber/String 'Credential properties file '{}' is empty; all requests will be permitted' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#58"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN162903 the MagicNumber/String 'Error loading credentials file ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#59"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN162903 the MagicNumber/String 'Error loading Property Credentials file' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#63"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN162903 the MagicNumber/String 'Credential properties file '{}' has already been opened and parsed; will read from cached, in-memory store' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN163035 the MagicNumber/String 'Opening credential properties file '{}'' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#72"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String 'Authenticating user; invoking JAAS login callbacks' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN163035 the MagicNumber/String 'Parsing credential properties file '{}'' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#75"
+ , "c1" : "00077"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#77"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String 'Authentication failed while invoking JAAS login callbacks' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#79"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN163035 the MagicNumber/String 'Credential properties file '{}' is empty; all requests will be permitted' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#80"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN163035 the MagicNumber/String 'Error loading credentials file ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#81"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#81"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN163035 the MagicNumber/String 'Error loading Property Credentials file' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#85"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String 'Not validating credentials for user '{}' as credential properties file '{}' is empty' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN163035 the MagicNumber/String 'Credential properties file '{}' has already been opened and parsed; will read from cached, in-memory store' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#88"
+ , "c1" : "00094"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#94"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String 'Authenticating user; invoking JAAS login callbacks' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#89"
+ , "c1" : "00097"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#97"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00089] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#90"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String 'No credentials were provided or the provided credentials were malformed' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#91"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#92"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#93"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String 'Credentials provided for user '{}' match those present in the credential properties file '{}'' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#96"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#98"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String 'User '{}' is not present in the credential properties file '{}'' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00097] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String 'Authentication failed while invoking JAAS login callbacks' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String 'Credentials provided for user '{}' do not match those present in the credential properties file '{}'' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#106"
+ , "c1" : "00103"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164647 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String 'Not validating credentials for user '{}' as credential properties file '{}' is empty' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#110"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#111"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00112] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String 'No credentials were provided or the provided credentials were malformed' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#114"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#115"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String 'Credentials provided for user '{}' match those present in the credential properties file '{}'' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00118"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#118"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00118] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String 'User '{}' is not present in the credential properties file '{}'' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#125"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00125] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String 'Credentials provided for user '{}' do not match those present in the credential properties file '{}'' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#128"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.login@POLYN164779 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

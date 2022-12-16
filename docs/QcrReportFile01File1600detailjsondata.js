@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.TopologyConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00095"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#95"
+ , "c5" : "00115"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#115"
  , "c1" : "TopologyConfig"
  , "c2" : "TopologyConfig(StreamsConfig)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#99"
+ , "c5" : "00119"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#119"
  , "c1" : "TopologyConfig"
  , "c2" : "TopologyConfig(String;StreamsConfig;Properties)"
  , "c3" : "15"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00158"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#158"
+ , "c5" : "00178"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#178"
  , "c1" : "Materialized.StoreType"
  , "c2" : "parseStoreType()"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00165"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#165"
+ , "c5" : "00185"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#185"
  , "c1" : "boolean"
  , "c2" : "isNamedTopology()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00170"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#170"
+ , "c5" : "00193"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#193"
  , "c1" : "boolean"
  , "c2" : "isTopologyOverride(String;Properties)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00176"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#176"
+ , "c5" : "00199"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#199"
  , "c1" : "TaskConfig"
  , "c2" : "getTaskConfig()"
  , "c3" : "1"
@@ -150,164 +150,164 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#96"
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177559 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177697 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#99"
+ , "c1" : "00119"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#119"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00099] The argument globalAppConfigs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00119] The argument globalAppConfigs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#100"
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#110"
+ , "c1" : "00130"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744 the MagicNumber/String  'Topology {} is overriding {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882 the MagicNumber/String  'Topology {} is overriding {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#117"
+ , "c1" : "00137"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744 the MagicNumber/String  'Topology {} is overriding {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882 the MagicNumber/String  'Topology {} is overriding {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#124"
+ , "c1" : "00144"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744 the MagicNumber/String  'Topology {} is overriding {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882 the MagicNumber/String  'Topology {} is overriding {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#131"
+ , "c1" : "00151"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744 the MagicNumber/String  'Topology {} is overriding {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882 the MagicNumber/String  'Topology {} is overriding {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#138"
+ , "c1" : "00158"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744 the MagicNumber/String  'Topology {} is overriding {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882 the MagicNumber/String  'Topology {} is overriding {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#145"
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744 the MagicNumber/String  'Topology {} is overriding {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882 the MagicNumber/String  'Topology {} is overriding {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#152"
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744 the MagicNumber/String  'Topology {} is overriding {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882 the MagicNumber/String  'Topology {} is overriding {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#166"
+ , "c1" : "00186"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.TopologyConfig.isNamedTopology@POLYN181919 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.TopologyConfig.isNamedTopology@POLYN182057 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#170"
+ , "c1" : "00193"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#193"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00170] For method isTopologyOverride arguments String  config|Properties  topologyOverrides"
+ , "c3" : "QC-JAV000006[00193] For method isTopologyOverride arguments String  config|Properties  topologyOverrides"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#170"
+ , "c1" : "00193"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#193"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00170] The argument topologyOverrides is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00193] The argument topologyOverrides is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#173"
+ , "c1" : "00196"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.streams.TopologyConfig.isTopologyOverride@POLYN182166 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.TopologyConfig.isTopologyOverride@POLYN182304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#100"
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#110"
+ , "c1" : "00130"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#130"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744 the MagicNumber/String 'Topology {} is overriding {} to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882 the MagicNumber/String 'Topology {} is overriding {} to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#117"
+ , "c1" : "00137"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744 the MagicNumber/String 'Topology {} is overriding {} to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882 the MagicNumber/String 'Topology {} is overriding {} to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#124"
+ , "c1" : "00144"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744 the MagicNumber/String 'Topology {} is overriding {} to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882 the MagicNumber/String 'Topology {} is overriding {} to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#131"
+ , "c1" : "00151"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744 the MagicNumber/String 'Topology {} is overriding {} to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00151] In the recursive method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882 the MagicNumber/String 'Topology {} is overriding {} to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#138"
+ , "c1" : "00158"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#158"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744 the MagicNumber/String 'Topology {} is overriding {} to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00158] In the recursive method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882 the MagicNumber/String 'Topology {} is overriding {} to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#145"
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#165"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744 the MagicNumber/String 'Topology {} is overriding {} to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882 the MagicNumber/String 'Topology {} is overriding {} to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#152"
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#172"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177744 the MagicNumber/String 'Topology {} is overriding {} to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.streams.TopologyConfig.TopologyConfig@POLYN177882 the MagicNumber/String 'Topology {} is overriding {} to {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

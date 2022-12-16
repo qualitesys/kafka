@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.json.JsonSchema" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java.html#46"
+ , "c5" : "00061"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java.html#61"
  , "c1" : "ObjectNode"
  , "c2" : "envelope(JsonNode;JsonNode)"
  , "c3" : "1"
@@ -75,24 +75,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java.html#46"
+ , "c1" : "00061"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method envelope arguments JsonNode  schema|JsonNode  payload"
+ , "c3" : "QC-JAV000006[00061] For method envelope arguments JsonNode  schema|JsonNode  payload"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java.html#54"
+ , "c1" : "00069"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00054] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+ , "c3" : "QC-JAVCWE493[00069] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java.html#55"
+ , "c1" : "00070"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00055] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+ , "c3" : "QC-JAVCWE493[00070] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
 }} 
 ]
 , 

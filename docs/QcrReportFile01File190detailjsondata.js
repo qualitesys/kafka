@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.OffsetAndTimestamp" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#13"
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#30"
  , "c1" : "OffsetAndTimestamp"
  , "c2" : "OffsetAndTimestamp(long;long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#17"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#34"
  , "c1" : "OffsetAndTimestamp"
  , "c2" : "OffsetAndTimestamp(long;long;Optional<Integer>)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#29"
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#46"
  , "c1" : "long"
  , "c2" : "timestamp()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#33"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#50"
  , "c1" : "long"
  , "c2" : "offset()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#38"
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#60"
  , "c1" : "Optional<Integer>"
  , "c2" : "leaderEpoch()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#43"
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#65"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#50"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#72"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#60"
+ , "c5" : "00082"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#82"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -145,101 +145,101 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#18"
+ , "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.OffsetAndTimestamp@POLYN148960 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.OffsetAndTimestamp@POLYN149092 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#19"
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.OffsetAndTimestamp@POLYN148960 the MagicNumber/String  'Invalid negative offset' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.OffsetAndTimestamp@POLYN149092 the MagicNumber/String  'Invalid negative offset' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#21"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.OffsetAndTimestamp@POLYN148960 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.OffsetAndTimestamp@POLYN149092 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#22"
+ , "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.OffsetAndTimestamp@POLYN148960 the MagicNumber/String  'Invalid negative timestamp' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.OffsetAndTimestamp@POLYN149092 the MagicNumber/String  'Invalid negative timestamp' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#44"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.toString@POLYN150037 the MagicNumber/String  '(timestamp=' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.toString@POLYN150169 the MagicNumber/String  '(timestamp=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#45"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.toString@POLYN150037 the MagicNumber/String  ', leaderEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.toString@POLYN150169 the MagicNumber/String  ', leaderEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#45"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.toString@POLYN150037 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.toString@POLYN150169 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#46"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.toString@POLYN150037 the MagicNumber/String  ', offset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.toString@POLYN150169 the MagicNumber/String  ', offset=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#46"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.toString@POLYN150037 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.toString@POLYN150169 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#50"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00072] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#52"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00052] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00074] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#51"
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.equals@POLYN150318 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.equals@POLYN150450 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#52"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.equals@POLYN150318 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.equals@POLYN150450 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#52"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.equals@POLYN150318 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.equals@POLYN150450 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

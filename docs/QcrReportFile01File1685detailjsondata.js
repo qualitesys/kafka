@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.Windows" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#17"
+ , "c5" : "00053"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#53"
  , "c1" : "Windows"
  , "c2" : "Windows()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#20"
+ , "c5" : "00061"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#61"
  , "c1" : "Map<Long,W>"
  , "c2" : "windowsFor(long)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#23"
+ , "c5" : "00068"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#68"
  , "c1" : "long"
  , "c2" : "size()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#26"
+ , "c5" : "00076"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#76"
  , "c1" : "long"
  , "c2" : "gracePeriodMs()"
  , "c3" : "1"
@@ -95,10 +95,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#20"
+ , "c1" : "00061"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00020] For method windowsFor arguments long  timestamp"
+ , "c3" : "QC-JAV000006[00061] For method windowsFor arguments long  timestamp"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.placement.StripedReplicaPlacer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00234"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#234"
+ , "c5" : "00402"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#402"
  , "c1" : "void"
  , "c2" : "throwInvalidReplicationFactorIfNonPositive(int)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00241"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#241"
+ , "c5" : "00409"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#409"
  , "c1" : "void"
  , "c2" : "throwInvalidReplicationFactorIfZero(int)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00247"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#247"
+ , "c5" : "00415"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#415"
  , "c1" : "void"
  , "c2" : "throwInvalidReplicationFactorIfTooFewBrokers(int;int)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00257"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#257"
+ , "c5" : "00425"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#425"
  , "c1" : "StripedReplicaPlacer"
  , "c2" : "StripedReplicaPlacer(Random)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00262"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#262"
+ , "c5" : "00430"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#430"
  , "c1" : "List<List<Integer>>"
  , "c2" : "place(PlacementSpec;ClusterDescriber)"
  , "c3" : "2"
@@ -125,402 +125,402 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#34"
+ , "c1" : "00145"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#145"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method add arguments int  broker"
+ , "c3" : "QC-JAV000006[00145] For method add arguments int  broker"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#40"
+ , "c1" : "00155"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method initialize arguments Random  random"
+ , "c3" : "QC-JAV000006[00155] For method initialize arguments Random  random"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#40"
+ , "c1" : "00155"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#155"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00040] The argument random is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00155] The argument random is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#48"
+ , "c1" : "00165"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#165"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method shuffle arguments Random  random"
+ , "c3" : "QC-JAV000006[00165] For method shuffle arguments Random  random"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#58"
+ , "c1" : "00185"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#185"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method next arguments int  epoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN218341 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN218341 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN218341 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN218341 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#65"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN218341 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#78"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method initialize arguments Random  random"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#83"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method shuffle arguments Random  random"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#97"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method nextUnfenced arguments int  epoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#102"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00102] For method next arguments int  epoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#104"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.Rack.next@POLYN220727 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#132"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00132] The argument random is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#132"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00132] The argument iterator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#136"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00136] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#137"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00137] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#134"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.RackList@POLYN222123 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#134"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.RackList@POLYN222123 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#138"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.RackList@POLYN222123 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#157"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.RackList@POLYN222123 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#173"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00173] For method place arguments int  replicationFactor"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#191"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00191] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#192"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00192] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00210"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#210"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00210] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#211"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00211] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00210"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#210"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00210] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#211"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00211] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#181"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN224277 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#183"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN224277 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000006[00185] For method next arguments int  epoch"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN224277 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN219349 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00186"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#186"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN219349 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00189"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#189"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN219349 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00190"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN224277 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN219349 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#194"
+ , "c1" : "00192"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN224277 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.BrokerList.next@POLYN219349 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#200"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN224277 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#204"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN224277 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#205"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN224277 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#208"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN224277 the MagicNumber/String  1 should be converted to const"
+ , "c1" : "00211"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#211"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00211] For method initialize arguments Random  random"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00216"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#216"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN224277 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#218"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN224277 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00234"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#234"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00234] For method throwInvalidReplicationFactorIfNonPositive arguments int  replicationFactor"
+ , "c3" : "QC-JAV000006[00216] For method shuffle arguments Random  random"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#235"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfNonPositive@POLYN227330 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#236"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfNonPositive@POLYN227330 the MagicNumber/String  'Invalid replication factor ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00237"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#237"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfNonPositive@POLYN227330 the MagicNumber/String  ': the replication factor must be positive.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#241"
+ , "c1" : "00238"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#238"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00241] For method throwInvalidReplicationFactorIfZero arguments int  numUnfenced"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00242"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#242"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfZero@POLYN227593 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00243"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#243"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfZero@POLYN227593 the MagicNumber/String  'All brokers are currently fenced.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#247"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00247] For method throwInvalidReplicationFactorIfTooFewBrokers arguments int  replicationFactor|int  numTotalBrokers"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00249"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#249"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfTooFewBrokers@POLYN227810 the MagicNumber/String  'The target replication factor ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#250"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfTooFewBrokers@POLYN227810 the MagicNumber/String  'of ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#250"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfTooFewBrokers@POLYN227810 the MagicNumber/String  ' cannot be reached because only ' should be converted to const"
+ , "c3" : "QC-JAV000006[00238] For method nextUnfenced arguments int  epoch"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00251"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#251"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfTooFewBrokers@POLYN227810 the MagicNumber/String  ' broker(s) are registered.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00262"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#262"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00262] For method place arguments PlacementSpec  placement|ClusterDescriber  cluster"
+ , "c3" : "QC-JAV000006[00251] For method next arguments int  epoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00263"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#263"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00263] The argument placement is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#264"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00264] The argument cluster is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00272"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#272"
+ , "c1" : "00253"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.place@POLYN228394 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.Rack.next@POLYN221735 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00300"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#300"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00300] The argument random is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00300"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#300"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00300] The argument iterator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00304"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#304"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00304] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00305"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#305"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00305] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00302"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#302"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.RackList@POLYN223131 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00302"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#302"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.RackList@POLYN223131 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00306"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#306"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.RackList@POLYN223131 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00325"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#325"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.RackList@POLYN223131 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00341"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#341"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00341] For method place arguments int  replicationFactor"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00359"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#359"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00359] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00360"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#360"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00360] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00378"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#378"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00378] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00379"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#379"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00379] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00378"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#378"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00378] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00379"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#379"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00379] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00349"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#349"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN225285 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00351"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#351"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN225285 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00354"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#354"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN225285 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00358"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#358"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN225285 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00362"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#362"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN225285 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00368"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#368"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN225285 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00372"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#372"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN225285 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00373"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#373"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN225285 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00376"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#376"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN225285 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00384"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#384"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00384] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN225285 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00386"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#386"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00386] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList.place@POLYN225285 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00402"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#402"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00402] For method throwInvalidReplicationFactorIfNonPositive arguments int  replicationFactor"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00403"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#403"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfNonPositive@POLYN228338 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00404"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#404"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfNonPositive@POLYN228338 the MagicNumber/String  'Invalid replication factor ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00405"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#405"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00405] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfNonPositive@POLYN228338 the MagicNumber/String  ': the replication factor must be positive.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00409"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#409"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00409] For method throwInvalidReplicationFactorIfZero arguments int  numUnfenced"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00410"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#410"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfZero@POLYN228601 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00411"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#411"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfZero@POLYN228601 the MagicNumber/String  'All brokers are currently fenced.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00415"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#415"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00415] For method throwInvalidReplicationFactorIfTooFewBrokers arguments int  replicationFactor|int  numTotalBrokers"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00417"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#417"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfTooFewBrokers@POLYN228818 the MagicNumber/String  'The target replication factor ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00418"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#418"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfTooFewBrokers@POLYN228818 the MagicNumber/String  'of ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00418"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#418"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfTooFewBrokers@POLYN228818 the MagicNumber/String  ' cannot be reached because only ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00419"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#419"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.throwInvalidReplicationFactorIfTooFewBrokers@POLYN228818 the MagicNumber/String  ' broker(s) are registered.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00430"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#430"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00430] For method place arguments PlacementSpec  placement|ClusterDescriber  cluster"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00431"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#431"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00431] The argument placement is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00432"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#432"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00432] The argument cluster is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00440"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#440"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00440] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.place@POLYN229402 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

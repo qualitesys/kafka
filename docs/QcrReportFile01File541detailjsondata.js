@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.types.TaggedFields" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#21"
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#44"
  , "c1" : "TaggedFields"
  , "c2" : "of(Object...)"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#35"
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#58"
  , "c1" : "TaggedFields"
  , "c2" : "TaggedFields(Map<Integer,Field>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#40"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#63"
  , "c1" : "boolean"
  , "c2" : "isNullable()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#46"
+ , "c5" : "00069"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#69"
  , "c1" : "void"
  , "c2" : "write(ByteBuffer;Object)"
  , "c3" : "4"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#66"
+ , "c5" : "00089"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#89"
  , "c1" : "NavigableMap<Integer,Object>"
  , "c2" : "read(ByteBuffer)"
  , "c3" : "6"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#94"
+ , "c5" : "00117"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#117"
  , "c1" : "int"
  , "c2" : "sizeOf(Object)"
  , "c3" : "4"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00114"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#114"
+ , "c5" : "00137"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#137"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "2"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00128"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#128"
+ , "c5" : "00151"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#151"
  , "c1" : "Map<Integer,Object>"
  , "c2" : "validate(Object)"
  , "c3" : "5"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00150"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#150"
+ , "c5" : "00173"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#173"
  , "c1" : "String"
  , "c2" : "typeName()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00155"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#155"
+ , "c5" : "00178"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#178"
  , "c1" : "String"
  , "c2" : "documentation()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00160"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#160"
+ , "c5" : "00185"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#185"
  , "c1" : "int"
  , "c2" : "numFields()"
  , "c3" : "1"
@@ -186,115 +186,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#21"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00021] For method of arguments Object  ...fields"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00028] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00028] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#29"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00029] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#29"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00029] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#22"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN168854 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#22"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN168854 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN168854 the MagicNumber/String  'TaggedFields#of takes an even ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#24"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN168854 the MagicNumber/String  'number of parameters.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#27"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN168854 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#27"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN168854 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#29"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN168854 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.protocol.types.TaggedFields.isNullable@POLYN170018 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#46"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method write arguments ByteBuffer  buffer|Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#46"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00046] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00050] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000006[00044] For method of arguments Object  ...fields"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -305,115 +200,150 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#54"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00054] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00051] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#54"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00054] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00052] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#53"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.protocol.types.TaggedFields.write@POLYN170157 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00052] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#66"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#45"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN169004 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#45"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN169004 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#46"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN169004 the MagicNumber/String  'TaggedFields#of takes an even ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#47"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN169004 the MagicNumber/String  'number of parameters.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#50"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN169004 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#50"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN169004 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#52"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.protocol.types.TaggedFields.of@POLYN169004 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#64"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.protocol.types.TaggedFields.isNullable@POLYN170168 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method read arguments ByteBuffer  buffer"
+ , "c3" : "QC-JAV000006[00069] For method write arguments ByteBuffer  buffer|Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#66"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00066] For method read list of called methods Object monObjet|int ByteUtils_readUnsignedVarintN171797|int ByteUtils_readUnsignedVarintN172368|int ByteUtils_readUnsignedVarintN172685"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#66"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#69"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00066] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00080] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN171700 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN171700 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAVCWE476[00069] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN171700 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00073] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00074] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00077] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00077] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN171700 the MagicNumber/String  'Invalid or out-of-order tag ' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.protocol.types.TaggedFields.write@POLYN170307 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN171700 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#94"
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#89"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00094] For method sizeOf arguments Object  o"
+ , "c3" : "QC-JAV000006[00089] For method read arguments ByteBuffer  buffer"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#94"
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#89"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00094] For method sizeOf list of called methods Object monObjet|int ByteUtils_sizeOfUnsignedVarintN173803|int ByteUtils_sizeOfUnsignedVarintN174130"
+ , "c3" : "QC-JAV000007[00089] For method read list of called methods Object monObjet|int ByteUtils_readUnsignedVarintN171947|int ByteUtils_readUnsignedVarintN172518|int ByteUtils_readUnsignedVarintN172835"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#99"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00099] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#101"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00101] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#89"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00089] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -424,122 +354,192 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#103"
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00103] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN171850 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.protocol.types.TaggedFields.sizeOf@POLYN173502 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN171850 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#102"
+ , "c1" : "00096"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.protocol.types.TaggedFields.sizeOf@POLYN173502 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN171850 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#115"
+ , "c1" : "00099"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN174951 the MagicNumber/String  'TAGGED_FIELDS_TYPE_NAME(' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN171850 the MagicNumber/String  'Invalid or out-of-order tag ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#116"
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN174951 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.protocol.types.TaggedFields.read@POLYN171850 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#119"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN174951 the MagicNumber/String  ', ' should be converted to const"
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#117"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00117] For method sizeOf arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#120"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN174951 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#117"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00117] For method sizeOf list of called methods Object monObjet|int ByteUtils_sizeOfUnsignedVarintN173953|int ByteUtils_sizeOfUnsignedVarintN174280"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN174951 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000001[00122] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#128"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00128] For method validate arguments Object  item"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#132"
+ , "c1" : "00124"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00132] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00124] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#133"
+ , "c1" : "00126"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00133] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00126] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#135"
+ , "c1" : "00126"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00135] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00126] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#134"
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.common.protocol.types.TaggedFields.validate@POLYN175858 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.common.protocol.types.TaggedFields.sizeOf@POLYN173652 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#136"
+ , "c1" : "00125"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.protocol.types.TaggedFields.validate@POLYN175858 the MagicNumber/String  'The value associated with tag ' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.protocol.types.TaggedFields.sizeOf@POLYN173652 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#137"
+ , "c1" : "00138"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.common.protocol.types.TaggedFields.validate@POLYN175858 the MagicNumber/String  ' must be a RawTaggedField in this version of the software.' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN175101 the MagicNumber/String  'TAGGED_FIELDS_TYPE_NAME(' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#139"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN175101 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00142"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#142"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN175101 the MagicNumber/String  ', ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00143"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#143"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN175101 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00145"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.protocol.types.TaggedFields.validate@POLYN175858 the MagicNumber/String  'Not a NavigableMap.' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.protocol.types.TaggedFields.toString@POLYN175101 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00151"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#151"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00151] For method validate arguments Object  item"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00155"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#155"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00155] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00156"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.common.protocol.types.TaggedFields.documentation@POLYN177112 the MagicNumber/String  'Represents a series of tagged fields.' should be converted to const"
+ , "c3" : "QC-JAV000001[00156] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00158"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#158"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00158] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#157"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.protocol.types.TaggedFields.validate@POLYN176008 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#159"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.protocol.types.TaggedFields.validate@POLYN176008 the MagicNumber/String  'The value associated with tag ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#160"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.common.protocol.types.TaggedFields.validate@POLYN176008 the MagicNumber/String  ' must be a RawTaggedField in this version of the software.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00168"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#168"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.protocol.types.TaggedFields.validate@POLYN176008 the MagicNumber/String  'Not a NavigableMap.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#179"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.common.protocol.types.TaggedFields.documentation@POLYN177262 the MagicNumber/String  'Represents a series of tagged fields.' should be converted to const"
 }} 
 ]
 , 

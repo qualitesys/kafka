@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.common.CheckpointFile" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#32"
+ , "c5" : "00060"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#60"
  , "c1" : "CheckpointFile"
  , "c2" : "CheckpointFile(File;int;EntryFormatter<T>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#47"
+ , "c5" : "00075"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#75"
  , "c1" : "void"
  , "c2" : "write(Collection<T>)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#74"
+ , "c5" : "00102"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#102"
  , "c1" : "List<T>"
  , "c2" : "read()"
  , "c3" : "1"
@@ -121,150 +121,150 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#32"
+ , "c1" : "00060"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#60"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00032] The argument file is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00060] The argument file is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#40"
+ , "c1" : "00068"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE390[00040] Detection of error condition without action (see http://cwe.mitre.org/data/definitions/390.html)"
+ , "c3" : "QC-JAVCWE390[00068] Detection of error condition without action (see http://cwe.mitre.org/data/definitions/390.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#44"
+ , "c1" : "00072"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.server.common.CheckpointFile.CheckpointFile@POLYN167818 the MagicNumber/String  '.tmp' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#47"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method write arguments Collection&lt;T &gt;  entries"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#47"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00047] The argument entries is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#48"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00048] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.server.common.CheckpointFile.CheckpointFile@POLYN168052 the MagicNumber/String  '.tmp' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#75"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00075] For method write arguments Collection&lt;T &gt;  entries"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#75"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00075] The argument entries is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#76"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00075] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00076] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#119"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00119] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00103"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#103"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00103] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#102"
+ , "c1" : "00147"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00147] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#107"
+ , "c1" : "00130"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  'Unrecognised version:' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  ', expected version: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  ' in checkpoint file at: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#112"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#128"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  'Expected [' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#128"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  '] entries in checkpoint file [' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  '], but found only [' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN171147 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#135"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00135] For method toInt arguments String  line"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#143"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method buildMalformedLineException arguments String  line"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.buildMalformedLineException@POLYN173148 the MagicNumber/String  'Malformed line in checkpoint file [%s]: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN171147 the MagicNumber/String  'Unrecognised version:' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#135"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN171147 the MagicNumber/String  ', expected version: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00136"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#136"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN171147 the MagicNumber/String  ' in checkpoint file at: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#140"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN171147 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00146"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#146"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN171147 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00156"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#156"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN171147 the MagicNumber/String  'Expected [' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00156"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#156"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN171147 the MagicNumber/String  '] entries in checkpoint file [' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#157"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN171147 the MagicNumber/String  '], but found only [' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#157"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN171147 the MagicNumber/String  ']' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#163"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00163] For method toInt arguments String  line"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#171"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00171] For method buildMalformedLineException arguments String  line"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.buildMalformedLineException@POLYN173382 the MagicNumber/String  'Malformed line in checkpoint file [%s]: %s' should be converted to const"
 }} 
 ]
 , 

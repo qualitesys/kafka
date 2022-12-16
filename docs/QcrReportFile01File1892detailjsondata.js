@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.PartitionGrouper" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#26"
+ , "c5" : "00053"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#53"
  , "c1" : "Map<TaskId,Set<TopicPartition>>"
  , "c2" : "partitionGroups(Map<Subtopology,Set<String>>;Cluster)"
  , "c3" : "5"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#52"
+ , "c5" : "00081"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#81"
  , "c1" : "int"
  , "c2" : "maxNumPartitions(Cluster;Set<String>)"
  , "c3" : "4"
@@ -105,150 +105,150 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#26"
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method partitionGroups arguments Map&lt;Subtopology ,Set&lt;String &gt; &gt;  topicGroups|Cluster  metadata"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#26"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00026] For method partitionGroups list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; metadata_partitionsForTopicN157441"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#26"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00026] The argument topicGroups is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#26"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00026] The argument metadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00030] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00031] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00036] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00038] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00039] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00036] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00038] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00039] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00039] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.processor.internals.PartitionGrouper.partitionGroups@POLYN156238 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#52"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method maxNumPartitions arguments Cluster  metadata|Set&lt;String &gt;  topics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#52"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00052] For method maxNumPartitions list of called methods Object monObjet|int metadata_partitionsForTopicN158414"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#52"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00052] The argument metadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00055] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000006[00053] For method partitionGroups arguments Map&lt;Subtopology ,Set&lt;String &gt; &gt;  topicGroups|Cluster  metadata"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN158105 the MagicNumber/String  0 should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00053] For method partitionGroups list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; metadata_partitionsForTopicN157615"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#53"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00053] The argument topicGroups is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#53"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00053] The argument metadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN158105 the MagicNumber/String  'Empty partitions for topic {}' should be converted to const"
+ , "c3" : "QC-JAV000001[00057] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN158105 the MagicNumber/String  'Empty partitions for topic ' should be converted to const"
+ , "c3" : "QC-JAV000001[00058] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00063] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00065] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#66"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00066] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00063] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00065] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#66"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00066] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#66"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00066] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#62"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.PartitionGrouper.partitionGroups@POLYN156412 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#81"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00081] For method maxNumPartitions arguments Cluster  metadata|Set&lt;String &gt;  topics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#81"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00081] For method maxNumPartitions list of called methods Object monObjet|int metadata_partitionsForTopicN158588"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#81"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00081] The argument metadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00084] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN158279 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN158279 the MagicNumber/String  'Empty partitions for topic {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN158279 the MagicNumber/String  'Empty partitions for topic ' should be converted to const"
 }} 
 ]
 , 

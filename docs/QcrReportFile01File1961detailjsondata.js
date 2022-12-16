@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#33"
+ , "c5" : "00048"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#48"
  , "c1" : "boolean"
  , "c2" : "assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignmentConfigs)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00095"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#95"
+ , "c5" : "00110"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#110"
  , "c1" : "void"
  , "c2" : "assignActiveStatefulTasks(SortedMap<UUID,ClientState>;SortedSet<TaskId>)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00114"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#114"
+ , "c5" : "00129"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#129"
  , "c1" : "void"
  , "c2" : "assignStandbyReplicaTasks(TreeMap<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignmentConfigs)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00135"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#135"
+ , "c5" : "00150"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#150"
  , "c1" : "void"
  , "c2" : "balanceTasksOverThreads(SortedMap<UUID,ClientState>;Function<ClientState,Set<TaskId>>;BiConsumer<ClientState,TaskId>;BiConsumer<ClientState,TaskId>;BiPredicate<ClientState,ClientState>)"
  , "c3" : "7"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00173"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#173"
+ , "c5" : "00188"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#188"
  , "c1" : "boolean"
  , "c2" : "shouldMoveATask(ClientState;ClientState)"
  , "c3" : "3"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00195"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#195"
+ , "c5" : "00210"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#210"
  , "c1" : "void"
  , "c2" : "assignStatelessActiveTasks(TreeMap<UUID,ClientState>;Iterable<TaskId>)"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00211"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#211"
+ , "c5" : "00226"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#226"
  , "c1" : "Map<TaskId,SortedSet<UUID>>"
  , "c2" : "tasksToCaughtUpClients(Set<TaskId>;Map<UUID,ClientState>;long)"
  , "c3" : "4"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00231"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#231"
+ , "c5" : "00246"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#246"
  , "c1" : "Map<TaskId,SortedSet<UUID>>"
  , "c2" : "tasksToClientByLag(Set<TaskId>;Map<UUID,ClientState>)"
  , "c3" : "2"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00243"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#243"
+ , "c5" : "00258"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#258"
  , "c1" : "boolean"
  , "c2" : "unbounded(long)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00247"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#247"
+ , "c5" : "00262"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#262"
  , "c1" : "boolean"
  , "c2" : "acceptable(long;long)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00251"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#251"
+ , "c5" : "00266"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#266"
  , "c1" : "boolean"
  , "c2" : "activeRunning(long)"
  , "c3" : "1"
@@ -209,479 +209,430 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method assign arguments Map&lt;UUID ,ClientState &gt;  clients|Set&lt;TaskId &gt;  allTaskIds|Set&lt;TaskId &gt;  statefulTaskIds|AssignmentConfigs  configs"
+ , "c3" : "QC-JAV000006[00048] For method assign arguments Map&lt;UUID ,ClientState &gt;  clients|Set&lt;TaskId &gt;  allTaskIds|Set&lt;TaskId &gt;  statefulTaskIds|AssignmentConfigs  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#51"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00036] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN178942 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN178942 the MagicNumber/String  'Decided on assignment: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#88"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN178942 the MagicNumber/String  ' with' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN178942 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN178942 the MagicNumber/String  ' no' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN178942 the MagicNumber/String  ' followup probing rebalance.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#95"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00095] For method assignActiveStatefulTasks arguments SortedMap&lt;UUID ,ClientState &gt;  clientStates|SortedSet&lt;TaskId &gt;  statefulTasks"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#95"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00095] The argument clientStates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignActiveStatefulTasks@POLYN181273 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAVCWE476[00051] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignActiveStatefulTasks@POLYN181273 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN179032 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN179032 the MagicNumber/String  'Decided on assignment: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN179032 the MagicNumber/String  ' with' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN179032 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN179032 the MagicNumber/String  ' no' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN179032 the MagicNumber/String  ' followup probing rebalance.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#110"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00110] For method assignActiveStatefulTasks arguments SortedMap&lt;UUID ,ClientState &gt;  clientStates|SortedSet&lt;TaskId &gt;  statefulTasks"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#110"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00110] The argument clientStates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignActiveStatefulTasks@POLYN181273 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignActiveStatefulTasks@POLYN181363 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00114"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignActiveStatefulTasks@POLYN181363 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#125"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignActiveStatefulTasks@POLYN181363 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00129"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#129"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00114] For method assignStandbyReplicaTasks arguments TreeMap&lt;UUID ,ClientState &gt;  clientStates|Set&lt;TaskId &gt;  allTaskIds|Set&lt;TaskId &gt;  statefulTasks|AssignmentConfigs  configs"
+ , "c3" : "QC-JAV000006[00129] For method assignStandbyReplicaTasks arguments TreeMap&lt;UUID ,ClientState &gt;  clientStates|Set&lt;TaskId &gt;  allTaskIds|Set&lt;TaskId &gt;  statefulTasks|AssignmentConfigs  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#114"
+ , "c1" : "00129"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#129"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00114] For method assignStandbyReplicaTasks list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignor StandbyTaskAssignorFactory_createN182488"
+ , "c3" : "QC-JAV000007[00129] For method assignStandbyReplicaTasks list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignor StandbyTaskAssignorFactory_createN182578"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#117"
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#132"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00117] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00132] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#118"
+ , "c1" : "00133"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStandbyReplicaTasks@POLYN182126 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStandbyReplicaTasks@POLYN182216 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#135"
+ , "c1" : "00150"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00135] For method balanceTasksOverThreads arguments SortedMap&lt;UUID ,ClientState &gt;  clientStates|Function&lt;ClientState ,Set&lt;TaskId &gt; &gt;  currentAssignmentAccessor|BiConsumer&lt;ClientState ,TaskId &gt;  taskUnassignor|BiConsumer&lt;ClientState ,TaskId &gt;  taskAssignor|BiPredicate&lt;ClientState ,ClientState &gt;  taskMovementAttemptPredicate"
+ , "c3" : "QC-JAV000006[00150] For method balanceTasksOverThreads arguments SortedMap&lt;UUID ,ClientState &gt;  clientStates|Function&lt;ClientState ,Set&lt;TaskId &gt; &gt;  currentAssignmentAccessor|BiConsumer&lt;ClientState ,TaskId &gt;  taskUnassignor|BiConsumer&lt;ClientState ,TaskId &gt;  taskAssignor|BiPredicate&lt;ClientState ,ClientState &gt;  taskMovementAttemptPredicate"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#135"
+ , "c1" : "00150"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#150"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00135] The argument clientStates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00150] The argument clientStates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#136"
+ , "c1" : "00151"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#151"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00136] The argument currentAssignmentAccessor is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00151] The argument currentAssignmentAccessor is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#137"
+ , "c1" : "00152"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#152"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00137] The argument taskUnassignor is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00152] The argument taskUnassignor is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#138"
+ , "c1" : "00153"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#153"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00138] The argument taskAssignor is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#139"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00139] The argument taskMovementAttemptPredicate is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#143"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00143] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#144"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00144] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#145"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00145] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00147] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#148"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00148] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00149] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAVCWE476[00153] The argument taskAssignor is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#154"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00154] The argument taskMovementAttemptPredicate is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00158"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00154] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00158] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#159"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00159] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#160"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00160] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00162] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00163] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00164"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#164"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00164] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00169] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00170] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00172] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#159"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00159] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#160"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00160] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00162] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00163] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00164"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#164"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00164] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00169] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00170] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00172] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00163] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00164"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#164"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00164] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00169] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00170] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00172] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00172] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00155] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.balanceTasksOverThreads@POLYN182983 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00157] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.balanceTasksOverThreads@POLYN182983 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#144"
+ , "c1" : "00180"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00144] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.balanceTasksOverThreads@POLYN182983 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#145"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00145] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00147] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#148"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00148] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00149] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#154"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00154] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#155"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00155] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#157"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00157] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#148"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00148] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00149] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#154"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00154] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#155"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00155] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#157"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00157] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#157"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00157] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.balanceTasksOverThreads@POLYN182893 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#142"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.balanceTasksOverThreads@POLYN182893 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#165"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.balanceTasksOverThreads@POLYN182893 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#173"
+ , "c1" : "00188"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#188"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00173] For method shouldMoveATask arguments ClientState  sourceClientState|ClientState  destinationClientState"
+ , "c3" : "QC-JAV000006[00188] For method shouldMoveATask arguments ClientState  sourceClientState|ClientState  destinationClientState"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#173"
+ , "c1" : "00188"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#188"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00173] For method shouldMoveATask list of called methods Object monObjet|double sourceClientState_assignedTaskLoadN185284"
+ , "c3" : "QC-JAV000007[00188] For method shouldMoveATask list of called methods Object monObjet|double sourceClientState_assignedTaskLoadN185374"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#173"
+ , "c1" : "00188"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#188"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00173] The argument sourceClientState is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#174"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00174] The argument destinationClientState is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#177"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN185151 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#178"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN185151 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#182"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN185151 the MagicNumber/String  1.0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#184"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN185151 the MagicNumber/String  1.0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN185151 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAVCWE476[00188] The argument sourceClientState is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00189"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#189"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN185151 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#195"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00195] For method assignStatelessActiveTasks arguments TreeMap&lt;UUID ,ClientState &gt;  clientStates|Iterable&lt;TaskId &gt;  statelessTasks"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#195"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00195] The argument clientStates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00189] The argument destinationClientState is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00192"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#192"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN185241 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN185241 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00197"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#197"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN185241 the MagicNumber/String  1.0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00199"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#199"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN185241 the MagicNumber/String  1.0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00202"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN185241 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00204] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN185241 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#205"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00205] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#198"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStatelessActiveTasks@POLYN186071 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#211"
+ , "c1" : "00210"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#210"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00211] For method tasksToCaughtUpClients arguments Set&lt;TaskId &gt;  statefulTasks|Map&lt;UUID ,ClientState &gt;  clientStates|long  acceptableRecoveryLag"
+ , "c3" : "QC-JAV000006[00210] For method assignStatelessActiveTasks arguments TreeMap&lt;UUID ,ClientState &gt;  clientStates|Iterable&lt;TaskId &gt;  statelessTasks"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#212"
+ , "c1" : "00210"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#210"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00212] The argument clientStates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#217"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00217] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#218"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00218] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAVCWE476[00210] The argument clientStates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -692,157 +643,206 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#219"
+ , "c1" : "00220"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00219] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00220] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00231"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#231"
+ , "c1" : "00213"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#213"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStatelessActiveTasks@POLYN186161 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00226"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#226"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00231] For method tasksToClientByLag arguments Set&lt;TaskId &gt;  statefulTasks|Map&lt;UUID ,ClientState &gt;  clientStates"
+ , "c3" : "QC-JAV000006[00226] For method tasksToCaughtUpClients arguments Set&lt;TaskId &gt;  statefulTasks|Map&lt;UUID ,ClientState &gt;  clientStates|long  acceptableRecoveryLag"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00227"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#227"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00227] The argument clientStates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#232"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00232] The argument clientStates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00235] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00232] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#235"
+ , "c1" : "00233"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00235] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00233] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00243"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#243"
+ , "c1" : "00234"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#234"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00234] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00234"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#234"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00234] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00246"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#246"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00243] For method unbounded arguments long  acceptableRecoveryLag"
+ , "c3" : "QC-JAV000006[00246] For method tasksToClientByLag arguments Set&lt;TaskId &gt;  statefulTasks|Map&lt;UUID ,ClientState &gt;  clientStates"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00247"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#247"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00247] For method acceptable arguments long  acceptableRecoveryLag|long  taskLag"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00247] The argument clientStates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#248"
+ , "c1" : "00250"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.acceptable@POLYN189519 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00250] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00251"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#251"
+ , "c1" : "00250"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#250"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00250] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00258"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#258"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00251] For method activeRunning arguments long  taskLag"
+ , "c3" : "QC-JAV000006[00258] For method unbounded arguments long  acceptableRecoveryLag"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00262"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#262"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00262] For method acceptable arguments long  acceptableRecoveryLag|long  taskLag"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00263"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#263"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.acceptable@POLYN189609 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00266"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#266"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00266] For method activeRunning arguments long  taskLag"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStandbyReplicaTasks@POLYN182126 ending with method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN178942"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStandbyReplicaTasks@POLYN182216 ending with method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN179032"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStandbyReplicaTasks@POLYN182126"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStandbyReplicaTasks@POLYN182216"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN178942"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN179032"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN178942 ending with method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStandbyReplicaTasks@POLYN182126"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN179032 ending with method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStandbyReplicaTasks@POLYN182216"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN178942"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN179032"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStandbyReplicaTasks@POLYN182126"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStandbyReplicaTasks@POLYN182216"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#118"
+ , "c1" : "00133"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#133"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00118] In the recursive method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStandbyReplicaTasks@POLYN182126 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStandbyReplicaTasks@POLYN182216 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#84"
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#99"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN178942 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN179032 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#86"
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN178942 the MagicNumber/String 'Decided on assignment: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN179032 the MagicNumber/String 'Decided on assignment: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#88"
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN178942 the MagicNumber/String ' with' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN179032 the MagicNumber/String ' with' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#89"
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#104"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00089] In the recursive method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN178942 the MagicNumber/String ' no' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN179032 the MagicNumber/String ' no' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#89"
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#104"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00089] In the recursive method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN178942 the MagicNumber/String '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN179032 the MagicNumber/String '' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#90"
+ , "c1" : "00105"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#105"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN178942 the MagicNumber/String ' followup probing rebalance.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN179032 the MagicNumber/String ' followup probing rebalance.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

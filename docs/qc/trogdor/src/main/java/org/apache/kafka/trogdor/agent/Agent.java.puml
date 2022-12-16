@@ -2,17 +2,17 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.trogdor.agent.Agent"
 class org.apache.kafka.trogdor.agent.Agent {
-+Agent(Platform;Scheduler;JsonRestServer;AgentRestResource) : Agent [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#63]]]
-+port() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#73]]]
-+beginShutdown() : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#77]]]
-+waitForShutdown() : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#82]]]
-+status() : AgentStatusResponse [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#87]]]
-+uptime() : UptimeResponse [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#91]]]
-+createWorker(CreateWorkerRequest) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#95]]]
-+stopWorker(StopWorkerRequest) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#99]]]
-+destroyWorker(DestroyWorkerRequest) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#103]]]
-rebaseTaskSpecTime(TaskSpec) : TaskSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#108]]]
-exec(TaskSpec;PrintStream) : boolean [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#115]]]
-+main(String[]) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#153]]]
++Agent(Platform;Scheduler;JsonRestServer;AgentRestResource) : Agent [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#103]]]
++port() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#113]]]
++beginShutdown() : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#117]]]
++waitForShutdown() : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#122]]]
++status() : AgentStatusResponse [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#127]]]
++uptime() : UptimeResponse [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#131]]]
++createWorker(CreateWorkerRequest) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#135]]]
++stopWorker(StopWorkerRequest) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#139]]]
++destroyWorker(DestroyWorkerRequest) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#143]]]
+rebaseTaskSpecTime(TaskSpec) : TaskSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#152]]]
+exec(TaskSpec;PrintStream) : boolean [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#166]]]
++main(String[]) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#204]]]
 } 
 @enduml

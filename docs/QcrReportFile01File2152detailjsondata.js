@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.WrappedSessionStoreIterator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#15"
+ , "c5" : "00030"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#30"
  , "c1" : "WrappedSessionStoreIterator"
  , "c2" : "WrappedSessionStoreIterator(KeyValueIterator<Bytes,byte[]>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#34"
  , "c1" : "WrappedSessionStoreIterator"
  , "c2" : "WrappedSessionStoreIterator(KeyValueIterator<Bytes,byte[]>;Function<Bytes,Windowed<Bytes>>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#26"
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#41"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#31"
+ , "c5" : "00046"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#46"
  , "c1" : "Windowed<Bytes>"
  , "c2" : "peekNextKey()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#36"
+ , "c5" : "00051"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#51"
  , "c1" : "boolean"
  , "c2" : "hasNext()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#56"
  , "c1" : "KeyValue<Windowed<Bytes>,byte[]>"
  , "c2" : "next()"
  , "c3" : "1"

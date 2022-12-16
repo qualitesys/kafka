@@ -60,10 +60,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/annotation/InterfaceStability.java.html#10"
+ , "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/annotation/InterfaceStability.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00010] The class InterfaceStability contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00028] The class InterfaceStability contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
 , 

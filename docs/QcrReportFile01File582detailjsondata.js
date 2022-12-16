@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.TransferableRecords" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/TransferableRecords.java.html#12"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/TransferableRecords.java.html#38"
  , "c1" : "long"
  , "c2" : "writeTo(TransferableChannel;long;int)"
  , "c3" : "1"

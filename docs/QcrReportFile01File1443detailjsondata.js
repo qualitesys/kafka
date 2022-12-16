@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.snapshot.RecordsSnapshotReader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#22"
+ , "c5" : "00037"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#37"
  , "c1" : "RecordsSnapshotReader"
  , "c2" : "RecordsSnapshotReader(OffsetAndEpoch;RecordsIterator<T>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#31"
+ , "c5" : "00046"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#46"
  , "c1" : "OffsetAndEpoch"
  , "c2" : "snapshotId()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#36"
+ , "c5" : "00051"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#51"
  , "c1" : "long"
  , "c2" : "lastContainedLogOffset()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#56"
  , "c1" : "int"
  , "c2" : "lastContainedLogEpoch()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#46"
+ , "c5" : "00061"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#61"
  , "c1" : "long"
  , "c2" : "lastContainedLogTimestamp()"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#63"
+ , "c5" : "00078"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#78"
  , "c1" : "boolean"
  , "c2" : "hasNext()"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#72"
+ , "c5" : "00087"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#87"
  , "c1" : "Batch<T>"
  , "c2" : "next()"
  , "c3" : "2"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#84"
+ , "c5" : "00099"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#99"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00101"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#101"
+ , "c5" : "00118"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#118"
  , "c1" : "Optional<Batch<T>>"
  , "c2" : "nextBatch()"
  , "c3" : "4"
@@ -154,38 +154,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#37"
+ , "c1" : "00052"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogOffset@POLYN153832 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogOffset@POLYN153934 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#51"
+ , "c1" : "00066"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogTimestamp@POLYN154072 the MagicNumber/String  'nextBatch was present when last contained log timestamp was not present' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.snapshot.RecordsSnapshotReader.next@POLYN154849 the MagicNumber/String  'Snapshot reader doesn't have any more elements' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogTimestamp@POLYN154174 the MagicNumber/String  'nextBatch was present when last contained log timestamp was not present' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#89"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00089] The argument snapshot is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.snapshot.RecordsSnapshotReader.next@POLYN154951 the MagicNumber/String  'Snapshot reader doesn't have any more elements' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#103"
+ , "c1" : "00104"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#104"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00104] The argument snapshot is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00103] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00120] Avoid declaring class instance within loop, performance impact"
 }} 
 ]
 , 

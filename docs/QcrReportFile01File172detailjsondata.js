@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#30"
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#45"
  , "c1" : "RemoveMembersFromConsumerGroupHandler"
  , "c2" : "RemoveMembersFromConsumerGroupHandler(String;List<MemberIdentity>;LogContext)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#42"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#57"
  , "c1" : "String"
  , "c2" : "apiName()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#47"
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#62"
  , "c1" : "AdminApiLookupStrategy<CoordinatorKey>"
  , "c2" : "lookupStrategy()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#51"
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#66"
  , "c1" : "AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,Map<MemberIdentity,Errors>>"
  , "c2" : "newFuture(String)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#57"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#72"
  , "c1" : "void"
  , "c2" : "validateKeys(Set<CoordinatorKey>)"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#67"
+ , "c5" : "00082"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#82"
  , "c1" : "LeaveGroupRequest.Builder"
  , "c2" : "buildBatchedRequest(int;Set<CoordinatorKey>)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#73"
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#88"
  , "c1" : "ApiResult<CoordinatorKey,Map<MemberIdentity,Errors>>"
  , "c2" : "handleResponse(Node;Set<CoordinatorKey>;AbstractResponse)"
  , "c3" : "4"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00102"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#102"
+ , "c5" : "00117"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#117"
  , "c1" : "void"
  , "c2" : "handleGroupError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>)"
  , "c3" : "5"
@@ -175,206 +175,206 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#48"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00033] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.apiName@POLYN160878 the MagicNumber/String  'leaveGroup' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#51"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00051] For method newFuture arguments String  groupId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#57"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method validateKeys arguments Set&lt;CoordinatorKey &gt;  groupIds"
+ , "c3" : "QC-JAVCWE476[00048] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#58"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00058] The argument groupIds is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.validateKeys@POLYN161391 the MagicNumber/String  'Received unexpected group ids ' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.apiName@POLYN160968 the MagicNumber/String  'leaveGroup' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.validateKeys@POLYN161391 the MagicNumber/String  ' (expected only ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.validateKeys@POLYN161391 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#67"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method buildBatchedRequest arguments int  coordinatorId|Set&lt;CoordinatorKey &gt;  groupIds"
+ , "c3" : "QC-JAV000006[00066] For method newFuture arguments String  groupId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#72"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00072] For method validateKeys arguments Set&lt;CoordinatorKey &gt;  groupIds"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#73"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00073] The argument groupIds is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#76"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.validateKeys@POLYN161481 the MagicNumber/String  'Received unexpected group ids ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.validateKeys@POLYN161481 the MagicNumber/String  ' (expected only ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.validateKeys@POLYN161481 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method handleResponse arguments Node  coordinator|Set&lt;CoordinatorKey &gt;  groupIds|AbstractResponse  abstractResponse"
+ , "c3" : "QC-JAV000006[00082] For method buildBatchedRequest arguments int  coordinatorId|Set&lt;CoordinatorKey &gt;  groupIds"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#102"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00102] For method handleGroupError arguments CoordinatorKey  groupId|Errors  error|Map&lt;CoordinatorKey ,Throwable &gt;  failed|Set&lt;CoordinatorKey &gt;  groupsToUnmap"
+ , "c3" : "QC-JAV000006[00088] For method handleResponse arguments Node  coordinator|Set&lt;CoordinatorKey &gt;  groupIds|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#103"
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#117"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00117] For method handleGroupError arguments CoordinatorKey  groupId|Errors  error|Map&lt;CoordinatorKey ,Throwable &gt;  failed|Set&lt;CoordinatorKey &gt;  groupsToUnmap"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#118"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00103] The argument groupId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00118] The argument groupId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#104"
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#119"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00104] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00119] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#105"
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#120"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00105] The argument failed is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00120] The argument failed is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#106"
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#121"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00106] The argument groupsToUnmap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00121] The argument groupsToUnmap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#127"
+ , "c1" : "00142"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#142"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE484[00127] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c3" : "QC-JAVCWE484[00142] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#110"
+ , "c1" : "00125"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163854 the MagicNumber/String  '`LeaveGroup` request for group id {} failed due to error {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163944 the MagicNumber/String  '`LeaveGroup` request for group id {} failed due to error {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#115"
+ , "c1" : "00130"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163854 the MagicNumber/String  '`LeaveGroup` request for group id {} failed because the coordinator ' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163944 the MagicNumber/String  '`LeaveGroup` request for group id {} failed because the coordinator ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#116"
+ , "c1" : "00131"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163854 the MagicNumber/String  'is still in the process of loading state. Will retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163944 the MagicNumber/String  'is still in the process of loading state. Will retry' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#122"
+ , "c1" : "00137"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163854 the MagicNumber/String  '`LeaveGroup` request for group id {} returned error {}. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163944 the MagicNumber/String  '`LeaveGroup` request for group id {} returned error {}. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#123"
+ , "c1" : "00138"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163854 the MagicNumber/String  'Will attempt to find the coordinator again and retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163944 the MagicNumber/String  'Will attempt to find the coordinator again and retry' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#128"
+ , "c1" : "00143"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163854 the MagicNumber/String  '`LeaveGroup` request for group id {} failed due to unexpected error {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163944 the MagicNumber/String  '`LeaveGroup` request for group id {} failed due to unexpected error {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163854"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163944"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#110"
+ , "c1" : "00125"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#125"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163854 the MagicNumber/String '`LeaveGroup` request for group id {} failed due to error {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00125] In the recursive method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163944 the MagicNumber/String '`LeaveGroup` request for group id {} failed due to error {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#115"
+ , "c1" : "00130"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#130"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163854 the MagicNumber/String '`LeaveGroup` request for group id {} failed because the coordinator ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163944 the MagicNumber/String '`LeaveGroup` request for group id {} failed because the coordinator ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#116"
+ , "c1" : "00131"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00116] In the recursive method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163854 the MagicNumber/String 'is still in the process of loading state. Will retry' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163944 the MagicNumber/String 'is still in the process of loading state. Will retry' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#122"
+ , "c1" : "00137"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00122] In the recursive method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163854 the MagicNumber/String '`LeaveGroup` request for group id {} returned error {}. ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163944 the MagicNumber/String '`LeaveGroup` request for group id {} returned error {}. ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#123"
+ , "c1" : "00138"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163854 the MagicNumber/String 'Will attempt to find the coordinator again and retry' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163944 the MagicNumber/String 'Will attempt to find the coordinator again and retry' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#128"
+ , "c1" : "00143"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163854 the MagicNumber/String '`LeaveGroup` request for group id {} failed due to unexpected error {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler.handleGroupError@POLYN163944 the MagicNumber/String '`LeaveGroup` request for group id {} failed due to unexpected error {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

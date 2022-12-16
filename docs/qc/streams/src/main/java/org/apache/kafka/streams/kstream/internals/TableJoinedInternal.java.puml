@@ -2,9 +2,9 @@
 !pragma layout smetana
 "TableJoined<K,KO>" <|-- "org.apache.kafka.streams.kstream.internals.TableJoinedInternal"
 class org.apache.kafka.streams.kstream.internals.TableJoinedInternal {
-TableJoinedInternal(TableJoined<K,KO>) : TableJoinedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.html#9]]]
-+partitioner() : StreamPartitioner<K,Void> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.html#13]]]
-+otherPartitioner() : StreamPartitioner<KO,Void> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.html#17]]]
-+name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.html#21]]]
+TableJoinedInternal(TableJoined<K,KO>) : TableJoinedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.html#24]]]
++partitioner() : StreamPartitioner<K,Void> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.html#28]]]
++otherPartitioner() : StreamPartitioner<KO,Void> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.html#32]]]
++name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.html#36]]]
 } 
 @enduml

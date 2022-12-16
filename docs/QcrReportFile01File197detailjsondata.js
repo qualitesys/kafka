@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.StickyAssignor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#44"
+ , "c5" : "00199"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#199"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#49"
+ , "c5" : "00204"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#204"
  , "c1" : "void"
  , "c2" : "onAssignment(Assignment;ConsumerGroupMetadata)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#55"
+ , "c5" : "00210"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#210"
  , "c1" : "ByteBuffer"
  , "c2" : "subscriptionUserData(Set<String>)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#63"
+ , "c5" : "00218"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#218"
  , "c1" : "MemberData"
  , "c2" : "memberData(Subscription)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#72"
+ , "c5" : "00227"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#227"
  , "c1" : "ByteBuffer"
  , "c2" : "serializeTopicPartitionAssignment(MemberData)"
  , "c3" : "3"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#90"
+ , "c5" : "00245"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#245"
  , "c1" : "MemberData"
  , "c2" : "deserializeTopicPartitionAssignment(ByteBuffer)"
  , "c3" : "3"
@@ -141,164 +141,164 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#49"
+ , "c1" : "00204"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#204"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method onAssignment arguments Assignment  assignment|ConsumerGroupMetadata  metadata"
+ , "c3" : "QC-JAV000006[00204] For method onAssignment arguments Assignment  assignment|ConsumerGroupMetadata  metadata"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#49"
+ , "c1" : "00204"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#204"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00049] The argument assignment is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00204] The argument assignment is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#49"
+ , "c1" : "00204"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#204"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00049] The argument metadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00204] The argument metadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#55"
+ , "c1" : "00210"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#210"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method subscriptionUserData arguments Set&lt;String &gt;  topics"
+ , "c3" : "QC-JAV000006[00210] For method subscriptionUserData arguments Set&lt;String &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#56"
+ , "c1" : "00211"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.consumer.StickyAssignor.subscriptionUserData@POLYN215986 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.clients.consumer.StickyAssignor.subscriptionUserData@POLYN216916 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#57"
+ , "c1" : "00212"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.consumer.StickyAssignor.subscriptionUserData@POLYN215986 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.clients.consumer.StickyAssignor.subscriptionUserData@POLYN216916 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#63"
+ , "c1" : "00218"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#218"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00063] For method memberData arguments Subscription  subscription"
+ , "c3" : "QC-JAV000006[00218] For method memberData arguments Subscription  subscription"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#63"
+ , "c1" : "00218"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#218"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00063] The argument subscription is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00218] The argument subscription is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#65"
+ , "c1" : "00220"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.consumer.StickyAssignor.memberData@POLYN216352 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.clients.consumer.StickyAssignor.memberData@POLYN217282 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#72"
+ , "c1" : "00227"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#227"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method serializeTopicPartitionAssignment arguments MemberData  memberData"
+ , "c3" : "QC-JAV000006[00227] For method serializeTopicPartitionAssignment arguments MemberData  memberData"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#72"
+ , "c1" : "00227"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#227"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00072] The argument memberData is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00227] The argument memberData is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#76"
+ , "c1" : "00231"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00076] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00231] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#90"
+ , "c1" : "00245"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#245"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00090] For method deserializeTopicPartitionAssignment arguments ByteBuffer  buffer"
+ , "c3" : "QC-JAV000006[00245] For method deserializeTopicPartitionAssignment arguments ByteBuffer  buffer"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#90"
+ , "c1" : "00245"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#245"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00090] For method deserializeTopicPartitionAssignment list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.MemberData assignment_getStringN219298"
+ , "c3" : "QC-JAV000007[00245] For method deserializeTopicPartitionAssignment list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.MemberData assignment_getStringN220228"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#90"
+ , "c1" : "00245"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#245"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00090] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00245] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#107"
+ , "c1" : "00262"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#262"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00107] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00262] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#107"
+ , "c1" : "00262"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#262"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00107] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00262] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#108"
+ , "c1" : "00263"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00108] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00263] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#109"
+ , "c1" : "00264"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00109] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00264] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#110"
+ , "c1" : "00265"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00110] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00265] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#110"
+ , "c1" : "00265"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00110] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00265] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#110"
+ , "c1" : "00265"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00110] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00265] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#110"
+ , "c1" : "00265"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00110] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00265] Avoid declaring class instance within loop, performance impact"
 }} 
 ]
 , 

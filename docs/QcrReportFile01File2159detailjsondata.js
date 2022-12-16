@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#38"
  , "c1" : "StateStoreMetrics"
  , "c2" : "StateStoreMetrics()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00141"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#141"
+ , "c5" : "00156"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#156"
  , "c1" : "Sensor"
  , "c2" : "putSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00158"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#158"
+ , "c5" : "00173"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#173"
  , "c1" : "Sensor"
  , "c2" : "putIfAbsentSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00175"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#175"
+ , "c5" : "00190"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#190"
  , "c1" : "Sensor"
  , "c2" : "putAllSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00192"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#192"
+ , "c5" : "00207"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#207"
  , "c1" : "Sensor"
  , "c2" : "getSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00209"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#209"
+ , "c5" : "00224"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#224"
  , "c1" : "Sensor"
  , "c2" : "fetchSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00226"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#226"
+ , "c5" : "00241"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#241"
  , "c1" : "Sensor"
  , "c2" : "allSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00243"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#243"
+ , "c5" : "00258"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#258"
  , "c1" : "Sensor"
  , "c2" : "rangeSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00260"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#260"
+ , "c5" : "00275"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#275"
  , "c1" : "Sensor"
  , "c2" : "prefixScanSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00287"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#287"
+ , "c5" : "00302"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#302"
  , "c1" : "Sensor"
  , "c2" : "flushSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00304"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#304"
+ , "c5" : "00319"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#319"
  , "c1" : "Sensor"
  , "c2" : "deleteSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00321"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#321"
+ , "c5" : "00336"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#336"
  , "c1" : "Sensor"
  , "c2" : "removeSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00338"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#338"
+ , "c5" : "00353"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#353"
  , "c1" : "Sensor"
  , "c2" : "restoreSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00354"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#354"
+ , "c5" : "00369"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#369"
  , "c1" : "Sensor"
  , "c2" : "expiredWindowRecordDropSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00375"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#375"
+ , "c5" : "00390"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#390"
  , "c1" : "Sensor"
  , "c2" : "suppressionBufferCountSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00391"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#391"
+ , "c5" : "00406"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#406"
  , "c1" : "Sensor"
  , "c2" : "suppressionBufferSizeSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00407"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#407"
+ , "c5" : "00422"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#422"
  , "c1" : "Sensor"
  , "c2" : "e2ELatencySensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00425"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#425"
+ , "c5" : "00440"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#440"
  , "c1" : "Sensor"
  , "c2" : "sizeOrCountSensor(String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00442"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#442"
+ , "c5" : "00457"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#457"
  , "c1" : "Sensor"
  , "c2" : "throughputAndLatencySensor(String;String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -251,213 +251,213 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#141"
+ , "c1" : "00156"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#156"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00141] For method putSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00156] For method putSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#158"
+ , "c1" : "00173"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#173"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00158] For method putIfAbsentSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00173] For method putIfAbsentSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#175"
+ , "c1" : "00190"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#190"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00175] For method putAllSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00190] For method putAllSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#192"
+ , "c1" : "00207"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#207"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00192] For method getSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00207] For method getSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#209"
+ , "c1" : "00224"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#224"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00209] For method fetchSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00224] For method fetchSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00226"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#226"
+ , "c1" : "00241"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#241"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00226] For method allSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00241] For method allSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00243"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#243"
+ , "c1" : "00258"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#258"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00243] For method rangeSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00258] For method rangeSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#260"
+ , "c1" : "00275"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#275"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00260] For method prefixScanSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00275] For method prefixScanSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#260"
+ , "c1" : "00275"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#275"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00260] For method prefixScanSensor list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_storeLevelTagMapN205286|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN205429"
+ , "c3" : "QC-JAV000007[00275] For method prefixScanSensor list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_storeLevelTagMapN205376|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN205519"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00263"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#263"
+ , "c1" : "00278"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#278"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00263] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00278] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00287"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#287"
+ , "c1" : "00302"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#302"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00287] For method flushSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00302] For method flushSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00304"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#304"
+ , "c1" : "00319"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#319"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00304] For method deleteSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00319] For method deleteSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00321"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#321"
+ , "c1" : "00336"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#336"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00321] For method removeSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00336] For method removeSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00338"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#338"
+ , "c1" : "00353"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#353"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00338] For method restoreSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00353] For method restoreSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00354"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#354"
+ , "c1" : "00369"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#369"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00354] For method expiredWindowRecordDropSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00369] For method expiredWindowRecordDropSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00354"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#354"
+ , "c1" : "00369"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#369"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00354] For method expiredWindowRecordDropSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN207786"
+ , "c3" : "QC-JAV000007[00369] For method expiredWindowRecordDropSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN207876"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00357"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#357"
+ , "c1" : "00372"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#372"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00357] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00372] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00366"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#366"
+ , "c1" : "00381"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#381"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.expiredWindowRecordDropSensor@POLYN207597 the MagicNumber/String  'stream-' should be converted to const"
+ , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.expiredWindowRecordDropSensor@POLYN207687 the MagicNumber/String  'stream-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00366"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#366"
+ , "c1" : "00381"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#381"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.expiredWindowRecordDropSensor@POLYN207597 the MagicNumber/String  '-metrics' should be converted to const"
+ , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics.expiredWindowRecordDropSensor@POLYN207687 the MagicNumber/String  '-metrics' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00375"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#375"
+ , "c1" : "00390"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#390"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00375] For method suppressionBufferCountSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00390] For method suppressionBufferCountSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00391"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#391"
+ , "c1" : "00406"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#406"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00391] For method suppressionBufferSizeSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00406] For method suppressionBufferSizeSensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00407"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#407"
+ , "c1" : "00422"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#422"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00407] For method e2ELatencySensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00422] For method e2ELatencySensor arguments String  taskId|String  storeType|String  storeName|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00407"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#407"
+ , "c1" : "00422"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#422"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00407] For method e2ELatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN209249|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_storeLevelTagMapN209459"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00410"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#410"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00410] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000007[00422] For method e2ELatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN209339|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_storeLevelTagMapN209549"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00425"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#425"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00425] For method sizeOrCountSensor arguments String  taskId|String  storeType|String  storeName|String  metricName|String  descriptionOfAvg|String  descriptionOfMax|RecordingLevel  recordingLevel|StreamsMetricsImpl  streamsMetrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00425"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#425"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00425] For method sizeOrCountSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN210109|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_storeLevelTagMapN210427"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00432"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#432"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00432] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00425] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00442"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#442"
+ , "c1" : "00440"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#440"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00442] For method throughputAndLatencySensor arguments String  taskId|String  storeType|String  storeName|String  metricName|String  descriptionOfRate|String  descriptionOfAvg|String  descriptionOfMax|RecordingLevel  recordingLevel|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00440] For method sizeOrCountSensor arguments String  taskId|String  storeType|String  storeName|String  metricName|String  descriptionOfAvg|String  descriptionOfMax|RecordingLevel  recordingLevel|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00442"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#442"
+ , "c1" : "00440"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#440"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00442] For method throughputAndLatencySensor list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_storeLevelTagMapN211236|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN211373"
+ , "c3" : "QC-JAV000007[00440] For method sizeOrCountSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN210199|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_storeLevelTagMapN210517"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00450"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#450"
+ , "c1" : "00447"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#447"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00450] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00447] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00457"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#457"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00457] For method throughputAndLatencySensor arguments String  taskId|String  storeType|String  storeName|String  metricName|String  descriptionOfRate|String  descriptionOfAvg|String  descriptionOfMax|RecordingLevel  recordingLevel|StreamsMetricsImpl  streamsMetrics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00457"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#457"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00457] For method throughputAndLatencySensor list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_storeLevelTagMapN211326|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN211463"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00465"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#465"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00465] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

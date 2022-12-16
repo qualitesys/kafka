@@ -2,15 +2,15 @@
 !pragma layout smetana
 "AbstractProcessorContext<Object,Object>" <|-- "org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl"
 class org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl {
-+GlobalProcessorContextImpl(StreamsConfig;GlobalStateManager;StreamsMetricsImpl;ThreadCache;Time) : GlobalProcessorContextImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#29]]]
-stateManager() : StateManager [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#40]]]
-+commit() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#97]]]
-+currentSystemTimeMs() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#102]]]
-+currentStreamTimeMs() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#107]]]
-+schedule(Duration;PunctuationType;Punctuator) : Cancellable [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#113]]]
-+logChange(String;Bytes;byte[];long;Position) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#118]]]
-+transitionToActive(StreamTask;RecordCollector;ThreadCache) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#127]]]
-+transitionToStandby(ThreadCache) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#132]]]
-+registerCacheFlushListener(String;DirtyEntryFlushListener) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#137]]]
++GlobalProcessorContextImpl(StreamsConfig;GlobalStateManager;StreamsMetricsImpl;ThreadCache;Time) : GlobalProcessorContextImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#44]]]
+stateManager() : StateManager [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#55]]]
++commit() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#114]]]
++currentSystemTimeMs() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#119]]]
++currentStreamTimeMs() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#124]]]
++schedule(Duration;PunctuationType;Punctuator) : Cancellable [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#132]]]
++logChange(String;Bytes;byte[];long;Position) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#137]]]
++transitionToActive(StreamTask;RecordCollector;ThreadCache) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#146]]]
++transitionToStandby(ThreadCache) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#151]]]
++registerCacheFlushListener(String;DirtyEntryFlushListener) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#156]]]
 } 
 @enduml

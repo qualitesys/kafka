@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.UnregisterBrokerResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#32"
  , "c1" : "UnregisterBrokerResponse"
  , "c2" : "UnregisterBrokerResponse(UnregisterBrokerResponseData)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#38"
  , "c1" : "UnregisterBrokerResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#28"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#43"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#33"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#48"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#56"
  , "c1" : "UnregisterBrokerResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#46"
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#61"
  , "c1" : "boolean"
  , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"
@@ -136,45 +136,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#35"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.requests.UnregisterBrokerResponse.errorCounts@POLYN146538 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.requests.UnregisterBrokerResponse.errorCounts@POLYN146628 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.requests.UnregisterBrokerResponse.errorCounts@POLYN146538 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.requests.UnregisterBrokerResponse.errorCounts@POLYN146628 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#41"
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00056] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#46"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method shouldClientThrottle arguments short  version"
+ , "c3" : "QC-JAV000006[00061] For method shouldClientThrottle arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#47"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.requests.UnregisterBrokerResponse.shouldClientThrottle@POLYN147283 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.requests.UnregisterBrokerResponse.shouldClientThrottle@POLYN147373 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.UnregisterBrokerResponse.throttleTimeMs@POLYN146381"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.UnregisterBrokerResponse.throttleTimeMs@POLYN146471"
 }} 
 ]
 , 

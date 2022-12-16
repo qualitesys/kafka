@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.errors.StreamsException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#16"
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#36"
  , "c1" : "StreamsException"
  , "c2" : "StreamsException(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#20"
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#40"
  , "c1" : "StreamsException"
  , "c2" : "StreamsException(String;TaskId)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#25"
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#45"
  , "c1" : "StreamsException"
  , "c2" : "StreamsException(String;Throwable)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#29"
+ , "c5" : "00049"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#49"
  , "c1" : "StreamsException"
  , "c2" : "StreamsException(String;Throwable;TaskId)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#34"
+ , "c5" : "00054"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#54"
  , "c1" : "StreamsException"
  , "c2" : "StreamsException(Throwable)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#38"
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#58"
  , "c1" : "StreamsException"
  , "c2" : "StreamsException(Throwable;TaskId)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#44"
+ , "c5" : "00068"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#68"
  , "c1" : "Optional<TaskId>"
  , "c2" : "taskId()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#48"
+ , "c5" : "00072"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#72"
  , "c1" : "void"
  , "c2" : "setTaskId(TaskId)"
  , "c3" : "1"
@@ -138,31 +138,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#17"
+ , "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.streams.errors.StreamsException.StreamsException@POLYN149836 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.errors.StreamsException.StreamsException@POLYN149980 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#26"
+ , "c1" : "00046"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.errors.StreamsException.StreamsException@POLYN150215 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.errors.StreamsException.StreamsException@POLYN150359 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#35"
+ , "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.errors.StreamsException.StreamsException@POLYN150675 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.errors.StreamsException.StreamsException@POLYN150819 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#48"
+ , "c1" : "00072"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method setTaskId arguments TaskId  taskId"
+ , "c3" : "QC-JAV000006[00072] For method setTaskId arguments TaskId  taskId"
 }} 
 ]
 , 

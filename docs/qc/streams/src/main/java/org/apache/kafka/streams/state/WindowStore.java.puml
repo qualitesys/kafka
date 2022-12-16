@@ -2,18 +2,18 @@
 !pragma layout smetana
 "StateStore" <|-- "org.apache.kafka.streams.state.WindowStore"
 class org.apache.kafka.streams.state.WindowStore {
-put(K;V;long) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#17]]]
-fetch(K;long;long) : WindowStoreIterator<V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#22]]]
-fetch(K;Instant;Instant) : WindowStoreIterator<V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#25]]]
-backwardFetch(K;long;long) : WindowStoreIterator<V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#34]]]
-backwardFetch(K;Instant;Instant) : WindowStoreIterator<V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#41]]]
-fetch(K;K;long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#53]]]
-fetch(K;K;Instant;Instant) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#56]]]
-backwardFetch(K;K;long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#67]]]
-backwardFetch(K;K;Instant;Instant) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#75]]]
-fetchAll(long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#89]]]
-fetchAll(Instant;Instant) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#92]]]
-backwardFetchAll(long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#98]]]
-backwardFetchAll(Instant;Instant) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#103]]]
+put(K;V;long) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#49]]]
+fetch(K;long;long) : WindowStoreIterator<V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#86]]]
+fetch(K;Instant;Instant) : WindowStoreIterator<V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#89]]]
+backwardFetch(K;long;long) : WindowStoreIterator<V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#98]]]
+backwardFetch(K;Instant;Instant) : WindowStoreIterator<V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#105]]]
+fetch(K;K;long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#130]]]
+fetch(K;K;Instant;Instant) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#133]]]
+backwardFetch(K;K;long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#144]]]
+backwardFetch(K;K;Instant;Instant) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#152]]]
+fetchAll(long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#173]]]
+fetchAll(Instant;Instant) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#176]]]
+backwardFetchAll(long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#182]]]
+backwardFetchAll(Instant;Instant) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#187]]]
 } 
 @enduml

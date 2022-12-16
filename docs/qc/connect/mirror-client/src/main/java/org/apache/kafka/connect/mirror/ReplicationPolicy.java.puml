@@ -2,16 +2,16 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.connect.mirror.ReplicationPolicy"
 class org.apache.kafka.connect.mirror.ReplicationPolicy {
-formatRemoteTopic(String;String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#12]]]
-topicSource(String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#15]]]
-upstreamTopic(String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#18]]]
-originalTopic(String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#21]]]
-heartbeatsTopic() : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#31]]]
-offsetSyncsTopic(String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#36]]]
-checkpointsTopic(String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#41]]]
-isHeartbeatsTopic(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#46]]]
-isCheckpointsTopic(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#51]]]
-isMM2InternalTopic(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#56]]]
-isInternalTopic(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#61]]]
+formatRemoteTopic(String;String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#27]]]
+topicSource(String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#32]]]
+upstreamTopic(String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#41]]]
+originalTopic(String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#46]]]
+heartbeatsTopic() : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#56]]]
+offsetSyncsTopic(String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#61]]]
+checkpointsTopic(String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#66]]]
+isHeartbeatsTopic(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#71]]]
+isCheckpointsTopic(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#76]]]
+isMM2InternalTopic(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#81]]]
+isInternalTopic(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#86]]]
 } 
 @enduml

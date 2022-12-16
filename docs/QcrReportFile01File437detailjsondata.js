@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.feature.BaseVersionRange" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#26"
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#62"
  , "c1" : "BaseVersionRange"
  , "c2" : "BaseVersionRange(String;short;String;short)"
  , "c3" : "4"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#45"
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#81"
  , "c1" : "short"
  , "c2" : "min()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#49"
+ , "c5" : "00085"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#85"
  , "c1" : "short"
  , "c2" : "max()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#53"
+ , "c5" : "00089"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#89"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#60"
+ , "c5" : "00096"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#96"
  , "c1" : "Map<String,Short>"
  , "c2" : "toMap()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#64"
+ , "c5" : "00100"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#100"
  , "c1" : "String"
  , "c2" : "mapToString(Map<String,Short>)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#73"
+ , "c5" : "00109"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#109"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#90"
+ , "c5" : "00126"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#126"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#94"
+ , "c5" : "00130"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#130"
  , "c1" : "short"
  , "c2" : "valueOrThrow(String;Map<String,Short>)"
  , "c3" : "2"
@@ -168,171 +168,171 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#26"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#62"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00026] The argument minKeyLabel is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00062] The argument minKeyLabel is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#26"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#62"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00026] The argument maxKeyLabel is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00062] The argument maxKeyLabel is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#27"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN159767 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN159983 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#27"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN159767 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN159983 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#30"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN159767 the MagicNumber/String  'Expected minValue &amp;gt;= 1, maxValue &amp;gt;= 1 and maxValue &amp;gt;= minValue, but received' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN159983 the MagicNumber/String  'Expected minValue &amp;gt;= 1, maxValue &amp;gt;= 1 and maxValue &amp;gt;= minValue, but received' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#31"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN159767 the MagicNumber/String  ' minValue: %d, maxValue: %d' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN159983 the MagicNumber/String  ' minValue: %d, maxValue: %d' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#34"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN159767 the MagicNumber/String  'Expected minKeyLabel to be non-empty.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN159767 the MagicNumber/String  'Expected maxKeyLabel to be non-empty.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.feature.BaseVersionRange.toString@POLYN160977 the MagicNumber/String  '%s[%s]' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#64"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method mapToString arguments Map&lt;String ,Short &gt;  map"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#64"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00064] The argument map is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.feature.BaseVersionRange.mapToString@POLYN161564 the MagicNumber/String  '%s:%d' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.feature.BaseVersionRange.mapToString@POLYN161564 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN159983 the MagicNumber/String  'Expected minKeyLabel to be non-empty.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#73"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.feature.BaseVersionRange.BaseVersionRange@POLYN159983 the MagicNumber/String  'Expected maxKeyLabel to be non-empty.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#91"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.feature.BaseVersionRange.toString@POLYN161193 the MagicNumber/String  '%s[%s]' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method equals arguments Object  other"
+ , "c3" : "QC-JAV000006[00100] For method mapToString arguments Map&lt;String ,Short &gt;  map"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00078] The same method call other.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.feature.BaseVersionRange.equals@POLYN162028 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.feature.BaseVersionRange.equals@POLYN162028 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.feature.BaseVersionRange.equals@POLYN162028 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#94"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00094] For method valueOrThrow arguments String  key|Map&lt;String ,Short &gt;  versionRangeMap"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#94"
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#100"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00094] The argument versionRangeMap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00100] The argument map is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#96"
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.feature.BaseVersionRange.valueOrThrow@POLYN163023 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.feature.BaseVersionRange.mapToString@POLYN161780 the MagicNumber/String  '%s:%d' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#97"
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.feature.BaseVersionRange.valueOrThrow@POLYN163023 the MagicNumber/String  '%s absent in [%s]' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.feature.BaseVersionRange.mapToString@POLYN161780 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#53"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00053] Public method toString is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#109"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00109] For method equals arguments Object  other"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#94"
+ , "c1" : "00114"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00114] The same method call other.getClass() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.feature.BaseVersionRange.equals@POLYN162244 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.feature.BaseVersionRange.equals@POLYN162244 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.feature.BaseVersionRange.equals@POLYN162244 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#130"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00130] For method valueOrThrow arguments String  key|Map&lt;String ,Short &gt;  versionRangeMap"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#130"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00130] The argument versionRangeMap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#132"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.common.feature.BaseVersionRange.valueOrThrow@POLYN163239 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00133"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#133"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.feature.BaseVersionRange.valueOrThrow@POLYN163239 the MagicNumber/String  '%s absent in [%s]' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#89"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00094] Public method valueOrThrow is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00089] Public method toString is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#130"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00130] Public method valueOrThrow is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

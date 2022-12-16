@@ -2,8 +2,8 @@
 !pragma layout smetana
 "TransformerSupplier<KIn,VIn,Iterable<KeyValue<KOut,VOut>>>" <|-- "org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter"
 class org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter {
-+TransformerSupplierAdapter(TransformerSupplier<KIn,VIn,KeyValue<KOut,VOut>>) : TransformerSupplierAdapter [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#17]]]
-+get() : Transformer<KIn,VIn,Iterable<KeyValue<KOut,VOut>>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#22]]]
-+stores() : Set<StoreBuilder<?>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#49]]]
++TransformerSupplierAdapter(TransformerSupplier<KIn,VIn,KeyValue<KOut,VOut>>) : TransformerSupplierAdapter [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#32]]]
++get() : Transformer<KIn,VIn,Iterable<KeyValue<KOut,VOut>>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#37]]]
++stores() : Set<StoreBuilder<?>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#64]]]
 } 
 @enduml

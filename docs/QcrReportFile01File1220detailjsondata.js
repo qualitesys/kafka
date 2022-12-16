@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.transforms.InsertHeader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#38"
+ , "c5" : "00053"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#53"
  , "c1" : "R"
  , "c2" : "apply(R)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#47"
+ , "c5" : "00062"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#62"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#52"
+ , "c5" : "00067"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#67"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#57"
+ , "c5" : "00072"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#72"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -116,38 +116,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#38"
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method apply arguments R  record"
+ , "c3" : "QC-JAV000006[00053] For method apply arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#38"
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#53"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00038] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00053] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#57"
+ , "c1" : "00072"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method configure arguments Map&lt;String ,? &gt;  props"
+ , "c3" : "QC-JAV000006[00072] For method configure arguments Map&lt;String ,? &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#67"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00052] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00067] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#67"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00052] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00067] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

@@ -2,15 +2,15 @@
 !pragma layout smetana
 "Transformation<R>" <|-- "org.apache.kafka.connect.transforms.HeaderFrom"
 class org.apache.kafka.connect.transforms.HeaderFrom {
-+apply(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#93]]]
--applyWithSchema(R;Object;Schema) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#104]]]
--moveSchema(Schema) : Schema [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#129]]]
--applySchemaless(R;Object) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#144]]]
-operatingValue(R) : Object [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#160]]]
-operatingSchema(R) : Schema [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#161]]]
-newRecord(R;Schema;Object;Iterable<Header>) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#162]]]
-+config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#203]]]
-+close() : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#208]]]
-+configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#213]]]
++apply(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#108]]]
+-applyWithSchema(R;Object;Schema) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#119]]]
+-moveSchema(Schema) : Schema [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#144]]]
+-applySchemaless(R;Object) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#159]]]
+operatingValue(R) : Object [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#175]]]
+operatingSchema(R) : Schema [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#176]]]
+newRecord(R;Schema;Object;Iterable<Header>) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#177]]]
++config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#218]]]
++close() : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#223]]]
++configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#228]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.ValueAndTimestamp" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#13"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#32"
  , "c1" : "ValueAndTimestamp"
  , "c2" : "ValueAndTimestamp(V;long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#31"
+ , "c5" : "00065"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#65"
  , "c1" : "V"
  , "c2" : "value()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#35"
+ , "c5" : "00069"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#69"
  , "c1" : "long"
  , "c2" : "timestamp()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#40"
+ , "c5" : "00074"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#74"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#45"
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#79"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#58"
+ , "c5" : "00092"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#92"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -127,87 +127,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#23"
+ , "c1" : "00050"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.streams.state.ValueAndTimestamp the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.streams.state.ValueAndTimestamp the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.state.ValueAndTimestamp the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.state.ValueAndTimestamp the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.state.ValueAndTimestamp.toString@POLYN153933 the MagicNumber/String  '&amp;lt;' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.state.ValueAndTimestamp.toString@POLYN153933 the MagicNumber/String  ',' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.state.ValueAndTimestamp.toString@POLYN153933 the MagicNumber/String  '&amp;gt;' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00049] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.state.ValueAndTimestamp.equals@POLYN154127 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.ValueAndTimestamp.equals@POLYN154127 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.ValueAndTimestamp the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.ValueAndTimestamp.equals@POLYN154127 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.ValueAndTimestamp the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#62"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.ValueAndTimestamp the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#62"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.ValueAndTimestamp the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.state.ValueAndTimestamp.toString@POLYN154137 the MagicNumber/String  '&amp;lt;' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.state.ValueAndTimestamp.toString@POLYN154137 the MagicNumber/String  ',' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.state.ValueAndTimestamp.toString@POLYN154137 the MagicNumber/String  '&amp;gt;' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#79"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00079] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00083] The same method call o.getClass() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.state.ValueAndTimestamp.equals@POLYN154331 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.state.ValueAndTimestamp.equals@POLYN154331 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.state.ValueAndTimestamp.equals@POLYN154331 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

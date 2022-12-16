@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.common.StringFormatter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#15"
+ , "c5" : "00038"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#38"
  , "c1" : "String"
  , "c2" : "dateString(long;ZoneOffset)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#22"
+ , "c5" : "00050"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#50"
  , "c1" : "String"
  , "c2" : "durationString(long)"
  , "c3" : "4"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#43"
+ , "c5" : "00079"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#79"
  , "c1" : "String"
  , "c2" : "prettyPrintGrid(List<List<String>>)"
  , "c3" : "10"
@@ -107,199 +107,199 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#15"
+ , "c1" : "00038"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00015] For method dateString arguments long  timeMs|ZoneOffset  zoneOffset"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#22"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method durationString arguments long  periodMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#26"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN157842 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#27"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN157842 the MagicNumber/String  'h' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN157842 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN157842 the MagicNumber/String  'm' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN157842 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN157842 the MagicNumber/String  's' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#43"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method prettyPrintGrid arguments List&lt;List&lt;String &gt; &gt;  lines"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#43"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00043] The argument lines is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00058] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#65"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00065] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00067] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00067] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000006[00038] For method dateString arguments long  timeMs|ZoneOffset  zoneOffset"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  'Expected ' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00050] For method durationString arguments long  periodMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#50"
+ , "c1" : "00054"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  ' columns in row ' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN158058 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#51"
+ , "c1" : "00055"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  ', but got ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN158058 the MagicNumber/String  'h' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN158058 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN158058 the MagicNumber/String  'm' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN158058 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#66"
+ , "c1" : "00065"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN158058 the MagicNumber/String  's' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00079"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#79"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00079] For method prettyPrintGrid arguments List&lt;List&lt;String &gt; &gt;  lines"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  ' ' should be converted to const"
+ , "c1" : "00079"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#79"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00079] The argument lines is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#74"
+ , "c1" : "00094"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  '%n' should be converted to const"
+ , "c3" : "QC-JAV000001[00094] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00101] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00103] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00103] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159624 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159624 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159624 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159624 the MagicNumber/String  'Expected ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159624 the MagicNumber/String  ' columns in row ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159624 the MagicNumber/String  ', but got ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159624 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159624 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#95"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159624 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159624 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159624 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159624 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159624 the MagicNumber/String  ' ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159624 the MagicNumber/String  '%n' should be converted to const"
 }} 
 ]
 , 

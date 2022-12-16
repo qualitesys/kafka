@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.TopicsSpec" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#22"
+ , "c5" : "00051"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#51"
  , "c1" : "TopicsSpec"
  , "c2" : "TopicsSpec()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#26"
+ , "c5" : "00055"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#55"
  , "c1" : "TopicsSpec"
  , "c2" : "TopicsSpec(Map<String,PartitionsSpec>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#31"
+ , "c5" : "00060"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#60"
  , "c1" : "Map<String,PartitionsSpec>"
  , "c2" : "get()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#36"
+ , "c5" : "00065"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#65"
  , "c1" : "void"
  , "c2" : "set(String;PartitionsSpec)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#40"
+ , "c5" : "00069"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#69"
  , "c1" : "TopicsSpec"
  , "c2" : "immutableCopy()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#47"
+ , "c5" : "00080"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#80"
  , "c1" : "Map<String,PartitionsSpec>"
  , "c2" : "materialize()"
  , "c3" : "3"
@@ -120,31 +120,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#36"
+ , "c1" : "00065"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method set arguments String  name|PartitionsSpec  value"
+ , "c3" : "QC-JAV000006[00065] For method set arguments String  name|PartitionsSpec  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#50"
+ , "c1" : "00083"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00050] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00083] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#51"
+ , "c1" : "00084"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00051] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00084] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#52"
+ , "c1" : "00085"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00052] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00085] Avoid declaring class instance within loop, performance impact"
 }} 
 ]
 , 

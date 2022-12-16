@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "java.io.Writer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/secujava/java.io.Writer.java.html#20"
+ , "c5" : "00075"
+ , "c5link" : "././qc/secujava/java.io.Writer.java.html#75"
  , "c1" : "Writer"
  , "c2" : "Writer()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/secujava/java.io.Writer.java.html#25"
+ , "c5" : "00086"
+ , "c5link" : "././qc/secujava/java.io.Writer.java.html#86"
  , "c1" : "Writer"
  , "c2" : "Writer(Object)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/secujava/java.io.Writer.java.html#33"
+ , "c5" : "00107"
+ , "c5link" : "././qc/secujava/java.io.Writer.java.html#107"
  , "c1" : "void"
  , "c2" : "write(int)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/secujava/java.io.Writer.java.html#44"
+ , "c5" : "00126"
+ , "c5link" : "././qc/secujava/java.io.Writer.java.html#126"
  , "c1" : "void"
  , "c2" : "write(char[])"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/secujava/java.io.Writer.java.html#49"
+ , "c5" : "00145"
+ , "c5link" : "././qc/secujava/java.io.Writer.java.html#145"
  , "c1" : "void"
  , "c2" : "write(char[];int;int)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/secujava/java.io.Writer.java.html#52"
+ , "c5" : "00156"
+ , "c5link" : "././qc/secujava/java.io.Writer.java.html#156"
  , "c1" : "void"
  , "c2" : "write(String)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/secujava/java.io.Writer.java.html#57"
+ , "c5" : "00180"
+ , "c5link" : "././qc/secujava/java.io.Writer.java.html#180"
  , "c1" : "void"
  , "c2" : "write(String;int;int)"
  , "c3" : "4"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/secujava/java.io.Writer.java.html#74"
+ , "c5" : "00223"
+ , "c5link" : "././qc/secujava/java.io.Writer.java.html#223"
  , "c1" : "Writer"
  , "c2" : "append(CharSequence)"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/secujava/java.io.Writer.java.html#83"
+ , "c5" : "00267"
+ , "c5link" : "././qc/secujava/java.io.Writer.java.html#267"
  , "c1" : "Writer"
  , "c2" : "append(CharSequence;int;int)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/secujava/java.io.Writer.java.html#90"
+ , "c5" : "00292"
+ , "c5link" : "././qc/secujava/java.io.Writer.java.html#292"
  , "c1" : "Writer"
  , "c2" : "append(char)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00096"
- , "c5link" : "././qc/secujava/java.io.Writer.java.html#96"
+ , "c5" : "00313"
+ , "c5link" : "././qc/secujava/java.io.Writer.java.html#313"
  , "c1" : "void"
  , "c2" : "flush()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/secujava/java.io.Writer.java.html#99"
+ , "c5" : "00323"
+ , "c5link" : "././qc/secujava/java.io.Writer.java.html#323"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -211,213 +211,213 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#26"
+ , "c1" : "00087"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method java.io.Writer.Writer@POLYN187915 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method java.io.Writer.Writer@POLYN189259 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#33"
+ , "c1" : "00107"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method write arguments int  c"
+ , "c3" : "QC-JAV000006[00107] For method write arguments int  c"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#34"
+ , "c1" : "00108"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#108"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00034] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00108] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#35"
+ , "c1" : "00109"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method java.io.Writer.write@POLYN188472 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method java.io.Writer.write@POLYN189816 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#38"
+ , "c1" : "00112"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method java.io.Writer.write@POLYN188472 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method java.io.Writer.write@POLYN189816 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#39"
+ , "c1" : "00113"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method java.io.Writer.write@POLYN188472 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method java.io.Writer.write@POLYN189816 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#39"
+ , "c1" : "00113"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method java.io.Writer.write@POLYN188472 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method java.io.Writer.write@POLYN189816 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#44"
+ , "c1" : "00126"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#126"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method write arguments char[]  cbuf"
+ , "c3" : "QC-JAV000006[00126] For method write arguments char[]  cbuf"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#45"
+ , "c1" : "00127"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method java.io.Writer.write@POLYN189107 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method java.io.Writer.write@POLYN190451 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#49"
+ , "c1" : "00145"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#145"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method write arguments char[]  cbuf|int  off|int  len"
+ , "c3" : "QC-JAV000006[00145] For method write arguments char[]  cbuf|int  off|int  len"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#52"
+ , "c1" : "00156"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#156"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method write arguments String  str"
+ , "c3" : "QC-JAV000006[00156] For method write arguments String  str"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#52"
+ , "c1" : "00156"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#156"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00052] The argument str is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00156] The argument str is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#53"
+ , "c1" : "00157"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method java.io.Writer.write@POLYN189772 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method java.io.Writer.write@POLYN191116 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#57"
+ , "c1" : "00180"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#180"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method write arguments String  str|int  off|int  len"
+ , "c3" : "QC-JAV000006[00180] For method write arguments String  str|int  off|int  len"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#57"
+ , "c1" : "00180"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#180"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00057] The argument str is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00180] The argument str is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#58"
+ , "c1" : "00181"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#181"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00058] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00181] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#61"
+ , "c1" : "00184"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method java.io.Writer.write@POLYN190365 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method java.io.Writer.write@POLYN191709 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#68"
+ , "c1" : "00191"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method java.io.Writer.write@POLYN190365 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method java.io.Writer.write@POLYN191709 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#69"
+ , "c1" : "00192"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method java.io.Writer.write@POLYN190365 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method java.io.Writer.write@POLYN191709 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#74"
+ , "c1" : "00223"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#223"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method append arguments CharSequence  csq"
+ , "c3" : "QC-JAV000006[00223] For method append arguments CharSequence  csq"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#75"
+ , "c1" : "00224"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method java.io.Writer.append@POLYN192016 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method java.io.Writer.append@POLYN193360 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#76"
+ , "c1" : "00225"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method java.io.Writer.append@POLYN192016 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method java.io.Writer.append@POLYN193360 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#83"
+ , "c1" : "00267"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#267"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method append arguments CharSequence  csq|int  start|int  end"
+ , "c3" : "QC-JAV000006[00267] For method append arguments CharSequence  csq|int  start|int  end"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#84"
+ , "c1" : "00268"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method java.io.Writer.append@POLYN193381 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00268] In method java.io.Writer.append@POLYN194725 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#84"
+ , "c1" : "00268"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method java.io.Writer.append@POLYN193381 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00268] In method java.io.Writer.append@POLYN194725 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#90"
+ , "c1" : "00292"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#292"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00090] For method append arguments char  c"
+ , "c3" : "QC-JAV000006[00292] For method append arguments char  c"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.Writer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.Writer.write@POLYN190365"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.Writer.write@POLYN191709"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#61"
+ , "c1" : "00184"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#184"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00061] In the recursive method java.io.Writer.write@POLYN190365 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00184] In the recursive method java.io.Writer.write@POLYN191709 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#68"
+ , "c1" : "00191"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#191"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method java.io.Writer.write@POLYN190365 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00191] In the recursive method java.io.Writer.write@POLYN191709 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#69"
+ , "c1" : "00192"
+ , "c1link" : "./qc/secujava/java.io.Writer.java.html#192"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00069] In the recursive method java.io.Writer.write@POLYN190365 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00192] In the recursive method java.io.Writer.write@POLYN191709 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

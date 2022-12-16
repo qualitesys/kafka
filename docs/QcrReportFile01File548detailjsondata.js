@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.AbstractRecordBatch" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00007"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#7"
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#22"
  , "c1" : "boolean"
  , "c2" : "hasProducerId()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#12"
+ , "c5" : "00027"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#27"
  , "c1" : "long"
  , "c2" : "nextOffset()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#32"
  , "c1" : "boolean"
  , "c2" : "isCompressed()"
  , "c3" : "1"
@@ -86,10 +86,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#13"
+ , "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.record.AbstractRecordBatch.nextOffset@POLYN141406 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.record.AbstractRecordBatch.nextOffset@POLYN141496 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 , 

@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.image.ClientQuotaDelta"
 class org.apache.kafka.image.ClientQuotaDelta {
-+ClientQuotaDelta(ClientQuotaImage) : ClientQuotaDelta [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#18]]]
-+changes() : Map<String,OptionalDouble> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#22]]]
-+finishSnapshot() : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#26]]]
-+replay(ClientQuotaRecord) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#35]]]
-+apply() : ClientQuotaImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#43]]]
++ClientQuotaDelta(ClientQuotaImage) : ClientQuotaDelta [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#33]]]
++changes() : Map<String,OptionalDouble> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#37]]]
++finishSnapshot() : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#41]]]
++replay(ClientQuotaRecord) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#50]]]
++apply() : ClientQuotaImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#58]]]
 } 
 @enduml

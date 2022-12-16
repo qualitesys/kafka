@@ -2,14 +2,14 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.server.authorizer.Action"
 class org.apache.kafka.server.authorizer.Action {
-+Action(AclOperation;ResourcePattern;int;boolean;boolean) : Action [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#20]]]
-+resourcePattern() : ResourcePattern [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#33]]]
-+operation() : AclOperation [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#38]]]
-+logIfAllowed() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#43]]]
-+logIfDenied() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#48]]]
-+resourceReferenceCount() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#53]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#58]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#76]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#81]]]
++Action(AclOperation;ResourcePattern;int;boolean;boolean) : Action [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#38]]]
++resourcePattern() : ResourcePattern [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#53]]]
++operation() : AclOperation [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#61]]]
++logIfAllowed() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#71]]]
++logIfDenied() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#83]]]
++resourceReferenceCount() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#96]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#101]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#119]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html#124]]]
 } 
 @enduml

@@ -74,143 +74,143 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#20"
+ , "c1" : "00055"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#55"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00020] The argument callable is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00055] The argument callable is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#48"
+ , "c1" : "00083"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00048] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00083] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#48"
+ , "c1" : "00083"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00048] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00083] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#52"
+ , "c1" : "00087"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00052] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00087] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#24"
+ , "c1" : "00059"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  'callable' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  'callable' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#29"
+ , "c1" : "00064"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  0L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  'Assuming no retry backoff since retryBackoffMs={} is negative' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  'Executing {} only once, since timeoutMs={} is not larger than retryBackoffMs={}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  'Attempt {} to {} resulted in RetriableException; retrying automatically. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  'Reason: {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  'Fail to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#66"
+ , "c1" : "00067"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  ' after ' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  'Assuming no retry backoff since retryBackoffMs={} is negative' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#66"
+ , "c1" : "00068"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  ' attempts.  Reason: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00070"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#70"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#71"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  'Executing {} only once, since timeoutMs={} is not larger than retryBackoffMs={}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  'Attempt {} to {} resulted in RetriableException; retrying automatically. ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  'Reason: {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#91"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  'Fail to ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  ' after ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/RetryUtil.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.util.RetryUtil the MagicNumber/String  ' attempts.  Reason: ' should be converted to const"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@
 !pragma layout smetana
 "ProcessorSupplier<KIn,Change<VIn>,KOut,Change<VOut>>" <|-- "org.apache.kafka.streams.kstream.internals.KTableRepartitionMapSupplier"
 class org.apache.kafka.streams.kstream.internals.KTableRepartitionMapSupplier {
-view() : KTableValueGetterSupplier<KIn,VView> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableRepartitionMapSupplier.java.html#8]]]
-enableSendingOldValues(boolean) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableRepartitionMapSupplier.java.html#11]]]
+view() : KTableValueGetterSupplier<KIn,VView> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableRepartitionMapSupplier.java.html#23]]]
+enableSendingOldValues(boolean) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableRepartitionMapSupplier.java.html#39]]]
 } 
 @enduml

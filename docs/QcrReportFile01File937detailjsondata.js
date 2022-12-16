@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.connector.ConnectorContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00007"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectorContext.java.html#7"
+ , "c5" : "00028"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectorContext.java.html#28"
  , "c1" : "void"
  , "c2" : "requestTaskReconfiguration()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectorContext.java.html#10"
+ , "c5" : "00035"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectorContext.java.html#35"
  , "c1" : "void"
  , "c2" : "raiseError(Exception)"
  , "c3" : "1"

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.QueryableStoreProvider" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#19"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#38"
  , "c1" : "QueryableStoreProvider"
  , "c2" : "QueryableStoreProvider(GlobalStateStoreProvider)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#38"
+ , "c5" : "00067"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#67"
  , "c1" : "void"
  , "c2" : "addStoreProviderForThread(String;StreamThreadStateStoreProvider)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#42"
+ , "c5" : "00071"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#71"
  , "c1" : "void"
  , "c2" : "removeStoreProviderForThread(String)"
  , "c3" : "1"
@@ -93,24 +93,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#25"
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#54"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00025] The argument storeQueryParameters is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00054] The argument storeQueryParameters is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#38"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method addStoreProviderForThread arguments String  threadName|StreamThreadStateStoreProvider  streamThreadStateStoreProvider"
+ , "c3" : "QC-JAV000006[00067] For method addStoreProviderForThread arguments String  threadName|StreamThreadStateStoreProvider  streamThreadStateStoreProvider"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#42"
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method removeStoreProviderForThread arguments String  threadName"
+ , "c3" : "QC-JAV000006[00071] For method removeStoreProviderForThread arguments String  threadName"
 }} 
 ]
 , 

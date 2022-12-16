@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.StateStoreContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#18"
+ , "c5" : "00039"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#39"
  , "c1" : "String"
  , "c2" : "applicationId()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#21"
+ , "c5" : "00046"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#46"
  , "c1" : "TaskId"
  , "c2" : "taskId()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#24"
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#58"
  , "c1" : "Optional<RecordMetadata>"
  , "c2" : "recordMetadata()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#27"
+ , "c5" : "00065"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#65"
  , "c1" : "Serde<?>"
  , "c2" : "keySerde()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#30"
+ , "c5" : "00072"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#72"
  , "c1" : "Serde<?>"
  , "c2" : "valueSerde()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#33"
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#79"
  , "c1" : "File"
  , "c2" : "stateDir()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#36"
+ , "c5" : "00086"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#86"
  , "c1" : "StreamsMetrics"
  , "c2" : "metrics()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#39"
+ , "c5" : "00097"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#97"
  , "c1" : "void"
  , "c2" : "register(StateStore;StateRestoreCallback)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#44"
+ , "c5" : "00116"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#116"
  , "c1" : "void"
  , "c2" : "register(StateStore;StateRestoreCallback;CommitCallback)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#49"
+ , "c5" : "00133"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#133"
  , "c1" : "Map<String,Object>"
  , "c2" : "appConfigs()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#52"
+ , "c5" : "00145"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#145"
  , "c1" : "Map<String,Object>"
  , "c2" : "appConfigsWithPrefix(String)"
  , "c3" : "1"

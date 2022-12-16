@@ -2,7 +2,7 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.jmh.common.ListOffsetRequestBenchmark"
 class org.apache.kafka.jmh.common.ListOffsetRequestBenchmark {
-+setup() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#47]]]
-+testRequestToJson() : String [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#62]]]
++setup() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#62]]]
++testRequestToJson() : String [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#77]]]
 } 
 @enduml

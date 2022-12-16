@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.snapshot.FileRawSnapshotReader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#32"
  , "c1" : "FileRawSnapshotReader"
  , "c2" : "FileRawSnapshotReader(FileRecords;OffsetAndEpoch)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#38"
  , "c1" : "OffsetAndEpoch"
  , "c2" : "snapshotId()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#28"
+ , "c5" : "00043"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#43"
  , "c1" : "long"
  , "c2" : "sizeInBytes()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#33"
+ , "c5" : "00048"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#48"
  , "c1" : "UnalignedRecords"
  , "c2" : "slice(long;int)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#38"
+ , "c5" : "00053"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#53"
  , "c1" : "Records"
  , "c2" : "records()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#43"
+ , "c5" : "00058"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#58"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#55"
+ , "c5" : "00075"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#75"
  , "c1" : "FileRawSnapshotReader"
  , "c2" : "open(Path;OffsetAndEpoch)"
  , "c3" : "1"
@@ -136,66 +136,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#33"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method slice arguments long  position|int  size"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.snapshot.FileRawSnapshotReader.close@POLYN149748 the MagicNumber/String  'Unable to close snapshot reader %s at %s' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method open arguments Path  logDir|OffsetAndEpoch  snapshotId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#55"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00055] For method open list of called methods Object monObjet|java.nio.file.Path Snapshots_snapshotPathN150367"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.snapshot.FileRawSnapshotReader.open@POLYN150216 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.snapshot.FileRawSnapshotReader.open@POLYN150216 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000006[00048] For method slice arguments long  position|int  size"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.snapshot.FileRawSnapshotReader.open@POLYN150216 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.snapshot.FileRawSnapshotReader.close@POLYN149868 the MagicNumber/String  'Unable to close snapshot reader %s at %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.snapshot.FileRawSnapshotReader.open@POLYN150216 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00075"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#75"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00075] For method open arguments Path  logDir|OffsetAndEpoch  snapshotId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#68"
+ , "c1" : "00075"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#75"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00075] For method open list of called methods Object monObjet|java.nio.file.Path Snapshots_snapshotPathN150487"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.snapshot.FileRawSnapshotReader.open@POLYN150216 the MagicNumber/String  'Unable to Opens a snapshot file %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.snapshot.FileRawSnapshotReader.open@POLYN150336 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.snapshot.FileRawSnapshotReader.open@POLYN150336 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.snapshot.FileRawSnapshotReader.open@POLYN150336 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.snapshot.FileRawSnapshotReader.open@POLYN150336 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.snapshot.FileRawSnapshotReader.open@POLYN150336 the MagicNumber/String  'Unable to Opens a snapshot file %s' should be converted to const"
 }} 
 ]
 , 

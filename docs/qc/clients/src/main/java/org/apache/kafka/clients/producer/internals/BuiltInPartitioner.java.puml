@@ -2,13 +2,13 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.producer.internals.BuiltInPartitioner"
 class org.apache.kafka.clients.producer.internals.BuiltInPartitioner {
-+BuiltInPartitioner(LogContext;String;int) : BuiltInPartitioner [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#30]]]
--nextPartition(Cluster) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#37]]]
-+loadStatsRangeEnd() : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#86]]]
-peekCurrentPartitionInfo(Cluster) : StickyPartitionInfo [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#93]]]
-isPartitionChanged(StickyPartitionInfo) : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#108]]]
-updatePartitionInfo(StickyPartitionInfo;int;Cluster) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#114]]]
-+updatePartitionLoadStats(int[];int[];int) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#129]]]
-+partitionForKey(byte[];int) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#213]]]
++BuiltInPartitioner(LogContext;String;int) : BuiltInPartitioner [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#56]]]
+-nextPartition(Cluster) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#65]]]
++loadStatsRangeEnd() : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#117]]]
+peekCurrentPartitionInfo(Cluster) : StickyPartitionInfo [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#138]]]
+isPartitionChanged(StickyPartitionInfo) : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#159]]]
+updatePartitionInfo(StickyPartitionInfo;int;Cluster) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#172]]]
++updatePartitionLoadStats(int[];int[];int) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#197]]]
++partitionForKey(byte[];int) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BuiltInPartitioner.java.html#285]]]
 } 
 @enduml

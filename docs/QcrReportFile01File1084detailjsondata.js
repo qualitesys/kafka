@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.TaskStatus" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00008"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html#8"
+ , "c5" : "00023"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html#23"
  , "c1" : "TaskStatus"
  , "c2" : "TaskStatus(ConnectorTaskId;State;String;int;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html#12"
+ , "c5" : "00027"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html#27"
  , "c1" : "TaskStatus"
  , "c2" : "TaskStatus(ConnectorTaskId;State;String;int)"
  , "c3" : "1"
@@ -77,10 +77,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html#13"
+ , "c1" : "00028"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.connect.runtime.TaskStatus.TaskStatus@POLYN148934 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.connect.runtime.TaskStatus.TaskStatus@POLYN149168 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

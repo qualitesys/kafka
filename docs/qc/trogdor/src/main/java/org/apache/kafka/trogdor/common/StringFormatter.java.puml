@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.trogdor.common.StringFormatter"
 class org.apache.kafka.trogdor.common.StringFormatter {
-+dateString(long;ZoneOffset) : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#15]]]
-+durationString(long) : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#22]]]
-+prettyPrintGrid(List<List<String>>) : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#43]]]
++dateString(long;ZoneOffset) : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#38]]]
++durationString(long) : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#50]]]
++prettyPrintGrid(List<List<String>>) : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#79]]]
 } 
 @enduml

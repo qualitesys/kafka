@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.RecordsToDelete" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#15"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#34"
  , "c1" : "RecordsToDelete"
  , "c2" : "RecordsToDelete(long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#20"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#43"
  , "c1" : "RecordsToDelete"
  , "c2" : "beforeOffset(long)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#25"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#50"
  , "c1" : "long"
  , "c2" : "beforeOffset()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#30"
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#55"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#40"
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#65"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#45"
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#70"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -143,66 +143,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#20"
+ , "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00020] For method beforeOffset arguments long  offset"
+ , "c3" : "QC-JAV000006[00043] For method beforeOffset arguments long  offset"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#30"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00055] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#32"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00032] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00057] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#31"
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.clients.admin.RecordsToDelete.equals@POLYN146836 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.admin.RecordsToDelete.equals@POLYN146986 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#32"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.clients.admin.RecordsToDelete.equals@POLYN146836 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.admin.RecordsToDelete.equals@POLYN146986 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#32"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.clients.admin.RecordsToDelete.equals@POLYN146836 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.admin.RecordsToDelete.equals@POLYN146986 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#46"
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.admin.RecordsToDelete.toString@POLYN147449 the MagicNumber/String  '(beforeOffset = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.admin.RecordsToDelete.toString@POLYN147599 the MagicNumber/String  '(beforeOffset = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#46"
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.admin.RecordsToDelete.toString@POLYN147449 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.admin.RecordsToDelete.toString@POLYN147599 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.RecordsToDelete.hashCode@POLYN147330"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.RecordsToDelete.hashCode@POLYN147480"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#14"
+ , "c5" : "00031"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#31"
  , "c1" : "StaticTopicNameExtractor"
  , "c2" : "StaticTopicNameExtractor(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#18"
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#35"
  , "c1" : "String"
  , "c2" : "extract(K;V;RecordContext)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#23"
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#40"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#28"
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#45"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#40"
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#57"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -118,59 +118,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#18"
+ , "c1" : "00035"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#35"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method extract arguments K  key|V  value|RecordContext  recordContext"
+ , "c3" : "QC-JAV000006[00035] For method extract arguments K  key|V  value|RecordContext  recordContext"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#24"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.toString@POLYN145596 the MagicNumber/String  'StaticTopicNameExtractor(' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.toString@POLYN145698 the MagicNumber/String  'StaticTopicNameExtractor(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#24"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.toString@POLYN145596 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.toString@POLYN145698 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#28"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00045] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#32"
+ , "c1" : "00049"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00032] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00049] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#30"
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.equals@POLYN145744 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.equals@POLYN145846 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#32"
+ , "c1" : "00049"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.equals@POLYN145744 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.equals@POLYN145846 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#33"
+ , "c1" : "00050"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.equals@POLYN145744 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.equals@POLYN145846 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

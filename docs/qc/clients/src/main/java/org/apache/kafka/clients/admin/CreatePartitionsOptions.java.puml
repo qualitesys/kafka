@@ -2,10 +2,10 @@
 !pragma layout smetana
 "AbstractOptions<CreatePartitionsOptions>" <|-- "org.apache.kafka.clients.admin.CreatePartitionsOptions"
 class org.apache.kafka.clients.admin.CreatePartitionsOptions {
-+CreatePartitionsOptions() : CreatePartitionsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#16]]]
-+validateOnly() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#20]]]
-+validateOnly(boolean) : CreatePartitionsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#25]]]
-+retryOnQuotaViolation(boolean) : CreatePartitionsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#31]]]
-+shouldRetryOnQuotaViolation() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#37]]]
++CreatePartitionsOptions() : CreatePartitionsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#35]]]
++validateOnly() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#41]]]
++validateOnly(boolean) : CreatePartitionsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#48]]]
++retryOnQuotaViolation(boolean) : CreatePartitionsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#56]]]
++shouldRetryOnQuotaViolation() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#64]]]
 } 
 @enduml

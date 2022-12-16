@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.types.Schema" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#19"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#42"
  , "c1" : "Schema"
  , "c2" : "Schema(Field...)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#24"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#56"
  , "c1" : "Schema"
  , "c2" : "Schema(boolean;Field...)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#42"
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#76"
  , "c1" : "void"
  , "c2" : "write(ByteBuffer;Object)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#57"
+ , "c5" : "00097"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#97"
  , "c1" : "Struct"
  , "c2" : "read(ByteBuffer)"
  , "c3" : "9"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00086"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#86"
+ , "c5" : "00128"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#128"
  , "c1" : "int"
  , "c2" : "sizeOf(Object)"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00101"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#101"
+ , "c5" : "00145"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#145"
  , "c1" : "int"
  , "c2" : "numFields()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00106"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#106"
+ , "c5" : "00155"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#155"
  , "c1" : "BoundField"
  , "c2" : "get(int)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00111"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#111"
+ , "c5" : "00165"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#165"
  , "c1" : "BoundField"
  , "c2" : "get(String)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00116"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#116"
+ , "c5" : "00172"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#172"
  , "c1" : "BoundField[]"
  , "c2" : "fields()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00122"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#122"
+ , "c5" : "00180"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#180"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "3"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00135"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#135"
+ , "c5" : "00193"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#193"
  , "c1" : "Struct"
  , "c2" : "validate(Object)"
  , "c3" : "2"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00151"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#151"
+ , "c5" : "00209"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#209"
  , "c1" : "void"
  , "c2" : "walk(Visitor)"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00156"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#156"
+ , "c5" : "00214"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#214"
  , "c1" : "void"
  , "c2" : "handleNode(Type;Visitor)"
  , "c3" : "6"
@@ -220,346 +220,346 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#20"
+ , "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.protocol.types.Schema.Schema@POLYN176304 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.protocol.types.Schema.Schema@POLYN176664 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#29"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00029] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00061] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#28"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.protocol.types.Schema.Schema@POLYN176699 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.protocol.types.Schema.Schema@POLYN177059 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#31"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.protocol.types.Schema.Schema@POLYN176699 the MagicNumber/String  'Schema contains a duplicate field: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.protocol.types.Schema.Schema@POLYN177059 the MagicNumber/String  'Schema contains a duplicate field: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#37"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.protocol.types.Schema.Schema@POLYN176699 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.protocol.types.Schema.Schema@POLYN177059 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#37"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.protocol.types.Schema.Schema@POLYN176699 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#42"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method write arguments ByteBuffer  buffer|Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00046] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00048] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.protocol.types.Schema.write@POLYN178098 the MagicNumber/String  'Error writing field '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.protocol.types.Schema.write@POLYN178098 the MagicNumber/String  '': ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.protocol.types.Schema.write@POLYN178098 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#57"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method read arguments ByteBuffer  buffer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#57"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00057] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.protocol.types.Schema.Schema@POLYN177059 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00076] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.protocol.types.Schema.read@POLYN179269 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.protocol.types.Schema.read@POLYN179269 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.protocol.types.Schema.read@POLYN179269 the MagicNumber/String  'Missing value for field '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.protocol.types.Schema.read@POLYN179269 the MagicNumber/String  '' which has no default value.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.protocol.types.Schema.read@POLYN179269 the MagicNumber/String  'Error reading field '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.protocol.types.Schema.read@POLYN179269 the MagicNumber/String  '': ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.protocol.types.Schema.read@POLYN179269 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method sizeOf arguments Object  o"
+ , "c3" : "QC-JAV000006[00076] For method write arguments ByteBuffer  buffer|Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#92"
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00092] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00080] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#87"
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.protocol.types.Schema.sizeOf@POLYN181227 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00082] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#93"
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.protocol.types.Schema.sizeOf@POLYN181227 the MagicNumber/String  'Error computing size for field '' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.protocol.types.Schema.write@POLYN178458 the MagicNumber/String  'Error writing field '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#93"
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.protocol.types.Schema.sizeOf@POLYN181227 the MagicNumber/String  '': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.protocol.types.Schema.write@POLYN178458 the MagicNumber/String  '': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#94"
+ , "c1" : "00084"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.protocol.types.Schema.sizeOf@POLYN181227 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.protocol.types.Schema.write@POLYN178458 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#106"
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00106] For method get arguments int  slot"
+ , "c3" : "QC-JAV000006[00097] For method read arguments ByteBuffer  buffer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#97"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00097] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00116] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.protocol.types.Schema.read@POLYN179629 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.protocol.types.Schema.read@POLYN179629 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.common.protocol.types.Schema.read@POLYN179629 the MagicNumber/String  'Missing value for field '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#111"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00111] For method get arguments String  name"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.protocol.types.Schema.read@POLYN179629 the MagicNumber/String  '' which has no default value.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#124"
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.protocol.types.Schema.toString@POLYN182939 the MagicNumber/String  '{' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.protocol.types.Schema.read@POLYN179629 the MagicNumber/String  'Error reading field '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#125"
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.protocol.types.Schema.toString@POLYN182939 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.protocol.types.Schema.read@POLYN179629 the MagicNumber/String  '': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#127"
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.protocol.types.Schema.toString@POLYN182939 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.common.protocol.types.Schema.read@POLYN179629 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#128"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.protocol.types.Schema.toString@POLYN182939 the MagicNumber/String  ',' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00128] For method sizeOf arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#130"
+ , "c1" : "00134"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.protocol.types.Schema.toString@POLYN182939 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000001[00134] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00129"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#129"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.protocol.types.Schema.sizeOf@POLYN181587 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#135"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.common.protocol.types.Schema.sizeOf@POLYN181587 the MagicNumber/String  'Error computing size for field '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#135"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.common.protocol.types.Schema.sizeOf@POLYN181587 the MagicNumber/String  '': ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00136"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#136"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.protocol.types.Schema.sizeOf@POLYN181587 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00155"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00135] For method validate arguments Object  item"
+ , "c3" : "QC-JAV000006[00155] For method get arguments int  slot"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00141] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#142"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.protocol.types.Schema.validate@POLYN183770 the MagicNumber/String  'Invalid value for field '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#142"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.protocol.types.Schema.validate@POLYN183770 the MagicNumber/String  '': ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.protocol.types.Schema.validate@POLYN183770 the MagicNumber/String  'Not a Struct.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#151"
+ , "c1" : "00165"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#165"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00151] For method walk arguments Visitor  visitor"
+ , "c3" : "QC-JAV000006[00165] For method get arguments String  name"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#152"
+ , "c1" : "00182"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.common.protocol.types.Schema.walk@POLYN184533 the MagicNumber/String  'visitor must be non-null' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.common.protocol.types.Schema.toString@POLYN183299 the MagicNumber/String  '{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#156"
+ , "c1" : "00183"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#183"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.common.protocol.types.Schema.toString@POLYN183299 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00185"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.common.protocol.types.Schema.toString@POLYN183299 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00186"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#186"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.common.protocol.types.Schema.toString@POLYN183299 the MagicNumber/String  ',' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#188"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.common.protocol.types.Schema.toString@POLYN183299 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#193"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00156] For method handleNode arguments Type  node|Visitor  visitor"
+ , "c3" : "QC-JAV000006[00193] For method validate arguments Object  item"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#156"
+ , "c1" : "00199"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#199"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00199] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00200"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#200"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.common.protocol.types.Schema.validate@POLYN184130 the MagicNumber/String  'Invalid value for field '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00200"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#200"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.common.protocol.types.Schema.validate@POLYN184130 the MagicNumber/String  '': ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00205"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#205"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.common.protocol.types.Schema.validate@POLYN184130 the MagicNumber/String  'Not a Struct.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00209"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#209"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00209] For method walk arguments Visitor  visitor"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00210"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#210"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.common.protocol.types.Schema.walk@POLYN184893 the MagicNumber/String  'visitor must be non-null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00214"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#214"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00214] For method handleNode arguments Type  node|Visitor  visitor"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00214"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#214"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00156] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00214] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#156"
+ , "c1" : "00214"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#214"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00156] The argument visitor is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00214] The argument visitor is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#171"
+ , "c1" : "00231"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00171] The class Visitor contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00231] The class Visitor contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#172"
+ , "c1" : "00232"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#232"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00172] For method visit arguments Schema  schema"
+ , "c3" : "QC-JAV000006[00232] For method visit arguments Schema  schema"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#173"
+ , "c1" : "00233"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#233"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00173] For method visit arguments Type  field"
+ , "c3" : "QC-JAV000006[00233] For method visit arguments Type  field"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Schema.handleNode@POLYN184779"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Schema.handleNode@POLYN185139"
 }} 
 ]
 , 

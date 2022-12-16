@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.UnlimitedWindow" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#10"
+ , "c5" : "00042"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#42"
  , "c1" : "UnlimitedWindow"
  , "c2" : "UnlimitedWindow(long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#16"
+ , "c5" : "00055"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#55"
  , "c1" : "boolean"
  , "c2" : "overlap(Window)"
  , "c3" : "2"
@@ -98,45 +98,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#16"
+ , "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00016] For method overlap arguments Window  other"
+ , "c3" : "QC-JAV000006[00055] For method overlap arguments Window  other"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#16"
+ , "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#55"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00016] The argument other is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00055] The argument other is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#17"
+ , "c1" : "00056"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00017] The same method call other.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00056] The same method call other.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#18"
+ , "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.kstream.internals.UnlimitedWindow.overlap@POLYN149580 the MagicNumber/String  'Cannot compare windows of different type. Other window has type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.kstream.internals.UnlimitedWindow.overlap@POLYN149814 the MagicNumber/String  'Cannot compare windows of different type. Other window has type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#19"
+ , "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.streams.kstream.internals.UnlimitedWindow.overlap@POLYN149580 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.kstream.internals.UnlimitedWindow.overlap@POLYN149814 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#21"
+ , "c1" : "00060"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.kstream.internals.UnlimitedWindow.overlap@POLYN149580 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.kstream.internals.UnlimitedWindow.overlap@POLYN149814 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

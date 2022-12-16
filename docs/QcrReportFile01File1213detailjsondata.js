@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.transforms.DropHeaders" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#34"
+ , "c5" : "00049"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#49"
  , "c1" : "R"
  , "c2" : "apply(R)"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#46"
+ , "c5" : "00061"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#61"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#51"
+ , "c5" : "00066"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#66"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#55"
+ , "c5" : "00070"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#70"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -116,38 +116,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#34"
+ , "c1" : "00049"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method apply arguments R  record"
+ , "c3" : "QC-JAV000006[00049] For method apply arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#34"
+ , "c1" : "00049"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#49"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00034] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00049] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#55"
+ , "c1" : "00070"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method configure arguments Map&lt;String ,? &gt;  props"
+ , "c3" : "QC-JAV000006[00070] For method configure arguments Map&lt;String ,? &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#51"
+ , "c1" : "00066"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#66"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00051] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00066] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#51"
+ , "c1" : "00066"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#66"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00051] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00066] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

@@ -2,16 +2,16 @@
 !pragma layout smetana
 "DocumentedType" <|-- "org.apache.kafka.common.protocol.types.TaggedFields"
 class org.apache.kafka.common.protocol.types.TaggedFields {
-+of(Object...) : TaggedFields [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#21]]]
-+TaggedFields(Map<Integer,Field>) : TaggedFields [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#35]]]
-+isNullable() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#40]]]
-+write(ByteBuffer;Object) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#46]]]
-+read(ByteBuffer) : NavigableMap<Integer,Object> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#66]]]
-+sizeOf(Object) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#94]]]
-+toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#114]]]
-+validate(Object) : Map<Integer,Object> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#128]]]
-+typeName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#150]]]
-+documentation() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#155]]]
-+numFields() : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#160]]]
++of(Object...) : TaggedFields [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#44]]]
++TaggedFields(Map<Integer,Field>) : TaggedFields [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#58]]]
++isNullable() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#63]]]
++write(ByteBuffer;Object) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#69]]]
++read(ByteBuffer) : NavigableMap<Integer,Object> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#89]]]
++sizeOf(Object) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#117]]]
++toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#137]]]
++validate(Object) : Map<Integer,Object> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#151]]]
++typeName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#173]]]
++documentation() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#178]]]
++numFields() : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#185]]]
 } 
 @enduml

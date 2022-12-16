@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.BrokerRegistrationRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#35"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#50"
  , "c1" : "BrokerRegistrationRequest"
  , "c2" : "BrokerRegistrationRequest(BrokerRegistrationRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#56"
  , "c1" : "BrokerRegistrationRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#46"
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#61"
  , "c1" : "BrokerRegistrationResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#53"
+ , "c5" : "00068"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#68"
  , "c1" : "BrokerRegistrationRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -111,31 +111,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00038] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#46"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00061] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#53"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00068] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BrokerRegistrationRequest.Builder.toString@POLYN147460"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BrokerRegistrationRequest.Builder.toString@POLYN147550"
 }} 
 ]
 , 

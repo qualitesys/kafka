@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.CreateAclsResult"
 class org.apache.kafka.clients.admin.CreateAclsResult {
-CreateAclsResult(Map<AclBinding,KafkaFuture<Void>>) : CreateAclsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java.html#17]]]
-+values() : Map<AclBinding,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java.html#22]]]
-+all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java.html#27]]]
+CreateAclsResult(Map<AclBinding,KafkaFuture<Void>>) : CreateAclsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java.html#36]]]
++values() : Map<AclBinding,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java.html#44]]]
++all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java.html#51]]]
 } 
 @enduml

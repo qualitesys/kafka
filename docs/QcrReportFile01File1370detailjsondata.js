@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.authorizer.StandardAuthorizer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#45"
+ , "c5" : "00067"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#67"
  , "c1" : "void"
  , "c2" : "setAclMutator(AclMutator)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#50"
+ , "c5" : "00072"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#72"
  , "c1" : "AclMutator"
  , "c2" : "aclMutatorOrException()"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#59"
+ , "c5" : "00081"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#81"
  , "c1" : "void"
  , "c2" : "completeInitialLoad()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#66"
+ , "c5" : "00088"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#88"
  , "c1" : "CompletableFuture<Void>"
  , "c2" : "initialLoadFuture()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#71"
+ , "c5" : "00093"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#93"
  , "c1" : "void"
  , "c2" : "completeInitialLoad(Exception)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#77"
+ , "c5" : "00099"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#99"
  , "c1" : "void"
  , "c2" : "addAcl(Uuid;StandardAcl)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#82"
+ , "c5" : "00104"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#104"
  , "c1" : "void"
  , "c2" : "removeAcl(Uuid)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#87"
+ , "c5" : "00109"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#109"
  , "c1" : "void"
  , "c2" : "loadSnapshot(Map<Uuid,StandardAcl>)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00092"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#92"
+ , "c5" : "00114"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#114"
  , "c1" : "Map<Endpoint,?extendsCompletionStage<Void>>"
  , "c2" : "start(AuthorizerServerInfo)"
  , "c3" : "4"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00107"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#107"
+ , "c5" : "00129"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#129"
  , "c1" : "List<AuthorizationResult>"
  , "c2" : "authorize(AuthorizableRequestContext;List<Action>)"
  , "c3" : "2"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00120"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#120"
+ , "c5" : "00142"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#142"
  , "c1" : "Iterable<AclBinding>"
  , "c2" : "acls(AclBindingFilter)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00125"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#125"
+ , "c5" : "00147"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#147"
  , "c1" : "int"
  , "c2" : "aclCount()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00130"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#130"
+ , "c5" : "00152"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#152"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00137"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#137"
+ , "c5" : "00159"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#159"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00151"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#151"
+ , "c5" : "00173"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#173"
  , "c1" : "Set<String>"
  , "c2" : "superUsers()"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00155"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#155"
+ , "c5" : "00177"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#177"
  , "c1" : "AuthorizationResult"
  , "c2" : "defaultResult()"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00159"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#159"
+ , "c5" : "00181"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#181"
  , "c1" : "Set<String>"
  , "c2" : "getConfiguredSuperUsers(Map<String,?>)"
  , "c3" : "4"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00174"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#174"
+ , "c5" : "00196"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#196"
  , "c1" : "AuthorizationResult"
  , "c2" : "getDefaultResult(Map<String,?>)"
  , "c3" : "2"
@@ -249,234 +249,192 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#45"
+ , "c1" : "00067"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#67"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00045] Lock statement on synchronized method setAclMutator"
+ , "c3" : "QC-JAV000019[00067] Lock statement on synchronized method setAclMutator"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#45"
+ , "c1" : "00067"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method setAclMutator arguments AclMutator  aclMutator"
+ , "c3" : "QC-JAV000006[00067] For method setAclMutator arguments AclMutator  aclMutator"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#52"
+ , "c1" : "00074"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.aclMutatorOrException@POLYN169461 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.aclMutatorOrException@POLYN169593 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#53"
+ , "c1" : "00075"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.aclMutatorOrException@POLYN169461 the MagicNumber/String  'The current node is not the active controller.' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.aclMutatorOrException@POLYN169593 the MagicNumber/String  'The current node is not the active controller.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#59"
+ , "c1" : "00081"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#81"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00059] Lock statement on synchronized method completeInitialLoad"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.completeInitialLoad@POLYN169770 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.completeInitialLoad@POLYN169770 the MagicNumber/String  'Completed initial ACL load process.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.completeInitialLoad@POLYN169770 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#71"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00071] For method completeInitialLoad arguments Exception  e"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.completeInitialLoad@POLYN170181 the MagicNumber/String  'Failed to complete initial ACL load process.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method addAcl arguments Uuid  id|StandardAcl  acl"
+ , "c3" : "QC-JAV000019[00081] Lock statement on synchronized method completeInitialLoad"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#82"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method removeAcl arguments Uuid  id"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.completeInitialLoad@POLYN169902 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#87"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00087] Lock statement on synchronized method loadSnapshot"
+ , "c1" : "00083"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.completeInitialLoad@POLYN169902 the MagicNumber/String  'Completed initial ACL load process.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#87"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00087] For method loadSnapshot arguments Map&lt;Uuid ,StandardAcl &gt;  acls"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#87"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00087] The argument acls is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#92"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method start arguments AuthorizerServerInfo  serverInfo"
+ , "c1" : "00084"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.completeInitialLoad@POLYN169902 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#93"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00093] The argument serverInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.start@POLYN171079 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#98"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.start@POLYN171079 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00107] For method authorize arguments AuthorizableRequestContext  requestContext|List&lt;Action &gt;  actions"
+ , "c3" : "QC-JAV000006[00093] For method completeInitialLoad arguments Exception  e"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.completeInitialLoad@POLYN170313 the MagicNumber/String  'Failed to complete initial ACL load process.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#99"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00099] For method addAcl arguments Uuid  id|StandardAcl  acl"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#104"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00104] For method removeAcl arguments Uuid  id"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#109"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00109] Lock statement on synchronized method loadSnapshot"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#109"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00109] For method loadSnapshot arguments Map&lt;Uuid ,StandardAcl &gt;  acls"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#109"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00109] The argument actions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00109] The argument acls is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#113"
+ , "c1" : "00114"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#114"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00114] For method start arguments AuthorizerServerInfo  serverInfo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#115"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00115] The argument serverInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00113] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.start@POLYN171211 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#120"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00120] For method acls arguments AclBindingFilter  filter"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.close@POLYN172833 the MagicNumber/String  'The authorizer was ' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.start@POLYN171211 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#133"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.close@POLYN172833 the MagicNumber/String  'closed before the initial load could complete.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#137"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00137] Lock statement on synchronized method configure"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#137"
+ , "c1" : "00129"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#129"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00129] For method authorize arguments AuthorizableRequestContext  requestContext|List&lt;Action &gt;  actions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#137"
+ , "c1" : "00131"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#131"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00137] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00131] The argument actions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#135"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00135] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#142"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN173040 the MagicNumber/String  'node.id' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00142] For method acls arguments AclBindingFilter  filter"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#144"
+ , "c1" : "00154"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN173040 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.close@POLYN172965 the MagicNumber/String  'The authorizer was ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#147"
+ , "c1" : "00155"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN173040 the MagicNumber/String  'set super.users={}, default result={}' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.close@POLYN172965 the MagicNumber/String  'closed before the initial load could complete.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN173040 the MagicNumber/String  ',' should be converted to const"
+ , "c1" : "00159"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#159"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00159] Lock statement on synchronized method configure"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00159"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00159] For method getConfiguredSuperUsers arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00159] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -487,45 +445,87 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#165"
+ , "c1" : "00164"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00165] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN173172 the MagicNumber/String  'node.id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#161"
+ , "c1" : "00166"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.getConfiguredSuperUsers@POLYN174292 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN173172 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#162"
+ , "c1" : "00169"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.getConfiguredSuperUsers@POLYN174292 the MagicNumber/String  ';' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN173172 the MagicNumber/String  'set super.users={}, default result={}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#174"
+ , "c1" : "00169"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN173172 the MagicNumber/String  ',' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00181"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#181"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00174] For method getDefaultResult arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00181] For method getConfiguredSuperUsers arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#174"
+ , "c1" : "00181"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#181"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00174] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00181] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#176"
+ , "c1" : "00187"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.getDefaultResult@POLYN175238 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00187] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00183"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#183"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.getConfiguredSuperUsers@POLYN174424 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#184"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.getConfiguredSuperUsers@POLYN174424 the MagicNumber/String  ';' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#196"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00196] For method getDefaultResult arguments Map&lt;String ,? &gt;  configs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#196"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00196] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00198"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#198"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.getDefaultResult@POLYN175370 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

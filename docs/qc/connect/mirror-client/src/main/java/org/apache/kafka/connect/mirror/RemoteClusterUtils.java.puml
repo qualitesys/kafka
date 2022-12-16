@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.connect.mirror.RemoteClusterUtils"
 class org.apache.kafka.connect.mirror.RemoteClusterUtils {
--RemoteClusterUtils() : RemoteClusterUtils [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#18]]]
-+replicationHops(Map<String,Object>;String) : int [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#21]]]
-+heartbeatTopics(Map<String,Object>) : Set<String> [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#29]]]
-+checkpointTopics(Map<String,Object>) : Set<String> [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#37]]]
-+upstreamClusters(Map<String,Object>) : Set<String> [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#45]]]
-+translateOffsets(Map<String,Object>;String;String;Duration) : Map<TopicPartition,OffsetAndMetadata> [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#53]]]
+-RemoteClusterUtils() : RemoteClusterUtils [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#45]]]
++replicationHops(Map<String,Object>;String) : int [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#49]]]
++heartbeatTopics(Map<String,Object>) : Set<String> [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#57]]]
++checkpointTopics(Map<String,Object>) : Set<String> [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#65]]]
++upstreamClusters(Map<String,Object>) : Set<String> [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#73]]]
++translateOffsets(Map<String,Object>;String;String;Duration) : Map<TopicPartition,OffsetAndMetadata> [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#87]]]
 } 
 @enduml

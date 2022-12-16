@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.PrimitiveRef" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00006"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#6"
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#25"
  , "c1" : "IntRef"
  , "c2" : "ofInt(int)"
  , "c3" : "1"
@@ -75,17 +75,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00006"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#6"
+ , "c1" : "00025"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#25"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00006] For method ofInt arguments int  value"
+ , "c3" : "QC-JAV000006[00025] For method ofInt arguments int  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#11"
+ , "c1" : "00030"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00011] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+ , "c3" : "QC-JAVCWE493[00030] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
 }} 
 ]
 , 

@@ -2,10 +2,10 @@
 !pragma layout smetana
 "Partitioner" <|-- "org.apache.kafka.clients.producer.internals.DefaultPartitioner"
 class org.apache.kafka.clients.producer.internals.DefaultPartitioner {
-+configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#15]]]
-+partition(String;Object;byte[];Object;byte[];Cluster) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#18]]]
-+partition(String;Object;byte[];Object;byte[];Cluster;int) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#23]]]
-+close() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#31]]]
-+onNewBatch(String;Cluster;int) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#35]]]
++configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#41]]]
++partition(String;Object;byte[];Object;byte[];Cluster) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#53]]]
++partition(String;Object;byte[];Object;byte[];Cluster;int) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#68]]]
++close() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#76]]]
++onNewBatch(String;Cluster;int) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#83]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.ClusterResource" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#13"
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#35"
  , "c1" : "ClusterResource"
  , "c2" : "ClusterResource(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#18"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#43"
  , "c1" : "String"
  , "c2" : "clusterId()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#23"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#48"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#28"
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#53"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#36"
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#61"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -118,52 +118,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#24"
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.ClusterResource.toString@POLYN146989 the MagicNumber/String  'ClusterResource(clusterId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.ClusterResource.toString@POLYN147139 the MagicNumber/String  'ClusterResource(clusterId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#24"
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.ClusterResource.toString@POLYN146989 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.ClusterResource.toString@POLYN147139 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#28"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00053] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#30"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00030] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00055] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#29"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.ClusterResource.equals@POLYN147137 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.ClusterResource.equals@POLYN147287 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#30"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.ClusterResource.equals@POLYN147137 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.ClusterResource.equals@POLYN147287 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#30"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.ClusterResource.equals@POLYN147137 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.ClusterResource.equals@POLYN147287 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

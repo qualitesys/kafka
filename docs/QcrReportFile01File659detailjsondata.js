@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.DescribeTransactionsRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#34"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#49"
  , "c1" : "DescribeTransactionsRequest"
  , "c2" : "DescribeTransactionsRequest(DescribeTransactionsRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#40"
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#55"
  , "c1" : "DescribeTransactionsRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#45"
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#60"
  , "c1" : "DescribeTransactionsResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#60"
+ , "c5" : "00075"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#75"
  , "c1" : "DescribeTransactionsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#66"
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#81"
  , "c1" : "String"
  , "c2" : "toString(boolean)"
  , "c3" : "1"
@@ -127,52 +127,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#22"
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method build arguments short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00051] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000006[00037] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00060] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#66"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00066] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method toString arguments boolean  verbose"
+ , "c3" : "QC-JAV000006[00075] For method parse arguments ByteBuffer  buffer|short  version"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#81"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00081] For method toString arguments boolean  verbose"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeTransactionsRequest.Builder.toString@POLYN149062"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeTransactionsRequest.Builder.toString@POLYN149152"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeTransactionsRequest.toString@POLYN150634"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeTransactionsRequest.toString@POLYN150724"
 }} 
 ]
 , 

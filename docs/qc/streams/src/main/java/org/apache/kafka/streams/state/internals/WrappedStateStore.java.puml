@@ -2,19 +2,19 @@
 !pragma layout smetana
 "StateStore" <|-- "org.apache.kafka.streams.state.internals.WrappedStateStore"
 class org.apache.kafka.streams.state.internals.WrappedStateStore {
-+isTimestamped(StateStore) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#18]]]
-+WrappedStateStore(S) : WrappedStateStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#30]]]
-+init(ProcessorContext;StateStore) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#36]]]
-+init(StateStoreContext;StateStore) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#42]]]
-+setFlushListener(CacheFlushListener<K,V>;boolean) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#48]]]
-+flushCache() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#57]]]
-+name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#64]]]
-+persistent() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#69]]]
-+isOpen() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#74]]]
-validateStoreOpen() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#78]]]
-+flush() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#85]]]
-+close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#90]]]
-+getPosition() : Position [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#111]]]
-+wrapped() : S [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#115]]]
++isTimestamped(StateStore) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#35]]]
++WrappedStateStore(S) : WrappedStateStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#47]]]
++init(ProcessorContext;StateStore) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#53]]]
++init(StateStoreContext;StateStore) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#59]]]
++setFlushListener(CacheFlushListener<K,V>;boolean) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#65]]]
++flushCache() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#74]]]
++name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#81]]]
++persistent() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#86]]]
++isOpen() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#91]]]
+validateStoreOpen() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#95]]]
++flush() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#102]]]
++close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#107]]]
++getPosition() : Position [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#128]]]
++wrapped() : S [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#132]]]
 } 
 @enduml

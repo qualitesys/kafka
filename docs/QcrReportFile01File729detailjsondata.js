@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.TxnOffsetCommitResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#22"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#52"
  , "c1" : "TxnOffsetCommitResponse"
  , "c2" : "TxnOffsetCommitResponse(TxnOffsetCommitResponseData)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#27"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#57"
  , "c1" : "TxnOffsetCommitResponse"
  , "c2" : "TxnOffsetCommitResponse(int;Map<TopicPartition,Errors>)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#51"
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#81"
  , "c1" : "TxnOffsetCommitResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#56"
+ , "c5" : "00086"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#86"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#61"
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#91"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#67"
+ , "c5" : "00097"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#97"
  , "c1" : "Map<TopicPartition,Errors>"
  , "c2" : "errors()"
  , "c3" : "3"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#78"
+ , "c5" : "00108"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#108"
  , "c1" : "TxnOffsetCommitResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#83"
+ , "c5" : "00113"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#113"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#88"
+ , "c5" : "00118"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#118"
  , "c1" : "boolean"
  , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"
@@ -177,80 +177,80 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#27"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#57"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument responseData is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00057] The argument responseData is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#32"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00032] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00062] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#33"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00033] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00063] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#35"
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00035] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00065] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#70"
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00070] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00100] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#78"
+ , "c1" : "00108"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00108] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#88"
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#118"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method shouldClientThrottle arguments short  version"
+ , "c3" : "QC-JAV000006[00118] For method shouldClientThrottle arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#89"
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.requests.TxnOffsetCommitResponse.shouldClientThrottle@POLYN160664 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.requests.TxnOffsetCommitResponse.shouldClientThrottle@POLYN160844 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.TxnOffsetCommitResponse.TxnOffsetCommitResponse@POLYN157560"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.TxnOffsetCommitResponse.TxnOffsetCommitResponse@POLYN157740"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.TxnOffsetCommitResponse.throttleTimeMs@POLYN159023"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.TxnOffsetCommitResponse.throttleTimeMs@POLYN159203"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.TxnOffsetCommitResponse.toString@POLYN160544"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.TxnOffsetCommitResponse.toString@POLYN160724"
 }} 
 ]
 , 

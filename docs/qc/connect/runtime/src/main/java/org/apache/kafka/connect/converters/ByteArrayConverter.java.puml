@@ -2,13 +2,13 @@
 !pragma layout smetana
 "Converter" <|-- "org.apache.kafka.connect.converters.ByteArrayConverter"
 class org.apache.kafka.connect.converters.ByteArrayConverter {
-+config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#21]]]
-+configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#26]]]
-+configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#30]]]
-+fromConnectData(String;Schema;Object) : byte[] [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#34]]]
-+toConnectData(String;byte[]) : SchemaAndValue [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#45]]]
-+fromConnectHeader(String;String;Schema;Object) : byte[] [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#50]]]
-+toConnectHeader(String;String;byte[]) : SchemaAndValue [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#55]]]
-+close() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#60]]]
++config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#40]]]
++configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#45]]]
++configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#49]]]
++fromConnectData(String;Schema;Object) : byte[] [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#53]]]
++toConnectData(String;byte[]) : SchemaAndValue [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#64]]]
++fromConnectHeader(String;String;Schema;Object) : byte[] [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#69]]]
++toConnectHeader(String;String;byte[]) : SchemaAndValue [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#74]]]
++close() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#79]]]
 } 
 @enduml

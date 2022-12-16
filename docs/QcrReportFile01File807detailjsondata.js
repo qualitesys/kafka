@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#25"
+ , "c5" : "00064"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#64"
  , "c1" : "BasicOAuthBearerToken"
  , "c2" : "BasicOAuthBearerToken(String;Set<String>;long;String;Long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#40"
+ , "c5" : "00087"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#87"
  , "c1" : "String"
  , "c2" : "value()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#47"
+ , "c5" : "00104"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#104"
  , "c1" : "Set<String>"
  , "c2" : "scope()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#56"
+ , "c5" : "00122"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#122"
  , "c1" : "long"
  , "c2" : "lifetimeMs()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#63"
+ , "c5" : "00133"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#133"
  , "c1" : "String"
  , "c2" : "principalName()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#70"
+ , "c5" : "00148"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#148"
  , "c1" : "Long"
  , "c2" : "startTimeMs()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#75"
+ , "c5" : "00153"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#153"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -122,73 +122,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#76"
+ , "c1" : "00154"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168037 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168505 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#76"
+ , "c1" : "00154"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168037 the MagicNumber/String  '[' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168505 the MagicNumber/String  '[' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#76"
+ , "c1" : "00154"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168037 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168505 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#77"
+ , "c1" : "00155"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168037 the MagicNumber/String  'token='' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168505 the MagicNumber/String  'token='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#77"
+ , "c1" : "00155"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168037 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168505 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#78"
+ , "c1" : "00156"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168037 the MagicNumber/String  'scopes=' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168505 the MagicNumber/String  'scopes=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#79"
+ , "c1" : "00157"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168037 the MagicNumber/String  'lifetimeMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168505 the MagicNumber/String  'lifetimeMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#80"
+ , "c1" : "00158"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168037 the MagicNumber/String  'principalName='' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168505 the MagicNumber/String  'principalName='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#80"
+ , "c1" : "00158"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168037 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168505 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#81"
+ , "c1" : "00159"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168037 the MagicNumber/String  'startTimeMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken.toString@POLYN168505 the MagicNumber/String  'startTimeMs=' should be converted to const"
 }} 
 ]
 , 

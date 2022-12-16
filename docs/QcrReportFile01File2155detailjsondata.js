@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.metrics.NamedCacheMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#11"
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#26"
  , "c1" : "NamedCacheMetrics"
  , "c2" : "NamedCacheMetrics()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#34"
  , "c1" : "Sensor"
  , "c2" : "hitRatioSensor(StreamsMetricsImpl;String;String;String)"
  , "c3" : "1"
@@ -91,24 +91,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#19"
+ , "c1" : "00034"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method hitRatioSensor arguments StreamsMetricsImpl  streamsMetrics|String  threadId|String  taskName|String  storeName"
+ , "c3" : "QC-JAV000006[00034] For method hitRatioSensor arguments StreamsMetricsImpl  streamsMetrics|String  threadId|String  taskName|String  storeName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#19"
+ , "c1" : "00034"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00019] For method hitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_cacheLevelSensorN145758"
+ , "c3" : "QC-JAV000007[00034] For method hitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_cacheLevelSensorN145848"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#19"
+ , "c1" : "00034"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#34"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00019] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00034] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

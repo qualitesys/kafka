@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.connect.storage.OffsetBackingStore"
 class org.apache.kafka.connect.storage.OffsetBackingStore {
-start() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetBackingStore.java.html#16]]]
-stop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetBackingStore.java.html#19]]]
-get(Collection<ByteBuffer>) : Future<Map<ByteBuffer,ByteBuffer>> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetBackingStore.java.html#22]]]
-set(Map<ByteBuffer,ByteBuffer>;Callback<Void>) : Future<Void> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetBackingStore.java.html#25]]]
-configure(WorkerConfig) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetBackingStore.java.html#28]]]
+start() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetBackingStore.java.html#45]]]
+stop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetBackingStore.java.html#51]]]
+get(Collection<ByteBuffer>) : Future<Map<ByteBuffer,ByteBuffer>> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetBackingStore.java.html#58]]]
+set(Map<ByteBuffer,ByteBuffer>;Callback<Void>) : Future<Void> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetBackingStore.java.html#66]]]
+configure(WorkerConfig) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetBackingStore.java.html#72]]]
 } 
 @enduml

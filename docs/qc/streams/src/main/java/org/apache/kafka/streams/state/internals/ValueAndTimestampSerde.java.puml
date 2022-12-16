@@ -2,6 +2,6 @@
 !pragma layout smetana
 "WrappingNullableSerde<ValueAndTimestamp<V>,Void,V>" <|-- "org.apache.kafka.streams.state.internals.ValueAndTimestampSerde"
 class org.apache.kafka.streams.state.internals.ValueAndTimestampSerde {
-+ValueAndTimestampSerde(Serde<V>) : ValueAndTimestampSerde [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerde.java.html#11]]]
++ValueAndTimestampSerde(Serde<V>) : ValueAndTimestampSerde [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerde.java.html#26]]]
 } 
 @enduml

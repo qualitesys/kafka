@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamFlatMap" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMap.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMap.java.html#32"
  , "c1" : "KStreamFlatMap"
  , "c2" : "KStreamFlatMap(KeyValueMapper<?superKIn,?superVIn,?extendsIterable<?extendsKeyValue<?extendsKOut,?extendsVOut>>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMap.java.html#22"
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMap.java.html#37"
  , "c1" : "Processor<KIn,VIn,KOut,VOut>"
  , "c2" : "get()"
  , "c3" : "1"
@@ -91,24 +91,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMap.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMap.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method process arguments Record&lt;KIn ,VIn &gt;  record"
+ , "c3" : "QC-JAV000006[00043] For method process arguments Record&lt;KIn ,VIn &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMap.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMap.java.html#43"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00028] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00043] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMap.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMap.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.internals.KStreamFlatMap.KStreamFlatMapProcessor.process@POLYN149166 the MagicNumber/String  'The provided KeyValueMapper returned null which is not allowed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.kstream.internals.KStreamFlatMap.KStreamFlatMapProcessor.process@POLYN149256 the MagicNumber/String  'The provided KeyValueMapper returned null which is not allowed.' should be converted to const"
 }} 
 ]
 , 

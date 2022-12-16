@@ -2,19 +2,19 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.connect.runtime.distributed.WorkerGroupMember"
 class org.apache.kafka.connect.runtime.distributed.WorkerGroupMember {
-+WorkerGroupMember(DistributedConfig;String;ConfigBackingStore;WorkerRebalanceListener;Time;String;LogContext) : WorkerGroupMember [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#55]]]
-+stop() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#143]]]
-+ensureActive() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#149]]]
-+poll(long) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#153]]]
-+wakeup() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#160]]]
-+memberId() : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#165]]]
-+requestRejoin() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#169]]]
-+maybeLeaveGroup(String) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#173]]]
-+ownerUrl(String) : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#177]]]
-+ownerUrl(ConnectorTaskId) : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#181]]]
-+currentProtocolVersion() : short [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#186]]]
-+revokeAssignment(ExtendedAssignment) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#190]]]
--stop(boolean) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#194]]]
-metrics() : Metrics [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#209]]]
++WorkerGroupMember(DistributedConfig;String;ConfigBackingStore;WorkerRebalanceListener;Time;String;LogContext) : WorkerGroupMember [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#75]]]
++stop() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#163]]]
++ensureActive() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#172]]]
++poll(long) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#176]]]
++wakeup() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#185]]]
++memberId() : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#196]]]
++requestRejoin() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#200]]]
++maybeLeaveGroup(String) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#204]]]
++ownerUrl(String) : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#208]]]
++ownerUrl(ConnectorTaskId) : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#212]]]
++currentProtocolVersion() : short [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#221]]]
++revokeAssignment(ExtendedAssignment) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#225]]]
+-stop(boolean) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#229]]]
+metrics() : Metrics [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#244]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.SessionWindowedCogroupedKStream" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedCogroupedKStream.java.html#18"
+ , "c5" : "00097"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedCogroupedKStream.java.html#97"
  , "c1" : "KTable<Windowed<K>,V>"
  , "c2" : "aggregate(Initializer<V>;Merger<?superK,V>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedCogroupedKStream.java.html#22"
+ , "c5" : "00143"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedCogroupedKStream.java.html#143"
  , "c1" : "KTable<Windowed<K>,V>"
  , "c2" : "aggregate(Initializer<V>;Merger<?superK,V>;Named)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedCogroupedKStream.java.html#27"
+ , "c5" : "00203"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedCogroupedKStream.java.html#203"
  , "c1" : "KTable<Windowed<K>,V>"
  , "c2" : "aggregate(Initializer<V>;Merger<?superK,V>;Materialized<K,V,SessionStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedCogroupedKStream.java.html#32"
+ , "c5" : "00261"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedCogroupedKStream.java.html#261"
  , "c1" : "KTable<Windowed<K>,V>"
  , "c2" : "aggregate(Initializer<V>;Merger<?superK,V>;Named;Materialized<K,V,SessionStore<Bytes,byte[]>>)"
  , "c3" : "1"

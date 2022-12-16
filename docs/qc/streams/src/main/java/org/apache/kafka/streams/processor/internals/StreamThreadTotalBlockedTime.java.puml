@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.StreamThreadTotalBlockedTime"
 class org.apache.kafka.streams.processor.internals.StreamThreadTotalBlockedTime {
-StreamThreadTotalBlockedTime(Consumer<?,?>;Consumer<?,?>;Supplier<Double>) : StreamThreadTotalBlockedTime [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThreadTotalBlockedTime.java.html#16]]]
--metricValue(Map<MetricName,?extendsMetric>;String) : double [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThreadTotalBlockedTime.java.html#25]]]
-+compute() : double [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThreadTotalBlockedTime.java.html#35]]]
+StreamThreadTotalBlockedTime(Consumer<?,?>;Consumer<?,?>;Supplier<Double>) : StreamThreadTotalBlockedTime [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThreadTotalBlockedTime.java.html#31]]]
+-metricValue(Map<MetricName,?extendsMetric>;String) : double [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThreadTotalBlockedTime.java.html#40]]]
++compute() : double [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThreadTotalBlockedTime.java.html#50]]]
 } 
 @enduml

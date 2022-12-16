@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.policy.CreateTopicPolicy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#87"
+ , "c5" : "00146"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#146"
  , "c1" : "void"
  , "c2" : "validate(RequestMetadata)"
  , "c3" : "1"
@@ -82,94 +82,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#29"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.RequestMetadata@POLYN165499 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.RequestMetadata@POLYN165853 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#29"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.RequestMetadata@POLYN165499 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.RequestMetadata@POLYN165853 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#65"
+ , "c1" : "00115"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#115"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00115] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#67"
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00067] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00117] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#66"
+ , "c1" : "00116"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.equals@POLYN167387 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.equals@POLYN167741 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#67"
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.equals@POLYN167387 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.equals@POLYN167741 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#67"
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.equals@POLYN167387 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.equals@POLYN167741 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#78"
+ , "c1" : "00128"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.toString@POLYN168230 the MagicNumber/String  'CreateTopicPolicy.RequestMetadata(topic=' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.toString@POLYN168584 the MagicNumber/String  'CreateTopicPolicy.RequestMetadata(topic=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#79"
+ , "c1" : "00129"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.toString@POLYN168230 the MagicNumber/String  ', numPartitions=' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.toString@POLYN168584 the MagicNumber/String  ', numPartitions=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#80"
+ , "c1" : "00130"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.toString@POLYN168230 the MagicNumber/String  ', replicationFactor=' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.toString@POLYN168584 the MagicNumber/String  ', replicationFactor=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#81"
+ , "c1" : "00131"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.toString@POLYN168230 the MagicNumber/String  ', replicasAssignments=' should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.toString@POLYN168584 the MagicNumber/String  ', replicasAssignments=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#82"
+ , "c1" : "00132"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.toString@POLYN168230 the MagicNumber/String  ', configs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.toString@POLYN168584 the MagicNumber/String  ', configs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#82"
+ , "c1" : "00132"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.toString@POLYN168230 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.toString@POLYN168584 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

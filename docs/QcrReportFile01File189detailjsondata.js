@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.OffsetAndMetadata" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#23"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#48"
  , "c1" : "OffsetAndMetadata"
  , "c2" : "OffsetAndMetadata(long;Optional<Integer>;String)"
  , "c3" : "4"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#39"
+ , "c5" : "00068"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#68"
  , "c1" : "OffsetAndMetadata"
  , "c2" : "OffsetAndMetadata(long;String)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#44"
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#77"
  , "c1" : "OffsetAndMetadata"
  , "c2" : "OffsetAndMetadata(long)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#48"
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#81"
  , "c1" : "long"
  , "c2" : "offset()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#52"
+ , "c5" : "00085"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#85"
  , "c1" : "String"
  , "c2" : "metadata()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#57"
+ , "c5" : "00096"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#96"
  , "c1" : "Optional<Integer>"
  , "c2" : "leaderEpoch()"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#64"
+ , "c5" : "00103"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#103"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#74"
+ , "c5" : "00113"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#113"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#79"
+ , "c5" : "00118"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#118"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -161,136 +161,136 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#23"
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#48"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00023] The argument leaderEpoch is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00048] The argument leaderEpoch is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#24"
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.OffsetAndMetadata@POLYN155588 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.OffsetAndMetadata@POLYN155822 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#25"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.OffsetAndMetadata@POLYN155588 the MagicNumber/String  'Invalid negative offset' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.OffsetAndMetadata@POLYN155822 the MagicNumber/String  'Invalid negative offset' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#28"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.OffsetAndMetadata@POLYN155588 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.OffsetAndMetadata@POLYN155822 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#32"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.OffsetAndMetadata@POLYN155588 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.OffsetAndMetadata@POLYN155822 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#45"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.OffsetAndMetadata@POLYN156667 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.OffsetAndMetadata@POLYN156901 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#58"
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.leaderEpoch@POLYN157215 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.leaderEpoch@POLYN157449 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#58"
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.leaderEpoch@POLYN157215 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.leaderEpoch@POLYN157449 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#64"
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00103] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#66"
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00066] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00105] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#65"
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.equals@POLYN157511 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.equals@POLYN157745 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#66"
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.equals@POLYN157511 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.equals@POLYN157745 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#66"
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.equals@POLYN157511 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.equals@POLYN157745 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#80"
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.toString@POLYN158360 the MagicNumber/String  'OffsetAndMetadata{' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.toString@POLYN158594 the MagicNumber/String  'OffsetAndMetadata{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#81"
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.toString@POLYN158360 the MagicNumber/String  'offset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.toString@POLYN158594 the MagicNumber/String  'offset=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#82"
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.toString@POLYN158360 the MagicNumber/String  ', leaderEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.toString@POLYN158594 the MagicNumber/String  ', leaderEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#83"
+ , "c1" : "00122"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.toString@POLYN158360 the MagicNumber/String  ', metadata='' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.toString@POLYN158594 the MagicNumber/String  ', metadata='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#83"
+ , "c1" : "00122"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.toString@POLYN158360 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.toString@POLYN158594 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#84"
+ , "c1" : "00123"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.toString@POLYN158360 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.clients.consumer.OffsetAndMetadata.toString@POLYN158594 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

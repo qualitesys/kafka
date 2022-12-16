@@ -2,10 +2,10 @@
 !pragma layout smetana
 "AbstractRequest" <|-- "org.apache.kafka.common.requests.DescribeProducersRequest"
 class org.apache.kafka.common.requests.DescribeProducersRequest {
--DescribeProducersRequest(DescribeProducersRequestData;short) : DescribeProducersRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#44]]]
-+data() : DescribeProducersRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#50]]]
-+getErrorResponse(int;Throwable) : DescribeProducersResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#55]]]
-+parse(ByteBuffer;short) : DescribeProducersRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#73]]]
-+toString(boolean) : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#79]]]
+-DescribeProducersRequest(DescribeProducersRequestData;short) : DescribeProducersRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#59]]]
++data() : DescribeProducersRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#65]]]
++getErrorResponse(int;Throwable) : DescribeProducersResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#70]]]
++parse(ByteBuffer;short) : DescribeProducersRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#88]]]
++toString(boolean) : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersRequest.java.html#94]]]
 } 
 @enduml

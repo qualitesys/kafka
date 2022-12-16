@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.ClientRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#22"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#47"
  , "c1" : "ClientRequest"
  , "c2" : "ClientRequest(String;AbstractRequest.Builder<?>;int;String;long;boolean;int;RequestCompletionHandler)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#41"
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#66"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#52"
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#77"
  , "c1" : "boolean"
  , "c2" : "expectResponse()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#56"
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#81"
  , "c1" : "ApiKeys"
  , "c2" : "apiKey()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#60"
+ , "c5" : "00085"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#85"
  , "c1" : "RequestHeader"
  , "c2" : "makeHeader(short)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#71"
+ , "c5" : "00096"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#96"
  , "c1" : "AbstractRequest.Builder<?>"
  , "c2" : "requestBuilder()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#75"
+ , "c5" : "00100"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#100"
  , "c1" : "String"
  , "c2" : "destination()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#79"
+ , "c5" : "00104"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#104"
  , "c1" : "RequestCompletionHandler"
  , "c2" : "callback()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#83"
+ , "c5" : "00108"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#108"
  , "c1" : "long"
  , "c2" : "createdTimeMs()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#87"
+ , "c5" : "00112"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#112"
  , "c1" : "int"
  , "c2" : "correlationId()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00091"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#91"
+ , "c5" : "00116"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#116"
  , "c1" : "int"
  , "c2" : "requestTimeoutMs()"
  , "c3" : "1"
@@ -188,80 +188,80 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#42"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.ClientRequest.toString@POLYN154361 the MagicNumber/String  'ClientRequest(expectResponse=' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.ClientRequest.toString@POLYN154511 the MagicNumber/String  'ClientRequest(expectResponse=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#43"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.ClientRequest.toString@POLYN154361 the MagicNumber/String  ', callback=' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.ClientRequest.toString@POLYN154511 the MagicNumber/String  ', callback=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#44"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.ClientRequest.toString@POLYN154361 the MagicNumber/String  ', destination=' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.clients.ClientRequest.toString@POLYN154511 the MagicNumber/String  ', destination=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#45"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.ClientRequest.toString@POLYN154361 the MagicNumber/String  ', correlationId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.ClientRequest.toString@POLYN154511 the MagicNumber/String  ', correlationId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#46"
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.ClientRequest.toString@POLYN154361 the MagicNumber/String  ', clientId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.ClientRequest.toString@POLYN154511 the MagicNumber/String  ', clientId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#47"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.clients.ClientRequest.toString@POLYN154361 the MagicNumber/String  ', createdTimeMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.ClientRequest.toString@POLYN154511 the MagicNumber/String  ', createdTimeMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#48"
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.ClientRequest.toString@POLYN154361 the MagicNumber/String  ', requestBuilder=' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.ClientRequest.toString@POLYN154511 the MagicNumber/String  ', requestBuilder=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#49"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.clients.ClientRequest.toString@POLYN154361 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.ClientRequest.toString@POLYN154511 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#60"
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method makeHeader arguments short  version"
+ , "c3" : "QC-JAV000006[00085] For method makeHeader arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#60"
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00060] For method makeHeader list of called methods Object monObjet|ApiKeys apiKeyN155060"
+ , "c3" : "QC-JAV000007[00085] For method makeHeader list of called methods Object monObjet|ApiKeys apiKeyN155210"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.ClientRequest.apiKey@POLYN154857"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.ClientRequest.apiKey@POLYN155007"
 }} 
 ]
 , 

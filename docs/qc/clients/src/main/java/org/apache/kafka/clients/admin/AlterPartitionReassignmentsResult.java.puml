@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult"
 class org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult {
-AlterPartitionReassignmentsResult(Map<TopicPartition,KafkaFuture<Void>>) : AlterPartitionReassignmentsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.html#16]]]
-+values() : Map<TopicPartition,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.html#21]]]
-+all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.html#26]]]
+AlterPartitionReassignmentsResult(Map<TopicPartition,KafkaFuture<Void>>) : AlterPartitionReassignmentsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.html#35]]]
++values() : Map<TopicPartition,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.html#49]]]
++all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.html#56]]]
 } 
 @enduml

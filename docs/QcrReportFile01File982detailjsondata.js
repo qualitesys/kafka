@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.source.SourceConnector" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#12"
+ , "c5" : "00030"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#30"
  , "c1" : "SourceConnectorContext"
  , "c2" : "context()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#17"
+ , "c5" : "00052"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#52"
  , "c1" : "ExactlyOnceSupport"
  , "c2" : "exactlyOnceSupport(Map<String,String>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#22"
+ , "c5" : "00071"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#71"
  , "c1" : "ConnectorTransactionBoundaries"
  , "c2" : "canDefineTransactionBoundaries(Map<String,String>)"
  , "c3" : "1"
@@ -109,31 +109,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#17"
+ , "c1" : "00052"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method exactlyOnceSupport arguments Map&lt;String ,String &gt;  connectorConfig"
+ , "c3" : "QC-JAV000006[00052] For method exactlyOnceSupport arguments Map&lt;String ,String &gt;  connectorConfig"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#18"
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.connect.source.SourceConnector.exactlyOnceSupport@POLYN153833 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.source.SourceConnector.exactlyOnceSupport@POLYN154127 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#22"
+ , "c1" : "00071"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method canDefineTransactionBoundaries arguments Map&lt;String ,String &gt;  connectorConfig"
+ , "c3" : "QC-JAV000006[00071] For method canDefineTransactionBoundaries arguments Map&lt;String ,String &gt;  connectorConfig"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.source.SourceConnector.context@POLYN152940"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.source.SourceConnector.context@POLYN153234"
 }} 
 ]
 , 

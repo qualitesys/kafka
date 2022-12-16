@@ -2,13 +2,13 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.state.HostInfo"
 class org.apache.kafka.streams.state.HostInfo {
-+HostInfo(String;int) : HostInfo [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#17]]]
-+buildFromEndpoint(String) : HostInfo [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#24]]]
-+unavailable() : HostInfo [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#41]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#46]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#59]]]
-+host() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#65]]]
-+port() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#69]]]
-+toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#74]]]
++HostInfo(String;int) : HostInfo [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#44]]]
++buildFromEndpoint(String) : HostInfo [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#54]]]
++unavailable() : HostInfo [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#73]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#78]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#91]]]
++host() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#97]]]
++port() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#101]]]
++toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#106]]]
 } 
 @enduml

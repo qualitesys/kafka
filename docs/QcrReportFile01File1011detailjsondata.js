@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.json.JsonSerializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#19"
+ , "c5" : "00039"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#39"
  , "c1" : "JsonSerializer"
  , "c2" : "JsonSerializer()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#24"
+ , "c5" : "00050"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#50"
  , "c1" : "JsonSerializer"
  , "c2" : "JsonSerializer(Set<SerializationFeature>;JsonNodeFactory)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#33"
+ , "c5" : "00059"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#59"
  , "c1" : "byte[]"
  , "c2" : "serialize(String;JsonNode)"
  , "c3" : "2"
@@ -100,45 +100,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#20"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.connect.json.JsonSerializer.JsonSerializer@POLYN147958 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#25"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00025] The argument serializationFeatures is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#33"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method serialize arguments String  topic|JsonNode  data"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN148565 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN148565 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00040"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN148565 the MagicNumber/String  'Error serializing JSON message' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.json.JsonSerializer.JsonSerializer@POLYN148114 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#51"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00051] The argument serializationFeatures is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#59"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00059] For method serialize arguments String  topic|JsonNode  data"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN148721 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#61"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN148721 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#66"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN148721 the MagicNumber/String  'Error serializing JSON message' should be converted to const"
 }} 
 ]
 , 

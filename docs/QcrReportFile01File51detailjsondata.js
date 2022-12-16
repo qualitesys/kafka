@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.CreateDelegationTokenOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#19"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#38"
  , "c1" : "CreateDelegationTokenOptions"
  , "c2" : "renewers(List<KafkaPrincipal>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#24"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#43"
  , "c1" : "List<KafkaPrincipal>"
  , "c2" : "renewers()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#28"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#47"
  , "c1" : "CreateDelegationTokenOptions"
  , "c2" : "owner(KafkaPrincipal)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#33"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#52"
  , "c1" : "Optional<KafkaPrincipal>"
  , "c2" : "owner()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#37"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#56"
  , "c1" : "CreateDelegationTokenOptions"
  , "c2" : "maxlifeTimeMs(long)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#42"
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#61"
  , "c1" : "long"
  , "c2" : "maxlifeTimeMs()"
  , "c3" : "1"
@@ -113,24 +113,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#19"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method renewers arguments List&lt;KafkaPrincipal &gt;  renewers"
+ , "c3" : "QC-JAV000006[00038] For method renewers arguments List&lt;KafkaPrincipal &gt;  renewers"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#28"
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method owner arguments KafkaPrincipal  owner"
+ , "c3" : "QC-JAV000006[00047] For method owner arguments KafkaPrincipal  owner"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#37"
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method maxlifeTimeMs arguments long  maxLifeTimeMs"
+ , "c3" : "QC-JAV000006[00056] For method maxlifeTimeMs arguments long  maxLifeTimeMs"
 }} 
 ]
 , 

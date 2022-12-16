@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.BufferSupplier" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#27"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#47"
  , "c1" : "BufferSupplier"
  , "c2" : "create()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#32"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#54"
  , "c1" : "ByteBuffer"
  , "c2" : "get(int)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#35"
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#61"
  , "c1" : "void"
  , "c2" : "release(ByteBuffer)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#38"
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#66"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -109,108 +109,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#32"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method get arguments int  capacity"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#35"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method release arguments ByteBuffer  buffer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method get arguments int  size"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.utils.BufferSupplier.DefaultSupplier.get@POLYN155471 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method release arguments ByteBuffer  buffer"
+ , "c3" : "QC-JAV000006[00054] For method get arguments int  capacity"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#54"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00054] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.utils.BufferSupplier.DefaultSupplier.release@POLYN155893 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.utils.BufferSupplier.DefaultSupplier.release@POLYN155893 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#76"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method get arguments int  minCapacity"
+ , "c3" : "QC-JAV000006[00061] For method release arguments ByteBuffer  buffer"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier.get@POLYN156832 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#73"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00073] For method get arguments int  size"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#79"
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier.get@POLYN156832 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.utils.BufferSupplier.DefaultSupplier.get@POLYN155657 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier.get@POLYN156832 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method release arguments ByteBuffer  buffer"
+ , "c3" : "QC-JAV000006[00082] For method release arguments ByteBuffer  buffer"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#88"
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#82"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00088] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00082] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#95"
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier.close@POLYN157527 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.utils.BufferSupplier.DefaultSupplier.release@POLYN156079 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.utils.BufferSupplier.DefaultSupplier.release@POLYN156079 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#107"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00107] For method get arguments int  minCapacity"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier.get@POLYN157018 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier.get@POLYN157018 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier.get@POLYN157018 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#119"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00119] For method release arguments ByteBuffer  buffer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#119"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00119] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00126"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#126"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier.close@POLYN157713 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

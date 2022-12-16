@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.stats.CumulativeCount" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00009"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeCount.java.html#9"
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeCount.java.html#31"
  , "c1" : "void"
  , "c2" : "record(MetricConfig;double;long)"
  , "c3" : "1"
@@ -75,17 +75,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00009"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeCount.java.html#9"
+ , "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeCount.java.html#31"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00009] For method record arguments MetricConfig  config|double  value|long  timeMs"
+ , "c3" : "QC-JAV000006[00031] For method record arguments MetricConfig  config|double  value|long  timeMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeCount.java.html#10"
+ , "c1" : "00032"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeCount.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.metrics.stats.CumulativeCount.record@POLYN143513 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.metrics.stats.CumulativeCount.record@POLYN143645 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 , 

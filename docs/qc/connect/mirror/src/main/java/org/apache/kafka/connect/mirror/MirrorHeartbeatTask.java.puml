@@ -2,11 +2,11 @@
 !pragma layout smetana
 "SourceTask" <|-- "org.apache.kafka.connect.mirror.MirrorHeartbeatTask"
 class org.apache.kafka.connect.mirror.MirrorHeartbeatTask {
-+start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#25]]]
-+commit() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#35]]]
-+stop() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#40]]]
-+version() : String [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#45]]]
-+poll() : List<SourceRecord> [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#50]]]
-+commitRecord(SourceRecord;RecordMetadata) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#68]]]
++start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#40]]]
++commit() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#50]]]
++stop() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#55]]]
++version() : String [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#60]]]
++poll() : List<SourceRecord> [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#65]]]
++commitRecord(SourceRecord;RecordMetadata) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#83]]]
 } 
 @enduml

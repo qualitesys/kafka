@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ListTransactionsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#21"
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#40"
  , "c1" : "ListTransactionsResult"
  , "c2" : "ListTransactionsResult(KafkaFuture<Map<Integer,KafkaFutureImpl<Collection<TransactionListing>>>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#26"
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#51"
  , "c1" : "KafkaFuture<Collection<TransactionListing>>"
  , "c2" : "all()"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#37"
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#71"
  , "c1" : "KafkaFuture<Map<Integer,KafkaFuture<Collection<TransactionListing>>>>"
  , "c2" : "byBrokerId()"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#53"
+ , "c5" : "00095"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#95"
  , "c1" : "KafkaFuture<Map<Integer,Collection<TransactionListing>>>"
  , "c2" : "allByBrokerId()"
  , "c3" : "6"
@@ -102,31 +102,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#40"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.admin.ListTransactionsResult.byBrokerId@POLYN162677 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.admin.ListTransactionsResult.byBrokerId@POLYN162929 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#58"
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.admin.ListTransactionsResult.allByBrokerId@POLYN163948 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.clients.admin.ListTransactionsResult.allByBrokerId@POLYN164200 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#66"
+ , "c1" : "00108"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.admin.ListTransactionsResult.allByBrokerId@POLYN163948 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.clients.admin.ListTransactionsResult.allByBrokerId@POLYN164200 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#26"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#51"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00026] Public method all is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00051] Public method all is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

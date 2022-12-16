@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "java.io.PipedInputStream" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#33"
+ , "c5" : "00105"
+ , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#105"
  , "c1" : "PipedInputStream"
  , "c2" : "PipedInputStream(PipedOutputStream)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#38"
+ , "c5" : "00123"
+ , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#123"
  , "c1" : "PipedInputStream"
  , "c2" : "PipedInputStream(PipedOutputStream;int)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#45"
+ , "c5" : "00137"
+ , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#137"
  , "c1" : "PipedInputStream"
  , "c2" : "PipedInputStream()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#50"
+ , "c5" : "00153"
+ , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#153"
  , "c1" : "PipedInputStream"
  , "c2" : "PipedInputStream(int)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#54"
+ , "c5" : "00157"
+ , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#157"
  , "c1" : "void"
  , "c2" : "initPipe(int)"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#62"
+ , "c5" : "00187"
+ , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#187"
  , "c1" : "void"
  , "c2" : "connect(PipedOutputStream)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#67"
+ , "c5" : "00200"
+ , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#200"
  , "c1" : "void"
  , "c2" : "receive(int)"
  , "c3" : "4"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#83"
+ , "c5" : "00225"
+ , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#225"
  , "c1" : "void"
  , "c2" : "receive(byte[];int;int)"
  , "c3" : "10"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00114"
- , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#114"
+ , "c5" : "00256"
+ , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#256"
  , "c1" : "void"
  , "c2" : "checkStateForReceive()"
  , "c3" : "6"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00124"
- , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#124"
+ , "c5" : "00266"
+ , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#266"
  , "c1" : "void"
  , "c2" : "awaitSpace()"
  , "c3" : "2"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00139"
- , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#139"
+ , "c5" : "00284"
+ , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#284"
  , "c1" : "void"
  , "c2" : "receivedLast()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00145"
- , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#145"
+ , "c5" : "00303"
+ , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#303"
  , "c1" : "int"
  , "c2" : "read()"
  , "c3" : "11"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00186"
- , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#186"
+ , "c5" : "00367"
+ , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#367"
  , "c1" : "int"
  , "c2" : "read(byte[];int;int)"
  , "c3" : "13"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00233"
- , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#233"
+ , "c5" : "00426"
+ , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#426"
  , "c1" : "int"
  , "c2" : "available()"
  , "c3" : "7"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00245"
- , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#245"
+ , "c5" : "00443"
+ , "c5link" : "././qc/secujava/java.io.PipedInputStream.java.html#443"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -229,479 +229,479 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#54"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method initPipe arguments int  pipeSize"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method java.io.PipedInputStream.initPipe@POLYN216414 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method java.io.PipedInputStream.initPipe@POLYN216414 the MagicNumber/String  'Pipe Size &amp;lt;= 0' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#62"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method connect arguments PipedOutputStream  src"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#62"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00062] The argument src is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#67"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00067] Lock statement on synchronized method receive"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#67"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method receive arguments int  b"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method java.io.PipedInputStream.receive@POLYN217802 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method java.io.PipedInputStream.receive@POLYN217802 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method java.io.PipedInputStream.receive@POLYN217802 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method java.io.PipedInputStream.receive@POLYN217802 the MagicNumber/String  0xFF should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method java.io.PipedInputStream.receive@POLYN217802 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#83"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00083] Lock statement on synchronized method receive"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#83"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method receive arguments byte[]  b|int  off|int  len"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#87"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method java.io.PipedInputStream.receive@POLYN218909 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method java.io.PipedInputStream.receive@POLYN218909 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method java.io.PipedInputStream.receive@POLYN218909 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method java.io.PipedInputStream.receive@POLYN218909 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method java.io.PipedInputStream.receive@POLYN218909 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method java.io.PipedInputStream.receive@POLYN218909 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#116"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method java.io.PipedInputStream.checkStateForReceive@POLYN220665 the MagicNumber/String  'Pipe not connected' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method java.io.PipedInputStream.checkStateForReceive@POLYN220665 the MagicNumber/String  'Pipe closed' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#119"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method java.io.PipedInputStream.checkStateForReceive@POLYN220665 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#120"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method java.io.PipedInputStream.checkStateForReceive@POLYN220665 the MagicNumber/String  'Read end dead' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00132] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#131"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method java.io.PipedInputStream.awaitSpace@POLYN221193 the MagicNumber/String  1000 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#139"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00139] Lock statement on synchronized method receivedLast"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method java.io.PipedInputStream.receivedLast@POLYN221677 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#145"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00145] Lock statement on synchronized method read"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#169"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00169] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method java.io.PipedInputStream.read@POLYN222364 the MagicNumber/String  'Pipe not connected' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method java.io.PipedInputStream.read@POLYN222364 the MagicNumber/String  'Pipe closed' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#150"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method java.io.PipedInputStream.read@POLYN222364 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#151"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method java.io.PipedInputStream.read@POLYN222364 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#152"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method java.io.PipedInputStream.read@POLYN222364 the MagicNumber/String  'Write end dead' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#156"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method java.io.PipedInputStream.read@POLYN222364 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#157"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method java.io.PipedInputStream.read@POLYN222364 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#160"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method java.io.PipedInputStream.read@POLYN222364 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#162"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method java.io.PipedInputStream.read@POLYN222364 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#162"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method java.io.PipedInputStream.read@POLYN222364 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#163"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method java.io.PipedInputStream.read@POLYN222364 the MagicNumber/String  'Pipe broken' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#168"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method java.io.PipedInputStream.read@POLYN222364 the MagicNumber/String  1000 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#173"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method java.io.PipedInputStream.read@POLYN222364 the MagicNumber/String  0xFF should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#175"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method java.io.PipedInputStream.read@POLYN222364 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#179"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method java.io.PipedInputStream.read@POLYN222364 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#186"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00186] Lock statement on synchronized method read"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#186"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00186] For method read arguments byte[]  b|int  off|int  len"
+ , "c3" : "QC-JAV000006[00157] For method initPipe arguments int  pipeSize"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#186"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00186] For method read list of called methods Object monObjet|int readN226021"
+ , "c1" : "00158"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#158"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00158] In method java.io.PipedInputStream.initPipe@POLYN217602 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#159"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00159] In method java.io.PipedInputStream.initPipe@POLYN217602 the MagicNumber/String  'Pipe Size &amp;lt;= 0' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method java.io.PipedInputStream.read@POLYN225375 the MagicNumber/String  null should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00187] For method connect arguments PipedOutputStream  src"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#189"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method java.io.PipedInputStream.read@POLYN225375 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00187"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#187"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00187] The argument src is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#189"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method java.io.PipedInputStream.read@POLYN225375 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#191"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method java.io.PipedInputStream.read@POLYN225375 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#192"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method java.io.PipedInputStream.read@POLYN225375 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#197"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method java.io.PipedInputStream.read@POLYN225375 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#198"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method java.io.PipedInputStream.read@POLYN225375 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#201"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method java.io.PipedInputStream.read@POLYN225375 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#202"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method java.io.PipedInputStream.read@POLYN225375 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#202"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method java.io.PipedInputStream.read@POLYN225375 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#213"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method java.io.PipedInputStream.read@POLYN225375 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00214"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#214"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method java.io.PipedInputStream.read@POLYN225375 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00222"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#222"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method java.io.PipedInputStream.read@POLYN225375 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00226"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#226"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method java.io.PipedInputStream.read@POLYN225375 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#233"
+ , "c1" : "00200"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#200"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00233] Lock statement on synchronized method available"
+ , "c3" : "QC-JAV000019[00200] Lock statement on synchronized method receive"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00234"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#234"
+ , "c1" : "00200"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#200"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00200] For method receive arguments int  b"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00205"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method java.io.PipedInputStream.available@POLYN228197 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method java.io.PipedInputStream.receive@POLYN218990 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#235"
+ , "c1" : "00206"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method java.io.PipedInputStream.available@POLYN228197 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method java.io.PipedInputStream.receive@POLYN218990 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#247"
+ , "c1" : "00207"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#207"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00207] In method java.io.PipedInputStream.receive@POLYN218990 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00209"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#209"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00209] In method java.io.PipedInputStream.receive@POLYN218990 the MagicNumber/String  0xFF should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#211"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00211] In method java.io.PipedInputStream.receive@POLYN218990 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00225"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#225"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00247] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00225] Lock statement on synchronized method receive"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method java.io.PipedInputStream.close@POLYN228751 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00225"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#225"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00225] For method receive arguments byte[]  b|int  off|int  len"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#248"
+ , "c1" : "00229"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method java.io.PipedInputStream.close@POLYN228751 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method java.io.PipedInputStream.receive@POLYN220097 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00232"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#232"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00232] In method java.io.PipedInputStream.receive@POLYN220097 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00236"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#236"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00236] In method java.io.PipedInputStream.receive@POLYN220097 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00237"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#237"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00237] In method java.io.PipedInputStream.receive@POLYN220097 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00245"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#245"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00245] In method java.io.PipedInputStream.receive@POLYN220097 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00251"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#251"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00251] In method java.io.PipedInputStream.receive@POLYN220097 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00258"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#258"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00258] In method java.io.PipedInputStream.checkStateForReceive@POLYN221853 the MagicNumber/String  'Pipe not connected' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00260"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#260"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00260] In method java.io.PipedInputStream.checkStateForReceive@POLYN221853 the MagicNumber/String  'Pipe closed' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00261"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#261"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00261] In method java.io.PipedInputStream.checkStateForReceive@POLYN221853 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00262"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#262"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00262] In method java.io.PipedInputStream.checkStateForReceive@POLYN221853 the MagicNumber/String  'Read end dead' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00274"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#274"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00274] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00273"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#273"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00273] In method java.io.PipedInputStream.awaitSpace@POLYN222381 the MagicNumber/String  1000 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00284"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#284"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00284] Lock statement on synchronized method receivedLast"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00285"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#285"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00285] In method java.io.PipedInputStream.receivedLast@POLYN222865 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00303"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#303"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00303] Lock statement on synchronized method read"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00327"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#327"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00327] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00305"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#305"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00305] In method java.io.PipedInputStream.read@POLYN223552 the MagicNumber/String  'Pipe not connected' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00307"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#307"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00307] In method java.io.PipedInputStream.read@POLYN223552 the MagicNumber/String  'Pipe closed' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00308"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#308"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00308] In method java.io.PipedInputStream.read@POLYN223552 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00309"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#309"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00309] In method java.io.PipedInputStream.read@POLYN223552 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00310"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#310"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00310] In method java.io.PipedInputStream.read@POLYN223552 the MagicNumber/String  'Write end dead' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00314"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#314"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00314] In method java.io.PipedInputStream.read@POLYN223552 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00315"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#315"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00315] In method java.io.PipedInputStream.read@POLYN223552 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00318"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#318"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00318] In method java.io.PipedInputStream.read@POLYN223552 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00320"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#320"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00320] In method java.io.PipedInputStream.read@POLYN223552 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00320"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#320"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00320] In method java.io.PipedInputStream.read@POLYN223552 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00321"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#321"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00321] In method java.io.PipedInputStream.read@POLYN223552 the MagicNumber/String  'Pipe broken' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00326"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#326"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00326] In method java.io.PipedInputStream.read@POLYN223552 the MagicNumber/String  1000 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00331"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#331"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00331] In method java.io.PipedInputStream.read@POLYN223552 the MagicNumber/String  0xFF should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00333"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#333"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00333] In method java.io.PipedInputStream.read@POLYN223552 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00337"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#337"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00337] In method java.io.PipedInputStream.read@POLYN223552 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00367"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#367"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00367] Lock statement on synchronized method read"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00367"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#367"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00367] For method read arguments byte[]  b|int  off|int  len"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00367"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#367"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00367] For method read list of called methods Object monObjet|int readN227209"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00368"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#368"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00368] In method java.io.PipedInputStream.read@POLYN226563 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00370"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#370"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00370] In method java.io.PipedInputStream.read@POLYN226563 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00370"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#370"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00370] In method java.io.PipedInputStream.read@POLYN226563 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00372"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#372"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00372] In method java.io.PipedInputStream.read@POLYN226563 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00373"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#373"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00373] In method java.io.PipedInputStream.read@POLYN226563 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00378"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#378"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00378] In method java.io.PipedInputStream.read@POLYN226563 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00379"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#379"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00379] In method java.io.PipedInputStream.read@POLYN226563 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00382"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#382"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00382] In method java.io.PipedInputStream.read@POLYN226563 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00383"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#383"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00383] In method java.io.PipedInputStream.read@POLYN226563 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00383"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#383"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00383] In method java.io.PipedInputStream.read@POLYN226563 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00394"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#394"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00394] In method java.io.PipedInputStream.read@POLYN226563 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00395"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#395"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00395] In method java.io.PipedInputStream.read@POLYN226563 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00403"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#403"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00403] In method java.io.PipedInputStream.read@POLYN226563 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00407"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#407"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00407] In method java.io.PipedInputStream.read@POLYN226563 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00426"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#426"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00426] Lock statement on synchronized method available"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00427"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#427"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00427] In method java.io.PipedInputStream.available@POLYN229385 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00428"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#428"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00428] In method java.io.PipedInputStream.available@POLYN229385 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00445"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#445"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00445] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00444"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#444"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00444] In method java.io.PipedInputStream.close@POLYN229939 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00446"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#446"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00446] In method java.io.PipedInputStream.close@POLYN229939 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 , 

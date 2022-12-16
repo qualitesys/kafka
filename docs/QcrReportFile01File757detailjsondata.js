@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.auth.SaslExtensionsCallback" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensionsCallback.java.html#14"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensionsCallback.java.html#38"
  , "c1" : "SaslExtensions"
  , "c2" : "extensions()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensionsCallback.java.html#19"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensionsCallback.java.html#48"
  , "c1" : "void"
  , "c2" : "extensions(SaslExtensions)"
  , "c3" : "1"
@@ -84,17 +84,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensionsCallback.java.html#19"
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensionsCallback.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method extensions arguments SaslExtensions  extensions"
+ , "c3" : "QC-JAV000006[00048] For method extensions arguments SaslExtensions  extensions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensionsCallback.java.html#20"
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensionsCallback.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.security.auth.SaslExtensionsCallback.extensions@POLYN145165 the MagicNumber/String  'extensions must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.security.auth.SaslExtensionsCallback.extensions@POLYN145339 the MagicNumber/String  'extensions must not be null' should be converted to const"
 }} 
 ]
 , 

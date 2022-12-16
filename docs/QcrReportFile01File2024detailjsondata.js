@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#51"
+ , "c5" : "00066"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#66"
  , "c1" : "AbstractRocksDBSegmentedBytesStore"
  , "c2" : "AbstractRocksDBSegmentedBytesStore(String;String;KeySchema;AbstractSegments<S>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#62"
+ , "c5" : "00077"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#77"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "fetch(Bytes;long;long)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#69"
+ , "c5" : "00084"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#84"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "backwardFetch(Bytes;long;long)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#75"
+ , "c5" : "00090"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#90"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "fetch(Bytes;long;long;boolean)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#93"
+ , "c5" : "00108"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#108"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "fetch(Bytes;Bytes;long;long)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00101"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#101"
+ , "c5" : "00116"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#116"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "backwardFetch(Bytes;Bytes;long;long)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00108"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#108"
+ , "c5" : "00123"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#123"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "fetch(Bytes;Bytes;long;long;boolean)"
  , "c3" : "2"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00135"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#135"
+ , "c5" : "00150"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#150"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00147"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#147"
+ , "c5" : "00162"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#162"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "backwardAll()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00159"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#159"
+ , "c5" : "00174"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#174"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "fetchAll(long;long)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00172"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#172"
+ , "c5" : "00187"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#187"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "backwardFetchAll(long;long)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00185"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#185"
+ , "c5" : "00200"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#200"
  , "c1" : "void"
  , "c2" : "remove(Bytes)"
  , "c3" : "2"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00196"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#196"
+ , "c5" : "00211"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#211"
  , "c1" : "void"
  , "c2" : "remove(Bytes;long)"
  , "c3" : "2"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00205"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#205"
+ , "c5" : "00220"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#220"
  , "c1" : "void"
  , "c2" : "put(Bytes;byte[])"
  , "c3" : "3"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00221"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#221"
+ , "c5" : "00236"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#236"
  , "c1" : "byte[]"
  , "c2" : "get(Bytes)"
  , "c3" : "2"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00230"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#230"
+ , "c5" : "00245"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#245"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00236"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#236"
+ , "c5" : "00251"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#251"
  , "c1" : "void"
  , "c2" : "init(ProcessorContext;StateStore)"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00272"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#272"
+ , "c5" : "00287"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#287"
  , "c1" : "void"
  , "c2" : "init(StateStoreContext;StateStore)"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00278"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#278"
+ , "c5" : "00293"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#293"
  , "c1" : "void"
  , "c2" : "flush()"
  , "c3" : "1"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00283"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#283"
+ , "c5" : "00298"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#298"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00289"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#289"
+ , "c5" : "00304"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#304"
  , "c1" : "boolean"
  , "c2" : "persistent()"
  , "c3" : "1"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00294"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#294"
+ , "c5" : "00309"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#309"
  , "c1" : "boolean"
  , "c2" : "isOpen()"
  , "c3" : "1"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00299"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#299"
+ , "c5" : "00314"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#314"
  , "c1" : "List<S>"
  , "c2" : "getSegments()"
  , "c3" : "1"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00304"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#304"
+ , "c5" : "00319"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#319"
  , "c1" : "void"
  , "c2" : "restoreAllInternal(Collection<ConsumerRecord<byte[],byte[]>>)"
  , "c3" : "2"
@@ -234,8 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00319"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#319"
+ , "c5" : "00334"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#334"
  , "c1" : "Map<S,WriteBatch>"
  , "c2" : "getWriteBatches(Collection<ConsumerRecord<byte[],byte[]>>)"
  , "c3" : "4"
@@ -243,8 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00349"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#349"
+ , "c5" : "00364"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#364"
  , "c1" : "Position"
  , "c2" : "getPosition()"
  , "c3" : "1"
@@ -314,584 +314,584 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#62"
+ , "c1" : "00077"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method fetch arguments Bytes  key|long  from|long  to"
+ , "c3" : "QC-JAV000006[00077] For method fetch arguments Bytes  key|long  from|long  to"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#65"
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN195050 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN195140 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#69"
+ , "c1" : "00084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method backwardFetch arguments Bytes  key|long  from|long  to"
+ , "c3" : "QC-JAV000006[00084] For method backwardFetch arguments Bytes  key|long  from|long  to"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#72"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetch@POLYN195373 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetch@POLYN195463 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#75"
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#90"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method fetch arguments Bytes  key|long  from|long  to|boolean  forward"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#93"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00093] For method fetch arguments Bytes  keyFrom|Bytes  keyTo|long  from|long  to"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN196640 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#101"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method backwardFetch arguments Bytes  keyFrom|Bytes  keyTo|long  from|long  to"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#105"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetch@POLYN197013 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000006[00090] For method fetch arguments Bytes  key|long  from|long  to|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method fetch arguments Bytes  keyFrom|Bytes  keyTo|long  from|long  to|boolean  forward"
+ , "c3" : "QC-JAV000006[00108] For method fetch arguments Bytes  keyFrom|Bytes  keyTo|long  from|long  to"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#113"
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197367 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#113"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197367 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#113"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197367 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197367 the MagicNumber/String  'Returning empty iterator for fetch with invalid key range: from &amp;gt; to. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#115"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197367 the MagicNumber/String  'This may be due to range arguments set in the wrong order, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN196730 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#116"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197367 the MagicNumber/String  'or serdes that don't preserve ordering when lexicographically comparing the serialized bytes. ' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00116] For method backwardFetch arguments Bytes  keyFrom|Bytes  keyTo|long  from|long  to"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#117"
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197367 the MagicNumber/String  'Note that the built-in numerical serdes do not follow this for negative numbers' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197367 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetch@POLYN197103 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197367 the MagicNumber/String  null should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00123] For method fetch arguments Bytes  keyFrom|Bytes  keyTo|long  from|long  to|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#124"
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197367 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197457 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#124"
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197367 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197457 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#136"
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.all@POLYN198903 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197457 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#140"
+ , "c1" : "00129"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.all@POLYN198903 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197457 the MagicNumber/String  'Returning empty iterator for fetch with invalid key range: from &amp;gt; to. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#140"
+ , "c1" : "00130"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.all@POLYN198903 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197457 the MagicNumber/String  'This may be due to range arguments set in the wrong order, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#140"
+ , "c1" : "00131"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.all@POLYN198903 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197457 the MagicNumber/String  'or serdes that don't preserve ordering when lexicographically comparing the serialized bytes. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#140"
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.all@POLYN198903 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197457 the MagicNumber/String  'Note that the built-in numerical serdes do not follow this for negative numbers' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#141"
+ , "c1" : "00138"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.all@POLYN198903 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197457 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#142"
+ , "c1" : "00138"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.all@POLYN198903 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197457 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#143"
+ , "c1" : "00139"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.all@POLYN198903 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197457 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#148"
+ , "c1" : "00139"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardAll@POLYN199473 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetch@POLYN197457 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#152"
+ , "c1" : "00151"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardAll@POLYN199473 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#152"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardAll@POLYN199473 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#152"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardAll@POLYN199473 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#152"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardAll@POLYN199473 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardAll@POLYN199473 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#154"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardAll@POLYN199473 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.all@POLYN198993 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardAll@POLYN199473 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.all@POLYN198993 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#159"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00159] For method fetchAll arguments long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#161"
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetchAll@POLYN200043 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.all@POLYN198993 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#165"
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetchAll@POLYN200043 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.all@POLYN198993 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#165"
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetchAll@POLYN200043 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.all@POLYN198993 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#165"
+ , "c1" : "00156"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetchAll@POLYN200043 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.all@POLYN198993 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#166"
+ , "c1" : "00157"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetchAll@POLYN200043 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.all@POLYN198993 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00158"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#158"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.all@POLYN198993 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardAll@POLYN199563 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetchAll@POLYN200043 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardAll@POLYN199563 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#167"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardAll@POLYN199563 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#167"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardAll@POLYN199563 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#167"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardAll@POLYN199563 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetchAll@POLYN200043 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardAll@POLYN199563 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#172"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00172] For method backwardFetchAll arguments long  timeFrom|long  timeTo"
+ , "c1" : "00169"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardAll@POLYN199563 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardAll@POLYN199563 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00174"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#174"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetchAll@POLYN200700 the MagicNumber/String  false should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00174] For method fetchAll arguments long  timeFrom|long  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#178"
+ , "c1" : "00176"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetchAll@POLYN200700 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#178"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetchAll@POLYN200700 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#178"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetchAll@POLYN200700 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#179"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetchAll@POLYN200700 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetchAll@POLYN200133 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetchAll@POLYN200700 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetchAll@POLYN200133 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00180"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#180"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetchAll@POLYN200133 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00180"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#180"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetchAll@POLYN200133 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetchAll@POLYN200700 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetchAll@POLYN200133 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#185"
+ , "c1" : "00182"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#182"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetchAll@POLYN200133 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00183"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#183"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.fetchAll@POLYN200133 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00187"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#187"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00185] For method remove arguments Bytes  key"
+ , "c3" : "QC-JAV000006[00187] For method backwardFetchAll arguments long  timeFrom|long  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00189"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.remove@POLYN201306 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetchAll@POLYN200790 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetchAll@POLYN200790 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetchAll@POLYN200790 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetchAll@POLYN200790 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00194"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#194"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetchAll@POLYN200790 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00195"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#195"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetchAll@POLYN200790 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#196"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00196] For method remove arguments Bytes  key|long  timestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.remove@POLYN201860 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.backwardFetchAll@POLYN200790 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#205"
+ , "c1" : "00200"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00205] For method put arguments Bytes  key|byte[]  value"
+ , "c3" : "QC-JAV000006[00200] For method remove arguments Bytes  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00204"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#204"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.remove@POLYN201396 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#211"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.put@POLYN202357 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#212"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.put@POLYN202357 the MagicNumber/String  1.0d should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#213"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.put@POLYN202357 the MagicNumber/String  'Skipping record for expired segment.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#221"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00221] For method get arguments Bytes  key"
+ , "c3" : "QC-JAV000006[00211] For method remove arguments Bytes  key|long  timestamp"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00223"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#223"
+ , "c1" : "00214"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.get@POLYN203429 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.remove@POLYN201950 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00224"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#224"
+ , "c1" : "00220"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#220"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00220] For method put arguments Bytes  key|byte[]  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00226"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.get@POLYN203429 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.put@POLYN202447 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00227"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#227"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.put@POLYN202447 the MagicNumber/String  1.0d should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00228"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#228"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.put@POLYN202447 the MagicNumber/String  'Skipping record for expired segment.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00236"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#236"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00236] For method init arguments ProcessorContext  context|StateStore  root"
+ , "c3" : "QC-JAV000006[00236] For method get arguments Bytes  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#236"
+ , "c1" : "00238"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#238"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.get@POLYN203519 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00239"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#239"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.get@POLYN203519 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00251"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#251"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00251] For method init arguments ProcessorContext  context|StateStore  root"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00251"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#251"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00236] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00251] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#252"
+ , "c1" : "00267"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#267"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.init@POLYN203948 the MagicNumber/String  '.position' should be converted to const"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.init@POLYN204038 the MagicNumber/String  '.position' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00263"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#263"
+ , "c1" : "00278"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.init@POLYN203948 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.init@POLYN204038 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00268"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#268"
+ , "c1" : "00283"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.init@POLYN203948 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.init@POLYN204038 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00272"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#272"
+ , "c1" : "00287"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#287"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00272] For method init arguments StateStoreContext  context|StateStore  root"
+ , "c3" : "QC-JAV000006[00287] For method init arguments StateStoreContext  context|StateStore  root"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00284"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#284"
+ , "c1" : "00299"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.close@POLYN205898 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.close@POLYN205988 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00290"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#290"
+ , "c1" : "00305"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.persistent@POLYN206069 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.persistent@POLYN206159 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00300"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#300"
+ , "c1" : "00315"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#315"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.getSegments@POLYN206273 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00304"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#304"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00304] For method restoreAllInternal arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00308"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#308"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00308] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00309"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#309"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00309] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00314"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#314"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.restoreAllInternal@POLYN206387 the MagicNumber/String  'Error restoring batch to store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.getSegments@POLYN206363 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#319"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00319] For method getWriteBatches arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
+ , "c3" : "QC-JAV000006[00319] For method restoreAllInternal arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00330"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#330"
+ , "c1" : "00323"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#323"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00330] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00323] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00338"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#338"
+ , "c1" : "00324"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00338] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00324] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00340"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#340"
+ , "c1" : "00329"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#329"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00340] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.restoreAllInternal@POLYN206477 the MagicNumber/String  'Error restoring batch to store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00331"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#331"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.getWriteBatches@POLYN207317 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00334"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#334"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00334] For method getWriteBatches arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00341"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#341"
+ , "c1" : "00345"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.getWriteBatches@POLYN207317 the MagicNumber/String  'Error restoring batch to store ' should be converted to const"
+ , "c3" : "QC-JAV000001[00345] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00353"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#353"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00353] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00355"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#355"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00355] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00346"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#346"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.getWriteBatches@POLYN207407 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00356"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#356"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore.getWriteBatches@POLYN207407 the MagicNumber/String  'Error restoring batch to store ' should be converted to const"
 }} 
 ]
 , 

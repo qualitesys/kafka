@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.RecordMetadata" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#26"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#47"
  , "c1" : "RecordMetadata"
  , "c2" : "RecordMetadata(TopicPartition;long;int;long;int;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#38"
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#66"
  , "c1" : "RecordMetadata"
  , "c2" : "RecordMetadata(TopicPartition;long;long;long;Long;int;int)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#43"
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#71"
  , "c1" : "int"
  , "c2" : "batchIndexToInt(long)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#50"
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#81"
  , "c1" : "boolean"
  , "c2" : "hasOffset()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#55"
+ , "c5" : "00089"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#89"
  , "c1" : "long"
  , "c2" : "offset()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#60"
+ , "c5" : "00097"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#97"
  , "c1" : "boolean"
  , "c2" : "hasTimestamp()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#65"
+ , "c5" : "00106"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#106"
  , "c1" : "long"
  , "c2" : "timestamp()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#70"
+ , "c5" : "00114"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#114"
  , "c1" : "int"
  , "c2" : "serializedKeySize()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#75"
+ , "c5" : "00122"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#122"
  , "c1" : "int"
  , "c2" : "serializedValueSize()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#80"
+ , "c5" : "00129"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#129"
  , "c1" : "String"
  , "c2" : "topic()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#85"
+ , "c5" : "00136"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#136"
  , "c1" : "int"
  , "c2" : "partition()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#90"
+ , "c5" : "00141"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#141"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -197,45 +197,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#29"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.clients.producer.RecordMetadata.RecordMetadata@POLYN157035 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.producer.RecordMetadata.RecordMetadata@POLYN157341 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#43"
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method batchIndexToInt arguments long  batchIndex"
+ , "c3" : "QC-JAV000006[00071] For method batchIndexToInt arguments long  batchIndex"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#45"
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.producer.RecordMetadata.batchIndexToInt@POLYN158217 the MagicNumber/String  'batchIndex is larger than Integer.MAX_VALUE: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.producer.RecordMetadata.batchIndexToInt@POLYN158523 the MagicNumber/String  'batchIndex is larger than Integer.MAX_VALUE: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#91"
+ , "c1" : "00142"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.producer.RecordMetadata.toString@POLYN160109 the MagicNumber/String  '@' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.clients.producer.RecordMetadata.toString@POLYN160415 the MagicNumber/String  '@' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.RecordMetadata.batchIndexToInt@POLYN158217"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.RecordMetadata.batchIndexToInt@POLYN158523"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#45"
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#73"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.clients.producer.RecordMetadata.batchIndexToInt@POLYN158217 the MagicNumber/String 'batchIndex is larger than Integer.MAX_VALUE: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.clients.producer.RecordMetadata.batchIndexToInt@POLYN158523 the MagicNumber/String 'batchIndex is larger than Integer.MAX_VALUE: ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

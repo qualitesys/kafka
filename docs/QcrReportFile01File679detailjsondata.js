@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.FindCoordinatorResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#25"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#48"
  , "c1" : "FindCoordinatorResponse"
  , "c2" : "FindCoordinatorResponse(FindCoordinatorResponseData)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#31"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#54"
  , "c1" : "FindCoordinatorResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#35"
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#58"
  , "c1" : "Node"
  , "c2" : "node()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#40"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#63"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#44"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#67"
  , "c1" : "boolean"
  , "c2" : "hasError()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#48"
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#71"
  , "c1" : "Errors"
  , "c2" : "error()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#53"
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#76"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "4"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#65"
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#88"
  , "c1" : "FindCoordinatorResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#70"
+ , "c5" : "00093"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#93"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#75"
+ , "c5" : "00098"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#98"
  , "c1" : "boolean"
  , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#79"
+ , "c5" : "00102"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#102"
  , "c1" : "List<FindCoordinatorResponseData.Coordinator>"
  , "c2" : "coordinators()"
  , "c3" : "3"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#94"
+ , "c5" : "00117"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#117"
  , "c1" : "FindCoordinatorResponse"
  , "c2" : "prepareOldResponse(Errors;Node)"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#104"
+ , "c5" : "00127"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#127"
  , "c1" : "FindCoordinatorResponse"
  , "c2" : "prepareResponse(Errors;String;Node)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00117"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#117"
+ , "c5" : "00140"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#140"
  , "c1" : "FindCoordinatorResponse"
  , "c2" : "prepareErrorResponse(Errors;List<String>)"
  , "c3" : "2"
@@ -229,80 +229,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#65"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00088] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#75"
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#98"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method shouldClientThrottle arguments short  version"
+ , "c3" : "QC-JAV000006[00098] For method shouldClientThrottle arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#76"
+ , "c1" : "00099"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.requests.FindCoordinatorResponse.shouldClientThrottle@POLYN163760 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.requests.FindCoordinatorResponse.shouldClientThrottle@POLYN163898 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#86"
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.requests.FindCoordinatorResponse.coordinators@POLYN163921 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#94"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00094] For method prepareOldResponse arguments Errors  error|Node  node"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#94"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00094] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#94"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00094] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#104"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method prepareResponse arguments Errors  error|String  key|Node  node"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#104"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00104] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#104"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00104] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.requests.FindCoordinatorResponse.coordinators@POLYN164059 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#117"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00117] For method prepareErrorResponse arguments Errors  error|List&lt;String &gt;  keys"
+ , "c3" : "QC-JAV000006[00117] For method prepareOldResponse arguments Errors  error|Node  node"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -316,42 +274,84 @@ var maDataBlocs = {
  , "c1" : "00117"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#117"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00117] The argument keys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00117] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#121"
+ , "c1" : "00127"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#127"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00127] For method prepareResponse arguments Errors  error|String  key|Node  node"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#127"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00127] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#127"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00127] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#140"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00140] For method prepareErrorResponse arguments Errors  error|List&lt;String &gt;  keys"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#140"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00140] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#140"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00140] The argument keys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00144"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00121] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00144] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.coordinators@POLYN163921"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.coordinators@POLYN164059"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.throttleTimeMs@POLYN162278"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.throttleTimeMs@POLYN162416"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.toString@POLYN163640"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorResponse.toString@POLYN163778"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#86"
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#109"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.common.requests.FindCoordinatorResponse.coordinators@POLYN163921 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.common.requests.FindCoordinatorResponse.coordinators@POLYN164059 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

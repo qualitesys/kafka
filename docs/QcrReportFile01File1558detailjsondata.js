@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#22"
+ , "c5" : "00041"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#41"
  , "c1" : "FileBasedRemoteLogMetadataCache"
  , "c2" : "FileBasedRemoteLogMetadataCache(TopicIdPartition;Path)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#38"
+ , "c5" : "00057"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#57"
  , "c1" : "void"
  , "c2" : "loadRemoteLogSegmentMetadata(RemoteLogMetadataSnapshotFile.Snapshot)"
  , "c3" : "6"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#58"
+ , "c5" : "00077"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#77"
  , "c1" : "RemoteLogSegmentMetadata"
  , "c2" : "createRemoteLogSegmentMetadata(RemoteLogSegmentMetadataSnapshot)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#65"
+ , "c5" : "00091"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#91"
  , "c1" : "void"
  , "c2" : "flushToFile(int;Long)"
  , "c3" : "4"
@@ -123,94 +123,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#23"
+ , "c1" : "00042"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#42"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00023] The argument partitionDir is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00042] The argument partitionDir is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#24"
+ , "c1" : "00043"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00024] The same method call partitionDir.toFile() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00043] The same method call partitionDir.toFile() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#25"
+ , "c1" : "00044"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.FileBasedRemoteLogMetadataCache@POLYN156768 the MagicNumber/String  'Given partition directory:' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.FileBasedRemoteLogMetadataCache@POLYN156924 the MagicNumber/String  'Given partition directory:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#25"
+ , "c1" : "00044"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.FileBasedRemoteLogMetadataCache@POLYN156768 the MagicNumber/String  ' must be an existing directory.' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.FileBasedRemoteLogMetadataCache@POLYN156924 the MagicNumber/String  ' must be an existing directory.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#38"
+ , "c1" : "00057"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method loadRemoteLogSegmentMetadata arguments RemoteLogMetadataSnapshotFile.Snapshot  snapshot"
+ , "c3" : "QC-JAV000006[00057] For method loadRemoteLogSegmentMetadata arguments RemoteLogMetadataSnapshotFile.Snapshot  snapshot"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#38"
+ , "c1" : "00057"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#57"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00038] The argument snapshot is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.loadRemoteLogSegmentMetadata@POLYN157590 the MagicNumber/String  'Loading snapshot for partition {} is: {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.loadRemoteLogSegmentMetadata@POLYN157590 the MagicNumber/String  'Given remoteLogSegmentMetadata has invalid state: ' should be converted to const"
+ , "c3" : "QC-JAVCWE476[00057] The argument snapshot is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#58"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method createRemoteLogSegmentMetadata arguments RemoteLogSegmentMetadataSnapshot  snapshot"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.loadRemoteLogSegmentMetadata@POLYN157746 the MagicNumber/String  'Loading snapshot for partition {} is: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#58"
+ , "c1" : "00072"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.loadRemoteLogSegmentMetadata@POLYN157746 the MagicNumber/String  'Given remoteLogSegmentMetadata has invalid state: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#77"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00077] For method createRemoteLogSegmentMetadata arguments RemoteLogSegmentMetadataSnapshot  snapshot"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#77"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00058] The argument snapshot is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00077] The argument snapshot is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#65"
+ , "c1" : "00091"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method flushToFile arguments int  metadataPartition|Long  metadataPartitionOffset"
+ , "c3" : "QC-JAV000006[00091] For method flushToFile arguments int  metadataPartition|Long  metadataPartitionOffset"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#71"
+ , "c1" : "00097"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00071] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00097] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#76"
+ , "c1" : "00102"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00076] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00102] Avoid declaring class instance within loop, performance impact"
 }} 
 ]
 , 

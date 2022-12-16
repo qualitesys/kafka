@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#26"
+ , "c5" : "00043"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#43"
  , "c1" : "StreamStreamJoinNode"
  , "c2" : "StreamStreamJoinNode(String;ValueJoinerWithKey<?superK,?superV1,?superV2,?extendsVR>;ProcessorParameters<K,V1,?,?>;ProcessorParameters<K,V2,?,?>;ProcessorParameters<K,VR,?,?>;ProcessorParameters<K,V1,?,?>;ProcessorParameters<K,V2,?,?>;StoreBuilder<WindowStore<K,V1>>;StoreBuilder<WindowStore<K,V2>>;Optional<StoreBuilder<KeyValueStore<TimestampedKeyAndJoinSide<K>,LeftOrRightValue<V1,V2>>>>;Joined<K,V1,V2>;boolean)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#58"
+ , "c5" : "00075"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#75"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#71"
+ , "c5" : "00088"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#88"
  , "c1" : "void"
  , "c2" : "writeToTopology(InternalTopologyBuilder)"
  , "c3" : "2"
@@ -107,178 +107,178 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.StreamStreamJoinNode@POLYN175323 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.StreamStreamJoinNode@POLYN175323 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.toString@POLYN177048 the MagicNumber/String  'StreamStreamJoinNode{' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.toString@POLYN177048 the MagicNumber/String  'thisWindowedStreamProcessorParameters=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.toString@POLYN177048 the MagicNumber/String  ', otherWindowedStreamProcessorParameters=' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.StreamStreamJoinNode@POLYN175425 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.toString@POLYN177048 the MagicNumber/String  ', thisWindowStoreBuilder=' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.StreamStreamJoinNode@POLYN175425 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#63"
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.toString@POLYN177048 the MagicNumber/String  ', otherWindowStoreBuilder=' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.toString@POLYN177150 the MagicNumber/String  'StreamStreamJoinNode{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#64"
+ , "c1" : "00077"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.toString@POLYN177048 the MagicNumber/String  ', outerJoinWindowStoreBuilder=' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.toString@POLYN177150 the MagicNumber/String  'thisWindowedStreamProcessorParameters=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#65"
+ , "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.toString@POLYN177048 the MagicNumber/String  ', joined=' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.toString@POLYN177150 the MagicNumber/String  ', otherWindowedStreamProcessorParameters=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#66"
+ , "c1" : "00079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.toString@POLYN177048 the MagicNumber/String  '} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.toString@POLYN177150 the MagicNumber/String  ', thisWindowStoreBuilder=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#71"
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.toString@POLYN177150 the MagicNumber/String  ', otherWindowStoreBuilder=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.toString@POLYN177150 the MagicNumber/String  ', outerJoinWindowStoreBuilder=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.toString@POLYN177150 the MagicNumber/String  ', joined=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.toString@POLYN177150 the MagicNumber/String  '} ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00071] For method writeToTopology arguments InternalTopologyBuilder  topologyBuilder"
+ , "c3" : "QC-JAV000006[00088] For method writeToTopology arguments InternalTopologyBuilder  topologyBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#71"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#88"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00071] The argument topologyBuilder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00088] The argument topologyBuilder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#111"
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00111] For method withValueJoiner arguments ValueJoinerWithKey&lt;? super K ,? super V1 ,? super V2 ,?  extends VR &gt;  valueJoiner"
+ , "c3" : "QC-JAV000006[00128] For method withValueJoiner arguments ValueJoinerWithKey&lt;? super K ,? super V1 ,? super V2 ,?  extends VR &gt;  valueJoiner"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#116"
+ , "c1" : "00133"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#133"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method withJoinThisProcessorParameters arguments ProcessorParameters&lt;K ,V1 ,? ,? &gt;  joinThisProcessorParameters"
+ , "c3" : "QC-JAV000006[00133] For method withJoinThisProcessorParameters arguments ProcessorParameters&lt;K ,V1 ,? ,? &gt;  joinThisProcessorParameters"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#121"
+ , "c1" : "00138"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#138"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00121] For method withNodeName arguments String  nodeName"
+ , "c3" : "QC-JAV000006[00138] For method withNodeName arguments String  nodeName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#126"
+ , "c1" : "00143"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00126] For method withJoinOtherProcessorParameters arguments ProcessorParameters&lt;K ,V2 ,? ,? &gt;  joinOtherProcessParameters"
+ , "c3" : "QC-JAV000006[00143] For method withJoinOtherProcessorParameters arguments ProcessorParameters&lt;K ,V2 ,? ,? &gt;  joinOtherProcessParameters"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#131"
+ , "c1" : "00148"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00131] For method withJoinMergeProcessorParameters arguments ProcessorParameters&lt;K ,VR ,? ,? &gt;  joinMergeProcessorParameters"
+ , "c3" : "QC-JAV000006[00148] For method withJoinMergeProcessorParameters arguments ProcessorParameters&lt;K ,VR ,? ,? &gt;  joinMergeProcessorParameters"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#136"
+ , "c1" : "00153"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#153"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00136] For method withThisWindowedStreamProcessorParameters arguments ProcessorParameters&lt;K ,V1 ,? ,? &gt;  thisWindowedStreamProcessorParameters"
+ , "c3" : "QC-JAV000006[00153] For method withThisWindowedStreamProcessorParameters arguments ProcessorParameters&lt;K ,V1 ,? ,? &gt;  thisWindowedStreamProcessorParameters"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#141"
+ , "c1" : "00158"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#158"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00141] For method withOtherWindowedStreamProcessorParameters arguments ProcessorParameters&lt;K ,V2 ,? ,? &gt;  otherWindowedStreamProcessorParameters"
+ , "c3" : "QC-JAV000006[00158] For method withOtherWindowedStreamProcessorParameters arguments ProcessorParameters&lt;K ,V2 ,? ,? &gt;  otherWindowedStreamProcessorParameters"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#147"
+ , "c1" : "00164"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#164"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00147] For method withThisWindowStoreBuilder arguments StoreBuilder&lt;WindowStore&lt;K ,V1 &gt; &gt;  thisWindowStoreBuilder"
+ , "c3" : "QC-JAV000006[00164] For method withThisWindowStoreBuilder arguments StoreBuilder&lt;WindowStore&lt;K ,V1 &gt; &gt;  thisWindowStoreBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#152"
+ , "c1" : "00169"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#169"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00152] For method withOtherWindowStoreBuilder arguments StoreBuilder&lt;WindowStore&lt;K ,V2 &gt; &gt;  otherWindowStoreBuilder"
+ , "c3" : "QC-JAV000006[00169] For method withOtherWindowStoreBuilder arguments StoreBuilder&lt;WindowStore&lt;K ,V2 &gt; &gt;  otherWindowStoreBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#157"
+ , "c1" : "00174"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#174"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00157] For method withOuterJoinWindowStoreBuilder arguments Optional&lt;StoreBuilder&lt;KeyValueStore&lt;TimestampedKeyAndJoinSide&lt;K &gt; ,LeftOrRightValue&lt;V1 ,V2 &gt; &gt; &gt; &gt;  outerJoinWindowStoreBuilder"
+ , "c3" : "QC-JAV000006[00174] For method withOuterJoinWindowStoreBuilder arguments Optional&lt;StoreBuilder&lt;KeyValueStore&lt;TimestampedKeyAndJoinSide&lt;K &gt; ,LeftOrRightValue&lt;V1 ,V2 &gt; &gt; &gt; &gt;  outerJoinWindowStoreBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#162"
+ , "c1" : "00179"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#179"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00162] For method withJoined arguments Joined&lt;K ,V1 ,V2 &gt;  joined"
+ , "c3" : "QC-JAV000006[00179] For method withJoined arguments Joined&lt;K ,V1 ,V2 &gt;  joined"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#168"
+ , "c1" : "00185"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.StreamStreamJoinNodeBuilder.withSpuriousResultFixEnabled@POLYN183868 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode.StreamStreamJoinNodeBuilder.withSpuriousResultFixEnabled@POLYN183970 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#167"
+ , "c1" : "00184"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#184"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00167] Public method withSpuriousResultFixEnabled is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00184] Public method withSpuriousResultFixEnabled is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

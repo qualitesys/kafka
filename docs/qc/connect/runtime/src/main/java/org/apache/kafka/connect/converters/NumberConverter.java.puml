@@ -2,15 +2,15 @@
 !pragma layout smetana
 "Converter" <|-- "org.apache.kafka.connect.converters.NumberConverter"
 class org.apache.kafka.connect.converters.NumberConverter {
-NumberConverter(String;Schema;Serializer<T>;Deserializer<T>) : NumberConverter [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#28]]]
-+config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#40]]]
-+configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#45]]]
-+configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#54]]]
-cast(Object) : T [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#61]]]
-+fromConnectData(String;Schema;Object) : byte[] [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#66]]]
-+toConnectData(String;byte[]) : SchemaAndValue [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#77]]]
-+fromConnectHeader(String;String;Schema;Object) : byte[] [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#86]]]
-+toConnectHeader(String;String;byte[]) : SchemaAndValue [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#91]]]
-+close() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#96]]]
+NumberConverter(String;Schema;Serializer<T>;Deserializer<T>) : NumberConverter [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#56]]]
++config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#68]]]
++configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#73]]]
++configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#82]]]
+cast(Object) : T [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#89]]]
++fromConnectData(String;Schema;Object) : byte[] [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#94]]]
++toConnectData(String;byte[]) : SchemaAndValue [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#105]]]
++fromConnectHeader(String;String;Schema;Object) : byte[] [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#114]]]
++toConnectHeader(String;String;byte[]) : SchemaAndValue [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#119]]]
++close() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#124]]]
 } 
 @enduml

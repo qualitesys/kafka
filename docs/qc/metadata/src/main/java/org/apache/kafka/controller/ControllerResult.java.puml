@@ -2,13 +2,13 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.controller.ControllerResult"
 class org.apache.kafka.controller.ControllerResult {
-ControllerResult(List<ApiMessageAndVersion>;T;boolean) : ControllerResult [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#18]]]
-+records() : List<ApiMessageAndVersion> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#25]]]
-+response() : T [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#29]]]
-+isAtomic() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#33]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#38]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#49]]]
-+toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#54]]]
-+withoutRecords() : ControllerResult<T> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#63]]]
+ControllerResult(List<ApiMessageAndVersion>;T;boolean) : ControllerResult [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#33]]]
++records() : List<ApiMessageAndVersion> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#40]]]
++response() : T [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#44]]]
++isAtomic() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#48]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#53]]]
++hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#64]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#69]]]
++withoutRecords() : ControllerResult<T> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#78]]]
 } 
 @enduml

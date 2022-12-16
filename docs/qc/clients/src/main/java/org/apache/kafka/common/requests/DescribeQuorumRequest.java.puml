@@ -2,12 +2,12 @@
 !pragma layout smetana
 "AbstractRequest" <|-- "org.apache.kafka.common.requests.DescribeQuorumRequest"
 class org.apache.kafka.common.requests.DescribeQuorumRequest {
--DescribeQuorumRequest(DescribeQuorumRequestData;short) : DescribeQuorumRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#39]]]
-+parse(ByteBuffer;short) : DescribeQuorumRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#44]]]
-+singletonRequest(TopicPartition) : DescribeQuorumRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#48]]]
-+data() : DescribeQuorumRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#60]]]
-+getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#65]]]
-+getPartitionLevelErrorResponse(DescribeQuorumRequestData;Errors) : DescribeQuorumResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#69]]]
-+getTopLevelErrorResponse(Errors) : DescribeQuorumResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#87]]]
+-DescribeQuorumRequest(DescribeQuorumRequestData;short) : DescribeQuorumRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#54]]]
++parse(ByteBuffer;short) : DescribeQuorumRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#59]]]
++singletonRequest(TopicPartition) : DescribeQuorumRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#63]]]
++data() : DescribeQuorumRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#75]]]
++getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#80]]]
++getPartitionLevelErrorResponse(DescribeQuorumRequestData;Errors) : DescribeQuorumResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#84]]]
++getTopLevelErrorResponse(Errors) : DescribeQuorumResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#102]]]
 } 
 @enduml

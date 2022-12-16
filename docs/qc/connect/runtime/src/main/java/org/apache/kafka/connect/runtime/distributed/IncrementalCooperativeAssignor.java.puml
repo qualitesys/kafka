@@ -2,8 +2,8 @@
 !pragma layout smetana
 "ConnectAssignor" <|-- "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor"
 class org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor {
-+IncrementalCooperativeAssignor(LogContext;Time;int) : IncrementalCooperativeAssignor [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#834]]]
-+performAssignment(String;String;List<JoinGroupResponseMember>;WorkerCoordinator) : Map<String,ByteBuffer> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#834]]]
++IncrementalCooperativeAssignor(LogContext;Time;int) : IncrementalCooperativeAssignor [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#852]]]
++performAssignment(String;String;List<JoinGroupResponseMember>;WorkerCoordinator) : Map<String,ByteBuffer> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#852]]]
 -ensureLeaderConfig(long;WorkerCoordinator) : Long [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1]]]
 performTaskAssignment(String;long;Map<String,ExtendedWorkerState>;WorkerCoordinator;short) : Map<String,ByteBuffer> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1]]]
 performTaskAssignment(ClusterConfigState;int;int;Map<String,ConnectorsAndTasks>) : ClusterAssignment [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1]]]

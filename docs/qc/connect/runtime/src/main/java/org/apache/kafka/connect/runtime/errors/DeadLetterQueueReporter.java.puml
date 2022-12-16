@@ -2,14 +2,14 @@
 !pragma layout smetana
 "ErrorReporter" <|-- "org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter"
 class org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter {
-+createAndSetup(Map<String,Object>;ConnectorTaskId;SinkConnectorConfig;Map<String,Object>;ErrorHandlingMetrics) : DeadLetterQueueReporter [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#57]]]
-DeadLetterQueueReporter(KafkaProducer<byte[],byte[]>;SinkConnectorConfig;ConnectorTaskId;ErrorHandlingMetrics) : DeadLetterQueueReporter [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#83]]]
-+report(ProcessingContext) : Future<RecordMetadata> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#98]]]
-populateContextHeaders(ProducerRecord<byte[],byte[]>;ProcessingContext) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#132]]]
--stacktrace(Throwable) : byte[] [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#154]]]
--toBytes(int) : byte[] [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#167]]]
--toBytes(long) : byte[] [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#171]]]
--toBytes(String) : byte[] [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#175]]]
-+close() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#184]]]
++createAndSetup(Map<String,Object>;ConnectorTaskId;SinkConnectorConfig;Map<String,Object>;ErrorHandlingMetrics) : DeadLetterQueueReporter [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#77]]]
+DeadLetterQueueReporter(KafkaProducer<byte[],byte[]>;SinkConnectorConfig;ConnectorTaskId;ErrorHandlingMetrics) : DeadLetterQueueReporter [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#107]]]
++report(ProcessingContext) : Future<RecordMetadata> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#127]]]
+populateContextHeaders(ProducerRecord<byte[],byte[]>;ProcessingContext) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#161]]]
+-stacktrace(Throwable) : byte[] [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#183]]]
+-toBytes(int) : byte[] [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#196]]]
+-toBytes(long) : byte[] [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#200]]]
+-toBytes(String) : byte[] [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#204]]]
++close() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#213]]]
 } 
 @enduml

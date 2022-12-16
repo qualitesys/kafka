@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.config.internals.QuotaConfigs"
 class org.apache.kafka.common.config.internals.QuotaConfigs {
--buildUserClientQuotaConfigDef(ConfigDef) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#36]]]
-+isClientOrUserConfig(String) : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#52]]]
-+userConfigs() : ConfigDef [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#56]]]
-+clientConfigs() : ConfigDef [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#66]]]
-+ipConfigs() : ConfigDef [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#72]]]
+-buildUserClientQuotaConfigDef(ConfigDef) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#54]]]
++isClientOrUserConfig(String) : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#70]]]
++userConfigs() : ConfigDef [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#74]]]
++clientConfigs() : ConfigDef [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#84]]]
++ipConfigs() : ConfigDef [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#90]]]
 } 
 @enduml

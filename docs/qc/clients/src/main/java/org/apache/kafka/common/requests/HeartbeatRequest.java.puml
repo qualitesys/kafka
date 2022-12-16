@@ -2,9 +2,9 @@
 !pragma layout smetana
 "AbstractRequest" <|-- "org.apache.kafka.common.requests.HeartbeatRequest"
 class org.apache.kafka.common.requests.HeartbeatRequest {
--HeartbeatRequest(HeartbeatRequestData;short) : HeartbeatRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#40]]]
-+getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#46]]]
-+parse(ByteBuffer;short) : HeartbeatRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#55]]]
-+data() : HeartbeatRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#60]]]
+-HeartbeatRequest(HeartbeatRequestData;short) : HeartbeatRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#55]]]
++getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#61]]]
++parse(ByteBuffer;short) : HeartbeatRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#70]]]
++data() : HeartbeatRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#75]]]
 } 
 @enduml

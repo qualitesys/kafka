@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.common.StringExpander" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#14"
+ , "c5" : "00034"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#34"
  , "c1" : "HashSet<String>"
  , "c2" : "expand(String)"
  , "c3" : "4"
@@ -82,66 +82,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#14"
+ , "c1" : "00034"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00014] For method expand arguments String  val"
+ , "c3" : "QC-JAV000006[00034] For method expand arguments String  val"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#14"
+ , "c1" : "00034"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00014] For method expand list of called methods Object monObjet|int Integer_parseIntN147665|int Integer_parseIntN147759"
+ , "c3" : "QC-JAV000007[00034] For method expand list of called methods Object monObjet|int Integer_parseIntN147785|int Integer_parseIntN147879"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#21"
+ , "c1" : "00041"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.trogdor.common.StringExpander.expand@POLYN146800 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.trogdor.common.StringExpander.expand@POLYN146920 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#22"
+ , "c1" : "00042"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.trogdor.common.StringExpander.expand@POLYN146800 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.trogdor.common.StringExpander.expand@POLYN146920 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#23"
+ , "c1" : "00043"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.trogdor.common.StringExpander.expand@POLYN146800 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.trogdor.common.StringExpander.expand@POLYN146920 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#24"
+ , "c1" : "00044"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.trogdor.common.StringExpander.expand@POLYN146800 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.trogdor.common.StringExpander.expand@POLYN146920 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#28"
+ , "c1" : "00048"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.trogdor.common.StringExpander.expand@POLYN146800 the MagicNumber/String  'Invalid range: start ' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.trogdor.common.StringExpander.expand@POLYN146920 the MagicNumber/String  'Invalid range: start ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#29"
+ , "c1" : "00049"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.trogdor.common.StringExpander.expand@POLYN146800 the MagicNumber/String  ' is higher than end ' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.trogdor.common.StringExpander.expand@POLYN146920 the MagicNumber/String  ' is higher than end ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#32"
+ , "c1" : "00052"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.common.StringExpander.expand@POLYN146800 the MagicNumber/String  '%s%d%s' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.trogdor.common.StringExpander.expand@POLYN146920 the MagicNumber/String  '%s%d%s' should be converted to const"
 }} 
 ]
 , 

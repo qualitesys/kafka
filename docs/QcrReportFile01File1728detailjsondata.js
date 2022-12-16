@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#38"
+ , "c5" : "00053"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#53"
  , "c1" : "KStreamSlidingWindowAggregate"
  , "c2" : "KStreamSlidingWindowAggregate(SlidingWindows;String;EmitStrategy;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#51"
+ , "c5" : "00066"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#66"
  , "c1" : "Processor<KIn,VIn,Windowed<KIn>,Change<VAgg>>"
  , "c2" : "get()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#55"
+ , "c5" : "00070"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#70"
  , "c1" : "SlidingWindows"
  , "c2" : "windows()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#60"
+ , "c5" : "00075"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#75"
  , "c1" : "void"
  , "c2" : "enableSendingOldValues()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00450"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#450"
+ , "c5" : "00469"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#469"
  , "c1" : "KTableValueGetterSupplier<Windowed<KIn>,VAgg>"
  , "c2" : "view()"
  , "c3" : "1"
@@ -146,822 +146,822 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#61"
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.enableSendingOldValues@POLYN219719 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.enableSendingOldValues@POLYN219833 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#74"
+ , "c1" : "00089"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#89"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method process arguments Record&lt;KIn ,VIn &gt;  record"
+ , "c3" : "QC-JAV000006[00089] For method process arguments Record&lt;KIn ,VIn &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#74"
+ , "c1" : "00089"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#89"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00074] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00089] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#75"
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220219 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220333 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#75"
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220219 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220333 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#79"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220219 the MagicNumber/String  'Skipping record due to null key or value. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220333 the MagicNumber/String  'Skipping record due to null key or value. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#80"
+ , "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220219 the MagicNumber/String  'topic=[{}] partition=[{}] offset=[{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220333 the MagicNumber/String  'topic=[{}] partition=[{}] offset=[{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#85"
+ , "c1" : "00100"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220219 the MagicNumber/String  'Skipping record due to null key or value. Topic, partition, and offset not known.' should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220333 the MagicNumber/String  'Skipping record due to null key or value. Topic, partition, and offset not known.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#98"
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220219 the MagicNumber/String  '[' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220333 the MagicNumber/String  '[' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#98"
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220219 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220333 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#98"
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220219 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220333 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#108"
+ , "c1" : "00123"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220219 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220333 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#110"
+ , "c1" : "00125"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220219 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220333 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#110"
+ , "c1" : "00125"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220219 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220333 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#111"
+ , "c1" : "00126"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220219 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220333 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#112"
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220219 the MagicNumber/String  'Sliding Windows aggregate using a reverse iterator' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220333 the MagicNumber/String  'Sliding Windows aggregate using a reverse iterator' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#114"
+ , "c1" : "00129"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220219 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220333 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#115"
+ , "c1" : "00130"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220219 the MagicNumber/String  'Sliding Windows aggregate using a forward iterator' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.process@POLYN220333 the MagicNumber/String  'Sliding Windows aggregate using a forward iterator' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#128"
+ , "c1" : "00143"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00128] For method processInOrder arguments Record&lt;KIn ,VIn &gt;  record|long  windowCloseTime"
+ , "c3" : "QC-JAV000006[00143] For method processInOrder arguments Record&lt;KIn ,VIn &gt;  record|long  windowCloseTime"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#128"
+ , "c1" : "00143"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#143"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00128] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00143] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#150"
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00150] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00165] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#169"
+ , "c1" : "00184"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00169] The same method call record.timestamp() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN222942 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#133"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN222942 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#136"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN222942 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#137"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN222942 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#139"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN222942 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#145"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN222942 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#145"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN222942 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000021[00184] The same method call record.timestamp() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN222942 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN223056 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN223056 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00151"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#151"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN223056 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00152"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#152"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN223056 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#154"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN223056 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN222942 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN223056 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#176"
+ , "c1" : "00160"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN222942 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN223056 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#177"
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN222942 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN223056 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#180"
+ , "c1" : "00175"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN222942 the MagicNumber/String  'Unexpected window with start {} found when processing record at {} in `KStreamSlidingWindowAggregate`.' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN223056 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#183"
+ , "c1" : "00191"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN222942 the MagicNumber/String  'Unexpected window found when processing sliding windows' should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN223056 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#190"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00190] For method processReverse arguments Record&lt;KIn ,VIn &gt;  record|long  windowCloseTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#190"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00190] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#212"
+ , "c1" : "00192"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00212] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#194"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226278 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN223056 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00195"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226278 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN223056 the MagicNumber/String  'Unexpected window with start {} found when processing record at {} in `KStreamSlidingWindowAggregate`.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00198"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226278 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processInOrder@POLYN223056 the MagicNumber/String  'Unexpected window found when processing sliding windows' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#199"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226278 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00205"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#205"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00205] For method processReverse arguments Record&lt;KIn ,VIn &gt;  record|long  windowCloseTime"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#201"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226278 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00205"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#205"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00205] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#207"
+ , "c1" : "00227"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226278 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#207"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226278 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000001[00227] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226278 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226392 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#217"
+ , "c1" : "00210"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226278 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226392 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#218"
+ , "c1" : "00213"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226278 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226392 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#220"
+ , "c1" : "00214"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226278 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226392 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00225"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#225"
+ , "c1" : "00216"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226278 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226392 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#238"
+ , "c1" : "00222"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226278 the MagicNumber/String  'Unexpected window with start {} found when processing record at {} in `KStreamSlidingWindowAggregate`.' should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226392 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#241"
+ , "c1" : "00222"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226278 the MagicNumber/String  'Unexpected window found when processing sliding windows' should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226392 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00249"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#249"
+ , "c1" : "00224"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#224"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226392 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00232"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#232"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226392 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00233"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#233"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226392 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00235"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#235"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226392 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#240"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226392 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00253"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#253"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226392 the MagicNumber/String  'Unexpected window with start {} found when processing record at {} in `KStreamSlidingWindowAggregate`.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00256"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#256"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processReverse@POLYN226392 the MagicNumber/String  'Unexpected window found when processing sliding windows' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00268"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#268"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00249] For method processEarly arguments Record&lt;KIn ,VIn &gt;  record|long  windowCloseTime"
+ , "c3" : "QC-JAV000006[00268] For method processEarly arguments Record&lt;KIn ,VIn &gt;  record|long  windowCloseTime"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00249"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#249"
+ , "c1" : "00268"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#268"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00249] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00268] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#250"
+ , "c1" : "00269"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00250] The same method call record.timestamp()windows.timeDifferenceMs() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00269] The same method call record.timestamp()windows.timeDifferenceMs() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00275"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#275"
+ , "c1" : "00294"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00275] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00294] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#250"
+ , "c1" : "00269"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#252"
+ , "c1" : "00271"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  'Early record for sliding windows must fall between fall between 0 &amp;lt;= inputRecordTimestamp. Timestamp {} does not fall between 0 &amp;lt;= {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  'Early record for sliding windows must fall between fall between 0 &amp;lt;= inputRecordTimestamp. Timestamp {} does not fall between 0 &amp;lt;= {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00255"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#255"
+ , "c1" : "00274"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#274"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  'Early record for sliding windows must fall between fall between 0 &amp;lt;= inputRecordTimestamp' should be converted to const"
+ , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  'Early record for sliding windows must fall between fall between 0 &amp;lt;= inputRecordTimestamp' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00259"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#259"
+ , "c1" : "00278"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#260"
+ , "c1" : "00279"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#261"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#264"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00270"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#270"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00272"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#272"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00280"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00292"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#292"
+ , "c1" : "00283"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00293"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#293"
+ , "c1" : "00289"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#289"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00296"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#296"
+ , "c1" : "00291"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  'Unexpected window with start {} found when processing record at {} in `KStreamSlidingWindowAggregate`.' should be converted to const"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  'Unexpected window found when processing sliding windows' should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00311"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00311"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#311"
+ , "c1" : "00312"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00320"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#320"
+ , "c1" : "00315"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#315"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  'Unexpected window with start {} found when processing record at {} in `KStreamSlidingWindowAggregate`.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00320"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#320"
+ , "c1" : "00318"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  'Unexpected window found when processing sliding windows' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00321"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#321"
+ , "c1" : "00330"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00324"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#324"
+ , "c1" : "00330"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00325"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#325"
+ , "c1" : "00339"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#339"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229882 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00336"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#336"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00336] For method createWindows arguments Record&lt;KIn ,VIn &gt;  record|long  closeTime|Set&lt;Long &gt;  windowStartTimes|ValueAndTimestamp&lt;VAgg &gt;  rightWinAgg|ValueAndTimestamp&lt;VAgg &gt;  leftWinAgg|boolean  leftWinAlreadyCreated|boolean  rightWinAlreadyCreated|Long  previousRecordTimestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00336"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#336"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00336] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00339"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#339"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00340"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#340"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00340] The argument leftWinAgg is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00345"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.createWindows@POLYN234280 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00346"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#346"
+ , "c1" : "00343"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.createWindows@POLYN234280 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00370"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#370"
+ , "c1" : "00344"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#344"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.processEarly@POLYN229996 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00355"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#355"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00370] For method createCurrentRecordRightWindow arguments long  inputRecordTimestamp|ValueAndTimestamp&lt;VAgg &gt;  rightWinAgg|Record&lt;KIn ,VIn &gt;  record"
+ , "c3" : "QC-JAV000006[00355] For method createWindows arguments Record&lt;KIn ,VIn &gt;  record|long  closeTime|Set&lt;Long &gt;  windowStartTimes|ValueAndTimestamp&lt;VAgg &gt;  rightWinAgg|ValueAndTimestamp&lt;VAgg &gt;  leftWinAgg|boolean  leftWinAlreadyCreated|boolean  rightWinAlreadyCreated|Long  previousRecordTimestamp"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00371"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#371"
+ , "c1" : "00355"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#355"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00371] The argument rightWinAgg is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00355] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00372"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#372"
+ , "c1" : "00359"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#359"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00372] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00359] The argument leftWinAgg is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00373"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#373"
+ , "c1" : "00364"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.createCurrentRecordRightWindow@POLYN236240 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.createWindows@POLYN234394 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00373"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#373"
+ , "c1" : "00365"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#365"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.createCurrentRecordRightWindow@POLYN236240 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00365] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.createWindows@POLYN234394 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00378"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#378"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.createCurrentRecordRightWindow@POLYN236240 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00381"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#381"
+ , "c1" : "00389"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#389"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00381] For method createPreviousRecordRightWindow arguments long  windowStart|Record&lt;KIn ,VIn &gt;  record|long  closeTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00382"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#382"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00382] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00389] For method createCurrentRecordRightWindow arguments long  inputRecordTimestamp|ValueAndTimestamp&lt;VAgg &gt;  rightWinAgg|Record&lt;KIn ,VIn &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00390"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#390"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00390] For method leftWindowNotEmpty arguments Long  previousRecordTimestamp|long  inputRecordTimestamp"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00390] The argument rightWinAgg is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00391"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#391"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.leftWindowNotEmpty@POLYN237618 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00395"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#395"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00395] For method previousRecordRightWindowDoesNotExistAndIsNotEmpty arguments Set&lt;Long &gt;  windowStartTimes|long  previousRightWindowStart|long  inputRecordTimestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00395"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#395"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00395] The argument windowStartTimes is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00391] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00402"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#402"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00402] For method rightWindowIsNotEmpty arguments ValueAndTimestamp&lt;VAgg &gt;  rightWinAgg|long  inputRecordTimestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00403"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#403"
+ , "c1" : "00392"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#392"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.rightWindowIsNotEmpty@POLYN238189 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.createCurrentRecordRightWindow@POLYN236354 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00407"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#407"
+ , "c1" : "00392"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#392"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.createCurrentRecordRightWindow@POLYN236354 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00397"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#397"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.createCurrentRecordRightWindow@POLYN236354 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00400"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#400"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00407] For method emitRangeLowerBound arguments long  windowCloseTime"
+ , "c3" : "QC-JAV000006[00400] For method createPreviousRecordRightWindow arguments long  windowStart|Record&lt;KIn ,VIn &gt;  record|long  closeTime"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00401"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#401"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00401] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00409"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#409"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.emitRangeLowerBound@POLYN238451 the MagicNumber/String  0L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00409"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#409"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.emitRangeLowerBound@POLYN238451 the MagicNumber/String  0L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00413"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#413"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00413] For method emitRangeUpperBound arguments long  windowCloseTime"
+ , "c3" : "QC-JAV000006[00409] For method leftWindowNotEmpty arguments Long  previousRecordTimestamp|long  inputRecordTimestamp"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00416"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#416"
+ , "c1" : "00410"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#410"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.emitRangeUpperBound@POLYN238757 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.leftWindowNotEmpty@POLYN237732 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00420"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#420"
+ , "c1" : "00414"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#414"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00420] For method shouldRangeFetch arguments long  emitRangeLowerBound|long  emitRangeUpperBound"
+ , "c3" : "QC-JAV000006[00414] For method previousRecordRightWindowDoesNotExistAndIsNotEmpty arguments Set&lt;Long &gt;  windowStartTimes|long  previousRightWindowStart|long  inputRecordTimestamp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00414"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#414"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00414] The argument windowStartTimes is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00421"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#421"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.shouldRangeFetch@POLYN238948 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00424"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#424"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00424] For method updateWindowAndForward arguments Window  window|ValueAndTimestamp&lt;VAgg &gt;  valueAndTime|Record&lt;KIn ,VIn &gt;  record|long  windowCloseTime"
+ , "c3" : "QC-JAV000006[00421] For method rightWindowIsNotEmpty arguments ValueAndTimestamp&lt;VAgg &gt;  rightWinAgg|long  inputRecordTimestamp"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00424"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#424"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00424] The argument window is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00425"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#425"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00425] The argument valueAndTime is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00422"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#422"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.rightWindowIsNotEmpty@POLYN238303 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00426"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#426"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00426] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00436"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#436"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.updateWindowAndForward@POLYN239081 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00443"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#443"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.updateWindowAndForward@POLYN239081 the MagicNumber/String  '[' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00443"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#443"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.updateWindowAndForward@POLYN239081 the MagicNumber/String  ',' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00443"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#443"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.updateWindowAndForward@POLYN239081 the MagicNumber/String  ']' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00468"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#468"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00468] For method init arguments ProcessorContext&lt;? ,? &gt;  context"
+ , "c3" : "QC-JAV000006[00426] For method emitRangeLowerBound arguments long  windowCloseTime"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00468"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#468"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00468] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00428"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#428"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.emitRangeLowerBound@POLYN238565 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00473"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#473"
+ , "c1" : "00428"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#428"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.emitRangeLowerBound@POLYN238565 the MagicNumber/String  0L should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00432"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#432"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00473] For method get arguments Windowed&lt;KIn &gt;  windowedKey"
+ , "c3" : "QC-JAV000006[00432] For method emitRangeUpperBound arguments long  windowCloseTime"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00473"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#473"
+ , "c1" : "00435"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#435"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.emitRangeUpperBound@POLYN238871 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00439"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#439"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00439] For method shouldRangeFetch arguments long  emitRangeLowerBound|long  emitRangeUpperBound"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00440"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#440"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00440] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.shouldRangeFetch@POLYN239062 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00443"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#443"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00443] For method updateWindowAndForward arguments Window  window|ValueAndTimestamp&lt;VAgg &gt;  valueAndTime|Record&lt;KIn ,VIn &gt;  record|long  windowCloseTime"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00443"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#443"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00473] The argument windowedKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00443] The argument window is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00479"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#479"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00479] Void method close is empty or contains only a return."
+ , "c1" : "00444"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#444"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00444] The argument valueAndTime is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00479"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#479"
+ , "c1" : "00445"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#445"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00445] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00455"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#455"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.updateWindowAndForward@POLYN239195 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00462"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#462"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00462] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.updateWindowAndForward@POLYN239195 the MagicNumber/String  '[' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00462"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#462"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00462] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.updateWindowAndForward@POLYN239195 the MagicNumber/String  ',' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00462"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#462"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00462] In method org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate.KStreamSlidingWindowAggregateProcessor.updateWindowAndForward@POLYN239195 the MagicNumber/String  ']' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00487"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#487"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00487] For method init arguments ProcessorContext&lt;? ,? &gt;  context"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00487"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#487"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00487] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00492"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#492"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00492] For method get arguments Windowed&lt;KIn &gt;  windowedKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00492"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#492"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00492] The argument windowedKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00498"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#498"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00479] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000005[00498] Void method close is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00498"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#498"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00498] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

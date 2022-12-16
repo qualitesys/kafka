@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.DescribeClientQuotasRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#62"
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#77"
  , "c1" : "DescribeClientQuotasRequest"
  , "c2" : "DescribeClientQuotasRequest(DescribeClientQuotasRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#67"
+ , "c5" : "00082"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#82"
  , "c1" : "ClientQuotaFilter"
  , "c2" : "filter()"
  , "c3" : "7"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#94"
+ , "c5" : "00109"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#109"
  , "c1" : "DescribeClientQuotasRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#99"
+ , "c5" : "00114"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#114"
  , "c1" : "DescribeClientQuotasResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00108"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#108"
+ , "c5" : "00123"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#123"
  , "c1" : "DescribeClientQuotasRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -155,115 +155,115 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#41"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00026] The argument filter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00041] The argument filter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00031] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00046] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#32"
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.requests.DescribeClientQuotasRequest.Builder.Builder@POLYN157516 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.requests.DescribeClientQuotasRequest.Builder.Builder@POLYN157606 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#34"
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.requests.DescribeClientQuotasRequest.Builder.Builder@POLYN157516 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.requests.DescribeClientQuotasRequest.Builder.Builder@POLYN157606 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#40"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.DescribeClientQuotasRequest.Builder.Builder@POLYN157516 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.requests.DescribeClientQuotasRequest.Builder.Builder@POLYN157606 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#50"
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method build arguments short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#67"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00067] For method filter list of called methods Object monObjet|org.apache.kafka.common.quota.ClientQuotaFilterComponent ClientQuotaFilterComponent_ofEntityN160025|org.apache.kafka.common.quota.ClientQuotaFilterComponent ClientQuotaFilterComponent_ofDefaultEntityN160229|org.apache.kafka.common.quota.ClientQuotaFilterComponent ClientQuotaFilterComponent_ofEntityTypeN160391"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00070] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000006[00065] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#82"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00082] For method filter list of called methods Object monObjet|org.apache.kafka.common.quota.ClientQuotaFilterComponent ClientQuotaFilterComponent_ofEntityN160115|org.apache.kafka.common.quota.ClientQuotaFilterComponent ClientQuotaFilterComponent_ofDefaultEntityN160319|org.apache.kafka.common.quota.ClientQuotaFilterComponent ClientQuotaFilterComponent_ofEntityTypeN160481"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.DescribeClientQuotasRequest.filter@POLYN159566 the MagicNumber/String  'Unexpected match type: ' should be converted to const"
+ , "c3" : "QC-JAV000001[00085] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#99"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00099] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#99"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00099] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN161174"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#105"
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.requests.DescribeClientQuotasRequest.getErrorResponse@POLYN161052 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.requests.DescribeClientQuotasRequest.filter@POLYN159656 the MagicNumber/String  'Unexpected match type: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#108"
+ , "c1" : "00114"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#114"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00114] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#114"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00114] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN161264"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.requests.DescribeClientQuotasRequest.getErrorResponse@POLYN161142 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#123"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00123] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeClientQuotasRequest.Builder.toString@POLYN159172"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeClientQuotasRequest.Builder.toString@POLYN159262"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeClientQuotasRequest.filter@POLYN159566"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeClientQuotasRequest.filter@POLYN159656"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#82"
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#97"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.common.requests.DescribeClientQuotasRequest.filter@POLYN159566 the MagicNumber/String 'Unexpected match type: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00097] In the recursive method org.apache.kafka.common.requests.DescribeClientQuotasRequest.filter@POLYN159656 the MagicNumber/String 'Unexpected match type: ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

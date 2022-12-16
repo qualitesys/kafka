@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.connect.runtime.rest.entities.ActiveTopicsInfo"
 class org.apache.kafka.connect.runtime.rest.entities.ActiveTopicsInfo {
-+ActiveTopicsInfo(String;Collection<String>) : ActiveTopicsInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ActiveTopicsInfo.java.html#14]]]
-+connector() : String [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ActiveTopicsInfo.java.html#19]]]
-+topics() : Collection<String> [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ActiveTopicsInfo.java.html#24]]]
++ActiveTopicsInfo(String;Collection<String>) : ActiveTopicsInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ActiveTopicsInfo.java.html#29]]]
++connector() : String [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ActiveTopicsInfo.java.html#34]]]
++topics() : Collection<String> [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ActiveTopicsInfo.java.html#39]]]
 } 
 @enduml

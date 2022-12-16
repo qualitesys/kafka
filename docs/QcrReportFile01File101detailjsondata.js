@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.FeatureUpdate" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#42"
+ , "c5" : "00068"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#68"
  , "c1" : "FeatureUpdate"
  , "c2" : "FeatureUpdate(short;boolean)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#47"
+ , "c5" : "00082"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#82"
  , "c1" : "FeatureUpdate"
  , "c2" : "FeatureUpdate(short;UpgradeType)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#60"
+ , "c5" : "00095"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#95"
  , "c1" : "short"
  , "c2" : "maxVersionLevel()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#65"
+ , "c5" : "00100"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#100"
  , "c1" : "boolean"
  , "c2" : "allowDowngrade()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#69"
+ , "c5" : "00104"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#104"
  , "c1" : "UpgradeType"
  , "c2" : "upgradeType()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#74"
+ , "c5" : "00109"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#109"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#88"
+ , "c5" : "00123"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#123"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#93"
+ , "c5" : "00128"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#128"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -145,66 +145,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#47"
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#82"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00047] The argument upgradeType is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00082] The argument upgradeType is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#48"
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.admin.FeatureUpdate.FeatureUpdate@POLYN157073 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.admin.FeatureUpdate.FeatureUpdate@POLYN157283 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#50"
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.admin.FeatureUpdate.FeatureUpdate@POLYN157073 the MagicNumber/String  'The downgradeType flag should be set to SAFE or UNSAFE when the provided maxVersionLevel:%d is &amp;lt; 1.' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.clients.admin.FeatureUpdate.FeatureUpdate@POLYN157283 the MagicNumber/String  'The downgradeType flag should be set to SAFE or UNSAFE when the provided maxVersionLevel:%d is &amp;lt; 1.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#53"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.admin.FeatureUpdate.FeatureUpdate@POLYN157073 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.clients.admin.FeatureUpdate.FeatureUpdate@POLYN157283 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#54"
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.FeatureUpdate.FeatureUpdate@POLYN157073 the MagicNumber/String  'Cannot specify a negative version level.' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.admin.FeatureUpdate.FeatureUpdate@POLYN157283 the MagicNumber/String  'Cannot specify a negative version level.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#74"
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#109"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method equals arguments Object  other"
+ , "c3" : "QC-JAV000006[00109] For method equals arguments Object  other"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#76"
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.admin.FeatureUpdate.equals@POLYN158047 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.admin.FeatureUpdate.equals@POLYN158257 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#80"
+ , "c1" : "00115"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.admin.FeatureUpdate.equals@POLYN158047 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.admin.FeatureUpdate.equals@POLYN158257 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#94"
+ , "c1" : "00129"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.clients.admin.FeatureUpdate.toString@POLYN158769 the MagicNumber/String  'FeatureUpdate{maxVersionLevel:%d, downgradeType:%s}' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.admin.FeatureUpdate.toString@POLYN158979 the MagicNumber/String  'FeatureUpdate{maxVersionLevel:%d, downgradeType:%s}' should be converted to const"
 }} 
 ]
 , 

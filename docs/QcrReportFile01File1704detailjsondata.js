@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.JoinedInternal" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00009"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#9"
+ , "c5" : "00024"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#24"
  , "c1" : "JoinedInternal"
  , "c2" : "JoinedInternal(Joined<K,V,VO>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#13"
+ , "c5" : "00028"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#28"
  , "c1" : "Serde<K>"
  , "c2" : "keySerde()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#32"
  , "c1" : "Serde<V>"
  , "c2" : "valueSerde()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#21"
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#36"
  , "c1" : "Serde<VO>"
  , "c2" : "otherValueSerde()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#25"
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#40"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"

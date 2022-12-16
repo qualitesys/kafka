@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.security.JaasUtils"
 class org.apache.kafka.common.security.JaasUtils {
--JaasUtils() : JaasUtils [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#22]]]
-+zkSecuritySysConfigString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#24]]]
-+isZkSaslEnabled() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#37]]]
+-JaasUtils() : JaasUtils [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#37]]]
++zkSecuritySysConfigString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#39]]]
++isZkSaslEnabled() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#52]]]
 } 
 @enduml

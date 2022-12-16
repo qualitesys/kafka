@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.ProducerIdControlManager" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#25"
+ , "c5" : "00040"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#40"
  , "c1" : "ProducerIdControlManager"
  , "c2" : "ProducerIdControlManager(ClusterControlManager;SnapshotRegistry)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#31"
+ , "c5" : "00046"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#46"
  , "c1" : "ControllerResult<ProducerIdsBlock>"
  , "c2" : "generateNextProducerId(int;long)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#50"
+ , "c5" : "00065"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#65"
  , "c1" : "void"
  , "c2" : "replay(ProducerIdsRecord)"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#61"
+ , "c5" : "00076"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#76"
  , "c1" : "Iterator<List<ApiMessageAndVersion>>"
  , "c2" : "iterator(long)"
  , "c3" : "2"
@@ -132,164 +132,164 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method generateNextProducerId arguments int  brokerId|long  brokerEpoch"
+ , "c3" : "QC-JAV000006[00046] For method generateNextProducerId arguments int  brokerId|long  brokerEpoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.controller.ProducerIdControlManager.generateNextProducerId@POLYN153297 the MagicNumber/String  'Exhausted all producerIds as the next block's end producerId ' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.controller.ProducerIdControlManager.generateNextProducerId@POLYN153387 the MagicNumber/String  'Exhausted all producerIds as the next block's end producerId ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#37"
+ , "c1" : "00052"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.controller.ProducerIdControlManager.generateNextProducerId@POLYN153297 the MagicNumber/String  'has exceeded the int64 type limit' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.controller.ProducerIdControlManager.generateNextProducerId@POLYN153297 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#50"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method replay arguments ProducerIdsRecord  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#50"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00050] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154406 the MagicNumber/String  'Next Producer ID from replayed record (' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154406 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154406 the MagicNumber/String  ' is not greater than current next Producer ID (' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154406 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#61"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method iterator arguments long  epoch"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.controller.ProducerIdControlManager.generateNextProducerId@POLYN153387 the MagicNumber/String  'has exceeded the int64 type limit' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.controller.ProducerIdControlManager.iterator@POLYN155223 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.controller.ProducerIdControlManager.generateNextProducerId@POLYN153387 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#65"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.controller.ProducerIdControlManager.iterator@POLYN155223 the MagicNumber/String  0 should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00065] For method replay arguments ProducerIdsRecord  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#71"
+ , "c1" : "00065"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#65"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00065] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.controller.ProducerIdControlManager.iterator@POLYN155223 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154496 the MagicNumber/String  'Next Producer ID from replayed record (' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154496 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#69"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154496 the MagicNumber/String  ' is not greater than current next Producer ID (' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#69"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154496 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#76"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00076] For method iterator arguments long  epoch"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.controller.ProducerIdControlManager.iterator@POLYN155313 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.controller.ProducerIdControlManager.iterator@POLYN155313 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.controller.ProducerIdControlManager.iterator@POLYN155313 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ProducerIdControlManager.generateNextProducerId@POLYN153297"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ProducerIdControlManager.generateNextProducerId@POLYN153387"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154406"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154496"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#51"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.controller.ProducerIdControlManager.generateNextProducerId@POLYN153297 the MagicNumber/String 'Exhausted all producerIds as the next block's end producerId ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.controller.ProducerIdControlManager.generateNextProducerId@POLYN153387 the MagicNumber/String 'Exhausted all producerIds as the next block's end producerId ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#37"
+ , "c1" : "00052"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#52"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.controller.ProducerIdControlManager.generateNextProducerId@POLYN153297 the MagicNumber/String 'has exceeded the int64 type limit' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.controller.ProducerIdControlManager.generateNextProducerId@POLYN153387 the MagicNumber/String 'has exceeded the int64 type limit' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#47"
+ , "c1" : "00062"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#62"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.controller.ProducerIdControlManager.generateNextProducerId@POLYN153297 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.controller.ProducerIdControlManager.generateNextProducerId@POLYN153387 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#53"
+ , "c1" : "00068"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#68"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154406 the MagicNumber/String '-' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154496 the MagicNumber/String '-' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#53"
+ , "c1" : "00068"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#68"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154406 the MagicNumber/String 'Next Producer ID from replayed record -' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154496 the MagicNumber/String 'Next Producer ID from replayed record -' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#54"
+ , "c1" : "00069"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#69"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154406 the MagicNumber/String ' is not greater than current next Producer ID -' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154496 the MagicNumber/String ' is not greater than current next Producer ID -' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#54"
+ , "c1" : "00069"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#69"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154406 the MagicNumber/String '-' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154496 the MagicNumber/String '-' MUST BE CONVERTED to const"
 }} 
 ]
 , 

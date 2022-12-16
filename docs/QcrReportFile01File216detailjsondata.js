@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.internals.RequestFuture" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#22"
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#58"
  , "c1" : "boolean"
  , "c2" : "isDone()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#26"
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#62"
  , "c1" : "boolean"
  , "c2" : "awaitDone(long;TimeUnit)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#32"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#72"
  , "c1" : "T"
  , "c2" : "value()"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#39"
+ , "c5" : "00082"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#82"
  , "c1" : "boolean"
  , "c2" : "succeeded()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#44"
+ , "c5" : "00090"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#90"
  , "c1" : "boolean"
  , "c2" : "failed()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#49"
+ , "c5" : "00100"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#100"
  , "c1" : "boolean"
  , "c2" : "isRetriable()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#54"
+ , "c5" : "00109"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#109"
  , "c1" : "RuntimeException"
  , "c2" : "exception()"
  , "c3" : "2"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#61"
+ , "c5" : "00122"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#122"
  , "c1" : "void"
  , "c2" : "complete(T)"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#75"
+ , "c5" : "00141"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#141"
  , "c1" : "void"
  , "c2" : "raise(RuntimeException)"
  , "c3" : "3"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#90"
+ , "c5" : "00159"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#159"
  , "c1" : "void"
  , "c2" : "raise(Errors)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#94"
+ , "c5" : "00163"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#163"
  , "c1" : "void"
  , "c2" : "fireSuccess()"
  , "c3" : "3"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#104"
+ , "c5" : "00173"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#173"
  , "c1" : "void"
  , "c2" : "fireFailure()"
  , "c3" : "3"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00115"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#115"
+ , "c5" : "00187"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#187"
  , "c1" : "void"
  , "c2" : "addListener(RequestFutureListener<T>)"
  , "c3" : "4"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00140"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#140"
+ , "c5" : "00217"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#217"
  , "c1" : "void"
  , "c2" : "chain(RequestFuture<T>)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00160"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#160"
+ , "c5" : "00237"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#237"
  , "c1" : "RequestFuture<Void>"
  , "c2" : "voidSuccess()"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00175"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#175"
+ , "c5" : "00252"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#252"
  , "c1" : "boolean"
  , "c2" : "shouldBlock()"
  , "c3" : "1"
@@ -224,164 +224,164 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#26"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method awaitDone arguments long  timeout|TimeUnit  unit"
+ , "c3" : "QC-JAV000006[00062] For method awaitDone arguments long  timeout|TimeUnit  unit"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#34"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.consumer.internals.RequestFuture.value@POLYN179474 the MagicNumber/String  'Attempt to retrieve value from future which hasn't successfully completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.consumer.internals.RequestFuture.value@POLYN179936 the MagicNumber/String  'Attempt to retrieve value from future which hasn't successfully completed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#56"
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.consumer.internals.RequestFuture.exception@POLYN180583 the MagicNumber/String  'Attempt to retrieve exception from future which hasn't failed' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.consumer.internals.RequestFuture.exception@POLYN181045 the MagicNumber/String  'Attempt to retrieve exception from future which hasn't failed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#61"
+ , "c1" : "00122"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method complete arguments T  value"
+ , "c3" : "QC-JAV000006[00122] For method complete arguments T  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#64"
+ , "c1" : "00125"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.consumer.internals.RequestFuture.complete@POLYN181088 the MagicNumber/String  'The argument to complete can not be an instance of RuntimeException' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.clients.consumer.internals.RequestFuture.complete@POLYN181550 the MagicNumber/String  'The argument to complete can not be an instance of RuntimeException' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#67"
+ , "c1" : "00128"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.consumer.internals.RequestFuture.complete@POLYN181088 the MagicNumber/String  'Invalid attempt to complete a request future which is already complete' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.clients.consumer.internals.RequestFuture.complete@POLYN181550 the MagicNumber/String  'Invalid attempt to complete a request future which is already complete' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#75"
+ , "c1" : "00141"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#141"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method raise arguments RuntimeException  e"
+ , "c3" : "QC-JAV000006[00141] For method raise arguments RuntimeException  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#77"
+ , "c1" : "00143"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.clients.consumer.internals.RequestFuture.raise@POLYN181753 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.consumer.internals.RequestFuture.raise@POLYN182215 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#78"
+ , "c1" : "00144"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.internals.RequestFuture.raise@POLYN181753 the MagicNumber/String  'The exception passed to raise must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.clients.consumer.internals.RequestFuture.raise@POLYN182215 the MagicNumber/String  'The exception passed to raise must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#81"
+ , "c1" : "00147"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.consumer.internals.RequestFuture.raise@POLYN181753 the MagicNumber/String  'Invalid attempt to complete a request future which is already complete' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.consumer.internals.RequestFuture.raise@POLYN182215 the MagicNumber/String  'Invalid attempt to complete a request future which is already complete' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#90"
+ , "c1" : "00159"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00090] For method raise arguments Errors  error"
+ , "c3" : "QC-JAV000006[00159] For method raise arguments Errors  error"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#90"
+ , "c1" : "00159"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#159"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00090] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00159] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#97"
+ , "c1" : "00166"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00097] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00166] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#96"
+ , "c1" : "00165"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.clients.consumer.internals.RequestFuture.fireSuccess@POLYN182494 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.clients.consumer.internals.RequestFuture.fireSuccess@POLYN182956 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#98"
+ , "c1" : "00167"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.clients.consumer.internals.RequestFuture.fireSuccess@POLYN182494 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.clients.consumer.internals.RequestFuture.fireSuccess@POLYN182956 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#107"
+ , "c1" : "00176"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00107] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00176] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#106"
+ , "c1" : "00175"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.clients.consumer.internals.RequestFuture.fireFailure@POLYN182895 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.clients.consumer.internals.RequestFuture.fireFailure@POLYN183357 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#108"
+ , "c1" : "00177"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.clients.consumer.internals.RequestFuture.fireFailure@POLYN182895 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.clients.consumer.internals.RequestFuture.fireFailure@POLYN183357 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#115"
+ , "c1" : "00187"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#187"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00115] For method addListener arguments RequestFutureListener&lt;T &gt;  listener"
+ , "c3" : "QC-JAV000006[00187] For method addListener arguments RequestFutureListener&lt;T &gt;  listener"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#124"
+ , "c1" : "00201"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#201"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00124] The argument adapter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00201] The argument adapter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#140"
+ , "c1" : "00217"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#217"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method chain arguments RequestFuture&lt;T &gt;  future"
+ , "c3" : "QC-JAV000006[00217] For method chain arguments RequestFuture&lt;T &gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#140"
+ , "c1" : "00217"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#217"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00140] The argument future is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00217] The argument future is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#162"
+ , "c1" : "00239"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#239"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.clients.consumer.internals.RequestFuture.voidSuccess@POLYN185471 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.clients.consumer.internals.RequestFuture.voidSuccess@POLYN185933 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

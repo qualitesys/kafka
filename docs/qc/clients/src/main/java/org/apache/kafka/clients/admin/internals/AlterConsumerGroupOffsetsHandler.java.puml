@@ -2,13 +2,13 @@
 !pragma layout smetana
 "AdminApiHandler.Batched<CoordinatorKey,Map<TopicPartition,Errors>>" <|-- "org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler"
 class org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler {
-+AlterConsumerGroupOffsetsHandler(String;Map<TopicPartition,OffsetAndMetadata>;LogContext) : AlterConsumerGroupOffsetsHandler [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#36]]]
-+apiName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#48]]]
-+lookupStrategy() : AdminApiLookupStrategy<CoordinatorKey> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#53]]]
-+newFuture(String) : AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,Map<TopicPartition,Errors>> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#57]]]
--validateKeys(Set<CoordinatorKey>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#63]]]
-+buildBatchedRequest(int;Set<CoordinatorKey>) : OffsetCommitRequest.Builder [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#71]]]
-+handleResponse(Node;Set<CoordinatorKey>;AbstractResponse) : ApiResult<CoordinatorKey,Map<TopicPartition,Errors>> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#99]]]
--handleError(CoordinatorKey;TopicPartition;Errors;Map<TopicPartition,Errors>;Set<CoordinatorKey>;Set<CoordinatorKey>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#138]]]
++AlterConsumerGroupOffsetsHandler(String;Map<TopicPartition,OffsetAndMetadata>;LogContext) : AlterConsumerGroupOffsetsHandler [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#51]]]
++apiName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#63]]]
++lookupStrategy() : AdminApiLookupStrategy<CoordinatorKey> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#68]]]
++newFuture(String) : AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,Map<TopicPartition,Errors>> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#72]]]
+-validateKeys(Set<CoordinatorKey>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#78]]]
++buildBatchedRequest(int;Set<CoordinatorKey>) : OffsetCommitRequest.Builder [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#86]]]
++handleResponse(Node;Set<CoordinatorKey>;AbstractResponse) : ApiResult<CoordinatorKey,Map<TopicPartition,Errors>> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#114]]]
+-handleError(CoordinatorKey;TopicPartition;Errors;Map<TopicPartition,Errors>;Set<CoordinatorKey>;Set<CoordinatorKey>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#153]]]
 } 
 @enduml

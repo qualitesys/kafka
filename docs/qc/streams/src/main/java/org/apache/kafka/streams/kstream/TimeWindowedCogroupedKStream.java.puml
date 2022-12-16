@@ -2,9 +2,9 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.kstream.TimeWindowedCogroupedKStream"
 class org.apache.kafka.streams.kstream.TimeWindowedCogroupedKStream {
-aggregate(Initializer<V>) : KTable<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedCogroupedKStream.java.html#20]]]
-aggregate(Initializer<V>;Named) : KTable<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedCogroupedKStream.java.html#23]]]
-aggregate(Initializer<V>;Materialized<K,V,WindowStore<Bytes,byte[]>>) : KTable<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedCogroupedKStream.java.html#27]]]
-aggregate(Initializer<V>;Named;Materialized<K,V,WindowStore<Bytes,byte[]>>) : KTable<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedCogroupedKStream.java.html#31]]]
+aggregate(Initializer<V>) : KTable<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedCogroupedKStream.java.html#95]]]
+aggregate(Initializer<V>;Named) : KTable<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedCogroupedKStream.java.html#136]]]
+aggregate(Initializer<V>;Materialized<K,V,WindowStore<Bytes,byte[]>>) : KTable<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedCogroupedKStream.java.html#193]]]
+aggregate(Initializer<V>;Named;Materialized<K,V,WindowStore<Bytes,byte[]>>) : KTable<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedCogroupedKStream.java.html#251]]]
 } 
 @enduml

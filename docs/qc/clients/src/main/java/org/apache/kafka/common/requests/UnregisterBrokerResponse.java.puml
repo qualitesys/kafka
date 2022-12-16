@@ -2,11 +2,11 @@
 !pragma layout smetana
 "AbstractResponse" <|-- "org.apache.kafka.common.requests.UnregisterBrokerResponse"
 class org.apache.kafka.common.requests.UnregisterBrokerResponse {
-+UnregisterBrokerResponse(UnregisterBrokerResponseData) : UnregisterBrokerResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#17]]]
-+data() : UnregisterBrokerResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#23]]]
-+throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#28]]]
-+errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#33]]]
-+parse(ByteBuffer;short) : UnregisterBrokerResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#41]]]
-+shouldClientThrottle(short) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#46]]]
++UnregisterBrokerResponse(UnregisterBrokerResponseData) : UnregisterBrokerResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#32]]]
++data() : UnregisterBrokerResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#38]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#43]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#48]]]
++parse(ByteBuffer;short) : UnregisterBrokerResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#56]]]
++shouldClientThrottle(short) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#61]]]
 } 
 @enduml

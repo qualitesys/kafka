@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.ListenerName" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#14"
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#31"
  , "c1" : "ListenerName"
  , "c2" : "forSecurityProtocol(SecurityProtocol)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#19"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#38"
  , "c1" : "ListenerName"
  , "c2" : "normalised(String)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#25"
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#44"
  , "c1" : "ListenerName"
  , "c2" : "ListenerName(String)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#30"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#49"
  , "c1" : "String"
  , "c2" : "value()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#35"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#54"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#43"
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#62"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#48"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#67"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#52"
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#71"
  , "c1" : "String"
  , "c2" : "configPrefix()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#56"
+ , "c5" : "00075"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#75"
  , "c1" : "String"
  , "c2" : "saslMechanismConfigPrefix(String)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#60"
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#79"
  , "c1" : "String"
  , "c2" : "saslMechanismPrefix(String)"
  , "c3" : "1"
@@ -193,150 +193,150 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#14"
+ , "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#31"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00014] For method forSecurityProtocol arguments SecurityProtocol  securityProtocol"
+ , "c3" : "QC-JAV000006[00031] For method forSecurityProtocol arguments SecurityProtocol  securityProtocol"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#14"
+ , "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#31"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00014] The argument securityProtocol is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00031] The argument securityProtocol is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#19"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method normalised arguments String  value"
+ , "c3" : "QC-JAV000006[00038] For method normalised arguments String  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#19"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#38"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00019] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00038] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#26"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.network.ListenerName.ListenerName@POLYN147818 the MagicNumber/String  'value should not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.network.ListenerName.ListenerName@POLYN147932 the MagicNumber/String  'value should not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#35"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.network.ListenerName.equals@POLYN148148 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.network.ListenerName.toString@POLYN148627 the MagicNumber/String  'ListenerName(' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.network.ListenerName.toString@POLYN148627 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.network.ListenerName.configPrefix@POLYN148761 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.network.ListenerName.configPrefix@POLYN148761 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000006[00054] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method saslMechanismConfigPrefix arguments String  saslMechanism"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#60"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method saslMechanismPrefix arguments String  saslMechanism"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#60"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00060] The argument saslMechanism is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.network.ListenerName.saslMechanismPrefix@POLYN149142 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.network.ListenerName.equals@POLYN148262 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#14"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00014] Public method forSecurityProtocol is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.network.ListenerName.toString@POLYN148741 the MagicNumber/String  'ListenerName(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#56"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00056] Public method saslMechanismConfigPrefix is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.network.ListenerName.toString@POLYN148741 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#60"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.network.ListenerName.configPrefix@POLYN148875 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.network.ListenerName.configPrefix@POLYN148875 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#75"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00075] For method saslMechanismConfigPrefix arguments String  saslMechanism"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#79"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00079] For method saslMechanismPrefix arguments String  saslMechanism"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#79"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00079] The argument saslMechanism is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.network.ListenerName.saslMechanismPrefix@POLYN149256 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#31"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00060] Public method saslMechanismPrefix is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00031] Public method forSecurityProtocol is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#75"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00075] Public method saslMechanismConfigPrefix is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#79"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00079] Public method saslMechanismPrefix is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.ListenerName.equals@POLYN148148"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.ListenerName.equals@POLYN148262"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.ListenerName.hashCode@POLYN148507"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.ListenerName.hashCode@POLYN148621"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#37"
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ListenerName.java.html#56"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.common.network.ListenerName.equals@POLYN148148 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.common.network.ListenerName.equals@POLYN148262 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

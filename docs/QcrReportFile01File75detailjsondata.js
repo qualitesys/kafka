@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeConfigsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsResult.java.html#20"
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsResult.java.html#39"
  , "c1" : "DescribeConfigsResult"
  , "c2" : "DescribeConfigsResult(Map<ConfigResource,KafkaFuture<Config>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsResult.java.html#25"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsResult.java.html#47"
  , "c1" : "Map<ConfigResource,KafkaFuture<Config>>"
  , "c2" : "values()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsResult.java.html#30"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsResult.java.html#54"
  , "c1" : "KafkaFuture<Map<ConfigResource,Config>>"
  , "c2" : "all()"
  , "c3" : "2"
@@ -86,10 +86,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsResult.java.html#31"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsResult.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.clients.admin.DescribeConfigsResult.all@POLYN150143 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.admin.DescribeConfigsResult.all@POLYN150287 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

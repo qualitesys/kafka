@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.task.AgentWorkerStatusTracker" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#13"
+ , "c5" : "00030"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#30"
  , "c1" : "void"
  , "c2" : "update(JsonNode)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#21"
+ , "c5" : "00040"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#40"
  , "c1" : "JsonNode"
  , "c2" : "get()"
  , "c3" : "1"
@@ -91,31 +91,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#13"
+ , "c1" : "00030"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00013] For method update arguments JsonNode  newStatus"
+ , "c3" : "QC-JAV000006[00030] For method update arguments JsonNode  newStatus"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#13"
+ , "c1" : "00030"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#30"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00013] The argument newStatus is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00030] The argument newStatus is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#15"
+ , "c1" : "00032"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#32"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00015] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00032] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#21"
+ , "c1" : "00040"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#40"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00021] Lock statement on synchronized method get"
+ , "c3" : "QC-JAV000019[00040] Lock statement on synchronized method get"
 }} 
 ]
 , 

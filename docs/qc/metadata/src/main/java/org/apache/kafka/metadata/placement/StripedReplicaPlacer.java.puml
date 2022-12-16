@@ -2,10 +2,10 @@
 !pragma layout smetana
 "ReplicaPlacer" <|-- "org.apache.kafka.metadata.placement.StripedReplicaPlacer"
 class org.apache.kafka.metadata.placement.StripedReplicaPlacer {
--throwInvalidReplicationFactorIfNonPositive(int) : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#234]]]
--throwInvalidReplicationFactorIfZero(int) : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#241]]]
--throwInvalidReplicationFactorIfTooFewBrokers(int;int) : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#247]]]
-+StripedReplicaPlacer(Random) : StripedReplicaPlacer [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#257]]]
-+place(PlacementSpec;ClusterDescriber) : List<List<Integer>> [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#262]]]
+-throwInvalidReplicationFactorIfNonPositive(int) : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#402]]]
+-throwInvalidReplicationFactorIfZero(int) : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#409]]]
+-throwInvalidReplicationFactorIfTooFewBrokers(int;int) : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#415]]]
++StripedReplicaPlacer(Random) : StripedReplicaPlacer [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#425]]]
++place(PlacementSpec;ClusterDescriber) : List<List<Integer>> [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#430]]]
 } 
 @enduml

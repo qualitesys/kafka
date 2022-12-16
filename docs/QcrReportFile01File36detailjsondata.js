@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.AlterConfigsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsResult.java.html#17"
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsResult.java.html#36"
  , "c1" : "AlterConfigsResult"
  , "c2" : "AlterConfigsResult(Map<ConfigResource,KafkaFuture<Void>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsResult.java.html#22"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsResult.java.html#43"
  , "c1" : "Map<ConfigResource,KafkaFuture<Void>>"
  , "c2" : "values()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsResult.java.html#27"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsResult.java.html#50"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -86,10 +86,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsResult.java.html#28"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsResult.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.AlterConfigsResult.all@POLYN146205 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.admin.AlterConfigsResult.all@POLYN146343 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

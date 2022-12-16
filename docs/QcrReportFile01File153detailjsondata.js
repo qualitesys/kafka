@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.internals.AdminApiFuture" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#15"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#38"
  , "c1" : "Set<K>"
  , "c2" : "lookupKeys()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#18"
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#45"
  , "c1" : "void"
  , "c2" : "complete(Map<K,V>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#21"
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#53"
  , "c1" : "void"
  , "c2" : "completeLookup(Map<K,Integer>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#25"
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#61"
  , "c1" : "void"
  , "c2" : "completeLookupExceptionally(Map<K,Throwable>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#30"
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#70"
  , "c1" : "void"
  , "c2" : "completeExceptionally(Map<K,Throwable>)"
  , "c3" : "1"
@@ -118,87 +118,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#40"
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#82"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00040] The argument keys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00082] The argument keys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#53"
+ , "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#95"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method complete arguments Map&lt;K ,V &gt;  values"
+ , "c3" : "QC-JAV000006[00095] For method complete arguments Map&lt;K ,V &gt;  values"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#53"
+ , "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#95"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00053] The argument values is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00095] The argument values is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#57"
+ , "c1" : "00099"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#99"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method complete arguments K  key|V  value"
+ , "c3" : "QC-JAV000006[00099] For method complete arguments K  key|V  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#62"
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method completeExceptionally arguments Map&lt;K ,Throwable &gt;  errors"
+ , "c3" : "QC-JAV000006[00104] For method completeExceptionally arguments Map&lt;K ,Throwable &gt;  errors"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#62"
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#104"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00062] The argument errors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00104] The argument errors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#66"
+ , "c1" : "00108"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method completeExceptionally arguments K  key|Throwable  t"
+ , "c3" : "QC-JAV000006[00108] For method completeExceptionally arguments K  key|Throwable  t"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#70"
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method futureOrThrow arguments K  key"
+ , "c3" : "QC-JAV000006[00112] For method futureOrThrow arguments K  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#73"
+ , "c1" : "00115"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.admin.internals.AdminApiFuture.SimpleAdminApiFuture.futureOrThrow@POLYN159968 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.admin.internals.AdminApiFuture.SimpleAdminApiFuture.futureOrThrow@POLYN160220 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#74"
+ , "c1" : "00116"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.admin.internals.AdminApiFuture.SimpleAdminApiFuture.futureOrThrow@POLYN159968 the MagicNumber/String  'Attempt to complete future for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.admin.internals.AdminApiFuture.SimpleAdminApiFuture.futureOrThrow@POLYN160220 the MagicNumber/String  'Attempt to complete future for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#75"
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.admin.internals.AdminApiFuture.SimpleAdminApiFuture.futureOrThrow@POLYN159968 the MagicNumber/String  ', which was not requested' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.clients.admin.internals.AdminApiFuture.SimpleAdminApiFuture.futureOrThrow@POLYN160220 the MagicNumber/String  ', which was not requested' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#85"
+ , "c1" : "00127"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method get arguments K  key"
+ , "c3" : "QC-JAV000006[00127] For method get arguments K  key"
 }} 
 ]
 , 

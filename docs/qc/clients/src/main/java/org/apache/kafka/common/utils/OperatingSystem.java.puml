@@ -2,6 +2,6 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.utils.OperatingSystem"
 class org.apache.kafka.common.utils.OperatingSystem {
--OperatingSystem() : OperatingSystem [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/OperatingSystem.java.html#8]]]
+-OperatingSystem() : OperatingSystem [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/OperatingSystem.java.html#23]]]
 } 
 @enduml

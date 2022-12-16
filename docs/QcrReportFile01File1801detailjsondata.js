@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#23"
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#40"
  , "c1" : "KTableKTableJoinNode"
  , "c2" : "KTableKTableJoinNode(String;ProcessorParameters<K,Change<V1>,?,?>;ProcessorParameters<K,Change<V2>,?,?>;ProcessorParameters<K,Change<VR>,?,?>;String;String;Serde<K>;Serde<VR>;String[];String[];StoreBuilder<TimestampedKeyValueStore<K,VR>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#50"
+ , "c5" : "00067"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#67"
  , "c1" : "Serde<K>"
  , "c2" : "keySerde()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#54"
+ , "c5" : "00071"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#71"
  , "c1" : "Serde<VR>"
  , "c2" : "valueSerde()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#58"
+ , "c5" : "00075"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#75"
  , "c1" : "String[]"
  , "c2" : "joinThisStoreNames()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#62"
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#79"
  , "c1" : "String[]"
  , "c2" : "joinOtherStoreNames()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#66"
+ , "c5" : "00083"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#83"
  , "c1" : "String"
  , "c2" : "queryableStoreName()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#72"
+ , "c5" : "00091"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#91"
  , "c1" : "KTableKTableJoinMerger<K,VR>"
  , "c2" : "joinMerger()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#80"
+ , "c5" : "00099"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#99"
  , "c1" : "void"
  , "c2" : "writeToTopology(InternalTopologyBuilder)"
  , "c3" : "2"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00110"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#110"
+ , "c5" : "00129"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#129"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -154,136 +154,136 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#36"
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.KTableKTableJoinNode@POLYN171154 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.KTableKTableJoinNode@POLYN171268 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#80"
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#99"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method writeToTopology arguments InternalTopologyBuilder  topologyBuilder"
+ , "c3" : "QC-JAV000006[00099] For method writeToTopology arguments InternalTopologyBuilder  topologyBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#80"
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#99"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00080] The argument topologyBuilder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00099] The argument topologyBuilder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#104"
+ , "c1" : "00123"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.writeToTopology@POLYN173344 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.writeToTopology@POLYN173458 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#111"
+ , "c1" : "00130"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.toString@POLYN174550 the MagicNumber/String  'KTableKTableJoinNode{' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.toString@POLYN174664 the MagicNumber/String  'KTableKTableJoinNode{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#112"
+ , "c1" : "00131"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.toString@POLYN174550 the MagicNumber/String  'joinThisStoreNames=' should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.toString@POLYN174664 the MagicNumber/String  'joinThisStoreNames=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#113"
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.toString@POLYN174550 the MagicNumber/String  ', joinOtherStoreNames=' should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.toString@POLYN174664 the MagicNumber/String  ', joinOtherStoreNames=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#114"
+ , "c1" : "00133"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.toString@POLYN174550 the MagicNumber/String  '} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode.toString@POLYN174664 the MagicNumber/String  '} ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#137"
+ , "c1" : "00156"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#156"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method withNodeName arguments String  nodeName"
+ , "c3" : "QC-JAV000006[00156] For method withNodeName arguments String  nodeName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#142"
+ , "c1" : "00161"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00142] For method withJoinThisProcessorParameters arguments ProcessorParameters&lt;K ,Change&lt;V1 &gt; ,? ,? &gt;  joinThisProcessorParameters"
+ , "c3" : "QC-JAV000006[00161] For method withJoinThisProcessorParameters arguments ProcessorParameters&lt;K ,Change&lt;V1 &gt; ,? ,? &gt;  joinThisProcessorParameters"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#147"
+ , "c1" : "00166"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#166"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00147] For method withJoinOtherProcessorParameters arguments ProcessorParameters&lt;K ,Change&lt;V2 &gt; ,? ,? &gt;  joinOtherProcessorParameters"
+ , "c3" : "QC-JAV000006[00166] For method withJoinOtherProcessorParameters arguments ProcessorParameters&lt;K ,Change&lt;V2 &gt; ,? ,? &gt;  joinOtherProcessorParameters"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#152"
+ , "c1" : "00171"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#171"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00152] For method withThisJoinSideNodeName arguments String  thisJoinSide"
+ , "c3" : "QC-JAV000006[00171] For method withThisJoinSideNodeName arguments String  thisJoinSide"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#157"
+ , "c1" : "00176"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#176"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00157] For method withOtherJoinSideNodeName arguments String  otherJoinSide"
+ , "c3" : "QC-JAV000006[00176] For method withOtherJoinSideNodeName arguments String  otherJoinSide"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#162"
+ , "c1" : "00181"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#181"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00162] For method withKeySerde arguments Serde&lt;K &gt;  keySerde"
+ , "c3" : "QC-JAV000006[00181] For method withKeySerde arguments Serde&lt;K &gt;  keySerde"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#167"
+ , "c1" : "00186"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#186"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00167] For method withValueSerde arguments Serde&lt;VR &gt;  valueSerde"
+ , "c3" : "QC-JAV000006[00186] For method withValueSerde arguments Serde&lt;VR &gt;  valueSerde"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#172"
+ , "c1" : "00191"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#191"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00172] For method withJoinThisStoreNames arguments String[]  joinThisStoreNames"
+ , "c3" : "QC-JAV000006[00191] For method withJoinThisStoreNames arguments String[]  joinThisStoreNames"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#177"
+ , "c1" : "00196"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#196"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method withJoinOtherStoreNames arguments String[]  joinOtherStoreNames"
+ , "c3" : "QC-JAV000006[00196] For method withJoinOtherStoreNames arguments String[]  joinOtherStoreNames"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#182"
+ , "c1" : "00201"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#201"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00182] For method withQueryableStoreName arguments String  queryableStoreName"
+ , "c3" : "QC-JAV000006[00201] For method withQueryableStoreName arguments String  queryableStoreName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#187"
+ , "c1" : "00206"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#206"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00187] For method withStoreBuilder arguments StoreBuilder&lt;TimestampedKeyValueStore&lt;K ,VR &gt; &gt;  storeBuilder"
+ , "c3" : "QC-JAV000006[00206] For method withStoreBuilder arguments StoreBuilder&lt;TimestampedKeyValueStore&lt;K ,VR &gt; &gt;  storeBuilder"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.SessionStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#17"
+ , "c5" : "00049"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#49"
  , "c1" : "KeyValueIterator<Windowed<K>,AGG>"
  , "c2" : "findSessions(long;long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#24"
+ , "c5" : "00056"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#56"
  , "c1" : "KeyValueIterator<Windowed<K>,AGG>"
  , "c2" : "findSessions(K;Instant;Instant)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#36"
+ , "c5" : "00068"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#68"
  , "c1" : "KeyValueIterator<Windowed<K>,AGG>"
  , "c2" : "backwardFindSessions(K;Instant;Instant)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#47"
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#79"
  , "c1" : "KeyValueIterator<Windowed<K>,AGG>"
  , "c2" : "findSessions(K;K;Instant;Instant)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#60"
+ , "c5" : "00092"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#92"
  , "c1" : "KeyValueIterator<Windowed<K>,AGG>"
  , "c2" : "backwardFindSessions(K;K;Instant;Instant)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#73"
+ , "c5" : "00105"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#105"
  , "c1" : "AGG"
  , "c2" : "fetchSession(K;Instant;Instant)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#84"
+ , "c5" : "00121"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#121"
  , "c1" : "void"
  , "c2" : "remove(Windowed<K>)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#87"
+ , "c5" : "00131"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#131"
  , "c1" : "void"
  , "c2" : "put(Windowed<K>;AGG)"
  , "c3" : "1"

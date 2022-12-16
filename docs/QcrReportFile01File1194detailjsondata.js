@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.tools.VerifiableSourceConnector" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#19"
+ , "c5" : "00036"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#36"
  , "c1" : "String"
  , "c2" : "version()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#24"
+ , "c5" : "00041"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#41"
  , "c1" : "void"
  , "c2" : "start(Map<String,String>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#29"
+ , "c5" : "00046"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#46"
  , "c1" : "Class<?extendsTask>"
  , "c2" : "taskClass()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#34"
+ , "c5" : "00051"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#51"
  , "c1" : "List<Map<String,String>>"
  , "c2" : "taskConfigs(int)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#45"
+ , "c5" : "00062"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#62"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#49"
+ , "c5" : "00066"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#66"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -127,31 +127,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#24"
+ , "c1" : "00041"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method start arguments Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00041] For method start arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#34"
+ , "c1" : "00051"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method taskConfigs arguments int  maxTasks"
+ , "c3" : "QC-JAV000006[00051] For method taskConfigs arguments int  maxTasks"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#37"
+ , "c1" : "00054"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00037] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00054] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#36"
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.tools.VerifiableSourceConnector.taskConfigs@POLYN147679 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.tools.VerifiableSourceConnector.taskConfigs@POLYN147781 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

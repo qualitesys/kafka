@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.connect.runtime.WorkerInfo"
 class org.apache.kafka.connect.runtime.WorkerInfo {
-+WorkerInfo() : WorkerInfo [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#29]]]
-+logAll() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#37]]]
--format(Object) : Object [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#53]]]
-addRuntimeInfo() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#58]]]
-addSystemInfo() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#72]]]
++WorkerInfo() : WorkerInfo [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#48]]]
++logAll() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#58]]]
+-format(Object) : Object [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#74]]]
+addRuntimeInfo() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#81]]]
+addSystemInfo() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#97]]]
 } 
 @enduml

@@ -2,13 +2,13 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.image.ConfigurationImage"
 class org.apache.kafka.image.ConfigurationImage {
-+ConfigurationImage(Map<String,String>) : ConfigurationImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#27]]]
-data() : Map<String,String> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#31]]]
-+isEmpty() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#35]]]
-+toProperties() : Properties [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#39]]]
-+write(ConfigResource;Consumer<List<ApiMessageAndVersion>>) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#45]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#58]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#65]]]
-+toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#70]]]
++ConfigurationImage(Map<String,String>) : ConfigurationImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#46]]]
+data() : Map<String,String> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#50]]]
++isEmpty() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#54]]]
++toProperties() : Properties [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#58]]]
++write(ConfigResource;Consumer<List<ApiMessageAndVersion>>) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#64]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#77]]]
++hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#84]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#89]]]
 } 
 @enduml

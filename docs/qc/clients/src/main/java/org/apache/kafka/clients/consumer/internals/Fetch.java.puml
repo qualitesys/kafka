@@ -2,12 +2,12 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.consumer.internals.Fetch"
 class org.apache.kafka.clients.consumer.internals.Fetch {
--Fetch(Map<TopicPartition,List<ConsumerRecord<K,V>>>;boolean;int) : Fetch [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#37]]]
-+add(Fetch<K,V>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#48]]]
-+records() : Map<TopicPartition,List<ConsumerRecord<K,V>>> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#55]]]
-+positionAdvanced() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#60]]]
-+numRecords() : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#65]]]
-+isEmpty() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#70]]]
--addRecords(Map<TopicPartition,List<ConsumerRecord<K,V>>>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#74]]]
+-Fetch(Map<TopicPartition,List<ConsumerRecord<K,V>>>;boolean;int) : Fetch [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#52]]]
++add(Fetch<K,V>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#69]]]
++records() : Map<TopicPartition,List<ConsumerRecord<K,V>>> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#78]]]
++positionAdvanced() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#87]]]
++numRecords() : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#94]]]
++isEmpty() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#102]]]
+-addRecords(Map<TopicPartition,List<ConsumerRecord<K,V>>>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#106]]]
 } 
 @enduml

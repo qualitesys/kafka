@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.jmh.producer.ProducerRequestBenchmark"
 class org.apache.kafka.jmh.producer.ProducerRequestBenchmark {
--request() : ProduceRequest [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRequestBenchmark.java.html#54]]]
-+constructorProduceRequest() : ProduceRequest [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRequestBenchmark.java.html#62]]]
-+constructorErrorResponse() : ProduceResponse [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRequestBenchmark.java.html#68]]]
+-request() : ProduceRequest [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRequestBenchmark.java.html#69]]]
++constructorProduceRequest() : ProduceRequest [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRequestBenchmark.java.html#77]]]
++constructorErrorResponse() : ProduceResponse [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRequestBenchmark.java.html#83]]]
 } 
 @enduml

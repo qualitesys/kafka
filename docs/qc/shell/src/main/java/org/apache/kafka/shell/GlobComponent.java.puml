@@ -2,12 +2,12 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.shell.GlobComponent"
 class org.apache.kafka.shell.GlobComponent {
--isRegularExpressionSpecialCharacter(char) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#15]]]
--isGlobSpecialCharacter(char) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#35]]]
-toRegularExpression(String) : String [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#50]]]
-+GlobComponent(String) : GlobComponent [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#125]]]
-+component() : String [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#139]]]
-+literal() : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#143]]]
-+matches(String) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#147]]]
+-isRegularExpressionSpecialCharacter(char) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#34]]]
+-isGlobSpecialCharacter(char) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#56]]]
+toRegularExpression(String) : String [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#75]]]
++GlobComponent(String) : GlobComponent [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#150]]]
++component() : String [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#164]]]
++literal() : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#168]]]
++matches(String) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#172]]]
 } 
 @enduml

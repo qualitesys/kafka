@@ -2,6 +2,6 @@
 !pragma layout smetana
 "MetricValueProvider<T>" <|-- "org.apache.kafka.common.metrics.Gauge"
 class org.apache.kafka.common.metrics.Gauge {
-value(MetricConfig;long) : T [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/Gauge.java.html#9]]]
+value(MetricConfig;long) : T [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/Gauge.java.html#30]]]
 } 
 @enduml

@@ -2,8 +2,8 @@
 !pragma layout smetana
 "BaseJoinProcessorNode<K,V1,V2,VR>" <|-- "org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode"
 class org.apache.kafka.streams.kstream.internals.graph.StreamStreamJoinNode {
--StreamStreamJoinNode(String;ValueJoinerWithKey<?superK,?superV1,?superV2,?extendsVR>;ProcessorParameters<K,V1,?,?>;ProcessorParameters<K,V2,?,?>;ProcessorParameters<K,VR,?,?>;ProcessorParameters<K,V1,?,?>;ProcessorParameters<K,V2,?,?>;StoreBuilder<WindowStore<K,V1>>;StoreBuilder<WindowStore<K,V2>>;Optional<StoreBuilder<KeyValueStore<TimestampedKeyAndJoinSide<K>,LeftOrRightValue<V1,V2>>>>;Joined<K,V1,V2>;boolean) : StreamStreamJoinNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#26]]]
-+toString() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#58]]]
-+writeToTopology(InternalTopologyBuilder) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#71]]]
+-StreamStreamJoinNode(String;ValueJoinerWithKey<?superK,?superV1,?superV2,?extendsVR>;ProcessorParameters<K,V1,?,?>;ProcessorParameters<K,V2,?,?>;ProcessorParameters<K,VR,?,?>;ProcessorParameters<K,V1,?,?>;ProcessorParameters<K,V2,?,?>;StoreBuilder<WindowStore<K,V1>>;StoreBuilder<WindowStore<K,V2>>;Optional<StoreBuilder<KeyValueStore<TimestampedKeyAndJoinSide<K>,LeftOrRightValue<V1,V2>>>>;Joined<K,V1,V2>;boolean) : StreamStreamJoinNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#43]]]
++toString() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#75]]]
++writeToTopology(InternalTopologyBuilder) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#88]]]
 } 
 @enduml

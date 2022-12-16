@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.BatchingStateRestoreCallback" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/BatchingStateRestoreCallback.java.html#14"
+ , "c5" : "00039"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/BatchingStateRestoreCallback.java.html#39"
  , "c1" : "void"
  , "c2" : "restoreAll(Collection<KeyValue<byte[],byte[]>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/BatchingStateRestoreCallback.java.html#17"
+ , "c5" : "00042"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/BatchingStateRestoreCallback.java.html#42"
  , "c1" : "void"
  , "c2" : "restore(byte[];byte[])"
  , "c3" : "1"

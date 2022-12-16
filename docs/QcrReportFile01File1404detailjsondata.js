@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.LogOffsetMetadata" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#13"
+ , "c5" : "00030"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#30"
  , "c1" : "LogOffsetMetadata"
  , "c2" : "LogOffsetMetadata(long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#17"
+ , "c5" : "00034"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#34"
  , "c1" : "LogOffsetMetadata"
  , "c2" : "LogOffsetMetadata(long;Optional<OffsetMetadata>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#23"
+ , "c5" : "00040"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#40"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#29"
+ , "c5" : "00046"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#46"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#40"
+ , "c5" : "00057"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#57"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -111,38 +111,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#24"
+ , "c1" : "00041"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.raft.LogOffsetMetadata.toString@POLYN144836 the MagicNumber/String  'LogOffsetMetadata(offset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.raft.LogOffsetMetadata.toString@POLYN144938 the MagicNumber/String  'LogOffsetMetadata(offset=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#25"
+ , "c1" : "00042"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.raft.LogOffsetMetadata.toString@POLYN144836 the MagicNumber/String  ', metadata=' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.raft.LogOffsetMetadata.toString@POLYN144938 the MagicNumber/String  ', metadata=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#25"
+ , "c1" : "00042"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.raft.LogOffsetMetadata.toString@POLYN144836 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.raft.LogOffsetMetadata.toString@POLYN144938 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#29"
+ , "c1" : "00046"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method equals arguments Object  obj"
+ , "c3" : "QC-JAV000006[00046] For method equals arguments Object  obj"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#35"
+ , "c1" : "00052"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.raft.LogOffsetMetadata.equals@POLYN145030 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.raft.LogOffsetMetadata.equals@POLYN145132 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

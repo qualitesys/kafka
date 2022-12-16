@@ -2,9 +2,9 @@
 !pragma layout smetana
 "KTableProcessorSupplier<K,V,K,V>" <|-- "org.apache.kafka.streams.kstream.internals.KTableReduce"
 class org.apache.kafka.streams.kstream.internals.KTableReduce {
-KTableReduce(String;Reducer<V>;Reducer<V>) : KTableReduce [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#22]]]
-+enableSendingOldValues(boolean) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#29]]]
-+get() : Processor<K,Change<V>,K,Change<V>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#36]]]
-+view() : KTableValueGetterSupplier<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#100]]]
+KTableReduce(String;Reducer<V>;Reducer<V>) : KTableReduce [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#37]]]
++enableSendingOldValues(boolean) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#44]]]
++get() : Processor<K,Change<V>,K,Change<V>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#51]]]
++view() : KTableValueGetterSupplier<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#117]]]
 } 
 @enduml

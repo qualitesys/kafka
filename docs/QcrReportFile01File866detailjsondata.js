@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.serialization.IntegerSerializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00005"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerSerializer.java.html#5"
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerSerializer.java.html#20"
  , "c1" : "byte[]"
  , "c2" : "serialize(String;Integer)"
  , "c3" : "2"
@@ -75,45 +75,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00005"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerSerializer.java.html#5"
+ , "c1" : "00020"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerSerializer.java.html#20"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00005] For method serialize arguments String  topic|Integer  data"
+ , "c3" : "QC-JAV000006[00020] For method serialize arguments String  topic|Integer  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00006"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerSerializer.java.html#6"
+ , "c1" : "00021"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerSerializer.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00006] In method org.apache.kafka.common.serialization.IntegerSerializer.serialize@POLYN141601 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.serialization.IntegerSerializer.serialize@POLYN141691 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00007"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerSerializer.java.html#7"
+ , "c1" : "00022"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerSerializer.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00007] In method org.apache.kafka.common.serialization.IntegerSerializer.serialize@POLYN141601 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.serialization.IntegerSerializer.serialize@POLYN141691 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerSerializer.java.html#10"
+ , "c1" : "00025"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerSerializer.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.serialization.IntegerSerializer.serialize@POLYN141601 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.serialization.IntegerSerializer.serialize@POLYN141691 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerSerializer.java.html#11"
+ , "c1" : "00026"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerSerializer.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.common.serialization.IntegerSerializer.serialize@POLYN141601 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.serialization.IntegerSerializer.serialize@POLYN141691 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerSerializer.java.html#12"
+ , "c1" : "00027"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerSerializer.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.serialization.IntegerSerializer.serialize@POLYN141601 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.serialization.IntegerSerializer.serialize@POLYN141691 the MagicNumber/String  8 should be converted to const"
 }} 
 ]
 , 

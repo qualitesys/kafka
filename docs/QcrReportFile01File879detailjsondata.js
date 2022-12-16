@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.serialization.UUIDSerializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#16"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#34"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;boolean)"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#26"
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#44"
  , "c1" : "byte[]"
  , "c2" : "serialize(String;UUID)"
  , "c3" : "3"
@@ -114,101 +114,101 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#16"
+ , "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00016] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00034] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#16"
+ , "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#34"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00016] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00034] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#17"
+ , "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.serialization.UUIDSerializer.configure@POLYN146509 the MagicNumber/String  'key.serializer.encoding' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.serialization.UUIDSerializer.configure@POLYN146617 the MagicNumber/String  'key.serializer.encoding' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#17"
+ , "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.serialization.UUIDSerializer.configure@POLYN146509 the MagicNumber/String  'value.serializer.encoding' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.serialization.UUIDSerializer.configure@POLYN146617 the MagicNumber/String  'value.serializer.encoding' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#19"
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.serialization.UUIDSerializer.configure@POLYN146509 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.serialization.UUIDSerializer.configure@POLYN146617 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#20"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.serialization.UUIDSerializer.configure@POLYN146509 the MagicNumber/String  'serializer.encoding' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.serialization.UUIDSerializer.configure@POLYN146617 the MagicNumber/String  'serializer.encoding' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#26"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method serialize arguments String  topic|UUID  data"
+ , "c3" : "QC-JAV000006[00044] For method serialize arguments String  topic|UUID  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#28"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147207 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147315 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#29"
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147207 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147315 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#33"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147207 the MagicNumber/String  'Error when serializing UUID to byte[] due to unsupported encoding ' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147315 the MagicNumber/String  'Error when serializing UUID to byte[] due to unsupported encoding ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147207"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147315"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#28"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#46"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147207 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147315 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#29"
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#47"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00029] In the recursive method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147207 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147315 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#33"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#51"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147207 the MagicNumber/String 'Error when serializing UUID to byte[] due to unsupported encoding ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147315 the MagicNumber/String 'Error when serializing UUID to byte[] due to unsupported encoding ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -2,11 +2,11 @@
 !pragma layout smetana
 "StoreQueryParameters<T>" <|-- "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters"
 class org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters {
--NamedTopologyStoreQueryParameters(String;String;QueryableStoreType<T>;Integer;boolean) : NamedTopologyStoreQueryParameters [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#13]]]
-+withPartition(Integer) : NamedTopologyStoreQueryParameters<T> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#29]]]
-+enableStaleStores() : NamedTopologyStoreQueryParameters<T> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#34]]]
-+topologyName() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#38]]]
-+equals(Object) : boolean [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#43]]]
-+hashCode() : int [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#60]]]
+-NamedTopologyStoreQueryParameters(String;String;QueryableStoreType<T>;Integer;boolean) : NamedTopologyStoreQueryParameters [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#28]]]
++withPartition(Integer) : NamedTopologyStoreQueryParameters<T> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#46]]]
++enableStaleStores() : NamedTopologyStoreQueryParameters<T> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#53]]]
++topologyName() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#57]]]
++equals(Object) : boolean [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#62]]]
++hashCode() : int [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#79]]]
 } 
 @enduml

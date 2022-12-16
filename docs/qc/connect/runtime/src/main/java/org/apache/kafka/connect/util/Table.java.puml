@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.connect.util.Table"
 class org.apache.kafka.connect.util.Table {
-+put(R;C;V) : V [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#12]]]
-+get(R;C) : V [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#17]]]
-+remove(R) : Map<C,V> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#24]]]
-+remove(R;C) : V [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#28]]]
-+row(R) : Map<C,V> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#39]]]
-+isEmpty() : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#46]]]
++put(R;C;V) : V [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#27]]]
++get(R;C) : V [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#32]]]
++remove(R) : Map<C,V> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#39]]]
++remove(R;C) : V [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#43]]]
++row(R) : Map<C,V> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#54]]]
++isEmpty() : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#61]]]
 } 
 @enduml

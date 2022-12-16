@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.transforms.HeaderFrom" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#93"
+ , "c5" : "00108"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#108"
  , "c1" : "R"
  , "c2" : "apply(R)"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#104"
+ , "c5" : "00119"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#119"
  , "c1" : "R"
  , "c2" : "applyWithSchema(R;Object;Schema)"
  , "c3" : "5"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00129"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#129"
+ , "c5" : "00144"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#144"
  , "c1" : "Schema"
  , "c2" : "moveSchema(Schema)"
  , "c3" : "4"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00144"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#144"
+ , "c5" : "00159"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#159"
  , "c1" : "R"
  , "c2" : "applySchemaless(R;Object)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00160"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#160"
+ , "c5" : "00175"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#175"
  , "c1" : "Object"
  , "c2" : "operatingValue(R)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00161"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#161"
+ , "c5" : "00176"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#176"
  , "c1" : "Schema"
  , "c2" : "operatingSchema(R)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00162"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#162"
+ , "c5" : "00177"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#177"
  , "c1" : "R"
  , "c2" : "newRecord(R;Schema;Object;Iterable<Header>)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00203"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#203"
+ , "c5" : "00218"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#218"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00208"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#208"
+ , "c5" : "00223"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#223"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00213"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#213"
+ , "c5" : "00228"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#228"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "2"
@@ -184,227 +184,192 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#93"
+ , "c1" : "00108"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00093] For method apply arguments R  record"
+ , "c3" : "QC-JAV000006[00108] For method apply arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#97"
+ , "c1" : "00112"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.transforms.HeaderFrom.apply@POLYN180924 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.connect.transforms.HeaderFrom.apply@POLYN181014 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#104"
+ , "c1" : "00119"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#119"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method applyWithSchema arguments R  record|Object  operatingValue|Schema  operatingSchema"
+ , "c3" : "QC-JAV000006[00119] For method applyWithSchema arguments R  record|Object  operatingValue|Schema  operatingSchema"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#104"
+ , "c1" : "00119"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#119"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00104] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00119] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#104"
+ , "c1" : "00119"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#119"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00104] The argument operatingSchema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00119] The argument operatingSchema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#120"
+ , "c1" : "00135"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00120] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00135] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00136"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#136"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00136] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00137"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#137"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00137] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00138"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#138"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00138] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00121] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.transforms.HeaderFrom.applyWithSchema@POLYN181550 the MagicNumber/String  'header ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#122"
+ , "c1" : "00134"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00122] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.transforms.HeaderFrom.applyWithSchema@POLYN181550 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#123"
+ , "c1" : "00137"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00123] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.transforms.HeaderFrom.applyWithSchema@POLYN181550 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#106"
+ , "c1" : "00137"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.transforms.HeaderFrom.applyWithSchema@POLYN181460 the MagicNumber/String  'header ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#119"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.transforms.HeaderFrom.applyWithSchema@POLYN181460 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#122"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.transforms.HeaderFrom.applyWithSchema@POLYN181460 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#122"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.transforms.HeaderFrom.applyWithSchema@POLYN181460 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#129"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00129] For method moveSchema arguments Schema  operatingSchema"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#129"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00129] The argument operatingSchema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#131"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.transforms.HeaderFrom.moveSchema@POLYN183477 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.transforms.HeaderFrom.applyWithSchema@POLYN181550 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#144"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00144] For method applySchemaless arguments R  record|Object  operatingValue"
+ , "c3" : "QC-JAV000006[00144] For method moveSchema arguments Schema  operatingSchema"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#144"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00144] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00149] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#150"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00150] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#151"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00151] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAVCWE476[00144] The argument operatingSchema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.transforms.HeaderFrom.applySchemaless@POLYN184423 the MagicNumber/String  'header ' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.transforms.HeaderFrom.moveSchema@POLYN183567 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#148"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.transforms.HeaderFrom.applySchemaless@POLYN184423 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#155"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.transforms.HeaderFrom.applySchemaless@POLYN184423 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#157"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.transforms.HeaderFrom.applySchemaless@POLYN184423 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#160"
+ , "c1" : "00159"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00160] For method operatingValue arguments R  record"
+ , "c3" : "QC-JAV000006[00159] For method applySchemaless arguments R  record|Object  operatingValue"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#159"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00159] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00164"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#164"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00164] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00165"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#165"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00165] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00166"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#166"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00166] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#161"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00161] For method operatingSchema arguments R  record"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.connect.transforms.HeaderFrom.applySchemaless@POLYN184513 the MagicNumber/String  'header ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#162"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00162] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue|Iterable&lt;Header &gt;  updatedHeaders"
+ , "c1" : "00163"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.transforms.HeaderFrom.applySchemaless@POLYN184513 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#167"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00167] For method operatingValue arguments R  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#167"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00167] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00170"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.transforms.HeaderFrom.applySchemaless@POLYN184513 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#172"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00172] For method operatingSchema arguments R  record"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.connect.transforms.HeaderFrom.applySchemaless@POLYN184513 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#172"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00172] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#175"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00175] For method operatingValue arguments R  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00176"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#176"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00176] For method operatingSchema arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -415,80 +380,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#177"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00177] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#186"
+ , "c1" : "00182"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#182"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00186] For method operatingValue arguments R  record"
+ , "c3" : "QC-JAV000006[00182] For method operatingValue arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#186"
+ , "c1" : "00182"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#182"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00186] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00182] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#191"
+ , "c1" : "00187"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#187"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00191] For method operatingSchema arguments R  record"
+ , "c3" : "QC-JAV000006[00187] For method operatingSchema arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#191"
+ , "c1" : "00187"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#187"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00191] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00187] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#196"
+ , "c1" : "00192"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#192"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00196] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue|Iterable&lt;Header &gt;  updatedHeaders"
+ , "c3" : "QC-JAV000006[00192] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue|Iterable&lt;Header &gt;  updatedHeaders"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#196"
+ , "c1" : "00192"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#192"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00196] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00192] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#213"
+ , "c1" : "00201"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#201"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00213] For method configure arguments Map&lt;String ,? &gt;  props"
+ , "c3" : "QC-JAV000006[00201] For method operatingValue arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#218"
+ , "c1" : "00201"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#201"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00201] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00206"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#206"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00206] For method operatingSchema arguments R  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00206"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#206"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00206] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#211"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00211] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue|Iterable&lt;Header &gt;  updatedHeaders"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#211"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00211] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00228"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#228"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00228] For method configure arguments Map&lt;String ,? &gt;  props"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00233"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.transforms.HeaderFrom.configure@POLYN188109 the MagicNumber/String  ''%s' config must have the same number of elements as '%s' config.' should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.transforms.HeaderFrom.configure@POLYN188199 the MagicNumber/String  ''%s' config must have the same number of elements as '%s' config.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#208"
+ , "c1" : "00223"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#223"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00208] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00223] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#208"
+ , "c1" : "00223"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#223"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00208] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00223] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

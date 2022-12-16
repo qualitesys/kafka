@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "java.util.Map" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#15"
+ , "c5" : "00137"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#137"
  , "c1" : "int"
  , "c2" : "size()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#18"
+ , "c5" : "00144"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#144"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#21"
+ , "c5" : "00163"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#163"
  , "c1" : "boolean"
  , "c2" : "containsKey(Object)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#24"
+ , "c5" : "00183"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#183"
  , "c1" : "boolean"
  , "c2" : "containsValue(Object)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#27"
+ , "c5" : "00210"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#210"
  , "c1" : "V"
  , "c2" : "get(Object)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#32"
+ , "c5" : "00238"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#238"
  , "c1" : "V"
  , "c2" : "put(K;V)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#35"
+ , "c5" : "00270"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#270"
  , "c1" : "V"
  , "c2" : "remove(Object)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#41"
+ , "c5" : "00294"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#294"
  , "c1" : "void"
  , "c2" : "putAll(Map<?extendsK,?extendsV>)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#44"
+ , "c5" : "00303"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#303"
  , "c1" : "void"
  , "c2" : "clear()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#50"
+ , "c5" : "00323"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#323"
  , "c1" : "Set<K>"
  , "c2" : "keySet()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#53"
+ , "c5" : "00340"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#340"
  , "c1" : "Collection<V>"
  , "c2" : "values()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#56"
+ , "c5" : "00358"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#358"
  , "c1" : "Set<Map.Entry<K,V>>"
  , "c2" : "entrySet()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00105"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#105"
+ , "c5" : "00543"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#543"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00108"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#108"
+ , "c5" : "00558"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#558"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00113"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#113"
+ , "c5" : "00584"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#584"
  , "c1" : "V"
  , "c2" : "getOrDefault(Object;V)"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00121"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#121"
+ , "c5" : "00616"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#616"
  , "c1" : "void"
  , "c2" : "forEach(BiConsumer<?superK,?superV>)"
  , "c3" : "2"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00138"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#138"
+ , "c5" : "00671"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#671"
  , "c1" : "void"
  , "c2" : "replaceAll(BiFunction<?superK,?superV,?extendsV>)"
  , "c3" : "2"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00164"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#164"
+ , "c5" : "00739"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#739"
  , "c1" : "V"
  , "c2" : "putIfAbsent(K;V)"
  , "c3" : "2"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00174"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#174"
+ , "c5" : "00782"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#782"
  , "c1" : "boolean"
  , "c2" : "remove(Object;Object)"
  , "c3" : "2"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00185"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#185"
+ , "c5" : "00834"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#834"
  , "c1" : "boolean"
  , "c2" : "replace(K;V;V)"
  , "c3" : "2"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00196"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#196"
+ , "c5" : "00882"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#882"
  , "c1" : "V"
  , "c2" : "replace(K;V)"
  , "c3" : "2"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00205"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#205"
+ , "c5" : "00949"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#949"
  , "c1" : "V"
  , "c2" : "computeIfAbsent(K;Function<?superK,?extendsV>)"
  , "c3" : "3"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00221"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#221"
+ , "c5" : "01010"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#1010"
  , "c1" : "V"
  , "c2" : "computeIfPresent(K;BiFunction<?superK,?superV,?extendsV>)"
  , "c3" : "5"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00240"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#240"
+ , "c5" : "01086"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#1086"
  , "c1" : "V"
  , "c2" : "compute(K;BiFunction<?superK,?superV,?extendsV>)"
  , "c3" : "5"
@@ -234,8 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00264"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#264"
+ , "c5" : "01167"
+ , "c5link" : "././qc/secujava/java.util.Map.java.html#1167"
  , "c1" : "V"
  , "c2" : "merge(K;V;BiFunction<?superV,?superV,?extendsV>)"
  , "c3" : "3"
@@ -284,45 +284,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/secujava/java.util.Map.java.html#121"
+ , "c1" : "00616"
+ , "c1link" : "./qc/secujava/java.util.Map.java.html#616"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00121] The argument action is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00616] The argument action is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/secujava/java.util.Map.java.html#138"
+ , "c1" : "00671"
+ , "c1link" : "./qc/secujava/java.util.Map.java.html#671"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00138] The argument zzzfunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00671] The argument zzzfunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/secujava/java.util.Map.java.html#206"
+ , "c1" : "00950"
+ , "c1link" : "./qc/secujava/java.util.Map.java.html#950"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00206] The argument mappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00950] The argument mappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00222"
- , "c1link" : "./qc/secujava/java.util.Map.java.html#222"
+ , "c1" : "01011"
+ , "c1link" : "./qc/secujava/java.util.Map.java.html#1011"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00222] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[01011] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/secujava/java.util.Map.java.html#241"
+ , "c1" : "01087"
+ , "c1link" : "./qc/secujava/java.util.Map.java.html#1087"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00241] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[01087] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/secujava/java.util.Map.java.html#265"
+ , "c1" : "01168"
+ , "c1link" : "./qc/secujava/java.util.Map.java.html#1168"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00265] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[01168] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

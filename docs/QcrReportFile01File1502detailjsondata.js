@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "secujava.Cookie" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00132"
- , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#132"
+ , "c5" : "00212"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#212"
  , "c1" : "Cookie"
  , "c2" : "Cookie(String;String)"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00169"
- , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#169"
+ , "c5" : "00259"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#259"
  , "c1" : "void"
  , "c2" : "setComment(String)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00181"
- , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#181"
+ , "c5" : "00278"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#278"
  , "c1" : "String"
  , "c2" : "getComment()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00201"
- , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#201"
+ , "c5" : "00313"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#313"
  , "c1" : "void"
  , "c2" : "setDomain(String)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00214"
- , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#214"
+ , "c5" : "00334"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#334"
  , "c1" : "String"
  , "c2" : "getDomain()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00238"
- , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#238"
+ , "c5" : "00377"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#377"
  , "c1" : "void"
  , "c2" : "setMaxAge(int)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00254"
- , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#254"
+ , "c5" : "00404"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#404"
  , "c1" : "int"
  , "c2" : "getMaxAge()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00466"
- , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c5" : "00623"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#623"
  , "c1" : "void"
  , "c2" : "setPath(String)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00466"
- , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c5" : "00623"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#623"
  , "c1" : "String"
  , "c2" : "getPath()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00466"
- , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c5" : "00623"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#623"
  , "c1" : "void"
  , "c2" : "setSecure(boolean)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00466"
- , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c5" : "00623"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#623"
  , "c1" : "boolean"
  , "c2" : "getSecure()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00466"
- , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c5" : "00623"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#623"
  , "c1" : "String"
  , "c2" : "getName()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00466"
- , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c5" : "00623"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#623"
  , "c1" : "void"
  , "c2" : "setValue(String)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00466"
- , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c5" : "00623"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#623"
  , "c1" : "String"
  , "c2" : "getValue()"
  , "c3" : "1"
@@ -260,164 +260,164 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#133"
+ , "c1" : "00213"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#133"
+ , "c1" : "00213"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#135"
+ , "c1" : "00215"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'err.cookie_name_blank' should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'err.cookie_name_blank' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#138"
+ , "c1" : "00218"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Comment' should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Comment' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#139"
+ , "c1" : "00219"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Discard' should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Discard' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#140"
+ , "c1" : "00220"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Domain' should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Domain' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#141"
+ , "c1" : "00221"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Expires' should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Expires' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#142"
+ , "c1" : "00222"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Max-Age' should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Max-Age' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#143"
+ , "c1" : "00223"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#223"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Path' should be converted to const"
+ , "c3" : "QC-JAV000010[00223] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Path' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#144"
+ , "c1" : "00224"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Secure' should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Secure' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#145"
+ , "c1" : "00225"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Version' should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Version' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#146"
+ , "c1" : "00226"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  '$' should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  '$' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#147"
+ , "c1" : "00227"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'err.cookie_name_is_token' should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'err.cookie_name_is_token' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#148"
+ , "c1" : "00228"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00228] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#149"
+ , "c1" : "00229"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#169"
+ , "c1" : "00259"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#259"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00169] For method setComment arguments String  purpose"
+ , "c3" : "QC-JAV000006[00259] For method setComment arguments String  purpose"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#201"
+ , "c1" : "00313"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#313"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00201] For method setDomain arguments String  domain"
+ , "c3" : "QC-JAV000006[00313] For method setDomain arguments String  domain"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#201"
+ , "c1" : "00313"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#313"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00201] For method setDomain list of called methods Object monObjet|java.lang.String domain_toLowerCaseN219931"
+ , "c3" : "QC-JAV000007[00313] For method setDomain list of called methods Object monObjet|java.lang.String domain_toLowerCaseN219931"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#201"
+ , "c1" : "00313"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#313"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00201] The argument domain is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00313] The argument domain is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#238"
+ , "c1" : "00377"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#377"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00238] For method setMaxAge arguments int  expiry"
+ , "c3" : "QC-JAV000006[00377] For method setMaxAge arguments int  expiry"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00466"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c1" : "00623"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#623"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00466] For method setPath arguments String  uri"
+ , "c3" : "QC-JAV000006[00623] For method setPath arguments String  uri"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00466"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c1" : "00623"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#623"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00466] For method setSecure arguments boolean  flag"
+ , "c3" : "QC-JAV000006[00623] For method setSecure arguments boolean  flag"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00466"
- , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c1" : "00623"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#623"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00466] For method setValue arguments String  newValue"
+ , "c3" : "QC-JAV000006[00623] For method setValue arguments String  newValue"
 }} 
 ,
 { "ligne" : {"" : ""

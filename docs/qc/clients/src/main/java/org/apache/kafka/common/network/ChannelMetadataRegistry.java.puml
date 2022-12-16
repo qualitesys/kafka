@@ -2,10 +2,10 @@
 !pragma layout smetana
 "Closeable" <|-- "org.apache.kafka.common.network.ChannelMetadataRegistry"
 class org.apache.kafka.common.network.ChannelMetadataRegistry {
-registerCipherInformation(CipherInformation) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#10]]]
-cipherInformation() : CipherInformation [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#13]]]
-registerClientInformation(ClientInformation) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#16]]]
-clientInformation() : ClientInformation [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#19]]]
-close() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#22]]]
+registerCipherInformation(CipherInformation) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#31]]]
+cipherInformation() : CipherInformation [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#36]]]
+registerClientInformation(ClientInformation) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#44]]]
+clientInformation() : ClientInformation [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#49]]]
+close() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#54]]]
 } 
 @enduml

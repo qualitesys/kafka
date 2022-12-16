@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.security.kerberos.KerberosName"
 class org.apache.kafka.common.security.kerberos.KerberosName {
-+KerberosName(String;String;String) : KerberosName [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#20]]]
-+parse(String) : KerberosName [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#29]]]
-+toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#44]]]
-+serviceName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#59]]]
-+hostName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#64]]]
-+realm() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#69]]]
++KerberosName(String;String;String) : KerberosName [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#41]]]
++parse(String) : KerberosName [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#52]]]
++toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#69]]]
++serviceName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#87]]]
++hostName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#95]]]
++realm() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#103]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.ConnectorStatus" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00007"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java.html#7"
+ , "c5" : "00022"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java.html#22"
  , "c1" : "ConnectorStatus"
  , "c2" : "ConnectorStatus(String;State;String;String;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java.html#11"
+ , "c5" : "00026"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java.html#26"
  , "c1" : "ConnectorStatus"
  , "c2" : "ConnectorStatus(String;State;String;int)"
  , "c3" : "1"
@@ -77,10 +77,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java.html#12"
+ , "c1" : "00027"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.connect.runtime.ConnectorStatus.ConnectorStatus@POLYN149643 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.runtime.ConnectorStatus.ConnectorStatus@POLYN149883 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

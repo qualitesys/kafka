@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.timeline.Snapshot" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#15"
+ , "c5" : "00036"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#36"
  , "c1" : "Snapshot"
  , "c2" : "Snapshot(long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#19"
+ , "c5" : "00040"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#40"
  , "c1" : "long"
  , "c2" : "epoch()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#28"
+ , "c5" : "00049"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#49"
  , "c1" : "void"
  , "c2" : "setDelta(Revertable;Delta)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#32"
+ , "c5" : "00053"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#53"
  , "c1" : "void"
  , "c2" : "handleRevert()"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#38"
+ , "c5" : "00059"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#59"
  , "c1" : "void"
  , "c2" : "mergeFrom(Snapshot)"
  , "c3" : "3"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#55"
+ , "c5" : "00076"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#76"
  , "c1" : "Snapshot"
  , "c2" : "prev()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#59"
+ , "c5" : "00080"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#80"
  , "c1" : "Snapshot"
  , "c2" : "next()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#63"
+ , "c5" : "00084"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#84"
  , "c1" : "void"
  , "c2" : "appendNext(Snapshot)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#70"
+ , "c5" : "00091"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#91"
  , "c1" : "void"
  , "c2" : "erase()"
  , "c3" : "1"
@@ -161,59 +161,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#28"
+ , "c1" : "00049"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method setDelta arguments Revertable  owner|Delta  delta"
+ , "c3" : "QC-JAV000006[00049] For method setDelta arguments Revertable  owner|Delta  delta"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#38"
+ , "c1" : "00059"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method mergeFrom arguments Snapshot  source"
+ , "c3" : "QC-JAV000006[00059] For method mergeFrom arguments Snapshot  source"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#38"
+ , "c1" : "00059"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#59"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00038] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00059] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#43"
+ , "c1" : "00064"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00043] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00064] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#44"
+ , "c1" : "00065"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.timeline.Snapshot.mergeFrom@POLYN150501 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.timeline.Snapshot.mergeFrom@POLYN150627 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#63"
+ , "c1" : "00084"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00063] For method appendNext arguments Snapshot  newNext"
+ , "c3" : "QC-JAV000006[00084] For method appendNext arguments Snapshot  newNext"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#63"
+ , "c1" : "00084"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#84"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00063] The argument newNext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00084] The argument newNext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#71"
+ , "c1" : "00092"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.timeline.Snapshot.erase@POLYN151564 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.timeline.Snapshot.erase@POLYN151690 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

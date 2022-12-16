@@ -2,9 +2,9 @@
 !pragma layout smetana
 "AbstractRequest" <|-- "org.apache.kafka.common.requests.AddOffsetsToTxnRequest"
 class org.apache.kafka.common.requests.AddOffsetsToTxnRequest {
-+AddOffsetsToTxnRequest(AddOffsetsToTxnRequestData;short) : AddOffsetsToTxnRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#35]]]
-+data() : AddOffsetsToTxnRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#41]]]
-+getErrorResponse(int;Throwable) : AddOffsetsToTxnResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#46]]]
-+parse(ByteBuffer;short) : AddOffsetsToTxnRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#52]]]
++AddOffsetsToTxnRequest(AddOffsetsToTxnRequestData;short) : AddOffsetsToTxnRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#50]]]
++data() : AddOffsetsToTxnRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#56]]]
++getErrorResponse(int;Throwable) : AddOffsetsToTxnResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#61]]]
++parse(ByteBuffer;short) : AddOffsetsToTxnRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#67]]]
 } 
 @enduml

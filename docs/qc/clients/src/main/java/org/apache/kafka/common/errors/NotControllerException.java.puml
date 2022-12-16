@@ -2,7 +2,7 @@
 !pragma layout smetana
 "RetriableException" <|-- "org.apache.kafka.common.errors.NotControllerException"
 class org.apache.kafka.common.errors.NotControllerException {
-+NotControllerException(String) : NotControllerException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotControllerException.java.html#8]]]
-+NotControllerException(String;Throwable) : NotControllerException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotControllerException.java.html#12]]]
++NotControllerException(String) : NotControllerException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotControllerException.java.html#23]]]
++NotControllerException(String;Throwable) : NotControllerException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotControllerException.java.html#27]]]
 } 
 @enduml

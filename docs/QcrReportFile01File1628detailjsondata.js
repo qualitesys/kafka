@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.internals.StreamsConfigUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#38"
  , "c1" : "ProcessingMode"
  , "c2" : "processingMode(StreamsConfig)"
  , "c3" : "7"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#36"
+ , "c5" : "00051"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#51"
  , "c1" : "String"
  , "c2" : "processingModeString(ProcessingMode)"
  , "c3" : "5"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#46"
+ , "c5" : "00061"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#61"
  , "c1" : "boolean"
  , "c2" : "eosEnabled(StreamsConfig)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#50"
+ , "c5" : "00065"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#65"
  , "c1" : "boolean"
  , "c2" : "eosEnabled(ProcessingMode)"
  , "c3" : "1"
@@ -102,38 +102,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method processingMode arguments StreamsConfig  config"
+ , "c3" : "QC-JAV000006[00038] For method processingMode arguments StreamsConfig  config"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#38"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00023] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00038] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method processingModeString arguments ProcessingMode  processingMode"
+ , "c3" : "QC-JAV000006[00051] For method processingModeString arguments ProcessingMode  processingMode"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#46"
+ , "c1" : "00061"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method eosEnabled arguments StreamsConfig  config"
+ , "c3" : "QC-JAV000006[00061] For method eosEnabled arguments StreamsConfig  config"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#50"
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method eosEnabled arguments ProcessingMode  processingMode"
+ , "c3" : "QC-JAV000006[00065] For method eosEnabled arguments ProcessingMode  processingMode"
 }} 
 ]
 , 

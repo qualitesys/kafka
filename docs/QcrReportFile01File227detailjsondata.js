@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.ProducerConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00456"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#456"
+ , "c5" : "00481"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#481"
  , "c1" : "Map<String,Object>"
  , "c2" : "postProcessParsedConfig(Map<String,Object>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00464"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#464"
+ , "c5" : "00489"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#489"
  , "c1" : "void"
  , "c2" : "maybeOverrideClientId(Map<String,Object>)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00476"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#476"
+ , "c5" : "00501"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#501"
  , "c1" : "void"
  , "c2" : "postProcessAndValidateIdempotenceConfigs(Map<String,Object>)"
  , "c3" : "10"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00529"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#529"
+ , "c5" : "00554"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#554"
  , "c1" : "String"
  , "c2" : "parseAcks(String)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00537"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#537"
+ , "c5" : "00562"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#562"
  , "c1" : "Map<String,Object>"
  , "c2" : "appendSerializerToConfig(Map<String,Object>;Serializer<?>;Serializer<?>)"
  , "c3" : "7"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00553"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#553"
+ , "c5" : "00578"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#578"
  , "c1" : "ProducerConfig"
  , "c2" : "ProducerConfig(Properties)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00557"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#557"
+ , "c5" : "00582"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#582"
  , "c1" : "ProducerConfig"
  , "c2" : "ProducerConfig(Map<String,Object>)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00561"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#561"
+ , "c5" : "00586"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#586"
  , "c1" : "ProducerConfig"
  , "c2" : "ProducerConfig(Map<?,?>;boolean)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00565"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#565"
+ , "c5" : "00590"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#590"
  , "c1" : "Set<String>"
  , "c2" : "configNames()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00569"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#569"
+ , "c5" : "00594"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#594"
  , "c1" : "ConfigDef"
  , "c2" : "configDef()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00573"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#573"
+ , "c5" : "00598"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#598"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "1"
@@ -202,507 +202,507 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00456"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#456"
+ , "c1" : "00481"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#481"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00456] For method postProcessParsedConfig arguments Map&lt;String ,Object &gt;  parsedValues"
+ , "c3" : "QC-JAV000006[00481] For method postProcessParsedConfig arguments Map&lt;String ,Object &gt;  parsedValues"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00456"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#456"
+ , "c1" : "00481"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#481"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00456] For method postProcessParsedConfig list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; CommonClientConfigs_postProcessReconnectBackoffConfigsN235452"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00464"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#464"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00464] For method maybeOverrideClientId arguments Map&lt;String ,Object &gt;  configs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00464"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#464"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00464] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00471"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#471"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.clients.producer.ProducerConfig.maybeOverrideClientId@POLYN235695 the MagicNumber/String  'producer-' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00471"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#471"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.clients.producer.ProducerConfig.maybeOverrideClientId@POLYN235695 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00476"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#476"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00476] For method postProcessAndValidateIdempotenceConfigs arguments Map&lt;String ,Object &gt;  configs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00476"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#476"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00476] For method postProcessAndValidateIdempotenceConfigs list of called methods Object monObjet|java.lang.String parseAcksN236727|short Short_parseShortN237758"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00476"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#476"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00476] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00482"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#482"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00482] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00487"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#487"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000007[00481] For method postProcessParsedConfig list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; CommonClientConfigs_postProcessReconnectBackoffConfigsN235602"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00489"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#489"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  'Must set ' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00489] For method maybeOverrideClientId arguments Map&lt;String ,Object &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00489"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#489"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  ' to non-zero when using the idempotent producer.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00491"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#491"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00491] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  'Idempotence will be disabled because {} is set to 0.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00492"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#492"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00492] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  true should be converted to const"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00489] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00496"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#496"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.clients.producer.ProducerConfig.maybeOverrideClientId@POLYN235845 the MagicNumber/String  'producer-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00498"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#498"
+ , "c1" : "00496"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#496"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  'Must set ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00498"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#498"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  ' to all in order to use the idempotent ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00499"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#499"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  'producer. Otherwise we cannot guarantee idempotence.' should be converted to const"
+ , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.clients.producer.ProducerConfig.maybeOverrideClientId@POLYN235845 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00501"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#501"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  'Idempotence will be disabled because {} is set to {}, not set to 'all'.' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00501] For method postProcessAndValidateIdempotenceConfigs arguments Map&lt;String ,Object &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00502"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#502"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00501"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#501"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00501] For method postProcessAndValidateIdempotenceConfigs list of called methods Object monObjet|java.lang.String parseAcksN236877|short Short_parseShortN237908"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00508"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#508"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  'Must set ' should be converted to const"
+ , "c1" : "00501"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#501"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00501] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00508"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#508"
+ , "c1" : "00507"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#507"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  ' to at most 5' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00509"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#509"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  ' to use the idempotent producer.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00511"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#511"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  'Idempotence will be disabled because {} is set to {}, which is greater than 5. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00507] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00512"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#512"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  'Please note that in v4.0.0 and onward, this will become an error.' should be converted to const"
+ , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00513"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#513"
+ , "c1" : "00514"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#514"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  'Must set ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00518"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#518"
+ , "c1" : "00514"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#514"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00518] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  ' to non-zero when using the idempotent producer.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00519"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#519"
+ , "c1" : "00516"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#516"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00519] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  'Idempotence will be disabled because {} is set to 0.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00525"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#525"
+ , "c1" : "00517"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#517"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00525] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  'Cannot set a ' should be converted to const"
+ , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00525"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#525"
+ , "c1" : "00521"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#521"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00525] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String  ' without also enabling idempotence.' should be converted to const"
+ , "c3" : "QC-JAV000010[00521] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00529"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#529"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00529] For method parseAcks arguments String  acksString"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00529"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#529"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00529] The argument acksString is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00531"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#531"
+ , "c1" : "00523"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#523"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.clients.producer.ProducerConfig.parseAcks@POLYN239380 the MagicNumber/String  'all' should be converted to const"
+ , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  'Must set ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00531"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#531"
+ , "c1" : "00523"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#523"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.clients.producer.ProducerConfig.parseAcks@POLYN239380 the MagicNumber/String  '-1' should be converted to const"
+ , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  ' to all in order to use the idempotent ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00531"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#531"
+ , "c1" : "00524"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#524"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.clients.producer.ProducerConfig.parseAcks@POLYN239380 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00524] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  'producer. Otherwise we cannot guarantee idempotence.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00526"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#526"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  'Idempotence will be disabled because {} is set to {}, not set to 'all'.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00527"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#527"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00527] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00533"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#533"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.clients.producer.ProducerConfig.parseAcks@POLYN239380 the MagicNumber/String  'Invalid configuration value for 'acks': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  'Must set ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00533"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#533"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  ' to at most 5' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00534"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#534"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00534] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  ' to use the idempotent producer.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00536"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#536"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00536] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  'Idempotence will be disabled because {} is set to {}, which is greater than 5. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00537"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#537"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00537] For method appendSerializerToConfig arguments Map&lt;String ,Object &gt;  configs|Serializer&lt;? &gt;  keySerializer|Serializer&lt;? &gt;  valueSerializer"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  'Please note that in v4.0.0 and onward, this will become an error.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00542"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#542"
+ , "c1" : "00538"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#538"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00542] In method org.apache.kafka.clients.producer.ProducerConfig.appendSerializerToConfig@POLYN239917 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00543"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#543"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00544"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#544"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00544] In method org.apache.kafka.clients.producer.ProducerConfig.appendSerializerToConfig@POLYN239917 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00544] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00545"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#545"
+ , "c1" : "00550"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#550"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.clients.producer.ProducerConfig.appendSerializerToConfig@POLYN239917 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00550] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  'Cannot set a ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00545"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#545"
+ , "c1" : "00550"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#550"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.clients.producer.ProducerConfig.appendSerializerToConfig@POLYN239917 the MagicNumber/String  'must be non-null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00550] In method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String  ' without also enabling idempotence.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00546"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#546"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00546] In method org.apache.kafka.clients.producer.ProducerConfig.appendSerializerToConfig@POLYN239917 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00554"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#554"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00554] For method parseAcks arguments String  acksString"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00548"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#548"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.clients.producer.ProducerConfig.appendSerializerToConfig@POLYN239917 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00554"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#554"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00554] The argument acksString is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00549"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#549"
+ , "c1" : "00556"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#556"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00549] In method org.apache.kafka.clients.producer.ProducerConfig.appendSerializerToConfig@POLYN239917 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.clients.producer.ProducerConfig.parseAcks@POLYN239530 the MagicNumber/String  'all' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00549"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#549"
+ , "c1" : "00556"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#556"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00549] In method org.apache.kafka.clients.producer.ProducerConfig.appendSerializerToConfig@POLYN239917 the MagicNumber/String  'must be non-null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.clients.producer.ProducerConfig.parseAcks@POLYN239530 the MagicNumber/String  '-1' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00556"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#556"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.clients.producer.ProducerConfig.parseAcks@POLYN239530 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00558"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#558"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.clients.producer.ProducerConfig.parseAcks@POLYN239530 the MagicNumber/String  'Invalid configuration value for 'acks': ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00562"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#562"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00562] For method appendSerializerToConfig arguments Map&lt;String ,Object &gt;  configs|Serializer&lt;? &gt;  keySerializer|Serializer&lt;? &gt;  valueSerializer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00567"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#567"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.clients.producer.ProducerConfig.appendSerializerToConfig@POLYN240067 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00569"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#569"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00569] In method org.apache.kafka.clients.producer.ProducerConfig.appendSerializerToConfig@POLYN240067 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00570"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#570"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00570] In method org.apache.kafka.clients.producer.ProducerConfig.appendSerializerToConfig@POLYN240067 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00570"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#570"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00570] In method org.apache.kafka.clients.producer.ProducerConfig.appendSerializerToConfig@POLYN240067 the MagicNumber/String  'must be non-null.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00571"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#571"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00571] In method org.apache.kafka.clients.producer.ProducerConfig.appendSerializerToConfig@POLYN240067 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00573"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#573"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00573] In method org.apache.kafka.clients.producer.ProducerConfig.appendSerializerToConfig@POLYN240067 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00574"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#574"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.clients.producer.ProducerConfig.appendSerializerToConfig@POLYN240067 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00574"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#574"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.clients.producer.ProducerConfig.appendSerializerToConfig@POLYN240067 the MagicNumber/String  'must be non-null.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00598"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#598"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00573] For method main arguments String[]  args"
+ , "c3" : "QC-JAV000006[00598] For method main arguments String[]  args"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00574"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#574"
+ , "c1" : "00599"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#599"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.clients.producer.ProducerConfig.main@POLYN241841 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00599] In method org.apache.kafka.clients.producer.ProducerConfig.main@POLYN241991 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00574"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#574"
+ , "c1" : "00599"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#599"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.clients.producer.ProducerConfig.main@POLYN241841 the MagicNumber/String  'producerconfigs_' should be converted to const"
+ , "c3" : "QC-JAV000010[00599] In method org.apache.kafka.clients.producer.ProducerConfig.main@POLYN241991 the MagicNumber/String  'producerconfigs_' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00482"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#482"
+ , "c1" : "00507"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#507"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00482] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00487"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#487"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00487] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00489"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#489"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00489] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String ' to non-zero when using the idempotent producer.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00489"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#489"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00489] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String 'Must set ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00491"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#491"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00491] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String 'Idempotence will be disabled because {} is set to 0.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00492"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#492"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00492] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00496"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#496"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00496] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00498"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#498"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00498] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String ' to all in order to use the idempotent ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00498"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#498"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00498] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String 'Must set ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00499"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#499"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00499] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String 'producer. Otherwise we cannot guarantee idempotence.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00501"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#501"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00501] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String 'Idempotence will be disabled because {} is set to {}, not set to 'all'.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00502"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#502"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00502] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00508"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#508"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00508] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String ' to at most 5' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00508"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#508"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00508] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String 'Must set ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00509"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#509"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00509] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String ' to use the idempotent producer.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00511"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#511"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00511] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String 'Idempotence will be disabled because {} is set to {}, which is greater than 5. ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00507] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00512"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#512"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00512] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String 'Please note that in v4.0.0 and onward, this will become an error.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00512] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00513"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#513"
+ , "c1" : "00514"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#514"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00513] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00514] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String ' to non-zero when using the idempotent producer.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00518"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#518"
+ , "c1" : "00514"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#514"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00518] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00514] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String 'Must set ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00519"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#519"
+ , "c1" : "00516"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#516"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00519] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00516] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String 'Idempotence will be disabled because {} is set to 0.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00525"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#525"
+ , "c1" : "00517"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#517"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00525] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String ' without also enabling idempotence.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00517] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00525"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#525"
+ , "c1" : "00521"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#521"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00525] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String 'Cannot set a ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00521] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00523"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#523"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00523] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String ' to all in order to use the idempotent ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00523"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#523"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00523] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String 'Must set ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00524"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#524"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00524] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String 'producer. Otherwise we cannot guarantee idempotence.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00526"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#526"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00526] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String 'Idempotence will be disabled because {} is set to {}, not set to 'all'.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00527"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#527"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00527] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00533"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#533"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00533] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String ' to at most 5' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00533"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#533"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00533] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String 'Must set ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00534"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#534"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00534] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String ' to use the idempotent producer.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00536"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#536"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00536] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String 'Idempotence will be disabled because {} is set to {}, which is greater than 5. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00537"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#537"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00537] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String 'Please note that in v4.0.0 and onward, this will become an error.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00538"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#538"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00538] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00543"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#543"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00543] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00544"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#544"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00544] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00550"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#550"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00550] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String ' without also enabling idempotence.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00550"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#550"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00550] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236624 the MagicNumber/String 'Cannot set a ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

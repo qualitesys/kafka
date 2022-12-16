@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.StopReplicaResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#20"
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#41"
  , "c1" : "StopReplicaResponse"
  , "c2" : "StopReplicaResponse(StopReplicaResponseData)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#25"
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#46"
  , "c1" : "List<StopReplicaPartitionError>"
  , "c2" : "partitionErrors()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#29"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#50"
  , "c1" : "Errors"
  , "c2" : "error()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#34"
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#55"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#43"
+ , "c5" : "00064"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#64"
  , "c1" : "StopReplicaResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#48"
+ , "c5" : "00069"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#69"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#53"
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#74"
  , "c1" : "StopReplicaResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#58"
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#79"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -161,38 +161,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#34"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00034] For method errorCounts list of called methods Object monObjet|java.util.Map&lt;Errors,java.lang.Integer&gt; errorCountsN150812"
+ , "c3" : "QC-JAV000007[00055] For method errorCounts list of called methods Object monObjet|java.util.Map&lt;Errors,java.lang.Integer&gt; errorCountsN150938"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#37"
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.requests.StopReplicaResponse.errorCounts@POLYN150426 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.StopReplicaResponse.errorCounts@POLYN150552 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#43"
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#64"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00064] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaResponse.partitionErrors@POLYN150124"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaResponse.partitionErrors@POLYN150250"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaResponse.toString@POLYN151705"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaResponse.toString@POLYN151831"
 }} 
 ]
 , 

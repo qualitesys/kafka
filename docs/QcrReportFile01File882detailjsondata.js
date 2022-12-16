@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.AbstractIterator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#18"
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#36"
  , "c1" : "boolean"
  , "c2" : "hasNext()"
  , "c3" : "4"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#32"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#50"
  , "c1" : "T"
  , "c2" : "next()"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#42"
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#60"
  , "c1" : "void"
  , "c2" : "remove()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#46"
+ , "c5" : "00064"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#64"
  , "c1" : "T"
  , "c2" : "peek()"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#52"
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#70"
  , "c1" : "T"
  , "c2" : "allDone()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#57"
+ , "c5" : "00075"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#75"
  , "c1" : "T"
  , "c2" : "makeNext()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#59"
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#77"
  , "c1" : "Boolean"
  , "c2" : "maybeComputeNext()"
  , "c3" : "3"
@@ -122,66 +122,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#21"
+ , "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.utils.AbstractIterator.hasNext@POLYN147074 the MagicNumber/String  'Iterator is in failed state' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.utils.AbstractIterator.hasNext@POLYN147182 the MagicNumber/String  'Iterator is in failed state' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#23"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.utils.AbstractIterator.hasNext@POLYN147074 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#25"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.utils.AbstractIterator.hasNext@POLYN147074 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.utils.AbstractIterator.next@POLYN147494 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.utils.AbstractIterator.next@POLYN147494 the MagicNumber/String  'Expected item but none found.' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.utils.AbstractIterator.hasNext@POLYN147182 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.utils.AbstractIterator.remove@POLYN147886 the MagicNumber/String  'Removal not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.utils.AbstractIterator.hasNext@POLYN147182 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.utils.AbstractIterator.allDone@POLYN148201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.utils.AbstractIterator.next@POLYN147602 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#63"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.utils.AbstractIterator.maybeComputeNext@POLYN148400 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.utils.AbstractIterator.next@POLYN147602 the MagicNumber/String  'Expected item but none found.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#66"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.utils.AbstractIterator.maybeComputeNext@POLYN148400 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.utils.AbstractIterator.remove@POLYN147994 the MagicNumber/String  'Removal not supported' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.utils.AbstractIterator.allDone@POLYN148309 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.utils.AbstractIterator.maybeComputeNext@POLYN148508 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.utils.AbstractIterator.maybeComputeNext@POLYN148508 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

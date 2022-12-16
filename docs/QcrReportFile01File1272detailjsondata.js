@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.jmh.cache.LRUCacheBenchmark" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#65"
+ , "c5" : "00084"
+ , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#84"
  , "c1" : "void"
  , "c2" : "setUp()"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#65"
+ , "c5" : "00084"
+ , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#84"
  , "c1" : "String"
  , "c2" : "testCachePerformance()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#65"
+ , "c5" : "00084"
+ , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#84"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "1"
@@ -107,45 +107,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#65"
+ , "c1" : "00084"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.setUp@POLYN152375 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.setUp@POLYN152489 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#65"
+ , "c1" : "00084"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.setUp@POLYN152375 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.setUp@POLYN152489 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#65"
+ , "c1" : "00084"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method main arguments String[]  args"
+ , "c3" : "QC-JAV000006[00084] For method main arguments String[]  args"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#65"
+ , "c1" : "00084"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#84"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE572[00065] The program calls a thread's run() method instead of calling start()"
+ , "c3" : "QC-JAVCWE572[00084] The program calls a thread's run() method instead of calling start()"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#65"
+ , "c1" : "00084"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.main@POLYN153403 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.main@POLYN153517 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#65"
+ , "c1" : "00084"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#84"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00065] Public method main is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00084] Public method main is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

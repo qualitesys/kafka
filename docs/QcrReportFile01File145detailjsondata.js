@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.UpdateFeaturesOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#13"
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#32"
  , "c1" : "boolean"
  , "c2" : "dryRun()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#17"
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#36"
  , "c1" : "boolean"
  , "c2" : "validateOnly()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#22"
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#41"
  , "c1" : "UpdateFeaturesOptions"
  , "c2" : "dryRun(boolean)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#26"
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#45"
  , "c1" : "UpdateFeaturesOptions"
  , "c2" : "validateOnly(boolean)"
  , "c3" : "1"
@@ -95,17 +95,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#22"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method dryRun arguments boolean  dryRun"
+ , "c3" : "QC-JAV000006[00041] For method dryRun arguments boolean  dryRun"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#26"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method validateOnly arguments boolean  validateOnly"
+ , "c3" : "QC-JAV000006[00045] For method validateOnly arguments boolean  validateOnly"
 }} 
 ]
 , 

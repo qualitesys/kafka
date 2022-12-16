@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.FenceProducersResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#20"
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#39"
  , "c1" : "FenceProducersResult"
  , "c2" : "FenceProducersResult(Map<CoordinatorKey,KafkaFuture<ProducerIdAndEpoch>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#25"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#47"
  , "c1" : "Map<String,KafkaFuture<Void>>"
  , "c2" : "fencedProducers()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#33"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#57"
  , "c1" : "KafkaFuture<Long>"
  , "c2" : "producerId(String)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#38"
+ , "c5" : "00064"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#64"
  , "c1" : "KafkaFuture<Short>"
  , "c2" : "epochId(String)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#43"
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#71"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -118,73 +118,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.FenceProducersResult.fencedProducers@POLYN152205 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#33"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method producerId arguments String  transactionalId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method epochId arguments String  transactionalId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.FenceProducersResult.all@POLYN153268 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.admin.FenceProducersResult the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.admin.FenceProducersResult.fencedProducers@POLYN152373 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#51"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#57"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00057] For method producerId arguments String  transactionalId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#64"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00064] For method epochId arguments String  transactionalId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.admin.FenceProducersResult the MagicNumber/String  'TransactionalId ' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.admin.FenceProducersResult.all@POLYN153436 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#52"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.admin.FenceProducersResult the MagicNumber/String  '`' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.admin.FenceProducersResult the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#52"
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.admin.FenceProducersResult the MagicNumber/String  '` was not included in the request' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.admin.FenceProducersResult the MagicNumber/String  'TransactionalId ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#33"
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.admin.FenceProducersResult the MagicNumber/String  '`' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.admin.FenceProducersResult the MagicNumber/String  '` was not included in the request' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#57"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00033] Public method producerId is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00057] Public method producerId is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#38"
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#64"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00038] Public method epochId is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00064] Public method epochId is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

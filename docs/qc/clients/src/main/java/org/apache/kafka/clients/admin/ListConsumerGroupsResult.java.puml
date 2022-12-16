@@ -2,9 +2,9 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.ListConsumerGroupsResult"
 class org.apache.kafka.clients.admin.ListConsumerGroupsResult {
-ListConsumerGroupsResult(KafkaFuture<Collection<Object>>) : ListConsumerGroupsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#19]]]
-+all() : KafkaFuture<Collection<ConsumerGroupListing>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#48]]]
-+valid() : KafkaFuture<Collection<ConsumerGroupListing>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#53]]]
-+errors() : KafkaFuture<Collection<Throwable>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#58]]]
+ListConsumerGroupsResult(KafkaFuture<Collection<Object>>) : ListConsumerGroupsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#38]]]
++all() : KafkaFuture<Collection<ConsumerGroupListing>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#73]]]
++valid() : KafkaFuture<Collection<ConsumerGroupListing>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#86]]]
++errors() : KafkaFuture<Collection<Throwable>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#99]]]
 } 
 @enduml

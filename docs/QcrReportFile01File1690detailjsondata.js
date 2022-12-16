@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.Change" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#11"
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#26"
  , "c1" : "Change"
  , "c2" : "Change(T;T)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#32"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#22"
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#37"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#35"
+ , "c5" : "00050"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#50"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -109,59 +109,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#18"
+ , "c1" : "00033"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.kstream.internals.Change.toString@POLYN144437 the MagicNumber/String  '(' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.internals.Change.toString@POLYN144527 the MagicNumber/String  '(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#18"
+ , "c1" : "00033"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.kstream.internals.Change.toString@POLYN144437 the MagicNumber/String  '&amp;lt;-' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.internals.Change.toString@POLYN144527 the MagicNumber/String  '&amp;lt;-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#18"
+ , "c1" : "00033"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.kstream.internals.Change.toString@POLYN144437 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.internals.Change.toString@POLYN144527 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#22"
+ , "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00037] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00026] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00041] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#24"
+ , "c1" : "00039"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.kstream.internals.Change.equals@POLYN144631 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.internals.Change.equals@POLYN144721 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.kstream.internals.Change.equals@POLYN144631 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.kstream.internals.Change.equals@POLYN144721 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#27"
+ , "c1" : "00042"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.kstream.internals.Change.equals@POLYN144631 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.internals.Change.equals@POLYN144721 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

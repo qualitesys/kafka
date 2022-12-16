@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.DeleteTopicsRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#52"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#67"
  , "c1" : "DeleteTopicsRequest"
  , "c2" : "DeleteTopicsRequest(DeleteTopicsRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#58"
+ , "c5" : "00073"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#73"
  , "c1" : "DeleteTopicsRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#63"
+ , "c5" : "00078"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#78"
  , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#78"
+ , "c5" : "00093"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#93"
  , "c1" : "List<String>"
  , "c2" : "topicNames()"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#84"
+ , "c5" : "00099"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#99"
  , "c1" : "int"
  , "c2" : "numberOfTopics()"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#90"
+ , "c5" : "00105"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#105"
  , "c1" : "List<Uuid>"
  , "c2" : "topicIds()"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00096"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#96"
+ , "c5" : "00111"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#111"
  , "c1" : "List<DeleteTopicState>"
  , "c2" : "topics()"
  , "c3" : "2"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00102"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#102"
+ , "c5" : "00117"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#117"
  , "c1" : "DeleteTopicsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -168,129 +168,129 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00044] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.DeleteTopicsRequest.Builder.build@POLYN157777 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.requests.DeleteTopicsRequest.Builder.build@POLYN157867 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method groupByTopic arguments List&lt;String &gt;  topics"
+ , "c3" : "QC-JAV000006[00051] For method groupByTopic arguments List&lt;String &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#63"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00063] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00078] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#63"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00063] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN159547"
+ , "c3" : "QC-JAV000007[00078] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN159637"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#65"
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.requests.DeleteTopicsRequest.getErrorResponse@POLYN159192 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.requests.DeleteTopicsRequest.getErrorResponse@POLYN159282 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#79"
+ , "c1" : "00094"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.requests.DeleteTopicsRequest.topicNames@POLYN160107 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.requests.DeleteTopicsRequest.topicNames@POLYN160197 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#85"
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.requests.DeleteTopicsRequest.numberOfTopics@POLYN160500 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.requests.DeleteTopicsRequest.numberOfTopics@POLYN160590 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#91"
+ , "c1" : "00106"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.requests.DeleteTopicsRequest.topicIds@POLYN160790 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.requests.DeleteTopicsRequest.topicIds@POLYN160880 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#97"
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.requests.DeleteTopicsRequest.topics@POLYN161204 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.requests.DeleteTopicsRequest.topics@POLYN161294 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#102"
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#117"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00102] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00117] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteTopicsRequest.Builder.toString@POLYN158689"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteTopicsRequest.Builder.toString@POLYN158779"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteTopicsRequest.numberOfTopics@POLYN160500"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteTopicsRequest.numberOfTopics@POLYN160590"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteTopicsRequest.topicNames@POLYN160107"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteTopicsRequest.topicNames@POLYN160197"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteTopicsRequest.topics@POLYN161204"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteTopicsRequest.topics@POLYN161294"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#85"
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#100"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.common.requests.DeleteTopicsRequest.numberOfTopics@POLYN160500 the MagicNumber/String 6 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.common.requests.DeleteTopicsRequest.numberOfTopics@POLYN160590 the MagicNumber/String 6 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#79"
+ , "c1" : "00094"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#94"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.common.requests.DeleteTopicsRequest.topicNames@POLYN160107 the MagicNumber/String 6 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.common.requests.DeleteTopicsRequest.topicNames@POLYN160197 the MagicNumber/String 6 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#97"
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#112"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00097] In the recursive method org.apache.kafka.common.requests.DeleteTopicsRequest.topics@POLYN161204 the MagicNumber/String 6 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00112] In the recursive method org.apache.kafka.common.requests.DeleteTopicsRequest.topics@POLYN161294 the MagicNumber/String 6 MUST BE CONVERTED to const"
 }} 
 ]
 , 

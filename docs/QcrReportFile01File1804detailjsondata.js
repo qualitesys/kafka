@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#26"
+ , "c5" : "00050"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#50"
  , "c1" : "ProcessorParameters"
  , "c2" : "ProcessorParameters(org.apache.kafka.streams.processor.ProcessorSupplier<KIn,VIn>;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#34"
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#58"
  , "c1" : "ProcessorParameters"
  , "c2" : "ProcessorParameters(ProcessorSupplier<KIn,VIn,KOut,VOut>;String)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#42"
+ , "c5" : "00066"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#66"
  , "c1" : "ProcessorParameters"
  , "c2" : "ProcessorParameters(FixedKeyProcessorSupplier<KIn,VIn,VOut>;String)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#50"
+ , "c5" : "00074"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#74"
  , "c1" : "ProcessorSupplier<KIn,VIn,KOut,VOut>"
  , "c2" : "processorSupplier()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#54"
+ , "c5" : "00078"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#78"
  , "c1" : "FixedKeyProcessorSupplier<KIn,VIn,VOut>"
  , "c2" : "fixedKeyProcessorSupplier()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#58"
+ , "c5" : "00082"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#82"
  , "c1" : "void"
  , "c2" : "addProcessorTo(InternalTopologyBuilder;String[])"
  , "c3" : "9"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#87"
+ , "c5" : "00111"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#111"
  , "c1" : "KTableSource<KIn,VIn>"
  , "c2" : "kTableSourceSupplier()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#98"
+ , "c5" : "00122"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#122"
  , "c1" : "KTableKTableJoinMerger<KIn,VIn>"
  , "c2" : "kTableKTableJoinMergerProcessorSupplier()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00102"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#102"
+ , "c5" : "00126"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#126"
  , "c1" : "String"
  , "c2" : "processorName()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00107"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#107"
+ , "c5" : "00131"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#131"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -163,143 +163,143 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#26"
+ , "c1" : "00050"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#50"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00026] The argument processorSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00050] The argument processorSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#30"
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.ProcessorParameters@POLYN160243 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.ProcessorParameters@POLYN160387 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#36"
+ , "c1" : "00060"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.ProcessorParameters@POLYN160737 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.ProcessorParameters@POLYN160881 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#38"
+ , "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.ProcessorParameters@POLYN160737 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.ProcessorParameters@POLYN161137 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.ProcessorParameters@POLYN161137 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#58"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method addProcessorTo arguments InternalTopologyBuilder  topologyBuilder|String[]  parentNodeNames"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#58"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00058] The argument topologyBuilder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.addProcessorTo@POLYN161818 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.addProcessorTo@POLYN161818 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.ProcessorParameters@POLYN160881 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.addProcessorTo@POLYN161818 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.ProcessorParameters@POLYN161281 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#70"
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.addProcessorTo@POLYN161818 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.ProcessorParameters@POLYN161281 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.addProcessorTo@POLYN161818 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00082"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#82"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00082] For method addProcessorTo arguments InternalTopologyBuilder  topologyBuilder|String[]  parentNodeNames"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.addProcessorTo@POLYN161818 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00082"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#82"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00082] The argument topologyBuilder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#88"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.kTableSourceSupplier@POLYN163343 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.addProcessorTo@POLYN161962 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#108"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.toString@POLYN164174 the MagicNumber/String  'ProcessorParameters{' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.addProcessorTo@POLYN161962 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#109"
+ , "c1" : "00092"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.toString@POLYN164174 the MagicNumber/String  'processor class=' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.addProcessorTo@POLYN161962 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#110"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.toString@POLYN164174 the MagicNumber/String  ', processor name='' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.addProcessorTo@POLYN161962 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#110"
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.toString@POLYN164174 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.addProcessorTo@POLYN161962 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#111"
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.toString@POLYN164174 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.addProcessorTo@POLYN161962 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.kTableSourceSupplier@POLYN163487 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#132"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.toString@POLYN164318 the MagicNumber/String  'ProcessorParameters{' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00133"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#133"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.toString@POLYN164318 the MagicNumber/String  'processor class=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#134"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.toString@POLYN164318 the MagicNumber/String  ', processor name='' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#134"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.toString@POLYN164318 the MagicNumber/String  '\'' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#135"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters.toString@POLYN164318 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

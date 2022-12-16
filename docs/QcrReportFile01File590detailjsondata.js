@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.replica.ReplicaView" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#13"
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#32"
  , "c1" : "Node"
  , "c2" : "endpoint()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#16"
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#37"
  , "c1" : "long"
  , "c2" : "logEndOffset()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#19"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#43"
  , "c1" : "long"
  , "c2" : "timeSinceLastCaughtUpMs()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#22"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#49"
  , "c1" : "Comparator<ReplicaView>"
  , "c2" : "comparator()"
  , "c3" : "1"
@@ -109,73 +109,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#55"
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00082] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#57"
+ , "c1" : "00084"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00057] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00084] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#56"
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.equals@POLYN152682 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.equals@POLYN152844 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#57"
+ , "c1" : "00084"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.equals@POLYN152682 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.equals@POLYN152844 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#57"
+ , "c1" : "00084"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.equals@POLYN152682 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.equals@POLYN152844 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#71"
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN153531 the MagicNumber/String  'DefaultReplicaView{' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN153693 the MagicNumber/String  'DefaultReplicaView{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#72"
+ , "c1" : "00099"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN153531 the MagicNumber/String  'endpoint=' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN153693 the MagicNumber/String  'endpoint=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#73"
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN153531 the MagicNumber/String  ', logEndOffset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN153693 the MagicNumber/String  ', logEndOffset=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#74"
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN153531 the MagicNumber/String  ', timeSinceLastCaughtUpMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN153693 the MagicNumber/String  ', timeSinceLastCaughtUpMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#75"
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN153531 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView.toString@POLYN153693 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

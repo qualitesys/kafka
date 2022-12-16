@@ -2,16 +2,16 @@
 !pragma layout smetana
 "AbstractRequestResponse" <|-- "org.apache.kafka.common.requests.ResponseHeader"
 class org.apache.kafka.common.requests.ResponseHeader {
-+ResponseHeader(int;short) : ResponseHeader [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#16]]]
-+ResponseHeader(ResponseHeaderData;short) : ResponseHeader [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#20]]]
-+size(ObjectSerializationCache) : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#25]]]
-+correlationId() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#29]]]
-+headerVersion() : short [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#33]]]
-+data() : ResponseHeaderData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#37]]]
-+write(ByteBuffer;ObjectSerializationCache) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#41]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#46]]]
-+parse(ByteBuffer;short) : ResponseHeader [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#53]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#60]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#69]]]
++ResponseHeader(int;short) : ResponseHeader [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#33]]]
++ResponseHeader(ResponseHeaderData;short) : ResponseHeader [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#37]]]
++size(ObjectSerializationCache) : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#42]]]
++correlationId() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#46]]]
++headerVersion() : short [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#50]]]
++data() : ResponseHeaderData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#54]]]
++write(ByteBuffer;ObjectSerializationCache) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#58]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#63]]]
++parse(ByteBuffer;short) : ResponseHeader [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#70]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#77]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#86]]]
 } 
 @enduml

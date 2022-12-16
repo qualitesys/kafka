@@ -2,11 +2,11 @@
 !pragma layout smetana
 "NamedOperation<Named>" <|-- "org.apache.kafka.streams.kstream.Named"
 class org.apache.kafka.streams.kstream.Named {
-Named(Named) : Named [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#14]]]
-Named(String) : Named [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#18]]]
-+as(String) : Named [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#26]]]
-+withName(String) : Named [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#32]]]
-validate(String) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#36]]]
--containsValidPattern(String) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#50]]]
+Named(Named) : Named [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#29]]]
+Named(String) : Named [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#33]]]
++as(String) : Named [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#48]]]
++withName(String) : Named [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#54]]]
+validate(String) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#58]]]
+-containsValidPattern(String) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#74]]]
 } 
 @enduml

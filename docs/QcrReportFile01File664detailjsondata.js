@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.ElectLeadersResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#22"
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#37"
  , "c1" : "ElectLeadersResponse"
  , "c2" : "ElectLeadersResponse(ElectLeadersResponseData)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#27"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#42"
  , "c1" : "ElectLeadersResponse"
  , "c2" : "ElectLeadersResponse(int;short;List<ReplicaElectionResult>;short)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#56"
  , "c1" : "ElectLeadersResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#46"
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#61"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#51"
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#66"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#62"
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#77"
  , "c1" : "ElectLeadersResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#67"
+ , "c5" : "00082"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#82"
  , "c1" : "boolean"
  , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#71"
+ , "c5" : "00086"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#86"
  , "c1" : "Map<TopicPartition,Optional<Throwable>>"
  , "c2" : "electLeadersResult(ElectLeadersResponseData)"
  , "c3" : "4"
@@ -168,87 +168,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#35"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.requests.ElectLeadersResponse.ElectLeadersResponse@POLYN153176 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.requests.ElectLeadersResponse.ElectLeadersResponse@POLYN153266 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#62"
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00077] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#67"
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method shouldClientThrottle arguments short  version"
+ , "c3" : "QC-JAV000006[00082] For method shouldClientThrottle arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#68"
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.requests.ElectLeadersResponse.shouldClientThrottle@POLYN154990 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.requests.ElectLeadersResponse.shouldClientThrottle@POLYN155080 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#71"
+ , "c1" : "00086"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00071] For method electLeadersResult arguments ElectLeadersResponseData  data"
+ , "c3" : "QC-JAV000006[00086] For method electLeadersResult arguments ElectLeadersResponseData  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#71"
+ , "c1" : "00086"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#86"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00071] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00086] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#75"
+ , "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00075] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00090] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#76"
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00076] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00091] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#77"
+ , "c1" : "00092"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00077] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00092] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#76"
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00076] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00091] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#77"
+ , "c1" : "00092"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00077] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00092] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ElectLeadersResponse.throttleTimeMs@POLYN153880"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ElectLeadersResponse.throttleTimeMs@POLYN153970"
 }} 
 ]
 , 

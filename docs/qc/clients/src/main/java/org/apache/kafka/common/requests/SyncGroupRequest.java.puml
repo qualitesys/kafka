@@ -2,11 +2,11 @@
 !pragma layout smetana
 "AbstractRequest" <|-- "org.apache.kafka.common.requests.SyncGroupRequest"
 class org.apache.kafka.common.requests.SyncGroupRequest {
-+SyncGroupRequest(SyncGroupRequestData;short) : SyncGroupRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#43]]]
-+getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#49]]]
-+groupAssignments() : Map<String,ByteBuffer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#56]]]
-+areMandatoryProtocolTypeAndNamePresent() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#65]]]
-+parse(ByteBuffer;short) : SyncGroupRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#72]]]
-+data() : SyncGroupRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#77]]]
++SyncGroupRequest(SyncGroupRequestData;short) : SyncGroupRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#58]]]
++getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#64]]]
++groupAssignments() : Map<String,ByteBuffer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#71]]]
++areMandatoryProtocolTypeAndNamePresent() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#83]]]
++parse(ByteBuffer;short) : SyncGroupRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#90]]]
++data() : SyncGroupRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#95]]]
 } 
 @enduml

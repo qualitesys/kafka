@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.AlterClientQuotasOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.html#14"
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.html#35"
  , "c1" : "boolean"
  , "c2" : "validateOnly()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.html#19"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.html#42"
  , "c1" : "AlterClientQuotasOptions"
  , "c2" : "validateOnly(boolean)"
  , "c3" : "1"
@@ -77,10 +77,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.html#19"
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method validateOnly arguments boolean  validateOnly"
+ , "c3" : "QC-JAV000006[00042] For method validateOnly arguments boolean  validateOnly"
 }} 
 ]
 , 

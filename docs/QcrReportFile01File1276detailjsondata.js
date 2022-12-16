@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.jmh.common.ListOffsetRequestBenchmark" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#47"
+ , "c5" : "00062"
+ , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#62"
  , "c1" : "void"
  , "c2" : "setup()"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#62"
+ , "c5" : "00077"
+ , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#77"
  , "c1" : "String"
  , "c2" : "testRequestToJson()"
  , "c3" : "1"
@@ -91,59 +91,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#47"
+ , "c1" : "00062"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00047] For method setup list of called methods Object monObjet|org.apache.kafka.common.requests.ListOffsetsRequest.Builder ListOffsetsRequest_Builder_forConsumerN153907"
+ , "c3" : "QC-JAV000007[00062] For method setup list of called methods Object monObjet|org.apache.kafka.common.requests.ListOffsetsRequest.Builder ListOffsetsRequest_Builder_forConsumerN153997"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#50"
+ , "c1" : "00065"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00050] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00065] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00052] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00067] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00052] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00067] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#49"
+ , "c1" : "00064"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.jmh.common.ListOffsetRequestBenchmark.setup@POLYN153058 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.jmh.common.ListOffsetRequestBenchmark.setup@POLYN153148 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#51"
+ , "c1" : "00066"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.jmh.common.ListOffsetRequestBenchmark.setup@POLYN153058 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.jmh.common.ListOffsetRequestBenchmark.setup@POLYN153148 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#57"
+ , "c1" : "00072"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.jmh.common.ListOffsetRequestBenchmark.setup@POLYN153058 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.jmh.common.ListOffsetRequestBenchmark.setup@POLYN153148 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#57"
+ , "c1" : "00072"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.jmh.common.ListOffsetRequestBenchmark.setup@POLYN153058 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.jmh.common.ListOffsetRequestBenchmark.setup@POLYN153148 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

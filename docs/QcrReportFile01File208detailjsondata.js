@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.internals.Fetch" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#37"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#52"
  , "c1" : "Fetch"
  , "c2" : "Fetch(Map<TopicPartition,List<ConsumerRecord<K,V>>>;boolean;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#48"
+ , "c5" : "00069"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#69"
  , "c1" : "void"
  , "c2" : "add(Fetch<K,V>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#55"
+ , "c5" : "00078"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#78"
  , "c1" : "Map<TopicPartition,List<ConsumerRecord<K,V>>>"
  , "c2" : "records()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#60"
+ , "c5" : "00087"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#87"
  , "c1" : "boolean"
  , "c2" : "positionAdvanced()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#65"
+ , "c5" : "00094"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#94"
  , "c1" : "int"
  , "c2" : "numRecords()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#70"
+ , "c5" : "00102"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#102"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#74"
+ , "c5" : "00106"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#106"
  , "c1" : "void"
  , "c2" : "addRecords(Map<TopicPartition,List<ConsumerRecord<K,V>>>)"
  , "c3" : "3"
@@ -136,66 +136,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.clients.consumer.internals.Fetch the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.consumer.internals.Fetch the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.clients.consumer.internals.Fetch the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.consumer.internals.Fetch the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#43"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00028] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00043] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#48"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method add arguments Fetch&lt;K ,V &gt;  fetch"
+ , "c3" : "QC-JAV000006[00069] For method add arguments Fetch&lt;K ,V &gt;  fetch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#48"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#69"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00048] The argument fetch is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00069] The argument fetch is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#71"
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.consumer.internals.Fetch.isEmpty@POLYN162680 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.clients.consumer.internals.Fetch.isEmpty@POLYN162872 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#74"
+ , "c1" : "00106"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#106"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method addRecords arguments Map&lt;TopicPartition ,List&lt;ConsumerRecord&lt;K ,V &gt; &gt; &gt;  records"
+ , "c3" : "QC-JAV000006[00106] For method addRecords arguments Map&lt;TopicPartition ,List&lt;ConsumerRecord&lt;K ,V &gt; &gt; &gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#74"
+ , "c1" : "00106"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#106"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00074] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00106] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#78"
+ , "c1" : "00110"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.internals.Fetch.addRecords@POLYN162813 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.consumer.internals.Fetch.addRecords@POLYN163005 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

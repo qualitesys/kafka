@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.internals.AdminApiFuture"
 class org.apache.kafka.clients.admin.internals.AdminApiFuture {
-lookupKeys() : Set<K> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#15]]]
-complete(Map<K,V>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#18]]]
-completeLookup(Map<K,Integer>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#21]]]
-completeLookupExceptionally(Map<K,Throwable>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#25]]]
-completeExceptionally(Map<K,Throwable>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#30]]]
+lookupKeys() : Set<K> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#38]]]
+complete(Map<K,V>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#45]]]
+completeLookup(Map<K,Integer>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#53]]]
+completeLookupExceptionally(Map<K,Throwable>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#61]]]
+completeExceptionally(Map<K,Throwable>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#70]]]
 } 
 @enduml

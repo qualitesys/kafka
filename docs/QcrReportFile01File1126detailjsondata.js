@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#45"
+ , "c5" : "00060"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#60"
  , "c1" : "WorkerErrantRecordReporter"
  , "c2" : "WorkerErrantRecordReporter(RetryWithToleranceOperator;Converter;Converter;HeaderConverter)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#59"
+ , "c5" : "00074"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#74"
  , "c1" : "Future<Void>"
  , "c2" : "report(SinkRecord;Throwable)"
  , "c3" : "6"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#104"
+ , "c5" : "00122"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#122"
  , "c1" : "void"
  , "c2" : "awaitFutures(Collection<TopicPartition>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00116"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#116"
+ , "c5" : "00137"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#137"
  , "c1" : "void"
  , "c2" : "cancelFutures(Collection<TopicPartition>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00128"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#128"
+ , "c5" : "00149"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#149"
  , "c1" : "Collection<Future<Void>>"
  , "c2" : "futuresFor(Collection<TopicPartition>)"
  , "c3" : "1"
@@ -155,199 +155,199 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#59"
+ , "c1" : "00074"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method report arguments SinkRecord  record|Throwable  error"
+ , "c3" : "QC-JAV000006[00074] For method report arguments SinkRecord  record|Throwable  error"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#59"
+ , "c1" : "00074"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00059] For method report list of called methods Object monObjet|java.util.concurrent.Future&lt;java.lang.Void&gt; header_keyN171083"
+ , "c3" : "QC-JAV000007[00074] For method report list of called methods Object monObjet|java.util.concurrent.Future&lt;java.lang.Void&gt; header_keyN171227"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#59"
+ , "c1" : "00074"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#74"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00059] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00074] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#79"
+ , "c1" : "00094"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00079] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00094] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#77"
+ , "c1" : "00092"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN169980 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN170124 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#86"
+ , "c1" : "00101"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN169980 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN170124 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#86"
+ , "c1" : "00101"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN169980 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN170124 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#87"
+ , "c1" : "00102"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN169980 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN170124 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#87"
+ , "c1" : "00102"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN169980 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN170124 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#104"
+ , "c1" : "00122"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method awaitFutures arguments Collection&lt;TopicPartition &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00122] For method awaitFutures arguments Collection&lt;TopicPartition &gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#109"
+ , "c1" : "00127"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.awaitFutures@POLYN172918 the MagicNumber/String  'Encountered an error while awaiting an errant record future's completion.' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.awaitFutures@POLYN173062 the MagicNumber/String  'Encountered an error while awaiting an errant record future's completion.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#116"
+ , "c1" : "00137"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#137"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method cancelFutures arguments Collection&lt;TopicPartition &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00137] For method cancelFutures arguments Collection&lt;TopicPartition &gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#119"
+ , "c1" : "00140"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.cancelFutures@POLYN173511 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.cancelFutures@POLYN173655 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#121"
+ , "c1" : "00142"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.cancelFutures@POLYN173511 the MagicNumber/String  'Encountered an error while cancelling an errant record future' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.cancelFutures@POLYN173655 the MagicNumber/String  'Encountered an error while cancelling an errant record future' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#128"
+ , "c1" : "00149"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#149"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00128] For method futuresFor arguments Collection&lt;TopicPartition &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00149] For method futuresFor arguments Collection&lt;TopicPartition &gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#128"
+ , "c1" : "00149"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#149"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00128] The argument topicPartitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#145"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00145] For method cancel arguments boolean  mayInterruptIfRunning"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#146"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.ErrantRecordFuture.cancel@POLYN174753 the MagicNumber/String  'Reporting an errant record cannot be cancelled.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#150"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.ErrantRecordFuture.isCancelled@POLYN174901 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#161"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.ErrantRecordFuture.get@POLYN175146 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#164"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00164] For method get arguments long  timeout|TimeUnit  unit"
+ , "c3" : "QC-JAVCWE476[00149] The argument topicPartitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00169"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#169"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00169] For method cancel arguments boolean  mayInterruptIfRunning"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.ErrantRecordFuture.get@POLYN175406 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.ErrantRecordFuture.cancel@POLYN174897 the MagicNumber/String  'Reporting an errant record cannot be cancelled.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00174"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#174"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.ErrantRecordFuture.isCancelled@POLYN175045 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00185"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.ErrantRecordFuture.get@POLYN175290 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#188"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00188] For method get arguments long  timeout|TimeUnit  unit"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.ErrantRecordFuture.get@POLYN175550 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN169980"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN170124"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#77"
+ , "c1" : "00092"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#92"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN169980 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN170124 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#86"
+ , "c1" : "00101"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN169980 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN170124 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#86"
+ , "c1" : "00101"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN169980 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN170124 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#87"
+ , "c1" : "00102"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN169980 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN170124 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#87"
+ , "c1" : "00102"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN169980 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.report@POLYN170124 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

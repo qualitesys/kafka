@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.PartitionReassignment"
 class org.apache.kafka.clients.admin.PartitionReassignment {
-+PartitionReassignment(List<Integer>;List<Integer>;List<Integer>) : PartitionReassignment [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/PartitionReassignment.java.html#15]]]
-+replicas() : List<Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/PartitionReassignment.java.html#22]]]
-+addingReplicas() : List<Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/PartitionReassignment.java.html#27]]]
-+removingReplicas() : List<Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/PartitionReassignment.java.html#32]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/PartitionReassignment.java.html#37]]]
++PartitionReassignment(List<Integer>;List<Integer>;List<Integer>) : PartitionReassignment [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/PartitionReassignment.java.html#32]]]
++replicas() : List<Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/PartitionReassignment.java.html#41]]]
++addingReplicas() : List<Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/PartitionReassignment.java.html#49]]]
++removingReplicas() : List<Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/PartitionReassignment.java.html#57]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/PartitionReassignment.java.html#62]]]
 } 
 @enduml

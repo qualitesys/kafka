@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.AppInfoParser" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#37"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#52"
  , "c1" : "String"
  , "c2" : "getVersion()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#56"
  , "c1" : "String"
  , "c2" : "getCommitId()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#45"
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#60"
  , "c1" : "void"
  , "c2" : "registerAppInfo(String;String;Metrics;long)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#57"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#72"
  , "c1" : "void"
  , "c2" : "unregisterAppInfo(String;String;Metrics)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#72"
+ , "c5" : "00087"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#87"
  , "c1" : "MetricName"
  , "c2" : "metricName(Metrics;String)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#76"
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#91"
  , "c1" : "void"
  , "c2" : "registerMetrics(Metrics;AppInfo)"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#84"
+ , "c5" : "00099"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#99"
  , "c1" : "void"
  , "c2" : "unregisterMetrics(Metrics)"
  , "c3" : "2"
@@ -112,29 +112,29 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939.prefix" }
+{ "ligne" :  "R0:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.prefix" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939.id" }
+{ "ligne" :  "R1:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.id" }
 ,
-{ "ligne" :  "R2:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939.metrics" }
+{ "ligne" :  "R2:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.metrics" }
 ,
-{ "ligne" :  "R3:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939.nowMs" }
+{ "ligne" :  "R3:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.nowMs" }
 ]
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939 (R0 in line [00045],R1 in line [00045],R2 in line [00045],R3 in line [00045])" }
+{ "ligne" : "S0:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 (R0 in line [00060],R1 in line [00060],R2 in line [00060],R3 in line [00060])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162837" }
+{ "ligne" : "S0:org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162927" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939 (R0 in line [00045],R1 in line [00045],R2 in line [00045],R3 in line [00045])" }
+{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 (R0 in line [00060],R1 in line [00060],R2 in line [00060],R3 in line [00060])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939 (R0 in line [00045],R1 in line [00045],R2 in line [00045],R3 in line [00045])" }
+{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 (R0 in line [00060],R1 in line [00060],R2 in line [00060],R3 in line [00060])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162837" }
+{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162927" }
  ]
  } }
 ]
@@ -202,353 +202,353 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#45"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#60"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00045] Lock statement on synchronized method registerAppInfo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method registerAppInfo arguments String  prefix|String  id|Metrics  metrics|long  nowMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939 the MagicNumber/String  ':type=app-info,id=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939 the MagicNumber/String  'Error registering AppInfo mbean' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#57"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00057] Lock statement on synchronized method unregisterAppInfo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#57"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method unregisterAppInfo arguments String  prefix|String  id|Metrics  metrics"
+ , "c3" : "QC-JAV000019[00060] Lock statement on synchronized method registerAppInfo"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161719 the MagicNumber/String  ':type=app-info,id=' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00060] For method registerAppInfo arguments String  prefix|String  id|Metrics  metrics|long  nowMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#66"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161719 the MagicNumber/String  'Error unregistering AppInfo mbean' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 the MagicNumber/String  ':type=app-info,id=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161719 the MagicNumber/String  'App info {} for {} unregistered' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 the MagicNumber/String  'Error registering AppInfo mbean' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#72"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00072] Lock statement on synchronized method unregisterAppInfo"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method metricName arguments Metrics  metrics|String  name"
+ , "c3" : "QC-JAV000006[00072] For method unregisterAppInfo arguments String  prefix|String  id|Metrics  metrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#72"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00072] The argument metrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#73"
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.utils.AppInfoParser.metricName@POLYN162598 the MagicNumber/String  'app-info' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161809 the MagicNumber/String  ':type=app-info,id=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#73"
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.utils.AppInfoParser.metricName@POLYN162598 the MagicNumber/String  'Metric indicating ' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161809 the MagicNumber/String  'Error unregistering AppInfo mbean' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#76"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method registerMetrics arguments Metrics  metrics|AppInfo  appInfo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#76"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00076] The argument appInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#77"
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162837 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162837 the MagicNumber/String  'version' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162837 the MagicNumber/String  'commit-id' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162837 the MagicNumber/String  'start-time-ms' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#84"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method unregisterMetrics arguments Metrics  metrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#85"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163654 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163654 the MagicNumber/String  'version' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161809 the MagicNumber/String  'App info {} for {} unregistered' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#87"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163654 the MagicNumber/String  'commit-id' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00087] For method metricName arguments Metrics  metrics|String  name"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#87"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00087] The argument metrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163654 the MagicNumber/String  'start-time-ms' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#104"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164420 the MagicNumber/String  'Kafka version: {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#105"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164420 the MagicNumber/String  'Kafka commitId: {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164420 the MagicNumber/String  'Kafka startTimeMs: {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#134"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00134] For method value arguments MetricConfig  config|long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#45"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00045] Public method registerAppInfo is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#57"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00057] Public method unregisterAppInfo is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939.prefix"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939.id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939.metrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939.nowMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163654"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161719"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164420"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#85"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163654 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#86"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163654 the MagicNumber/String 'version' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#87"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163654 the MagicNumber/String 'commit-id' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.utils.AppInfoParser.metricName@POLYN162688 the MagicNumber/String  'app-info' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#88"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163654 the MagicNumber/String 'start-time-ms' MUST BE CONVERTED to const"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.utils.AppInfoParser.metricName@POLYN162688 the MagicNumber/String  'Metric indicating ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#91"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00091] For method registerMetrics arguments Metrics  metrics|AppInfo  appInfo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#91"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00091] The argument appInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162927 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162927 the MagicNumber/String  'version' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162927 the MagicNumber/String  'commit-id' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#95"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162927 the MagicNumber/String  'start-time-ms' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#99"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00099] For method unregisterMetrics arguments Metrics  metrics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163744 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163744 the MagicNumber/String  'version' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163744 the MagicNumber/String  'commit-id' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163744 the MagicNumber/String  'start-time-ms' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#119"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164510 the MagicNumber/String  'Kafka version: {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164510 the MagicNumber/String  'Kafka commitId: {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164510 the MagicNumber/String  'Kafka startTimeMs: {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00149"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#149"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00149] For method value arguments MetricConfig  config|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#60"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161719 the MagicNumber/String ':type=app-info,id=' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000003[00060] Public method registerAppInfo is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#66"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#72"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161719 the MagicNumber/String 'Error unregistering AppInfo mbean' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000003[00072] Public method unregisterAppInfo is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.prefix"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.id"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.metrics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.nowMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163744"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161809"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164510"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#100"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163744 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163744 the MagicNumber/String 'version' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163744 the MagicNumber/String 'commit-id' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163744 the MagicNumber/String 'start-time-ms' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#75"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161809 the MagicNumber/String ':type=app-info,id=' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#81"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161809 the MagicNumber/String 'Error unregistering AppInfo mbean' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#83"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161809 the MagicNumber/String 'App info {} for {} unregistered' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#62"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 the MagicNumber/String ':type=app-info,id=' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#68"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161719 the MagicNumber/String 'App info {} for {} unregistered' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 the MagicNumber/String 'Error registering AppInfo mbean' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#47"
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#119"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939 the MagicNumber/String ':type=app-info,id=' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164510 the MagicNumber/String 'Kafka version: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#53"
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939 the MagicNumber/String 'Error registering AppInfo mbean' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164510 the MagicNumber/String 'Kafka commitId: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#104"
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#121"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164420 the MagicNumber/String 'Kafka version: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#105"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164420 the MagicNumber/String 'Kafka commitId: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#106"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164420 the MagicNumber/String 'Kafka startTimeMs: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164510 the MagicNumber/String 'Kafka startTimeMs: {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

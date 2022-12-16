@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.ClientUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#52"
+ , "c5" : "00067"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#67"
  , "c1" : "String"
  , "c2" : "getSharedAdminClientId(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#56"
+ , "c5" : "00071"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#71"
  , "c1" : "String"
  , "c2" : "getConsumerClientId(String)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#60"
+ , "c5" : "00075"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#75"
  , "c1" : "String"
  , "c2" : "getRestoreConsumerClientId(String)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#64"
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#79"
  , "c1" : "String"
  , "c2" : "getThreadProducerClientId(String)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#68"
+ , "c5" : "00083"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#83"
  , "c1" : "String"
  , "c2" : "getTaskProducerClientId(String;TaskId)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#72"
+ , "c5" : "00087"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#87"
  , "c1" : "Map<MetricName,Metric>"
  , "c2" : "consumerMetrics(Consumer<byte[],byte[]>;Consumer<byte[],byte[]>)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#82"
+ , "c5" : "00097"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#97"
  , "c1" : "Map<MetricName,Metric>"
  , "c2" : "adminClientMetrics(Admin)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#87"
+ , "c5" : "00102"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#102"
  , "c1" : "Map<MetricName,Metric>"
  , "c2" : "producerMetrics(Collection<StreamsProducer>)"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#99"
+ , "c5" : "00117"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#117"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "fetchCommittedOffsets(Set<TopicPartition>;Consumer<byte[],byte[]>)"
  , "c3" : "2"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00121"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#121"
+ , "c5" : "00139"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#139"
  , "c1" : "KafkaFuture<Map<TopicPartition,ListOffsetsResultInfo>>"
  , "c2" : "fetchEndOffsetsFuture(Collection<TopicPartition>;Admin)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00129"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#129"
+ , "c5" : "00150"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#150"
  , "c1" : "Map<TopicPartition,ListOffsetsResultInfo>"
  , "c2" : "getEndOffsets(KafkaFuture<Map<TopicPartition,ListOffsetsResultInfo>>)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00139"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#139"
+ , "c5" : "00162"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#162"
  , "c1" : "Map<TopicPartition,ListOffsetsResultInfo>"
  , "c2" : "fetchEndOffsets(Collection<TopicPartition>;Admin)"
  , "c3" : "2"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00147"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#147"
+ , "c5" : "00170"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#170"
  , "c1" : "String"
  , "c2" : "extractThreadId(String)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00152"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#152"
+ , "c5" : "00175"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#175"
  , "c1" : "long"
  , "c2" : "producerRecordSizeInBytes(ProducerRecord<byte[],byte[]>)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00161"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#161"
+ , "c5" : "00184"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#184"
  , "c1" : "long"
  , "c2" : "consumerRecordSizeInBytes(ConsumerRecord<byte[],byte[]>)"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00170"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#170"
+ , "c5" : "00193"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#193"
  , "c1" : "long"
  , "c2" : "recordSizeInBytes(long;long;String;Headers)"
  , "c3" : "4"
@@ -261,269 +261,220 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#40"
+ , "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.processor.internals.ClientUtils.QuietStreamsConfig.QuietStreamsConfig@POLYN176011 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.processor.internals.ClientUtils.QuietConsumerConfig.QuietConsumerConfig@POLYN176241 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#52"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method getSharedAdminClientId arguments String  clientId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.processor.internals.ClientUtils.getSharedAdminClientId@POLYN176445 the MagicNumber/String  '-admin' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method getConsumerClientId arguments String  threadClientId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.processor.internals.ClientUtils.getConsumerClientId@POLYN176585 the MagicNumber/String  '-consumer' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#60"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method getRestoreConsumerClientId arguments String  threadClientId"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.processor.internals.ClientUtils.QuietStreamsConfig.QuietStreamsConfig@POLYN176149 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.internals.ClientUtils.getRestoreConsumerClientId@POLYN176725 the MagicNumber/String  '-restore-consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.internals.ClientUtils.QuietConsumerConfig.QuietConsumerConfig@POLYN176379 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#64"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method getThreadProducerClientId arguments String  threadClientId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#65"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.processor.internals.ClientUtils.getThreadProducerClientId@POLYN176865 the MagicNumber/String  '-producer' should be converted to const"
+ , "c3" : "QC-JAV000006[00067] For method getSharedAdminClientId arguments String  clientId"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.processor.internals.ClientUtils.getSharedAdminClientId@POLYN176583 the MagicNumber/String  '-admin' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method getTaskProducerClientId arguments String  threadClientId|TaskId  taskId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.internals.ClientUtils.getTaskProducerClientId@POLYN177005 the MagicNumber/String  '-' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.internals.ClientUtils.getTaskProducerClientId@POLYN177005 the MagicNumber/String  '-producer' should be converted to const"
+ , "c3" : "QC-JAV000006[00071] For method getConsumerClientId arguments String  threadClientId"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.processor.internals.ClientUtils.getConsumerClientId@POLYN176723 the MagicNumber/String  '-consumer' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method consumerMetrics arguments Consumer&lt;byte[] ,byte[] &gt;  mainConsumer|Consumer&lt;byte[] ,byte[] &gt;  restoreConsumer"
+ , "c3" : "QC-JAV000006[00075] For method getRestoreConsumerClientId arguments String  threadClientId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#72"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00072] The argument mainConsumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#76"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.processor.internals.ClientUtils.getRestoreConsumerClientId@POLYN176863 the MagicNumber/String  '-restore-consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#73"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00073] The argument restoreConsumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#82"
+ , "c1" : "00079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method adminClientMetrics arguments Admin  adminClient"
+ , "c3" : "QC-JAV000006[00079] For method getThreadProducerClientId arguments String  threadClientId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#82"
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.processor.internals.ClientUtils.getThreadProducerClientId@POLYN177003 the MagicNumber/String  '-producer' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method adminClientMetrics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.MetricName,? extends Metric&gt; adminClient_metricsN178197"
+ , "c3" : "QC-JAV000006[00083] For method getTaskProducerClientId arguments String  threadClientId|TaskId  taskId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#82"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00082] The argument adminClient is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.internals.ClientUtils.getTaskProducerClientId@POLYN177143 the MagicNumber/String  '-' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.internals.ClientUtils.getTaskProducerClientId@POLYN177143 the MagicNumber/String  '-producer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00087] For method producerMetrics arguments Collection&lt;StreamsProducer &gt;  producers"
+ , "c3" : "QC-JAV000006[00087] For method consumerMetrics arguments Consumer&lt;byte[] ,byte[] &gt;  mainConsumer|Consumer&lt;byte[] ,byte[] &gt;  restoreConsumer"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00090] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#87"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00087] The argument mainConsumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.processor.internals.ClientUtils.producerMetrics@POLYN178373 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#88"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00088] The argument restoreConsumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#99"
+ , "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00099] For method fetchCommittedOffsets arguments Set&lt;TopicPartition &gt;  partitions|Consumer&lt;byte[] ,byte[] &gt;  consumer"
+ , "c3" : "QC-JAV000006[00097] For method adminClientMetrics arguments Admin  adminClient"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#99"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00099] The argument partitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#100"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00100] The argument consumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.processor.internals.ClientUtils.fetchCommittedOffsets@POLYN179130 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.processor.internals.ClientUtils.fetchCommittedOffsets@POLYN179130 the MagicNumber/String  0L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#111"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.processor.internals.ClientUtils.fetchCommittedOffsets@POLYN179130 the MagicNumber/String  'The committed offsets request timed out, try increasing the consumer client's default.api.timeout.ms' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.processor.internals.ClientUtils.fetchCommittedOffsets@POLYN179130 the MagicNumber/String  'The committed offsets request failed.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#115"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.processor.internals.ClientUtils.fetchCommittedOffsets@POLYN179130 the MagicNumber/String  'Failed to retrieve end offsets for %s' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#121"
+ , "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00121] For method fetchEndOffsetsFuture arguments Collection&lt;TopicPartition &gt;  partitions|Admin  adminClient"
+ , "c3" : "QC-JAV000007[00097] For method adminClientMetrics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.MetricName,? extends Metric&gt; adminClient_metricsN178335"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#121"
+ , "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#97"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00121] The argument partitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00097] The argument adminClient is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#122"
+ , "c1" : "00102"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#102"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00102] For method producerMetrics arguments Collection&lt;StreamsProducer &gt;  producers"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00105] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.processor.internals.ClientUtils.producerMetrics@POLYN178511 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#117"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00117] For method fetchCommittedOffsets arguments Set&lt;TopicPartition &gt;  partitions|Consumer&lt;byte[] ,byte[] &gt;  consumer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#117"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00122] The argument adminClient is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00117] The argument partitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00118"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#118"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00118] The argument consumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#127"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.processor.internals.ClientUtils.fetchCommittedOffsets@POLYN179268 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#127"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.processor.internals.ClientUtils.fetchCommittedOffsets@POLYN179268 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#129"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00129] For method getEndOffsets arguments KafkaFuture&lt;Map&lt;TopicPartition ,ListOffsetsResultInfo &gt; &gt;  endOffsetsFuture"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.processor.internals.ClientUtils.fetchCommittedOffsets@POLYN179268 the MagicNumber/String  'The committed offsets request timed out, try increasing the consumer client's default.api.timeout.ms' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#129"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00129] The argument endOffsetsFuture is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#132"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.processor.internals.ClientUtils.fetchCommittedOffsets@POLYN179268 the MagicNumber/String  'The committed offsets request failed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.ClientUtils.getEndOffsets@POLYN181072 the MagicNumber/String  'The listOffsets request failed.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#134"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.processor.internals.ClientUtils.getEndOffsets@POLYN181072 the MagicNumber/String  'Unable to obtain end offsets from kafka' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.ClientUtils.fetchCommittedOffsets@POLYN179268 the MagicNumber/String  'Failed to retrieve end offsets for %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#139"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00139] For method fetchEndOffsets arguments Collection&lt;TopicPartition &gt;  partitions|Admin  adminClient"
+ , "c3" : "QC-JAV000006[00139] For method fetchEndOffsetsFuture arguments Collection&lt;TopicPartition &gt;  partitions|Admin  adminClient"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -534,213 +485,262 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#147"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00147] For method extractThreadId arguments String  fullThreadName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#147"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00147] For method extractThreadId list of called methods Object monObjet|int fullThreadName_indexOfN182120"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#147"
+ , "c1" : "00140"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#140"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00147] The argument fullThreadName is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00140] The argument adminClient is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#148"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.processor.internals.ClientUtils.extractThreadId@POLYN182015 the MagicNumber/String  'StreamThread-' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#152"
+ , "c1" : "00150"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00152] For method producerRecordSizeInBytes arguments ProducerRecord&lt;byte[] ,byte[] &gt;  record"
+ , "c3" : "QC-JAV000006[00150] For method getEndOffsets arguments KafkaFuture&lt;Map&lt;TopicPartition ,ListOffsetsResultInfo &gt; &gt;  endOffsetsFuture"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#152"
+ , "c1" : "00150"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#150"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00152] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00150] The argument endOffsetsFuture is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00154] The same method call record.key() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.processor.internals.ClientUtils.getEndOffsets@POLYN181210 the MagicNumber/String  'The listOffsets request failed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00155] The same method call record.value() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.internals.ClientUtils.getEndOffsets@POLYN181210 the MagicNumber/String  'Unable to obtain end offsets from kafka' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#154"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.processor.internals.ClientUtils.producerRecordSizeInBytes@POLYN182271 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#154"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.processor.internals.ClientUtils.producerRecordSizeInBytes@POLYN182271 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#155"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.internals.ClientUtils.producerRecordSizeInBytes@POLYN182271 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#155"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.internals.ClientUtils.producerRecordSizeInBytes@POLYN182271 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#161"
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#162"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00161] For method consumerRecordSizeInBytes arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record"
+ , "c3" : "QC-JAV000006[00162] For method fetchEndOffsets arguments Collection&lt;TopicPartition &gt;  partitions|Admin  adminClient"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#161"
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#162"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00161] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00162] The argument partitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#170"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00170] For method recordSizeInBytes arguments long  keyBytes|long  valueBytes|String  topic|Headers  headers"
+ , "c3" : "QC-JAV000006[00170] For method extractThreadId arguments String  fullThreadName"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#170"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00170] For method recordSizeInBytes list of called methods Object monObjet|byte[] Utils_utf8N183569"
+ , "c3" : "QC-JAV000007[00170] For method extractThreadId list of called methods Object monObjet|int fullThreadName_indexOfN182258"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#174"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183159 the MagicNumber/String  0L should be converted to const"
+ , "c1" : "00170"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#170"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00170] The argument fullThreadName is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#176"
+ , "c1" : "00171"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183159 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.processor.internals.ClientUtils.extractThreadId@POLYN182153 the MagicNumber/String  'StreamThread-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#179"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183159 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00175"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#175"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00175] For method producerRecordSizeInBytes arguments ProducerRecord&lt;byte[] ,byte[] &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183159 the MagicNumber/String  8L should be converted to const"
+ , "c1" : "00175"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#175"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00175] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#188"
+ , "c1" : "00177"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183159 the MagicNumber/String  8L should be converted to const"
+ , "c3" : "QC-JAV000021[00177] The same method call record.key() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#190"
+ , "c1" : "00178"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183159 the MagicNumber/String  4L should be converted to const"
+ , "c3" : "QC-JAV000021[00178] The same method call record.value() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.processor.internals.ClientUtils.producerRecordSizeInBytes@POLYN182409 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.processor.internals.ClientUtils.producerRecordSizeInBytes@POLYN182409 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00178"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#178"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.processor.internals.ClientUtils.producerRecordSizeInBytes@POLYN182409 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00178"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#178"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.processor.internals.ClientUtils.producerRecordSizeInBytes@POLYN182409 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#184"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00184] For method consumerRecordSizeInBytes arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#184"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00184] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#193"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00193] For method recordSizeInBytes arguments long  keyBytes|long  valueBytes|String  topic|Headers  headers"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#193"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00193] For method recordSizeInBytes list of called methods Object monObjet|byte[] Utils_utf8N183707"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00197"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#197"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183297 the MagicNumber/String  0L should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00199"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#199"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183297 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00202"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183297 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00210"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#210"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183297 the MagicNumber/String  8L should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#211"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183297 the MagicNumber/String  8L should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00213"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#213"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183297 the MagicNumber/String  4L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183159"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183297"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ClientUtils.consumerMetrics@POLYN177256"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ClientUtils.consumerMetrics@POLYN177394"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#174"
+ , "c1" : "00197"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#197"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00174] In the recursive method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183159 the MagicNumber/String 0L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00197] In the recursive method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183297 the MagicNumber/String 0L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#176"
+ , "c1" : "00199"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#199"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00176] In the recursive method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183159 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00199] In the recursive method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183297 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#179"
+ , "c1" : "00202"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#202"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00179] In the recursive method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183159 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00202] In the recursive method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183297 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#187"
+ , "c1" : "00210"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#210"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183159 the MagicNumber/String 8L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00210] In the recursive method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183297 the MagicNumber/String 8L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#188"
+ , "c1" : "00211"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183159 the MagicNumber/String 8L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00211] In the recursive method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183297 the MagicNumber/String 8L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#190"
+ , "c1" : "00213"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#213"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00190] In the recursive method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183159 the MagicNumber/String 4L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183297 the MagicNumber/String 4L MUST BE CONVERTED to const"
 }} 
 ]
 , 

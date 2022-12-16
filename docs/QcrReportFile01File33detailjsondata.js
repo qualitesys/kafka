@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.AlterClientQuotasResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasResult.java.html#18"
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasResult.java.html#41"
  , "c1" : "AlterClientQuotasResult"
  , "c2" : "AlterClientQuotasResult(Map<ClientQuotaEntity,KafkaFuture<Void>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasResult.java.html#23"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasResult.java.html#48"
  , "c1" : "Map<ClientQuotaEntity,KafkaFuture<Void>>"
  , "c2" : "values()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasResult.java.html#28"
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasResult.java.html#55"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -86,10 +86,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasResult.java.html#29"
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasResult.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.clients.admin.AlterClientQuotasResult.all@POLYN146944 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.admin.AlterClientQuotasResult.all@POLYN147106 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

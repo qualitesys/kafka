@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.TxnPartitionMap" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#18"
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#33"
  , "c1" : "TxnPartitionEntry"
  , "c2" : "get(TopicPartition)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#27"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#42"
  , "c1" : "TxnPartitionEntry"
  , "c2" : "getOrCreate(TopicPartition)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#31"
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#46"
  , "c1" : "boolean"
  , "c2" : "contains(TopicPartition)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#35"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#50"
  , "c1" : "void"
  , "c2" : "reset()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#39"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#54"
  , "c1" : "OptionalLong"
  , "c2" : "lastAckedOffset(TopicPartition)"
  , "c3" : "3"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#48"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#63"
  , "c1" : "OptionalInt"
  , "c2" : "lastAckedSequence(TopicPartition)"
  , "c3" : "3"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#57"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#72"
  , "c1" : "void"
  , "c2" : "startSequencesAtBeginning(TopicPartition;ProducerIdAndEpoch)"
  , "c3" : "1"
@@ -136,94 +136,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#18"
+ , "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#33"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method get arguments TopicPartition  topicPartition"
+ , "c3" : "QC-JAV000006[00033] For method get arguments TopicPartition  topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#20"
+ , "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN149828 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN149918 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#21"
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN149828 the MagicNumber/String  'Trying to get the sequence number for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN149918 the MagicNumber/String  'Trying to get the sequence number for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#22"
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN149828 the MagicNumber/String  ', but the sequence number was never set for this partition.' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN149918 the MagicNumber/String  ', but the sequence number was never set for this partition.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#27"
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method getOrCreate arguments TopicPartition  topicPartition"
+ , "c3" : "QC-JAV000006[00042] For method getOrCreate arguments TopicPartition  topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method contains arguments TopicPartition  topicPartition"
+ , "c3" : "QC-JAV000006[00046] For method contains arguments TopicPartition  topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#39"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method lastAckedOffset arguments TopicPartition  topicPartition"
+ , "c3" : "QC-JAV000006[00054] For method lastAckedOffset arguments TopicPartition  topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#41"
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.lastAckedOffset@POLYN150659 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.lastAckedOffset@POLYN150749 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#48"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method lastAckedSequence arguments TopicPartition  topicPartition"
+ , "c3" : "QC-JAV000006[00063] For method lastAckedSequence arguments TopicPartition  topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#50"
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.lastAckedSequence@POLYN151111 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.lastAckedSequence@POLYN151201 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#57"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method startSequencesAtBeginning arguments TopicPartition  topicPartition|ProducerIdAndEpoch  newProducerIdAndEpoch"
+ , "c3" : "QC-JAV000006[00072] For method startSequencesAtBeginning arguments TopicPartition  topicPartition|ProducerIdAndEpoch  newProducerIdAndEpoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#57"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00057] For method startSequencesAtBeginning list of called methods Object monObjet|org.apache.kafka.common.utils.PrimitiveRef.IntRef PrimitiveRef_ofIntN151686|org.apache.kafka.clients.producer.internals.TxnPartitionEntry getN151782"
+ , "c3" : "QC-JAV000007[00072] For method startSequencesAtBeginning list of called methods Object monObjet|org.apache.kafka.common.utils.PrimitiveRef.IntRef PrimitiveRef_ofIntN151776|org.apache.kafka.clients.producer.internals.TxnPartitionEntry getN151872"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#58"
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.startSequencesAtBeginning@POLYN151555 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.startSequencesAtBeginning@POLYN151645 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

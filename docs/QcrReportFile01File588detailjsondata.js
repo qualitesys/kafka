@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.replica.RackAwareReplicaSelector" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#14"
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#32"
  , "c1" : "Optional<ReplicaView>"
  , "c2" : "select(TopicPartition;ClientMetadata;PartitionView)"
  , "c3" : "7"
@@ -96,45 +96,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#14"
+ , "c1" : "00032"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#32"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00014] For method select arguments TopicPartition  topicPartition|ClientMetadata  clientMetadata|PartitionView  partitionView"
+ , "c3" : "QC-JAV000006[00032] For method select arguments TopicPartition  topicPartition|ClientMetadata  clientMetadata|PartitionView  partitionView"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#14"
+ , "c1" : "00032"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#32"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00014] For method select list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.replica.ReplicaView&gt; partitionView_replicasN146709"
+ , "c3" : "QC-JAV000007[00032] For method select list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.replica.ReplicaView&gt; partitionView_replicasN146817"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#15"
+ , "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#33"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00015] The argument clientMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00033] The argument clientMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#16"
+ , "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#34"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00016] The argument partitionView is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00034] The argument partitionView is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#17"
+ , "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00017] The same method call clientMetadata.rackId() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00035] The same method call clientMetadata.rackId() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#17"
+ , "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.replica.RackAwareReplicaSelector.select@POLYN146377 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.replica.RackAwareReplicaSelector.select@POLYN146485 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

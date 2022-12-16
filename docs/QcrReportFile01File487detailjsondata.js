@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.stats.WindowedCount" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00009"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedCount.java.html#9"
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedCount.java.html#32"
  , "c1" : "void"
  , "c2" : "update(Sample;MetricConfig;double;long)"
  , "c3" : "1"
@@ -75,17 +75,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00009"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedCount.java.html#9"
+ , "c1" : "00032"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedCount.java.html#32"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00009] For method update arguments Sample  sample|MetricConfig  config|double  value|long  now"
+ , "c3" : "QC-JAV000006[00032] For method update arguments Sample  sample|MetricConfig  config|double  value|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedCount.java.html#10"
+ , "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedCount.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.metrics.stats.WindowedCount.update@POLYN144182 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.metrics.stats.WindowedCount.update@POLYN144320 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ]
 , 

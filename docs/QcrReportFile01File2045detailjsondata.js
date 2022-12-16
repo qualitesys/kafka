@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#20"
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#41"
  , "c1" : "CompositeReadOnlyKeyValueStore"
  , "c2" : "CompositeReadOnlyKeyValueStore(StateStoreProvider;QueryableStoreType<ReadOnlyKeyValueStore<K,V>>;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#30"
+ , "c5" : "00051"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#51"
  , "c1" : "V"
  , "c2" : "get(K)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#48"
+ , "c5" : "00069"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#69"
  , "c1" : "KeyValueIterator<K,V>"
  , "c2" : "range(K;K)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#66"
+ , "c5" : "00087"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#87"
  , "c1" : "KeyValueIterator<K,V>"
  , "c2" : "reverseRange(K;K)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#104"
+ , "c5" : "00125"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#125"
  , "c1" : "KeyValueIterator<K,V>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00122"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#122"
+ , "c5" : "00143"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#143"
  , "c1" : "KeyValueIterator<K,V>"
  , "c2" : "reverseAll()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00140"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#140"
+ , "c5" : "00161"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#161"
  , "c1" : "long"
  , "c2" : "approximateNumEntries()"
  , "c3" : "3"
@@ -136,108 +136,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#30"
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method get arguments K  key"
+ , "c3" : "QC-JAV000006[00051] For method get arguments K  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#35"
+ , "c1" : "00056"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00035] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00056] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#39"
+ , "c1" : "00060"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00039] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00060] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#36"
+ , "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.get@POLYN169284 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.get@POLYN169410 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#40"
+ , "c1" : "00061"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.get@POLYN169284 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.get@POLYN169410 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#44"
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.get@POLYN169284 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.get@POLYN169410 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#48"
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method range arguments K  from|K  to"
+ , "c3" : "QC-JAV000006[00069] For method range arguments K  from|K  to"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#55"
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.range@POLYN170167 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.range@POLYN170293 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#66"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method reverseRange arguments K  from|K  to"
+ , "c3" : "QC-JAV000006[00087] For method reverseRange arguments K  from|K  to"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#73"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.reverseRange@POLYN171359 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.reverseRange@POLYN171485 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#93"
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#111"
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.all@POLYN173945 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.all@POLYN174071 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#129"
+ , "c1" : "00150"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.reverseAll@POLYN175043 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.reverseAll@POLYN175169 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#142"
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.approximateNumEntries@POLYN176104 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.approximateNumEntries@POLYN176230 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#145"
+ , "c1" : "00166"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.approximateNumEntries@POLYN176104 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.approximateNumEntries@POLYN176230 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

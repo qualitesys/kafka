@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#21"
+ , "c5" : "00048"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#48"
  , "c1" : "SuppressedInternal"
  , "c2" : "SuppressedInternal(String;Duration;BufferConfig;TimeDefinition<K>;boolean)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#34"
+ , "c5" : "00061"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#61"
  , "c1" : "Suppressed<K>"
  , "c2" : "withName(String)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#39"
+ , "c5" : "00066"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#66"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#48"
+ , "c5" : "00075"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#75"
  , "c1" : "TimeDefinition<K>"
  , "c2" : "timeDefinition()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#52"
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#79"
  , "c1" : "Duration"
  , "c2" : "timeToWaitForMoreEvents()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#56"
+ , "c5" : "00083"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#83"
  , "c1" : "boolean"
  , "c2" : "safeToDropTombstones()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#61"
+ , "c5" : "00088"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#88"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#77"
+ , "c5" : "00104"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#104"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#82"
+ , "c5" : "00109"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#109"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -154,129 +154,129 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#27"
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.SuppressedInternal@POLYN157400 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.SuppressedInternal@POLYN157562 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#28"
+ , "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.SuppressedInternal@POLYN157400 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.SuppressedInternal@POLYN157562 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#29"
+ , "c1" : "00056"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.SuppressedInternal@POLYN157400 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#34"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method withName arguments String  name"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.timeToWaitForMoreEvents@POLYN158867 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.SuppressedInternal@POLYN157562 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00061] For method withName arguments String  name"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#65"
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00065] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.equals@POLYN159124 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#65"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.equals@POLYN159124 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.equals@POLYN159124 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.toString@POLYN160273 the MagicNumber/String  'SuppressedInternal{' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.toString@POLYN160273 the MagicNumber/String  'name='' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.toString@POLYN160273 the MagicNumber/String  '\'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#85"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.toString@POLYN160273 the MagicNumber/String  ', bufferConfig=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.toString@POLYN160273 the MagicNumber/String  ', timeToWaitForMoreEvents=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#87"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.toString@POLYN160273 the MagicNumber/String  ', timeDefinition=' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.timeToWaitForMoreEvents@POLYN159029 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#88"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.toString@POLYN160273 the MagicNumber/String  ', safeToDropTombstones=' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00088] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#89"
+ , "c1" : "00092"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.toString@POLYN160273 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000021[00092] The same method call o.getClass() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#90"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.equals@POLYN159286 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.equals@POLYN159286 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.equals@POLYN159286 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.toString@POLYN160435 the MagicNumber/String  'SuppressedInternal{' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.toString@POLYN160435 the MagicNumber/String  'name='' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.toString@POLYN160435 the MagicNumber/String  '\'' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.toString@POLYN160435 the MagicNumber/String  ', bufferConfig=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.toString@POLYN160435 the MagicNumber/String  ', timeToWaitForMoreEvents=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.toString@POLYN160435 the MagicNumber/String  ', timeDefinition=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.toString@POLYN160435 the MagicNumber/String  ', safeToDropTombstones=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal.toString@POLYN160435 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

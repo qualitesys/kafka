@@ -2,14 +2,14 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.kstream.Window"
 class org.apache.kafka.streams.kstream.Window {
-+Window(long;long) : Window [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#18]]]
-+start() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#33]]]
-+end() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#38]]]
-+startTime() : Instant [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#43]]]
-+endTime() : Instant [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#48]]]
-+overlap(Window) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#53]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#56]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#72]]]
-+toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#77]]]
++Window(long;long) : Window [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#52]]]
++start() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#71]]]
++end() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#80]]]
++startTime() : Instant [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#89]]]
++endTime() : Instant [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#98]]]
++overlap(Window) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#110]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#113]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#129]]]
++toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#134]]]
 } 
 @enduml

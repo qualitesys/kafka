@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#57"
+ , "c5" : "00072"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#72"
  , "c1" : "void"
  , "c2" : "validateVersions(int;int)"
  , "c3" : "4"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#70"
+ , "c5" : "00085"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#85"
  , "c1" : "SubscriptionInfo"
  , "c2" : "SubscriptionInfo(int;int;UUID;String;Map<TaskId,Long>;byte;int;Map<String,String>)"
  , "c3" : "10"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00113"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#113"
+ , "c5" : "00128"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#128"
  , "c1" : "SubscriptionInfo"
  , "c2" : "SubscriptionInfo(SubscriptionInfoData)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00118"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#118"
+ , "c5" : "00133"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#133"
  , "c1" : "Map<String,String>"
  , "c2" : "clientTags()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00128"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#128"
+ , "c5" : "00143"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#143"
  , "c1" : "int"
  , "c2" : "errorCode()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00132"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#132"
+ , "c5" : "00147"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#147"
  , "c1" : "List<ClientTag>"
  , "c2" : "buildClientTagsFromMap(Map<String,String>)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00144"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#144"
+ , "c5" : "00159"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#159"
  , "c1" : "void"
  , "c2" : "setTaskOffsetSumDataWithNamedTopologiesFromTaskOffsetSumMap(Map<TaskId,Long>)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00157"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#157"
+ , "c5" : "00172"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#172"
  , "c1" : "void"
  , "c2" : "setTaskOffsetSumDataFromTaskOffsetSumMap(Map<TaskId,Long>)"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00179"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#179"
+ , "c5" : "00194"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#194"
  , "c1" : "void"
  , "c2" : "setPrevAndStandbySetsFromParsedTaskOffsetSumMap(Map<TaskId,Long>)"
  , "c3" : "5"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00208"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#208"
+ , "c5" : "00223"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#223"
  , "c1" : "int"
  , "c2" : "version()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00212"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#212"
+ , "c5" : "00227"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#227"
  , "c1" : "int"
  , "c2" : "latestSupportedVersion()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00216"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#216"
+ , "c5" : "00231"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#231"
  , "c1" : "UUID"
  , "c2" : "processId()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00220"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#220"
+ , "c5" : "00235"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#235"
  , "c1" : "Set<TaskId>"
  , "c2" : "prevTasks()"
  , "c3" : "4"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00236"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#236"
+ , "c5" : "00251"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#251"
  , "c1" : "Set<TaskId>"
  , "c2" : "standbyTasks()"
  , "c3" : "4"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00252"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#252"
+ , "c5" : "00267"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#267"
  , "c1" : "Map<TaskId,Long>"
  , "c2" : "taskOffsetSums()"
  , "c3" : "8"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00281"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#281"
+ , "c5" : "00296"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#296"
  , "c1" : "String"
  , "c2" : "userEndPoint()"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00287"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#287"
+ , "c5" : "00302"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#302"
  , "c1" : "Set<TaskId>"
  , "c2" : "getActiveTasksFromTaskOffsetSumMap(Map<TaskId,Long>)"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00291"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#291"
+ , "c5" : "00306"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#306"
  , "c1" : "Set<TaskId>"
  , "c2" : "getStandbyTasksFromTaskOffsetSumMap(Map<TaskId,Long>)"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00295"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#295"
+ , "c5" : "00310"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#310"
  , "c1" : "Set<TaskId>"
  , "c2" : "taskOffsetSumMapToTaskSet(Map<TaskId,Long>;boolean)"
  , "c3" : "1"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00304"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#304"
+ , "c5" : "00321"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#321"
  , "c1" : "ByteBuffer"
  , "c2" : "encode()"
  , "c3" : "3"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00314"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#314"
+ , "c5" : "00333"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#333"
  , "c1" : "SubscriptionInfo"
  , "c2" : "decode(ByteBuffer)"
  , "c3" : "3"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00339"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#339"
+ , "c5" : "00358"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#358"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00344"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#344"
+ , "c5" : "00363"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#363"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00354"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#354"
+ , "c5" : "00373"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#373"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -340,535 +340,535 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#57"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method validateVersions arguments int  version|int  latestSupportedVersion"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.validateVersions@POLYN200863 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.validateVersions@POLYN200863 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.validateVersions@POLYN200863 the MagicNumber/String  'Only versions 1 and 2 are expected to use an UNKNOWN (-1) latest supported version. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.validateVersions@POLYN200863 the MagicNumber/String  'Got ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.validateVersions@POLYN200863 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.validateVersions@POLYN200863 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#65"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.validateVersions@POLYN200863 the MagicNumber/String  'version must be between 1 and ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#65"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.validateVersions@POLYN200863 the MagicNumber/String  '; was: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#72"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00072] For method validateVersions arguments int  version|int  latestSupportedVersion"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#73"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.validateVersions@POLYN200977 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#73"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.validateVersions@POLYN200977 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.validateVersions@POLYN200977 the MagicNumber/String  'Only versions 1 and 2 are expected to use an UNKNOWN (-1) latest supported version. ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#76"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.validateVersions@POLYN200977 the MagicNumber/String  'Got ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#76"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.validateVersions@POLYN200977 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.validateVersions@POLYN200977 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.validateVersions@POLYN200977 the MagicNumber/String  'version must be between 1 and ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.validateVersions@POLYN200977 the MagicNumber/String  '; was: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#87"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00072] The argument processId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00087] The argument processId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#84"
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201609 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201723 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#85"
+ , "c1" : "00100"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201609 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201723 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#86"
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201609 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201723 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#89"
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201609 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201723 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#92"
+ , "c1" : "00107"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201609 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201723 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#95"
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201609 the MagicNumber/String  9 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#98"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201609 the MagicNumber/String  11 should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201723 the MagicNumber/String  9 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201723 the MagicNumber/String  11 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#128"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00113] The argument subscriptionInfoData is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00128] The argument subscriptionInfoData is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#132"
+ , "c1" : "00147"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00132] For method buildClientTagsFromMap arguments Map&lt;String ,String &gt;  clientTags"
+ , "c3" : "QC-JAV000006[00147] For method buildClientTagsFromMap arguments Map&lt;String ,String &gt;  clientTags"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#132"
+ , "c1" : "00147"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#147"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00132] The argument clientTags is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00147] The argument clientTags is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#144"
+ , "c1" : "00159"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00144] For method setTaskOffsetSumDataWithNamedTopologiesFromTaskOffsetSumMap arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums"
+ , "c3" : "QC-JAV000006[00159] For method setTaskOffsetSumDataWithNamedTopologiesFromTaskOffsetSumMap arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#144"
+ , "c1" : "00159"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#159"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00144] The argument taskOffsetSums is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00159] The argument taskOffsetSums is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#157"
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#172"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00157] For method setTaskOffsetSumDataFromTaskOffsetSumMap arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums"
+ , "c3" : "QC-JAV000006[00172] For method setTaskOffsetSumDataFromTaskOffsetSumMap arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#157"
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#172"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00157] The argument taskOffsetSums is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00172] The argument taskOffsetSums is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#160"
+ , "c1" : "00175"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00160] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00175] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#161"
+ , "c1" : "00176"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.setTaskOffsetSumDataFromTaskOffsetSumMap@POLYN206149 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.setTaskOffsetSumDataFromTaskOffsetSumMap@POLYN206263 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#162"
+ , "c1" : "00177"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.setTaskOffsetSumDataFromTaskOffsetSumMap@POLYN206149 the MagicNumber/String  'Named topologies are not compatible with older protocol versions' should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.setTaskOffsetSumDataFromTaskOffsetSumMap@POLYN206263 the MagicNumber/String  'Named topologies are not compatible with older protocol versions' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#179"
+ , "c1" : "00194"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00179] For method setPrevAndStandbySetsFromParsedTaskOffsetSumMap arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums"
+ , "c3" : "QC-JAV000006[00194] For method setPrevAndStandbySetsFromParsedTaskOffsetSumMap arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#179"
+ , "c1" : "00194"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#194"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00179] The argument taskOffsetSums is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00194] The argument taskOffsetSums is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#184"
+ , "c1" : "00199"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.setPrevAndStandbySetsFromParsedTaskOffsetSumMap@POLYN207689 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.setPrevAndStandbySetsFromParsedTaskOffsetSumMap@POLYN207803 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#185"
+ , "c1" : "00200"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#200"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.setPrevAndStandbySetsFromParsedTaskOffsetSumMap@POLYN207689 the MagicNumber/String  'Named topologies are not compatible with older protocol versions' should be converted to const"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.setPrevAndStandbySetsFromParsedTaskOffsetSumMap@POLYN207803 the MagicNumber/String  'Named topologies are not compatible with older protocol versions' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#220"
+ , "c1" : "00235"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#235"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00220] For method prevTasks list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.processor.TaskId&gt; getActiveTasksFromTaskOffsetSumMapN210386"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#221"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.prevTasks@POLYN210148 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000007[00235] For method prevTasks list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.processor.TaskId&gt; getActiveTasksFromTaskOffsetSumMapN210500"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00236"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#236"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.prevTasks@POLYN210262 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00251"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#251"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00236] For method standbyTasks list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.processor.TaskId&gt; getStandbyTasksFromTaskOffsetSumMapN211136"
+ , "c3" : "QC-JAV000007[00251] For method standbyTasks list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.processor.TaskId&gt; getStandbyTasksFromTaskOffsetSumMapN211250"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00237"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#237"
+ , "c1" : "00252"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.standbyTasks@POLYN210898 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.standbyTasks@POLYN211012 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#264"
+ , "c1" : "00279"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00264] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00279] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#253"
+ , "c1" : "00268"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.taskOffsetSums@POLYN211664 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.taskOffsetSums@POLYN211778 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00282"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#282"
+ , "c1" : "00297"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00282] The same method call data.userEndPoint()data.userEndPoint() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00297] The same method call data.userEndPoint()data.userEndPoint() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00282"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#282"
+ , "c1" : "00297"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00282] The same method call data.userEndPoint() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00297] The same method call data.userEndPoint() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00282"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#282"
+ , "c1" : "00297"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.userEndPoint@POLYN213151 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.userEndPoint@POLYN213265 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00282"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#282"
+ , "c1" : "00297"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.userEndPoint@POLYN213151 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.userEndPoint@POLYN213265 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00283"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#283"
+ , "c1" : "00298"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.userEndPoint@POLYN213151 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.userEndPoint@POLYN213265 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00287"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#287"
+ , "c1" : "00302"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#302"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00287] For method getActiveTasksFromTaskOffsetSumMap arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums"
+ , "c3" : "QC-JAV000006[00302] For method getActiveTasksFromTaskOffsetSumMap arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00288"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#288"
+ , "c1" : "00303"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.getActiveTasksFromTaskOffsetSumMap@POLYN213519 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.getActiveTasksFromTaskOffsetSumMap@POLYN213633 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00291"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#291"
+ , "c1" : "00306"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#306"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00291] For method getStandbyTasksFromTaskOffsetSumMap arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00292"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#292"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.getStandbyTasksFromTaskOffsetSumMap@POLYN213748 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00295"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#295"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00295] For method taskOffsetSumMapToTaskSet arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums|boolean  getActiveTasks"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00295"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#295"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00295] The argument taskOffsetSums is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00306] For method getStandbyTasksFromTaskOffsetSumMap arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00307"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.encode@POLYN214520 the MagicNumber/String  'Should never try to encode a SubscriptionInfo with version [' should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.getStandbyTasksFromTaskOffsetSumMap@POLYN213862 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00308"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#308"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.encode@POLYN214520 the MagicNumber/String  '] &amp;gt; LATEST_SUPPORTED_VERSION [' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00308"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#308"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.encode@POLYN214520 the MagicNumber/String  ']' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00314"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#314"
+ , "c1" : "00310"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#310"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00314] For method decode arguments ByteBuffer  data"
+ , "c3" : "QC-JAV000006[00310] For method taskOffsetSumMapToTaskSet arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums|boolean  getActiveTasks"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00314"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#314"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00314] For method decode list of called methods Object monObjet|java.nio.ByteBuffer data_getIntN215349"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00314"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#314"
+ , "c1" : "00310"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#310"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00314] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00310] The argument taskOffsetSums is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00324"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#324"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.encode@POLYN214634 the MagicNumber/String  'Should never try to encode a SubscriptionInfo with version [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00325"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.decode@POLYN215041 the MagicNumber/String  'Unable to decode subscription data: used version: {}; latest supported version: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.encode@POLYN214634 the MagicNumber/String  '] &amp;gt; LATEST_SUPPORTED_VERSION [' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00325"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#325"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.encode@POLYN214634 the MagicNumber/String  ']' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00333"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#333"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00333] For method decode arguments ByteBuffer  data"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00333"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#333"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00333] For method decode list of called methods Object monObjet|java.nio.ByteBuffer data_getIntN215463"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00333"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#333"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00333] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00344"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#344"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00344] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00349"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#349"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.equals@POLYN216327 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.decode@POLYN215155 the MagicNumber/String  'Unable to decode subscription data: used version: {}; latest supported version: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00287"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#287"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00287] Public method getActiveTasksFromTaskOffsetSumMap is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00363"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#363"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00363] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00291"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#291"
+ , "c1" : "00368"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#368"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.equals@POLYN216441 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00302"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#302"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00291] Public method getStandbyTasksFromTaskOffsetSumMap is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00302] Public method getActiveTasksFromTaskOffsetSumMap is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00306"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#306"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00306] Public method getStandbyTasksFromTaskOffsetSumMap is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.version@POLYN209689"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.version@POLYN209803"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201609"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201723"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.decode@POLYN215041"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.decode@POLYN215155"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.equals@POLYN216327"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.equals@POLYN216441"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.errorCode@POLYN204438"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.errorCode@POLYN204552"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.hashCode@POLYN216207"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.hashCode@POLYN216321"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.latestSupportedVersion@POLYN209795"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.latestSupportedVersion@POLYN209909"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.toString@POLYN216700"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.toString@POLYN216814"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#84"
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#99"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201609 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201723 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#85"
+ , "c1" : "00100"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#100"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201609 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201723 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#86"
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201609 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201723 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#89"
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#104"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00089] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201609 the MagicNumber/String 3 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201723 the MagicNumber/String 3 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#92"
+ , "c1" : "00107"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#107"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201609 the MagicNumber/String 8 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201723 the MagicNumber/String 8 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#95"
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201609 the MagicNumber/String 9 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201723 the MagicNumber/String 9 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#98"
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#113"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201609 the MagicNumber/String 11 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN201723 the MagicNumber/String 11 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00325"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#325"
+ , "c1" : "00344"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#344"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00325] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.decode@POLYN215041 the MagicNumber/String 'Unable to decode subscription data: used version: {}; latest supported version: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00344] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.decode@POLYN215155 the MagicNumber/String 'Unable to decode subscription data: used version: {}; latest supported version: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00349"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#349"
+ , "c1" : "00368"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#368"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00349] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.equals@POLYN216327 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00368] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.equals@POLYN216441 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

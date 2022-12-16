@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#37"
+ , "c5" : "00064"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#64"
  , "c1" : "DefaultKafkaPrincipalBuilder"
  , "c2" : "DefaultKafkaPrincipalBuilder(KerberosShortNamer;SslPrincipalMapper)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#43"
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#70"
  , "c1" : "KafkaPrincipal"
  , "c2" : "build(AuthenticationContext)"
  , "c3" : "9"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#64"
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#91"
  , "c1" : "KafkaPrincipal"
  , "c2" : "applyKerberosShortNamer(String)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#75"
+ , "c5" : "00102"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#102"
  , "c1" : "KafkaPrincipal"
  , "c2" : "applySslPrincipalMapper(Principal)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#89"
+ , "c5" : "00116"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#116"
  , "c1" : "byte[]"
  , "c2" : "serialize(KafkaPrincipal)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#98"
+ , "c5" : "00125"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#125"
  , "c1" : "KafkaPrincipal"
  , "c2" : "deserialize(byte[])"
  , "c3" : "2"
@@ -134,108 +134,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#43"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method build arguments AuthenticationContext  context"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#43"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00043] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.build@POLYN164303 the MagicNumber/String  'Unhandled authentication context type: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#64"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method applyKerberosShortNamer arguments String  authorizationId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#64"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00064] For method applyKerberosShortNamer list of called methods Object monObjet|org.apache.kafka.common.security.kerberos.KerberosName KerberosName_parseN165600"
+ , "c3" : "QC-JAV000006[00070] For method build arguments AuthenticationContext  context"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.applyKerberosShortNamer@POLYN165503 the MagicNumber/String  'Failed to set name for '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.applyKerberosShortNamer@POLYN165503 the MagicNumber/String  '' based on Kerberos authentication rules.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#75"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method applySslPrincipalMapper arguments Principal  principal"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#75"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00075] The argument principal is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00070] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#83"
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.applySslPrincipalMapper@POLYN166076 the MagicNumber/String  'Failed to map name for '' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.build@POLYN164465 the MagicNumber/String  'Unhandled authentication context type: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.applySslPrincipalMapper@POLYN166076 the MagicNumber/String  '' based on SSL principal mapping rules.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#89"
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00089] For method serialize arguments KafkaPrincipal  principal"
+ , "c3" : "QC-JAV000006[00091] For method applyKerberosShortNamer arguments String  authorizationId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#89"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00089] The argument principal is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#91"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00091] For method applyKerberosShortNamer list of called methods Object monObjet|org.apache.kafka.common.security.kerberos.KerberosName KerberosName_parseN165762"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#97"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.applyKerberosShortNamer@POLYN165665 the MagicNumber/String  'Failed to set name for '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#98"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method deserialize arguments byte[]  bytes"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.applyKerberosShortNamer@POLYN165665 the MagicNumber/String  '' based on Kerberos authentication rules.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#102"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00102] For method applySslPrincipalMapper arguments Principal  principal"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#102"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00102] The argument principal is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.deserialize@POLYN167293 the MagicNumber/String  'Invalid principal data version ' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.applySslPrincipalMapper@POLYN166238 the MagicNumber/String  'Failed to map name for '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.applySslPrincipalMapper@POLYN166238 the MagicNumber/String  '' based on SSL principal mapping rules.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#116"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00116] For method serialize arguments KafkaPrincipal  principal"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#116"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00116] The argument principal is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#125"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00125] For method deserialize arguments byte[]  bytes"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00129"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#129"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.deserialize@POLYN167455 the MagicNumber/String  'Invalid principal data version ' should be converted to const"
 }} 
 ]
 , 

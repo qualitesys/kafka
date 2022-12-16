@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.StreamsMetadataImpl" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#28"
+ , "c5" : "00049"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#49"
  , "c1" : "StreamsMetadataImpl"
  , "c2" : "StreamsMetadataImpl(HostInfo;Set<String>;Set<TopicPartition>;Set<String>;Set<TopicPartition>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#43"
+ , "c5" : "00064"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#64"
  , "c1" : "StreamsMetadataImpl"
  , "c2" : "StreamsMetadataImpl(HostInfo;Set<String>;Set<TopicPartition>;Set<String>;Set<TopicPartition>;String)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#59"
+ , "c5" : "00085"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#85"
  , "c1" : "HostInfo"
  , "c2" : "hostInfo()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#65"
+ , "c5" : "00095"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#95"
  , "c1" : "Set<String>"
  , "c2" : "stateStoreNames()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#71"
+ , "c5" : "00105"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#105"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "topicPartitions()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#77"
+ , "c5" : "00115"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#115"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "standbyTopicPartitions()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#83"
+ , "c5" : "00125"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#125"
  , "c1" : "Set<String>"
  , "c2" : "standbyStateStoreNames()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#88"
+ , "c5" : "00130"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#130"
  , "c1" : "String"
  , "c2" : "host()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#94"
+ , "c5" : "00136"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#136"
  , "c1" : "int"
  , "c2" : "port()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#98"
+ , "c5" : "00140"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#140"
  , "c1" : "String"
  , "c2" : "topologyName()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#103"
+ , "c5" : "00145"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#145"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00121"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#121"
+ , "c5" : "00163"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#163"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00126"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#126"
+ , "c5" : "00168"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#168"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "3"
@@ -206,129 +206,129 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#39"
+ , "c1" : "00060"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.StreamsMetadataImpl@POLYN161948 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.StreamsMetadataImpl@POLYN162200 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#103"
+ , "c1" : "00145"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#145"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00145] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#107"
+ , "c1" : "00149"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00107] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00149] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#105"
+ , "c1" : "00147"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.equals@POLYN164691 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.equals@POLYN164943 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#107"
+ , "c1" : "00149"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.equals@POLYN164691 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.equals@POLYN164943 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#108"
+ , "c1" : "00150"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.equals@POLYN164691 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.equals@POLYN164943 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#128"
+ , "c1" : "00170"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN165940 the MagicNumber/String  'StreamsMetadata {' should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN166192 the MagicNumber/String  'StreamsMetadata {' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#129"
+ , "c1" : "00171"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN165940 the MagicNumber/String  'hostInfo=' should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN166192 the MagicNumber/String  'hostInfo=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#130"
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN165940 the MagicNumber/String  ', stateStoreNames=' should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN166192 the MagicNumber/String  ', stateStoreNames=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#131"
+ , "c1" : "00173"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN165940 the MagicNumber/String  ', topicPartitions=' should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN166192 the MagicNumber/String  ', topicPartitions=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#132"
+ , "c1" : "00174"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN165940 the MagicNumber/String  ', standbyStateStoreNames=' should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN166192 the MagicNumber/String  ', standbyStateStoreNames=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#133"
+ , "c1" : "00175"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN165940 the MagicNumber/String  ', standbyTopicPartitions=' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN166192 the MagicNumber/String  ', standbyTopicPartitions=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#134"
+ , "c1" : "00176"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN165940 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN166192 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#135"
+ , "c1" : "00177"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN165940 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN166192 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#138"
+ , "c1" : "00180"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN165940 the MagicNumber/String  ', topologyName=' should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN166192 the MagicNumber/String  ', topologyName=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#139"
+ , "c1" : "00181"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN165940 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.state.internals.StreamsMetadataImpl.toString@POLYN166192 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.StreamsMetadataImpl.host@POLYN164320"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.StreamsMetadataImpl.host@POLYN164572"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.StreamsMetadataImpl.port@POLYN164485"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.StreamsMetadataImpl.port@POLYN164737"
 }} 
 ]
 , 

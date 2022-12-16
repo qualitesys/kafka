@@ -2,17 +2,17 @@
 !pragma layout smetana
 "AbstractStream<K,V>TimeWindowedKStream<K,V>" <|-- "org.apache.kafka.streams.kstream.internals.TimeWindowedKStreamImpl"
 class org.apache.kafka.streams.kstream.internals.TimeWindowedKStreamImpl {
-TimeWindowedKStreamImpl(Windows<W>;InternalStreamsBuilder;Set<String>;String;Serde<K>;Serde<V>;GroupedStreamAggregateBuilder<K,V>;GraphNode) : TimeWindowedKStreamImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#41]]]
-+count() : KTable<Windowed<K>,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#55]]]
-+count(Named) : KTable<Windowed<K>,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#60]]]
-+count(Materialized<K,Long,WindowStore<Bytes,byte[]>>) : KTable<Windowed<K>,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#66]]]
-+count(Named;Materialized<K,Long,WindowStore<Bytes,byte[]>>) : KTable<Windowed<K>,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#71]]]
--doCount(Named;Materialized<K,Long,WindowStore<Bytes,byte[]>>) : KTable<Windowed<K>,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#83]]]
-+reduce(Reducer<V>) : KTable<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#163]]]
-+reduce(Reducer<V>;Named) : KTable<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#168]]]
-+reduce(Reducer<V>;Materialized<K,V,WindowStore<Bytes,byte[]>>) : KTable<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#173]]]
-+reduce(Reducer<V>;Named;Materialized<K,V,WindowStore<Bytes,byte[]>>) : KTable<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#179]]]
-+emitStrategy(EmitStrategy) : TimeWindowedKStream<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#213]]]
--aggregatorForReducer(Reducer<V>) : Aggregator<K,V,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#284]]]
+TimeWindowedKStreamImpl(Windows<W>;InternalStreamsBuilder;Set<String>;String;Serde<K>;Serde<V>;GroupedStreamAggregateBuilder<K,V>;GraphNode) : TimeWindowedKStreamImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#56]]]
++count() : KTable<Windowed<K>,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#70]]]
++count(Named) : KTable<Windowed<K>,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#75]]]
++count(Materialized<K,Long,WindowStore<Bytes,byte[]>>) : KTable<Windowed<K>,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#81]]]
++count(Named;Materialized<K,Long,WindowStore<Bytes,byte[]>>) : KTable<Windowed<K>,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#86]]]
+-doCount(Named;Materialized<K,Long,WindowStore<Bytes,byte[]>>) : KTable<Windowed<K>,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#98]]]
++reduce(Reducer<V>) : KTable<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#178]]]
++reduce(Reducer<V>;Named) : KTable<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#183]]]
++reduce(Reducer<V>;Materialized<K,V,WindowStore<Bytes,byte[]>>) : KTable<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#188]]]
++reduce(Reducer<V>;Named;Materialized<K,V,WindowStore<Bytes,byte[]>>) : KTable<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#194]]]
++emitStrategy(EmitStrategy) : TimeWindowedKStream<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#228]]]
+-aggregatorForReducer(Reducer<V>) : Aggregator<K,V,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#299]]]
 } 
 @enduml

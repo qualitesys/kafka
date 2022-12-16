@@ -2,18 +2,18 @@
 !pragma layout smetana
 "WrappedStateStore<SegmentedBytesStore,Object,Object>SessionStore<Bytes,byte[]>" <|-- "org.apache.kafka.streams.state.internals.RocksDBSessionStore"
 class org.apache.kafka.streams.state.internals.RocksDBSessionStore {
-RocksDBSessionStore(SegmentedBytesStore) : RocksDBSessionStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#22]]]
-+init(StateStoreContext;StateStore) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#27]]]
-+findSessions(Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#48]]]
-+backwardFindSessions(Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#60]]]
-+findSessions(Bytes;Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#72]]]
-+backwardFindSessions(Bytes;Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#86]]]
-+fetchSession(Bytes;long;long) : byte[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#100]]]
-+fetch(Bytes) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#111]]]
-+backwardFetch(Bytes) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#116]]]
-+fetch(Bytes;Bytes) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#121]]]
-+backwardFetch(Bytes;Bytes) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#126]]]
-+remove(Windowed<Bytes>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#131]]]
-+put(Windowed<Bytes>;byte[]) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#136]]]
+RocksDBSessionStore(SegmentedBytesStore) : RocksDBSessionStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#37]]]
++init(StateStoreContext;StateStore) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#42]]]
++findSessions(Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#63]]]
++backwardFindSessions(Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#75]]]
++findSessions(Bytes;Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#87]]]
++backwardFindSessions(Bytes;Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#101]]]
++fetchSession(Bytes;long;long) : byte[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#115]]]
++fetch(Bytes) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#126]]]
++backwardFetch(Bytes) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#131]]]
++fetch(Bytes;Bytes) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#136]]]
++backwardFetch(Bytes;Bytes) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#141]]]
++remove(Windowed<Bytes>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#146]]]
++put(Windowed<Bytes>;byte[]) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#151]]]
 } 
 @enduml

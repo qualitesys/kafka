@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.raft.LogOffsetMetadata"
 class org.apache.kafka.raft.LogOffsetMetadata {
-+LogOffsetMetadata(long) : LogOffsetMetadata [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#13]]]
-+LogOffsetMetadata(long;Optional<OffsetMetadata>) : LogOffsetMetadata [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#17]]]
-+toString() : String [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#23]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#29]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#40]]]
++LogOffsetMetadata(long) : LogOffsetMetadata [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#30]]]
++LogOffsetMetadata(long;Optional<OffsetMetadata>) : LogOffsetMetadata [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#34]]]
++toString() : String [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#40]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#46]]]
++hashCode() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#57]]]
 } 
 @enduml

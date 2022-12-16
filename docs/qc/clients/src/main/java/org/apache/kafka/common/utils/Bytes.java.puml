@@ -2,14 +2,14 @@
 !pragma layout smetana
 "Comparable<Bytes>" <|-- "org.apache.kafka.common.utils.Bytes"
 class org.apache.kafka.common.utils.Bytes {
-+wrap(byte[]) : Bytes [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#20]]]
-+Bytes(byte[]) : Bytes [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#27]]]
-+get() : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#35]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#41]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#50]]]
-+compareTo(Bytes) : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#67]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#72]]]
--toString(byte[];int;int) : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#77]]]
-+increment(Bytes) : Bytes [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#104]]]
++wrap(byte[]) : Bytes [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#37]]]
++Bytes(byte[]) : Bytes [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#48]]]
++get() : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#59]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#70]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#79]]]
++compareTo(Bytes) : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#96]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#101]]]
+-toString(byte[];int;int) : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#117]]]
++increment(Bytes) : Bytes [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#150]]]
 } 
 @enduml

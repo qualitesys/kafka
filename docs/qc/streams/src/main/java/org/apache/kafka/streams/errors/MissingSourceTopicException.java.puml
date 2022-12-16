@@ -2,6 +2,6 @@
 !pragma layout smetana
 "StreamsException" <|-- "org.apache.kafka.streams.errors.MissingSourceTopicException"
 class org.apache.kafka.streams.errors.MissingSourceTopicException {
-+MissingSourceTopicException(String) : MissingSourceTopicException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/MissingSourceTopicException.java.html#8]]]
++MissingSourceTopicException(String) : MissingSourceTopicException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/MissingSourceTopicException.java.html#23]]]
 } 
 @enduml

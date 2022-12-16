@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.ClientQuotaDelta" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#18"
+ , "c5" : "00033"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#33"
  , "c1" : "ClientQuotaDelta"
  , "c2" : "ClientQuotaDelta(ClientQuotaImage)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#22"
+ , "c5" : "00037"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#37"
  , "c1" : "Map<String,OptionalDouble>"
  , "c2" : "changes()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#26"
+ , "c5" : "00041"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#41"
  , "c1" : "void"
  , "c2" : "finishSnapshot()"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#35"
+ , "c5" : "00050"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#50"
  , "c1" : "void"
  , "c2" : "replay(ClientQuotaRecord)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#43"
+ , "c5" : "00058"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#58"
  , "c1" : "ClientQuotaImage"
  , "c2" : "apply()"
  , "c3" : "8"
@@ -148,52 +148,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#35"
+ , "c1" : "00050"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method replay arguments ClientQuotaRecord  record"
+ , "c3" : "QC-JAV000006[00050] For method replay arguments ClientQuotaRecord  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#35"
+ , "c1" : "00050"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#50"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00035] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00050] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#46"
+ , "c1" : "00061"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00046] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00061] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#47"
+ , "c1" : "00062"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.image.ClientQuotaDelta.apply@POLYN151180 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.image.ClientQuotaDelta.apply@POLYN151270 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#22"
+ , "c1" : "00037"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#37"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00022] Public method changes is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00037] Public method changes is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#35"
+ , "c1" : "00050"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#50"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00035] Public method replay is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00050] Public method replay is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClientQuotaDelta.replay@POLYN150713"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClientQuotaDelta.replay@POLYN150803"
 }} 
 ]
 , 

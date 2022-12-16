@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.Message" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#11"
+ , "c5" : "00026"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#26"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#18"
+ , "c5" : "00033"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#33"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#38"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -100,38 +100,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#11"
+ , "c1" : "00026"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#26"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00011] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00026] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#13"
+ , "c1" : "00028"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00013] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00028] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#12"
+ , "c1" : "00027"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.trogdor.rest.Message.equals@POLYN142806 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.rest.Message.equals@POLYN142896 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#13"
+ , "c1" : "00028"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.trogdor.rest.Message.equals@POLYN142806 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.trogdor.rest.Message.equals@POLYN142896 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#13"
+ , "c1" : "00028"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.trogdor.rest.Message.equals@POLYN142806 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.trogdor.rest.Message.equals@POLYN142896 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

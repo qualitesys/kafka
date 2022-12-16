@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ListTopicsOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#17"
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#40"
  , "c1" : "ListTopicsOptions"
  , "c2" : "timeoutMs(Integer)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#23"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#52"
  , "c1" : "ListTopicsOptions"
  , "c2" : "listInternal(boolean)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#29"
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#60"
  , "c1" : "boolean"
  , "c2" : "shouldListInternal()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#34"
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#65"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#41"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#72"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#49"
+ , "c5" : "00080"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#80"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -127,73 +127,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#17"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method timeoutMs arguments Integer  timeoutMs"
+ , "c3" : "QC-JAV000006[00040] For method timeoutMs arguments Integer  timeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#23"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method listInternal arguments boolean  listInternal"
+ , "c3" : "QC-JAV000006[00052] For method listInternal arguments boolean  listInternal"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#35"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.admin.ListTopicsOptions.toString@POLYN148437 the MagicNumber/String  'ListTopicsOptions(' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.admin.ListTopicsOptions.toString@POLYN148623 the MagicNumber/String  'ListTopicsOptions(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#36"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.admin.ListTopicsOptions.toString@POLYN148437 the MagicNumber/String  'listInternal=' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.admin.ListTopicsOptions.toString@POLYN148623 the MagicNumber/String  'listInternal=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#37"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.admin.ListTopicsOptions.toString@POLYN148437 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.admin.ListTopicsOptions.toString@POLYN148623 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#41"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00072] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#43"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00043] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00074] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#42"
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.admin.ListTopicsOptions.equals@POLYN148609 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.admin.ListTopicsOptions.equals@POLYN148795 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#43"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.admin.ListTopicsOptions.equals@POLYN148609 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.admin.ListTopicsOptions.equals@POLYN148795 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#43"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.admin.ListTopicsOptions.equals@POLYN148609 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.admin.ListTopicsOptions.equals@POLYN148795 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

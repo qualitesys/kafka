@@ -2,16 +2,16 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.StateManager"
 class org.apache.kafka.streams.processor.internals.StateManager {
-baseDir() : File [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#16]]]
-registerStore(StateStore;StateRestoreCallback;CommitCallback) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#19]]]
-getStore(String) : StateStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#23]]]
-flush() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#25]]]
-updateChangelogOffsets(Map<TopicPartition,Long>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#27]]]
-checkpoint() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#29]]]
-changelogOffsets() : Map<TopicPartition,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#31]]]
-close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#33]]]
-taskType() : TaskType [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#35]]]
-changelogFor(String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#37]]]
-getGlobalStore(String) : StateStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#40]]]
+baseDir() : File [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#31]]]
+registerStore(StateStore;StateRestoreCallback;CommitCallback) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#38]]]
+getStore(String) : StateStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#42]]]
+flush() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#44]]]
+updateChangelogOffsets(Map<TopicPartition,Long>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#46]]]
+checkpoint() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#48]]]
+changelogOffsets() : Map<TopicPartition,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#50]]]
+close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#52]]]
+taskType() : TaskType [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#54]]]
+changelogFor(String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#56]]]
+getGlobalStore(String) : StateStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManager.java.html#59]]]
 } 
 @enduml

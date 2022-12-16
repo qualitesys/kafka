@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ElectLeadersResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#21"
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#40"
  , "c1" : "ElectLeadersResult"
  , "c2" : "ElectLeadersResult(KafkaFuture<Map<TopicPartition,Optional<Throwable>>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#26"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#49"
  , "c1" : "KafkaFuture<Map<TopicPartition,Optional<Throwable>>>"
  , "c2" : "partitions()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#31"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#56"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "all()"
  , "c3" : "5"
@@ -93,24 +93,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#38"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.admin.ElectLeadersResult.all@POLYN151239 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.admin.ElectLeadersResult.all@POLYN151389 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#47"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.clients.admin.ElectLeadersResult.all@POLYN151239 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.admin.ElectLeadersResult.all@POLYN151389 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#31"
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#56"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00031] Public method all is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00056] Public method all is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

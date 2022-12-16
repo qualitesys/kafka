@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.StateTracker" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#14"
+ , "c5" : "00040"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#40"
  , "c1" : "void"
  , "c2" : "changeState(State;long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#20"
+ , "c5" : "00052"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#52"
  , "c1" : "double"
  , "c2" : "durationRatio(State;long)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#25"
+ , "c5" : "00061"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#61"
  , "c1" : "State"
  , "c2" : "currentState()"
  , "c3" : "1"
@@ -100,178 +100,178 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#14"
+ , "c1" : "00040"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#40"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00014] Lock statement on synchronized method changeState"
+ , "c3" : "QC-JAV000019[00040] Lock statement on synchronized method changeState"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#14"
+ , "c1" : "00040"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00014] For method changeState arguments State  newState|long  now"
+ , "c3" : "QC-JAV000006[00040] For method changeState arguments State  newState|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#20"
+ , "c1" : "00052"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00020] For method durationRatio arguments State  ratioState|long  now"
+ , "c3" : "QC-JAV000006[00052] For method durationRatio arguments State  ratioState|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#43"
+ , "c1" : "00084"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.StateChange@POLYN166155 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.StateChange@POLYN166419 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#43"
+ , "c1" : "00084"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.StateChange@POLYN166155 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.StateChange@POLYN166419 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#43"
+ , "c1" : "00084"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.StateChange@POLYN166155 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.StateChange@POLYN166419 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#43"
+ , "c1" : "00084"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.StateChange@POLYN166155 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.StateChange@POLYN166419 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#43"
+ , "c1" : "00084"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.StateChange@POLYN166155 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.StateChange@POLYN166419 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#43"
+ , "c1" : "00084"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.StateChange@POLYN166155 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.StateChange@POLYN166419 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#43"
+ , "c1" : "00084"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.StateChange@POLYN166155 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.StateChange@POLYN166419 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#43"
+ , "c1" : "00084"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.StateChange@POLYN166155 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.StateChange@POLYN166419 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#129"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#175"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00129] For method newState arguments State  state|long  now"
+ , "c3" : "QC-JAV000006[00175] For method newState arguments State  state|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#129"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.newState@POLYN167424 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.newState@POLYN167688 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#129"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.newState@POLYN167424 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.newState@POLYN167688 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#129"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.newState@POLYN167424 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.newState@POLYN167688 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#129"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.newState@POLYN167424 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.newState@POLYN167688 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#129"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.newState@POLYN167424 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.newState@POLYN167688 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#129"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.newState@POLYN167424 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.newState@POLYN167688 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#129"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.newState@POLYN167424 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.newState@POLYN167688 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#129"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#175"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00129] For method durationRatio arguments State  ratioState|long  now"
+ , "c3" : "QC-JAV000006[00175] For method durationRatio arguments State  ratioState|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#129"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.durationRatio@POLYN169537 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.durationRatio@POLYN169801 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#129"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.durationRatio@POLYN169537 the MagicNumber/String  0.0d should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.durationRatio@POLYN169801 the MagicNumber/String  0.0d should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#129"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.durationRatio@POLYN169537 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.durationRatio@POLYN169801 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#129"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.durationRatio@POLYN169537 the MagicNumber/String  0.0d should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.durationRatio@POLYN169801 the MagicNumber/String  0.0d should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#129"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.durationRatio@POLYN169537 the MagicNumber/String  0.0d should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.durationRatio@POLYN169801 the MagicNumber/String  0.0d should be converted to const"
 }} 
 ]
 , 

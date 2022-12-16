@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#34"
  , "c1" : "SubscriptionWrapperSerde"
  , "c2" : "SubscriptionWrapperSerde(Supplier<String>;Serde<K>)"
  , "c3" : "1"
@@ -82,402 +82,402 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerde@POLYN174122 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerde@POLYN174212 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerde@POLYN174122 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerde@POLYN174212 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerde@POLYN174122 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerde@POLYN174212 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerde@POLYN174122 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerde@POLYN174212 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#45"
+ , "c1" : "00060"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method setIfUnset arguments SerdeGetter  getter"
+ , "c3" : "QC-JAV000006[00060] For method setIfUnset arguments SerdeGetter  getter"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#45"
+ , "c1" : "00060"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#60"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00045] The argument getter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00060] The argument getter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#46"
+ , "c1" : "00061"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.setIfUnset@POLYN175433 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.setIfUnset@POLYN175523 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00067] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#56"
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method upgradeFromV0 arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00071] For method upgradeFromV0 arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#56"
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#71"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00056] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00071] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#58"
+ , "c1" : "00073"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.upgradeFromV0@POLYN175956 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.upgradeFromV0@POLYN176046 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#59"
+ , "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.upgradeFromV0@POLYN175956 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.upgradeFromV0@POLYN176046 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#81"
+ , "c1" : "00096"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.upgradeFromV0@POLYN175956 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.upgradeFromV0@POLYN176046 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#83"
+ , "c1" : "00098"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.upgradeFromV0@POLYN175956 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.upgradeFromV0@POLYN176046 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#88"
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method serialize arguments String  ignored|SubscriptionWrapper&lt;K &gt;  data"
+ , "c3" : "QC-JAV000006[00103] For method serialize arguments String  ignored|SubscriptionWrapper&lt;K &gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#88"
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#103"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00088] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serialize@POLYN177226 the MagicNumber/String  0x7F should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serialize@POLYN177226 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serialize@POLYN177226 the MagicNumber/String  'SubscriptionWrapper version is larger than maximum supported 0x7F' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serialize@POLYN177226 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#99"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serialize@POLYN177226 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serialize@POLYN177226 the MagicNumber/String  'Unsupported SubscriptionWrapper version ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#106"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00106] For method serializePrimaryKey arguments SubscriptionWrapper&lt;K &gt;  data"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#106"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00106] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00103] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializePrimaryKey@POLYN178123 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serialize@POLYN177316 the MagicNumber/String  0x7F should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#117"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00117] For method serializeCommon arguments SubscriptionWrapper&lt;K &gt;  data|byte  version|int  extraLength"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#117"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00117] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#120"
+ , "c1" : "00107"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeCommon@POLYN178486 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serialize@POLYN177316 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serialize@POLYN177316 the MagicNumber/String  'SubscriptionWrapper version is larger than maximum supported 0x7F' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serialize@POLYN177316 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serialize@POLYN177316 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serialize@POLYN177316 the MagicNumber/String  'Unsupported SubscriptionWrapper version ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#121"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeCommon@POLYN178486 the MagicNumber/String  null should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00121] For method serializePrimaryKey arguments SubscriptionWrapper&lt;K &gt;  data"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#121"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00121] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeCommon@POLYN178486 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#128"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeCommon@POLYN178486 the MagicNumber/String  0x80 should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializePrimaryKey@POLYN178213 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeCommon@POLYN178486 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#133"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeCommon@POLYN178486 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#134"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeCommon@POLYN178486 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method serializeV0 arguments SubscriptionWrapper&lt;K &gt;  data"
+ , "c3" : "QC-JAV000006[00132] For method serializeCommon arguments SubscriptionWrapper&lt;K &gt;  data|byte  version|int  extraLength"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeV0@POLYN180101 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeV0@POLYN180101 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#144"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00144] For method serializeV1 arguments SubscriptionWrapper&lt;K &gt;  data"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#144"
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#132"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00144] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00132] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#166"
+ , "c1" : "00135"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#135"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeCommon@POLYN178576 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00136"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#136"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeCommon@POLYN178576 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00137"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#137"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeCommon@POLYN178576 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00143"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#143"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeCommon@POLYN178576 the MagicNumber/String  0x80 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00147"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#147"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeCommon@POLYN178576 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeCommon@POLYN178576 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00149"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#149"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeCommon@POLYN178576 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00166] For method setIfUnset arguments SerdeGetter  getter"
+ , "c3" : "QC-JAV000006[00155] For method serializeV0 arguments SubscriptionWrapper&lt;K &gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#166"
+ , "c1" : "00156"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#156"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeV0@POLYN180191 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00156"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#156"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperSerializer.serializeV0@POLYN180191 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#159"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00159] For method serializeV1 arguments SubscriptionWrapper&lt;K &gt;  data"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#159"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00166] The argument getter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#167"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.setIfUnset@POLYN181462 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#173"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00173] For method deserialize arguments String  ignored|byte[]  data"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#177"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181781 the MagicNumber/String  0x7F should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#178"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181781 the MagicNumber/String  0x80 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#178"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181781 the MagicNumber/String  0x80 should be converted to const"
+ , "c3" : "QC-JAVCWE476[00159] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#181"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181781 the MagicNumber/String  2 should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00181] For method setIfUnset arguments SerdeGetter  getter"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#184"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181781 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00181"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#181"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00181] The argument getter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#186"
+ , "c1" : "00182"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181781 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181781 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.setIfUnset@POLYN181552 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#188"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181781 the MagicNumber/String  1 should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00188] For method deserialize arguments String  ignored|byte[]  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#189"
+ , "c1" : "00192"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181781 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181871 the MagicNumber/String  0x7F should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00193"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181781 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181871 the MagicNumber/String  0x80 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181871 the MagicNumber/String  0x80 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181871 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00199"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181781 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181871 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181781 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181871 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00210"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#210"
+ , "c1" : "00202"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181781 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181871 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#213"
+ , "c1" : "00203"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181781 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181871 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00204"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#204"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181871 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00208"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#208"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181871 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00214"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#214"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181871 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00216"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#216"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181871 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00225"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#225"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181871 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00228"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#228"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde.SubscriptionWrapperDeserializer.deserialize@POLYN181871 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

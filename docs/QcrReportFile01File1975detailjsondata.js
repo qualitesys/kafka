@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.metrics.TopicMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#29"
+ , "c5" : "00044"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#44"
  , "c1" : "Sensor"
  , "c2" : "consumedSensor(String;String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#53"
+ , "c5" : "00068"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#68"
  , "c1" : "Sensor"
  , "c2" : "producedSensor(String;String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -91,45 +91,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method consumedSensor arguments String  threadId|String  taskId|String  processorNodeId|String  topic|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00044] For method consumedSensor arguments String  threadId|String  taskId|String  processorNodeId|String  topic|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00029] For method consumedSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_topicLevelSensorN150998"
+ , "c3" : "QC-JAV000007[00044] For method consumedSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_topicLevelSensorN151088"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#48"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00033] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00048] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#53"
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method producedSensor arguments String  threadId|String  taskId|String  processorNodeId|String  topic|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00068] For method producedSensor arguments String  threadId|String  taskId|String  processorNodeId|String  topic|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#53"
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00053] For method producedSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_topicLevelSensorN151743"
+ , "c3" : "QC-JAV000007[00068] For method producedSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_topicLevelSensorN151833"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#57"
+ , "c1" : "00072"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#72"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00057] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00072] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

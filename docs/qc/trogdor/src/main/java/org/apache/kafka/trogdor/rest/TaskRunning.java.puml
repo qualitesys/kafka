@@ -2,8 +2,8 @@
 !pragma layout smetana
 "TaskState" <|-- "org.apache.kafka.trogdor.rest.TaskRunning"
 class org.apache.kafka.trogdor.rest.TaskRunning {
-+TaskRunning(TaskSpec;long;JsonNode) : TaskRunning [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRunning.java.html#16]]]
-+startedMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRunning.java.html#24]]]
-+stateType() : TaskStateType [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRunning.java.html#29]]]
++TaskRunning(TaskSpec;long;JsonNode) : TaskRunning [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRunning.java.html#35]]]
++startedMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRunning.java.html#43]]]
++stateType() : TaskStateType [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRunning.java.html#48]]]
 } 
 @enduml

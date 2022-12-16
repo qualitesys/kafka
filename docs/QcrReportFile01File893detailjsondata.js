@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.CollectionUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#32"
  , "c1" : "CollectionUtils"
  , "c2" : "CollectionUtils()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#39"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#67"
  , "c1" : "Map<String,List<Integer>>"
  , "c2" : "groupPartitionsByTopic(Collection<TopicPartition>)"
  , "c3" : "1"
@@ -91,52 +91,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#20"
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#37"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00020] The argument minuend is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00037] The argument minuend is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#20"
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#37"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00020] The argument subtrahend is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00037] The argument subtrahend is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#27"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#50"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00050] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#30"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00030] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00032] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#39"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method groupPartitionsByTopic arguments Collection&lt;TopicPartition &gt;  partitions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#51"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00051] The argument addToGroup is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000001[00053] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -147,10 +126,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#56"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#67"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00067] For method groupPartitionsByTopic arguments Collection&lt;TopicPartition &gt;  partitions"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#83"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00083] The argument addToGroup is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00056] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00087] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00088] Avoid declaring class instance within loop, performance impact"
 }} 
 ]
 , 

@@ -2,15 +2,15 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.RepartitionTopics"
 class org.apache.kafka.streams.processor.internals.RepartitionTopics {
-+RepartitionTopics(TopologyMetadata;InternalTopicManager;CopartitionedTopicsEnforcer;Cluster;String) : RepartitionTopics [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#42]]]
-+setup() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#55]]]
-+topologiesWithMissingInputTopics() : Set<String> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#91]]]
-+missingSourceTopicExceptions() : Queue<StreamsException> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#98]]]
-+topicPartitionsInfo() : Map<TopicPartition,PartitionInfo> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#112]]]
--computeRepartitionTopicConfig(Cluster) : Map<String,InternalTopicConfig> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#117]]]
--ensureCopartitioning(Collection<Set<String>>;Map<String,InternalTopicConfig>;Cluster) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#164]]]
--computeMissingExternalSourceTopics(TopicsInfo;Cluster) : Set<String> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#172]]]
--setRepartitionSourceTopicPartitionCount(Map<String,InternalTopicConfig>;Collection<TopicsInfo>;Cluster) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#181]]]
--computePartitionCount(Map<String,InternalTopicConfig>;Collection<TopicsInfo>;Cluster;String) : Integer [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#224]]]
++RepartitionTopics(TopologyMetadata;InternalTopicManager;CopartitionedTopicsEnforcer;Cluster;String) : RepartitionTopics [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#57]]]
++setup() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#70]]]
++topologiesWithMissingInputTopics() : Set<String> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#106]]]
++missingSourceTopicExceptions() : Queue<StreamsException> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#113]]]
++topicPartitionsInfo() : Map<TopicPartition,PartitionInfo> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#127]]]
+-computeRepartitionTopicConfig(Cluster) : Map<String,InternalTopicConfig> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#134]]]
+-ensureCopartitioning(Collection<Set<String>>;Map<String,InternalTopicConfig>;Cluster) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#181]]]
+-computeMissingExternalSourceTopics(TopicsInfo;Cluster) : Set<String> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#189]]]
+-setRepartitionSourceTopicPartitionCount(Map<String,InternalTopicConfig>;Collection<TopicsInfo>;Cluster) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#200]]]
+-computePartitionCount(Map<String,InternalTopicConfig>;Collection<TopicsInfo>;Cluster;String) : Integer [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#243]]]
 } 
 @enduml

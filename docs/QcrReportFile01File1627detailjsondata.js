@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.internals.ApiUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#18"
+ , "c5" : "00033"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#33"
  , "c1" : "ApiUtils"
  , "c2" : "ApiUtils()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#22"
+ , "c5" : "00042"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#42"
  , "c1" : "long"
  , "c2" : "validateMillisecondDuration(Duration;String)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#35"
+ , "c5" : "00060"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#60"
  , "c1" : "long"
  , "c2" : "validateMillisecondInstant(Instant;String)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#48"
+ , "c5" : "00078"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#78"
  , "c1" : "String"
  , "c2" : "prepareMillisCheckFailMsgPrefix(Object;String)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#53"
+ , "c5" : "00085"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#85"
  , "c1" : "void"
  , "c2" : "checkSupplier(Supplier<?>)"
  , "c3" : "2"
@@ -148,115 +148,115 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#22"
+ , "c1" : "00042"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method validateMillisecondDuration arguments Duration  duration|String  messagePrefix"
+ , "c3" : "QC-JAV000006[00042] For method validateMillisecondDuration arguments Duration  duration|String  messagePrefix"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#24"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.internals.ApiUtils.validateMillisecondDuration@POLYN153696 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.internals.ApiUtils.validateMillisecondDuration@POLYN153900 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#35"
+ , "c1" : "00060"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method validateMillisecondInstant arguments Instant  instant|String  messagePrefix"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.internals.ApiUtils.validateMillisecondInstant@POLYN154373 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method prepareMillisCheckFailMsgPrefix arguments Object  value|String  name"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#53"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method checkSupplier arguments Supplier&lt;? &gt;  supplier"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#53"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00053] For method checkSupplier list of called methods Object monObjet|java.lang.Class&lt;?&gt; supplier_getClassN155517"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#53"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00053] The argument supplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00054] The same method call supplier.get() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.internals.ApiUtils.checkSupplier@POLYN155290 the MagicNumber/String  '%s generates single reference.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.internals.ApiUtils.checkSupplier@POLYN155290 the MagicNumber/String  ' %s#get() must return a new object each time it is called.' should be converted to const"
+ , "c3" : "QC-JAV000006[00060] For method validateMillisecondInstant arguments Instant  instant|String  messagePrefix"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#62"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.internals.ApiUtils.validateMillisecondInstant@POLYN154577 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#78"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00078] For method prepareMillisCheckFailMsgPrefix arguments Object  value|String  name"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#85"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00085] For method checkSupplier arguments Supplier&lt;? &gt;  supplier"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#85"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00085] For method checkSupplier list of called methods Object monObjet|java.lang.Class&lt;?&gt; supplier_getClassN155721"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#85"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00062] The argument supplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00085] The argument supplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#63"
+ , "c1" : "00086"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00063] The same method call supplier.get() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00086] The same method call supplier.get() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#65"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.internals.ApiUtils the MagicNumber/String  '%s generates single reference.' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.internals.ApiUtils.checkSupplier@POLYN155494 the MagicNumber/String  '%s generates single reference.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#66"
+ , "c1" : "00089"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.internals.ApiUtils the MagicNumber/String  ' %s#get() must return a new object each time it is called.' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.internals.ApiUtils.checkSupplier@POLYN155494 the MagicNumber/String  ' %s#get() must return a new object each time it is called.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00096"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#96"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00096] The argument supplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#97"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00097] The same method call supplier.get() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.internals.ApiUtils the MagicNumber/String  '%s generates single reference.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.internals.ApiUtils the MagicNumber/String  ' %s#get() must return a new object each time it is called.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.internals.ApiUtils.prepareMillisCheckFailMsgPrefix@POLYN155026"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.internals.ApiUtils.prepareMillisCheckFailMsgPrefix@POLYN155230"
 }} 
 ]
 , 

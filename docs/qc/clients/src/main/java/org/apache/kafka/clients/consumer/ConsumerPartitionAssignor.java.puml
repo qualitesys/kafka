@@ -2,12 +2,12 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.consumer.ConsumerPartitionAssignor"
 class org.apache.kafka.clients.consumer.ConsumerPartitionAssignor {
-subscriptionUserData(Set<String>) : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#22]]]
-assign(Cluster;GroupSubscription) : GroupAssignment [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#27]]]
-onAssignment(Assignment;ConsumerGroupMetadata) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#30]]]
-supportedProtocols() : List<RebalanceProtocol> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#34]]]
-version() : short [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#39]]]
-name() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#44]]]
-getAssignorInstances(List<String>;Map<String,Object>) : List<ConsumerPartitionAssignor> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#193]]]
+subscriptionUserData(Set<String>) : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#56]]]
+assign(Cluster;GroupSubscription) : GroupAssignment [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#67]]]
+onAssignment(Assignment;ConsumerGroupMetadata) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#74]]]
+supportedProtocols() : List<RebalanceProtocol> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#81]]]
+version() : short [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#89]]]
+name() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#98]]]
+getAssignorInstances(List<String>;Map<String,Object>) : List<ConsumerPartitionAssignor> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#266]]]
 } 
 @enduml

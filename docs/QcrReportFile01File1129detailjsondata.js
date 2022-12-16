@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#85"
+ , "c5" : "00110"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#110"
  , "c1" : "DelegatingClassLoader"
  , "c2" : "DelegatingClassLoader(List<String>;ClassLoader)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00101"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#101"
+ , "c5" : "00126"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#126"
  , "c1" : "DelegatingClassLoader"
  , "c2" : "DelegatingClassLoader(List<String>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00110"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#110"
+ , "c5" : "00135"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#135"
  , "c1" : "Set<PluginDesc<Connector>>"
  , "c2" : "connectors()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00116"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#116"
+ , "c5" : "00141"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#141"
  , "c1" : "Set<PluginDesc<SinkConnector>>"
  , "c2" : "sinkConnectors()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00120"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#120"
+ , "c5" : "00145"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#145"
  , "c1" : "Set<PluginDesc<SourceConnector>>"
  , "c2" : "sourceConnectors()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00124"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#124"
+ , "c5" : "00149"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#149"
  , "c1" : "Set<PluginDesc<Converter>>"
  , "c2" : "converters()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00128"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#128"
+ , "c5" : "00153"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#153"
  , "c1" : "Set<PluginDesc<HeaderConverter>>"
  , "c2" : "headerConverters()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00132"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#132"
+ , "c5" : "00157"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#157"
  , "c1" : "Set<PluginDesc<Transformation<?>>>"
  , "c2" : "transformations()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00136"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#136"
+ , "c5" : "00161"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#161"
  , "c1" : "Set<PluginDesc<Predicate<?>>>"
  , "c2" : "predicates()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00140"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#140"
+ , "c5" : "00165"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#165"
  , "c1" : "Set<PluginDesc<ConfigProvider>>"
  , "c2" : "configProviders()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00144"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#144"
+ , "c5" : "00169"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#169"
  , "c1" : "Set<PluginDesc<ConnectRestExtension>>"
  , "c2" : "restExtensions()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00148"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#148"
+ , "c5" : "00173"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#173"
  , "c1" : "Set<PluginDesc<ConnectorClientConfigOverridePolicy>>"
  , "c2" : "connectorClientConfigPolicies()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00153"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#153"
+ , "c5" : "00182"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#182"
  , "c1" : "PluginClassLoader"
  , "c2" : "pluginClassLoader(String)"
  , "c3" : "3"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00167"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#167"
+ , "c5" : "00196"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#196"
  , "c1" : "ClassLoader"
  , "c2" : "connectorLoader(Connector)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00171"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#171"
+ , "c5" : "00200"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#200"
  , "c1" : "ClassLoader"
  , "c2" : "connectorLoader(String)"
  , "c3" : "2"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00183"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#183"
+ , "c5" : "00212"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#212"
  , "c1" : "PluginClassLoader"
  , "c2" : "newPluginClassLoader(URL;URL[];ClassLoader)"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00207"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#207"
+ , "c5" : "00236"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#236"
  , "c1" : "void"
  , "c2" : "initLoaders()"
  , "c3" : "2"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00216"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#216"
+ , "c5" : "00245"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#245"
  , "c1" : "void"
  , "c2" : "initPluginLoader(String)"
  , "c3" : "7"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00246"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#246"
+ , "c5" : "00275"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#275"
  , "c1" : "void"
  , "c2" : "registerPlugin(Path)"
  , "c3" : "3"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00265"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#265"
+ , "c5" : "00294"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#294"
  , "c1" : "void"
  , "c2" : "scanUrlsAndAddPlugins(ClassLoader;URL[])"
  , "c3" : "2"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00295"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#295"
+ , "c5" : "00324"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#324"
  , "c1" : "void"
  , "c2" : "loadJdbcDrivers(ClassLoader)"
  , "c3" : "2"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00325"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#325"
+ , "c5" : "00354"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#354"
  , "c1" : "PluginScanResult"
  , "c2" : "scanPluginPath(ClassLoader;URL[])"
  , "c3" : "1"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00350"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#350"
+ , "c5" : "00379"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#379"
  , "c1" : "Collection<PluginDesc<Predicate<?>>>"
  , "c2" : "getPredicatePluginDesc(ClassLoader;Reflections)"
  , "c3" : "1"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00355"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#355"
+ , "c5" : "00384"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#384"
  , "c1" : "Collection<PluginDesc<Transformation<?>>>"
  , "c2" : "getTransformationPluginDesc(ClassLoader;Reflections)"
  , "c3" : "1"
@@ -234,8 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00416"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#416"
+ , "c5" : "00445"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#445"
  , "c1" : "Class<?>"
  , "c2" : "loadClass(String;boolean)"
  , "c3" : "2"
@@ -243,8 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00427"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#427"
+ , "c5" : "00456"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#456"
  , "c1" : "void"
  , "c2" : "addAllAliases()"
  , "c3" : "1"
@@ -252,8 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00480"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#480"
+ , "c5" : "00509"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#509"
  , "c1" : "URL"
  , "c2" : "getResource(String)"
  , "c3" : "3"
@@ -261,8 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00491"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#491"
+ , "c5" : "00520"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#520"
  , "c1" : "Enumeration<URL>"
  , "c2" : "getResources(String)"
  , "c3" : "3"
@@ -270,8 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00502"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#502"
+ , "c5" : "00531"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#531"
  , "c1" : "boolean"
  , "c2" : "serviceLoaderManifestForPlugin(String)"
  , "c3" : "1"
@@ -371,570 +371,570 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#86"
+ , "c1" : "00111"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.DelegatingClassLoader@POLYN225997 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.DelegatingClassLoader@POLYN226171 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#153"
+ , "c1" : "00182"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#182"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00153] For method pluginClassLoader arguments String  name"
+ , "c3" : "QC-JAV000006[00182] For method pluginClassLoader arguments String  name"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#155"
+ , "c1" : "00184"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.pluginClassLoader@POLYN229313 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.pluginClassLoader@POLYN229487 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#158"
+ , "c1" : "00187"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.pluginClassLoader@POLYN229313 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.pluginClassLoader@POLYN229487 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#159"
+ , "c1" : "00188"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.pluginClassLoader@POLYN229313 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.pluginClassLoader@POLYN229487 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#164"
+ , "c1" : "00193"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.pluginClassLoader@POLYN229313 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#167"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00167] For method connectorLoader arguments Connector  connector"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#167"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00167] The argument connector is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#171"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00171] For method connectorLoader arguments String  connectorClassOrAlias"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#171"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00171] For method connectorLoader list of called methods Object monObjet|org.apache.kafka.connect.runtime.isolation.PluginClassLoader pluginClassLoaderN230400"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#174"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.connectorLoader@POLYN230187 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#176"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.connectorLoader@POLYN230187 the MagicNumber/String  'Getting plugin class loader: '{}' for connector: {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#183"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00183] For method newPluginClassLoader arguments URL  pluginLocation|URL[]  urls|ClassLoader  parent"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#195"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00195] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.pluginClassLoader@POLYN229487 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#196"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00196] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#197"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#201"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader the MagicNumber/String  'Added plugin '{}'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00216"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#216"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00216] For method initPluginLoader arguments String  path"
+ , "c3" : "QC-JAV000006[00196] For method connectorLoader arguments Connector  connector"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#221"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232277 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#238"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232277 the MagicNumber/String  'Invalid path in plugin path: {}. Ignoring.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#240"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232277 the MagicNumber/String  'Could not get listing for plugin path: {}. Ignoring.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00242"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#242"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232277 the MagicNumber/String  'Could not instantiate plugins in: {}. Ignoring.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#246"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00246] For method registerPlugin arguments Path  pluginLocation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#246"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00246] For method registerPlugin list of called methods Object monObjet|org.apache.kafka.connect.runtime.isolation.PluginClassLoader newPluginClassLoaderN234656"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#246"
+ , "c1" : "00196"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#196"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00246] The argument pluginLocation is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00196] The argument connector is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#248"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.registerPlugin@POLYN233770 the MagicNumber/String  'Loading plugin from: {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#253"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.registerPlugin@POLYN233770 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00255"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#255"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.registerPlugin@POLYN233770 the MagicNumber/String  'Loading plugin urls: {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#265"
+ , "c1" : "00200"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00265] For method scanUrlsAndAddPlugins arguments ClassLoader  loader|URL[]  urls"
+ , "c3" : "QC-JAV000006[00200] For method connectorLoader arguments String  connectorClassOrAlias"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#265"
+ , "c1" : "00200"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00265] For method scanUrlsAndAddPlugins list of called methods Object monObjet|org.apache.kafka.connect.runtime.isolation.PluginScanResult scanPluginPathN235015"
+ , "c3" : "QC-JAV000007[00200] For method connectorLoader list of called methods Object monObjet|org.apache.kafka.connect.runtime.isolation.PluginClassLoader pluginClassLoaderN230574"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00270"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#270"
+ , "c1" : "00203"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.scanUrlsAndAddPlugins@POLYN234879 the MagicNumber/String  'Registered loader: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.connectorLoader@POLYN230361 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00295"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#295"
+ , "c1" : "00205"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#205"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.connectorLoader@POLYN230361 the MagicNumber/String  'Getting plugin class loader: '{}' for connector: {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00212"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#212"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00295] For method loadJdbcDrivers arguments ClassLoader  loader"
+ , "c3" : "QC-JAV000006[00212] For method newPluginClassLoader arguments URL  pluginLocation|URL[]  urls|ClassLoader  parent"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00307"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#307"
+ , "c1" : "00224"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00307] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00224] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00309"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#309"
+ , "c1" : "00225"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237096 the MagicNumber/String  'Registered java.sql.Driver: {} to java.sql.DriverManager' should be converted to const"
+ , "c3" : "QC-JAV000001[00225] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00315"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#315"
+ , "c1" : "00226"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237096 the MagicNumber/String  'Ignoring java.sql.Driver classes listed in resources but not' should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00316"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#316"
+ , "c1" : "00230"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237096 the MagicNumber/String  ' present in class loader's classpath: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader the MagicNumber/String  'Added plugin '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00320"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#320"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237096 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00325"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#325"
+ , "c1" : "00245"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#245"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00325] For method scanPluginPath arguments ClassLoader  loader|URL[]  urls"
+ , "c3" : "QC-JAV000006[00245] For method initPluginLoader arguments String  path"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00350"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#350"
+ , "c1" : "00250"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#250"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232451 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00267"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#267"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232451 the MagicNumber/String  'Invalid path in plugin path: {}. Ignoring.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00269"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#269"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232451 the MagicNumber/String  'Could not get listing for plugin path: {}. Ignoring.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00271"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#271"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232451 the MagicNumber/String  'Could not instantiate plugins in: {}. Ignoring.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00275"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#275"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00350] For method getPredicatePluginDesc arguments ClassLoader  loader|Reflections  reflections"
+ , "c3" : "QC-JAV000006[00275] For method registerPlugin arguments Path  pluginLocation"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00355"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#355"
+ , "c1" : "00275"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#275"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00355] For method getTransformationPluginDesc arguments ClassLoader  loader|Reflections  reflections"
+ , "c3" : "QC-JAV000007[00275] For method registerPlugin list of called methods Object monObjet|org.apache.kafka.connect.runtime.isolation.PluginClassLoader newPluginClassLoaderN234830"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00360"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#360"
+ , "c1" : "00275"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#275"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00360] The argument reflections is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00275] The argument pluginLocation is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00368"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#368"
+ , "c1" : "00277"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader the MagicNumber/String  'Reflections scanner could not find any classes for URLs: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.registerPlugin@POLYN233944 the MagicNumber/String  'Loading plugin from: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00378"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#378"
+ , "c1" : "00282"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#282"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader the MagicNumber/String  'Skipping {} as it is not concrete implementation' should be converted to const"
+ , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.registerPlugin@POLYN233944 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00396"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#396"
+ , "c1" : "00284"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00396] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.registerPlugin@POLYN233944 the MagicNumber/String  'Loading plugin urls: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00409"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#409"
+ , "c1" : "00294"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#294"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00294] For method scanUrlsAndAddPlugins arguments ClassLoader  loader|URL[]  urls"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00294"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#294"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00294] For method scanUrlsAndAddPlugins list of called methods Object monObjet|org.apache.kafka.connect.runtime.isolation.PluginScanResult scanPluginPathN235189"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00299"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#299"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.scanUrlsAndAddPlugins@POLYN235053 the MagicNumber/String  'Registered loader: {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00324"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#324"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00324] For method loadJdbcDrivers arguments ClassLoader  loader"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00336"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#336"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00336] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00338"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#338"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237270 the MagicNumber/String  'Registered java.sql.Driver: {} to java.sql.DriverManager' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00344"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#344"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237270 the MagicNumber/String  'Ignoring java.sql.Driver classes listed in resources but not' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00345"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#345"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237270 the MagicNumber/String  ' present in class loader's classpath: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00349"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#349"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237270 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00354"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#354"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00354] For method scanPluginPath arguments ClassLoader  loader|URL[]  urls"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00379"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#379"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00379] For method getPredicatePluginDesc arguments ClassLoader  loader|Reflections  reflections"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00384"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#384"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00384] For method getTransformationPluginDesc arguments ClassLoader  loader|Reflections  reflections"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00389"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#389"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00409] The argument pluginKlass is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00389] The argument reflections is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00416"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#416"
+ , "c1" : "00397"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#397"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader the MagicNumber/String  'Reflections scanner could not find any classes for URLs: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00407"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#407"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader the MagicNumber/String  'Skipping {} as it is not concrete implementation' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00425"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#425"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00425] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00438"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#438"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00438] The argument pluginKlass is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00445"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#445"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00416] For method loadClass arguments String  name|boolean  resolve"
+ , "c3" : "QC-JAV000006[00445] For method loadClass arguments String  name|boolean  resolve"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00416"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#416"
+ , "c1" : "00445"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#445"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00416] For method loadClass list of called methods Object monObjet|org.apache.kafka.connect.runtime.isolation.PluginClassLoader pluginClassLoaderN244010"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00419"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#419"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadClass@POLYN243760 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00420"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#420"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadClass@POLYN243760 the MagicNumber/String  'Retrieving loaded class '{}' from '{}'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00440"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#440"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00440] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00441"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#441"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00441] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00444"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#444"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader the MagicNumber/String  'Added alias '{}' to plugin '{}'' should be converted to const"
+ , "c3" : "QC-JAV000007[00445] For method loadClass list of called methods Object monObjet|org.apache.kafka.connect.runtime.isolation.PluginClassLoader pluginClassLoaderN244184"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00448"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#448"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader the MagicNumber/String  'Added aliases '{}' and '{}' to plugin '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadClass@POLYN243934 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00467"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#467"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00467] For method scan arguments URL  url"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00467"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#467"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00467] The argument url is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00472"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#472"
+ , "c1" : "00449"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#449"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.InternalReflections.scan@POLYN246280 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00449] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadClass@POLYN243934 the MagicNumber/String  'Retrieving loaded class '{}' from '{}'' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00469"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#469"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00469] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00470"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#470"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00470] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00473"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#473"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.InternalReflections.scan@POLYN246280 the MagicNumber/String  'could not create Vfs.Dir from url. ignoring the exception and continuing' should be converted to const"
+ , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader the MagicNumber/String  'Added alias '{}' to plugin '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00480"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#480"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00480] For method getResource arguments String  name"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00484"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#484"
+ , "c1" : "00477"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#477"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00484] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.getResource@POLYN246781 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader the MagicNumber/String  'Added aliases '{}' and '{}' to plugin '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00491"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#491"
+ , "c1" : "00496"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#496"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00491] For method getResources arguments String  name"
+ , "c3" : "QC-JAV000006[00496] For method scan arguments URL  url"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00495"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#495"
+ , "c1" : "00496"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#496"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00496] The argument url is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00501"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00495] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.getResources@POLYN247098 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.InternalReflections.scan@POLYN246454 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00502"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#502"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.InternalReflections.scan@POLYN246454 the MagicNumber/String  'could not create Vfs.Dir from url. ignoring the exception and continuing' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00509"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#509"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00502] For method serviceLoaderManifestForPlugin arguments String  name"
+ , "c3" : "QC-JAV000006[00509] For method getResource arguments String  name"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00513"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#513"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.getResource@POLYN246955 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00520"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#520"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00520] For method getResources arguments String  name"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00524"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#524"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00524] In method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.getResources@POLYN247272 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00531"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#531"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00531] For method serviceLoaderManifestForPlugin arguments String  name"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.scanUrlsAndAddPlugins@POLYN234879"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.scanUrlsAndAddPlugins@POLYN235053"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237096"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237270"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.registerPlugin@POLYN233770"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.registerPlugin@POLYN233944"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232277"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232451"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.InternalReflections.scan@POLYN246280"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.InternalReflections.scan@POLYN246454"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00270"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#270"
+ , "c1" : "00299"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#299"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00270] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.scanUrlsAndAddPlugins@POLYN234879 the MagicNumber/String 'Registered loader: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00299] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.scanUrlsAndAddPlugins@POLYN235053 the MagicNumber/String 'Registered loader: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00309"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#309"
+ , "c1" : "00338"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#338"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237096 the MagicNumber/String 'Registered java.sql.Driver: {} to java.sql.DriverManager' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00338] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237270 the MagicNumber/String 'Registered java.sql.Driver: {} to java.sql.DriverManager' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00315"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#315"
+ , "c1" : "00344"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#344"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00315] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237096 the MagicNumber/String 'Ignoring java.sql.Driver classes listed in resources but not' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00344] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237270 the MagicNumber/String 'Ignoring java.sql.Driver classes listed in resources but not' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00316"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#316"
+ , "c1" : "00345"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#345"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00316] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237096 the MagicNumber/String ' present in class loader's classpath: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00345] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237270 the MagicNumber/String ' present in class loader's classpath: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00320"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#320"
+ , "c1" : "00349"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#349"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00320] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237096 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00349] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.loadJdbcDrivers@POLYN237270 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#248"
+ , "c1" : "00277"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#277"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00248] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.registerPlugin@POLYN233770 the MagicNumber/String 'Loading plugin from: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00277] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.registerPlugin@POLYN233944 the MagicNumber/String 'Loading plugin from: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#253"
+ , "c1" : "00282"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#282"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.registerPlugin@POLYN233770 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00282] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.registerPlugin@POLYN233944 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00255"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#255"
+ , "c1" : "00284"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#284"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00255] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.registerPlugin@POLYN233770 the MagicNumber/String 'Loading plugin urls: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00284] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.registerPlugin@POLYN233944 the MagicNumber/String 'Loading plugin urls: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#221"
+ , "c1" : "00250"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#250"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00221] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232277 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00250] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232451 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#238"
+ , "c1" : "00267"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#267"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232277 the MagicNumber/String 'Invalid path in plugin path: {}. Ignoring.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232451 the MagicNumber/String 'Invalid path in plugin path: {}. Ignoring.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#240"
+ , "c1" : "00269"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#269"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00240] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232277 the MagicNumber/String 'Could not get listing for plugin path: {}. Ignoring.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00269] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232451 the MagicNumber/String 'Could not get listing for plugin path: {}. Ignoring.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00242"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#242"
+ , "c1" : "00271"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#271"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00242] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232277 the MagicNumber/String 'Could not instantiate plugins in: {}. Ignoring.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00271] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232451 the MagicNumber/String 'Could not instantiate plugins in: {}. Ignoring.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00472"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#472"
+ , "c1" : "00501"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#501"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00472] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.InternalReflections.scan@POLYN246280 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00501] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.InternalReflections.scan@POLYN246454 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00473"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#473"
+ , "c1" : "00502"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#502"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00473] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.InternalReflections.scan@POLYN246280 the MagicNumber/String 'could not create Vfs.Dir from url. ignoring the exception and continuing' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00502] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.InternalReflections.scan@POLYN246454 the MagicNumber/String 'could not create Vfs.Dir from url. ignoring the exception and continuing' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.ReadOnlyWindowStoreFacade" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#34"
  , "c1" : "ReadOnlyWindowStoreFacade"
  , "c2" : "ReadOnlyWindowStoreFacade(TimestampedWindowStore<K,V>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#24"
+ , "c5" : "00039"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#39"
  , "c1" : "V"
  , "c2" : "fetch(K;long)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#30"
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#45"
  , "c1" : "WindowStoreIterator<V>"
  , "c2" : "fetch(K;Instant;Instant)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#37"
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#52"
  , "c1" : "WindowStoreIterator<V>"
  , "c2" : "backwardFetch(K;Instant;Instant)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#44"
+ , "c5" : "00059"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#59"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "fetch(K;K;Instant;Instant)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#52"
+ , "c5" : "00067"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#67"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardFetch(K;K;Instant;Instant)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#60"
+ , "c5" : "00075"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#75"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "fetchAll(Instant;Instant)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#66"
+ , "c5" : "00081"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#81"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardFetchAll(Instant;Instant)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#72"
+ , "c5" : "00087"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#87"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#77"
+ , "c5" : "00092"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#92"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardAll()"
  , "c3" : "1"
@@ -149,52 +149,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#24"
+ , "c1" : "00039"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#39"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method fetch arguments K  key|long  time"
+ , "c3" : "QC-JAV000006[00039] For method fetch arguments K  key|long  time"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method fetch arguments K  key|Instant  timeFrom|Instant  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#37"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method backwardFetch arguments K  key|Instant  timeFrom|Instant  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method fetch arguments K  keyFrom|K  keyTo|Instant  timeFrom|Instant  timeTo"
+ , "c3" : "QC-JAV000006[00045] For method fetch arguments K  key|Instant  timeFrom|Instant  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method backwardFetch arguments K  keyFrom|K  keyTo|Instant  timeFrom|Instant  timeTo"
+ , "c3" : "QC-JAV000006[00052] For method backwardFetch arguments K  key|Instant  timeFrom|Instant  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#60"
+ , "c1" : "00059"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method fetchAll arguments Instant  timeFrom|Instant  timeTo"
+ , "c3" : "QC-JAV000006[00059] For method fetch arguments K  keyFrom|K  keyTo|Instant  timeFrom|Instant  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#66"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method backwardFetchAll arguments Instant  timeFrom|Instant  timeTo"
+ , "c3" : "QC-JAV000006[00067] For method backwardFetch arguments K  keyFrom|K  keyTo|Instant  timeFrom|Instant  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#75"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00075] For method fetchAll arguments Instant  timeFrom|Instant  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#81"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00081] For method backwardFetchAll arguments Instant  timeFrom|Instant  timeTo"
 }} 
 ]
 , 

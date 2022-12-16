@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.EmitStrategy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/EmitStrategy.java.html#54"
+ , "c5" : "00074"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/EmitStrategy.java.html#74"
  , "c1" : "StrategyType"
  , "c2" : "type()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/EmitStrategy.java.html#57"
+ , "c5" : "00092"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/EmitStrategy.java.html#92"
  , "c1" : "EmitStrategy"
  , "c2" : "onWindowClose()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/EmitStrategy.java.html#62"
+ , "c5" : "00108"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/EmitStrategy.java.html#108"
  , "c1" : "EmitStrategy"
  , "c2" : "onWindowUpdate()"
  , "c3" : "1"

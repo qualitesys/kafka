@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.SegmentedBytesStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#15"
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#41"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "fetch(Bytes;long;long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#18"
+ , "c5" : "00051"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#51"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "backwardFetch(Bytes;long;long)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#21"
+ , "c5" : "00062"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#62"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "fetch(Bytes;Bytes;long;long)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#24"
+ , "c5" : "00073"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#73"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "backwardFetch(Bytes;Bytes;long;long)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#27"
+ , "c5" : "00081"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#81"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#30"
+ , "c5" : "00089"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#89"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "backwardAll()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#33"
+ , "c5" : "00100"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#100"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "fetchAll(long;long)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#35"
+ , "c5" : "00102"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#102"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "backwardFetchAll(long;long)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#38"
+ , "c5" : "00110"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#110"
  , "c1" : "void"
  , "c2" : "remove(Bytes)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#41"
+ , "c5" : "00118"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#118"
  , "c1" : "void"
  , "c2" : "remove(Bytes;long)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#44"
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#127"
  , "c1" : "void"
  , "c2" : "put(Bytes;byte[])"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#47"
+ , "c5" : "00136"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#136"
  , "c1" : "byte[]"
  , "c2" : "get(Bytes)"
  , "c3" : "1"

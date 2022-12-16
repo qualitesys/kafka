@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.transforms.ValueToKey" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#56"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#48"
+ , "c5" : "00063"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#63"
  , "c1" : "R"
  , "c2" : "apply(R)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#56"
+ , "c5" : "00071"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#71"
  , "c1" : "R"
  , "c2" : "applySchemaless(R)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#65"
+ , "c5" : "00080"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#80"
  , "c1" : "R"
  , "c2" : "applyWithSchema(R)"
  , "c3" : "5"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00091"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#91"
+ , "c5" : "00106"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#106"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00096"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#96"
+ , "c5" : "00111"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#111"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -134,108 +134,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#41"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method configure arguments Map&lt;String ,? &gt;  configs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.transforms.ValueToKey.configure@POLYN159687 the MagicNumber/String  16 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method apply arguments R  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#48"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00048] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.transforms.ValueToKey.apply@POLYN160168 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method applySchemaless arguments R  record"
+ , "c3" : "QC-JAV000006[00056] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#56"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00056] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#62"
+ , "c1" : "00059"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.transforms.ValueToKey.applySchemaless@POLYN160486 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.transforms.ValueToKey.configure@POLYN159777 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#65"
+ , "c1" : "00063"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method applyWithSchema arguments R  record"
+ , "c3" : "QC-JAV000006[00063] For method apply arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#65"
+ , "c1" : "00063"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#63"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00065] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00063] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#72"
+ , "c1" : "00064"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00072] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.transforms.ValueToKey.apply@POLYN160258 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.connect.transforms.ValueToKey.applyWithSchema@POLYN161411 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00071"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#71"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00071] For method applySchemaless arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.transforms.ValueToKey.applyWithSchema@POLYN161411 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00071"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#71"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00071] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#74"
+ , "c1" : "00077"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.transforms.ValueToKey.applyWithSchema@POLYN161411 the MagicNumber/String  'Field does not exist: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.transforms.ValueToKey.applySchemaless@POLYN160576 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#97"
+ , "c1" : "00080"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#80"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00080] For method applyWithSchema arguments R  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#80"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00080] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.transforms.ValueToKey.close@POLYN163253 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00087] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.transforms.ValueToKey.applyWithSchema@POLYN161501 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.connect.transforms.ValueToKey.applyWithSchema@POLYN161501 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00089"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#89"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.transforms.ValueToKey.applyWithSchema@POLYN161501 the MagicNumber/String  'Field does not exist: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.connect.transforms.ValueToKey.close@POLYN163343 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

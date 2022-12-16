@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.RepartitionTopics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#42"
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#57"
  , "c1" : "RepartitionTopics"
  , "c2" : "RepartitionTopics(TopologyMetadata;InternalTopicManager;CopartitionedTopicsEnforcer;Cluster;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#55"
+ , "c5" : "00070"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#70"
  , "c1" : "void"
  , "c2" : "setup()"
  , "c3" : "7"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00091"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#91"
+ , "c5" : "00106"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#106"
  , "c1" : "Set<String>"
  , "c2" : "topologiesWithMissingInputTopics()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#98"
+ , "c5" : "00113"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#113"
  , "c1" : "Queue<StreamsException>"
  , "c2" : "missingSourceTopicExceptions()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#112"
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#127"
  , "c1" : "Map<TopicPartition,PartitionInfo>"
  , "c2" : "topicPartitionsInfo()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00117"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#117"
+ , "c5" : "00134"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#134"
  , "c1" : "Map<String,InternalTopicConfig>"
  , "c2" : "computeRepartitionTopicConfig(Cluster)"
  , "c3" : "6"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00164"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#164"
+ , "c5" : "00181"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#181"
  , "c1" : "void"
  , "c2" : "ensureCopartitioning(Collection<Set<String>>;Map<String,InternalTopicConfig>;Cluster)"
  , "c3" : "2"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00172"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#172"
+ , "c5" : "00189"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#189"
  , "c1" : "Set<String>"
  , "c2" : "computeMissingExternalSourceTopics(TopicsInfo;Cluster)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00181"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#181"
+ , "c5" : "00200"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#200"
  , "c1" : "void"
  , "c2" : "setRepartitionSourceTopicPartitionCount(Map<String,InternalTopicConfig>;Collection<TopicsInfo>;Cluster)"
  , "c3" : "9"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00224"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#224"
+ , "c5" : "00243"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#243"
  , "c1" : "Integer"
  , "c2" : "computePartitionCount(Map<String,InternalTopicConfig>;Collection<TopicsInfo>;Cluster;String)"
  , "c3" : "10"
@@ -207,150 +207,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#55"
+ , "c1" : "00070"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00055] For method setup list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.streams.processor.internals.InternalTopicConfig&gt; computeRepartitionTopicConfigN182734"
+ , "c3" : "QC-JAV000007[00070] For method setup list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.streams.processor.internals.InternalTopicConfig&gt; computeRepartitionTopicConfigN182848"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00093] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735 the MagicNumber/String  'Skipping the repartition topic validation since there are no repartition topics.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735 the MagicNumber/String  'Skipping the repartition topic validation since all topologies containing repartition' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00078] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735 the MagicNumber/String  'topics are missing external user source topics and cannot be processed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#60"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621 the MagicNumber/String  'Skipping the repartition topic validation since there are no repartition topics.' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#62"
+ , "c1" : "00096"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621 the MagicNumber/String  'Skipping the repartition topic validation since all topologies containing repartition' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#63"
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621 the MagicNumber/String  'topics are missing external user source topics and cannot be processed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#79"
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#81"
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.missingSourceTopicExceptions@POLYN184575 the MagicNumber/String  'Missing source topics %s for subtopology %d of topology %s' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.missingSourceTopicExceptions@POLYN184575 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#117"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00117] For method computeRepartitionTopicConfig arguments Cluster  clusterMetadata"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#117"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00117] For method computeRepartitionTopicConfig list of called methods Object monObjet|boolean topologyMetadata_hasNamedTopologiesN186250|java.util.Set&lt;java.lang.String&gt; computeMissingExternalSourceTopicsN187333"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00121] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.missingSourceTopicExceptions@POLYN184689 the MagicNumber/String  'Missing source topics %s for subtopology %d of topology %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00123] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.missingSourceTopicExceptions@POLYN184689 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#124"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00124] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00134"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#134"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00134] For method computeRepartitionTopicConfig arguments Cluster  clusterMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#125"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00125] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00134"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#134"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00134] For method computeRepartitionTopicConfig list of called methods Object monObjet|boolean topologyMetadata_hasNamedTopologiesN186364|java.util.Set&lt;java.lang.String&gt; computeMissingExternalSourceTopicsN187447"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#127"
+ , "c1" : "00138"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00127] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#128"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00128] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#137"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00137] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00138] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -361,626 +319,668 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#128"
+ , "c1" : "00141"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00128] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#137"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00137] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00140] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#121"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185710 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00141] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185710 the MagicNumber/String  'Subtopology {} was missing source topics {} and will be excluded from the current assignment, ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#143"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185710 the MagicNumber/String  'this can be due to the consumer client's metadata being stale or because they have ' should be converted to const"
+ , "c3" : "QC-JAV000001[00142] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185710 the MagicNumber/String  'not been created yet. Please verify that you have created all input topics; if they ' should be converted to const"
+ , "c3" : "QC-JAV000001[00144] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00145"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185710 the MagicNumber/String  'do exist, you just need to wait for the metadata to be updated, at which time a new ' should be converted to const"
+ , "c3" : "QC-JAV000001[00145] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#146"
+ , "c1" : "00154"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185710 the MagicNumber/String  'rebalance will be kicked off automatically and the topology will be retried at that time.' should be converted to const"
+ , "c3" : "QC-JAV000001[00154] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#155"
+ , "c1" : "00157"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185710 the MagicNumber/String  'Skipping repartition topic validation for entire topology {} due to missing source topics {}' should be converted to const"
+ , "c3" : "QC-JAV000001[00157] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#164"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00164] For method ensureCopartitioning arguments Collection&lt;Set&lt;String &gt; &gt;  copartitionGroups|Map&lt;String ,InternalTopicConfig &gt;  repartitionTopicMetadata|Cluster  clusterMetadata"
+ , "c1" : "00145"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#145"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00145] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#154"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00154] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#157"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00157] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00138"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#138"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185824 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#159"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185824 the MagicNumber/String  'Subtopology {} was missing source topics {} and will be excluded from the current assignment, ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#160"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185824 the MagicNumber/String  'this can be due to the consumer client's metadata being stale or because they have ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00161"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#161"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185824 the MagicNumber/String  'not been created yet. Please verify that you have created all input topics; if they ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185824 the MagicNumber/String  'do exist, you just need to wait for the metadata to be updated, at which time a new ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185824 the MagicNumber/String  'rebalance will be kicked off automatically and the topology will be retried at that time.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#172"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00172] For method computeMissingExternalSourceTopics arguments TopicsInfo  topicsInfo|Cluster  clusterMetadata"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#172"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00172] The argument topicsInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#173"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00173] The argument clusterMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185824 the MagicNumber/String  'Skipping repartition topic validation for entire topology {} due to missing source topics {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#181"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00181] For method setRepartitionSourceTopicPartitionCount arguments Map&lt;String ,InternalTopicConfig &gt;  repartitionTopicMetadata|Collection&lt;TopicsInfo &gt;  topicGroups|Cluster  clusterMetadata"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#181"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00181] For method setRepartitionSourceTopicPartitionCount list of called methods Object monObjet|java.lang.Integer computePartitionCountN190198"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#181"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00181] The argument repartitionTopicMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#183"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00183] The argument clusterMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00181] For method ensureCopartitioning arguments Collection&lt;Set&lt;String &gt; &gt;  copartitionGroups|Map&lt;String ,InternalTopicConfig &gt;  repartitionTopicMetadata|Cluster  clusterMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00189"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#189"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00189] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00189] For method computeMissingExternalSourceTopics arguments TopicsInfo  topicsInfo|Cluster  clusterMetadata"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00189"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#189"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00189] The argument topicsInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00190"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#190"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00190] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00190] The argument clusterMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#191"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00191] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00200"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#200"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00200] For method setRepartitionSourceTopicPartitionCount arguments Map&lt;String ,InternalTopicConfig &gt;  repartitionTopicMetadata|Collection&lt;TopicsInfo &gt;  topicGroups|Cluster  clusterMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#195"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00195] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00200"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#200"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00200] For method setRepartitionSourceTopicPartitionCount list of called methods Object monObjet|java.lang.Integer computePartitionCountN190312"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#190"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00190] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#191"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00191] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#195"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00195] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#191"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00191] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#195"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00195] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#186"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00200"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#200"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00200] The argument repartitionTopicMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00202"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#202"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String  null should be converted to const"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00202] The argument clusterMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#203"
+ , "c1" : "00208"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#204"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String  'Unable to determine number of partitions for {}, another iteration is needed' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#207"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String  'Determined number of partitions for {} to be {}' should be converted to const"
+ , "c3" : "QC-JAV000001[00208] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000001[00209] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00215"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#215"
+ , "c1" : "00210"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String  'Unable to determine the number of partitions of all repartition topics, most likely a source topic is missing or pattern doesn't match any topics\n' should be converted to const"
+ , "c3" : "QC-JAV000001[00210] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00216"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#216"
+ , "c1" : "00214"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String  'topic groups: {}\n' should be converted to const"
+ , "c3" : "QC-JAV000001[00214] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#217"
+ , "c1" : "00209"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String  'cluster topics: {}.' should be converted to const"
+ , "c3" : "QC-JAV000001[00209] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#218"
+ , "c1" : "00210"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String  'Failed to compute number of partitions for all repartition topics, ' should be converted to const"
+ , "c3" : "QC-JAV000001[00210] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#219"
+ , "c1" : "00214"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String  'make sure all user input topics are created and all Pattern subscriptions match at least one topic in the cluster' should be converted to const"
+ , "c3" : "QC-JAV000001[00214] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00224"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#224"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00224] For method computePartitionCount arguments Map&lt;String ,InternalTopicConfig &gt;  repartitionTopicMetadata|Collection&lt;TopicsInfo &gt;  topicGroups|Cluster  clusterMetadata|String  repartitionSourceTopic"
+ , "c1" : "00210"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#210"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00210] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00224"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#224"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00224] For method computePartitionCount list of called methods Object monObjet|java.lang.Integer clusterMetadata_partitionCountForTopicN192338"
+ , "c1" : "00214"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#214"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00214] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00224"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#224"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00224] The argument repartitionTopicMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00205"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#205"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00206"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#206"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00221"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#221"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00222"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#222"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00223"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#223"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String  'Unable to determine number of partitions for {}, another iteration is needed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00226"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#226"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00226] The argument clusterMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00231"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00231] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#236"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00236] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00237"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#237"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00237] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00246] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00237"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#237"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00237] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00246] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String  'Determined number of partitions for {} to be {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00228"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computePartitionCount@POLYN191267 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00234"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#234"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String  'Unable to determine the number of partitions of all repartition topics, most likely a source topic is missing or pattern doesn't match any topics\n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00235"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#235"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String  'topic groups: {}\n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00236"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#236"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String  'cluster topics: {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00237"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#237"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computePartitionCount@POLYN191267 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String  'Failed to compute number of partitions for all repartition topics, ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00238"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#238"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String  'make sure all user input topics are created and all Pattern subscriptions match at least one topic in the cluster' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00243"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#243"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00243] For method computePartitionCount arguments Map&lt;String ,InternalTopicConfig &gt;  repartitionTopicMetadata|Collection&lt;TopicsInfo &gt;  topicGroups|Cluster  clusterMetadata|String  repartitionSourceTopic"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00243"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#243"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00243] For method computePartitionCount list of called methods Object monObjet|java.lang.Integer clusterMetadata_partitionCountForTopicN192452"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00243"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#243"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00243] The argument repartitionTopicMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00245"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#245"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00245] The argument clusterMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00250"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#250"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00250] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00255"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#255"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00255] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00256"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#256"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00256] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00265"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#265"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00265] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00256"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#256"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00256] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00265"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#265"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00265] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00247"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computePartitionCount@POLYN191267 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computePartitionCount@POLYN191381 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00249"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#249"
+ , "c1" : "00256"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computePartitionCount@POLYN191267 the MagicNumber/String  'No partition count found for source topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computePartitionCount@POLYN191381 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00251"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#251"
+ , "c1" : "00266"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#266"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computePartitionCount@POLYN191267 the MagicNumber/String  ', but it should have been.' should be converted to const"
+ , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computePartitionCount@POLYN191381 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#257"
+ , "c1" : "00268"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computePartitionCount@POLYN191267 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computePartitionCount@POLYN191381 the MagicNumber/String  'No partition count found for source topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00258"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#258"
+ , "c1" : "00270"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#270"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computePartitionCount@POLYN191267 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computePartitionCount@POLYN191381 the MagicNumber/String  ', but it should have been.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#91"
+ , "c1" : "00276"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#276"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computePartitionCount@POLYN191381 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00277"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#277"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.streams.processor.internals.RepartitionTopics.computePartitionCount@POLYN191381 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#106"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00091] Public method topologiesWithMissingInputTopics is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00106] Public method topologiesWithMissingInputTopics is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#98"
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#113"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00098] Public method missingSourceTopicExceptions is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00113] Public method missingSourceTopicExceptions is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#112"
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#127"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00112] Public method topicPartitionsInfo is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00127] Public method topicPartitionsInfo is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185710"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185824"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#121"
+ , "c1" : "00138"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185710 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185824 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#142"
+ , "c1" : "00159"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#159"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00142] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185710 the MagicNumber/String 'Subtopology {} was missing source topics {} and will be excluded from the current assignment, ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00159] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185824 the MagicNumber/String 'Subtopology {} was missing source topics {} and will be excluded from the current assignment, ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#143"
+ , "c1" : "00160"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#160"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185710 the MagicNumber/String 'this can be due to the consumer client's metadata being stale or because they have ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185824 the MagicNumber/String 'this can be due to the consumer client's metadata being stale or because they have ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#144"
+ , "c1" : "00161"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#161"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185710 the MagicNumber/String 'not been created yet. Please verify that you have created all input topics; if they ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185824 the MagicNumber/String 'not been created yet. Please verify that you have created all input topics; if they ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#145"
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#162"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185710 the MagicNumber/String 'do exist, you just need to wait for the metadata to be updated, at which time a new ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00162] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185824 the MagicNumber/String 'do exist, you just need to wait for the metadata to be updated, at which time a new ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#146"
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#163"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185710 the MagicNumber/String 'rebalance will be kicked off automatically and the topology will be retried at that time.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185824 the MagicNumber/String 'rebalance will be kicked off automatically and the topology will be retried at that time.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#155"
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#172"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185710 the MagicNumber/String 'Skipping repartition topic validation for entire topology {} due to missing source topics {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.computeRepartitionTopicConfig@POLYN185824 the MagicNumber/String 'Skipping repartition topic validation for entire topology {} due to missing source topics {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#186"
+ , "c1" : "00205"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#205"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00205] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#187"
+ , "c1" : "00206"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#206"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00206] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#202"
+ , "c1" : "00221"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#221"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00202] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00221] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#203"
+ , "c1" : "00222"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#222"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00222] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#204"
+ , "c1" : "00223"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#223"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String 'Unable to determine number of partitions for {}, another iteration is needed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00223] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String 'Unable to determine number of partitions for {}, another iteration is needed' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#207"
+ , "c1" : "00226"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#226"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00207] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String 'Determined number of partitions for {} to be {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00226] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String 'Determined number of partitions for {} to be {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#209"
+ , "c1" : "00228"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#228"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00209] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00228] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00215"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#215"
+ , "c1" : "00234"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#234"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00215] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String 'Unable to determine the number of partitions of all repartition topics, most likely a source topic is missing or pattern doesn't match any topics\n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00234] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String 'Unable to determine the number of partitions of all repartition topics, most likely a source topic is missing or pattern doesn't match any topics\n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00216"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#216"
+ , "c1" : "00235"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#235"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00216] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String 'topic groups: {}\n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00235] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String 'topic groups: {}\n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#217"
+ , "c1" : "00236"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#236"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00217] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String 'cluster topics: {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00236] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String 'cluster topics: {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#218"
+ , "c1" : "00237"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#237"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00218] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String 'Failed to compute number of partitions for all repartition topics, ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00237] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String 'Failed to compute number of partitions for all repartition topics, ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#219"
+ , "c1" : "00238"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#238"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00219] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189419 the MagicNumber/String 'make sure all user input topics are created and all Pattern subscriptions match at least one topic in the cluster' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setRepartitionSourceTopicPartitionCount@POLYN189533 the MagicNumber/String 'make sure all user input topics are created and all Pattern subscriptions match at least one topic in the cluster' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#60"
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#75"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621 the MagicNumber/String 'Skipping the repartition topic validation since there are no repartition topics.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735 the MagicNumber/String 'Skipping the repartition topic validation since there are no repartition topics.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#62"
+ , "c1" : "00077"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#77"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621 the MagicNumber/String 'Skipping the repartition topic validation since all topologies containing repartition' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735 the MagicNumber/String 'Skipping the repartition topic validation since all topologies containing repartition' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#63"
+ , "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#78"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621 the MagicNumber/String 'topics are missing external user source topics and cannot be processed.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735 the MagicNumber/String 'topics are missing external user source topics and cannot be processed.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#79"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#94"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#81"
+ , "c1" : "00096"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#96"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#84"
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#99"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#84"
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#99"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#84"
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#99"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182621 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.streams.processor.internals.RepartitionTopics.setup@POLYN182735 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.fault.ProcessStopFaultWorker" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#26"
+ , "c5" : "00041"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#41"
  , "c1" : "ProcessStopFaultWorker"
  , "c2" : "ProcessStopFaultWorker(String;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#32"
+ , "c5" : "00047"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#47"
  , "c1" : "void"
  , "c2" : "start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#42"
+ , "c5" : "00057"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#57"
  , "c1" : "void"
  , "c2" : "stop(Platform)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#49"
+ , "c5" : "00064"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#64"
  , "c1" : "void"
  , "c2" : "sendSignals(Platform;String)"
  , "c3" : "6"
@@ -146,332 +146,332 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#32"
+ , "c1" : "00047"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String &gt;  errorFuture"
+ , "c3" : "QC-JAV000006[00047] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String &gt;  errorFuture"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#32"
+ , "c1" : "00047"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#47"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00032] The argument status is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00047] The argument status is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#35"
+ , "c1" : "00050"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153000 the MagicNumber/String  'Activating ProcessStopFault {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153090 the MagicNumber/String  'Activating ProcessStopFault {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153000 the MagicNumber/String  'stopping ' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153090 the MagicNumber/String  'stopping ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#37"
+ , "c1" : "00052"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153000 the MagicNumber/String  'SIGSTOP' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153090 the MagicNumber/String  'SIGSTOP' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#38"
+ , "c1" : "00053"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153000 the MagicNumber/String  'stopped ' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153090 the MagicNumber/String  'stopped ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#42"
+ , "c1" : "00057"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method stop arguments Platform  platform"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153692 the MagicNumber/String  'Deactivating ProcessStopFault {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153692 the MagicNumber/String  'resuming ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153692 the MagicNumber/String  'SIGCONT' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153692 the MagicNumber/String  'resumed ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#49"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method sendSignals arguments Platform  platform|String  signalName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#49"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00049] For method sendSignals list of called methods Object monObjet|java.lang.String platform_runCommandN154365|java.lang.String[] jcmdOutput_splitN154515|java.lang.String[] line_splitN154884"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#49"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00049] The argument platform is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00055] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000006[00057] For method stop arguments Platform  platform"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00058] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String  'jcmd' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String  '\n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String  ' ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153782 the MagicNumber/String  'Deactivating ProcessStopFault {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String  'Failed to parse process ID from line' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153782 the MagicNumber/String  'resuming ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153782 the MagicNumber/String  'SIGCONT' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#61"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153782 the MagicNumber/String  'resumed ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String  '{}: no processes containing {} found to send {} to.' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00064] For method sendSignals arguments Platform  platform|String  signalName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String  '{}: sending {} to {} pid(s) {}' should be converted to const"
+ , "c1" : "00064"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#64"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00064] For method sendSignals list of called methods Object monObjet|java.lang.String platform_runCommandN154455|java.lang.String[] jcmdOutput_splitN154605|java.lang.String[] line_splitN154974"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String  ', ' should be converted to const"
+ , "c1" : "00064"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#64"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00064] The argument platform is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String  'kill' should be converted to const"
+ , "c3" : "QC-JAV000001[00070] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#73"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00073] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String  'jcmd' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#66"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String  ' ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String  'Failed to parse process ID from line' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String  '{}: no processes containing {} found to send {} to.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String  '{}: sending {} to {} pid(s) {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String  ', ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String  'kill' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153000"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153090"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153692"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#35"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00035] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153000 the MagicNumber/String 'Activating ProcessStopFault {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#36"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153000 the MagicNumber/String 'stopping ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#37"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153000 the MagicNumber/String 'SIGSTOP' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#38"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00038] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153000 the MagicNumber/String 'stopped ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153782"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#50"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String 'jcmd' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153090 the MagicNumber/String 'Activating ProcessStopFault {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#51"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String '\n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153090 the MagicNumber/String 'stopping ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#55"
+ , "c1" : "00052"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#52"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String ' ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153090 the MagicNumber/String 'SIGSTOP' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#57"
+ , "c1" : "00053"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#53"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.start@POLYN153090 the MagicNumber/String 'stopped ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#65"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String 'jcmd' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#66"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String '\n' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00070"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#70"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String ' ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#72"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String 'Failed to parse process ID from line' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#79"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String '{}: no processes containing {} found to send {} to.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#82"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String '{}: sending {} to {} pid-s- {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#83"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#85"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String '-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#85"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154325 the MagicNumber/String 'kill' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#58"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153782 the MagicNumber/String 'Deactivating ProcessStopFault {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#59"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String 'Failed to parse process ID from line' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153782 the MagicNumber/String 'resuming ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#64"
+ , "c1" : "00060"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#60"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String '{}: no processes containing {} found to send {} to.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153782 the MagicNumber/String 'SIGCONT' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#67"
+ , "c1" : "00061"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#61"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String '{}: sending {} to {} pid-s- {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#68"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String ', ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#70"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String '-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#70"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.sendSignals@POLYN154235 the MagicNumber/String 'kill' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#43"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00043] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153692 the MagicNumber/String 'Deactivating ProcessStopFault {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#44"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153692 the MagicNumber/String 'resuming ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#45"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153692 the MagicNumber/String 'SIGCONT' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#46"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153692 the MagicNumber/String 'resumed ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153782 the MagicNumber/String 'resumed ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

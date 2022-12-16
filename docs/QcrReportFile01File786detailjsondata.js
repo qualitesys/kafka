@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#29"
+ , "c5" : "00083"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#83"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;String;Configuration;AuthenticateCallbackHandler)"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#71"
+ , "c5" : "00132"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#132"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#77"
+ , "c5" : "00138"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#138"
  , "c1" : "Subject"
  , "c2" : "subject()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#82"
+ , "c5" : "00143"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#143"
  , "c1" : "String"
  , "c2" : "serviceName()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#87"
+ , "c5" : "00148"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#148"
  , "c1" : "LoginContext"
  , "c2" : "login()"
  , "c3" : "2"
@@ -118,94 +118,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#29"
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method configure arguments Map&lt;String ,? &gt;  configs|String  contextName|Configuration  configuration|AuthenticateCallbackHandler  loginCallbackHandler"
+ , "c3" : "QC-JAV000006[00083] For method configure arguments Map&lt;String ,? &gt;  configs|String  contextName|Configuration  configuration|AuthenticateCallbackHandler  loginCallbackHandler"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#34"
+ , "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.configure@POLYN167009 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.configure@POLYN167375 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#41"
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.configure@POLYN167009 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.configure@POLYN167375 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#44"
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.configure@POLYN167009 the MagicNumber/String  'Found expiring credential with principal '{}'.' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.configure@POLYN167375 the MagicNumber/String  'Found expiring credential with principal '{}'.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#63"
+ , "c1" : "00124"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.configure@POLYN167009 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.configure@POLYN167375 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#72"
+ , "c1" : "00133"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.close@POLYN168878 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.close@POLYN169244 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#78"
+ , "c1" : "00139"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.subject@POLYN169051 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.subject@POLYN169417 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#78"
+ , "c1" : "00139"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.subject@POLYN169051 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.subject@POLYN169417 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#83"
+ , "c1" : "00144"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.serviceName@POLYN169241 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.serviceName@POLYN169607 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#83"
+ , "c1" : "00144"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.serviceName@POLYN169241 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.serviceName@POLYN169607 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#87"
+ , "c1" : "00148"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#148"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00087] Lock statement on synchronized method login"
+ , "c3" : "QC-JAV000019[00148] Lock statement on synchronized method login"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#88"
+ , "c1" : "00149"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.login@POLYN169436 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.login@POLYN169802 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#90"
+ , "c1" : "00151"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.login@POLYN169436 the MagicNumber/String  'Login was not configured properly' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin.login@POLYN169802 the MagicNumber/String  'Login was not configured properly' should be converted to const"
 }} 
 ]
 , 

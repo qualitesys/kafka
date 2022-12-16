@@ -2,7 +2,7 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.config.Config"
 class org.apache.kafka.common.config.Config {
-+Config(List<ConfigValue>) : Config [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/Config.java.html#9]]]
-+configValues() : List<ConfigValue> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/Config.java.html#13]]]
++Config(List<ConfigValue>) : Config [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/Config.java.html#24]]]
++configValues() : List<ConfigValue> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/Config.java.html#28]]]
 } 
 @enduml

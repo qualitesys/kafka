@@ -2,8 +2,8 @@
 !pragma layout smetana
 "TaskWorker" <|-- "org.apache.kafka.trogdor.workload.ConsumeBenchWorker"
 class org.apache.kafka.trogdor.workload.ConsumeBenchWorker {
-+ConsumeBenchWorker(String;ConsumeBenchSpec) : ConsumeBenchWorker [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#62]]]
-+start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#68]]]
-+stop(Platform) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#454]]]
++ConsumeBenchWorker(String;ConsumeBenchSpec) : ConsumeBenchWorker [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#77]]]
++start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#83]]]
++stop(Platform) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#476]]]
 } 
 @enduml

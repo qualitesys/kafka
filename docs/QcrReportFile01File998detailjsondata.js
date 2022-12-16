@@ -74,59 +74,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.html#10"
+ , "c1" : "00039"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.html#39"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00010] The argument elements is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00039] The argument elements is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.html#23"
+ , "c1" : "00052"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00023] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00052] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.html#11"
+ , "c1" : "00040"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.connect.util.ConnectorUtils the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.util.ConnectorUtils the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.html#12"
+ , "c1" : "00041"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.connect.util.ConnectorUtils the MagicNumber/String  'Number of groups must be positive.' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.util.ConnectorUtils the MagicNumber/String  'Number of groups must be positive.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.html#20"
+ , "c1" : "00049"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.connect.util.ConnectorUtils the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.util.ConnectorUtils the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.html#21"
+ , "c1" : "00050"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.connect.util.ConnectorUtils the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.util.ConnectorUtils the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.html#22"
+ , "c1" : "00051"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.connect.util.ConnectorUtils the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.util.ConnectorUtils the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.html#24"
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.connect.util.ConnectorUtils the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.util.ConnectorUtils the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

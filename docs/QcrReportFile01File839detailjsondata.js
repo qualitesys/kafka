@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.scram.internals.ScramFormatter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#34"
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#51"
  , "c1" : "ScramFormatter"
  , "c2" : "ScramFormatter(ScramMechanism)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#40"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#57"
  , "c1" : "byte[]"
  , "c2" : "hmac(byte[];byte[])"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#45"
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#62"
  , "c1" : "byte[]"
  , "c2" : "hash(byte[])"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#49"
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#66"
  , "c1" : "byte[]"
  , "c2" : "xor(byte[];byte[])"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#58"
+ , "c5" : "00075"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#75"
  , "c1" : "byte[]"
  , "c2" : "hi(byte[];byte[];int)"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#72"
+ , "c5" : "00089"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#89"
  , "c1" : "byte[]"
  , "c2" : "normalize(String)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#76"
+ , "c5" : "00093"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#93"
  , "c1" : "byte[]"
  , "c2" : "saltedPassword(String;byte[];int)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#80"
+ , "c5" : "00097"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#97"
  , "c1" : "byte[]"
  , "c2" : "clientKey(byte[])"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#84"
+ , "c5" : "00101"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#101"
  , "c1" : "byte[]"
  , "c2" : "storedKey(byte[])"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#88"
+ , "c5" : "00105"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#105"
  , "c1" : "String"
  , "c2" : "saslName(String)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#93"
+ , "c5" : "00110"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#110"
  , "c1" : "String"
  , "c2" : "username(String)"
  , "c3" : "2"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00101"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#101"
+ , "c5" : "00118"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#118"
  , "c1" : "String"
  , "c2" : "authMessage(String;String;String)"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00105"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#105"
+ , "c5" : "00122"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#122"
  , "c1" : "byte[]"
  , "c2" : "clientSignature(byte[];ClientFirstMessage;ServerFirstMessage;ClientFinalMessage)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00110"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#110"
+ , "c5" : "00127"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#127"
  , "c1" : "byte[]"
  , "c2" : "clientProof(byte[];ClientFirstMessage;ServerFirstMessage;ClientFinalMessage)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00117"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#117"
+ , "c5" : "00134"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#134"
  , "c1" : "byte[]"
  , "c2" : "authMessage(ClientFirstMessage;ServerFirstMessage;ClientFinalMessage)"
  , "c3" : "1"
@@ -153,46 +153,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#123"
- , "c1" : "byte[]"
- , "c2" : "storedKey(byte[];byte[])"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00127"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#127"
- , "c1" : "byte[]"
- , "c2" : "serverKey(byte[])"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00131"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#131"
- , "c1" : "byte[]"
- , "c2" : "serverSignature(byte[];ClientFirstMessage;ServerFirstMessage;ClientFinalMessage)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00136"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#136"
- , "c1" : "String"
- , "c2" : "secureRandomString()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
  , "c5" : "00140"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#140"
- , "c1" : "String"
- , "c2" : "secureRandomString(SecureRandom)"
+ , "c1" : "byte[]"
+ , "c2" : "storedKey(byte[];byte[])"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -201,7 +165,7 @@ var maDataBlocs = {
  , "c5" : "00144"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#144"
  , "c1" : "byte[]"
- , "c2" : "secureRandomBytes()"
+ , "c2" : "serverKey(byte[])"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -210,14 +174,50 @@ var maDataBlocs = {
  , "c5" : "00148"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#148"
  , "c1" : "byte[]"
+ , "c2" : "serverSignature(byte[];ClientFirstMessage;ServerFirstMessage;ClientFinalMessage)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00153"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#153"
+ , "c1" : "String"
+ , "c2" : "secureRandomString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00157"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#157"
+ , "c1" : "String"
+ , "c2" : "secureRandomString(SecureRandom)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00161"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#161"
+ , "c1" : "byte[]"
+ , "c2" : "secureRandomBytes()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00165"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#165"
+ , "c1" : "byte[]"
  , "c2" : "secureRandomBytes(SecureRandom)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00152"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#152"
+ , "c5" : "00169"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#169"
  , "c1" : "byte[]"
  , "c2" : "toBytes(String)"
  , "c3" : "1"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00156"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#156"
+ , "c5" : "00173"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#173"
  , "c1" : "ScramCredential"
  , "c2" : "generateCredential(String;int)"
  , "c3" : "1"
@@ -234,8 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00166"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#166"
+ , "c5" : "00183"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#183"
  , "c1" : "ScramCredential"
  , "c2" : "generateCredential(byte[];byte[];int)"
  , "c3" : "1"
@@ -312,472 +312,472 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#34"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00034] The argument mechanism is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#40"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method hmac arguments byte[]  key|byte[]  bytes"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method hash arguments byte[]  str"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#49"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method xor arguments byte[]  first|byte[]  second"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.xor@POLYN175903 the MagicNumber/String  'Argument arrays must be of the same length' should be converted to const"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00051] The argument mechanism is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.xor@POLYN175903 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#58"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method hi arguments byte[]  str|byte[]  salt|int  iterations"
+ , "c3" : "QC-JAV000006[00057] For method hmac arguments byte[]  key|byte[]  bytes"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#58"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00058] For method hi list of called methods Object monObjet|byte[] hmacN177578|byte[] xorN177685"
+ , "c3" : "QC-JAV000006[00062] For method hash arguments byte[]  str"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN176662 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN176662 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN176662 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN176662 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN176662 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#72"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method normalize arguments String  str"
+ , "c3" : "QC-JAV000006[00066] For method xor arguments byte[]  first|byte[]  second"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#76"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method saltedPassword arguments String  password|byte[]  salt|int  iterations"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.xor@POLYN176005 the MagicNumber/String  'Argument arrays must be of the same length' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#80"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#70"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.xor@POLYN176005 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method clientKey arguments byte[]  saltedPassword"
+ , "c3" : "QC-JAV000006[00075] For method hi arguments byte[]  str|byte[]  salt|int  iterations"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#75"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00075] For method hi list of called methods Object monObjet|byte[] hmacN177680|byte[] xorN177787"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN176764 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN176764 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN176764 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN176764 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.clientKey@POLYN178305 the MagicNumber/String  'Client Key' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#84"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method storedKey arguments byte[]  clientKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#88"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method saslName arguments String  username"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.hi@POLYN176764 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.saslName@POLYN178673 the MagicNumber/String  '=3D' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.saslName@POLYN178673 the MagicNumber/String  '=2C' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00089] For method normalize arguments String  str"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#93"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00093] For method username arguments String  saslName"
+ , "c3" : "QC-JAV000006[00093] For method saltedPassword arguments String  password|byte[]  salt|int  iterations"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN179079 the MagicNumber/String  ',' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN179079 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN179079 the MagicNumber/String  '=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN179079 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN179079 the MagicNumber/String  'Invalid username: ' should be converted to const"
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#97"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00097] For method clientKey arguments byte[]  saltedPassword"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN179079 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.clientKey@POLYN178407 the MagicNumber/String  'Client Key' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method authMessage arguments String  clientFirstMessageBare|String  serverFirstMessage|String  clientFinalMessageWithoutProof"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.authMessage@POLYN179816 the MagicNumber/String  ',' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.authMessage@POLYN179816 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000006[00101] For method storedKey arguments byte[]  clientKey"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#105"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method clientSignature arguments byte[]  storedKey|ClientFirstMessage  clientFirstMessage|ServerFirstMessage  serverFirstMessage|ClientFinalMessage  clientFinalMessage"
+ , "c3" : "QC-JAV000006[00105] For method saslName arguments String  username"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.saslName@POLYN178775 the MagicNumber/String  '=3D' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.saslName@POLYN178775 the MagicNumber/String  '=2C' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00110] For method clientProof arguments byte[]  saltedPassword|ClientFirstMessage  clientFirstMessage|ServerFirstMessage  serverFirstMessage|ClientFinalMessage  clientFinalMessage"
+ , "c3" : "QC-JAV000006[00110] For method username arguments String  saslName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#110"
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN179181 the MagicNumber/String  ',' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN179181 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN179181 the MagicNumber/String  '=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN179181 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN179181 the MagicNumber/String  'Invalid username: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.username@POLYN179181 the MagicNumber/String  '=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#118"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00110] For method clientProof list of called methods Object monObjet|byte[] hashN180756|byte[] hmacN180848"
+ , "c3" : "QC-JAV000006[00118] For method authMessage arguments String  clientFirstMessageBare|String  serverFirstMessage|String  clientFinalMessageWithoutProof"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#117"
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#119"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.authMessage@POLYN179918 the MagicNumber/String  ',' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#119"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.authMessage@POLYN179918 the MagicNumber/String  ',' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00117] For method authMessage arguments ClientFirstMessage  clientFirstMessage|ServerFirstMessage  serverFirstMessage|ClientFinalMessage  clientFinalMessage"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#117"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00117] The argument clientFirstMessage is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#117"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00117] The argument serverFirstMessage is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#117"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00117] The argument clientFinalMessage is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#123"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00123] For method storedKey arguments byte[]  clientSignature|byte[]  clientProof"
+ , "c3" : "QC-JAV000006[00122] For method clientSignature arguments byte[]  storedKey|ClientFirstMessage  clientFirstMessage|ServerFirstMessage  serverFirstMessage|ClientFinalMessage  clientFinalMessage"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00127] For method serverKey arguments byte[]  saltedPassword"
+ , "c3" : "QC-JAV000006[00127] For method clientProof arguments byte[]  saltedPassword|ClientFirstMessage  clientFirstMessage|ServerFirstMessage  serverFirstMessage|ClientFinalMessage  clientFinalMessage"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#128"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.serverKey@POLYN181666 the MagicNumber/String  'Server Key' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#131"
+ , "c1" : "00127"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00131] For method serverSignature arguments byte[]  serverKey|ClientFirstMessage  clientFirstMessage|ServerFirstMessage  serverFirstMessage|ClientFinalMessage  clientFinalMessage"
+ , "c3" : "QC-JAV000007[00127] For method clientProof list of called methods Object monObjet|byte[] hashN180858|byte[] hmacN180950"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#134"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00134] For method authMessage arguments ClientFirstMessage  clientFirstMessage|ServerFirstMessage  serverFirstMessage|ClientFinalMessage  clientFinalMessage"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#134"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00134] The argument clientFirstMessage is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#134"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00134] The argument serverFirstMessage is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#134"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00134] The argument clientFinalMessage is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method secureRandomString arguments SecureRandom  random"
+ , "c3" : "QC-JAV000006[00140] For method storedKey arguments byte[]  clientSignature|byte[]  clientProof"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#141"
+ , "c1" : "00144"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#144"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00144] For method serverKey arguments byte[]  saltedPassword"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00145"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.secureRandomString@POLYN182396 the MagicNumber/String  130 should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.serverKey@POLYN181768 the MagicNumber/String  'Server Key' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00148] For method secureRandomBytes arguments SecureRandom  random"
+ , "c3" : "QC-JAV000006[00148] For method serverSignature arguments byte[]  serverKey|ClientFirstMessage  clientFirstMessage|ServerFirstMessage  serverFirstMessage|ClientFinalMessage  clientFinalMessage"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#152"
+ , "c1" : "00157"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00152] For method toBytes arguments String  str"
+ , "c3" : "QC-JAV000006[00157] For method secureRandomString arguments SecureRandom  random"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#152"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00152] The argument str is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#156"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00156] For method generateCredential arguments String  password|int  iterations"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#162"
+ , "c1" : "00158"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.generateCredential@POLYN183083 the MagicNumber/String  'Could not create credential' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.secureRandomString@POLYN182498 the MagicNumber/String  130 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#166"
+ , "c1" : "00165"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#165"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00166] For method generateCredential arguments byte[]  salt|byte[]  saltedPassword|int  iterations"
+ , "c3" : "QC-JAV000006[00165] For method secureRandomBytes arguments SecureRandom  random"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#169"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00169] For method toBytes arguments String  str"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#169"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00169] The argument str is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#173"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00173] For method generateCredential arguments String  password|int  iterations"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.generateCredential@POLYN183663 the MagicNumber/String  'Could not create credential' should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.generateCredential@POLYN183185 the MagicNumber/String  'Could not create credential' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#49"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00049] Public method xor is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00183"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#183"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00183] For method generateCredential arguments byte[]  salt|byte[]  saltedPassword|int  iterations"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#72"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00072] Public method normalize is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00190"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.common.security.scram.internals.ScramFormatter.generateCredential@POLYN183765 the MagicNumber/String  'Could not create credential' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#76"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#66"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00076] Public method saltedPassword is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00066] Public method xor is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#80"
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#89"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00080] Public method clientKey is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#84"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00084] Public method storedKey is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#88"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00088] Public method saslName is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00089] Public method normalize is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#93"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00093] Public method username is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00093] Public method saltedPassword is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#97"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00097] Public method clientKey is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00101] Public method authMessage is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00101] Public method storedKey is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#105"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00105] Public method clientSignature is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00105] Public method saslName is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00110] Public method clientProof is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00110] Public method username is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#123"
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#118"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00123] Public method storedKey is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00118] Public method authMessage is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#122"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00122] Public method clientSignature is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#127"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00127] Public method serverKey is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00127] Public method clientProof is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#131"
+ , "c1" : "00140"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#140"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00131] Public method serverSignature is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00140] Public method storedKey is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#152"
+ , "c1" : "00144"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00152] Public method toBytes is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00144] Public method serverKey is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#156"
+ , "c1" : "00148"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#148"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00156] Public method generateCredential is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00148] Public method serverSignature is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#166"
+ , "c1" : "00169"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#169"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00166] Public method generateCredential is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00169] Public method toBytes is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00173"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#173"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00173] Public method generateCredential is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00183"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#183"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00183] Public method generateCredential is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

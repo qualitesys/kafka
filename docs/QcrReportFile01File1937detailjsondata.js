@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.TaskAndAction" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#34"
  , "c1" : "TaskAndAction"
  , "c2" : "TaskAndAction(Task;TaskId;Action)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#25"
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#40"
  , "c1" : "TaskAndAction"
  , "c2" : "createAddTask(Task)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#30"
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#45"
  , "c1" : "TaskAndAction"
  , "c2" : "createRemoveTask(TaskId)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#35"
+ , "c5" : "00050"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#50"
  , "c1" : "Task"
  , "c2" : "getTask()"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#42"
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#57"
  , "c1" : "TaskId"
  , "c2" : "getTaskId()"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#49"
+ , "c5" : "00064"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#64"
  , "c1" : "Action"
  , "c2" : "getAction()"
  , "c3" : "1"
@@ -120,73 +120,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method createAddTask arguments Task  task"
+ , "c3" : "QC-JAV000006[00040] For method createAddTask arguments Task  task"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.processor.internals.TaskAndAction.createAddTask@POLYN145886 the MagicNumber/String  'Task to add is null!' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.processor.internals.TaskAndAction.createAddTask@POLYN145976 the MagicNumber/String  'Task to add is null!' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#27"
+ , "c1" : "00042"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.processor.internals.TaskAndAction.createAddTask@POLYN145886 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.processor.internals.TaskAndAction.createAddTask@POLYN145976 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method createRemoveTask arguments TaskId  taskId"
+ , "c3" : "QC-JAV000006[00045] For method createRemoveTask arguments TaskId  taskId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.processor.internals.TaskAndAction.createRemoveTask@POLYN146189 the MagicNumber/String  'Task ID of task to remove is null!' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.processor.internals.TaskAndAction.createRemoveTask@POLYN146279 the MagicNumber/String  'Task ID of task to remove is null!' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#32"
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.processor.internals.TaskAndAction.createRemoveTask@POLYN146189 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.processor.internals.TaskAndAction.createRemoveTask@POLYN146279 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#37"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.processor.internals.TaskAndAction.getTask@POLYN146487 the MagicNumber/String  'Action type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.processor.internals.TaskAndAction.getTask@POLYN146577 the MagicNumber/String  'Action type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#37"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.processor.internals.TaskAndAction.getTask@POLYN146487 the MagicNumber/String  ' cannot have a task!' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.processor.internals.TaskAndAction.getTask@POLYN146577 the MagicNumber/String  ' cannot have a task!' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#44"
+ , "c1" : "00059"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.processor.internals.TaskAndAction.getTaskId@POLYN146774 the MagicNumber/String  'Action type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.processor.internals.TaskAndAction.getTaskId@POLYN146864 the MagicNumber/String  'Action type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#44"
+ , "c1" : "00059"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.processor.internals.TaskAndAction.getTaskId@POLYN146774 the MagicNumber/String  ' cannot have a task ID!' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.processor.internals.TaskAndAction.getTaskId@POLYN146864 the MagicNumber/String  ' cannot have a task ID!' should be converted to const"
 }} 
 ]
 , 

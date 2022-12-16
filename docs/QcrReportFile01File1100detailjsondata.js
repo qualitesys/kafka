@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.distributed.ConnectAssignor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectAssignor.java.html#13"
+ , "c5" : "00040"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectAssignor.java.html#40"
  , "c1" : "Map<String,ByteBuffer>"
  , "c2" : "performAssignment(String;String;List<JoinGroupResponseData.JoinGroupResponseMember>;WorkerCoordinator)"
  , "c3" : "1"

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.KStream" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#27"
+ , "c5" : "00072"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#72"
  , "c1" : "KStream<K,V>"
  , "c2" : "filter(Predicate<?superK,?superV>)"
  , "c3" : "1"
@@ -27,55 +27,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#30"
+ , "c5" : "00084"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#84"
  , "c1" : "KStream<K,V>"
  , "c2" : "filter(Predicate<?superK,?superV>;Named)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#33"
- , "c1" : "KStream<K,V>"
- , "c2" : "filterNot(Predicate<?superK,?superV>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#36"
- , "c1" : "KStream<K,V>"
- , "c2" : "filterNot(Predicate<?superK,?superV>;Named)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#87"
- , "c1" : "void"
- , "c2" : "print(Printed<K,V>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#90"
- , "c1" : "void"
- , "c2" : "foreach(ForeachAction<?superK,?superV>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#93"
- , "c1" : "void"
- , "c2" : "foreach(ForeachAction<?superK,?superV>;Named)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -84,25 +39,7 @@ var maDataBlocs = {
  , "c5" : "00096"
  , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#96"
  , "c1" : "KStream<K,V>"
- , "c2" : "peek(ForeachAction<?superK,?superV>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#99"
- , "c1" : "KStream<K,V>"
- , "c2" : "peek(ForeachAction<?superK,?superV>;Named)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#104"
- , "c1" : "KStream<K,V>[]"
- , "c2" : "branch(Predicate<?superK,?superV>...)"
+ , "c2" : "filterNot(Predicate<?superK,?superV>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -110,6 +47,69 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00109"
  , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#109"
+ , "c1" : "KStream<K,V>"
+ , "c2" : "filterNot(Predicate<?superK,?superV>;Named)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00695"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#695"
+ , "c1" : "void"
+ , "c2" : "print(Printed<K,V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00705"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#705"
+ , "c1" : "void"
+ , "c2" : "foreach(ForeachAction<?superK,?superV>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00716"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#716"
+ , "c1" : "void"
+ , "c2" : "foreach(ForeachAction<?superK,?superV>;Named)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00731"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#731"
+ , "c1" : "KStream<K,V>"
+ , "c2" : "peek(ForeachAction<?superK,?superV>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00747"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#747"
+ , "c1" : "KStream<K,V>"
+ , "c2" : "peek(ForeachAction<?superK,?superV>;Named)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00765"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#765"
+ , "c1" : "KStream<K,V>[]"
+ , "c2" : "branch(Predicate<?superK,?superV>...)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00784"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#784"
  , "c1" : "KStream<K,V>[]"
  , "c2" : "branch(Named;Predicate<?superK,?superV>...)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#112"
+ , "c5" : "00795"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#795"
  , "c1" : "BranchedKStream<K,V>"
  , "c2" : "split()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00115"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#115"
+ , "c5" : "00808"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#808"
  , "c1" : "BranchedKStream<K,V>"
  , "c2" : "split(Named)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00118"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#118"
+ , "c5" : "00821"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#821"
  , "c1" : "KStream<K,V>"
  , "c2" : "merge(KStream<K,V>)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00121"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#121"
+ , "c5" : "00835"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#835"
  , "c1" : "KStream<K,V>"
  , "c2" : "merge(KStream<K,V>;Named)"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00126"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#126"
+ , "c5" : "00854"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#854"
  , "c1" : "KStream<K,V>"
  , "c2" : "through(String)"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00130"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#130"
+ , "c5" : "00874"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#874"
  , "c1" : "KStream<K,V>"
  , "c2" : "through(String;Produced<K,V>)"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00134"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#134"
+ , "c5" : "00890"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#890"
  , "c1" : "KStream<K,V>"
  , "c2" : "repartition()"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00137"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#137"
+ , "c5" : "00909"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#909"
  , "c1" : "KStream<K,V>"
  , "c2" : "repartition(Repartitioned<K,V>)"
  , "c3" : "1"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00140"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#140"
+ , "c5" : "00919"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#919"
  , "c1" : "void"
  , "c2" : "to(String)"
  , "c3" : "1"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00143"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#143"
+ , "c5" : "00929"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#929"
  , "c1" : "void"
  , "c2" : "to(String;Produced<K,V>)"
  , "c3" : "1"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00147"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#147"
+ , "c5" : "00939"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#939"
  , "c1" : "void"
  , "c2" : "to(TopicNameExtractor<K,V>)"
  , "c3" : "1"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00150"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#150"
+ , "c5" : "00948"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#948"
  , "c1" : "void"
  , "c2" : "to(TopicNameExtractor<K,V>;Produced<K,V>)"
  , "c3" : "1"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00154"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#154"
+ , "c5" : "00975"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#975"
  , "c1" : "KTable<K,V>"
  , "c2" : "toTable()"
  , "c3" : "1"
@@ -234,8 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00157"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#157"
+ , "c5" : "01002"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#1002"
  , "c1" : "KTable<K,V>"
  , "c2" : "toTable(Named)"
  , "c3" : "1"
@@ -243,8 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00160"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#160"
+ , "c5" : "01030"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#1030"
  , "c1" : "KTable<K,V>"
  , "c2" : "toTable(Materialized<K,V,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -252,8 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00163"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#163"
+ , "c5" : "01059"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#1059"
  , "c1" : "KTable<K,V>"
  , "c2" : "toTable(Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -261,8 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00174"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#174"
+ , "c5" : "01152"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#1152"
  , "c1" : "KGroupedStream<K,V>"
  , "c2" : "groupByKey()"
  , "c3" : "1"
@@ -270,8 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00177"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#177"
+ , "c5" : "01182"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#1182"
  , "c1" : "KGroupedStream<K,V>"
  , "c2" : "groupByKey(Grouped<K,V>)"
  , "c3" : "1"
@@ -279,8 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00386"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#386"
+ , "c5" : "04670"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#4670"
  , "c1" : "void"
  , "c2" : "process(org.apache.kafka.streams.processor.ProcessorSupplier<?superK,?superV>;String...)"
  , "c3" : "1"
@@ -288,8 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00391"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#391"
+ , "c5" : "04772"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KStream.java.html#4772"
  , "c1" : "void"
  , "c2" : "process(org.apache.kafka.streams.processor.ProcessorSupplier<?superK,?superV>;Named;String...)"
  , "c3" : "1"

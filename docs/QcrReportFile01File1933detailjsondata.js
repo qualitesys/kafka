@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.StreamsProducer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#59"
+ , "c5" : "00081"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#81"
  , "c1" : "StreamsProducer"
  , "c2" : "StreamsProducer(StreamsConfig;String;KafkaClientSupplier;TaskId;UUID;LogContext;Time)"
  , "c3" : "4"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00119"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#119"
+ , "c5" : "00141"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#141"
  , "c1" : "String"
  , "c2" : "formatException(String)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#123"
+ , "c5" : "00145"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#145"
  , "c1" : "boolean"
  , "c2" : "eosEnabled()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00128"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#128"
+ , "c5" : "00152"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#152"
  , "c1" : "void"
  , "c2" : "initTransaction()"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00160"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#160"
+ , "c5" : "00184"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#184"
  , "c1" : "void"
  , "c2" : "resetProducer()"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00175"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#175"
+ , "c5" : "00199"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#199"
  , "c1" : "double"
  , "c2" : "getMetricValue(Map<MetricName,?extendsMetric>;String)"
  , "c3" : "3"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00195"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#195"
+ , "c5" : "00219"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#219"
  , "c1" : "double"
  , "c2" : "totalBlockedTime(Producer<?,?>)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00206"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#206"
+ , "c5" : "00230"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#230"
  , "c1" : "double"
  , "c2" : "totalBlockedTime()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00210"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#210"
+ , "c5" : "00234"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#234"
  , "c1" : "void"
  , "c2" : "maybeBeginTransaction()"
  , "c3" : "2"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00229"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#229"
+ , "c5" : "00253"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#253"
  , "c1" : "Future<RecordMetadata>"
  , "c2" : "send(ProducerRecord<byte[],byte[]>;Callback)"
  , "c3" : "3"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00252"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#252"
+ , "c5" : "00276"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#276"
  , "c1" : "boolean"
  , "c2" : "isRecoverable(KafkaException)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00259"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#259"
+ , "c5" : "00286"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#286"
  , "c1" : "void"
  , "c2" : "commitTransaction(Map<TopicPartition,OffsetAndMetadata>;ConsumerGroupMetadata)"
  , "c3" : "2"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00289"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#289"
+ , "c5" : "00318"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#318"
  , "c1" : "void"
  , "c2" : "abortTransaction()"
  , "c3" : "3"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00325"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#325"
+ , "c5" : "00356"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#356"
  , "c1" : "List<PartitionInfo>"
  , "c2" : "partitionsFor(String)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00329"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#329"
+ , "c5" : "00360"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#360"
  , "c1" : "Map<MetricName,?extendsMetric>"
  , "c2" : "metrics()"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00333"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#333"
+ , "c5" : "00364"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#364"
  , "c1" : "void"
  , "c2" : "flush()"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00337"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#337"
+ , "c5" : "00368"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#368"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00342"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#342"
+ , "c5" : "00373"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#373"
  , "c1" : "Producer<byte[],byte[]>"
  , "c2" : "kafkaProducer()"
  , "c3" : "1"
@@ -272,906 +272,906 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#59"
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#81"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00059] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00081] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#60"
+ , "c1" : "00082"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#82"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00060] The argument threadId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00082] The argument threadId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#61"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#83"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00061] The argument clientSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00083] The argument clientSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#64"
+ , "c1" : "00086"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#86"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00064] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00086] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#66"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String  'config cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String  'config cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#67"
+ , "c1" : "00089"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String  'threadId cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String  'threadId cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#68"
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String  'clientSupplier cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String  'clientSupplier cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#69"
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String  'logContext cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String  'logContext cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#71"
+ , "c1" : "00093"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String  'time' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String  'time' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#79"
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#87"
+ , "c1" : "00109"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String  'taskId cannot be null for exactly-once alpha' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String  'taskId cannot be null for exactly-once alpha' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#92"
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#94"
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#104"
+ , "c1" : "00126"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#105"
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String  'processId cannot be null for exactly-once v2' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String  'processId cannot be null for exactly-once v2' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#106"
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#106"
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String  '-StreamThread-' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String  '-StreamThread-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#106"
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#113"
+ , "c1" : "00135"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String  'Unknown processing mode: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#119"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00119] For method formatException arguments String  message"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#120"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.processor.internals.StreamsProducer.formatException@POLYN194313 the MagicNumber/String  ' [' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#120"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.processor.internals.StreamsProducer.formatException@POLYN194313 the MagicNumber/String  ']' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#130"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String  'Exactly-once is not enabled' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#137"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String  'Timeout exception caught trying to initialize transactions. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String  'Unknown processing mode: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String  'The broker is either slow or in bad state (like not having enough replicas) in ' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00141] For method formatException arguments String  message"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String  'responding to the request, or the connection to broker was interrupted sending ' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.processor.internals.StreamsProducer.formatException@POLYN194499 the MagicNumber/String  ' [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#143"
+ , "c1" : "00142"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String  'the request or receiving the response. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.processor.internals.StreamsProducer.formatException@POLYN194499 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#144"
+ , "c1" : "00154"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String  'Will retry initializing the task in the next loop. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String  'Exactly-once is not enabled' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#145"
+ , "c1" : "00161"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String  'Consider overwriting {} to a larger value to avoid timeout errors' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#153"
+ , "c1" : "00164"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String  'Error encountered trying to initialize transactions' should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String  'Timeout exception caught trying to initialize transactions. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#160"
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#165"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String  'The broker is either slow or in bad state (like not having enough replicas) in ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00166"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#166"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String  'responding to the request, or the connection to broker was interrupted sending ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#167"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String  'the request or receiving the response. ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00168"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#168"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String  'Will retry initializing the task in the next loop. ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String  'Consider overwriting {} to a larger value to avoid timeout errors' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String  'Error encountered trying to initialize transactions' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#184"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00160] For method resetProducer list of called methods Object monObjet|double totalBlockedTimeN195767"
+ , "c3" : "QC-JAV000007[00184] For method resetProducer list of called methods Object monObjet|double totalBlockedTimeN195953"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#162"
+ , "c1" : "00186"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.processor.internals.StreamsProducer.resetProducer@POLYN195528 the MagicNumber/String  'Expected eos-v2 to be enabled, but the processing mode was ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#172"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.streams.processor.internals.StreamsProducer.resetProducer@POLYN195528 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#175"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00175] For method getMetricValue arguments Map&lt;MetricName ,?  extends Metric &gt;  metrics|String  name"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#175"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00175] For method getMetricValue list of called methods Object monObjet|java.lang.String String_formatN196948"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#175"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00175] The argument metrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#181"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196268 the MagicNumber/String  0.0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#183"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196268 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#185"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196268 the MagicNumber/String  'found %d values for metric %s. total blocked time computation may be incorrect' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#192"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196268 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#195"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00195] For method totalBlockedTime arguments Producer&lt;? ,? &gt;  producer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#195"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00195] The argument producer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.processor.internals.StreamsProducer.resetProducer@POLYN195714 the MagicNumber/String  'Expected eos-v2 to be enabled, but the processing mode was ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.processor.internals.StreamsProducer.totalBlockedTime@POLYN197383 the MagicNumber/String  'bufferpool-wait-time-ns-total' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#197"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.processor.internals.StreamsProducer.totalBlockedTime@POLYN197383 the MagicNumber/String  'flush-time-ns-total' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#198"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.streams.processor.internals.StreamsProducer.totalBlockedTime@POLYN197383 the MagicNumber/String  'txn-init-time-ns-total' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.processor.internals.StreamsProducer.resetProducer@POLYN195714 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00199"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#199"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.processor.internals.StreamsProducer.totalBlockedTime@POLYN197383 the MagicNumber/String  'txn-begin-time-ns-total' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00199] For method getMetricValue arguments Map&lt;MetricName ,?  extends Metric &gt;  metrics|String  name"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#200"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.streams.processor.internals.StreamsProducer.totalBlockedTime@POLYN197383 the MagicNumber/String  'txn-send-offsets-time-ns-total' should be converted to const"
+ , "c1" : "00199"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#199"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00199] For method getMetricValue list of called methods Object monObjet|java.lang.String String_formatN197134"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#201"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.processor.internals.StreamsProducer.totalBlockedTime@POLYN197383 the MagicNumber/String  'txn-commit-time-ns-total' should be converted to const"
+ , "c1" : "00199"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#199"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00199] The argument metrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#202"
+ , "c1" : "00205"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.streams.processor.internals.StreamsProducer.totalBlockedTime@POLYN197383 the MagicNumber/String  'txn-abort-time-ns-total' should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196454 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#203"
+ , "c1" : "00207"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.streams.processor.internals.StreamsProducer.totalBlockedTime@POLYN197383 the MagicNumber/String  'metadata-wait-time-ns-total' should be converted to const"
+ , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196454 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00214"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#214"
+ , "c1" : "00209"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.streams.processor.internals.StreamsProducer.maybeBeginTransaction@POLYN198404 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196454 the MagicNumber/String  'found %d values for metric %s. total blocked time computation may be incorrect' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#217"
+ , "c1" : "00216"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.processor.internals.StreamsProducer.maybeBeginTransaction@POLYN198404 the MagicNumber/String  'Producer got fenced trying to begin a new transaction' should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196454 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#219"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00219] For method totalBlockedTime arguments Producer&lt;? ,? &gt;  producer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#219"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00219] The argument producer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00220"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#220"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.streams.processor.internals.StreamsProducer.totalBlockedTime@POLYN197569 the MagicNumber/String  'bufferpool-wait-time-ns-total' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00221"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#221"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.processor.internals.StreamsProducer.totalBlockedTime@POLYN197569 the MagicNumber/String  'flush-time-ns-total' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00222"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.streams.processor.internals.StreamsProducer.maybeBeginTransaction@POLYN198404 the MagicNumber/String  'Error encountered trying to begin a new transaction' should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.streams.processor.internals.StreamsProducer.totalBlockedTime@POLYN197569 the MagicNumber/String  'txn-init-time-ns-total' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00229"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#229"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00229] For method send arguments ProducerRecord&lt;byte[] ,byte[] &gt;  record|Callback  callback"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00229"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#229"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00229] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#240"
+ , "c1" : "00223"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#223"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.streams.processor.internals.StreamsProducer.send@POLYN199053 the MagicNumber/String  'Producer got fenced trying to send a record' should be converted to const"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.streams.processor.internals.StreamsProducer.totalBlockedTime@POLYN197569 the MagicNumber/String  'txn-begin-time-ns-total' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#245"
+ , "c1" : "00224"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.streams.processor.internals.StreamsProducer.send@POLYN199053 the MagicNumber/String  'Error encountered trying to send record to topic %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.streams.processor.internals.StreamsProducer.totalBlockedTime@POLYN197569 the MagicNumber/String  'txn-send-offsets-time-ns-total' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#252"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00252] For method isRecoverable arguments KafkaException  uncaughtException"
+ , "c1" : "00225"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#225"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.streams.processor.internals.StreamsProducer.totalBlockedTime@POLYN197569 the MagicNumber/String  'txn-commit-time-ns-total' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#252"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00252] The argument uncaughtException is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00226"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#226"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.streams.processor.internals.StreamsProducer.totalBlockedTime@POLYN197569 the MagicNumber/String  'txn-abort-time-ns-total' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00227"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#227"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.streams.processor.internals.StreamsProducer.totalBlockedTime@POLYN197569 the MagicNumber/String  'metadata-wait-time-ns-total' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00238"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#238"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.streams.processor.internals.StreamsProducer.maybeBeginTransaction@POLYN198590 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00241"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#241"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.streams.processor.internals.StreamsProducer.maybeBeginTransaction@POLYN198590 the MagicNumber/String  'Producer got fenced trying to begin a new transaction' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00246"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#246"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.streams.processor.internals.StreamsProducer.maybeBeginTransaction@POLYN198590 the MagicNumber/String  'Error encountered trying to begin a new transaction' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00253"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#253"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00253] The same method call uncaughtException.getCause()uncaughtException.getCause() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#254"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00254] The same method call uncaughtException.getCause() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00259"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#259"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00259] For method commitTransaction arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|ConsumerGroupMetadata  consumerGroupMetadata"
+ , "c3" : "QC-JAV000006[00253] For method send arguments ProducerRecord&lt;byte[] ,byte[] &gt;  record|Callback  callback"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#260"
+ , "c1" : "00253"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#253"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00260] The argument consumerGroupMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00253] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00262"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#262"
+ , "c1" : "00264"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200188 the MagicNumber/String  'Exactly-once is not enabled' should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.streams.processor.internals.StreamsProducer.send@POLYN199239 the MagicNumber/String  'Producer got fenced trying to send a record' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00271"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#271"
+ , "c1" : "00269"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200188 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.processor.internals.StreamsProducer.send@POLYN199239 the MagicNumber/String  'Error encountered trying to send record to topic %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#274"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200188 the MagicNumber/String  'Producer got fenced trying to commit a transaction' should be converted to const"
+ , "c1" : "00276"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#276"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00276] For method isRecoverable arguments KafkaException  uncaughtException"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00282"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#282"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200188 the MagicNumber/String  'Error encountered trying to commit a transaction' should be converted to const"
+ , "c1" : "00276"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#276"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00276] The argument uncaughtException is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00291"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#291"
+ , "c1" : "00277"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201433 the MagicNumber/String  'Exactly-once is not enabled' should be converted to const"
+ , "c3" : "QC-JAV000021[00277] The same method call uncaughtException.getCause()uncaughtException.getCause() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00300"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#300"
+ , "c1" : "00278"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201433 the MagicNumber/String  'Aborting transaction failed due to timeout.' should be converted to const"
+ , "c3" : "QC-JAV000021[00278] The same method call uncaughtException.getCause() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00286"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#286"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00286] For method commitTransaction arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|ConsumerGroupMetadata  consumerGroupMetadata"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00287"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#287"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00287] The argument consumerGroupMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200374 the MagicNumber/String  'Exactly-once is not enabled' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00298"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#298"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200374 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00301"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201433 the MagicNumber/String  ' Will rely on broker to eventually abort the transaction after the transaction timeout passed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200374 the MagicNumber/String  'Producer got fenced trying to commit a transaction' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00313"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#313"
+ , "c1" : "00309"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201433 the MagicNumber/String  'Encountered {} while aborting the transaction; this is expected and hence swallowed' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00316"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#316"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201433 the MagicNumber/String  'Error encounter trying to abort a transaction' should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200374 the MagicNumber/String  'Error encountered trying to commit a transaction' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00320"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201433 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201619 the MagicNumber/String  'Exactly-once is not enabled' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00325"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#325"
+ , "c1" : "00329"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#329"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201619 the MagicNumber/String  'Aborting transaction failed due to timeout.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00330"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#330"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201619 the MagicNumber/String  ' Will rely on broker to eventually abort the transaction after the transaction timeout passed.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00342"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#342"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201619 the MagicNumber/String  'Encountered {} while aborting the transaction; this is expected and hence swallowed' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00345"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#345"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201619 the MagicNumber/String  'Error encounter trying to abort a transaction' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00349"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#349"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201619 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00356"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#356"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00325] For method partitionsFor arguments String  topic"
+ , "c3" : "QC-JAV000006[00356] For method partitionsFor arguments String  topic"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.maybeBeginTransaction@POLYN198404"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.maybeBeginTransaction@POLYN198590"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.send@POLYN199053"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.send@POLYN199239"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200188"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200374"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.close@POLYN202789"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.close@POLYN202975"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201433"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201619"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.flush@POLYN202701"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.flush@POLYN202887"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196268"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196454"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.metrics@POLYN202608"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.metrics@POLYN202794"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.partitionsFor@POLYN202420"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.partitionsFor@POLYN202606"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00214"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#214"
+ , "c1" : "00238"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#238"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00214] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.maybeBeginTransaction@POLYN198404 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.maybeBeginTransaction@POLYN198590 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#217"
+ , "c1" : "00241"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#241"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00217] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.maybeBeginTransaction@POLYN198404 the MagicNumber/String 'Producer got fenced trying to begin a new transaction' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00241] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.maybeBeginTransaction@POLYN198590 the MagicNumber/String 'Producer got fenced trying to begin a new transaction' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00222"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#222"
+ , "c1" : "00246"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#246"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00222] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.maybeBeginTransaction@POLYN198404 the MagicNumber/String 'Error encountered trying to begin a new transaction' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.maybeBeginTransaction@POLYN198590 the MagicNumber/String 'Error encountered trying to begin a new transaction' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#240"
+ , "c1" : "00264"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#264"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00240] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.send@POLYN199053 the MagicNumber/String 'Producer got fenced trying to send a record' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00264] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.send@POLYN199239 the MagicNumber/String 'Producer got fenced trying to send a record' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#245"
+ , "c1" : "00269"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#269"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00245] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.send@POLYN199053 the MagicNumber/String 'Error encountered trying to send record to topic %s' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00269] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.send@POLYN199239 the MagicNumber/String 'Error encountered trying to send record to topic %s' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00262"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#262"
+ , "c1" : "00289"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00262] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200188 the MagicNumber/String 'Exactly-once is not enabled' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200374 the MagicNumber/String 'Exactly-once is not enabled' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00271"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#271"
+ , "c1" : "00298"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#298"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00271] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200188 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#274"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00274] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200188 the MagicNumber/String 'Producer got fenced trying to commit a transaction' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00282"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#282"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00282] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200188 the MagicNumber/String 'Error encountered trying to commit a transaction' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#66"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String 'config cannot be null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#67"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String 'threadId cannot be null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#68"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String 'clientSupplier cannot be null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#69"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String 'logContext cannot be null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#71"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String 'time' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#79"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#87"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String 'taskId cannot be null for exactly-once alpha' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#92"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String '-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#94"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#104"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String '-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#105"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String 'processId cannot be null for exactly-once v2' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#106"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String '-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#106"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String '-StreamThread-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#106"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#113"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191440 the MagicNumber/String 'Unknown processing mode: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00291"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#291"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00291] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201433 the MagicNumber/String 'Exactly-once is not enabled' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00300"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#300"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00300] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201433 the MagicNumber/String 'Aborting transaction failed due to timeout.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00298] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200374 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00301"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#301"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00301] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201433 the MagicNumber/String ' Will rely on broker to eventually abort the transaction after the transaction timeout passed.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00301] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200374 the MagicNumber/String 'Producer got fenced trying to commit a transaction' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00313"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#313"
+ , "c1" : "00309"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#309"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00313] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201433 the MagicNumber/String 'Encountered {} while aborting the transaction; this is expected and hence swallowed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN200374 the MagicNumber/String 'Error encountered trying to commit a transaction' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00316"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#316"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#88"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00316] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201433 the MagicNumber/String 'Error encounter trying to abort a transaction' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String 'config cannot be null' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00089"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#89"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00089] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String 'threadId cannot be null' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#90"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String 'clientSupplier cannot be null' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#91"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String 'logContext cannot be null' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#93"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String 'time' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#109"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String 'taskId cannot be null for exactly-once alpha' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#114"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String '-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#116"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00116] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00126"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#126"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00126] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String '-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String 'processId cannot be null for exactly-once v2' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#128"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String '-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#128"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String '-StreamThread-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#128"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00135] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.StreamsProducer@POLYN191626 the MagicNumber/String 'Unknown processing mode: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00320"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#320"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00320] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201433 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00320] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201619 the MagicNumber/String 'Exactly-once is not enabled' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#181"
+ , "c1" : "00329"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#329"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00181] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196268 the MagicNumber/String 0.0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00329] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201619 the MagicNumber/String 'Aborting transaction failed due to timeout.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#183"
+ , "c1" : "00330"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#330"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00183] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196268 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00330] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201619 the MagicNumber/String ' Will rely on broker to eventually abort the transaction after the transaction timeout passed.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#185"
+ , "c1" : "00342"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#342"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00185] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196268 the MagicNumber/String 'found %d values for metric %s. total blocked time computation may be incorrect' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00342] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201619 the MagicNumber/String 'Encountered {} while aborting the transaction; this is expected and hence swallowed' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#192"
+ , "c1" : "00345"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#345"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00192] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196268 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00345] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201619 the MagicNumber/String 'Error encounter trying to abort a transaction' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#130"
+ , "c1" : "00349"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#349"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String 'Exactly-once is not enabled' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00349] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.abortTransaction@POLYN201619 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#137"
+ , "c1" : "00205"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#205"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00205] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196454 the MagicNumber/String 0.0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#140"
+ , "c1" : "00207"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#207"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00140] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String 'Timeout exception caught trying to initialize transactions. ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00207] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196454 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#141"
+ , "c1" : "00209"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#209"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00141] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String 'The broker is either slow or in bad state -like not having enough replicas- in ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00209] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196454 the MagicNumber/String 'found %d values for metric %s. total blocked time computation may be incorrect' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#142"
+ , "c1" : "00216"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#216"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00142] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String 'responding to the request, or the connection to broker was interrupted sending ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00216] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.getMetricValue@POLYN196454 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#143"
+ , "c1" : "00154"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#154"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String 'the request or receiving the response. ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00154] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String 'Exactly-once is not enabled' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#144"
+ , "c1" : "00161"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#161"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String 'Will retry initializing the task in the next loop. ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#145"
+ , "c1" : "00164"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#164"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String 'Consider overwriting {} to a larger value to avoid timeout errors' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String 'Timeout exception caught trying to initialize transactions. ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#153"
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#165"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String 'Error encountered trying to initialize transactions' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String 'The broker is either slow or in bad state -like not having enough replicas- in ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00166"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#166"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00166] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String 'responding to the request, or the connection to broker was interrupted sending ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#167"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00167] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String 'the request or receiving the response. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00168"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#168"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String 'Will retry initializing the task in the next loop. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#169"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00169] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String 'Consider overwriting {} to a larger value to avoid timeout errors' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194828 the MagicNumber/String 'Error encountered trying to initialize transactions' MUST BE CONVERTED to const"
 }} 
 ]
 , 

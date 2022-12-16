@@ -2,7 +2,7 @@
 !pragma layout smetana
 "InvalidMetadataException" <|-- "org.apache.kafka.clients.StaleMetadataException"
 class org.apache.kafka.clients.StaleMetadataException {
-+StaleMetadataException() : StaleMetadataException [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/StaleMetadataException.java.html#10]]]
-+StaleMetadataException(String) : StaleMetadataException [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/StaleMetadataException.java.html#12]]]
++StaleMetadataException() : StaleMetadataException [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/StaleMetadataException.java.html#30]]]
++StaleMetadataException(String) : StaleMetadataException [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/StaleMetadataException.java.html#32]]]
 } 
 @enduml

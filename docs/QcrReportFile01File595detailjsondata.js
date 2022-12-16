@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.AddOffsetsToTxnRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#35"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#50"
  , "c1" : "AddOffsetsToTxnRequest"
  , "c2" : "AddOffsetsToTxnRequest(AddOffsetsToTxnRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#56"
  , "c1" : "AddOffsetsToTxnRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#46"
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#61"
  , "c1" : "AddOffsetsToTxnResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#52"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#67"
  , "c1" : "AddOffsetsToTxnRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -118,38 +118,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#17"
+ , "c1" : "00032"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00017] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+ , "c3" : "QC-JAVCWE493[00032] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00040] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#46"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00061] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00067] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AddOffsetsToTxnRequest.Builder.toString@POLYN147344"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AddOffsetsToTxnRequest.Builder.toString@POLYN147434"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.TaskMetadata" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#27"
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#45"
  , "c1" : "TaskMetadata"
  , "c2" : "TaskMetadata(String;Set<TopicPartition>;Map<TopicPartition,Long>;Map<TopicPartition,Long>;Optional<Long>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#40"
+ , "c5" : "00060"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#60"
  , "c1" : "String"
  , "c2" : "taskId()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#44"
+ , "c5" : "00064"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#64"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "topicPartitions()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#49"
+ , "c5" : "00071"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#71"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "committedOffsets()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#54"
+ , "c5" : "00078"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#78"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "endOffsets()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#59"
+ , "c5" : "00085"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#85"
  , "c1" : "Optional<Long>"
  , "c2" : "timeCurrentIdlingStarted()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#64"
+ , "c5" : "00090"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#90"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#77"
+ , "c5" : "00103"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#103"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#82"
+ , "c5" : "00108"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#108"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -154,87 +154,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#64"
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#90"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00090] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#68"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00068] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00094] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#66"
+ , "c1" : "00092"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.processor.TaskMetadata.equals@POLYN155019 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.processor.TaskMetadata.equals@POLYN155175 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#68"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.processor.TaskMetadata.equals@POLYN155019 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.processor.TaskMetadata.equals@POLYN155175 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#69"
+ , "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.TaskMetadata.equals@POLYN155019 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.processor.TaskMetadata.equals@POLYN155175 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#83"
+ , "c1" : "00109"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.processor.TaskMetadata.toString@POLYN155838 the MagicNumber/String  'TaskMetadata{' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.processor.TaskMetadata.toString@POLYN155994 the MagicNumber/String  'TaskMetadata{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#84"
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.TaskMetadata.toString@POLYN155838 the MagicNumber/String  'taskId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.processor.TaskMetadata.toString@POLYN155994 the MagicNumber/String  'taskId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#85"
+ , "c1" : "00111"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.TaskMetadata.toString@POLYN155838 the MagicNumber/String  ', topicPartitions=' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.processor.TaskMetadata.toString@POLYN155994 the MagicNumber/String  ', topicPartitions=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#86"
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.TaskMetadata.toString@POLYN155838 the MagicNumber/String  ', committedOffsets=' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.processor.TaskMetadata.toString@POLYN155994 the MagicNumber/String  ', committedOffsets=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#87"
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.processor.TaskMetadata.toString@POLYN155838 the MagicNumber/String  ', endOffsets=' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.processor.TaskMetadata.toString@POLYN155994 the MagicNumber/String  ', endOffsets=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#88"
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.processor.TaskMetadata.toString@POLYN155838 the MagicNumber/String  ', timeCurrentIdlingStarted=' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.processor.TaskMetadata.toString@POLYN155994 the MagicNumber/String  ', timeCurrentIdlingStarted=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#89"
+ , "c1" : "00115"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.processor.TaskMetadata.toString@POLYN155838 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.processor.TaskMetadata.toString@POLYN155994 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

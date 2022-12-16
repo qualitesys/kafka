@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.SessionWindow" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#10"
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#40"
  , "c1" : "SessionWindow"
  , "c2" : "SessionWindow(long;long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#15"
+ , "c5" : "00051"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#51"
  , "c1" : "boolean"
  , "c2" : "overlap(Window)"
  , "c3" : "2"
@@ -98,38 +98,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#15"
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00015] For method overlap arguments Window  other"
+ , "c3" : "QC-JAV000006[00051] For method overlap arguments Window  other"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#15"
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#51"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00015] The argument other is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00051] The argument other is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#16"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00016] The same method call other.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00052] The same method call other.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#17"
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.streams.kstream.internals.SessionWindow.overlap@POLYN149468 the MagicNumber/String  'Cannot compare windows of different type. Other window has type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.internals.SessionWindow.overlap@POLYN149684 the MagicNumber/String  'Cannot compare windows of different type. Other window has type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#18"
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.kstream.internals.SessionWindow.overlap@POLYN149468 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.internals.SessionWindow.overlap@POLYN149684 the MagicNumber/String  '.' should be converted to const"
 }} 
 ]
 , 

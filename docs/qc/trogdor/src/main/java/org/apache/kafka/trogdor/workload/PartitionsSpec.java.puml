@@ -2,12 +2,12 @@
 !pragma layout smetana
 "Message" <|-- "org.apache.kafka.trogdor.workload.PartitionsSpec"
 class org.apache.kafka.trogdor.workload.PartitionsSpec {
-+PartitionsSpec(int;short;Map<Integer,List<Integer>>;Map<String,String>) : PartitionsSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#28]]]
-+numPartitions() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#56]]]
-+partitionNumbers() : List<Integer> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#60]]]
-+replicationFactor() : short [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#74]]]
-+partitionAssignments() : Map<Integer,List<Integer>> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#79]]]
-+configs() : Map<String,String> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#84]]]
-+newTopic(String) : NewTopic [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#88]]]
++PartitionsSpec(int;short;Map<Integer,List<Integer>>;Map<String,String>) : PartitionsSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#45]]]
++numPartitions() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#73]]]
++partitionNumbers() : List<Integer> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#77]]]
++replicationFactor() : short [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#91]]]
++partitionAssignments() : Map<Integer,List<Integer>> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#96]]]
++configs() : Map<String,String> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#101]]]
++newTopic(String) : NewTopic [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#105]]]
 } 
 @enduml

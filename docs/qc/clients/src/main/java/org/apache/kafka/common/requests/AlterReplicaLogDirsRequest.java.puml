@@ -2,10 +2,10 @@
 !pragma layout smetana
 "AbstractRequest" <|-- "org.apache.kafka.common.requests.AlterReplicaLogDirsRequest"
 class org.apache.kafka.common.requests.AlterReplicaLogDirsRequest {
-+AlterReplicaLogDirsRequest(AlterReplicaLogDirsRequestData;short) : AlterReplicaLogDirsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#43]]]
-+data() : AlterReplicaLogDirsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#49]]]
-+getErrorResponse(int;Throwable) : AlterReplicaLogDirsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#53]]]
-+partitionDirs() : Map<TopicPartition,String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#66]]]
-+parse(ByteBuffer;short) : AlterReplicaLogDirsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#76]]]
++AlterReplicaLogDirsRequest(AlterReplicaLogDirsRequestData;short) : AlterReplicaLogDirsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#58]]]
++data() : AlterReplicaLogDirsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#64]]]
++getErrorResponse(int;Throwable) : AlterReplicaLogDirsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#68]]]
++partitionDirs() : Map<TopicPartition,String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#81]]]
++parse(ByteBuffer;short) : AlterReplicaLogDirsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#91]]]
 } 
 @enduml

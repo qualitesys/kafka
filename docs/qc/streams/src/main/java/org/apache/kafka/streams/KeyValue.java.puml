@@ -2,9 +2,9 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.KeyValue"
 class org.apache.kafka.streams.KeyValue {
-+KeyValue(K;V) : KeyValue [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#15]]]
-+toString() : String [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#26]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#31]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#45]]]
++KeyValue(K;V) : KeyValue [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#41]]]
++toString() : String [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#60]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#65]]]
++hashCode() : int [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#79]]]
 } 
 @enduml

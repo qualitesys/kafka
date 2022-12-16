@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.DescribeProducersResult"
 class org.apache.kafka.clients.admin.DescribeProducersResult {
-DescribeProducersResult(Map<TopicPartition,KafkaFuture<PartitionProducerState>>) : DescribeProducersResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#19]]]
-+partitionResult(TopicPartition) : KafkaFuture<PartitionProducerState> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#23]]]
-+all() : KafkaFuture<Map<TopicPartition,PartitionProducerState>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#32]]]
+DescribeProducersResult(Map<TopicPartition,KafkaFuture<PartitionProducerState>>) : DescribeProducersResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#34]]]
++partitionResult(TopicPartition) : KafkaFuture<PartitionProducerState> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#38]]]
++all() : KafkaFuture<Map<TopicPartition,PartitionProducerState>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#47]]]
 } 
 @enduml

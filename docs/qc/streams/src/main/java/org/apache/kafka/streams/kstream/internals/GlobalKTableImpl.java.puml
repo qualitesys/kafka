@@ -2,8 +2,8 @@
 !pragma layout smetana
 "GlobalKTable<K,V>" <|-- "org.apache.kafka.streams.kstream.internals.GlobalKTableImpl"
 class org.apache.kafka.streams.kstream.internals.GlobalKTableImpl {
-GlobalKTableImpl(KTableValueGetterSupplier<K,V>;String) : GlobalKTableImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GlobalKTableImpl.java.html#11]]]
-valueGetterSupplier() : KTableValueGetterSupplier<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GlobalKTableImpl.java.html#17]]]
-+queryableStoreName() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GlobalKTableImpl.java.html#22]]]
+GlobalKTableImpl(KTableValueGetterSupplier<K,V>;String) : GlobalKTableImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GlobalKTableImpl.java.html#26]]]
+valueGetterSupplier() : KTableValueGetterSupplier<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GlobalKTableImpl.java.html#32]]]
++queryableStoreName() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GlobalKTableImpl.java.html#37]]]
 } 
 @enduml

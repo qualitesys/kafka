@@ -2,12 +2,12 @@
 !pragma layout smetana
 "Commands.Handler" <|-- "org.apache.kafka.shell.LsCommandHandler"
 class org.apache.kafka.shell.LsCommandHandler {
-+LsCommandHandler(List<String>) : LsCommandHandler [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#69]]]
-+run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#84]]]
-printTargets(PrintWriter;OptionalInt;List<String>;List<TargetDirectory>) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#115]]]
-printEntries(PrintWriter;String;OptionalInt;List<String>) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#137]]]
-calculateColumnSchema(OptionalInt;List<String>) : ColumnSchema [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#169]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#271]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#276]]]
++LsCommandHandler(List<String>) : LsCommandHandler [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#86]]]
++run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#101]]]
+printTargets(PrintWriter;OptionalInt;List<String>;List<TargetDirectory>) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#132]]]
+printEntries(PrintWriter;String;OptionalInt;List<String>) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#154]]]
+calculateColumnSchema(OptionalInt;List<String>) : ColumnSchema [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#186]]]
++hashCode() : int [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#288]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#293]]]
 } 
 @enduml

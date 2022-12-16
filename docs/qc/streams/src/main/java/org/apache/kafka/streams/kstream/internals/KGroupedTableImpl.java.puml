@@ -2,14 +2,14 @@
 !pragma layout smetana
 "AbstractStream<K,V>KGroupedTable<K,V>" <|-- "org.apache.kafka.streams.kstream.internals.KGroupedTableImpl"
 class org.apache.kafka.streams.kstream.internals.KGroupedTableImpl {
-KGroupedTableImpl(InternalStreamsBuilder;String;Set<String>;GroupedInternal<K,V>;GraphNode) : KGroupedTableImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#41]]]
--createRepartitionNode(String;String;String) : GroupedTableOperationRepartitionNode<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#90]]]
-+reduce(Reducer<V>;Reducer<V>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#104]]]
-+reduce(Reducer<V>;Reducer<V>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#111]]]
-+reduce(Reducer<V>;Reducer<V>) : KTable<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#136]]]
-+count(Materialized<K,Long,KeyValueStore<Bytes,byte[]>>) : KTable<K,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#143]]]
-+count(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>) : KTable<K,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#148]]]
-+count() : KTable<K,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#169]]]
-+count(Named) : KTable<K,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#174]]]
+KGroupedTableImpl(InternalStreamsBuilder;String;Set<String>;GroupedInternal<K,V>;GraphNode) : KGroupedTableImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#61]]]
+-createRepartitionNode(String;String;String) : GroupedTableOperationRepartitionNode<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#110]]]
++reduce(Reducer<V>;Reducer<V>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#124]]]
++reduce(Reducer<V>;Reducer<V>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#131]]]
++reduce(Reducer<V>;Reducer<V>) : KTable<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#156]]]
++count(Materialized<K,Long,KeyValueStore<Bytes,byte[]>>) : KTable<K,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#163]]]
++count(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>) : KTable<K,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#168]]]
++count() : KTable<K,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#189]]]
++count(Named) : KTable<K,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#194]]]
 } 
 @enduml

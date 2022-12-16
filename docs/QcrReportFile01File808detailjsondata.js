@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#16"
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#55"
  , "c1" : "Set<String>"
  , "c2" : "validateScopes(String;Collection<String>)"
  , "c3" : "4"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#36"
+ , "c5" : "00090"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#90"
  , "c1" : "long"
  , "c2" : "validateExpiration(String;Long)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#48"
+ , "c5" : "00118"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#118"
  , "c1" : "String"
  , "c2" : "validateSubject(String;String)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#54"
+ , "c5" : "00138"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#138"
  , "c1" : "Long"
  , "c2" : "validateIssuedAt(String;Long)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#63"
+ , "c5" : "00163"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#163"
  , "c1" : "String"
  , "c2" : "validateClaimNameOverride(String;String)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#67"
+ , "c5" : "00167"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#167"
  , "c1" : "String"
  , "c2" : "validateString(String;String)"
  , "c3" : "4"
@@ -127,157 +127,157 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#16"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00016] For method validateScopes arguments String  scopeClaimName|Collection&lt;String &gt;  scopes"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#16"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00016] For method validateScopes list of called methods Object monObjet|java.lang.String validateStringN171935"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#17"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateScopes@POLYN171410 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#18"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateScopes@POLYN171410 the MagicNumber/String  '%s value must be non-null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#26"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateScopes@POLYN171410 the MagicNumber/String  '%s value must not contain duplicates - %s already present' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#36"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method validateExpiration arguments String  claimName|Long  claimValue"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateExpiration@POLYN172802 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateExpiration@POLYN172802 the MagicNumber/String  '%s value must be non-null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateExpiration@POLYN172802 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateExpiration@POLYN172802 the MagicNumber/String  '%s value must be non-negative; value given was \'%s\'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method validateSubject arguments String  claimName|String  claimValue"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#54"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method validateIssuedAt arguments String  claimName|Long  claimValue"
+ , "c3" : "QC-JAV000006[00055] For method validateScopes arguments String  scopeClaimName|Collection&lt;String &gt;  scopes"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateIssuedAt@POLYN174399 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateIssuedAt@POLYN174399 the MagicNumber/String  0 should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00055] For method validateScopes list of called methods Object monObjet|java.lang.String validateStringN172535"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateIssuedAt@POLYN174399 the MagicNumber/String  '%s value must be null or non-negative; value given was \'%s\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateScopes@POLYN172010 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#63"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#57"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateScopes@POLYN172010 the MagicNumber/String  '%s value must be non-null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateScopes@POLYN172010 the MagicNumber/String  '%s value must not contain duplicates - %s already present' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#90"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00063] For method validateClaimNameOverride arguments String  name|String  value"
+ , "c3" : "QC-JAV000006[00090] For method validateExpiration arguments String  claimName|Long  claimValue"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#67"
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#91"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateExpiration@POLYN173402 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateExpiration@POLYN173402 the MagicNumber/String  '%s value must be non-null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateExpiration@POLYN173402 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#95"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateExpiration@POLYN173402 the MagicNumber/String  '%s value must be non-negative; value given was \'%s\'' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#118"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method validateString arguments String  name|String  value"
+ , "c3" : "QC-JAV000006[00118] For method validateSubject arguments String  claimName|String  claimValue"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#67"
+ , "c1" : "00138"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#138"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00067] For method validateString list of called methods Object monObjet|java.lang.String value_trimN176082"
+ , "c3" : "QC-JAV000006[00138] For method validateIssuedAt arguments String  claimName|Long  claimValue"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#68"
+ , "c1" : "00139"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateString@POLYN175569 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateIssuedAt@POLYN174999 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#69"
+ , "c1" : "00139"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateString@POLYN175569 the MagicNumber/String  '%s value must be non-null' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateIssuedAt@POLYN174999 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#72"
+ , "c1" : "00140"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateString@POLYN175569 the MagicNumber/String  '%s value must be non-empty' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateIssuedAt@POLYN174999 the MagicNumber/String  '%s value must be null or non-negative; value given was \'%s\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#77"
+ , "c1" : "00163"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#163"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00163] For method validateClaimNameOverride arguments String  name|String  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#167"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00167] For method validateString arguments String  name|String  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#167"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00167] For method validateString list of called methods Object monObjet|java.lang.String value_trimN176682"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00168"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateString@POLYN175569 the MagicNumber/String  '%s value must not contain only whitespace' should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateString@POLYN176169 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateString@POLYN176169 the MagicNumber/String  '%s value must be non-null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateString@POLYN176169 the MagicNumber/String  '%s value must be non-empty' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils.validateString@POLYN176169 the MagicNumber/String  '%s value must not contain only whitespace' should be converted to const"
 }} 
 ]
 , 

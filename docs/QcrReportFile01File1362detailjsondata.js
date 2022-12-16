@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.PartitionRegistration" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#31"
+ , "c5" : "00046"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#46"
  , "c1" : "boolean"
  , "c2" : "electionWasClean(int;int[])"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#35"
+ , "c5" : "00050"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#50"
  , "c1" : "PartitionRegistration"
  , "c2" : "PartitionRegistration(PartitionRecord)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#46"
+ , "c5" : "00061"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#61"
  , "c1" : "PartitionRegistration"
  , "c2" : "PartitionRegistration(int[];int[];int[];int[];int;LeaderRecoveryState;int;int)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#59"
+ , "c5" : "00074"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#74"
  , "c1" : "PartitionRegistration"
  , "c2" : "merge(PartitionChangeRecord)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#90"
+ , "c5" : "00105"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#105"
  , "c1" : "String"
  , "c2" : "diff(PartitionRegistration)"
  , "c3" : "9"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00139"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#139"
+ , "c5" : "00154"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#154"
  , "c1" : "void"
  , "c2" : "maybeLogPartitionChange(Logger;String;PartitionRegistration)"
  , "c3" : "4"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00147"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#147"
+ , "c5" : "00162"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#162"
  , "c1" : "boolean"
  , "c2" : "hasLeader()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00151"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#151"
+ , "c5" : "00166"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#166"
  , "c1" : "boolean"
  , "c2" : "hasPreferredLeader()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00155"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#155"
+ , "c5" : "00170"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#170"
  , "c1" : "int"
  , "c2" : "preferredReplica()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00159"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#159"
+ , "c5" : "00174"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#174"
  , "c1" : "ApiMessageAndVersion"
  , "c2" : "toRecord(Uuid;int)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00173"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#173"
+ , "c5" : "00188"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#188"
  , "c1" : "LeaderAndIsrPartitionState"
  , "c2" : "toLeaderAndIsrPartitionState(TopicPartition;boolean)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00191"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#191"
+ , "c5" : "00208"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#208"
  , "c1" : "boolean"
  , "c2" : "isReassigning()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00196"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#196"
+ , "c5" : "00213"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#213"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00202"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#202"
+ , "c5" : "00219"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#219"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00216"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#216"
+ , "c5" : "00233"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#233"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -208,430 +208,430 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method electionWasClean arguments int  newLeader|int[]  isr"
+ , "c3" : "QC-JAV000006[00046] For method electionWasClean arguments int  newLeader|int[]  isr"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#35"
+ , "c1" : "00050"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#50"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00035] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00050] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#59"
+ , "c1" : "00074"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method merge arguments PartitionChangeRecord  record"
+ , "c3" : "QC-JAV000006[00074] For method merge arguments PartitionChangeRecord  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#59"
+ , "c1" : "00074"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#74"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00059] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.metadata.PartitionRegistration.merge@POLYN183605 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.metadata.PartitionRegistration.merge@POLYN183605 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.metadata.PartitionRegistration.merge@POLYN183605 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#65"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.metadata.PartitionRegistration.merge@POLYN183605 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAVCWE476[00074] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.metadata.PartitionRegistration.merge@POLYN183605 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.metadata.PartitionRegistration.merge@POLYN183707 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#87"
+ , "c1" : "00077"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.metadata.PartitionRegistration.merge@POLYN183605 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.metadata.PartitionRegistration.merge@POLYN183707 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.metadata.PartitionRegistration.merge@POLYN183707 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.metadata.PartitionRegistration.merge@POLYN183707 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#90"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00090] For method diff arguments PartitionRegistration  prev"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#90"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00090] The argument prev is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  'replicas: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  ', ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  'isr: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.metadata.PartitionRegistration.merge@POLYN183707 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.metadata.PartitionRegistration.merge@POLYN183707 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  ', ' should be converted to const"
+ , "c1" : "00105"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#105"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00105] For method diff arguments PartitionRegistration  prev"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  'removingReplicas: ' should be converted to const"
+ , "c1" : "00105"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#105"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00105] The argument prev is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#108"
+ , "c1" : "00107"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  'replicas: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  'addingReplicas: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  'isr: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  'leader: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#119"
+ , "c1" : "00121"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#120"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  'removingReplicas: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  'leaderRecoveryState: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#125"
+ , "c1" : "00127"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  ', ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#128"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  'leaderEpoch: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  'addingReplicas: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  'partitionEpoch: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  'leader: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185394 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#139"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00139] For method maybeLogPartitionChange arguments Logger  log|String  description|PartitionRegistration  prev"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#139"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00139] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#139"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00139] The argument prev is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#141"
+ , "c1" : "00135"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.metadata.PartitionRegistration.maybeLogPartitionChange@POLYN189109 the MagicNumber/String  'UNCLEAN partition change for {}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  ', ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00138"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#138"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  'leaderRecoveryState: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#139"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#140"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.metadata.PartitionRegistration.maybeLogPartitionChange@POLYN189109 the MagicNumber/String  'partition change for {}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  'leaderEpoch: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#156"
+ , "c1" : "00144"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.metadata.PartitionRegistration.preferredReplica@POLYN189953 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#156"
+ , "c1" : "00145"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.metadata.PartitionRegistration.preferredReplica@POLYN189953 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#159"
+ , "c1" : "00148"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  'partitionEpoch: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00149"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#149"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.metadata.PartitionRegistration.diff@POLYN185496 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00159] For method toRecord arguments Uuid  topicId|int  partitionId"
+ , "c3" : "QC-JAV000006[00154] For method maybeLogPartitionChange arguments Logger  log|String  description|PartitionRegistration  prev"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#173"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00173] For method toLeaderAndIsrPartitionState arguments TopicPartition  tp|boolean  isNew"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#173"
+ , "c1" : "00154"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#154"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00173] The argument tp is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00154] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#178"
+ , "c1" : "00154"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#154"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00154] The argument prev is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00156"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.metadata.PartitionRegistration.toLeaderAndIsrPartitionState@POLYN190952 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.metadata.PartitionRegistration.maybeLogPartitionChange@POLYN189211 the MagicNumber/String  'UNCLEAN partition change for {}: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#192"
+ , "c1" : "00158"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.metadata.PartitionRegistration.isReassigning@POLYN191843 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.metadata.PartitionRegistration.maybeLogPartitionChange@POLYN189211 the MagicNumber/String  'partition change for {}: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#192"
+ , "c1" : "00171"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.metadata.PartitionRegistration.isReassigning@POLYN191843 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.metadata.PartitionRegistration.preferredReplica@POLYN190055 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#202"
+ , "c1" : "00171"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#171"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.metadata.PartitionRegistration.preferredReplica@POLYN190055 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00174"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#174"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00202] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00174] For method toRecord arguments Uuid  topicId|int  partitionId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#203"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.metadata.PartitionRegistration.equals@POLYN192322 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00188"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#188"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00188] For method toLeaderAndIsrPartitionState arguments TopicPartition  tp|boolean  isNew"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#217"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193184 the MagicNumber/String  'PartitionRegistration(' should be converted to const"
+ , "c1" : "00188"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#188"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00188] The argument tp is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#218"
+ , "c1" : "00193"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193184 the MagicNumber/String  'replicas=' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.metadata.PartitionRegistration.toLeaderAndIsrPartitionState@POLYN191054 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00209"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#209"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.metadata.PartitionRegistration.isReassigning@POLYN191945 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00209"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#209"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.metadata.PartitionRegistration.isReassigning@POLYN191945 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#219"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193184 the MagicNumber/String  ', isr=' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00219] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193184 the MagicNumber/String  ', removingReplicas=' should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.metadata.PartitionRegistration.equals@POLYN192424 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#221"
+ , "c1" : "00234"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193184 the MagicNumber/String  ', addingReplicas=' should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193286 the MagicNumber/String  'PartitionRegistration(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00222"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#222"
+ , "c1" : "00235"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193184 the MagicNumber/String  ', leader=' should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193286 the MagicNumber/String  'replicas=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00223"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#223"
+ , "c1" : "00236"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193184 the MagicNumber/String  ', leaderRecoveryState=' should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193286 the MagicNumber/String  ', isr=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00224"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#224"
+ , "c1" : "00237"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#237"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193184 the MagicNumber/String  ', leaderEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193286 the MagicNumber/String  ', removingReplicas=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00225"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#225"
+ , "c1" : "00238"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#238"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193184 the MagicNumber/String  ', partitionEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193286 the MagicNumber/String  ', addingReplicas=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00226"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#226"
+ , "c1" : "00239"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#239"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193184 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193286 the MagicNumber/String  ', leader=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#240"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193286 the MagicNumber/String  ', leaderRecoveryState=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00241"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#241"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193286 the MagicNumber/String  ', leaderEpoch=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00242"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#242"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193286 the MagicNumber/String  ', partitionEpoch=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00243"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#243"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193286 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

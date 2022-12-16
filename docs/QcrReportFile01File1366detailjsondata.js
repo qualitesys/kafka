@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.authorizer.ClusterMetadataAuthorizer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#28"
+ , "c5" : "00049"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#49"
  , "c1" : "void"
  , "c2" : "setAclMutator(AclMutator)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#31"
+ , "c5" : "00057"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#57"
  , "c1" : "AclMutator"
  , "c2" : "aclMutatorOrException()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#34"
+ , "c5" : "00063"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#63"
  , "c1" : "void"
  , "c2" : "completeInitialLoad()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#37"
+ , "c5" : "00069"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#69"
  , "c1" : "void"
  , "c2" : "completeInitialLoad(Exception)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#40"
+ , "c5" : "00076"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#76"
  , "c1" : "void"
  , "c2" : "loadSnapshot(Map<Uuid,StandardAcl>)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#43"
+ , "c5" : "00081"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#81"
  , "c1" : "void"
  , "c2" : "addAcl(Uuid;StandardAcl)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#46"
+ , "c5" : "00086"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#86"
  , "c1" : "void"
  , "c2" : "removeAcl(Uuid)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#49"
+ , "c5" : "00099"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#99"
  , "c1" : "List<?extendsCompletionStage<AclCreateResult>>"
  , "c2" : "createAcls(AuthorizableRequestContext;List<AclBinding>)"
  , "c3" : "6"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#79"
+ , "c5" : "00139"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#139"
  , "c1" : "List<?extendsCompletionStage<AclDeleteResult>>"
  , "c2" : "deleteAcls(AuthorizableRequestContext;List<AclBindingFilter>)"
  , "c3" : "6"
@@ -140,17 +140,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#51"
+ , "c1" : "00101"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#101"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00051] The argument aclBindings is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00101] The argument aclBindings is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#81"
+ , "c1" : "00141"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#141"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00081] The argument filters is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00141] The argument filters is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

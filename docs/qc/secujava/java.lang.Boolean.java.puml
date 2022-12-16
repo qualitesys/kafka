@@ -2,19 +2,19 @@
 !pragma layout smetana
 "java.io.Serializable" <|-- "java.lang.Boolean"
 class java.lang.Boolean {
-+Boolean(boolean) : Boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#86]]]
-+Boolean(String) : Boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#103]]]
-+parseBoolean(String) : boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#120]]]
-+booleanValue() : boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#130]]]
-+valueOf(boolean) : Boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#148]]]
-+valueOf(String) : Boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#161]]]
-+toString(boolean) : String [[[./../.././qc/secujava/java.lang.Boolean.java.html#175]]]
-+toString() : String [[[./../.././qc/secujava/java.lang.Boolean.java.html#187]]]
-+hashCode() : int [[[./../.././qc/secujava/java.lang.Boolean.java.html#198]]]
-+equals(Object) : boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#211]]]
-+getBoolean(String) : boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#235]]]
-+compareTo(Boolean) : int [[[./../.././qc/secujava/java.lang.Boolean.java.html#257]]]
-+compare(boolean;boolean) : int [[[./../.././qc/secujava/java.lang.Boolean.java.html#275]]]
--toBoolean(String) : boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#279]]]
++Boolean(boolean) : Boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#147]]]
++Boolean(String) : Boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#176]]]
++parseBoolean(String) : boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#205]]]
++booleanValue() : boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#220]]]
++valueOf(boolean) : Boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#251]]]
++valueOf(String) : Boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#272]]]
++toString(boolean) : String [[[./../.././qc/secujava/java.lang.Boolean.java.html#295]]]
++toString() : String [[[./../.././qc/secujava/java.lang.Boolean.java.html#314]]]
++hashCode() : int [[[./../.././qc/secujava/java.lang.Boolean.java.html#331]]]
++equals(Object) : boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#352]]]
++getBoolean(String) : boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#392]]]
++compareTo(Boolean) : int [[[./../.././qc/secujava/java.lang.Boolean.java.html#425]]]
++compare(boolean;boolean) : int [[[./../.././qc/secujava/java.lang.Boolean.java.html#456]]]
+-toBoolean(String) : boolean [[[./../.././qc/secujava/java.lang.Boolean.java.html#460]]]
 } 
 @enduml

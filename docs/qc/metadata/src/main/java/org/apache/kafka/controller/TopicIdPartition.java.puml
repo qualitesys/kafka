@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.controller.TopicIdPartition"
 class org.apache.kafka.controller.TopicIdPartition {
-TopicIdPartition(Uuid;int) : TopicIdPartition [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#12]]]
-+topicId() : Uuid [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#17]]]
-+partitionId() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#21]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#26]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#33]]]
-+toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#38]]]
+TopicIdPartition(Uuid;int) : TopicIdPartition [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#27]]]
++topicId() : Uuid [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#32]]]
++partitionId() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#36]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#41]]]
++hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#48]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#53]]]
 } 
 @enduml

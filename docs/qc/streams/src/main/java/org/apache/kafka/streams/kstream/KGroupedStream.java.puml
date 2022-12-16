@@ -2,14 +2,14 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.kstream.KGroupedStream"
 class org.apache.kafka.streams.kstream.KGroupedStream {
-count() : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#18]]]
-count(Named) : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#21]]]
-count(Materialized<K,Long,KeyValueStore<Bytes,byte[]>>) : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#24]]]
-count(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>) : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#27]]]
-reduce(Reducer<V>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#31]]]
-reduce(Reducer<V>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#34]]]
-reduce(Reducer<V>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#39]]]
-windowedBy(SlidingWindows) : TimeWindowedKStream<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#62]]]
-windowedBy(SessionWindows) : SessionWindowedKStream<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#65]]]
+count() : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#72]]]
+count(Named) : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#102]]]
+count(Materialized<K,Long,KeyValueStore<Bytes,byte[]>>) : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#148]]]
+count(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>) : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#195]]]
+reduce(Reducer<V>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#234]]]
+reduce(Reducer<V>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#296]]]
+reduce(Reducer<V>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#363]]]
+windowedBy(SlidingWindows) : TimeWindowedKStream<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#548]]]
+windowedBy(SessionWindows) : SessionWindowedKStream<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#555]]]
 } 
 @enduml

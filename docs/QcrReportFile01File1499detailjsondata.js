@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "java.util.concurrent.ConcurrentMap" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#17"
+ , "c5" : "00078"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#78"
  , "c1" : "V"
  , "c2" : "getOrDefault(Object;V)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#24"
+ , "c5" : "00102"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#102"
  , "c1" : "void"
  , "c2" : "forEach(BiConsumer<?superK,?superV>)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#41"
+ , "c5" : "00150"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#150"
  , "c1" : "V"
  , "c2" : "putIfAbsent(K;V)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#44"
+ , "c5" : "00180"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#180"
  , "c1" : "boolean"
  , "c2" : "remove(Object;Object)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#47"
+ , "c5" : "00211"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#211"
  , "c1" : "boolean"
  , "c2" : "replace(K;V;V)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#50"
+ , "c5" : "00244"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#244"
  , "c1" : "V"
  , "c2" : "replace(K;V)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#54"
+ , "c5" : "00275"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#275"
  , "c1" : "void"
  , "c2" : "replaceAll(BiFunction<?superK,?superV,?extendsV>)"
  , "c3" : "3"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#69"
+ , "c5" : "00319"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#319"
  , "c1" : "V"
  , "c2" : "computeIfAbsent(K;Function<?superK,?extendsV>)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#80"
+ , "c5" : "00362"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#362"
  , "c1" : "V"
  , "c2" : "computeIfPresent(K;BiFunction<?superK,?superV,?extendsV>)"
  , "c3" : "6"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#97"
+ , "c5" : "00416"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#416"
  , "c1" : "V"
  , "c2" : "compute(K;BiFunction<?superK,?superV,?extendsV>)"
  , "c3" : "11"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00145"
- , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#145"
+ , "c5" : "00495"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#495"
  , "c1" : "V"
  , "c2" : "merge(K;V;BiFunction<?superV,?superV,?extendsV>)"
  , "c3" : "9"
@@ -158,45 +158,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#24"
+ , "c1" : "00102"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#102"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00024] The argument action is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00102] The argument action is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#54"
+ , "c1" : "00275"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#275"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00054] The argument function is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00275] The argument function is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#70"
+ , "c1" : "00320"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#320"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00070] The argument mappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00320] The argument mappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#81"
+ , "c1" : "00363"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#363"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00081] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00363] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#98"
+ , "c1" : "00417"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#417"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00098] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00417] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#146"
+ , "c1" : "00496"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#496"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00146] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00496] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

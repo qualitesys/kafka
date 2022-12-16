@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.ClientQuotaControlManager" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#56"
  , "c1" : "ClientQuotaControlManager"
  , "c2" : "ClientQuotaControlManager(SnapshotRegistry)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#47"
+ , "c5" : "00069"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#69"
  , "c1" : "ControllerResult<Map<ClientQuotaEntity,ApiError>>"
  , "c2" : "alterClientQuotas(Collection<ClientQuotaAlteration>)"
  , "c3" : "5"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#76"
+ , "c5" : "00102"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#102"
  , "c1" : "void"
  , "c2" : "replay(ClientQuotaRecord)"
  , "c3" : "5"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00095"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#95"
+ , "c5" : "00121"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#121"
  , "c1" : "void"
  , "c2" : "alterClientQuotaEntity(ClientQuotaEntity;Map<String,Double>;List<ApiMessageAndVersion>;Map<ClientQuotaEntity,ApiError>)"
  , "c3" : "10"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00162"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#162"
+ , "c5" : "00188"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#188"
  , "c1" : "ApiError"
  , "c2" : "configKeysForEntityType(Map<String,String>;Map<String,ConfigDef.ConfigKey>)"
  , "c3" : "13"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00195"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#195"
+ , "c5" : "00221"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#221"
  , "c1" : "ApiError"
  , "c2" : "validateQuotaKeyValue(Map<String,ConfigDef.ConfigKey>;String;Double)"
  , "c3" : "7"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00225"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#225"
+ , "c5" : "00251"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#251"
  , "c1" : "boolean"
  , "c2" : "isValidIpEntity(String)"
  , "c3" : "3"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00238"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#238"
+ , "c5" : "00264"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#264"
  , "c1" : "ApiError"
  , "c2" : "validateEntity(ClientQuotaEntity;Map<String,String>)"
  , "c3" : "11"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00305"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#305"
+ , "c5" : "00331"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#331"
  , "c1" : "ClientQuotaControlIterator"
  , "c2" : "iterator(long)"
  , "c3" : "1"
@@ -191,486 +191,486 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.controller.ClientQuotaControlManager.ClientQuotaControlManager@POLYN196711 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#47"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method alterClientQuotas arguments Collection&lt;ClientQuotaAlteration &gt;  quotaAlterations"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#48"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00048] The argument quotaAlterations is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotas@POLYN197259 the MagicNumber/String  'Duplicate quota key ' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.controller.ClientQuotaControlManager.ClientQuotaControlManager@POLYN196867 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotas@POLYN197259 the MagicNumber/String  ' not updating quota for this entity ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotas@POLYN197259 the MagicNumber/String  'Ignoring duplicate entity ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#76"
+ , "c1" : "00069"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method replay arguments ClientQuotaRecord  record"
+ , "c3" : "QC-JAV000006[00069] For method alterClientQuotas arguments Collection&lt;ClientQuotaAlteration &gt;  quotaAlterations"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#76"
+ , "c1" : "00070"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#70"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00076] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00070] The argument quotaAlterations is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#77"
+ , "c1" : "00080"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotas@POLYN197415 the MagicNumber/String  'Duplicate quota key ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotas@POLYN197415 the MagicNumber/String  ' not updating quota for this entity ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#82"
+ , "c1" : "00088"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotas@POLYN197415 the MagicNumber/String  'Ignoring duplicate entity ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#87"
+ , "c1" : "00102"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#102"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00102] For method replay arguments ClientQuotaRecord  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#102"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00102] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199361 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#95"
+ , "c1" : "00107"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199361 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199361 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199361 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00095] For method alterClientQuotaEntity arguments ClientQuotaEntity  entity|Map&lt;String ,Double &gt;  newQuotaConfigs|List&lt;ApiMessageAndVersion &gt;  outputRecords|Map&lt;ClientQuotaEntity ,ApiError &gt;  outputResults"
+ , "c3" : "QC-JAV000006[00121] For method alterClientQuotaEntity arguments ClientQuotaEntity  entity|Map&lt;String ,Double &gt;  newQuotaConfigs|List&lt;ApiMessageAndVersion &gt;  outputRecords|Map&lt;ClientQuotaEntity ,ApiError &gt;  outputResults"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#95"
+ , "c1" : "00121"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00095] For method alterClientQuotaEntity list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError validateEntityN201034|org.apache.kafka.common.requests.ApiError configKeysForEntityTypeN201470|org.apache.kafka.common.requests.ApiError validateQuotaKeyValueN203343"
+ , "c3" : "QC-JAV000007[00121] For method alterClientQuotaEntity list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError validateEntityN201190|org.apache.kafka.common.requests.ApiError configKeysForEntityTypeN201626|org.apache.kafka.common.requests.ApiError validateQuotaKeyValueN203499"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#97"
+ , "c1" : "00123"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#123"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00097] The argument newQuotaConfigs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00123] The argument newQuotaConfigs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#98"
+ , "c1" : "00124"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#124"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00098] The argument outputRecords is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00124] The argument outputRecords is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#99"
+ , "c1" : "00125"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#125"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00099] The argument outputResults is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00125] The argument outputResults is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#154"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00154] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00155"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#155"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00155] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00166"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#166"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00166] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#171"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00171] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00128] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00129] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00140] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#145"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00145] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotaEntity@POLYN200629 the MagicNumber/String  3 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#110"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotaEntity@POLYN200629 the MagicNumber/String  4 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#130"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotaEntity@POLYN200629 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotaEntity@POLYN200785 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotaEntity@POLYN200629 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotaEntity@POLYN200785 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#162"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00162] For method configKeysForEntityType arguments Map&lt;String ,String &gt;  entity|Map&lt;String ,ConfigDef.ConfigKey &gt;  output"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#162"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00162] For method configKeysForEntityType list of called methods Object monObjet|org.apache.kafka.common.config.ConfigDef QuotaConfigs_ipConfigsN205336|org.apache.kafka.common.config.ConfigDef QuotaConfigs_userConfigsN205698|org.apache.kafka.common.config.ConfigDef QuotaConfigs_userConfigsN205841|org.apache.kafka.common.config.ConfigDef QuotaConfigs_clientConfigsN205984"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#162"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00162] The argument entity is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#162"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00162] The argument output is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#172"
+ , "c1" : "00156"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204355 the MagicNumber/String  'Invalid quota entity combination, IP entity should' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotaEntity@POLYN200785 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#173"
+ , "c1" : "00162"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204355 the MagicNumber/String  'not be combined with User or ClientId' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#178"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204355 the MagicNumber/String  ' is not a valid IP or resolvable host.' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotaEntity@POLYN200785 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#188"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204355 the MagicNumber/String  'Invalid empty client quota entity' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#195"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00195] For method validateQuotaKeyValue arguments Map&lt;String ,ConfigDef.ConfigKey &gt;  validKeys|String  key|Double  value"
+ , "c3" : "QC-JAV000006[00188] For method configKeysForEntityType arguments Map&lt;String ,String &gt;  entity|Map&lt;String ,ConfigDef.ConfigKey &gt;  output"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#195"
+ , "c1" : "00188"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#188"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00195] For method validateQuotaKeyValue list of called methods Object monObjet|java.lang.Double Double_valueOfN207063"
+ , "c3" : "QC-JAV000007[00188] For method configKeysForEntityType list of called methods Object monObjet|org.apache.kafka.common.config.ConfigDef QuotaConfigs_ipConfigsN205492|org.apache.kafka.common.config.ConfigDef QuotaConfigs_userConfigsN205854|org.apache.kafka.common.config.ConfigDef QuotaConfigs_userConfigsN205997|org.apache.kafka.common.config.ConfigDef QuotaConfigs_clientConfigsN206140"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#195"
+ , "c1" : "00188"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#188"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00195] The argument validKeys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00188] The argument entity is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#188"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00188] The argument output is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00198"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#198"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204511 the MagicNumber/String  'Invalid quota entity combination, IP entity should' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00199"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206294 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204511 the MagicNumber/String  'not be combined with User or ClientId' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#200"
+ , "c1" : "00204"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206294 the MagicNumber/String  'Invalid configuration key ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00210"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#210"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206294 the MagicNumber/String  1e-6 should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204511 the MagicNumber/String  ' is not a valid IP or resolvable host.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00214"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206294 the MagicNumber/String  'Configuration ' should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204511 the MagicNumber/String  'Invalid empty client quota entity' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00214"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#214"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206294 the MagicNumber/String  ' must be a Long value' should be converted to const"
+ , "c1" : "00221"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#221"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00221] For method validateQuotaKeyValue arguments Map&lt;String ,ConfigDef.ConfigKey &gt;  validKeys|String  key|Double  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#219"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206294 the MagicNumber/String  'Unexpected config type ' should be converted to const"
+ , "c1" : "00221"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#221"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00221] For method validateQuotaKeyValue list of called methods Object monObjet|java.lang.Double Double_valueOfN207219"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#219"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206294 the MagicNumber/String  ' should be Long or Double' should be converted to const"
+ , "c1" : "00221"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#221"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00221] The argument validKeys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00225"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#225"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00225] For method isValidIpEntity arguments String  ip"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00229"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.controller.ClientQuotaControlManager.isValidIpEntity@POLYN207722 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206450 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00231"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#231"
+ , "c1" : "00226"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.controller.ClientQuotaControlManager.isValidIpEntity@POLYN207722 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206450 the MagicNumber/String  'Invalid configuration key ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00234"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#234"
+ , "c1" : "00236"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.controller.ClientQuotaControlManager.isValidIpEntity@POLYN207722 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206450 the MagicNumber/String  1e-6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#238"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00238] For method validateEntity arguments ClientQuotaEntity  entity|Map&lt;String ,String &gt;  validatedEntityMap"
+ , "c1" : "00240"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#240"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206450 the MagicNumber/String  'Configuration ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#238"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00238] The argument entity is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#238"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00238] The argument validatedEntityMap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00240"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#240"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206450 the MagicNumber/String  ' must be a Long value' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00245"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00245] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206450 the MagicNumber/String  'Unexpected config type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#246"
+ , "c1" : "00245"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00246] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206450 the MagicNumber/String  ' should be Long or Double' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#241"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208151 the MagicNumber/String  'Invalid empty client quota entity' should be converted to const"
+ , "c1" : "00251"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#251"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00251] For method isValidIpEntity arguments String  ip"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#248"
+ , "c1" : "00255"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208151 the MagicNumber/String  'Invalid client quota entity, duplicate entity entry ' should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.controller.ClientQuotaControlManager.isValidIpEntity@POLYN207878 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00257"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#257"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208151 the MagicNumber/String  'Unhandled client quota entity type: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.controller.ClientQuotaControlManager.isValidIpEntity@POLYN207878 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00260"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#260"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208151 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.controller.ClientQuotaControlManager.isValidIpEntity@POLYN207878 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#261"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208151 the MagicNumber/String  'Empty ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#261"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208151 the MagicNumber/String  ' not supported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00289"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#289"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00289] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00290"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#290"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00290] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#297"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.controller.ClientQuotaControlManager.ClientQuotaControlIterator.next@POLYN210780 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00305"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#305"
+ , "c1" : "00264"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#264"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00305] For method iterator arguments long  epoch"
+ , "c3" : "QC-JAV000006[00264] For method validateEntity arguments ClientQuotaEntity  entity|Map&lt;String ,String &gt;  validatedEntityMap"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#264"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00264] The argument entity is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#264"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00264] The argument validatedEntityMap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00271"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#271"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00271] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00272"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#272"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00272] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00267"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#267"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208307 the MagicNumber/String  'Invalid empty client quota entity' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00274"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#274"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208307 the MagicNumber/String  'Invalid client quota entity, duplicate entity entry ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00283"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#283"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208307 the MagicNumber/String  'Unhandled client quota entity type: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00286"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#286"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208307 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00287"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#287"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208307 the MagicNumber/String  'Empty ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00287"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#287"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208307 the MagicNumber/String  ' not supported' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00315"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#315"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00315] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00316"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#316"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00316] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00323"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#323"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.controller.ClientQuotaControlManager.ClientQuotaControlIterator.next@POLYN210936 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00331"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#331"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00331] For method iterator arguments long  epoch"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ClientQuotaControlManager.ClientQuotaControlIterator.next@POLYN210780"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ClientQuotaControlManager.ClientQuotaControlIterator.next@POLYN210936"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199361"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#297"
+ , "c1" : "00323"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#323"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00297] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.ClientQuotaControlIterator.next@POLYN210780 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00323] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.ClientQuotaControlIterator.next@POLYN210936 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#77"
+ , "c1" : "00103"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199361 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#81"
+ , "c1" : "00107"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#107"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199361 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#82"
+ , "c1" : "00108"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#108"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199361 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#87"
+ , "c1" : "00113"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#113"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199361 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

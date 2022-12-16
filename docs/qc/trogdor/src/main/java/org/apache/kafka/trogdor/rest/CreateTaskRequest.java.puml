@@ -2,8 +2,8 @@
 !pragma layout smetana
 "Message" <|-- "org.apache.kafka.trogdor.rest.CreateTaskRequest"
 class org.apache.kafka.trogdor.rest.CreateTaskRequest {
-+CreateTaskRequest(String;TaskSpec) : CreateTaskRequest [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.html#15]]]
-+id() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.html#22]]]
-+spec() : TaskSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.html#27]]]
++CreateTaskRequest(String;TaskSpec) : CreateTaskRequest [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.html#32]]]
++id() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.html#39]]]
++spec() : TaskSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.html#44]]]
 } 
 @enduml

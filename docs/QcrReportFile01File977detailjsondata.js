@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.sink.SinkRecord" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#14"
+ , "c5" : "00036"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#36"
  , "c1" : "SinkRecord"
  , "c2" : "SinkRecord(String;int;Schema;Object;Schema;Object;long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#18"
+ , "c5" : "00040"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#40"
  , "c1" : "SinkRecord"
  , "c2" : "SinkRecord(String;int;Schema;Object;Schema;Object;long;Long;TimestampType)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#23"
+ , "c5" : "00045"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#45"
  , "c1" : "SinkRecord"
  , "c2" : "SinkRecord(String;int;Schema;Object;Schema;Object;long;Long;TimestampType;Iterable<Header>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#30"
+ , "c5" : "00052"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#52"
  , "c1" : "long"
  , "c2" : "kafkaOffset()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#34"
+ , "c5" : "00056"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#56"
  , "c1" : "TimestampType"
  , "c2" : "timestampType()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#39"
+ , "c5" : "00061"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#61"
  , "c1" : "SinkRecord"
  , "c2" : "newRecord(String;Integer;Schema;Object;Schema;Object;Long)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#44"
+ , "c5" : "00066"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#66"
  , "c1" : "SinkRecord"
  , "c2" : "newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#50"
+ , "c5" : "00072"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#72"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "5"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#67"
+ , "c5" : "00089"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#89"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#75"
+ , "c5" : "00097"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#97"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -163,122 +163,122 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#15"
+ , "c1" : "00037"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.connect.sink.SinkRecord.SinkRecord@POLYN155881 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.sink.SinkRecord.SinkRecord@POLYN156013 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#20"
+ , "c1" : "00042"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.connect.sink.SinkRecord.SinkRecord@POLYN156334 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#39"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method newRecord arguments String  topic|Integer  kafkaPartition|Schema  keySchema|Object  key|Schema  valueSchema|Object  value|Long  timestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method newRecord arguments String  topic|Integer  kafkaPartition|Schema  keySchema|Object  key|Schema  valueSchema|Object  value|Long  timestamp|Iterable&lt;Header &gt;  headers"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#50"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00053] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#52"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.sink.SinkRecord.equals@POLYN158752 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.sink.SinkRecord.equals@POLYN158752 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.sink.SinkRecord.equals@POLYN158752 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.sink.SinkRecord.equals@POLYN158752 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.sink.SinkRecord.SinkRecord@POLYN156466 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.sink.SinkRecord.equals@POLYN158752 the MagicNumber/String  false should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00061] For method newRecord arguments String  topic|Integer  kafkaPartition|Schema  keySchema|Object  key|Schema  valueSchema|Object  value|Long  timestamp"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.connect.sink.SinkRecord.hashCode@POLYN159450 the MagicNumber/String  31 should be converted to const"
+ , "c1" : "00066"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#66"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00066] For method newRecord arguments String  topic|Integer  kafkaPartition|Schema  keySchema|Object  key|Schema  valueSchema|Object  value|Long  timestamp|Iterable&lt;Header &gt;  headers"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#70"
+ , "c1" : "00072"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#72"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00072] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.connect.sink.SinkRecord.hashCode@POLYN159450 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000021[00075] The same method call o.getClass() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.sink.SinkRecord.equals@POLYN158884 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.sink.SinkRecord.equals@POLYN158884 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.sink.SinkRecord.toString@POLYN159882 the MagicNumber/String  'SinkRecord{' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.sink.SinkRecord.toString@POLYN159882 the MagicNumber/String  'kafkaOffset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.sink.SinkRecord.equals@POLYN158884 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.sink.SinkRecord.toString@POLYN159882 the MagicNumber/String  ', timestampType=' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.sink.SinkRecord.equals@POLYN158884 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#79"
+ , "c1" : "00083"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.sink.SinkRecord.toString@POLYN159882 the MagicNumber/String  '} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.sink.SinkRecord.equals@POLYN158884 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#91"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.sink.SinkRecord.hashCode@POLYN159582 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.sink.SinkRecord.hashCode@POLYN159582 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.sink.SinkRecord.toString@POLYN160014 the MagicNumber/String  'SinkRecord{' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.sink.SinkRecord.toString@POLYN160014 the MagicNumber/String  'kafkaOffset=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.sink.SinkRecord.toString@POLYN160014 the MagicNumber/String  ', timestampType=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.sink.SinkRecord.toString@POLYN160014 the MagicNumber/String  '} ' should be converted to const"
 }} 
 ]
 , 

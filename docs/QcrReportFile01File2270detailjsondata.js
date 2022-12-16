@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.ProduceBenchWorker" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#60"
+ , "c5" : "00075"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#75"
  , "c1" : "ProduceBenchWorker"
  , "c2" : "ProduceBenchWorker(String;ProduceBenchSpec)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#66"
+ , "c5" : "00081"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#81"
  , "c1" : "void"
  , "c2" : "start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00388"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#388"
+ , "c5" : "00409"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#409"
  , "c1" : "void"
  , "c2" : "stop(Platform)"
  , "c3" : "2"
@@ -137,682 +137,682 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#66"
+ , "c1" : "00081"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String &gt;  doneFuture"
+ , "c3" : "QC-JAV000006[00081] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String &gt;  doneFuture"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#68"
+ , "c1" : "00083"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203744 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203870 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#68"
+ , "c1" : "00083"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203744 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203870 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#69"
+ , "c1" : "00084"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203744 the MagicNumber/String  'ProducerBenchWorker is already running.' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203870 the MagicNumber/String  'ProducerBenchWorker is already running.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#71"
+ , "c1" : "00086"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203744 the MagicNumber/String  '{}: Activating ProduceBenchWorker with {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203744 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203744 the MagicNumber/String  'ProduceBenchWorkerThread%d' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203744 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203870 the MagicNumber/String  '{}: Activating ProduceBenchWorker with {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00089] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203870 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00090] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203870 the MagicNumber/String  'ProduceBenchWorkerThread%d' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#92"
+ , "c1" : "00090"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00092] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203870 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#101"
+ , "c1" : "00104"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00101] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00102] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.Prepare.run@POLYN204664 the MagicNumber/String  'You must specify at least one active topic.' should be converted to const"
+ , "c3" : "QC-JAV000001[00104] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.Prepare.run@POLYN204664 the MagicNumber/String  'Creating ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#105"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.Prepare.run@POLYN204664 the MagicNumber/String  ' topic(s)' should be converted to const"
+ , "c3" : "QC-JAV000001[00105] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.Prepare.run@POLYN204664 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000001[00107] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#108"
+ , "c1" : "00116"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.Prepare.run@POLYN204664 the MagicNumber/String  'Created ' should be converted to const"
+ , "c3" : "QC-JAV000001[00116] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#108"
+ , "c1" : "00117"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.Prepare.run@POLYN204664 the MagicNumber/String  ' topic(s)' should be converted to const"
+ , "c3" : "QC-JAV000001[00117] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#111"
+ , "c1" : "00112"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.Prepare.run@POLYN204664 the MagicNumber/String  'Prepare' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.Prepare.run@POLYN204790 the MagicNumber/String  'You must specify at least one active topic.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.Prepare.run@POLYN204790 the MagicNumber/String  'Creating ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.Prepare.run@POLYN204790 the MagicNumber/String  ' topic(s)' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#122"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.Prepare.run@POLYN204790 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#123"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.Prepare.run@POLYN204790 the MagicNumber/String  'Created ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#123"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.Prepare.run@POLYN204790 the MagicNumber/String  ' topic(s)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00126"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#126"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.Prepare.run@POLYN204790 the MagicNumber/String  'Prepare' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00141"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#141"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00126] For method onCompletion arguments RecordMetadata  metadata|Exception  exception"
+ , "c3" : "QC-JAV000006[00141] For method onCompletion arguments RecordMetadata  metadata|Exception  exception"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#130"
+ , "c1" : "00145"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecordsCallback.onCompletion@POLYN207551 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#131"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecordsCallback.onCompletion@POLYN207551 the MagicNumber/String  'SendRecordsCallback: error' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecordsCallback.onCompletion@POLYN207677 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#146"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecordsCallback.onCompletion@POLYN207677 the MagicNumber/String  'SendRecordsCallback: error' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00164"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#164"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00146] Lock statement on synchronized method delay"
+ , "c3" : "QC-JAV000019[00164] Lock statement on synchronized method delay"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#146"
+ , "c1" : "00164"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#164"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00146] For method delay arguments long  amount"
+ , "c3" : "QC-JAV000006[00164] For method delay arguments long  amount"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#177"
+ , "c1" : "00195"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#195"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00177] The argument activePartitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00195] The argument activePartitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#180"
+ , "c1" : "00198"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209734 the MagicNumber/String  10000 should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209860 the MagicNumber/String  10000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#188"
+ , "c1" : "00206"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209734 the MagicNumber/String  30 should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209860 the MagicNumber/String  30 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#188"
+ , "c1" : "00206"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209734 the MagicNumber/String  30 should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209860 the MagicNumber/String  30 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#193"
+ , "c1" : "00211"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209734 the MagicNumber/String  'produce-bench-transaction-id-' should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209860 the MagicNumber/String  'produce-bench-transaction-id-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00214"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#214"
+ , "c1" : "00232"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00231"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#231"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#235"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036 the MagicNumber/String  'Exception on final future' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#241"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036 the MagicNumber/String  'SendRecords' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00243"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#243"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036 the MagicNumber/String  'Sent {} total record(s) in {} ms.  status: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00249"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#250"
+ , "c1" : "00253"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162 the MagicNumber/String  'Exception on final future' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#254"
+ , "c1" : "00259"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#259"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214110 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162 the MagicNumber/String  'SendRecords' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00258"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#258"
+ , "c1" : "00261"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#261"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214110 the MagicNumber/String  'Beginning transaction.' should be converted to const"
+ , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00262"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#262"
+ , "c1" : "00264"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214110 the MagicNumber/String  'Committing transaction.' should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162 the MagicNumber/String  'Sent {} total record(s) in {} ms.  status: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00267"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#267"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214110 the MagicNumber/String  'Aborting transaction.' should be converted to const"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00271"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#271"
+ , "c1" : "00268"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214110 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00295"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#295"
+ , "c1" : "00272"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#272"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214236 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00276"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#276"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214236 the MagicNumber/String  'Beginning transaction.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00280"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#280"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214236 the MagicNumber/String  'Committing transaction.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00285"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#285"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214236 the MagicNumber/String  'Aborting transaction.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214236 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00313"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#313"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00295] For method recordDuration arguments long  durationMs"
+ , "c3" : "QC-JAV000006[00313] For method recordDuration arguments long  durationMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00314"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#314"
+ , "c1" : "00332"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.StatusUpdater.run@POLYN216696 the MagicNumber/String  'StatusUpdater' should be converted to const"
+ , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.StatusUpdater.run@POLYN216822 the MagicNumber/String  'StatusUpdater' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00321"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#321"
+ , "c1" : "00339"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#339"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.StatusUpdater.update@POLYN216991 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.StatusUpdater.update@POLYN217117 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00322"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#322"
+ , "c1" : "00340"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#340"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.StatusUpdater.update@POLYN216991 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.StatusUpdater.update@POLYN217117 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00323"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#323"
+ , "c1" : "00341"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#341"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.StatusUpdater.update@POLYN216991 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.StatusUpdater.update@POLYN217117 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00388"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#388"
+ , "c1" : "00409"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#409"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00388] For method stop arguments Platform  platform"
+ , "c3" : "QC-JAV000006[00409] For method stop arguments Platform  platform"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00389"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#389"
+ , "c1" : "00410"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#410"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00389] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00389"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#389"
+ , "c1" : "00410"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#410"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00389] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00390"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#390"
+ , "c1" : "00411"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#411"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00390] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String  'ProduceBenchWorker is not running.' should be converted to const"
+ , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String  'ProduceBenchWorker is not running.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00392"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#392"
+ , "c1" : "00413"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#413"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String  '{}: Deactivating ProduceBenchWorker.' should be converted to const"
+ , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String  '{}: Deactivating ProduceBenchWorker.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00393"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#393"
+ , "c1" : "00414"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00395"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#395"
+ , "c1" : "00416"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#416"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00396"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#396"
+ , "c1" : "00417"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#417"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00397"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#397"
+ , "c1" : "00418"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#418"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00398"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#398"
+ , "c1" : "00419"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214110"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214236"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.sendMessage@POLYN215065"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.sendMessage@POLYN215191"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209734"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209860"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203744"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203870"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00214"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#214"
+ , "c1" : "00232"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#232"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00214] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00231"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#231"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00231] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#235"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00235] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036 the MagicNumber/String 'Exception on final future' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#241"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00241] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036 the MagicNumber/String 'SendRecords' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00243"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#243"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00243] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#246"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036 the MagicNumber/String 'Sent {} total record-s- in {} ms.  status: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00232] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00249"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#249"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036 the MagicNumber/String '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#250"
+ , "c1" : "00253"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#253"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00250] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212036 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162 the MagicNumber/String 'Exception on final future' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#254"
+ , "c1" : "00259"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#259"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00254] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214110 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00259] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162 the MagicNumber/String 'SendRecords' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00258"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#258"
+ , "c1" : "00261"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#261"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00258] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214110 the MagicNumber/String 'Beginning transaction.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00261] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00262"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#262"
+ , "c1" : "00264"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#264"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00262] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214110 the MagicNumber/String 'Committing transaction.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00264] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162 the MagicNumber/String 'Sent {} total record-s- in {} ms.  status: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00267"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#267"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214110 the MagicNumber/String 'Aborting transaction.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162 the MagicNumber/String '' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00271"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#271"
+ , "c1" : "00268"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#268"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00271] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214110 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00268] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN212162 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#180"
+ , "c1" : "00272"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#272"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00180] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209734 the MagicNumber/String 10000 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00272] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214236 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#188"
+ , "c1" : "00276"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#276"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209734 the MagicNumber/String 30 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00276] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214236 the MagicNumber/String 'Beginning transaction.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#188"
+ , "c1" : "00280"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#280"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209734 the MagicNumber/String 30 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00280] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214236 the MagicNumber/String 'Committing transaction.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#193"
+ , "c1" : "00285"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#285"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00193] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209734 the MagicNumber/String 'produce-bench-transaction-id-' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00285] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214236 the MagicNumber/String 'Aborting transaction.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#68"
+ , "c1" : "00289"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203744 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN214236 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#68"
+ , "c1" : "00198"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#198"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203744 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00198] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209860 the MagicNumber/String 10000 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#69"
+ , "c1" : "00206"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#206"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203744 the MagicNumber/String 'ProducerBenchWorker is already running.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00206] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209860 the MagicNumber/String 30 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#71"
+ , "c1" : "00206"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#206"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203744 the MagicNumber/String '{}: Activating ProduceBenchWorker with {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00206] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209860 the MagicNumber/String 30 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#74"
+ , "c1" : "00211"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203744 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00211] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.SendRecords@POLYN209860 the MagicNumber/String 'produce-bench-transaction-id-' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#75"
+ , "c1" : "00083"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#83"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203744 the MagicNumber/String 'ProduceBenchWorkerThread%d' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203870 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#75"
+ , "c1" : "00083"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#83"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203744 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203870 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00389"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#389"
+ , "c1" : "00084"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#84"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00389] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203870 the MagicNumber/String 'ProducerBenchWorker is already running.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00389"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#389"
+ , "c1" : "00086"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#86"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00389] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203870 the MagicNumber/String '{}: Activating ProduceBenchWorker with {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00390"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#390"
+ , "c1" : "00089"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#89"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00390] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String 'ProduceBenchWorker is not running.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00089] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203870 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00392"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#392"
+ , "c1" : "00090"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#90"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00392] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String '{}: Deactivating ProduceBenchWorker.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203870 the MagicNumber/String 'ProduceBenchWorkerThread%d' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00393"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#393"
+ , "c1" : "00090"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#90"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00393] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.start@POLYN203870 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00395"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#395"
+ , "c1" : "00410"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#410"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00395] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00410] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00396"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#396"
+ , "c1" : "00410"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#410"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00396] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00410] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00397"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#397"
+ , "c1" : "00411"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#411"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00397] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00411] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String 'ProduceBenchWorker is not running.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00398"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#398"
+ , "c1" : "00413"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#413"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00398] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219823 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00413] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String '{}: Deactivating ProduceBenchWorker.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00414"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#414"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00414] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00416"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#416"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00416] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00417"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#417"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00417] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00418"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#418"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00418] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00419"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#419"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00419] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN219949 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

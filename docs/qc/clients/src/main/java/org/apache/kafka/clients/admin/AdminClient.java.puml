@@ -2,7 +2,7 @@
 !pragma layout smetana
 "Admin" <|-- "org.apache.kafka.clients.admin.AdminClient"
 class org.apache.kafka.clients.admin.AdminClient {
-+create(Properties) : AdminClient [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClient.java.html#12]]]
-+create(Map<String,Object>) : AdminClient [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClient.java.html#17]]]
++create(Properties) : AdminClient [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClient.java.html#38]]]
++create(Map<String,Object>) : AdminClient [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClient.java.html#48]]]
 } 
 @enduml

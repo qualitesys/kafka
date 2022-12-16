@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#21"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#38"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;String;List<AppConfigurationEntry>)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#27"
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#44"
  , "c1" : "void"
  , "c2" : "handle(Callback[])"
  , "c3" : "11"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#57"
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#74"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -121,115 +121,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#21"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00021] For method configure arguments Map&lt;String ,? &gt;  configs|String  saslMechanism|List&lt;AppConfigurationEntry &gt;  jaasConfigEntries"
+ , "c3" : "QC-JAV000006[00038] For method configure arguments Map&lt;String ,? &gt;  configs|String  saslMechanism|List&lt;AppConfigurationEntry &gt;  jaasConfigEntries"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#21"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#38"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00021] The argument saslMechanism is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.configure@POLYN149681 the MagicNumber/String  'Kerberos callback handler should only be used with GSSAPI' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#27"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method handle arguments Callback[]  callbacks"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#29"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00029] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00030] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00030] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00032] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00033] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAVCWE476[00038] The argument saslMechanism is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00040] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00041] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00041] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00043] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.configure@POLYN149783 the MagicNumber/String  'Kerberos callback handler should only be used with GSSAPI' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00044] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00044] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00045] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00044] For method handle arguments Callback[]  callbacks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -240,66 +156,150 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#33"
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN150023 the MagicNumber/String  'Could not login: the client is being asked for a password, but the Kafka' should be converted to const"
+ , "c3" : "QC-JAV000001[00047] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#34"
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN150023 the MagicNumber/String  ' client code does not currently support obtaining a password from the user.' should be converted to const"
+ , "c3" : "QC-JAV000001[00047] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#35"
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN150023 the MagicNumber/String  ' Make sure -Djava.security.auth.login.config property passed to JVM and' should be converted to const"
+ , "c3" : "QC-JAV000001[00049] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#36"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN150023 the MagicNumber/String  ' the client is configured to use a ticket cache (using' should be converted to const"
+ , "c3" : "QC-JAV000001[00050] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#37"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN150023 the MagicNumber/String  ' the JAAS configuration setting 'useTicketCache=true)'. Make sure you are using' should be converted to const"
+ , "c3" : "QC-JAV000001[00057] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#38"
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN150023 the MagicNumber/String  ' FQDN of the Kafka broker you are trying to connect to.' should be converted to const"
+ , "c3" : "QC-JAV000001[00058] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#58"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00058] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00060] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#61"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00061] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#61"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00061] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#62"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00062] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00063] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#50"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN150125 the MagicNumber/String  'Could not login: the client is being asked for a password, but the Kafka' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN150023 the MagicNumber/String  'Unrecognized SASL ClientCallback' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN150125 the MagicNumber/String  ' client code does not currently support obtaining a password from the user.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#57"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00057] Void method close is empty or contains only a return."
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#52"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN150125 the MagicNumber/String  ' Make sure -Djava.security.auth.login.config property passed to JVM and' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#57"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN150125 the MagicNumber/String  ' the client is configured to use a ticket cache (using' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN150125 the MagicNumber/String  ' the JAAS configuration setting 'useTicketCache=true)'. Make sure you are using' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#55"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN150125 the MagicNumber/String  ' FQDN of the Kafka broker you are trying to connect to.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler.handle@POLYN150125 the MagicNumber/String  'Unrecognized SASL ClientCallback' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#74"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00057] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000005[00074] Void method close is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00074] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.shell.InteractiveShell" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#70"
+ , "c5" : "00087"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#87"
  , "c1" : "InteractiveShell"
  , "c2" : "InteractiveShell(MetadataNodeManager)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#88"
+ , "c5" : "00105"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#105"
  , "c1" : "void"
  , "c2" : "runMainLoop()"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00108"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#108"
+ , "c5" : "00125"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#125"
  , "c1" : "int"
  , "c2" : "screenWidth()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#112"
+ , "c5" : "00129"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#129"
  , "c1" : "Iterator<Entry<Integer,String>>"
  , "c2" : "history(int)"
  , "c3" : "4"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00152"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#152"
+ , "c5" : "00169"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#169"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -155,227 +155,227 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#38"
+ , "c1" : "00055"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method complete arguments LineReader  reader|ParsedLine  line|List&lt;Candidate &gt;  candidates"
+ , "c3" : "QC-JAV000006[00055] For method complete arguments LineReader  reader|ParsedLine  line|List&lt;Candidate &gt;  candidates"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#38"
+ , "c1" : "00055"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#55"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00038] The argument line is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00055] The argument line is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#39"
+ , "c1" : "00056"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN163927 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN164029 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#40"
+ , "c1" : "00057"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN163927 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN164029 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#41"
+ , "c1" : "00058"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN163927 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN164029 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#42"
+ , "c1" : "00059"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN163927 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN164029 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#51"
+ , "c1" : "00068"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN163927 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN164029 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#73"
+ , "c1" : "00090"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.shell.InteractiveShell.InteractiveShell@POLYN165741 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.shell.InteractiveShell.InteractiveShell@POLYN165741 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.shell.InteractiveShell.InteractiveShell@POLYN165741 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00095] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00096] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#99"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00099] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00102] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE392[00103] Failure to report error in status code (see http://cwe.mitre.org/data/definitions/392.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.shell.InteractiveShell.runMainLoop@POLYN166728 the MagicNumber/String  '[ Kafka Metadata Shell ]' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.shell.InteractiveShell.InteractiveShell@POLYN165843 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.shell.InteractiveShell.runMainLoop@POLYN166728 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.shell.InteractiveShell.runMainLoop@POLYN166728 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.shell.InteractiveShell.runMainLoop@POLYN166728 the MagicNumber/String  '&amp;gt;&amp;gt; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.shell.InteractiveShell.InteractiveShell@POLYN165843 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.shell.InteractiveShell.runMainLoop@POLYN166728 the MagicNumber/String  '^C' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.shell.InteractiveShell.InteractiveShell@POLYN165843 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#112"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00112] For method history arguments int  numEntriesToShow"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00112] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.shell.InteractiveShell.history@POLYN167979 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00113] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#114"
+ , "c1" : "00116"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.shell.InteractiveShell.history@POLYN167979 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00116] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#117"
+ , "c1" : "00119"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.shell.InteractiveShell.history@POLYN167979 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.shell.InteractiveShell.history@POLYN167979 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000001[00119] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.shell.InteractiveShell.history@POLYN167979 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAVCWE392[00120] Failure to report error in status code (see http://cwe.mitre.org/data/definitions/392.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.shell.InteractiveShell.runMainLoop@POLYN166830 the MagicNumber/String  '[ Kafka Metadata Shell ]' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.shell.InteractiveShell.runMainLoop@POLYN166830 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.shell.InteractiveShell.runMainLoop@POLYN166830 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.shell.InteractiveShell.runMainLoop@POLYN166830 the MagicNumber/String  '&amp;gt;&amp;gt; ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00118"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#118"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.shell.InteractiveShell.runMainLoop@POLYN166830 the MagicNumber/String  '^C' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00129"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#129"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00129] For method history arguments int  numEntriesToShow"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#130"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.shell.InteractiveShell.history@POLYN168081 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#131"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.shell.InteractiveShell.history@POLYN168081 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#134"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.shell.InteractiveShell.history@POLYN168081 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#135"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.shell.InteractiveShell.history@POLYN168081 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00137"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#137"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.shell.InteractiveShell.history@POLYN168081 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN163927"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN164029"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#39"
+ , "c1" : "00056"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#56"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00039] In the recursive method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN163927 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN164029 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#40"
+ , "c1" : "00057"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#57"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN163927 the MagicNumber/String '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN164029 the MagicNumber/String '' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#41"
+ , "c1" : "00058"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00041] In the recursive method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN163927 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN164029 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#42"
+ , "c1" : "00059"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#59"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN163927 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN164029 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#51"
+ , "c1" : "00068"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#68"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN163927 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.shell.InteractiveShell.MetadataShellCompleter.complete@POLYN164029 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

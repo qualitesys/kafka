@@ -2,10 +2,10 @@
 !pragma layout smetana
 "KeyValueIterator<K,V>" <|-- "org.apache.kafka.streams.state.internals.CompositeKeyValueIterator"
 class org.apache.kafka.streams.state.internals.CompositeKeyValueIterator {
-CompositeKeyValueIterator(Iterator<StoreType>;NextIteratorFunction<K,V,StoreType>) : CompositeKeyValueIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#17]]]
-+close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#24]]]
-+peekNextKey() : K [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#32]]]
-+hasNext() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#37]]]
-+next() : KeyValue<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#47]]]
+CompositeKeyValueIterator(Iterator<StoreType>;NextIteratorFunction<K,V,StoreType>) : CompositeKeyValueIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#32]]]
++close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#39]]]
++peekNextKey() : K [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#47]]]
++hasNext() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#52]]]
++next() : KeyValue<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#62]]]
 } 
 @enduml

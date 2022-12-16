@@ -2,10 +2,10 @@
 !pragma layout smetana
 "Predicate<R>" <|-- "org.apache.kafka.connect.transforms.predicates.HasHeaderKey"
 class org.apache.kafka.connect.transforms.predicates.HasHeaderKey {
-+config() : ConfigDef [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#24]]]
-+test(R) : boolean [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#29]]]
-+close() : void [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#35]]]
-+configure(Map<String,?>) : void [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#40]]]
-+toString() : String [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#45]]]
++config() : ConfigDef [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#42]]]
++test(R) : boolean [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#47]]]
++close() : void [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#53]]]
++configure(Map<String,?>) : void [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#58]]]
++toString() : String [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#63]]]
 } 
 @enduml

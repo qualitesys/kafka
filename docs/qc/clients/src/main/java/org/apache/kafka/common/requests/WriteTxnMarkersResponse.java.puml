@@ -2,12 +2,12 @@
 !pragma layout smetana
 "AbstractResponse" <|-- "org.apache.kafka.common.requests.WriteTxnMarkersResponse"
 class org.apache.kafka.common.requests.WriteTxnMarkersResponse {
-+WriteTxnMarkersResponse(Map<Long,Map<TopicPartition,Errors>>) : WriteTxnMarkersResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#24]]]
-+WriteTxnMarkersResponse(WriteTxnMarkersResponseData) : WriteTxnMarkersResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#51]]]
-+data() : WriteTxnMarkersResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#57]]]
-+errorsByProducerId() : Map<Long,Map<TopicPartition,Errors>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#61]]]
-+throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#77]]]
-+errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#82]]]
-+parse(ByteBuffer;short) : WriteTxnMarkersResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#93]]]
++WriteTxnMarkersResponse(Map<Long,Map<TopicPartition,Errors>>) : WriteTxnMarkersResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#54]]]
++WriteTxnMarkersResponse(WriteTxnMarkersResponseData) : WriteTxnMarkersResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#81]]]
++data() : WriteTxnMarkersResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#87]]]
++errorsByProducerId() : Map<Long,Map<TopicPartition,Errors>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#91]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#107]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#112]]]
++parse(ByteBuffer;short) : WriteTxnMarkersResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#123]]]
 } 
 @enduml

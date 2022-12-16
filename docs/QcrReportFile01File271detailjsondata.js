@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.TopicCollection" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#11"
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#28"
  , "c1" : "TopicCollection"
  , "c2" : "TopicCollection()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#14"
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#33"
  , "c1" : "TopicIdCollection"
  , "c2" : "ofTopicIds(Collection<Uuid>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#19"
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#40"
  , "c1" : "TopicNameCollection"
  , "c2" : "ofTopicNames(Collection<String>)"
  , "c3" : "1"
@@ -86,17 +86,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#14"
+ , "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#33"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00014] For method ofTopicIds arguments Collection&lt;Uuid &gt;  topics"
+ , "c3" : "QC-JAV000006[00033] For method ofTopicIds arguments Collection&lt;Uuid &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#19"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method ofTopicNames arguments Collection&lt;String &gt;  topics"
+ , "c3" : "QC-JAV000006[00040] For method ofTopicNames arguments Collection&lt;String &gt;  topics"
 }} 
 ]
 , 

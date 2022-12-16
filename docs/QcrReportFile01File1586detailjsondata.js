@@ -52,10 +52,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00002"
- , "c1link" : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java.html#2"
+ , "c1" : "00017"
+ , "c1link" : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java.html#17"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999999[00002] syntax analysis failed on file /home/runner/work/kafka/kafka/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java near following tokens and ` * limitations under the License . ` */ package $ { package } ; import org . apache . "
+ , "c3" : "QC-JAV999999[00017] syntax analysis failed on file /home/runner/work/kafka/kafka/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java near following tokens and ` * limitations under the License . ` */ package $ { package } ; import org . apache . "
 }} 
 ]
 , 

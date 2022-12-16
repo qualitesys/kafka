@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.internals.ConsumerMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#16"
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#31"
  , "c1" : "ConsumerMetrics"
  , "c2" : "ConsumerMetrics(Set<String>;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#20"
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#35"
  , "c1" : "ConsumerMetrics"
  , "c2" : "ConsumerMetrics(String)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#24"
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#39"
  , "c1" : "List<MetricNameTemplate>"
  , "c2" : "getAllTemplates()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#29"
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#44"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "1"
@@ -116,45 +116,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#14"
+ , "c1" : "00029"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00014] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+ , "c3" : "QC-JAVCWE493[00029] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method main arguments String[]  args"
+ , "c3" : "QC-JAV000006[00044] For method main arguments String[]  args"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.clients.consumer.internals.ConsumerMetrics.main@POLYN145757 the MagicNumber/String  'client-id' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.consumer.internals.ConsumerMetrics.main@POLYN145847 the MagicNumber/String  'client-id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#32"
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.clients.consumer.internals.ConsumerMetrics.main@POLYN145757 the MagicNumber/String  'consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.clients.consumer.internals.ConsumerMetrics.main@POLYN145847 the MagicNumber/String  'consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.consumer.internals.ConsumerMetrics.main@POLYN145757 the MagicNumber/String  'kafka.consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.consumer.internals.ConsumerMetrics.main@POLYN145847 the MagicNumber/String  'kafka.consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#44"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00029] Public method main is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00044] Public method main is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

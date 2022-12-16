@@ -2,18 +2,18 @@
 !pragma layout smetana
 "Readable" <|-- "org.apache.kafka.common.protocol.DataInputStreamReadable"
 class org.apache.kafka.common.protocol.DataInputStreamReadable {
-+DataInputStreamReadable(DataInputStream) : DataInputStreamReadable [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#14]]]
-+readByte() : byte [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#19]]]
-+readShort() : short [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#28]]]
-+readInt() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#37]]]
-+readLong() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#46]]]
-+readDouble() : double [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#55]]]
-+readArray(byte[]) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#64]]]
-+readUnsignedVarint() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#73]]]
-+readByteBuffer(int) : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#82]]]
-+readVarint() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#89]]]
-+readVarlong() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#98]]]
-+remaining() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#107]]]
-+close() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#116]]]
++DataInputStreamReadable(DataInputStream) : DataInputStreamReadable [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#29]]]
++readByte() : byte [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#34]]]
++readShort() : short [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#43]]]
++readInt() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#52]]]
++readLong() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#61]]]
++readDouble() : double [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#70]]]
++readArray(byte[]) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#79]]]
++readUnsignedVarint() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#88]]]
++readByteBuffer(int) : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#97]]]
++readVarint() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#104]]]
++readVarlong() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#113]]]
++remaining() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#122]]]
++close() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#131]]]
 } 
 @enduml

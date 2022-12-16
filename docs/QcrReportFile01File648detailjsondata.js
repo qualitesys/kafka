@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.DescribeConfigsResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00195"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#195"
+ , "c5" : "00210"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#210"
  , "c1" : "Map<ConfigResource,DescribeConfigsResponseData.DescribeConfigsResult>"
  , "c2" : "resultMap()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00205"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#205"
+ , "c5" : "00220"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#220"
  , "c1" : "DescribeConfigsResponse"
  , "c2" : "DescribeConfigsResponse(DescribeConfigsResponseData)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00211"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#211"
+ , "c5" : "00226"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#226"
  , "c1" : "DescribeConfigsResponse"
  , "c2" : "DescribeConfigsResponse(DescribeConfigsResponseData;short)"
  , "c3" : "10"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00234"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#234"
+ , "c5" : "00249"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#249"
  , "c1" : "DescribeConfigsResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00239"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#239"
+ , "c5" : "00254"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#254"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00244"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#244"
+ , "c5" : "00259"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#259"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00252"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#252"
+ , "c5" : "00267"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#267"
  , "c1" : "DescribeConfigsResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00257"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#257"
+ , "c5" : "00272"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#272"
  , "c1" : "boolean"
  , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"
@@ -168,108 +168,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.requests.DescribeConfigsResponse.Config.Config@POLYN181799 the MagicNumber/String  'error' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.requests.DescribeConfigsResponse.Config.Config@POLYN181889 the MagicNumber/String  'error' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#27"
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.requests.DescribeConfigsResponse.Config.Config@POLYN181799 the MagicNumber/String  'entries' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.requests.DescribeConfigsResponse.Config.Config@POLYN181889 the MagicNumber/String  'entries' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#51"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.requests.DescribeConfigsResponse.ConfigEntry.ConfigEntry@POLYN182773 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.requests.DescribeConfigsResponse.ConfigEntry.ConfigEntry@POLYN182863 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#57"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.requests.DescribeConfigsResponse.ConfigEntry.ConfigEntry@POLYN183200 the MagicNumber/String  'name' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.requests.DescribeConfigsResponse.ConfigEntry.ConfigEntry@POLYN183290 the MagicNumber/String  'name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#59"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.requests.DescribeConfigsResponse.ConfigEntry.ConfigEntry@POLYN183200 the MagicNumber/String  'source' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.requests.DescribeConfigsResponse.ConfigEntry.ConfigEntry@POLYN183290 the MagicNumber/String  'source' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#62"
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.requests.DescribeConfigsResponse.ConfigEntry.ConfigEntry@POLYN183200 the MagicNumber/String  'synonyms' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.requests.DescribeConfigsResponse.ConfigEntry.ConfigEntry@POLYN183290 the MagicNumber/String  'synonyms' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#179"
+ , "c1" : "00194"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.common.requests.DescribeConfigsResponse.ConfigSynonym.ConfigSynonym@POLYN189616 the MagicNumber/String  'name' should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.common.requests.DescribeConfigsResponse.ConfigSynonym.ConfigSynonym@POLYN189706 the MagicNumber/String  'name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#181"
+ , "c1" : "00196"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.common.requests.DescribeConfigsResponse.ConfigSynonym.ConfigSynonym@POLYN189616 the MagicNumber/String  'source' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.requests.DescribeConfigsResponse.ConfigSynonym.ConfigSynonym@POLYN189706 the MagicNumber/String  'source' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#211"
+ , "c1" : "00226"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#226"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00211] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00226] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00216"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#216"
+ , "c1" : "00231"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00216] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00231] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00214"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#214"
+ , "c1" : "00229"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.common.requests.DescribeConfigsResponse.DescribeConfigsResponse@POLYN191019 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.common.requests.DescribeConfigsResponse.DescribeConfigsResponse@POLYN191109 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#252"
+ , "c1" : "00267"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#267"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00252] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00267] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#257"
+ , "c1" : "00272"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#272"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00257] For method shouldClientThrottle arguments short  version"
+ , "c3" : "QC-JAV000006[00272] For method shouldClientThrottle arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00258"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#258"
+ , "c1" : "00273"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#273"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.common.requests.DescribeConfigsResponse.shouldClientThrottle@POLYN193266 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.common.requests.DescribeConfigsResponse.shouldClientThrottle@POLYN193356 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeConfigsResponse.throttleTimeMs@POLYN192363"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeConfigsResponse.throttleTimeMs@POLYN192453"
 }} 
 ]
 , 

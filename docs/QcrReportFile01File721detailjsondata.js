@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.SaslHandshakeRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#36"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#59"
  , "c1" : "SaslHandshakeRequest"
  , "c2" : "SaslHandshakeRequest(SaslHandshakeRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#42"
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#65"
  , "c1" : "SaslHandshakeRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#47"
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#70"
  , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#53"
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#76"
  , "c1" : "SaslHandshakeRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -111,31 +111,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#24"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method build arguments short  version"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00047] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#53"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00070] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#76"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00076] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.SaslHandshakeRequest.Builder.toString@POLYN150403"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.SaslHandshakeRequest.Builder.toString@POLYN150541"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.mirror.DefaultGroupFilter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#30"
+ , "c5" : "00045"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#45"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#37"
+ , "c5" : "00052"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#52"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#40"
+ , "c5" : "00055"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#55"
  , "c1" : "boolean"
  , "c2" : "included(String)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#44"
+ , "c5" : "00059"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#59"
  , "c1" : "boolean"
  , "c2" : "excluded(String)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#49"
+ , "c5" : "00064"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#64"
  , "c1" : "boolean"
  , "c2" : "shouldReplicateGroup(String)"
  , "c3" : "1"
@@ -141,73 +141,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#30"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method configure arguments Map&lt;String ,? &gt;  props"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#40"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method included arguments String  group"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.included@POLYN151717 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method excluded arguments String  group"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.excluded@POLYN151930 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method shouldReplicateGroup arguments String  group"
+ , "c3" : "QC-JAV000006[00045] For method configure arguments Map&lt;String ,? &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#74"
+ , "c1" : "00055"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#55"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00055] For method included arguments String  group"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.GroupFilterConfig.GroupFilterConfig@POLYN152955 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.included@POLYN151807 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#37"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00037] Void method close is empty or contains only a return."
+ , "c1" : "00059"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#59"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00059] For method excluded arguments String  group"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#37"
+ , "c1" : "00060"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.excluded@POLYN152020 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#64"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00064] For method shouldReplicateGroup arguments String  group"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00089"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#89"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.GroupFilterConfig.GroupFilterConfig@POLYN153045 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#52"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00037] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000005[00052] Void method close is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#52"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00052] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.DefaultGroupFilter.configure@POLYN151319"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.DefaultGroupFilter.configure@POLYN151409"
 }} 
 ]
 , 

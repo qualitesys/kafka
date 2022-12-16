@@ -2,9 +2,9 @@
 !pragma layout smetana
 "AbstractRequest" <|-- "org.apache.kafka.common.requests.DescribeGroupsRequest"
 class org.apache.kafka.common.requests.DescribeGroupsRequest {
--DescribeGroupsRequest(DescribeGroupsRequestData;short) : DescribeGroupsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsRequest.java.html#35]]]
-+data() : DescribeGroupsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsRequest.java.html#41]]]
-+getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsRequest.java.html#46]]]
-+parse(ByteBuffer;short) : DescribeGroupsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsRequest.java.html#54]]]
+-DescribeGroupsRequest(DescribeGroupsRequestData;short) : DescribeGroupsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsRequest.java.html#50]]]
++data() : DescribeGroupsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsRequest.java.html#56]]]
++getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsRequest.java.html#61]]]
++parse(ByteBuffer;short) : DescribeGroupsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsRequest.java.html#69]]]
 } 
 @enduml

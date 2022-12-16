@@ -2,7 +2,7 @@
 !pragma layout smetana
 "BatchingStateRestoreCallback" <|-- "org.apache.kafka.streams.processor.internals.RecordBatchingStateRestoreCallback"
 class org.apache.kafka.streams.processor.internals.RecordBatchingStateRestoreCallback {
-restoreBatch(Collection<ConsumerRecord<byte[],byte[]>>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordBatchingStateRestoreCallback.java.html#11]]]
-restoreAll(Collection<KeyValue<byte[],byte[]>>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordBatchingStateRestoreCallback.java.html#14]]]
+restoreBatch(Collection<ConsumerRecord<byte[],byte[]>>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordBatchingStateRestoreCallback.java.html#26]]]
+restoreAll(Collection<KeyValue<byte[],byte[]>>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordBatchingStateRestoreCallback.java.html#29]]]
 } 
 @enduml

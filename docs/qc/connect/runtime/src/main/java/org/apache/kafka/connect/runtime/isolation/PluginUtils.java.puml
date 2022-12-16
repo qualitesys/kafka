@@ -2,14 +2,14 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.connect.runtime.isolation.PluginUtils"
 class org.apache.kafka.connect.runtime.isolation.PluginUtils {
-+shouldLoadInIsolation(String) : boolean [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#132]]]
-+isConcrete(Class<?>) : boolean [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#137]]]
-+isArchive(Path) : boolean [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#143]]]
-+isClassFile(Path) : boolean [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#149]]]
-+pluginLocations(Path) : List<Path> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#153]]]
-+pluginUrls(Path) : List<Path> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#169]]]
-+simpleName(PluginDesc<?>) : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#254]]]
-+prunedName(PluginDesc<?>) : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#259]]]
--prunePluginName(PluginDesc<?>;String) : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#288]]]
++shouldLoadInIsolation(String) : boolean [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#155]]]
++isConcrete(Class<?>) : boolean [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#165]]]
++isArchive(Path) : boolean [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#176]]]
++isClassFile(Path) : boolean [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#187]]]
++pluginLocations(Path) : List<Path> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#191]]]
++pluginUrls(Path) : List<Path> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#216]]]
++simpleName(PluginDesc<?>) : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#306]]]
++prunedName(PluginDesc<?>) : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#317]]]
+-prunePluginName(PluginDesc<?>;String) : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#353]]]
 } 
 @enduml

@@ -2,12 +2,12 @@
 !pragma layout smetana
 "NamedOperation<Repartitioned<K,V>>" <|-- "org.apache.kafka.streams.kstream.Repartitioned"
 class org.apache.kafka.streams.kstream.Repartitioned {
--Repartitioned(String;Serde<K>;Serde<V>;Integer;StreamPartitioner<K,V>) : Repartitioned [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#18]]]
-Repartitioned(Repartitioned<K,V>) : Repartitioned [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#30]]]
-+withName(String) : Repartitioned<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#63]]]
-+withNumberOfPartitions(int) : Repartitioned<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#68]]]
-+withKeySerde(Serde<K>) : Repartitioned<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#73]]]
-+withValueSerde(Serde<V>) : Repartitioned<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#78]]]
-+withStreamPartitioner(StreamPartitioner<K,V>) : Repartitioned<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#83]]]
+-Repartitioned(String;Serde<K>;Serde<V>;Integer;StreamPartitioner<K,V>) : Repartitioned [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#40]]]
+Repartitioned(Repartitioned<K,V>) : Repartitioned [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#52]]]
++withName(String) : Repartitioned<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#125]]]
++withNumberOfPartitions(int) : Repartitioned<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#135]]]
++withKeySerde(Serde<K>) : Repartitioned<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#145]]]
++withValueSerde(Serde<V>) : Repartitioned<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#155]]]
++withStreamPartitioner(StreamPartitioner<K,V>) : Repartitioned<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#167]]]
 } 
 @enduml

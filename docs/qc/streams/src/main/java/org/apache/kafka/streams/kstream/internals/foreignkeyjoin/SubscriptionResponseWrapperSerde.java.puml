@@ -2,8 +2,8 @@
 !pragma layout smetana
 "Serde<SubscriptionResponseWrapper<V>>" <|-- "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde"
 class org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde {
-+SubscriptionResponseWrapperSerde(Serde<V>) : SubscriptionResponseWrapperSerde [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#18]]]
-+serializer() : Serializer<SubscriptionResponseWrapper<V>> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#24]]]
-+deserializer() : Deserializer<SubscriptionResponseWrapper<V>> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#29]]]
++SubscriptionResponseWrapperSerde(Serde<V>) : SubscriptionResponseWrapperSerde [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#33]]]
++serializer() : Serializer<SubscriptionResponseWrapper<V>> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#39]]]
++deserializer() : Deserializer<SubscriptionResponseWrapper<V>> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#44]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.QuorumControllerMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#69"
+ , "c5" : "00084"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#84"
  , "c1" : "QuorumControllerMetrics"
  , "c2" : "QuorumControllerMetrics(MetricsRegistry;Time)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00152"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#152"
+ , "c5" : "00167"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#167"
  , "c1" : "void"
  , "c2" : "setActive(boolean)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00157"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#157"
+ , "c5" : "00172"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#172"
  , "c1" : "boolean"
  , "c2" : "active()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00162"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#162"
+ , "c5" : "00177"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#177"
  , "c1" : "void"
  , "c2" : "updateEventQueueTime(long)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00167"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#167"
+ , "c5" : "00182"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#182"
  , "c1" : "void"
  , "c2" : "updateEventQueueProcessingTime(long)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00172"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#172"
+ , "c5" : "00187"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#187"
  , "c1" : "void"
  , "c2" : "setFencedBrokerCount(int)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00177"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#177"
+ , "c5" : "00192"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#192"
  , "c1" : "int"
  , "c2" : "fencedBrokerCount()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00181"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#181"
+ , "c5" : "00196"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#196"
  , "c1" : "void"
  , "c2" : "setActiveBrokerCount(int)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00186"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#186"
+ , "c5" : "00201"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#201"
  , "c1" : "int"
  , "c2" : "activeBrokerCount()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00191"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#191"
+ , "c5" : "00206"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#206"
  , "c1" : "void"
  , "c2" : "setGlobalTopicsCount(int)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00196"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#196"
+ , "c5" : "00211"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#211"
  , "c1" : "int"
  , "c2" : "globalTopicsCount()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00201"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#201"
+ , "c5" : "00216"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#216"
  , "c1" : "void"
  , "c2" : "setGlobalPartitionCount(int)"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00206"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#206"
+ , "c5" : "00221"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#221"
  , "c1" : "int"
  , "c2" : "globalPartitionCount()"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00211"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#211"
+ , "c5" : "00226"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#226"
  , "c1" : "void"
  , "c2" : "setOfflinePartitionCount(int)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00216"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#216"
+ , "c5" : "00231"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#231"
  , "c1" : "int"
  , "c2" : "offlinePartitionCount()"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00221"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#221"
+ , "c5" : "00236"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#236"
  , "c1" : "void"
  , "c2" : "setPreferredReplicaImbalanceCount(int)"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00226"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#226"
+ , "c5" : "00241"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#241"
  , "c1" : "int"
  , "c2" : "preferredReplicaImbalanceCount()"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00231"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#231"
+ , "c5" : "00246"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#246"
  , "c1" : "void"
  , "c2" : "setLastAppliedRecordOffset(long)"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00236"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#236"
+ , "c5" : "00251"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#251"
  , "c1" : "long"
  , "c2" : "lastAppliedRecordOffset()"
  , "c3" : "1"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00241"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#241"
+ , "c5" : "00256"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#256"
  , "c1" : "void"
  , "c2" : "setLastCommittedRecordOffset(long)"
  , "c3" : "1"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00246"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#246"
+ , "c5" : "00261"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#261"
  , "c1" : "long"
  , "c2" : "lastCommittedRecordOffset()"
  , "c3" : "1"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00251"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#251"
+ , "c5" : "00266"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#266"
  , "c1" : "void"
  , "c2" : "setLastAppliedRecordTimestamp(long)"
  , "c3" : "1"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00256"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#256"
+ , "c5" : "00271"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#271"
  , "c1" : "long"
  , "c2" : "lastAppliedRecordTimestamp()"
  , "c3" : "1"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00261"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#261"
+ , "c5" : "00276"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#276"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -234,8 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00277"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#277"
+ , "c5" : "00292"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#292"
  , "c1" : "MetricName"
  , "c2" : "getMetricName(String;String)"
  , "c3" : "1"
@@ -298,192 +298,192 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#70"
+ , "c1" : "00085"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#85"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00070] The argument registry is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00085] The argument registry is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#71"
+ , "c1" : "00086"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#86"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00071] The argument time is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00086] The argument time is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#74"
+ , "c1" : "00089"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176933 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#75"
+ , "c1" : "00090"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176933 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#76"
+ , "c1" : "00091"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176933 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#77"
+ , "c1" : "00092"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176933 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#78"
+ , "c1" : "00093"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176933 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#79"
+ , "c1" : "00094"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176933 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#80"
+ , "c1" : "00095"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176933 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#84"
+ , "c1" : "00099"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176933 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#84"
+ , "c1" : "00099"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176933 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#87"
+ , "c1" : "00102"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176933 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#88"
+ , "c1" : "00103"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176843 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#152"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00152] For method setActive arguments boolean  active"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#162"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00162] For method updateEventQueueTime arguments long  durationMs"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN176933 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#167"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00167] For method updateEventQueueProcessingTime arguments long  durationMs"
+ , "c3" : "QC-JAV000006[00167] For method setActive arguments boolean  active"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#172"
+ , "c1" : "00177"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#177"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00172] For method setFencedBrokerCount arguments int  brokerCount"
+ , "c3" : "QC-JAV000006[00177] For method updateEventQueueTime arguments long  durationMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#181"
+ , "c1" : "00182"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#182"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00181] For method setActiveBrokerCount arguments int  brokerCount"
+ , "c3" : "QC-JAV000006[00182] For method updateEventQueueProcessingTime arguments long  durationMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#191"
+ , "c1" : "00187"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#187"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00191] For method setGlobalTopicsCount arguments int  topicCount"
+ , "c3" : "QC-JAV000006[00187] For method setFencedBrokerCount arguments int  brokerCount"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#201"
+ , "c1" : "00196"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#196"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00201] For method setGlobalPartitionCount arguments int  partitionCount"
+ , "c3" : "QC-JAV000006[00196] For method setActiveBrokerCount arguments int  brokerCount"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#211"
+ , "c1" : "00206"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#206"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00211] For method setOfflinePartitionCount arguments int  offlinePartitions"
+ , "c3" : "QC-JAV000006[00206] For method setGlobalTopicsCount arguments int  topicCount"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#221"
+ , "c1" : "00216"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#216"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00221] For method setPreferredReplicaImbalanceCount arguments int  replicaImbalances"
+ , "c3" : "QC-JAV000006[00216] For method setGlobalPartitionCount arguments int  partitionCount"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00231"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#231"
+ , "c1" : "00226"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#226"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00231] For method setLastAppliedRecordOffset arguments long  offset"
+ , "c3" : "QC-JAV000006[00226] For method setOfflinePartitionCount arguments int  offlinePartitions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#241"
+ , "c1" : "00236"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#236"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00241] For method setLastCommittedRecordOffset arguments long  offset"
+ , "c3" : "QC-JAV000006[00236] For method setPreferredReplicaImbalanceCount arguments int  replicaImbalances"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00251"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#251"
+ , "c1" : "00246"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#246"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00251] For method setLastAppliedRecordTimestamp arguments long  timestamp"
+ , "c3" : "QC-JAV000006[00246] For method setLastAppliedRecordOffset arguments long  offset"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00277"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#277"
+ , "c1" : "00256"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#256"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00277] For method getMetricName arguments String  type|String  name"
+ , "c3" : "QC-JAV000006[00256] For method setLastCommittedRecordOffset arguments long  offset"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00278"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#278"
+ , "c1" : "00266"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#266"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00266] For method setLastAppliedRecordTimestamp arguments long  timestamp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00292"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#292"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00292] For method getMetricName arguments String  type|String  name"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00293"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.controller.QuorumControllerMetrics.getMetricName@POLYN184136 the MagicNumber/String  'kafka.controller' should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.controller.QuorumControllerMetrics.getMetricName@POLYN184226 the MagicNumber/String  'kafka.controller' should be converted to const"
 }} 
 ]
 , 

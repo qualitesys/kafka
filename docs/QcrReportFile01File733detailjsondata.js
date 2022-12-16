@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.UpdateFeaturesResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#20"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#42"
  , "c1" : "UpdateFeaturesResponse"
  , "c2" : "UpdateFeaturesResponse(UpdateFeaturesResponseData)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#25"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#47"
  , "c1" : "ApiError"
  , "c2" : "topLevelError()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#30"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#52"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#40"
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#62"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#45"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#67"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#50"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#72"
  , "c1" : "UpdateFeaturesResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#54"
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#76"
  , "c1" : "UpdateFeaturesResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#58"
+ , "c5" : "00080"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#80"
  , "c1" : "UpdateFeaturesResponse"
  , "c2" : "createWithErrors(ApiError;Map<String,ApiError>;int)"
  , "c3" : "2"
@@ -161,66 +161,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#54"
+ , "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00076] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#58"
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method createWithErrors arguments ApiError  topLevelError|Map&lt;String ,ApiError &gt;  updateErrors|int  throttleTimeMs"
+ , "c3" : "QC-JAV000006[00080] For method createWithErrors arguments ApiError  topLevelError|Map&lt;String ,ApiError &gt;  updateErrors|int  throttleTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#58"
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#80"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00058] The argument topLevelError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00080] The argument topLevelError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#58"
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#80"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00058] The argument updateErrors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00080] The argument updateErrors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#61"
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00061] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00083] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#62"
+ , "c1" : "00084"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00062] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00084] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#63"
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00063] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00085] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.UpdateFeaturesResponse.throttleTimeMs@POLYN154605"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.UpdateFeaturesResponse.throttleTimeMs@POLYN154737"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.UpdateFeaturesResponse.toString@POLYN154725"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.UpdateFeaturesResponse.toString@POLYN154857"
 }} 
 ]
 , 

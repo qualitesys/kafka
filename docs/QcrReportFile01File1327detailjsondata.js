@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.AclsImage" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#25"
+ , "c5" : "00044"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#44"
  , "c1" : "AclsImage"
  , "c2" : "AclsImage(Map<Uuid,StandardAcl>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#29"
+ , "c5" : "00048"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#48"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#33"
+ , "c5" : "00052"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#52"
  , "c1" : "Map<Uuid,StandardAcl>"
  , "c2" : "acls()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#37"
+ , "c5" : "00056"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#56"
  , "c1" : "void"
  , "c2" : "write(Consumer<List<ApiMessageAndVersion>>)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#47"
+ , "c5" : "00066"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#66"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#52"
+ , "c5" : "00071"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#71"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#59"
+ , "c5" : "00078"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#78"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -166,94 +166,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#37"
+ , "c1" : "00056"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method write arguments Consumer&lt;List&lt;ApiMessageAndVersion &gt; &gt;  out"
+ , "c3" : "QC-JAV000006[00056] For method write arguments Consumer&lt;List&lt;ApiMessageAndVersion &gt; &gt;  out"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#37"
+ , "c1" : "00056"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#56"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00037] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00056] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#40"
+ , "c1" : "00059"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00040] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.image.AclsImage.write@POLYN150940 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#52"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.image.AclsImage.equals@POLYN151824 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000001[00059] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.image.AclsImage.toString@POLYN152183 the MagicNumber/String  'AclsImage(' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.image.AclsImage.write@POLYN151054 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#62"
+ , "c1" : "00071"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#71"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00071] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.image.AclsImage.toString@POLYN152183 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.image.AclsImage.equals@POLYN151938 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#62"
+ , "c1" : "00079"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.image.AclsImage.toString@POLYN152183 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.image.AclsImage.toString@POLYN152297 the MagicNumber/String  'AclsImage(' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.image.AclsImage.toString@POLYN152297 the MagicNumber/String  ', ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.image.AclsImage.toString@POLYN152297 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.AclsImage.equals@POLYN151824"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.AclsImage.equals@POLYN151938"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.AclsImage.hashCode@POLYN151704"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.AclsImage.hashCode@POLYN151818"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.AclsImage.isEmpty@POLYN150719"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.AclsImage.isEmpty@POLYN150833"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#53"
+ , "c1" : "00072"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#72"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.image.AclsImage.equals@POLYN151824 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.image.AclsImage.equals@POLYN151938 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

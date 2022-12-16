@@ -2,9 +2,9 @@
 !pragma layout smetana
 "RetriableException" <|-- "org.apache.kafka.common.errors.CorruptRecordException"
 class org.apache.kafka.common.errors.CorruptRecordException {
-+CorruptRecordException() : CorruptRecordException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.html#9]]]
-+CorruptRecordException(String) : CorruptRecordException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.html#13]]]
-+CorruptRecordException(Throwable) : CorruptRecordException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.html#17]]]
-+CorruptRecordException(String;Throwable) : CorruptRecordException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.html#21]]]
++CorruptRecordException() : CorruptRecordException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.html#27]]]
++CorruptRecordException(String) : CorruptRecordException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.html#31]]]
++CorruptRecordException(Throwable) : CorruptRecordException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.html#35]]]
++CorruptRecordException(String;Throwable) : CorruptRecordException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.html#39]]]
 } 
 @enduml

@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.controller.BrokerControlStates"
 class org.apache.kafka.controller.BrokerControlStates {
-BrokerControlStates(BrokerControlState;BrokerControlState) : BrokerControlStates [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#12]]]
-current() : BrokerControlState [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#17]]]
-next() : BrokerControlState [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#21]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#26]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#31]]]
-+toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#38]]]
+BrokerControlStates(BrokerControlState;BrokerControlState) : BrokerControlStates [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#27]]]
+current() : BrokerControlState [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#32]]]
+next() : BrokerControlState [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#36]]]
++hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#41]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#46]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#53]]]
 } 
 @enduml

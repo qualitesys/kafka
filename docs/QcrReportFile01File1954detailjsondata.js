@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.assignment.ClientStateTask" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientStateTask.java.html#13"
+ , "c5" : "00028"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientStateTask.java.html#28"
  , "c1" : "ClientStateTask"
  , "c2" : "ClientStateTask(Set<TaskId>;Map<String,Set<TaskId>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientStateTask.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientStateTask.java.html#34"
  , "c1" : "void"
  , "c2" : "taskIds(Set<TaskId>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientStateTask.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientStateTask.java.html#38"
  , "c1" : "Set<TaskId>"
  , "c2" : "taskIds()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientStateTask.java.html#27"
+ , "c5" : "00042"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientStateTask.java.html#42"
  , "c1" : "Map<String,Set<TaskId>>"
  , "c2" : "consumerToTaskIds()"
  , "c3" : "1"
@@ -95,10 +95,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientStateTask.java.html#19"
+ , "c1" : "00034"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientStateTask.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method taskIds arguments Set&lt;TaskId &gt;  clientToTaskIds"
+ , "c3" : "QC-JAV000006[00034] For method taskIds arguments Set&lt;TaskId &gt;  clientToTaskIds"
 }} 
 ]
 , 

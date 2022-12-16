@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#30"
+ , "c5" : "00045"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#45"
  , "c1" : "ConnectClusterStateImpl"
  , "c2" : "ConnectClusterStateImpl(long;ConnectClusterDetails;Herder)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#56"
  , "c1" : "Collection<String>"
  , "c2" : "connectors()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#52"
+ , "c5" : "00067"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#67"
  , "c1" : "ConnectorHealth"
  , "c2" : "connectorHealth(String)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#69"
+ , "c5" : "00084"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#84"
  , "c1" : "Map<String,String>"
  , "c2" : "connectorConfig(String)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#83"
+ , "c5" : "00098"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#98"
  , "c1" : "ConnectClusterDetails"
  , "c2" : "clusterDetails()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#87"
+ , "c5" : "00102"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#102"
  , "c1" : "Map<Integer,TaskState>"
  , "c2" : "taskStates(List<ConnectorStateInfo.TaskState>)"
  , "c3" : "2"
@@ -120,38 +120,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#47"
+ , "c1" : "00062"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl.connectors@POLYN156051 the MagicNumber/String  'Failed to retrieve list of connectors' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl.connectors@POLYN156141 the MagicNumber/String  'Failed to retrieve list of connectors' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method connectorHealth arguments String  connName"
+ , "c3" : "QC-JAV000006[00067] For method connectorHealth arguments String  connName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#69"
+ , "c1" : "00084"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method connectorConfig arguments String  connName"
+ , "c3" : "QC-JAV000006[00084] For method connectorConfig arguments String  connName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#76"
+ , "c1" : "00091"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl.connectorConfig@POLYN157440 the MagicNumber/String  'Failed to retrieve configuration for connector '%s'' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl.connectorConfig@POLYN157530 the MagicNumber/String  'Failed to retrieve configuration for connector '%s'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#87"
+ , "c1" : "00102"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#102"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00087] For method taskStates arguments List&lt;ConnectorStateInfo.TaskState &gt;  states"
+ , "c3" : "QC-JAV000006[00102] For method taskStates arguments List&lt;ConnectorStateInfo.TaskState &gt;  states"
 }} 
 ]
 , 

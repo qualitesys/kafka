@@ -2,9 +2,9 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.trogdor.fault.Kibosh"
 class org.apache.kafka.trogdor.fault.Kibosh {
--Kibosh() : Kibosh [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#153]]]
--findProcessObject(String) : KiboshProcess [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#157]]]
-addFault(String;KiboshFaultSpec) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#168]]]
-removeFault(String;KiboshFaultSpec) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#174]]]
+-Kibosh() : Kibosh [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#168]]]
+-findProcessObject(String) : KiboshProcess [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#174]]]
+addFault(String;KiboshFaultSpec) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#187]]]
+removeFault(String;KiboshFaultSpec) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#195]]]
 } 
 @enduml

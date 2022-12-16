@@ -2,12 +2,12 @@
 !pragma layout smetana
 "Thread" <|-- "kafka.examples.ExactlyOnceMessageProcessor"
 class kafka.examples.ExactlyOnceMessageProcessor {
-+ExactlyOnceMessageProcessor(String;String;int;CountDownLatch) : ExactlyOnceMessageProcessor [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#41]]]
-+run() : void [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#61]]]
--consumerOffsets() : Map<TopicPartition,OffsetAndMetadata> [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#125]]]
--printWithTxnId(String) : void [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#133]]]
--transform(ConsumerRecord<Integer,String>) : ProducerRecord<Integer,String> [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#137]]]
--messagesRemaining(KafkaConsumer<Integer,String>) : long [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#142]]]
--resetToLastCommittedPositions(KafkaConsumer<Integer,String>) : void [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#159]]]
++ExactlyOnceMessageProcessor(String;String;int;CountDownLatch) : ExactlyOnceMessageProcessor [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#59]]]
++run() : void [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#79]]]
+-consumerOffsets() : Map<TopicPartition,OffsetAndMetadata> [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#143]]]
+-printWithTxnId(String) : void [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#151]]]
+-transform(ConsumerRecord<Integer,String>) : ProducerRecord<Integer,String> [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#155]]]
+-messagesRemaining(KafkaConsumer<Integer,String>) : long [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#160]]]
+-resetToLastCommittedPositions(KafkaConsumer<Integer,String>) : void [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#177]]]
 } 
 @enduml

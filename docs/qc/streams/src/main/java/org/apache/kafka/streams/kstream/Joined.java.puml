@@ -2,14 +2,14 @@
 !pragma layout smetana
 "NamedOperation<Joined<K,V,VO>>" <|-- "org.apache.kafka.streams.kstream.Joined"
 class org.apache.kafka.streams.kstream.Joined {
--Joined(Serde<K>;Serde<V>;Serde<VO>;String) : Joined [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#14]]]
-Joined(Joined<K,V,VO>) : Joined [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#24]]]
-+withKeySerde(Serde<K>) : Joined<K,V,VO> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#65]]]
-+withValueSerde(Serde<V>) : Joined<K,V,VO> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#70]]]
-+withOtherValueSerde(Serde<VO>) : Joined<K,V,VO> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#75]]]
-+withName(String) : Joined<K,V,VO> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#81]]]
-+keySerde() : Serde<K> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#85]]]
-+valueSerde() : Serde<V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#89]]]
-+otherValueSerde() : Serde<VO> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#93]]]
+-Joined(Serde<K>;Serde<V>;Serde<VO>;String) : Joined [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#33]]]
+Joined(Joined<K,V,VO>) : Joined [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#43]]]
++withKeySerde(Serde<K>) : Joined<K,V,VO> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#156]]]
++withValueSerde(Serde<V>) : Joined<K,V,VO> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#167]]]
++withOtherValueSerde(Serde<VO>) : Joined<K,V,VO> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#178]]]
++withName(String) : Joined<K,V,VO> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#191]]]
++keySerde() : Serde<K> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#195]]]
++valueSerde() : Serde<V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#199]]]
++otherValueSerde() : Serde<VO> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#203]]]
 } 
 @enduml

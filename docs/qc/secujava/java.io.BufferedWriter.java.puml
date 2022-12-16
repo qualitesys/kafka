@@ -2,16 +2,16 @@
 !pragma layout smetana
 "Writer" <|-- "java.io.BufferedWriter"
 class java.io.BufferedWriter {
-+BufferedWriter(Writer) : BufferedWriter [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#21]]]
-+BufferedWriter(Writer;int) : BufferedWriter [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#26]]]
--ensureOpen() : void [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#40]]]
-flushBuffer() : void [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#46]]]
-+write(int) : void [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#57]]]
--min(int;int) : int [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#67]]]
-+write(char[];int;int) : void [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#73]]]
-+write(String;int;int) : void [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#103]]]
-+newLine() : void [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#120]]]
-+flush() : void [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#125]]]
-+close() : void [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#133]]]
++BufferedWriter(Writer) : BufferedWriter [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#87]]]
++BufferedWriter(Writer;int) : BufferedWriter [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#100]]]
+-ensureOpen() : void [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#114]]]
+flushBuffer() : void [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#124]]]
++write(int) : void [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#139]]]
+-min(int;int) : int [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#152]]]
++write(char[];int;int) : void [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#173]]]
++write(String;int;int) : void [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#219]]]
++newLine() : void [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#242]]]
++flush() : void [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#251]]]
++close() : void [[[./../.././qc/secujava/java.io.BufferedWriter.java.html#259]]]
 } 
 @enduml

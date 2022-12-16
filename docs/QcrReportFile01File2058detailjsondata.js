@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00145"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#145"
+ , "c5" : "00172"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#172"
  , "c1" : "InMemoryTimeOrderedKeyValueBuffer"
  , "c2" : "InMemoryTimeOrderedKeyValueBuffer(String;boolean;Serde<K>;Serde<V>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00156"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#156"
+ , "c5" : "00183"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#183"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00162"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#162"
+ , "c5" : "00189"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#189"
  , "c1" : "boolean"
  , "c2" : "persistent()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00168"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#168"
+ , "c5" : "00195"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#195"
  , "c1" : "void"
  , "c2" : "setSerdesIfNull(SerdeGetter)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00175"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#175"
+ , "c5" : "00202"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#202"
  , "c1" : "void"
  , "c2" : "init(ProcessorContext;StateStore)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00182"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#182"
+ , "c5" : "00209"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#209"
  , "c1" : "void"
  , "c2" : "init(StateStoreContext;StateStore)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00188"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#188"
+ , "c5" : "00215"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#215"
  , "c1" : "void"
  , "c2" : "init(StateStore)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00212"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#212"
+ , "c5" : "00239"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#239"
  , "c1" : "boolean"
  , "c2" : "isOpen()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00217"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#217"
+ , "c5" : "00244"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#244"
  , "c1" : "Position"
  , "c2" : "getPosition()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00222"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#222"
+ , "c5" : "00249"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#249"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00234"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#234"
+ , "c5" : "00261"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#261"
  , "c1" : "void"
  , "c2" : "flush()"
  , "c3" : "5"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00254"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#254"
+ , "c5" : "00281"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#281"
  , "c1" : "void"
  , "c2" : "logValue(Bytes;BufferKey;BufferValue)"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00273"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#273"
+ , "c5" : "00300"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#300"
  , "c1" : "void"
  , "c2" : "logTombstone(Bytes)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00287"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#287"
+ , "c5" : "00314"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#314"
  , "c1" : "void"
  , "c2" : "restoreBatch(Collection<ConsumerRecord<byte[],byte[]>>)"
  , "c3" : "16"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00369"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#369"
+ , "c5" : "00396"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#396"
  , "c1" : "void"
  , "c2" : "evictWhile(Supplier<Boolean>;Consumer<Eviction<K,V>>)"
  , "c3" : "9"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00423"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#423"
+ , "c5" : "00450"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#450"
  , "c1" : "Maybe<ValueAndTimestamp<V>>"
  , "c2" : "priorValueForBuffered(K)"
  , "c3" : "3"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00442"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#442"
+ , "c5" : "00469"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#469"
  , "c1" : "byte[]"
  , "c2" : "internalPriorValueForBuffered(Bytes)"
  , "c3" : "3"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00453"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#453"
+ , "c5" : "00480"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#480"
  , "c1" : "void"
  , "c2" : "put(long;Record<K,Change<V>>;ProcessorRecordContext)"
  , "c3" : "4"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00481"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#481"
+ , "c5" : "00508"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#508"
  , "c1" : "BufferValue"
  , "c2" : "getBuffered(Bytes)"
  , "c3" : "1"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00486"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#486"
+ , "c5" : "00513"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#513"
  , "c1" : "void"
  , "c2" : "cleanPut(long;Bytes;BufferValue)"
  , "c3" : "3"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00508"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#508"
+ , "c5" : "00535"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#535"
  , "c1" : "int"
  , "c2" : "numRecords()"
  , "c3" : "1"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00513"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#513"
+ , "c5" : "00540"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#540"
  , "c1" : "long"
  , "c2" : "bufferSize()"
  , "c3" : "1"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00518"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#518"
+ , "c5" : "00545"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#545"
  , "c1" : "long"
  , "c2" : "minTimestamp()"
  , "c3" : "1"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00522"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#522"
+ , "c5" : "00549"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#549"
  , "c1" : "long"
  , "c2" : "computeRecordSize(Bytes;BufferValue)"
  , "c3" : "2"
@@ -234,8 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00532"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#532"
+ , "c5" : "00559"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#559"
  , "c1" : "void"
  , "c2" : "updateBufferMetrics()"
  , "c3" : "1"
@@ -243,8 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00538"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#538"
+ , "c5" : "00565"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#565"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -314,682 +314,682 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#113"
+ , "c1" : "00140"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00113] For method withLoggingEnabled arguments Map&lt;String ,String &gt;  config"
+ , "c3" : "QC-JAV000006[00140] For method withLoggingEnabled arguments Map&lt;String ,String &gt;  config"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#120"
+ , "c1" : "00147"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.Builder.withLoggingDisabled@POLYN230408 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.Builder.withLoggingDisabled@POLYN230570 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#163"
+ , "c1" : "00190"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.persistent@POLYN231852 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.persistent@POLYN232014 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#168"
+ , "c1" : "00195"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#195"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00168] For method setSerdesIfNull arguments SerdeGetter  getter"
+ , "c3" : "QC-JAV000006[00195] For method setSerdesIfNull arguments SerdeGetter  getter"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#168"
+ , "c1" : "00195"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#195"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00168] The argument getter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00195] The argument getter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#169"
+ , "c1" : "00196"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.setSerdesIfNull@POLYN231991 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.setSerdesIfNull@POLYN232153 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#170"
+ , "c1" : "00197"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.setSerdesIfNull@POLYN231991 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.setSerdesIfNull@POLYN232153 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#175"
+ , "c1" : "00202"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#202"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00175] For method init arguments ProcessorContext  context|StateStore  root"
+ , "c3" : "QC-JAV000006[00202] For method init arguments ProcessorContext  context|StateStore  root"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#182"
+ , "c1" : "00209"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#209"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00182] For method init arguments StateStoreContext  context|StateStore  root"
+ , "c3" : "QC-JAV000006[00209] For method init arguments StateStoreContext  context|StateStore  root"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#188"
+ , "c1" : "00215"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#215"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00188] For method init arguments StateStore  root"
+ , "c3" : "QC-JAV000006[00215] For method init arguments StateStore  root"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#207"
+ , "c1" : "00234"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.init@POLYN233336 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#218"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.getPosition@POLYN234334 the MagicNumber/String  'This store does not keep track of the position.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00223"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#223"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.close@POLYN234466 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00227"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#227"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.close@POLYN234466 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00239"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#239"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00239] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.init@POLYN233498 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00245"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00245] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.getPosition@POLYN234496 the MagicNumber/String  'This store does not keep track of the position.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#241"
+ , "c1" : "00250"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.flush@POLYN234988 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.close@POLYN234628 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00254"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#254"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00254] For method logValue arguments Bytes  key|BufferKey  bufferKey|BufferValue  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#254"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00254] The argument bufferKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#254"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00254] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.close@POLYN234628 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00266"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#266"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.logValue@POLYN235676 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00266] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00269"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#269"
+ , "c1" : "00272"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#272"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.logValue@POLYN235676 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00272] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00270"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#270"
+ , "c1" : "00268"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.logValue@POLYN235676 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.flush@POLYN235150 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00273"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#273"
+ , "c1" : "00281"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#281"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00273] For method logTombstone arguments Bytes  key"
+ , "c3" : "QC-JAV000006[00281] For method logValue arguments Bytes  key|BufferKey  bufferKey|BufferValue  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00277"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#277"
+ , "c1" : "00281"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#281"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00281] The argument bufferKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00281"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#281"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00281] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00293"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.logTombstone@POLYN236486 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.logValue@POLYN235838 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00278"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#278"
+ , "c1" : "00296"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.logTombstone@POLYN236486 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.logValue@POLYN235838 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00280"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#280"
+ , "c1" : "00297"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.logTombstone@POLYN236486 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.logValue@POLYN235838 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00283"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#283"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.logTombstone@POLYN236486 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00284"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#284"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.logTombstone@POLYN236486 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00287"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#287"
+ , "c1" : "00300"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#300"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00287] For method restoreBatch arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  batch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00298"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#298"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00298] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00301"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#301"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00301] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00303"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#303"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00303] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00312"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#312"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00312] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00322"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#322"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00322] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00332"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#332"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00332] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00345"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#345"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00345] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00357"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#357"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00357] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00292"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#292"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN236900 the MagicNumber/String  'record partition [%d] is being restored by the wrong suppress partition [%d]' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00299"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#299"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN236900 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00302"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#302"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN236900 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000006[00300] For method logTombstone arguments Bytes  key"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00304"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#304"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN236900 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.logTombstone@POLYN236648 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00312"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#312"
+ , "c1" : "00305"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN236900 the MagicNumber/String  'v' should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.logTombstone@POLYN236648 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00313"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#313"
+ , "c1" : "00307"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN236900 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.logTombstone@POLYN236648 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00321"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#321"
+ , "c1" : "00310"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN236900 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.logTombstone@POLYN236648 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00356"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#356"
+ , "c1" : "00311"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN236900 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.logTombstone@POLYN236648 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00360"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#360"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN236900 the MagicNumber/String  'Restoring apparently invalid changelog record: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00369"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#369"
+ , "c1" : "00314"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#314"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00369] For method evictWhile arguments Supplier&lt;Boolean &gt;  predicate|Consumer&lt;Eviction&lt;K ,V &gt; &gt;  callback"
+ , "c3" : "QC-JAV000006[00314] For method restoreBatch arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  batch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00369"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#369"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00369] The argument predicate is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00370"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#370"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00370] The argument callback is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00388"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#388"
+ , "c1" : "00325"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00388] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00325] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00389"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#389"
+ , "c1" : "00328"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#328"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00389] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00328] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00390"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#390"
+ , "c1" : "00330"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00390] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00330] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00339"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#339"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00339] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00349"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#349"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00349] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00359"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#359"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00359] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00372"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#372"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240693 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00375"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#375"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240693 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00381"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#381"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240693 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00372] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00384"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#384"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00384] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240693 the MagicNumber/String  'minTimestamp [' should be converted to const"
+ , "c3" : "QC-JAV000001[00384] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00384"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#384"
+ , "c1" : "00319"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00384] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240693 the MagicNumber/String  '] did not match the actual min timestamp [' should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN237062 the MagicNumber/String  'record partition [%d] is being restored by the wrong suppress partition [%d]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00385"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#385"
+ , "c1" : "00326"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#326"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240693 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN237062 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00408"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#408"
+ , "c1" : "00329"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#329"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240693 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN237062 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00410"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#410"
+ , "c1" : "00331"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240693 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN237062 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00339"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#339"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN237062 the MagicNumber/String  'v' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00340"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#340"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN237062 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00348"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#348"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN237062 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00383"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#383"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00383] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN237062 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00387"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#387"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.restoreBatch@POLYN237062 the MagicNumber/String  'Restoring apparently invalid changelog record: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00396"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#396"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00396] For method evictWhile arguments Supplier&lt;Boolean &gt;  predicate|Consumer&lt;Eviction&lt;K ,V &gt; &gt;  callback"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00396"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#396"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00396] The argument predicate is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00397"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#397"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00397] The argument callback is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00415"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#415"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00415] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00416"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#416"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00416] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00417"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#417"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240693 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00417] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00423"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#423"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00423] For method priorValueForBuffered arguments K  key"
+ , "c1" : "00399"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#399"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00399] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240855 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00442"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#442"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00442] For method internalPriorValueForBuffered arguments Bytes  key"
+ , "c1" : "00402"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#402"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240855 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00408"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#408"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240855 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00411"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#411"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240855 the MagicNumber/String  'minTimestamp [' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00411"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#411"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240855 the MagicNumber/String  '] did not match the actual min timestamp [' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00412"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#412"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240855 the MagicNumber/String  ']' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00435"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#435"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240855 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00437"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#437"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240855 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00444"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#444"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.internalPriorValueForBuffered@POLYN244535 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.evictWhile@POLYN240855 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00445"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#445"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00445] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.internalPriorValueForBuffered@POLYN244535 the MagicNumber/String  'Key [' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00445"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#445"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00445] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.internalPriorValueForBuffered@POLYN244535 the MagicNumber/String  '] is not in the buffer.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00453"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#453"
+ , "c1" : "00450"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#450"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00453] For method put arguments long  time|Record&lt;K ,Change&lt;V &gt; &gt;  record|ProcessorRecordContext  recordContext"
+ , "c3" : "QC-JAV000006[00450] For method priorValueForBuffered arguments K  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00454"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#454"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00454] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00469"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#469"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00469] For method internalPriorValueForBuffered arguments Bytes  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00456"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#456"
+ , "c1" : "00471"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#471"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00456] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.put@POLYN245084 the MagicNumber/String  'value cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.internalPriorValueForBuffered@POLYN244697 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00457"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#457"
+ , "c1" : "00472"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#472"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00457] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.put@POLYN245084 the MagicNumber/String  'recordContext cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.internalPriorValueForBuffered@POLYN244697 the MagicNumber/String  'Key [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00464"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#464"
+ , "c1" : "00472"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#472"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.put@POLYN245084 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.internalPriorValueForBuffered@POLYN244697 the MagicNumber/String  '] is not in the buffer.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00480"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#480"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00480] For method put arguments long  time|Record&lt;K ,Change&lt;V &gt; &gt;  record|ProcessorRecordContext  recordContext"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00481"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#481"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00481] For method getBuffered arguments Bytes  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00483"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#483"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00483] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.getBuffered@POLYN246590 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00483"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#483"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00483] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.getBuffered@POLYN246590 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00486"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#486"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00486] For method cleanPut arguments long  time|Bytes  key|BufferValue  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00492"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#492"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00492] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.cleanPut@POLYN246901 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00503"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#503"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.cleanPut@POLYN246901 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00503"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#503"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.cleanPut@POLYN246901 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00522"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#522"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00522] For method computeRecordSize arguments Bytes  key|BufferValue  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00522"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#522"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00522] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00481] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00523"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#523"
+ , "c1" : "00483"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#483"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.computeRecordSize@POLYN248495 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00483] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.put@POLYN245246 the MagicNumber/String  'value cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00524"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#524"
+ , "c1" : "00484"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#484"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00524] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.computeRecordSize@POLYN248495 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00484] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.put@POLYN245246 the MagicNumber/String  'recordContext cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00526"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#526"
+ , "c1" : "00491"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#491"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.computeRecordSize@POLYN248495 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00491] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.put@POLYN245246 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00539"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#539"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00539] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249284 the MagicNumber/String  'InMemoryTimeOrderedKeyValueBuffer{' should be converted to const"
+ , "c1" : "00508"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#508"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00508] For method getBuffered arguments Bytes  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00540"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#540"
+ , "c1" : "00510"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#510"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249284 the MagicNumber/String  'storeName='' should be converted to const"
+ , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.getBuffered@POLYN246752 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00540"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#540"
+ , "c1" : "00510"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#510"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249284 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.getBuffered@POLYN246752 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00541"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#541"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00541] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249284 the MagicNumber/String  ', changelogTopic='' should be converted to const"
+ , "c1" : "00513"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#513"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00513] For method cleanPut arguments long  time|Bytes  key|BufferValue  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00541"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#541"
+ , "c1" : "00519"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#519"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00541] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249284 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00519] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.cleanPut@POLYN247063 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00542"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#542"
+ , "c1" : "00530"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#530"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00542] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249284 the MagicNumber/String  ', open=' should be converted to const"
+ , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.cleanPut@POLYN247063 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00543"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#543"
+ , "c1" : "00530"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#530"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249284 the MagicNumber/String  ', loggingEnabled=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00544"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#544"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00544] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249284 the MagicNumber/String  ', minTimestamp=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00545"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#545"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249284 the MagicNumber/String  ', memBufferSize=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00546"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#546"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00546] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249284 the MagicNumber/String  ', \n\tdirtyKeys=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00547"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#547"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249284 the MagicNumber/String  ', \n\tindex=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00548"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#548"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249284 the MagicNumber/String  ', \n\tsortedMap=' should be converted to const"
+ , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.cleanPut@POLYN247063 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00549"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#549"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00549] For method computeRecordSize arguments Bytes  key|BufferValue  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00549"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#549"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00549] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00550"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#550"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00549] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249284 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00550] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.computeRecordSize@POLYN248657 the MagicNumber/String  0L should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00551"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#551"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00551] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.computeRecordSize@POLYN248657 the MagicNumber/String  8 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00553"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#553"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00553] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.computeRecordSize@POLYN248657 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00566"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#566"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00566] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249446 the MagicNumber/String  'InMemoryTimeOrderedKeyValueBuffer{' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00567"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#567"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249446 the MagicNumber/String  'storeName='' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00567"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#567"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249446 the MagicNumber/String  '\'' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00568"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#568"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00568] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249446 the MagicNumber/String  ', changelogTopic='' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00568"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#568"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00568] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249446 the MagicNumber/String  '\'' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00569"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#569"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00569] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249446 the MagicNumber/String  ', open=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00570"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#570"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00570] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249446 the MagicNumber/String  ', loggingEnabled=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00571"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#571"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00571] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249446 the MagicNumber/String  ', minTimestamp=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00572"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#572"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00572] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249446 the MagicNumber/String  ', memBufferSize=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00573"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#573"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00573] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249446 the MagicNumber/String  ', \n\tdirtyKeys=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00574"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#574"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249446 the MagicNumber/String  ', \n\tindex=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00575"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#575"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249446 the MagicNumber/String  ', \n\tsortedMap=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00576"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#576"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00576] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249446 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#39"
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#76"
  , "c1" : "OAuthBearerUnsecuredJws"
  , "c2" : "OAuthBearerUnsecuredJws(String;String;String)"
  , "c3" : "8"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#78"
+ , "c5" : "00115"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#115"
  , "c1" : "String"
  , "c2" : "value()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#83"
+ , "c5" : "00124"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#124"
  , "c1" : "List<String>"
  , "c2" : "splits()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#88"
+ , "c5" : "00133"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#133"
  , "c1" : "Map<String,Object>"
  , "c2" : "header()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#93"
+ , "c5" : "00138"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#138"
  , "c1" : "String"
  , "c2" : "principalName()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#98"
+ , "c5" : "00143"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#143"
  , "c1" : "Long"
  , "c2" : "startTimeMs()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#103"
+ , "c5" : "00148"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#148"
  , "c1" : "long"
  , "c2" : "lifetimeMs()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00108"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#108"
+ , "c5" : "00153"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#153"
  , "c1" : "Set<String>"
  , "c2" : "scope()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00113"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#113"
+ , "c5" : "00162"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#162"
  , "c1" : "Map<String,Object>"
  , "c2" : "claims()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00118"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#118"
+ , "c5" : "00171"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#171"
  , "c1" : "String"
  , "c2" : "principalClaimName()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#123"
+ , "c5" : "00180"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#180"
  , "c1" : "String"
  , "c2" : "scopeClaimName()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00128"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#128"
+ , "c5" : "00194"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#194"
  , "c1" : "boolean"
  , "c2" : "isClaimType(String;Class<?>)"
  , "c3" : "4"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00153"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#153"
+ , "c5" : "00236"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#236"
  , "c1" : "Object"
  , "c2" : "rawClaim(String)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00158"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#158"
+ , "c5" : "00251"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#251"
  , "c1" : "Number"
  , "c2" : "expirationTime()"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00163"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#163"
+ , "c5" : "00265"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#265"
  , "c1" : "Number"
  , "c2" : "issuedAt()"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00168"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#168"
+ , "c5" : "00279"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#279"
  , "c1" : "String"
  , "c2" : "subject()"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00173"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#173"
+ , "c5" : "00295"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#295"
  , "c1" : "Map<String,Object>"
  , "c2" : "toMap(String)"
  , "c3" : "3"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00194"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#194"
+ , "c5" : "00316"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#316"
  , "c1" : "List<String>"
  , "c2" : "extractCompactSerializationSplits()"
  , "c3" : "3"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00204"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#204"
+ , "c5" : "00326"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#326"
  , "c1" : "Object"
  , "c2" : "convert(JsonNode)"
  , "c3" : "3"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00214"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#214"
+ , "c5" : "00336"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#336"
  , "c1" : "Long"
  , "c2" : "calculateStartTimeMs()"
  , "c3" : "1"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00219"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#219"
+ , "c5" : "00341"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#341"
  , "c1" : "long"
  , "c2" : "convertClaimTimeInSecondsToMs(Number)"
  , "c3" : "1"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00223"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#223"
+ , "c5" : "00345"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#345"
  , "c1" : "Set<String>"
  , "c2" : "calculateScope()"
  , "c3" : "7"
@@ -285,360 +285,360 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#39"
+ , "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#76"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00039] The argument compactSerialization is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00076] The argument compactSerialization is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#39"
+ , "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#76"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00039] The argument principalClaimName is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00076] The argument principalClaimName is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#39"
+ , "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#76"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00039] The argument scopeClaimName is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00076] The argument scopeClaimName is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#42"
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN201443 the MagicNumber/String  '..' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN202175 the MagicNumber/String  '..' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#44"
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN201443 the MagicNumber/String  'Malformed compact serialization contains '..'' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN202175 the MagicNumber/String  'Malformed compact serialization contains '..'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#46"
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN201443 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN202175 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#47"
+ , "c1" : "00084"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN201443 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN202175 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#49"
+ , "c1" : "00086"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN201443 the MagicNumber/String  'alg' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN202175 the MagicNumber/String  'alg' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#49"
+ , "c1" : "00086"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN201443 the MagicNumber/String  'JWS header must have an Algorithm value' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN202175 the MagicNumber/String  'JWS header must have an Algorithm value' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#50"
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN201443 the MagicNumber/String  'none' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN202175 the MagicNumber/String  'none' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#52"
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN201443 the MagicNumber/String  'Unsecured JWS must have 'none' for an algorithm' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN202175 the MagicNumber/String  'Unsecured JWS must have 'none' for an algorithm' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#53"
+ , "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN201443 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN202175 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#56"
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN201443 the MagicNumber/String  'Unsecured JWS must not contain a digital signature' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN202175 the MagicNumber/String  'Unsecured JWS must not contain a digital signature' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#59"
+ , "c1" : "00096"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN201443 the MagicNumber/String  'Must specify a non-blank principal claim name' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN202175 the MagicNumber/String  'Must specify a non-blank principal claim name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#62"
+ , "c1" : "00099"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN201443 the MagicNumber/String  'Must specify a non-blank scope claim name' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN202175 the MagicNumber/String  'Must specify a non-blank scope claim name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#65"
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN201443 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN202175 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#67"
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN201443 the MagicNumber/String  'No expiration time in JWT' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN202175 the MagicNumber/String  'No expiration time in JWT' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#72"
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN201443 the MagicNumber/String  'No principal name in JWT claim: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.OAuthBearerUnsecuredJws@POLYN202175 the MagicNumber/String  'No principal name in JWT claim: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#128"
+ , "c1" : "00194"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00128] For method isClaimType arguments String  claimName|Class&lt;? &gt;  type"
+ , "c3" : "QC-JAV000006[00194] For method isClaimType arguments String  claimName|Class&lt;? &gt;  type"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#128"
+ , "c1" : "00194"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00128] For method isClaimType list of called methods Object monObjet|java.lang.Object rawClaimN206362"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#131"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.isClaimType@POLYN206225 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.isClaimType@POLYN206225 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#134"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.isClaimType@POLYN206225 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#136"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.isClaimType@POLYN206225 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#141"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00141] The argument type is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws the MagicNumber/String  'The '%s' claim was not of type %s: %s' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#153"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00153] For method rawClaim arguments String  claimName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#159"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.expirationTime@POLYN208453 the MagicNumber/String  'exp' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#164"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.issuedAt@POLYN208819 the MagicNumber/String  'iat' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#169"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.subject@POLYN209179 the MagicNumber/String  'sub' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#173"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00173] For method toMap arguments String  split"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#181"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00181] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#178"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.toMap@POLYN209725 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#179"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.toMap@POLYN209725 the MagicNumber/String  'malformed JSON' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#188"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.toMap@POLYN209725 the MagicNumber/String  'malformed Base64 URL encoded value' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#190"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.toMap@POLYN209725 the MagicNumber/String  'malformed JSON' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#195"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.extractCompactSerializationSplits@POLYN211248 the MagicNumber/String  '\\.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#196"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.extractCompactSerializationSplits@POLYN211248 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000007[00194] For method isClaimType list of called methods Object monObjet|java.lang.Object rawClaimN207094"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.extractCompactSerializationSplits@POLYN211248 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.isClaimType@POLYN206957 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00198"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.extractCompactSerializationSplits@POLYN211248 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.isClaimType@POLYN206957 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00200"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#200"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.extractCompactSerializationSplits@POLYN211248 the MagicNumber/String  'Unsecured JWS compact serializations must have 3 dot-separated Base64URL-encoded values' should be converted to const"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.isClaimType@POLYN206957 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#204"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00204] For method convert arguments JsonNode  value"
+ , "c1" : "00202"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.isClaimType@POLYN206957 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#204"
+ , "c1" : "00218"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#218"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00204] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00218] The argument type is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00215"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#215"
+ , "c1" : "00224"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.calculateStartTimeMs@POLYN212522 the MagicNumber/String  'iat' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00216"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#216"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.calculateStartTimeMs@POLYN212522 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00216"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#216"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.calculateStartTimeMs@POLYN212522 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#219"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00219] For method convertClaimTimeInSecondsToMs arguments Number  claimValue"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#219"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00219] The argument claimValue is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#220"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.convertClaimTimeInSecondsToMs@POLYN212846 the MagicNumber/String  1000 should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws the MagicNumber/String  'The '%s' claim was not of type %s: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00236"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#236"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.calculateScope@POLYN213058 the MagicNumber/String  null should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00236] For method rawClaim arguments String  claimName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#238"
+ , "c1" : "00252"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.calculateScope@POLYN213058 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.expirationTime@POLYN209185 the MagicNumber/String  'exp' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00266"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#266"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.issuedAt@POLYN209551 the MagicNumber/String  'iat' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00280"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#280"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.subject@POLYN209911 the MagicNumber/String  'sub' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00295"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#295"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00295] For method toMap arguments String  split"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00303"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#303"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00303] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00300"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#300"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.toMap@POLYN210457 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00301"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#301"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.toMap@POLYN210457 the MagicNumber/String  'malformed JSON' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00310"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#310"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.toMap@POLYN210457 the MagicNumber/String  'malformed Base64 URL encoded value' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00312"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#312"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.toMap@POLYN210457 the MagicNumber/String  'malformed JSON' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00317"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#317"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.extractCompactSerializationSplits@POLYN211980 the MagicNumber/String  '\\.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00318"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#318"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.extractCompactSerializationSplits@POLYN211980 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00319"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#319"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.extractCompactSerializationSplits@POLYN211980 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00320"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#320"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.extractCompactSerializationSplits@POLYN211980 the MagicNumber/String  3 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00322"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#322"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.extractCompactSerializationSplits@POLYN211980 the MagicNumber/String  'Unsecured JWS compact serializations must have 3 dot-separated Base64URL-encoded values' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00326"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#326"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00326] For method convert arguments JsonNode  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00326"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#326"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00326] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00337"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#337"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.calculateStartTimeMs@POLYN213254 the MagicNumber/String  'iat' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00338"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#338"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.calculateStartTimeMs@POLYN213254 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00338"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#338"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.calculateStartTimeMs@POLYN213254 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00341"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#341"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00341] For method convertClaimTimeInSecondsToMs arguments Number  claimValue"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00341"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#341"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00341] The argument claimValue is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00342"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#342"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.convertClaimTimeInSecondsToMs@POLYN213578 the MagicNumber/String  1000 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00358"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#358"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.calculateScope@POLYN213790 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00360"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#360"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws.calculateScope@POLYN213790 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ]
 , 

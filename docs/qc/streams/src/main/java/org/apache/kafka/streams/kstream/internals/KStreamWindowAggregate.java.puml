@@ -2,10 +2,10 @@
 !pragma layout smetana
 "KStreamAggProcessorSupplier<KIn,VIn,Windowed<KIn>,VAgg>" <|-- "org.apache.kafka.streams.kstream.internals.KStreamWindowAggregate"
 class org.apache.kafka.streams.kstream.internals.KStreamWindowAggregate {
-+KStreamWindowAggregate(Windows<W>;String;EmitStrategy;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>) : KStreamWindowAggregate [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregate.java.html#37]]]
-+get() : Processor<KIn,VIn,Windowed<KIn>,Change<VAgg>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregate.java.html#57]]]
-+windows() : Windows<W> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregate.java.html#61]]]
-+enableSendingOldValues() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregate.java.html#66]]]
-+view() : KTableValueGetterSupplier<Windowed<KIn>,VAgg> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregate.java.html#169]]]
++KStreamWindowAggregate(Windows<W>;String;EmitStrategy;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>) : KStreamWindowAggregate [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregate.java.html#52]]]
++get() : Processor<KIn,VIn,Windowed<KIn>,Change<VAgg>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregate.java.html#72]]]
++windows() : Windows<W> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregate.java.html#76]]]
++enableSendingOldValues() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregate.java.html#81]]]
++view() : KTableValueGetterSupplier<Windowed<KIn>,VAgg> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregate.java.html#184]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.ProduceRequestResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#23"
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#46"
  , "c1" : "ProduceRequestResult"
  , "c2" : "ProduceRequestResult(TopicPartition)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#28"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#57"
  , "c1" : "void"
  , "c2" : "set(long;long;Function<Integer,RuntimeException>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#35"
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#66"
  , "c1" : "void"
  , "c2" : "done()"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#42"
+ , "c5" : "00075"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#75"
  , "c1" : "void"
  , "c2" : "await()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#47"
+ , "c5" : "00085"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#85"
  , "c1" : "boolean"
  , "c2" : "await(long;TimeUnit)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#52"
+ , "c5" : "00092"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#92"
  , "c1" : "long"
  , "c2" : "baseOffset()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#57"
+ , "c5" : "00099"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#99"
  , "c1" : "boolean"
  , "c2" : "hasLogAppendTime()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#62"
+ , "c5" : "00106"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#106"
  , "c1" : "long"
  , "c2" : "logAppendTime()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#67"
+ , "c5" : "00113"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#113"
  , "c1" : "RuntimeException"
  , "c2" : "error(int)"
  , "c3" : "3"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#76"
+ , "c5" : "00124"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#124"
  , "c1" : "TopicPartition"
  , "c2" : "topicPartition()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#81"
+ , "c5" : "00131"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#131"
  , "c1" : "boolean"
  , "c2" : "completed()"
  , "c3" : "1"
@@ -172,108 +172,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#28"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method set arguments long  baseOffset|long  logAppendTime|Function&lt;Integer ,RuntimeException &gt;  errorsByIndex"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.done@POLYN158049 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.done@POLYN158049 the MagicNumber/String  'The method `set` must be invoked before this method.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#47"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method await arguments long  timeout|TimeUnit  unit"
+ , "c3" : "QC-JAV000006[00057] For method set arguments long  baseOffset|long  logAppendTime|Function&lt;Integer ,RuntimeException &gt;  errorsByIndex"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#67"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method error arguments int  batchIndex"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.done@POLYN158349 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.error@POLYN159334 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.done@POLYN158349 the MagicNumber/String  'The method `set` must be invoked before this method.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#69"
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#85"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00085] For method await arguments long  timeout|TimeUnit  unit"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#113"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00113] For method error arguments int  batchIndex"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.error@POLYN159334 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.error@POLYN159634 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#82"
+ , "c1" : "00115"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.completed@POLYN159782 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.error@POLYN159634 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#47"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00047] Public method await is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00132"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#132"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.completed@POLYN160082 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#52"
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#85"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00052] Public method baseOffset is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00085] Public method await is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#57"
+ , "c1" : "00092"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#92"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00057] Public method hasLogAppendTime is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00092] Public method baseOffset is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#62"
+ , "c1" : "00099"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#99"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00062] Public method logAppendTime is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00099] Public method hasLogAppendTime is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#81"
+ , "c1" : "00106"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#106"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00081] Public method completed is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00106] Public method logAppendTime is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#35"
+ , "c1" : "00131"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00035] Public method done is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00131] Public method completed is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#42"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#66"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00042] Public method await is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00066] Public method done is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#75"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00075] Public method await is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

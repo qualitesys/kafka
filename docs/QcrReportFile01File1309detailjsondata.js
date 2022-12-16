@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.ControllerPurgatory" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#18"
+ , "c5" : "00044"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#44"
  , "c1" : "void"
  , "c2" : "completeUpTo(long)"
  , "c3" : "4"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#33"
+ , "c5" : "00063"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#63"
  , "c1" : "void"
  , "c2" : "failAll(Exception)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#45"
+ , "c5" : "00080"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#80"
  , "c1" : "void"
  , "c2" : "add(long;DeferredEvent)"
  , "c3" : "4"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#63"
+ , "c5" : "00101"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#101"
  , "c1" : "OptionalLong"
  , "c2" : "highestPendingOffset()"
  , "c3" : "3"
@@ -132,150 +132,150 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#18"
+ , "c1" : "00044"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method completeUpTo arguments long  offset"
+ , "c3" : "QC-JAV000006[00044] For method completeUpTo arguments long  offset"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#21"
+ , "c1" : "00047"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00021] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#25"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00025] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#26"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.controller.ControllerPurgatory.completeUpTo@POLYN154714 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#33"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method failAll arguments Exception  exception"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00036] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00037] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method add arguments long  offset|DeferredEvent  event"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String  'There is already a purgatory event with ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String  'offset ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String  '.  We should not add one with an offset of ' should be converted to const"
+ , "c3" : "QC-JAV000001[00047] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String  ' which ' should be converted to const"
+ , "c3" : "QC-JAV000001[00051] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#51"
+ , "c1" : "00052"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String  'is lower than that.' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.controller.ControllerPurgatory.completeUpTo@POLYN154942 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#55"
+ , "c1" : "00063"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#63"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00063] For method failAll arguments Exception  exception"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00066] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00067"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#67"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00067] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#80"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00080] For method add arguments long  offset|DeferredEvent  event"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156565 the MagicNumber/String  'There is already a purgatory event with ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156565 the MagicNumber/String  'offset ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156565 the MagicNumber/String  '.  We should not add one with an offset of ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156565 the MagicNumber/String  ' which ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156565 the MagicNumber/String  'is lower than that.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#90"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156565 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ControllerPurgatory.add@POLYN156565"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#49"
+ , "c1" : "00084"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#84"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String 'There is already a purgatory event with ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156565 the MagicNumber/String 'There is already a purgatory event with ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#50"
+ , "c1" : "00085"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#85"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String '.  We should not add one with an offset of ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156565 the MagicNumber/String '.  We should not add one with an offset of ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#50"
+ , "c1" : "00085"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#85"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String 'offset ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156565 the MagicNumber/String 'offset ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#51"
+ , "c1" : "00086"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#86"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String ' which ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156565 the MagicNumber/String ' which ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#51"
+ , "c1" : "00086"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#86"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String 'is lower than that.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156565 the MagicNumber/String 'is lower than that.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#55"
+ , "c1" : "00090"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#90"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156565 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

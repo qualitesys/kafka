@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.TransferableChannel" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/TransferableChannel.java.html#12"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/TransferableChannel.java.html#34"
  , "c1" : "boolean"
  , "c2" : "hasPendingWrites()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/TransferableChannel.java.html#15"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/TransferableChannel.java.html#56"
  , "c1" : "long"
  , "c2" : "transferFrom(FileChannel;long;long)"
  , "c3" : "1"

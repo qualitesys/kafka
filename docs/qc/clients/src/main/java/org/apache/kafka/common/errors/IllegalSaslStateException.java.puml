@@ -2,7 +2,7 @@
 !pragma layout smetana
 "AuthenticationException" <|-- "org.apache.kafka.common.errors.IllegalSaslStateException"
 class org.apache.kafka.common.errors.IllegalSaslStateException {
-+IllegalSaslStateException(String) : IllegalSaslStateException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/IllegalSaslStateException.java.html#9]]]
-+IllegalSaslStateException(String;Throwable) : IllegalSaslStateException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/IllegalSaslStateException.java.html#13]]]
++IllegalSaslStateException(String) : IllegalSaslStateException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/IllegalSaslStateException.java.html#28]]]
++IllegalSaslStateException(String;Throwable) : IllegalSaslStateException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/IllegalSaslStateException.java.html#32]]]
 } 
 @enduml

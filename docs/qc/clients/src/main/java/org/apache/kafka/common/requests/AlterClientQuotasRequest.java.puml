@@ -2,11 +2,11 @@
 !pragma layout smetana
 "AbstractRequest" <|-- "org.apache.kafka.common.requests.AlterClientQuotasRequest"
 class org.apache.kafka.common.requests.AlterClientQuotasRequest {
-+AlterClientQuotasRequest(AlterClientQuotasRequestData;short) : AlterClientQuotasRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasRequest.java.html#71]]]
-+entries() : List<ClientQuotaAlteration> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasRequest.java.html#76]]]
-+validateOnly() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasRequest.java.html#95]]]
-+data() : AlterClientQuotasRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasRequest.java.html#100]]]
-+getErrorResponse(int;Throwable) : AlterClientQuotasResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasRequest.java.html#105]]]
-+parse(ByteBuffer;short) : AlterClientQuotasRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasRequest.java.html#126]]]
++AlterClientQuotasRequest(AlterClientQuotasRequestData;short) : AlterClientQuotasRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasRequest.java.html#86]]]
++entries() : List<ClientQuotaAlteration> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasRequest.java.html#91]]]
++validateOnly() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasRequest.java.html#110]]]
++data() : AlterClientQuotasRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasRequest.java.html#115]]]
++getErrorResponse(int;Throwable) : AlterClientQuotasResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasRequest.java.html#120]]]
++parse(ByteBuffer;short) : AlterClientQuotasRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasRequest.java.html#141]]]
 } 
 @enduml

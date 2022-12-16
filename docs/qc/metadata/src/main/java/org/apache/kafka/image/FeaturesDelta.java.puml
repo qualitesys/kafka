@@ -2,12 +2,12 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.image.FeaturesDelta"
 class org.apache.kafka.image.FeaturesDelta {
-+FeaturesDelta(FeaturesImage) : FeaturesDelta [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#22]]]
-+changes() : Map<String,Optional<Short>> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#26]]]
-+metadataVersionChange() : Optional<MetadataVersion> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#30]]]
-+finishSnapshot() : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#34]]]
-+replay(FeatureLevelRecord) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#42]]]
-+apply() : FeaturesImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#54]]]
-+toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#86]]]
++FeaturesDelta(FeaturesImage) : FeaturesDelta [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#39]]]
++changes() : Map<String,Optional<Short>> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#43]]]
++metadataVersionChange() : Optional<MetadataVersion> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#47]]]
++finishSnapshot() : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#51]]]
++replay(FeatureLevelRecord) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#59]]]
++apply() : FeaturesImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#71]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#103]]]
 } 
 @enduml

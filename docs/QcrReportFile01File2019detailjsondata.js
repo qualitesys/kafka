@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.WindowBytesStoreSupplier" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#10"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#38"
  , "c1" : "long"
  , "c2" : "segmentIntervalMs()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#13"
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#45"
  , "c1" : "long"
  , "c2" : "windowSize()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#16"
+ , "c5" : "00054"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#54"
  , "c1" : "boolean"
  , "c2" : "retainDuplicates()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#19"
+ , "c5" : "00061"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#61"
  , "c1" : "long"
  , "c2" : "retentionPeriod()"
  , "c3" : "1"

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.isolation.PluginUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00132"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#132"
+ , "c5" : "00155"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#155"
  , "c1" : "boolean"
  , "c2" : "shouldLoadInIsolation(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00137"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#137"
+ , "c5" : "00165"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#165"
  , "c1" : "boolean"
  , "c2" : "isConcrete(Class<?>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00143"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#143"
+ , "c5" : "00176"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#176"
  , "c1" : "boolean"
  , "c2" : "isArchive(Path)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00149"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#149"
+ , "c5" : "00187"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#187"
  , "c1" : "boolean"
  , "c2" : "isClassFile(Path)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00153"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#153"
+ , "c5" : "00191"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#191"
  , "c1" : "List<Path>"
  , "c2" : "pluginLocations(Path)"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00169"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#169"
+ , "c5" : "00216"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#216"
  , "c1" : "List<Path>"
  , "c2" : "pluginUrls(Path)"
  , "c3" : "16"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00254"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#254"
+ , "c5" : "00306"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#306"
  , "c1" : "String"
  , "c2" : "simpleName(PluginDesc<?>)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00259"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#259"
+ , "c5" : "00317"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#317"
  , "c1" : "String"
  , "c2" : "prunedName(PluginDesc<?>)"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00288"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#288"
+ , "c5" : "00353"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#353"
  , "c1" : "String"
  , "c2" : "prunePluginName(PluginDesc<?>;String)"
  , "c3" : "2"
@@ -184,304 +184,304 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#132"
+ , "c1" : "00155"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00132] For method shouldLoadInIsolation arguments String  name"
+ , "c3" : "QC-JAV000006[00155] For method shouldLoadInIsolation arguments String  name"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#137"
+ , "c1" : "00165"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#165"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method isConcrete arguments Class&lt;? &gt;  klass"
+ , "c3" : "QC-JAV000006[00165] For method isConcrete arguments Class&lt;? &gt;  klass"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#137"
+ , "c1" : "00165"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#165"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00137] The argument klass is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00165] The argument klass is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#143"
+ , "c1" : "00176"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#176"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method isArchive arguments Path  path"
+ , "c3" : "QC-JAV000006[00176] For method isArchive arguments Path  path"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#143"
+ , "c1" : "00176"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#176"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00143] For method isArchive list of called methods Object monObjet|java.lang.String path_toStringN189850"
+ , "c3" : "QC-JAV000007[00176] For method isArchive list of called methods Object monObjet|java.lang.String path_toStringN190240"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#143"
+ , "c1" : "00176"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#176"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00143] The argument path is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00176] The argument path is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#145"
+ , "c1" : "00178"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.isArchive@POLYN189753 the MagicNumber/String  '.jar' should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.isArchive@POLYN190143 the MagicNumber/String  '.jar' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#145"
+ , "c1" : "00178"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.isArchive@POLYN189753 the MagicNumber/String  '.zip' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#149"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00149] For method isClassFile arguments Path  path"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#149"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00149] The argument path is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#150"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.isClassFile@POLYN190226 the MagicNumber/String  '.class' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#153"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00153] For method pluginLocations arguments Path  topPath"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#169"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00169] For method pluginUrls arguments Path  topPath"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.isArchive@POLYN190143 the MagicNumber/String  '.zip' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00187] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#193"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00193] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#196"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00196] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#198"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00198] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#202"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00202] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#208"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00208] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00229"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#229"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00229] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#170"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.pluginUrls@POLYN191370 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#199"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.pluginUrls@POLYN191370 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00214"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#214"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.pluginUrls@POLYN191370 the MagicNumber/String  'Resolving symbolic link '{}' failed. Ignoring this path.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00227"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#227"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.pluginUrls@POLYN191370 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#247"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.pluginUrls@POLYN191370 the MagicNumber/String  'Plugin path contains both java archives and class files. Returning only the' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#248"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.pluginUrls@POLYN191370 the MagicNumber/String  ' archives' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#250"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.pluginUrls@POLYN191370 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#254"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00254] For method simpleName arguments PluginDesc&lt;? &gt;  plugin"
+ , "c3" : "QC-JAV000006[00187] For method isClassFile arguments Path  path"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#254"
+ , "c1" : "00187"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#187"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00254] The argument plugin is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00187] The argument path is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00259"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#259"
+ , "c1" : "00188"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#188"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.isClassFile@POLYN190616 the MagicNumber/String  '.class' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00191"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#191"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00259] For method prunedName arguments PluginDesc&lt;? &gt;  plugin"
+ , "c3" : "QC-JAV000006[00191] For method pluginLocations arguments Path  topPath"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00259"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#259"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00259] The argument plugin is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#264"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.prunedName@POLYN195452 the MagicNumber/String  'Connector' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00275"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#275"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.connect.runtime.isolation.PluginUtils the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00280"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#280"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.isolation.PluginUtils the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00282"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#282"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.connect.runtime.isolation.PluginUtils the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00285"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#285"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.connect.runtime.isolation.PluginUtils the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00288"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#288"
+ , "c1" : "00216"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#216"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00288] For method prunePluginName arguments PluginDesc&lt;? &gt;  plugin|String  suffix"
+ , "c3" : "QC-JAV000006[00216] For method pluginUrls arguments Path  topPath"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00288"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#288"
+ , "c1" : "00234"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#234"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00234] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#240"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00240] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00243"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#243"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00243] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00245"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#245"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00245] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00249"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#249"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00249] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00255"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#255"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00255] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00276"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#276"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00276] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00217"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#217"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.pluginUrls@POLYN191760 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00246"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#246"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.pluginUrls@POLYN191760 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00261"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#261"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.pluginUrls@POLYN191760 the MagicNumber/String  'Resolving symbolic link '{}' failed. Ignoring this path.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00274"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#274"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.pluginUrls@POLYN191760 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00294"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#294"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.pluginUrls@POLYN191760 the MagicNumber/String  'Plugin path contains both java archives and class files. Returning only the' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00295"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#295"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.pluginUrls@POLYN191760 the MagicNumber/String  ' archives' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00297"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#297"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.pluginUrls@POLYN191760 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00306"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#306"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00288] For method prunePluginName list of called methods Object monObjet|int simple_lastIndexOfN197174"
+ , "c3" : "QC-JAV000006[00306] For method simpleName arguments PluginDesc&lt;? &gt;  plugin"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00288"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#288"
+ , "c1" : "00306"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#306"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00288] The argument plugin is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00306] The argument plugin is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00291"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#291"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.prunePluginName@POLYN196942 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00317"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#317"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00317] For method prunedName arguments PluginDesc&lt;? &gt;  plugin"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00292"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#292"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.prunePluginName@POLYN196942 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00301"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#301"
+ , "c1" : "00317"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#317"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00301] The argument stream is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00317] The argument plugin is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00322"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#322"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.prunedName@POLYN195842 the MagicNumber/String  'Connector' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00340"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#340"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.connect.runtime.isolation.PluginUtils the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00345"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#345"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.connect.runtime.isolation.PluginUtils the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00347"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#347"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.connect.runtime.isolation.PluginUtils the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#350"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.connect.runtime.isolation.PluginUtils the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00353"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#353"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00353] For method prunePluginName arguments PluginDesc&lt;? &gt;  plugin|String  suffix"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00353"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#353"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00353] For method prunePluginName list of called methods Object monObjet|int simple_lastIndexOfN197564"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00353"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#353"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00353] The argument plugin is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00356"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#356"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.prunePluginName@POLYN197332 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00357"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#357"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.connect.runtime.isolation.PluginUtils.prunePluginName@POLYN197332 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00366"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#366"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00366] The argument stream is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.PluginUtils.DirectoryEntry.DirectoryEntry@POLYN197594"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.PluginUtils.DirectoryEntry.DirectoryEntry@POLYN197984"
 }} 
 ]
 , 

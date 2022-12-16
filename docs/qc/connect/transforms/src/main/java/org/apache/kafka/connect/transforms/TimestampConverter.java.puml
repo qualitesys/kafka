@@ -2,19 +2,19 @@
 !pragma layout smetana
 "Transformation<R>" <|-- "org.apache.kafka.connect.transforms.TimestampConverter"
 class org.apache.kafka.connect.transforms.TimestampConverter {
-+configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#265]]]
-+apply(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#290]]]
-+config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#299]]]
-+close() : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#304]]]
-operatingSchema(R) : Schema [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#341]]]
-operatingValue(R) : Object [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#343]]]
-newRecord(R;Schema;Object) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#345]]]
--applyWithSchema(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#347]]]
--applyValueWithSchema(Struct;Schema) : Struct [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#382]]]
--applySchemaless(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#399]]]
--timestampTypeFromSchema(Schema) : String [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#412]]]
--inferTimestampType(Object) : String [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#430]]]
--convertTimestamp(Object;String) : Object [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#444]]]
--convertTimestamp(Object) : Object [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#465]]]
++configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#286]]]
++apply(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#311]]]
++config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#320]]]
++close() : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#325]]]
+operatingSchema(R) : Schema [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#362]]]
+operatingValue(R) : Object [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#364]]]
+newRecord(R;Schema;Object) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#366]]]
+-applyWithSchema(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#368]]]
+-applyValueWithSchema(Struct;Schema) : Struct [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#403]]]
+-applySchemaless(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#420]]]
+-timestampTypeFromSchema(Schema) : String [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#435]]]
+-inferTimestampType(Object) : String [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#455]]]
+-convertTimestamp(Object;String) : Object [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#474]]]
+-convertTimestamp(Object) : Object [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#495]]]
 } 
 @enduml

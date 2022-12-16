@@ -2,16 +2,16 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.processor.api.Record"
 class org.apache.kafka.streams.processor.api.Record {
-+Record(K;V;long;Headers) : Record [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#18]]]
-+Record(K;V;long) : Record [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#32]]]
-+key() : K [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#37]]]
-+value() : V [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#42]]]
-+timestamp() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#47]]]
-+headers() : Headers [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#52]]]
-+withTimestamp(long) : Record<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#67]]]
-+withHeaders(Headers) : Record<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#72]]]
-+toString() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#77]]]
-+equals(Object) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#87]]]
-+hashCode() : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#98]]]
++Record(K;V;long;Headers) : Record [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#59]]]
++Record(K;V;long) : Record [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#82]]]
++key() : K [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#89]]]
++value() : V [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#96]]]
++timestamp() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#103]]]
++headers() : Headers [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#110]]]
++withTimestamp(long) : Record<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#148]]]
++withHeaders(Headers) : Record<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#164]]]
++toString() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#169]]]
++equals(Object) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#179]]]
++hashCode() : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#190]]]
 } 
 @enduml

@@ -2,10 +2,10 @@
 !pragma layout smetana
 "Closeable" <|-- "org.apache.kafka.common.network.Receive"
 class org.apache.kafka.common.network.Receive {
-source() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Receive.java.html#12]]]
-complete() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Receive.java.html#15]]]
-readFrom(ScatteringByteChannel) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Receive.java.html#18]]]
-requiredMemoryAmountKnown() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Receive.java.html#21]]]
-memoryAllocated() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Receive.java.html#24]]]
+source() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Receive.java.html#31]]]
+complete() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Receive.java.html#36]]]
+readFrom(ScatteringByteChannel) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Receive.java.html#44]]]
+requiredMemoryAmountKnown() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Receive.java.html#49]]]
+memoryAllocated() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Receive.java.html#54]]]
 } 
 @enduml

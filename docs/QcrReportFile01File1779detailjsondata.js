@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.WrappingNullableSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#32"
  , "c1" : "WrappingNullableSerde"
  , "c2" : "WrappingNullableSerde(WrappingNullableSerializer<T,InnerK,InnerV>;WrappingNullableDeserializer<T,InnerK,InnerV>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#26"
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#41"
  , "c1" : "Serializer<T>"
  , "c2" : "serializer()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#31"
+ , "c5" : "00046"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#46"
  , "c1" : "Deserializer<T>"
  , "c2" : "deserializer()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#36"
+ , "c5" : "00051"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#51"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;boolean)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#43"
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#58"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#48"
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#63"
  , "c1" : "void"
  , "c2" : "setIfUnset(SerdeGetter)"
  , "c3" : "1"
@@ -120,31 +120,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#19"
+ , "c1" : "00034"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.streams.kstream.internals.WrappingNullableSerde.WrappingNullableSerde@POLYN147314 the MagicNumber/String  'serializer can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.kstream.internals.WrappingNullableSerde.WrappingNullableSerde@POLYN147404 the MagicNumber/String  'serializer can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#20"
+ , "c1" : "00035"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.streams.kstream.internals.WrappingNullableSerde.WrappingNullableSerde@POLYN147314 the MagicNumber/String  'deserializer can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.internals.WrappingNullableSerde.WrappingNullableSerde@POLYN147404 the MagicNumber/String  'deserializer can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00051] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#48"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method setIfUnset arguments SerdeGetter  getter"
+ , "c3" : "QC-JAV000006[00063] For method setIfUnset arguments SerdeGetter  getter"
 }} 
 ]
 , 

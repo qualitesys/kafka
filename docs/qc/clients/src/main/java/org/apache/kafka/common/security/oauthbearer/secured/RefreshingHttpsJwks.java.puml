@@ -2,12 +2,12 @@
 !pragma layout smetana
 "Initable" <|-- "org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks"
 class org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks {
-+RefreshingHttpsJwks(Time;HttpsJwks;long;long;long) : RefreshingHttpsJwks [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#74]]]
-+init() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#97]]]
-+close() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#134]]]
-+getJsonWebKeys() : List<JsonWebKey> [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#156]]]
-+getLocation() : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#168]]]
--refresh() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#174]]]
-+maybeExpediteRefresh(String) : boolean [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#218]]]
++RefreshingHttpsJwks(Time;HttpsJwks;long;long;long) : RefreshingHttpsJwks [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#136]]]
++init() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#159]]]
++close() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#196]]]
++getJsonWebKeys() : List<JsonWebKey> [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#229]]]
++getLocation() : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#241]]]
+-refresh() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#264]]]
++maybeExpediteRefresh(String) : boolean [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#325]]]
 } 
 @enduml

@@ -2,11 +2,11 @@
 !pragma layout smetana
 "ProcessorNode<KIn,VIn,Void,Void>" <|-- "org.apache.kafka.streams.processor.internals.SinkNode"
 class org.apache.kafka.streams.processor.internals.SinkNode {
-SinkNode(String;TopicNameExtractor<KIn,VIn>;Serializer<KIn>;Serializer<VIn>;StreamPartitioner<?superKIn,?superVIn>) : SinkNode [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#21]]]
-+addChild(ProcessorNode<Void,Void,?,?>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#36]]]
-+init(InternalProcessorContext<Void,Void>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#41]]]
-+process(Record<KIn,VIn>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#49]]]
-+toString() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#83]]]
-+toString(String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#89]]]
+SinkNode(String;TopicNameExtractor<KIn,VIn>;Serializer<KIn>;Serializer<VIn>;StreamPartitioner<?superKIn,?superVIn>) : SinkNode [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#36]]]
++addChild(ProcessorNode<Void,Void,?,?>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#53]]]
++init(InternalProcessorContext<Void,Void>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#58]]]
++process(Record<KIn,VIn>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#66]]]
++toString() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#102]]]
++toString(String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#110]]]
 } 
 @enduml

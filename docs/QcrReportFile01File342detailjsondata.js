@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.GroupAuthorizationException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00007"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#7"
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#22"
  , "c1" : "GroupAuthorizationException"
  , "c2" : "GroupAuthorizationException(String;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#12"
+ , "c5" : "00027"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#27"
  , "c1" : "GroupAuthorizationException"
  , "c2" : "GroupAuthorizationException(String)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#17"
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#37"
  , "c1" : "String"
  , "c2" : "groupId()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#21"
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#41"
  , "c1" : "GroupAuthorizationException"
  , "c2" : "forGroupId(String)"
  , "c3" : "1"
@@ -102,24 +102,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#13"
+ , "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.errors.GroupAuthorizationException.GroupAuthorizationException@POLYN142998 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.errors.GroupAuthorizationException.GroupAuthorizationException@POLYN143118 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#21"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00021] For method forGroupId arguments String  groupId"
+ , "c3" : "QC-JAV000006[00041] For method forGroupId arguments String  groupId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#22"
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.errors.GroupAuthorizationException.forGroupId@POLYN143366 the MagicNumber/String  'Not authorized to access group: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.errors.GroupAuthorizationException.forGroupId@POLYN143486 the MagicNumber/String  'Not authorized to access group: ' should be converted to const"
 }} 
 ]
 , 

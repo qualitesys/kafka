@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.image.LocalReplicaChanges"
 class org.apache.kafka.image.LocalReplicaChanges {
-LocalReplicaChanges(Set<TopicPartition>;Map<TopicPartition,PartitionInfo>;Map<TopicPartition,PartitionInfo>) : LocalReplicaChanges [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#17]]]
-+deletes() : Set<TopicPartition> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#27]]]
-+leaders() : Map<TopicPartition,PartitionInfo> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#31]]]
-+followers() : Map<TopicPartition,PartitionInfo> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#35]]]
-+toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#40]]]
+LocalReplicaChanges(Set<TopicPartition>;Map<TopicPartition,PartitionInfo>;Map<TopicPartition,PartitionInfo>) : LocalReplicaChanges [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#32]]]
++deletes() : Set<TopicPartition> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#42]]]
++leaders() : Map<TopicPartition,PartitionInfo> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#46]]]
++followers() : Map<TopicPartition,PartitionInfo> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#50]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#55]]]
 } 
 @enduml

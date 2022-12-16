@@ -2,14 +2,14 @@
 !pragma layout smetana
 "Revertable" <|-- "org.apache.kafka.timeline.TimelineObject"
 class org.apache.kafka.timeline.TimelineObject {
-+TimelineObject(SnapshotRegistry;T) : TimelineObject [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#36]]]
-+get() : T [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#44]]]
-+get(long) : T [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#48]]]
-+set(T) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#59]]]
-+executeRevert(long;Delta) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#76]]]
-+reset() : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#82]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#87]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#92]]]
-+toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#99]]]
++TimelineObject(SnapshotRegistry;T) : TimelineObject [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#55]]]
++get() : T [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#63]]]
++get(long) : T [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#67]]]
++set(T) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#78]]]
++executeRevert(long;Delta) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#95]]]
++reset() : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#101]]]
++hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#106]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#111]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#118]]]
 } 
 @enduml

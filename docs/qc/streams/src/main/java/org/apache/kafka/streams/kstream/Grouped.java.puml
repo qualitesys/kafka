@@ -2,10 +2,10 @@
 !pragma layout smetana
 "NamedOperation<Grouped<K,V>>" <|-- "org.apache.kafka.streams.kstream.Grouped"
 class org.apache.kafka.streams.kstream.Grouped {
--Grouped(String;Serde<K>;Serde<V>) : Grouped [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Grouped.java.html#13]]]
-Grouped(Grouped<K,V>) : Grouped [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Grouped.java.html#21]]]
-+withName(String) : Grouped<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Grouped.java.html#58]]]
-+withKeySerde(Serde<K>) : Grouped<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Grouped.java.html#63]]]
-+withValueSerde(Serde<V>) : Grouped<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Grouped.java.html#68]]]
+-Grouped(String;Serde<K>;Serde<V>) : Grouped [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Grouped.java.html#36]]]
+Grouped(Grouped<K,V>) : Grouped [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Grouped.java.html#44]]]
++withName(String) : Grouped<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Grouped.java.html#132]]]
++withKeySerde(Serde<K>) : Grouped<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Grouped.java.html#142]]]
++withValueSerde(Serde<V>) : Grouped<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Grouped.java.html#152]]]
 } 
 @enduml

@@ -2,7 +2,7 @@
 !pragma layout smetana
 "StateRestoreCallback" <|-- "org.apache.kafka.streams.processor.BatchingStateRestoreCallback"
 class org.apache.kafka.streams.processor.BatchingStateRestoreCallback {
-restoreAll(Collection<KeyValue<byte[],byte[]>>) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/BatchingStateRestoreCallback.java.html#14]]]
-restore(byte[];byte[]) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/BatchingStateRestoreCallback.java.html#17]]]
+restoreAll(Collection<KeyValue<byte[],byte[]>>) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/BatchingStateRestoreCallback.java.html#39]]]
+restore(byte[];byte[]) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/BatchingStateRestoreCallback.java.html#42]]]
 } 
 @enduml

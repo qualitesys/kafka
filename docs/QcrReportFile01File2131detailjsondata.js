@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#25"
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#40"
  , "c1" : "StreamThreadStateStoreProvider"
  , "c2" : "StreamThreadStateStoreProvider(StreamThread)"
  , "c3" : "1"
@@ -89,73 +89,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#45"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00030] The argument storeQueryParams is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00045] The argument storeQueryParams is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00052] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00067] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#48"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00048] The same method call storeQueryParams.partition()topologyName.equals(task.id().topologyName())task.getStore(storeName)storeName.equals(task.getStore(storeName).name()) is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00063] The same method call storeQueryParams.partition()topologyName.equals(task.id().topologyName())task.getStore(storeName)storeName.equals(task.getStore(storeName).name()) is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#50"
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00050] The same method call storeName.equals(task.getStore(storeName).name()) is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00065] The same method call storeName.equals(task.getStore(storeName).name()) is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#60"
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00060] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00075] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#64"
+ , "c1" : "00079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00064] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00079] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#40"
+ , "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -166,115 +145,136 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#71"
+ , "c1" : "00064"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  'Cannot get state store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#71"
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  ' because the stream thread is ' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#72"
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  ', not RUNNING' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#73"
+ , "c1" : "00086"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  ' or REBALANCING' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  'Cannot get state store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#73"
+ , "c1" : "00086"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#79"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00079] The argument queryableStoreType is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  'Expected store not to be null at this point.' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  ' because the stream thread is ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  'Cannot get state store ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#87"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  ' for task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  ', not RUNNING' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  ' because the store is not open. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  ' or REBALANCING' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#89"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  'The state store may have migrated to another instance.' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  'Cannot get state store ' should be converted to const"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#94"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00094] The argument queryableStoreType is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#101"
+ , "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  ' because the queryable store type [' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  'Expected store not to be null at this point.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  '] does not accept the actual store type [' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  'Cannot get state store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  '].' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  ' for task ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  ' because the store is not open. ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  'The state store may have migrated to another instance.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  'Cannot get state store ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  ' because the queryable store type [' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  '] does not accept the actual store type [' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider the MagicNumber/String  '].' should be converted to const"
 }} 
 ]
 , 

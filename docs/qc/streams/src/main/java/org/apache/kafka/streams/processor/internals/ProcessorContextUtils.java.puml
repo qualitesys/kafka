@@ -2,14 +2,14 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.ProcessorContextUtils"
 class org.apache.kafka.streams.processor.internals.ProcessorContextUtils {
--ProcessorContextUtils() : ProcessorContextUtils [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#14]]]
-+currentSystemTime(ProcessorContext) : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#17]]]
-+getMetricsImpl(ProcessorContext) : StreamsMetricsImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#22]]]
-+getMetricsImpl(StateStoreContext) : StreamsMetricsImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#27]]]
-+changelogFor(ProcessorContext;String;Boolean) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#31]]]
-+changelogFor(StateStoreContext;String;Boolean) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#42]]]
-+getPrefix(Map<String,Object>;String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#53]]]
-+asInternalProcessorContext(ProcessorContext) : InternalProcessorContext [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#65]]]
-+asInternalProcessorContext(StateStoreContext) : InternalProcessorContext [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#75]]]
+-ProcessorContextUtils() : ProcessorContextUtils [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#35]]]
++currentSystemTime(ProcessorContext) : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#41]]]
++getMetricsImpl(ProcessorContext) : StreamsMetricsImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#48]]]
++getMetricsImpl(StateStoreContext) : StreamsMetricsImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#55]]]
++changelogFor(ProcessorContext;String;Boolean) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#59]]]
++changelogFor(StateStoreContext;String;Boolean) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#70]]]
++getPrefix(Map<String,Object>;String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#81]]]
++asInternalProcessorContext(ProcessorContext) : InternalProcessorContext [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#93]]]
++asInternalProcessorContext(StateStoreContext) : InternalProcessorContext [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#103]]]
 } 
 @enduml

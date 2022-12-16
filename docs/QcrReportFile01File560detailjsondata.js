@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.EndTransactionMarker" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#31"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#50"
  , "c1" : "EndTransactionMarker"
  , "c2" : "EndTransactionMarker(ControlRecordType;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#37"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#56"
  , "c1" : "int"
  , "c2" : "coordinatorEpoch()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#41"
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#60"
  , "c1" : "ControlRecordType"
  , "c2" : "controlType()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#45"
+ , "c5" : "00064"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#64"
  , "c1" : "Struct"
  , "c2" : "buildRecordValue()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#52"
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#71"
  , "c1" : "ByteBuffer"
  , "c2" : "serializeValue()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#61"
+ , "c5" : "00080"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#80"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#70"
+ , "c5" : "00089"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#89"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#76"
+ , "c5" : "00095"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#95"
  , "c1" : "void"
  , "c2" : "ensureTransactionMarkerControlType(ControlRecordType)"
  , "c3" : "2"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#81"
+ , "c5" : "00100"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#100"
  , "c1" : "EndTransactionMarker"
  , "c2" : "deserialize(Record)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00086"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#86"
+ , "c5" : "00105"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#105"
  , "c1" : "EndTransactionMarker"
  , "c2" : "deserializeValue(ControlRecordType;ByteBuffer)"
  , "c3" : "4"
@@ -207,262 +207,262 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#47"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.record.EndTransactionMarker.buildRecordValue@POLYN157855 the MagicNumber/String  'version' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.record.EndTransactionMarker.buildRecordValue@POLYN157969 the MagicNumber/String  'version' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#48"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.record.EndTransactionMarker.buildRecordValue@POLYN157855 the MagicNumber/String  'coordinator_epoch' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#52"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00052] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct buildRecordValueN158299"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#61"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00063] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.record.EndTransactionMarker.equals@POLYN158628 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.record.EndTransactionMarker.equals@POLYN158628 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.record.EndTransactionMarker.equals@POLYN158628 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.record.EndTransactionMarker.buildRecordValue@POLYN157969 the MagicNumber/String  'coordinator_epoch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.record.EndTransactionMarker.hashCode@POLYN159164 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.record.EndTransactionMarker.hashCode@POLYN159164 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.record.EndTransactionMarker.hashCode@POLYN159164 the MagicNumber/String  31 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method ensureTransactionMarkerControlType arguments ControlRecordType  type"
+ , "c3" : "QC-JAV000007[00071] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct buildRecordValueN158413"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#78"
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#80"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00080] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.record.EndTransactionMarker.ensureTransactionMarkerControlType@POLYN159492 the MagicNumber/String  'Invalid control record type for end transaction marker' should be converted to const"
+ , "c3" : "QC-JAV000021[00082] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#81"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00081] For method deserialize arguments Record  record"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.record.EndTransactionMarker.equals@POLYN158742 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#81"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00081] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.record.EndTransactionMarker.equals@POLYN158742 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#86"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method deserializeValue arguments ControlRecordType  type|ByteBuffer  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#86"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00086] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.record.EndTransactionMarker.equals@POLYN158742 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String  'Invalid value size found for end transaction marker. Must have ' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.record.EndTransactionMarker.hashCode@POLYN159278 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#90"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.record.EndTransactionMarker.hashCode@POLYN159278 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String  'at least ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String  ' bytes, but found only ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.record.EndTransactionMarker.hashCode@POLYN159278 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String  'Invalid version found for end transaction marker: ' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00095] For method ensureTransactionMarkerControlType arguments ControlRecordType  type"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#96"
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String  '. May indicate data corruption' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.record.EndTransactionMarker.ensureTransactionMarkerControlType@POLYN159606 the MagicNumber/String  'Invalid control record type for end transaction marker' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#99"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String  'Received end transaction marker value version {}. Parsing as version {}' should be converted to const"
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#100"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00100] For method deserialize arguments Record  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String  2 should be converted to const"
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#100"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00100] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#52"
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#105"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00105] For method deserializeValue arguments ControlRecordType  type|ByteBuffer  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#105"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00105] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String  'Invalid value size found for end transaction marker. Must have ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String  'at least ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String  ' bytes, but found only ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String  'Invalid version found for end transaction marker: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String  '. May indicate data corruption' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#118"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String  'Received end transaction marker value version {}. Parsing as version {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#71"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00052] Public method serializeValue is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00071] Public method serializeValue is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#90"
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#109"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String 'Invalid value size found for end transaction marker. Must have ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String 'Invalid value size found for end transaction marker. Must have ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#91"
+ , "c1" : "00110"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String ' bytes, but found only ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String ' bytes, but found only ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#91"
+ , "c1" : "00110"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String 'at least ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String 'at least ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#93"
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#112"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00112] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#94"
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#113"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#95"
+ , "c1" : "00114"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#114"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String 'Invalid version found for end transaction marker: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String 'Invalid version found for end transaction marker: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#96"
+ , "c1" : "00115"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String '. May indicate data corruption' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String '. May indicate data corruption' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#99"
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#118"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String 'Received end transaction marker value version {}. Parsing as version {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00118] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String 'Received end transaction marker value version {}. Parsing as version {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#102"
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#121"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160074 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.common.record.EndTransactionMarker.deserializeValue@POLYN160188 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ]
 , 

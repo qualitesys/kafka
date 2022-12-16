@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.ChannelMetadataRegistry" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#10"
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#31"
  , "c1" : "void"
  , "c2" : "registerCipherInformation(CipherInformation)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#13"
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#36"
  , "c1" : "CipherInformation"
  , "c2" : "cipherInformation()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#16"
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#44"
  , "c1" : "void"
  , "c2" : "registerClientInformation(ClientInformation)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#19"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#49"
  , "c1" : "ClientInformation"
  , "c2" : "clientInformation()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#22"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelMetadataRegistry.java.html#54"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

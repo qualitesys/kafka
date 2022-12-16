@@ -2,9 +2,9 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.utils.Crc32C"
 class org.apache.kafka.common.utils.Crc32C {
--Crc32C() : Crc32C [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#23]]]
-+compute(byte[];int;int) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#26]]]
-+compute(ByteBuffer;int;int) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#33]]]
-+create() : Checksum [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#39]]]
+-Crc32C() : Crc32C [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#46]]]
++compute(byte[];int;int) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#56]]]
++compute(ByteBuffer;int;int) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#70]]]
++create() : Checksum [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#76]]]
 } 
 @enduml

@@ -2,13 +2,13 @@
 !pragma layout smetana
 "AbstractRocksDBTimeOrderedSegmentedBytesStore" <|-- "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore"
 class org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore {
-RocksDBTimeOrderedSessionSegmentedBytesStore(String;String;long;long;boolean) : RocksDBTimeOrderedSessionSegmentedBytesStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#39]]]
-+fetchSession(Bytes;long;long) : byte[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#48]]]
-+fetchSessions(long;long) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#58]]]
-+remove(Windowed<Bytes>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#88]]]
-+put(Windowed<Bytes>;byte[]) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#92]]]
-getIndexKeyValue(Bytes;byte[]) : KeyValue<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#97]]]
-getWriteBatches(Collection<ConsumerRecord<byte[],byte[]>>) : Map<KeyValueSegment,WriteBatch> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#104]]]
-getIndexToBaseStoreIterator(SegmentIterator<KeyValueSegment>) : IndexToBaseStoreIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#146]]]
+RocksDBTimeOrderedSessionSegmentedBytesStore(String;String;long;long;boolean) : RocksDBTimeOrderedSessionSegmentedBytesStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#56]]]
++fetchSession(Bytes;long;long) : byte[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#65]]]
++fetchSessions(long;long) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#75]]]
++remove(Windowed<Bytes>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#105]]]
++put(Windowed<Bytes>;byte[]) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#109]]]
+getIndexKeyValue(Bytes;byte[]) : KeyValue<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#114]]]
+getWriteBatches(Collection<ConsumerRecord<byte[],byte[]>>) : Map<KeyValueSegment,WriteBatch> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#121]]]
+getIndexToBaseStoreIterator(SegmentIterator<KeyValueSegment>) : IndexToBaseStoreIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#163]]]
 } 
 @enduml

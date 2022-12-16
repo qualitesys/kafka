@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.ValidOffsetAndEpoch" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#10"
+ , "c5" : "00025"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#25"
  , "c1" : "ValidOffsetAndEpoch"
  , "c2" : "ValidOffsetAndEpoch(Kind;OffsetAndEpoch)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#15"
+ , "c5" : "00030"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#30"
  , "c1" : "Kind"
  , "c2" : "kind()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#34"
  , "c1" : "OffsetAndEpoch"
  , "c2" : "offsetAndEpoch()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#27"
+ , "c5" : "00042"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#42"
  , "c1" : "ValidOffsetAndEpoch"
  , "c2" : "diverging(OffsetAndEpoch)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#31"
+ , "c5" : "00046"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#46"
  , "c1" : "ValidOffsetAndEpoch"
  , "c2" : "snapshot(OffsetAndEpoch)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#35"
+ , "c5" : "00050"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#50"
  , "c1" : "ValidOffsetAndEpoch"
  , "c2" : "valid(OffsetAndEpoch)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#39"
+ , "c5" : "00054"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#54"
  , "c1" : "ValidOffsetAndEpoch"
  , "c2" : "valid()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#44"
+ , "c5" : "00059"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#59"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#53"
+ , "c5" : "00068"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#68"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#58"
+ , "c5" : "00073"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#73"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -170,87 +170,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#27"
+ , "c1" : "00042"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method diverging arguments OffsetAndEpoch  offsetAndEpoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#31"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method snapshot arguments OffsetAndEpoch  offsetAndEpoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#35"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method valid arguments OffsetAndEpoch  offsetAndEpoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.raft.ValidOffsetAndEpoch.valid@POLYN147435 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.raft.ValidOffsetAndEpoch.valid@POLYN147435 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method equals arguments Object  obj"
+ , "c3" : "QC-JAV000006[00042] For method diverging arguments OffsetAndEpoch  offsetAndEpoch"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00046"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00046] The same method call obj.getClass() is used several times, should be optimized "
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00046] For method snapshot arguments OffsetAndEpoch  offsetAndEpoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.raft.ValidOffsetAndEpoch.equals@POLYN147648 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00050"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#50"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00050] For method valid arguments OffsetAndEpoch  offsetAndEpoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#46"
+ , "c1" : "00055"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.raft.ValidOffsetAndEpoch.equals@POLYN147648 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.raft.ValidOffsetAndEpoch.valid@POLYN147525 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#46"
+ , "c1" : "00055"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.raft.ValidOffsetAndEpoch.equals@POLYN147648 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.raft.ValidOffsetAndEpoch.valid@POLYN147525 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#59"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00059] For method equals arguments Object  obj"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#61"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00061] The same method call obj.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.raft.ValidOffsetAndEpoch.toString@POLYN148362 the MagicNumber/String  'ValidOffsetAndEpoch(kind=%s, offsetAndEpoch=%s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.raft.ValidOffsetAndEpoch.equals@POLYN147738 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#39"
+ , "c1" : "00061"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#61"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.raft.ValidOffsetAndEpoch.equals@POLYN147738 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#61"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.raft.ValidOffsetAndEpoch.equals@POLYN147738 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.raft.ValidOffsetAndEpoch.toString@POLYN148452 the MagicNumber/String  'ValidOffsetAndEpoch(kind=%s, offsetAndEpoch=%s)' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#54"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00039] Public method valid is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00054] Public method valid is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

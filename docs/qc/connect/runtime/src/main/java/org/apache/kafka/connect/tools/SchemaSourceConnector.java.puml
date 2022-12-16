@@ -2,11 +2,11 @@
 !pragma layout smetana
 "SourceConnector" <|-- "org.apache.kafka.connect.tools.SchemaSourceConnector"
 class org.apache.kafka.connect.tools.SchemaSourceConnector {
-+version() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#19]]]
-+start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#24]]]
-+taskClass() : Class<?extendsTask> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#29]]]
-+taskConfigs(int) : List<Map<String,String>> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#34]]]
-+stop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#45]]]
-+config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#49]]]
++version() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#34]]]
++start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#39]]]
++taskClass() : Class<?extendsTask> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#44]]]
++taskConfigs(int) : List<Map<String,String>> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#49]]]
++stop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#60]]]
++config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#64]]]
 } 
 @enduml

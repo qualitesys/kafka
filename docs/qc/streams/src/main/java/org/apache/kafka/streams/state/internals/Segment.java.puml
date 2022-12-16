@@ -2,7 +2,7 @@
 !pragma layout smetana
 "KeyValueStore<Bytes,byte[]>" <|-- "org.apache.kafka.streams.state.internals.Segment"
 class org.apache.kafka.streams.state.internals.Segment {
-destroy() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segment.java.html#11]]]
-deleteRange(Bytes;Bytes) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segment.java.html#13]]]
+destroy() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segment.java.html#26]]]
+deleteRange(Bytes;Bytes) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segment.java.html#28]]]
 } 
 @enduml

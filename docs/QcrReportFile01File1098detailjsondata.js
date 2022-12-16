@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.WorkerTask" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#44"
+ , "c5" : "00069"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#69"
  , "c1" : "WorkerTask"
  , "c2" : "WorkerTask(ConnectorTaskId;TaskStatus.Listener;TargetState;ClassLoader;ConnectMetrics;RetryWithToleranceOperator;Time;StatusBackingStore)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#65"
+ , "c5" : "00090"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#90"
  , "c1" : "ConnectorTaskId"
  , "c2" : "id()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#69"
+ , "c5" : "00094"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#94"
  , "c1" : "ClassLoader"
  , "c2" : "loader()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#74"
+ , "c5" : "00103"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#103"
  , "c1" : "void"
  , "c2" : "initialize(TaskConfig)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#77"
+ , "c5" : "00106"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#106"
  , "c1" : "void"
  , "c2" : "triggerStop()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#87"
+ , "c5" : "00119"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#119"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00092"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#92"
+ , "c5" : "00127"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#127"
  , "c1" : "void"
  , "c2" : "cancel()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#97"
+ , "c5" : "00137"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#137"
  , "c1" : "boolean"
  , "c2" : "awaitStop(long)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00106"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#106"
+ , "c5" : "00148"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#148"
  , "c1" : "void"
  , "c2" : "removeMetrics()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00110"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#110"
+ , "c5" : "00152"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#152"
  , "c1" : "void"
  , "c2" : "initializeAndStart()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#112"
+ , "c5" : "00154"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#154"
  , "c1" : "void"
  , "c2" : "execute()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00114"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#114"
+ , "c5" : "00156"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#156"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00116"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#116"
+ , "c5" : "00158"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#158"
  , "c1" : "boolean"
  , "c2" : "isStopping()"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00120"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#120"
+ , "c5" : "00162"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#162"
  , "c1" : "boolean"
  , "c2" : "isCancelled()"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00124"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#124"
+ , "c5" : "00166"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#166"
  , "c1" : "void"
  , "c2" : "doClose()"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00133"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#133"
+ , "c5" : "00175"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#175"
  , "c1" : "void"
  , "c2" : "doRun()"
  , "c3" : "8"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00162"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#162"
+ , "c5" : "00204"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#204"
  , "c1" : "void"
  , "c2" : "onShutdown()"
  , "c3" : "2"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00173"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#173"
+ , "c5" : "00215"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#215"
  , "c1" : "void"
  , "c2" : "onFailure(Throwable)"
  , "c3" : "2"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00184"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#184"
+ , "c5" : "00226"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#226"
  , "c1" : "void"
  , "c2" : "onPause()"
  , "c3" : "1"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00188"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#188"
+ , "c5" : "00230"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#230"
  , "c1" : "void"
  , "c2" : "onResume()"
  , "c3" : "1"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00193"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#193"
+ , "c5" : "00235"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#235"
  , "c1" : "void"
  , "c2" : "run()"
  , "c3" : "2"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00217"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#217"
+ , "c5" : "00259"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#259"
  , "c1" : "boolean"
  , "c2" : "shouldPause()"
  , "c3" : "1"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00222"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#222"
+ , "c5" : "00269"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#269"
  , "c1" : "boolean"
  , "c2" : "awaitUnpause()"
  , "c3" : "3"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00233"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#233"
+ , "c5" : "00280"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#280"
  , "c1" : "void"
  , "c2" : "transitionTo(TargetState)"
  , "c3" : "2"
@@ -234,8 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00245"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#245"
+ , "c5" : "00297"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#297"
  , "c1" : "void"
  , "c2" : "recordActiveTopic(String)"
  , "c3" : "2"
@@ -243,8 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00254"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#254"
+ , "c5" : "00310"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#310"
  , "c1" : "void"
  , "c2" : "recordCommitSuccess(long)"
  , "c3" : "1"
@@ -252,8 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00259"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#259"
+ , "c5" : "00320"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#320"
  , "c1" : "void"
  , "c2" : "recordCommitFailure(long;Throwable)"
  , "c3" : "1"
@@ -261,8 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00264"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#264"
+ , "c5" : "00329"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#329"
  , "c1" : "void"
  , "c2" : "recordBatch(int)"
  , "c3" : "1"
@@ -270,8 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00268"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#268"
+ , "c5" : "00333"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#333"
  , "c1" : "TaskMetricsGroup"
  , "c2" : "taskMetricsGroup()"
  , "c3" : "1"
@@ -371,402 +371,402 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#57"
+ , "c1" : "00082"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.runtime.WorkerTask.WorkerTask@POLYN203660 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.WorkerTask.WorkerTask@POLYN204050 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#58"
+ , "c1" : "00083"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.runtime.WorkerTask.WorkerTask@POLYN203660 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.WorkerTask.WorkerTask@POLYN204050 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#74"
+ , "c1" : "00103"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method initialize arguments TaskConfig  taskConfig"
+ , "c3" : "QC-JAV000006[00103] For method initialize arguments TaskConfig  taskConfig"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#78"
+ , "c1" : "00107"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#107"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00078] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00107] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#79"
+ , "c1" : "00108"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.runtime.WorkerTask.triggerStop@POLYN205029 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.runtime.WorkerTask.cancel@POLYN205524 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#97"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method awaitStop arguments long  timeoutMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#101"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.runtime.WorkerTask.awaitStop@POLYN205754 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.runtime.WorkerTask.triggerStop@POLYN205419 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.runtime.WorkerTask.doClose@POLYN206446 the MagicNumber/String  '{} Task threw an uncaught and unrecoverable exception during shutdown' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.runtime.WorkerTask.cancel@POLYN205914 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#135"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00135] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#150"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN206747 the MagicNumber/String  '{} After being scheduled for shutdown, the orphan task threw an uncaught exception. A newer instance of this task might be already running' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#152"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN206747 the MagicNumber/String  '{} After being scheduled for shutdown, task threw an uncaught exception.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#154"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN206747 the MagicNumber/String  '{} Task threw an uncaught and unrecoverable exception. Task is being killed and will not recover until manually restarted' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#163"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00163] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#173"
+ , "c1" : "00137"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#137"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00173] For method onFailure arguments Throwable  t"
+ , "c3" : "QC-JAV000006[00137] For method awaitStop arguments long  timeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#174"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00174] Lock statement on synchronized resource"
+ , "c1" : "00141"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#141"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.runtime.WorkerTask.awaitStop@POLYN206144 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#184"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00184] Lock statement on synchronized method onPause"
+ , "c1" : "00170"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.WorkerTask.doClose@POLYN206836 the MagicNumber/String  '{} Task threw an uncaught and unrecoverable exception during shutdown' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#188"
+ , "c1" : "00177"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#177"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00188] Lock statement on synchronized method onResume"
+ , "c3" : "QC-JAV000019[00177] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00223"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#223"
+ , "c1" : "00192"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#192"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN207137 the MagicNumber/String  '{} After being scheduled for shutdown, the orphan task threw an uncaught exception. A newer instance of this task might be already running' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00194"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#194"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN207137 the MagicNumber/String  '{} After being scheduled for shutdown, task threw an uncaught exception.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN207137 the MagicNumber/String  '{} Task threw an uncaught and unrecoverable exception. Task is being killed and will not recover until manually restarted' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00205"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#205"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00223] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00205] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00215"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#215"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00215] For method onFailure arguments Throwable  t"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00216"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#216"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00216] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00226"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#226"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.connect.runtime.WorkerTask.awaitUnpause@POLYN209980 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00229"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#229"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.connect.runtime.WorkerTask.awaitUnpause@POLYN209980 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#233"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00233] For method transitionTo arguments TargetState  state"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00234"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#234"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00234] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00226] Lock statement on synchronized method onPause"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#245"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00245] For method recordActiveTopic arguments String  topic"
+ , "c1" : "00230"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#230"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00230] Lock statement on synchronized method onResume"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#246"
+ , "c1" : "00270"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#270"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00270] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00273"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#273"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.connect.runtime.WorkerTask.recordActiveTopic@POLYN210763 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.connect.runtime.WorkerTask.awaitUnpause@POLYN210370 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#254"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00254] For method recordCommitSuccess arguments long  duration"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00255"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#255"
+ , "c1" : "00276"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.connect.runtime.WorkerTask.recordCommitSuccess@POLYN211268 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.connect.runtime.WorkerTask.awaitUnpause@POLYN210370 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00255"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#255"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.connect.runtime.WorkerTask.recordCommitSuccess@POLYN211268 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00259"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#259"
+ , "c1" : "00280"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#280"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00259] For method recordCommitFailure arguments long  duration|Throwable  error"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#260"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.connect.runtime.WorkerTask.recordCommitFailure@POLYN211611 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#264"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00264] For method recordBatch arguments int  size"
+ , "c3" : "QC-JAV000006[00280] For method transitionTo arguments TargetState  state"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00281"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#281"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00281] The argument id is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00281] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00281"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#281"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00281] The argument connectMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00297"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#297"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00297] For method recordActiveTopic arguments String  topic"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00299"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#299"
+ , "c1" : "00298"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.TaskMetricsGroup@POLYN212497 the MagicNumber/String  'commit-time' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00303"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#303"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.TaskMetricsGroup@POLYN212497 the MagicNumber/String  'batch-size' should be converted to const"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.connect.runtime.WorkerTask.recordActiveTopic@POLYN211153 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00310"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#310"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.TaskMetricsGroup@POLYN212497 the MagicNumber/String  'offset-commit-completion' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00314"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#314"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00314] For method addRatioMetric arguments State  matchingState|MetricNameTemplate  template"
+ , "c3" : "QC-JAV000006[00310] For method recordCommitSuccess arguments long  duration"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00314"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#314"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00314] For method addRatioMetric list of called methods Object monObjet|org.apache.kafka.common.MetricName metricGroup_metricNameN215127"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00316"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#316"
+ , "c1" : "00311"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.addRatioMetric@POLYN215006 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.connect.runtime.WorkerTask.recordCommitSuccess@POLYN211658 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00324"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#324"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00324] For method recordCommit arguments long  duration|boolean  success|Throwable  error"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00327"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#327"
+ , "c1" : "00311"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.recordCommit@POLYN215554 the MagicNumber/String  1.0d should be converted to const"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.connect.runtime.WorkerTask.recordCommitSuccess@POLYN211658 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00320"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#320"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00320] For method recordCommitFailure arguments long  duration|Throwable  error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00321"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#321"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.connect.runtime.WorkerTask.recordCommitFailure@POLYN212001 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00329"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#329"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00329] For method recordBatch arguments int  size"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00346"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#346"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00346] The argument id is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00346"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#346"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00346] The argument connectMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00364"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.recordCommit@POLYN215554 the MagicNumber/String  0.0d should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00333"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#333"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00333] For method recordBatch arguments int  size"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00338"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#338"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00338] For method onStartup arguments ConnectorTaskId  id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00344"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#344"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00344] For method onFailure arguments ConnectorTaskId  id|Throwable  cause"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00350"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#350"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00350] For method onPause arguments ConnectorTaskId  id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00356"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#356"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00356] For method onResume arguments ConnectorTaskId  id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00362"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#362"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00362] For method onShutdown arguments ConnectorTaskId  id"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.TaskMetricsGroup@POLYN212887 the MagicNumber/String  'commit-time' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00368"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#368"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00368] For method onDeletion arguments ConnectorTaskId  id"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.TaskMetricsGroup@POLYN212887 the MagicNumber/String  'batch-size' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00374"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#374"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00374] For method onRestart arguments ConnectorTaskId  id"
+ , "c1" : "00375"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#375"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.TaskMetricsGroup@POLYN212887 the MagicNumber/String  'offset-commit-completion' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00379"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#379"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00379] For method recordState arguments TargetState  state"
+ , "c3" : "QC-JAV000006[00379] For method addRatioMetric arguments State  matchingState|MetricNameTemplate  template"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00379"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#379"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00379] For method addRatioMetric list of called methods Object monObjet|org.apache.kafka.common.MetricName metricGroup_metricNameN215517"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00381"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#381"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.addRatioMetric@POLYN215396 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00389"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#389"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00389] For method recordCommit arguments long  duration|boolean  success|Throwable  error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00392"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#392"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.recordCommit@POLYN215944 the MagicNumber/String  1.0d should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00394"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#394"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.recordCommit@POLYN215944 the MagicNumber/String  0.0d should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00398"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#398"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00398] For method recordBatch arguments int  size"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00403"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#403"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00403] For method onStartup arguments ConnectorTaskId  id"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00409"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#409"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00409] For method onFailure arguments ConnectorTaskId  id|Throwable  cause"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00415"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#415"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00415] For method onPause arguments ConnectorTaskId  id"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00421"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#421"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00421] For method onResume arguments ConnectorTaskId  id"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00427"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#427"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00427] For method onShutdown arguments ConnectorTaskId  id"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00433"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#433"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00433] For method onDeletion arguments ConnectorTaskId  id"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00439"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#439"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00439] For method onRestart arguments ConnectorTaskId  id"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00444"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#444"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00444] For method recordState arguments TargetState  state"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN206747"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN207137"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.close@POLYN215466"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.close@POLYN215856"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerTask.recordBatch@POLYN211908"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerTask.recordBatch@POLYN212298"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#150"
+ , "c1" : "00192"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#192"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00150] In the recursive method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN206747 the MagicNumber/String '{} After being scheduled for shutdown, the orphan task threw an uncaught exception. A newer instance of this task might be already running' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00192] In the recursive method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN207137 the MagicNumber/String '{} After being scheduled for shutdown, the orphan task threw an uncaught exception. A newer instance of this task might be already running' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#152"
+ , "c1" : "00194"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#194"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN206747 the MagicNumber/String '{} After being scheduled for shutdown, task threw an uncaught exception.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00194] In the recursive method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN207137 the MagicNumber/String '{} After being scheduled for shutdown, task threw an uncaught exception.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#154"
+ , "c1" : "00196"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#196"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00154] In the recursive method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN206747 the MagicNumber/String '{} Task threw an uncaught and unrecoverable exception. Task is being killed and will not recover until manually restarted' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00196] In the recursive method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN207137 the MagicNumber/String '{} Task threw an uncaught and unrecoverable exception. Task is being killed and will not recover until manually restarted' MUST BE CONVERTED to const"
 }} 
 ]
 , 

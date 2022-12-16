@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.timeline.SnapshotRegistry" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#82"
+ , "c5" : "00113"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#113"
  , "c1" : "SnapshotRegistry"
  , "c2" : "SnapshotRegistry(LogContext)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#87"
+ , "c5" : "00121"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#121"
  , "c1" : "Iterator<Snapshot>"
  , "c2" : "iterator()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00092"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#92"
+ , "c5" : "00130"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#130"
  , "c1" : "Iterator<Snapshot>"
  , "c2" : "iterator(long)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#97"
+ , "c5" : "00138"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#138"
  , "c1" : "Iterator<Snapshot>"
  , "c2" : "iterator(Snapshot)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00102"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#102"
+ , "c5" : "00146"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#146"
  , "c1" : "Iterator<Snapshot>"
  , "c2" : "reverseIterator()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00107"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#107"
+ , "c5" : "00153"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#153"
  , "c1" : "List<Long>"
  , "c2" : "epochsList()"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00115"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#115"
+ , "c5" : "00161"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#161"
  , "c1" : "boolean"
  , "c2" : "hasSnapshot(long)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00120"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#120"
+ , "c5" : "00168"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#168"
  , "c1" : "Snapshot"
  , "c2" : "getSnapshot(long)"
  , "c3" : "2"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00131"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#131"
+ , "c5" : "00186"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#186"
  , "c1" : "Snapshot"
  , "c2" : "getOrCreateSnapshot(long)"
  , "c3" : "4"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00147"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#147"
+ , "c5" : "00206"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#206"
  , "c1" : "void"
  , "c2" : "revertToSnapshot(long)"
  , "c3" : "2"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00161"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#161"
+ , "c5" : "00224"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#224"
  , "c1" : "void"
  , "c2" : "deleteSnapshot(long)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00166"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#166"
+ , "c5" : "00233"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#233"
  , "c1" : "void"
  , "c2" : "deleteSnapshot(Snapshot)"
  , "c3" : "3"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00178"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#178"
+ , "c5" : "00249"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#249"
  , "c1" : "void"
  , "c2" : "deleteSnapshotsUpTo(long)"
  , "c3" : "3"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00190"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#190"
+ , "c5" : "00263"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#263"
  , "c1" : "long"
  , "c2" : "latestEpoch()"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00195"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#195"
+ , "c5" : "00270"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#270"
  , "c1" : "void"
  , "c2" : "register(Revertable)"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00200"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#200"
+ , "c5" : "00277"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#277"
  , "c1" : "void"
  , "c2" : "reset()"
  , "c3" : "2"
@@ -231,269 +231,269 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#42"
+ , "c1" : "00064"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.timeline.SnapshotRegistry.SnapshotIterator.remove@POLYN177015 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.timeline.SnapshotRegistry.SnapshotIterator.remove@POLYN177477 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#46"
+ , "c1" : "00068"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.timeline.SnapshotRegistry.SnapshotIterator.remove@POLYN177015 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.timeline.SnapshotRegistry.SnapshotIterator.remove@POLYN177477 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#82"
+ , "c1" : "00113"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#113"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00082] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00113] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#92"
+ , "c1" : "00130"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#130"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method iterator arguments long  epoch"
+ , "c3" : "QC-JAV000006[00130] For method iterator arguments long  epoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#97"
+ , "c1" : "00138"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#138"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method iterator arguments Snapshot  snapshot"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#115"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00115] For method hasSnapshot arguments long  epoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#120"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00120] For method getSnapshot arguments long  epoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#122"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN180477 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN180477 the MagicNumber/String  'No snapshot for epoch ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN180477 the MagicNumber/String  '. Snapshot ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#124"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN180477 the MagicNumber/String  'epochs are: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#125"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN180477 the MagicNumber/String  ', ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#131"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00131] For method getOrCreateSnapshot arguments long  epoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#134"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.timeline.SnapshotRegistry.getOrCreateSnapshot@POLYN181323 the MagicNumber/String  'Can't create a new snapshot at epoch ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#135"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.timeline.SnapshotRegistry.getOrCreateSnapshot@POLYN181323 the MagicNumber/String  ' because there is already a snapshot with epoch ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#142"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.timeline.SnapshotRegistry.getOrCreateSnapshot@POLYN181323 the MagicNumber/String  'Creating snapshot {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#147"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00147] For method revertToSnapshot arguments long  targetEpoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#152"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00152] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.timeline.SnapshotRegistry.revertToSnapshot@POLYN182342 the MagicNumber/String  'Deleting snapshot {} because we are reverting to {}' should be converted to const"
+ , "c3" : "QC-JAV000006[00138] For method iterator arguments Snapshot  snapshot"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00161] For method deleteSnapshot arguments long  targetEpoch"
+ , "c3" : "QC-JAV000006[00161] For method hasSnapshot arguments long  epoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#166"
+ , "c1" : "00168"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#168"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00166] For method deleteSnapshot arguments Snapshot  snapshot"
+ , "c3" : "QC-JAV000006[00168] For method getSnapshot arguments long  epoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#166"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00166] The argument snapshot is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00170"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN180939 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#171"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN180939 the MagicNumber/String  'No snapshot for epoch ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#171"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN180939 the MagicNumber/String  '. Snapshot ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN180939 the MagicNumber/String  'epochs are: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.timeline.SnapshotRegistry.deleteSnapshot@POLYN183355 the MagicNumber/String  'Deleting snapshot {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.timeline.SnapshotRegistry.getSnapshot@POLYN180939 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#178"
+ , "c1" : "00186"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#186"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00178] For method deleteSnapshotsUpTo arguments long  targetEpoch"
+ , "c3" : "QC-JAV000006[00186] For method getOrCreateSnapshot arguments long  epoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#180"
+ , "c1" : "00189"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00180] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#184"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.timeline.SnapshotRegistry.deleteSnapshotsUpTo@POLYN184026 the MagicNumber/String  'Deleting snapshot {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#195"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00195] For method register arguments Revertable  revertable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#87"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00087] Public method iterator is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#92"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00092] Public method iterator is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#97"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00097] Public method iterator is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#102"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00102] Public method reverseIterator is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#107"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00107] Public method epochsList is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#115"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00115] Public method hasSnapshot is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#120"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00120] Public method getSnapshot is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.timeline.SnapshotRegistry.getOrCreateSnapshot@POLYN181785 the MagicNumber/String  'Can't create a new snapshot at epoch ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00190"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.timeline.SnapshotRegistry.getOrCreateSnapshot@POLYN181785 the MagicNumber/String  ' because there is already a snapshot with epoch ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00197"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#197"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.timeline.SnapshotRegistry.getOrCreateSnapshot@POLYN181785 the MagicNumber/String  'Creating snapshot {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00206"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#206"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00206] For method revertToSnapshot arguments long  targetEpoch"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#211"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00211] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00212"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#212"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.timeline.SnapshotRegistry.revertToSnapshot@POLYN182804 the MagicNumber/String  'Deleting snapshot {} because we are reverting to {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00224"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#224"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00224] For method deleteSnapshot arguments long  targetEpoch"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00233"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#233"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00233] For method deleteSnapshot arguments Snapshot  snapshot"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00233"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#233"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00233] The argument snapshot is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#240"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.timeline.SnapshotRegistry.deleteSnapshot@POLYN183817 the MagicNumber/String  'Deleting snapshot {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00249"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#249"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00249] For method deleteSnapshotsUpTo arguments long  targetEpoch"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00251"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#251"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00251] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00255"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#255"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.timeline.SnapshotRegistry.deleteSnapshotsUpTo@POLYN184488 the MagicNumber/String  'Deleting snapshot {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00270"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#270"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00270] For method register arguments Revertable  revertable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#121"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00190] Public method latestEpoch is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00121] Public method iterator is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#130"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00130] Public method iterator is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00138"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#138"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00138] Public method iterator is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00146"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#146"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00146] Public method reverseIterator is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00153"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#153"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00153] Public method epochsList is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#161"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00161] Public method deleteSnapshot is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00161] Public method hasSnapshot is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#195"
+ , "c1" : "00168"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00195] Public method register is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00168] Public method getSnapshot is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#200"
+ , "c1" : "00263"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#263"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00200] Public method reset is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00263] Public method latestEpoch is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00224"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#224"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00224] Public method deleteSnapshot is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00270"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#270"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00270] Public method register is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00277"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#277"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00277] Public method reset is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

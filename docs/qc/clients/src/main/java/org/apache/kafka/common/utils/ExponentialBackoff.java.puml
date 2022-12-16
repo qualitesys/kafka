@@ -2,7 +2,7 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.utils.ExponentialBackoff"
 class org.apache.kafka.common.utils.ExponentialBackoff {
-+ExponentialBackoff(long;int;long;double) : ExponentialBackoff [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ExponentialBackoff.java.html#14]]]
-+backoff(long) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ExponentialBackoff.java.html#22]]]
++ExponentialBackoff(long;int;long;double) : ExponentialBackoff [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ExponentialBackoff.java.html#36]]]
++backoff(long) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ExponentialBackoff.java.html#44]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.BeginQuorumEpochResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#20"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#47"
  , "c1" : "BeginQuorumEpochResponse"
  , "c2" : "BeginQuorumEpochResponse(BeginQuorumEpochResponseData)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#25"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#52"
  , "c1" : "BeginQuorumEpochResponseData"
  , "c2" : "singletonResponse(Errors;TopicPartition;Errors;int;int)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#47"
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#74"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#62"
+ , "c5" : "00089"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#89"
  , "c1" : "BeginQuorumEpochResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#67"
+ , "c5" : "00094"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#94"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#71"
+ , "c5" : "00098"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#98"
  , "c1" : "BeginQuorumEpochResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -157,108 +157,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#25"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method singletonResponse arguments Errors  topLevelError|TopicPartition  topicPartition|Errors  partitionLevelError|int  leaderEpoch|int  leaderId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#26"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00026] The argument topLevelError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#27"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#28"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00028] The argument partitionLevelError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00052] For method singletonResponse arguments Errors  topLevelError|TopicPartition  topicPartition|Errors  partitionLevelError|int  leaderEpoch|int  leaderId"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00053] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00053] The argument topLevelError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN152869 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN152869 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#54"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00054] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN152869 the MagicNumber/String  1 should be converted to const"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00055] The argument partitionLevelError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#55"
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN152869 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000001[00080] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#71"
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153031 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153031 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153031 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153031 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#98"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00071] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00098] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN152869"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153031"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#50"
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#77"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN152869 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153031 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#55"
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#82"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN152869 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153031 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#55"
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#82"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN152869 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153031 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#55"
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#82"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN152869 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153031 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

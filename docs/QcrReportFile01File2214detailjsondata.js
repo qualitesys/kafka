@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.DestroyWorkerRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyWorkerRequest.java.html#13"
+ , "c5" : "00030"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyWorkerRequest.java.html#30"
  , "c1" : "DestroyWorkerRequest"
  , "c2" : "DestroyWorkerRequest(long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyWorkerRequest.java.html#18"
+ , "c5" : "00035"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyWorkerRequest.java.html#35"
  , "c1" : "long"
  , "c2" : "workerId()"
  , "c3" : "1"

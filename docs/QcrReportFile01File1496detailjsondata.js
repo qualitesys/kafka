@@ -486,91 +486,91 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN406382 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN406352 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN406382 the MagicNumber/String  'Illegal Capacity: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN406352 the MagicNumber/String  'Illegal Capacity: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN406382 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN406352 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN406382 the MagicNumber/String  'Illegal Load: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN406352 the MagicNumber/String  'Illegal Load: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN406382 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN406352 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN406382 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN406352 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN406382 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN406352 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN407474 the MagicNumber/String  0.75f should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN407444 the MagicNumber/String  0.75f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN407704 the MagicNumber/String  11 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN407674 the MagicNumber/String  11 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN407704 the MagicNumber/String  0.75f should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN407674 the MagicNumber/String  0.75f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN408082 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN408052 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN408082 the MagicNumber/String  11 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN408052 the MagicNumber/String  11 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN408082 the MagicNumber/String  0.75f should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Hashtable@POLYN408052 the MagicNumber/String  0.75f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -591,7 +591,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.isEmpty@POLYN408943 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.isEmpty@POLYN408913 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -633,35 +633,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.contains@POLYN410468 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.contains@POLYN410438 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.contains@POLYN410468 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.contains@POLYN410438 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.contains@POLYN410468 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.contains@POLYN410438 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.contains@POLYN410468 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.contains@POLYN410438 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.contains@POLYN410468 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.contains@POLYN410438 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -696,28 +696,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.containsKey@POLYN412091 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.containsKey@POLYN412061 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.containsKey@POLYN412091 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.containsKey@POLYN412061 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.containsKey@POLYN412091 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.containsKey@POLYN412061 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.containsKey@POLYN412091 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.containsKey@POLYN412061 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -752,28 +752,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.get@POLYN413554 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.get@POLYN413524 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.get@POLYN413554 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.get@POLYN413524 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.get@POLYN413554 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00001] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.get@POLYN413524 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -808,49 +801,56 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.rehash@POLYN414890 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000001[00001] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.rehash@POLYN414890 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.rehash@POLYN414860 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.rehash@POLYN414890 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.rehash@POLYN414860 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.rehash@POLYN414890 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.rehash@POLYN414860 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.rehash@POLYN414890 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.rehash@POLYN414860 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.rehash@POLYN414890 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.rehash@POLYN414860 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.rehash@POLYN414890 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.rehash@POLYN414860 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.rehash@POLYN414860 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -871,14 +871,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.addEntry@POLYN416775 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.addEntry@POLYN416745 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.addEntry@POLYN416775 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.addEntry@POLYN416745 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -913,35 +913,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.put@POLYN418360 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.put@POLYN418330 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.put@POLYN418360 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.put@POLYN418330 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.put@POLYN418360 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.put@POLYN418330 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.put@POLYN418360 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.put@POLYN418330 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.put@POLYN418360 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.put@POLYN418330 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -976,49 +976,49 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN420028 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN419998 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN420028 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN419998 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN420028 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN419998 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN420028 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN419998 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN420028 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN419998 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN420028 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN419998 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN420028 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN419998 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1046,21 +1046,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clear@POLYN422262 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clear@POLYN422232 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clear@POLYN422262 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clear@POLYN422232 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clear@POLYN422262 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clear@POLYN422232 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1081,49 +1081,49 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clone@POLYN422880 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clone@POLYN422850 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clone@POLYN422880 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clone@POLYN422850 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clone@POLYN422880 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clone@POLYN422850 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clone@POLYN422880 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clone@POLYN422850 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clone@POLYN422880 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clone@POLYN422850 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clone@POLYN422880 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clone@POLYN422850 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clone@POLYN422880 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.clone@POLYN422850 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1158,70 +1158,70 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424528 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424498 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424528 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424498 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424528 the MagicNumber/String  '{}' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424498 the MagicNumber/String  '{}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424528 the MagicNumber/String  '{' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424498 the MagicNumber/String  '{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424528 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424498 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424528 the MagicNumber/String  '(this Map)' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424498 the MagicNumber/String  '(this Map)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424528 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424498 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424528 the MagicNumber/String  '(this Map)' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424498 the MagicNumber/String  '(this Map)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424528 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424498 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424528 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.toString@POLYN424498 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1256,7 +1256,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.keySet@POLYN427859 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.keySet@POLYN427829 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1277,14 +1277,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.KeySet.remove@POLYN428563 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.KeySet.remove@POLYN428533 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.entrySet@POLYN429515 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.entrySet@POLYN429485 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1305,28 +1305,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.contains@POLYN430274 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.contains@POLYN430244 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.contains@POLYN430274 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.contains@POLYN430244 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.contains@POLYN430274 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.contains@POLYN430244 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.contains@POLYN430274 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.contains@POLYN430244 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1340,63 +1340,63 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.remove@POLYN431136 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.remove@POLYN431106 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.remove@POLYN431136 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.remove@POLYN431106 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.remove@POLYN431136 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.remove@POLYN431106 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.remove@POLYN431136 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.remove@POLYN431106 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.remove@POLYN431136 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.remove@POLYN431106 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.remove@POLYN431136 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.remove@POLYN431106 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.remove@POLYN431136 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.remove@POLYN431106 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.remove@POLYN431136 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.EntrySet.remove@POLYN431106 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.values@POLYN433424 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.values@POLYN433394 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1438,63 +1438,63 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434454 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434424 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434454 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434424 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434454 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434424 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434454 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434424 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434454 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434424 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434454 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434424 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434454 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434424 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434454 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434424 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434454 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.equals@POLYN434424 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1508,28 +1508,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.hashCode@POLYN435843 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.hashCode@POLYN435813 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.hashCode@POLYN435843 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.hashCode@POLYN435813 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.hashCode@POLYN435843 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.hashCode@POLYN435813 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.hashCode@POLYN435843 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.hashCode@POLYN435813 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1550,7 +1550,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.getOrDefault@POLYN436985 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.getOrDefault@POLYN436955 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1606,7 +1606,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.forEach@POLYN437350 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.forEach@POLYN437320 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1634,7 +1634,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replaceAll@POLYN438256 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replaceAll@POLYN438226 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1669,35 +1669,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.putIfAbsent@POLYN439264 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.putIfAbsent@POLYN439234 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.putIfAbsent@POLYN439264 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.putIfAbsent@POLYN439234 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.putIfAbsent@POLYN439264 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.putIfAbsent@POLYN439234 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.putIfAbsent@POLYN439264 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.putIfAbsent@POLYN439234 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.putIfAbsent@POLYN439264 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.putIfAbsent@POLYN439234 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1732,56 +1732,56 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN440678 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN440648 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN440678 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN440648 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN440678 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN440648 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN440678 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN440648 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN440678 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN440648 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN440678 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN440648 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN440678 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN440648 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN440678 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.remove@POLYN440648 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1809,42 +1809,42 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN442386 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN442356 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN442386 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN442356 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN442386 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN442356 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN442386 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN442356 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN442386 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN442356 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN442386 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN442356 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1879,28 +1879,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN443783 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN443753 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN443783 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN443753 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN443783 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN443753 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN443783 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.replace@POLYN443753 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1935,28 +1935,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfAbsent@POLYN445213 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfAbsent@POLYN445183 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfAbsent@POLYN445213 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfAbsent@POLYN445183 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfAbsent@POLYN445213 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfAbsent@POLYN445183 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfAbsent@POLYN445213 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfAbsent@POLYN445183 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1998,56 +1998,56 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfPresent@POLYN447031 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfPresent@POLYN447001 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfPresent@POLYN447031 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfPresent@POLYN447001 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfPresent@POLYN447031 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfPresent@POLYN447001 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfPresent@POLYN447031 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfPresent@POLYN447001 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfPresent@POLYN447031 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfPresent@POLYN447001 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfPresent@POLYN447031 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfPresent@POLYN447001 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfPresent@POLYN447031 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfPresent@POLYN447001 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfPresent@POLYN447031 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.computeIfPresent@POLYN447001 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2089,63 +2089,63 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449377 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449347 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449377 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449347 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449377 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449347 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449377 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449347 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449377 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449347 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449377 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449347 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449377 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449347 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449377 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449347 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449377 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.compute@POLYN449347 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2187,56 +2187,56 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.merge@POLYN452247 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.merge@POLYN452217 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.merge@POLYN452247 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.merge@POLYN452217 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.merge@POLYN452247 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.merge@POLYN452217 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.merge@POLYN452247 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.merge@POLYN452217 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.merge@POLYN452247 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.merge@POLYN452217 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.merge@POLYN452247 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.merge@POLYN452217 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.merge@POLYN452247 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.merge@POLYN452217 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.merge@POLYN452247 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.merge@POLYN452217 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2264,28 +2264,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.writeHashtable@POLYN455207 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.writeHashtable@POLYN455177 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.writeHashtable@POLYN455207 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.writeHashtable@POLYN455177 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.writeHashtable@POLYN455207 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.writeHashtable@POLYN455177 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.writeHashtable@POLYN455207 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.writeHashtable@POLYN455177 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2299,7 +2299,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.defaultWriteHashtable@POLYN456418 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.defaultWriteHashtable@POLYN456388 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2348,133 +2348,133 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  'loadFactor' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  'loadFactor' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  0.75f should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  0.75f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  'Illegal load factor: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  'Illegal load factor: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  0.25f should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  0.25f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  4.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  4.0f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  'Illegal # of Elements: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  'Illegal # of Elements: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  20 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  20 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457184 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.readHashtable@POLYN457154 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2509,42 +2509,42 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.reconstitutionPut@POLYN461105 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.reconstitutionPut@POLYN461075 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.reconstitutionPut@POLYN461105 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.reconstitutionPut@POLYN461075 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.reconstitutionPut@POLYN461105 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.reconstitutionPut@POLYN461075 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.reconstitutionPut@POLYN461105 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.reconstitutionPut@POLYN461075 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.clone@POLYN463375 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.clone@POLYN463345 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.clone@POLYN463375 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.clone@POLYN463345 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2558,7 +2558,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.setValue@POLYN463915 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.setValue@POLYN463885 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2572,84 +2572,84 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.equals@POLYN464262 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.equals@POLYN464232 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.equals@POLYN464262 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.equals@POLYN464232 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.equals@POLYN464262 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.equals@POLYN464232 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.equals@POLYN464262 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.equals@POLYN464232 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.toString@POLYN464925 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.toString@POLYN464895 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.hasMoreElements@POLYN466505 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.hasMoreElements@POLYN466475 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.hasMoreElements@POLYN466505 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.hasMoreElements@POLYN466475 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.hasMoreElements@POLYN466505 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.hasMoreElements@POLYN466475 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.nextElement@POLYN467203 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.nextElement@POLYN467173 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.nextElement@POLYN467203 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.nextElement@POLYN467173 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.nextElement@POLYN467203 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.nextElement@POLYN467173 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.nextElement@POLYN467203 the MagicNumber/String  'Hashtable Enumerator' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.nextElement@POLYN467173 the MagicNumber/String  'Hashtable Enumerator' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2663,56 +2663,56 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.remove@POLYN468690 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.remove@POLYN468660 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.remove@POLYN468690 the MagicNumber/String  'Hashtable Enumerator' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.remove@POLYN468660 the MagicNumber/String  'Hashtable Enumerator' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.remove@POLYN468690 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.remove@POLYN468660 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.remove@POLYN468690 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.remove@POLYN468660 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.remove@POLYN468690 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.remove@POLYN468660 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.remove@POLYN468690 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.remove@POLYN468660 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.remove@POLYN468690 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.remove@POLYN468660 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.remove@POLYN468690 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Enumerator.remove@POLYN468660 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

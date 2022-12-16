@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.ThreadUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ThreadUtils.java.html#11"
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ThreadUtils.java.html#36"
  , "c1" : "ThreadFactory"
  , "c2" : "createThreadFactory(String;boolean)"
  , "c3" : "3"
@@ -89,45 +89,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ThreadUtils.java.html#11"
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ThreadUtils.java.html#36"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00011] For method createThreadFactory arguments String  pattern|boolean  daemon"
+ , "c3" : "QC-JAV000006[00036] For method createThreadFactory arguments String  pattern|boolean  daemon"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ThreadUtils.java.html#11"
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ThreadUtils.java.html#36"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00011] For method createThreadFactory list of called methods Object monObjet|java.lang.String String_formatN145810"
+ , "c3" : "QC-JAV000007[00036] For method createThreadFactory list of called methods Object monObjet|java.lang.String String_formatN145960"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ThreadUtils.java.html#11"
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ThreadUtils.java.html#36"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00011] The argument pattern is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00036] The argument pattern is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ThreadUtils.java.html#14"
+ , "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ThreadUtils.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.utils.ThreadUtils.createThreadFactory@POLYN145311 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.utils.ThreadUtils.createThreadFactory@POLYN145461 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ThreadUtils.java.html#19"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ThreadUtils.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.utils.ThreadUtils.createThreadFactory@POLYN145311 the MagicNumber/String  '%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.utils.ThreadUtils.createThreadFactory@POLYN145461 the MagicNumber/String  '%d' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ThreadUtils.java.html#20"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ThreadUtils.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.utils.ThreadUtils.createThreadFactory@POLYN145311 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.utils.ThreadUtils.createThreadFactory@POLYN145461 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 , 

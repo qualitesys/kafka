@@ -2,9 +2,9 @@
 !pragma layout smetana
 "KStreamAggProcessorSupplier<KIn,VIn,KIn,VAgg>" <|-- "org.apache.kafka.streams.kstream.internals.KStreamAggregate"
 class org.apache.kafka.streams.kstream.internals.KStreamAggregate {
-KStreamAggregate(String;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>) : KStreamAggregate [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#31]]]
-+get() : Processor<KIn,VIn,KIn,Change<VAgg>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#40]]]
-+enableSendingOldValues() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#45]]]
-+view() : KTableValueGetterSupplier<KIn,VAgg> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#114]]]
+KStreamAggregate(String;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>) : KStreamAggregate [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#46]]]
++get() : Processor<KIn,VIn,KIn,Change<VAgg>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#55]]]
++enableSendingOldValues() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#60]]]
++view() : KTableValueGetterSupplier<KIn,VAgg> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#129]]]
 } 
 @enduml

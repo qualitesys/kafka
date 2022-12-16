@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.ConnectMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#48"
+ , "c5" : "00072"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#72"
  , "c1" : "ConnectMetrics"
  , "c2" : "ConnectMetrics(String;WorkerConfig;Time;String)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#79"
+ , "c5" : "00107"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#107"
  , "c1" : "String"
  , "c2" : "workerId()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#84"
+ , "c5" : "00117"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#117"
  , "c1" : "Metrics"
  , "c2" : "metrics()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#89"
+ , "c5" : "00126"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#126"
  , "c1" : "ConnectMetricsRegistry"
  , "c2" : "registry()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#94"
+ , "c5" : "00139"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#139"
  , "c1" : "MetricGroup"
  , "c2" : "group(String;String...)"
  , "c3" : "3"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00106"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#106"
+ , "c5" : "00151"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#151"
  , "c1" : "MetricGroupId"
  , "c2" : "groupId(String;String...)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#112"
+ , "c5" : "00161"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#161"
  , "c1" : "Time"
  , "c2" : "time()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00117"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#117"
+ , "c5" : "00168"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#168"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00280"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#280"
+ , "c5" : "00438"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#438"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "1"
@@ -198,311 +198,311 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#48"
+ , "c1" : "00072"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#72"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00048] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00072] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#48"
+ , "c1" : "00072"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#72"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00048] The argument time is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00072] The argument time is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#68"
+ , "c1" : "00092"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.runtime.ConnectMetrics.ConnectMetrics@POLYN216098 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.runtime.ConnectMetrics.ConnectMetrics@POLYN217046 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#74"
+ , "c1" : "00098"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.runtime.ConnectMetrics.ConnectMetrics@POLYN216098 the MagicNumber/String  'Registering Connect metrics with JMX for worker '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.runtime.ConnectMetrics.ConnectMetrics@POLYN217046 the MagicNumber/String  'Registering Connect metrics with JMX for worker '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#94"
+ , "c1" : "00139"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#139"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00094] For method group arguments String  groupName|String  ...tagKeyValues"
+ , "c3" : "QC-JAV000006[00139] For method group arguments String  groupName|String  ...tagKeyValues"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#97"
+ , "c1" : "00142"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.runtime.ConnectMetrics.group@POLYN219371 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.connect.runtime.ConnectMetrics.group@POLYN220319 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#100"
+ , "c1" : "00145"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.runtime.ConnectMetrics.group@POLYN219371 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.connect.runtime.ConnectMetrics.group@POLYN220319 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#106"
+ , "c1" : "00151"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#151"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00106] For method groupId arguments String  groupName|String  ...tagKeyValues"
+ , "c3" : "QC-JAV000006[00151] For method groupId arguments String  groupName|String  ...tagKeyValues"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#106"
+ , "c1" : "00151"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#151"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00106] For method groupId list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; MetricsUtils_getTagsN220267"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#119"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.runtime.ConnectMetrics.stop@POLYN220622 the MagicNumber/String  'Unregistering Connect metrics with JMX for worker '{}'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#129"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00129] The argument tags is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#137"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.MetricGroupId@POLYN221176 the MagicNumber/String  ';' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#137"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.MetricGroupId@POLYN221176 the MagicNumber/String  '=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#153"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00153] For method includes arguments MetricName  metricName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#154"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.includes@POLYN222897 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#163"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00163] For method equals arguments Object  obj"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#165"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.equals@POLYN223305 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000007[00151] For method groupId list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; MetricsUtils_getTagsN221215"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.equals@POLYN223305 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.ConnectMetrics.stop@POLYN221570 the MagicNumber/String  'Unregistering Connect metrics with JMX for worker '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#189"
+ , "c1" : "00180"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#180"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00180] The argument tags is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.MetricGroup@POLYN224576 the MagicNumber/String  'connect-sensor-group: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.MetricGroupId@POLYN222124 the MagicNumber/String  ';' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#189"
+ , "c1" : "00188"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.MetricGroup@POLYN224576 the MagicNumber/String  ';' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.MetricGroupId@POLYN222124 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#198"
+ , "c1" : "00217"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#217"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00198] For method metricName arguments MetricNameTemplate  template"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#203"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00203] For method metricName arguments String  name"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#204"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.metricName@POLYN225416 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000006[00217] For method includes arguments MetricName  metricName"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#218"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.includes@POLYN223845 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00227"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#227"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00227] For method equals arguments Object  obj"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00229"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#229"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.equals@POLYN224253 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00234"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#234"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroupId.equals@POLYN224253 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00263"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#263"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.MetricGroup@POLYN225524 the MagicNumber/String  'connect-sensor-group: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00263"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#263"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.MetricGroup@POLYN225524 the MagicNumber/String  ';' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00282"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#282"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00282] For method metricName arguments MetricNameTemplate  template"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00287"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#287"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00287] For method metricName arguments String  name"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00288"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#288"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.metricName@POLYN226364 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00320"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#320"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00218] The argument supplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00320] The argument supplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#220"
+ , "c1" : "00322"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#322"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00226"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#226"
+ , "c1" : "00334"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#230"
+ , "c1" : "00344"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#344"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00230] For method sensor arguments String  name"
+ , "c3" : "QC-JAV000006[00344] For method sensor arguments String  name"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00231"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#231"
+ , "c1" : "00345"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.sensor@POLYN227713 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.sensor@POLYN228661 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#235"
+ , "c1" : "00355"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#355"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00235] For method sensor arguments String  name|Sensor  ...parents"
+ , "c3" : "QC-JAV000006[00355] For method sensor arguments String  name|Sensor  ...parents"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#236"
+ , "c1" : "00356"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#356"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.sensor@POLYN228060 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.sensor@POLYN229008 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#240"
+ , "c1" : "00368"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#368"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00240] For method sensor arguments String  name|Sensor.RecordingLevel  recordingLevel|Sensor  ...parents"
+ , "c3" : "QC-JAV000006[00368] For method sensor arguments String  name|Sensor.RecordingLevel  recordingLevel|Sensor  ...parents"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#241"
+ , "c1" : "00369"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#369"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.sensor@POLYN228538 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.sensor@POLYN229486 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#245"
+ , "c1" : "00381"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#381"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00245] For method sensor arguments String  name|MetricConfig  config|Sensor  ...parents"
+ , "c3" : "QC-JAV000006[00381] For method sensor arguments String  name|MetricConfig  config|Sensor  ...parents"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#250"
+ , "c1" : "00395"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#395"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00250] Lock statement on synchronized method sensor"
+ , "c3" : "QC-JAV000019[00395] Lock statement on synchronized method sensor"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#250"
+ , "c1" : "00395"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#395"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00250] For method sensor arguments String  name|MetricConfig  config|Sensor.RecordingLevel  recordingLevel|Sensor  ...parents"
+ , "c3" : "QC-JAV000006[00395] For method sensor arguments String  name|MetricConfig  config|Sensor.RecordingLevel  recordingLevel|Sensor  ...parents"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#253"
+ , "c1" : "00398"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#398"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.sensor@POLYN229644 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.sensor@POLYN230592 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00259"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#259"
+ , "c1" : "00406"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#406"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00259] Lock statement on synchronized method close"
+ , "c3" : "QC-JAV000019[00406] Lock statement on synchronized method close"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00280"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#280"
+ , "c1" : "00438"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#438"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00280] For method main arguments String[]  args"
+ , "c3" : "QC-JAV000006[00438] For method main arguments String[]  args"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#89"
+ , "c1" : "00126"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#126"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00089] Public method registry is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00126] Public method registry is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#94"
+ , "c1" : "00139"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#139"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00094] Public method group is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00139] Public method group is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.metricName@POLYN225416"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.metricName@POLYN226364"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.metricName@POLYN225232"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.metricName@POLYN226180"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.tags@POLYN226180"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.tags@POLYN227128"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#204"
+ , "c1" : "00288"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#288"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.metricName@POLYN225416 the MagicNumber/String '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00288] In the recursive method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.metricName@POLYN226364 the MagicNumber/String '' MUST BE CONVERTED to const"
 }} 
 ]
 , 

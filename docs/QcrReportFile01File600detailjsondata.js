@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.AllocateProducerIdsResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#18"
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#33"
  , "c1" : "AllocateProducerIdsResponse"
  , "c2" : "AllocateProducerIdsResponse(AllocateProducerIdsResponseData)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#24"
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#39"
  , "c1" : "AllocateProducerIdsResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#30"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#50"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#35"
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#55"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#39"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#59"
  , "c1" : "AllocateProducerIdsResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -127,24 +127,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#31"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.requests.AllocateProducerIdsResponse.errorCounts@POLYN146972 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.requests.AllocateProducerIdsResponse.errorCounts@POLYN147092 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#39"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00059] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AllocateProducerIdsResponse.throttleTimeMs@POLYN147194"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AllocateProducerIdsResponse.throttleTimeMs@POLYN147314"
 }} 
 ]
 , 

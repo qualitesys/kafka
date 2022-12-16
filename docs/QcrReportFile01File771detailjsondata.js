@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#26"
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#46"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;String;List<AppConfigurationEntry>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#31"
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#51"
  , "c1" : "void"
  , "c2" : "handle(Callback[])"
  , "c3" : "6"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#42"
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#62"
  , "c1" : "void"
  , "c2" : "handleRealmCallback(RealmCallback)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#47"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#67"
  , "c1" : "void"
  , "c2" : "handleAuthorizeCallback(AuthorizeCallback)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#57"
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#77"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -139,108 +139,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#26"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method configure arguments Map&lt;String ,? &gt;  configs|String  mechanism|List&lt;AppConfigurationEntry &gt;  jaasConfigEntries"
+ , "c3" : "QC-JAV000006[00046] For method configure arguments Map&lt;String ,? &gt;  configs|String  mechanism|List&lt;AppConfigurationEntry &gt;  jaasConfigEntries"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#31"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method handle arguments Callback[]  callbacks"
+ , "c3" : "QC-JAV000006[00051] For method handle arguments Callback[]  callbacks"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#33"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00033] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00053] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#34"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00034] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00054] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#35"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00035] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00055] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#36"
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00036] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00056] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#42"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method handleRealmCallback arguments RealmCallback  rc"
+ , "c3" : "QC-JAV000006[00062] For method handleRealmCallback arguments RealmCallback  rc"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#42"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#62"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00042] The argument rc is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00062] The argument rc is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#43"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleRealmCallback@POLYN151151 the MagicNumber/String  'Client supplied realm: {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleRealmCallback@POLYN151271 the MagicNumber/String  'Client supplied realm: {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#47"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method handleAuthorizeCallback arguments AuthorizeCallback  ac"
+ , "c3" : "QC-JAV000006[00067] For method handleAuthorizeCallback arguments AuthorizeCallback  ac"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#47"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#67"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00047] The argument ac is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00067] The argument ac is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#50"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleAuthorizeCallback@POLYN151420 the MagicNumber/String  'Successfully authenticated client: authenticationID={}; authorizationID={}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleAuthorizeCallback@POLYN151540 the MagicNumber/String  'Successfully authenticated client: authenticationID={}; authorizationID={}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#52"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleAuthorizeCallback@POLYN151420 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleAuthorizeCallback@POLYN151540 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#57"
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#77"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00057] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00077] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#57"
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#77"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00057] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00077] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

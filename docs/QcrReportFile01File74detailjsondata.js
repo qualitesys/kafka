@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeConfigsOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#18"
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#41"
  , "c1" : "DescribeConfigsOptions"
  , "c2" : "timeoutMs(Integer)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#24"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#49"
  , "c1" : "boolean"
  , "c2" : "includeSynonyms()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#29"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#56"
  , "c1" : "boolean"
  , "c2" : "includeDocumentation()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#34"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#63"
  , "c1" : "DescribeConfigsOptions"
  , "c2" : "includeSynonyms(boolean)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#40"
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#71"
  , "c1" : "DescribeConfigsOptions"
  , "c2" : "includeDocumentation(boolean)"
  , "c3" : "1"
@@ -104,24 +104,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#18"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method timeoutMs arguments Integer  timeoutMs"
+ , "c3" : "QC-JAV000006[00041] For method timeoutMs arguments Integer  timeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#34"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method includeSynonyms arguments boolean  includeSynonyms"
+ , "c3" : "QC-JAV000006[00063] For method includeSynonyms arguments boolean  includeSynonyms"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#40"
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method includeDocumentation arguments boolean  includeDocumentation"
+ , "c3" : "QC-JAV000006[00071] For method includeDocumentation arguments boolean  includeDocumentation"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.LeaderAndEpoch" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#12"
+ , "c5" : "00027"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#27"
  , "c1" : "LeaderAndEpoch"
  , "c2" : "LeaderAndEpoch(OptionalInt;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#32"
  , "c1" : "OptionalInt"
  , "c2" : "leaderId()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#21"
+ , "c5" : "00036"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#36"
  , "c1" : "int"
  , "c2" : "epoch()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#25"
+ , "c5" : "00040"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#40"
  , "c1" : "boolean"
  , "c2" : "isLeader(int)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#30"
+ , "c5" : "00045"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#45"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#39"
+ , "c5" : "00054"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#54"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#44"
+ , "c5" : "00059"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#59"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -136,73 +136,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method isLeader arguments int  nodeId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#30"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00032] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.raft.LeaderAndEpoch.equals@POLYN146202 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.raft.LeaderAndEpoch.equals@POLYN146202 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.raft.LeaderAndEpoch.equals@POLYN146202 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000006[00040] For method isLeader arguments int  nodeId"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN146916 the MagicNumber/String  'LeaderAndEpoch(' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN146916 the MagicNumber/String  'leaderId=' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00045] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN146916 the MagicNumber/String  ', epoch=' should be converted to const"
+ , "c3" : "QC-JAV000021[00047] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#48"
+ , "c1" : "00046"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN146916 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.raft.LeaderAndEpoch.equals@POLYN146292 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#47"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.raft.LeaderAndEpoch.equals@POLYN146292 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#47"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.raft.LeaderAndEpoch.equals@POLYN146292 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN147006 the MagicNumber/String  'LeaderAndEpoch(' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#61"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN147006 the MagicNumber/String  'leaderId=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#62"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN147006 the MagicNumber/String  ', epoch=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN147006 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

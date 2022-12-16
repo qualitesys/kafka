@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.StoreQueryUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#79"
+ , "c5" : "00098"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#98"
  , "c1" : "StoreQueryUtils"
  , "c2" : "StoreQueryUtils()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00120"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#120"
+ , "c5" : "00139"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#139"
  , "c1" : "void"
  , "c2" : "updatePosition(Position;StateStoreContext)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00132"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#132"
+ , "c5" : "00151"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#151"
  , "c1" : "boolean"
  , "c2" : "isPermitted(Position;PositionBound;int)"
  , "c3" : "7"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00330"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#330"
+ , "c5" : "00349"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#349"
  , "c1" : "void"
  , "c2" : "checkpointPosition(OffsetCheckpoint;Position)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00339"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#339"
+ , "c5" : "00358"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#358"
  , "c1" : "Position"
  , "c2" : "readPositionFromCheckpoint(OffsetCheckpoint)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00347"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#347"
+ , "c5" : "00366"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#366"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "positionToTopicPartitionMap(Position)"
  , "c3" : "3"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00360"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#360"
+ , "c5" : "00379"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#379"
  , "c1" : "Position"
  , "c2" : "topicPartitionMapToPosition(Map<TopicPartition,Long>)"
  , "c3" : "2"
@@ -150,486 +150,486 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#83"
+ , "c1" : "00102"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#102"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00083] The argument query is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00102] The argument query is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#85"
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#104"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00085] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00104] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#86"
+ , "c1" : "00105"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#105"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00086] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00105] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#91"
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#95"
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#97"
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#101"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#101"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#113"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  'Handled in ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#113"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' in ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#113"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  'ns' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#120"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00120] For method updatePosition arguments Position  position|StateStoreContext  stateStoreContext"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#120"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00120] For method updatePosition list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.streams.processor.api.RecordMetadata&gt; stateStoreContext_recordMetadataN210267"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#121"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00121] The argument position is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.updatePosition@POLYN210003 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.updatePosition@POLYN210003 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#132"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00132] For method isPermitted arguments Position  position|PositionBound  positionBound|int  partition"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  'Handled in ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#132"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00132] For method isPermitted list of called methods Object monObjet|org.apache.kafka.streams.query.Position positionBound_positionN210780|java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; position_getPartitionPositionsN211130"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' in ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#133"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00133] The argument position is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#134"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00134] The argument positionBound is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#132"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  'ns' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#139"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00139] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00139] For method updatePosition arguments Position  position|StateStoreContext  stateStoreContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#139"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00139] For method updatePosition list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.streams.processor.api.RecordMetadata&gt; stateStoreContext_recordMetadataN210381"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00140] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00140] The argument position is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#146"
+ , "c1" : "00143"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.isPermitted@POLYN210619 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.updatePosition@POLYN210117 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#149"
+ , "c1" : "00145"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.isPermitted@POLYN210619 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.updatePosition@POLYN210117 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00151"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#151"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00151] For method isPermitted arguments Position  position|PositionBound  positionBound|int  partition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00151"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#151"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00151] For method isPermitted list of called methods Object monObjet|org.apache.kafka.streams.query.Position positionBound_positionN210894|java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; position_getPartitionPositionsN211244"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00152"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#152"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00152] The argument position is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.isPermitted@POLYN210619 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#175"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#175"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00216"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#216"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00216] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00153] The argument positionBound is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00232"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#232"
+ , "c1" : "00158"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  'This store (' should be converted to const"
+ , "c3" : "QC-JAV000001[00158] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00232"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#232"
+ , "c1" : "00159"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') doesn't know how to' should be converted to const"
+ , "c3" : "QC-JAV000001[00159] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#233"
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' execute the given query (' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.isPermitted@POLYN210733 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#233"
+ , "c1" : "00168"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') because it only supports' should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.isPermitted@POLYN210733 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00234"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#234"
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' closed-range queries.' should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.isPermitted@POLYN210733 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00194"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#194"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00194"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#194"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00235"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#235"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' Contact the store maintainer if you need support' should be converted to const"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00235] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#236"
+ , "c1" : "00251"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#251"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' for a new query type.' should be converted to const"
+ , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  'This store (' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00251"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#251"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') doesn't know how to' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00252"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#252"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00252] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' execute the given query (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00269"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#269"
+ , "c1" : "00252"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  'This store (' should be converted to const"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') because it only supports' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00269"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#269"
+ , "c1" : "00253"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') doesn't know how to' should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' closed-range queries.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00270"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#270"
+ , "c1" : "00254"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' execute the given query (' should be converted to const"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' Contact the store maintainer if you need support' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00270"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#270"
+ , "c1" : "00255"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') because' should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' for a new query type.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#271"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' WindowStores only supports WindowRangeQuery.withWindowStartRange.' should be converted to const"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00271] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00272"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#272"
+ , "c1" : "00288"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' Contact the store maintainer if you need support' should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  'This store (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00273"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#273"
+ , "c1" : "00288"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' for a new query type.' should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') doesn't know how to' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00295"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#295"
+ , "c1" : "00289"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#289"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  'This store (' should be converted to const"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' execute the given query (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00295"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#295"
+ , "c1" : "00289"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#289"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') doesn't know how to' should be converted to const"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') because' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00296"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#296"
+ , "c1" : "00290"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' execute the given query (' should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' WindowStores only supports WindowRangeQuery.withWindowStartRange.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00296"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#296"
+ , "c1" : "00291"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') because' should be converted to const"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' Contact the store maintainer if you need support' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#297"
+ , "c1" : "00292"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' SessionStores only support WindowRangeQuery.withKey.' should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' for a new query type.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00298"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#298"
+ , "c1" : "00314"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' Contact the store maintainer if you need support' should be converted to const"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  'This store (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00299"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#299"
+ , "c1" : "00314"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' for a new query type.' should be converted to const"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') doesn't know how to' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00315"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#315"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' execute the given query (' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00315"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#315"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') because' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00316"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#316"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' SessionStores only support WindowRangeQuery.withKey.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00317"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#317"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' Contact the store maintainer if you need support' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00318"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#318"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' for a new query type.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00334"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#334"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00315] The argument serdes is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00334] The argument serdes is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00330"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#330"
+ , "c1" : "00349"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#349"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00330] For method checkpointPosition arguments OffsetCheckpoint  checkpointFile|Position  position"
+ , "c3" : "QC-JAV000006[00349] For method checkpointPosition arguments OffsetCheckpoint  checkpointFile|Position  position"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00330"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#330"
+ , "c1" : "00349"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#349"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00330] The argument checkpointFile is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00349] The argument checkpointFile is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00335"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#335"
+ , "c1" : "00354"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.checkpointPosition@POLYN221412 the MagicNumber/String  'Error writing checkpoint file' should be converted to const"
+ , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.checkpointPosition@POLYN221526 the MagicNumber/String  'Error writing checkpoint file' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00339"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#339"
+ , "c1" : "00358"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#358"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00339] For method readPositionFromCheckpoint arguments OffsetCheckpoint  checkpointFile"
+ , "c3" : "QC-JAV000006[00358] For method readPositionFromCheckpoint arguments OffsetCheckpoint  checkpointFile"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00339"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#339"
+ , "c1" : "00358"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#358"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00339] The argument checkpointFile is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00358] The argument checkpointFile is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00343"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#343"
+ , "c1" : "00362"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.readPositionFromCheckpoint@POLYN221787 the MagicNumber/String  'Error reading checkpoint file' should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.readPositionFromCheckpoint@POLYN221901 the MagicNumber/String  'Error reading checkpoint file' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00347"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#347"
+ , "c1" : "00366"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#366"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00347] For method positionToTopicPartitionMap arguments Position  position"
+ , "c3" : "QC-JAV000006[00366] For method positionToTopicPartitionMap arguments Position  position"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00347"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#347"
+ , "c1" : "00366"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#366"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00347] For method positionToTopicPartitionMap list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; position_getTopicsN222409|java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; position_getPartitionPositionsN222603"
+ , "c3" : "QC-JAV000007[00366] For method positionToTopicPartitionMap list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; position_getTopicsN222523|java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; position_getPartitionPositionsN222717"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00347"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#347"
+ , "c1" : "00366"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#366"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00347] The argument position is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00351"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#351"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00351] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00352"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#352"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00352] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00353"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#353"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00353] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00353"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#353"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00353] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00360"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#360"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00360] For method topicPartitionMapToPosition arguments Map&lt;TopicPartition ,Long &gt;  topicPartitions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00360"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#360"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00360] The argument topicPartitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00366] The argument position is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00370"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#370"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00370] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00371"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#371"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00371] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00372"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#372"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00372] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00372"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#372"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00372] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00379"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#379"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00379] For method topicPartitionMapToPosition arguments Map&lt;TopicPartition ,Long &gt;  topicPartitions"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00379"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#379"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00370] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00379] The argument topicPartitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00374"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#374"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' failed to handle query ' should be converted to const"
+ , "c1" : "00389"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#389"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00389] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00374"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#374"
+ , "c1" : "00393"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#393"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' failed to handle query ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00393"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#393"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ':' should be converted to const"
 }} 
 ]
 , 

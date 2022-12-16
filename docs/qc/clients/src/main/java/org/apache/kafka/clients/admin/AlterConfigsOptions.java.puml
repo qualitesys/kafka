@@ -2,8 +2,8 @@
 !pragma layout smetana
 "AbstractOptions<AlterConfigsOptions>" <|-- "org.apache.kafka.clients.admin.AlterConfigsOptions"
 class org.apache.kafka.clients.admin.AlterConfigsOptions {
-+timeoutMs(Integer) : AlterConfigsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsOptions.java.html#17]]]
-+shouldValidateOnly() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsOptions.java.html#23]]]
-+validateOnly(boolean) : AlterConfigsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsOptions.java.html#28]]]
++timeoutMs(Integer) : AlterConfigsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsOptions.java.html#40]]]
++shouldValidateOnly() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsOptions.java.html#48]]]
++validateOnly(boolean) : AlterConfigsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsOptions.java.html#55]]]
 } 
 @enduml

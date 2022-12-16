@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.shell.PwdCommandHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#54"
+ , "c5" : "00071"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#71"
  , "c1" : "void"
  , "c2" : "run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#63"
+ , "c5" : "00080"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#80"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#68"
+ , "c5" : "00085"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#85"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -114,122 +114,122 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#23"
+ , "c1" : "00040"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.shell.PwdCommandHandler.PwdCommandType.name@POLYN147070 the MagicNumber/String  'pwd' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.shell.PwdCommandHandler.PwdCommandType.name@POLYN147172 the MagicNumber/String  'pwd' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#28"
+ , "c1" : "00045"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.shell.PwdCommandHandler.PwdCommandType.description@POLYN147172 the MagicNumber/String  'Print the current working directory.' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.shell.PwdCommandHandler.PwdCommandType.description@POLYN147274 the MagicNumber/String  'Print the current working directory.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#33"
+ , "c1" : "00050"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.shell.PwdCommandHandler.PwdCommandType.shellOnly@POLYN147274 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#37"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method addArguments arguments ArgumentParser  parser"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#42"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method createHandler arguments Namespace  namespace"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#47"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String &gt;  nextWords|List&lt;Candidate &gt;  candidates"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#37"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00037] Void method addArguments is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#37"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00037] Void method addArguments is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#47"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00047] Void method completeNext is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#47"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00047] Void method completeNext is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.shell.PwdCommandHandler.PwdCommandType.shellOnly@POLYN147376 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
+ , "c3" : "QC-JAV000006[00054] For method addArguments arguments ArgumentParser  parser"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#55"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00055] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#56"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00056] The argument manager is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00059"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#59"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00059] For method createHandler arguments Namespace  namespace"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.shell.PwdCommandHandler.hashCode@POLYN148125 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method equals arguments Object  other"
+ , "c3" : "QC-JAV000006[00064] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String &gt;  nextWords|List&lt;Candidate &gt;  candidates"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.PwdCommandHandler.equals@POLYN148227 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00054"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#54"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00054] Void method addArguments is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#70"
+ , "c1" : "00054"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#54"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00054] Void method addArguments is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#64"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00064] Void method completeNext is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#64"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00064] Void method completeNext is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#71"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00071] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#72"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00072] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#73"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00073] The argument manager is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.shell.PwdCommandHandler.equals@POLYN148227 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.shell.PwdCommandHandler.hashCode@POLYN148227 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#85"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00085] For method equals arguments Object  other"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.shell.PwdCommandHandler.equals@POLYN148329 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.shell.PwdCommandHandler.equals@POLYN148329 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

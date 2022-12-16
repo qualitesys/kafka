@@ -2,13 +2,13 @@
 !pragma layout smetana
 "LoginModule" <|-- "org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule"
 class org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule {
-+initialize(Subject;CallbackHandler;Map<String,?>;Map<String,?>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerLoginModule.java.html#55]]]
-+login() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerLoginModule.java.html#65]]]
--identifyToken() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerLoginModule.java.html#94]]]
--identifyExtensions() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerLoginModule.java.html#112]]]
-+logout() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerLoginModule.java.html#131]]]
-+commit() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerLoginModule.java.html#166]]]
-+abort() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerLoginModule.java.html#192]]]
--committedTokenCount() : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerLoginModule.java.html#204]]]
++initialize(Subject;CallbackHandler;Map<String,?>;Map<String,?>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerLoginModule.java.html#274]]]
++login() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerLoginModule.java.html#284]]]
+-identifyToken() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerLoginModule.java.html#313]]]
+-identifyExtensions() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerLoginModule.java.html#333]]]
++logout() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerLoginModule.java.html#352]]]
++commit() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerLoginModule.java.html#387]]]
++abort() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerLoginModule.java.html#413]]]
+-committedTokenCount() : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerLoginModule.java.html#425]]]
 } 
 @enduml

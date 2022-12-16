@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.ConnectionStressWorker" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#76"
+ , "c5" : "00091"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#91"
  , "c1" : "ConnectionStressWorker"
  , "c2" : "ConnectionStressWorker(String;ConnectionStressSpec)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#82"
+ , "c5" : "00097"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#97"
  , "c1" : "void"
  , "c2" : "start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00285"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#285"
+ , "c5" : "00300"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#300"
  , "c1" : "void"
  , "c2" : "stop(Platform)"
  , "c3" : "2"
@@ -158,612 +158,612 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#82"
+ , "c1" : "00097"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String &gt;  doneFuture"
+ , "c3" : "QC-JAV000006[00097] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String &gt;  doneFuture"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#90"
+ , "c1" : "00105"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#105"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00090] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00105] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#84"
+ , "c1" : "00099"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#84"
+ , "c1" : "00099"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#85"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String  'ConnectionStressWorker is already running.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#87"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String  '{}: Activating ConnectionStressWorker with {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String  'StatusUpdaterWorkerThread%d' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#98"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String  'ConnectionStressWorkerThread%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String  'ConnectionStressWorker is already running.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#100"
+ , "c1" : "00102"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String  '{}: Activating ConnectionStressWorker with {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#101"
+ , "c1" : "00106"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String  'StatusUpdaterWorkerThread%d' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String  'ConnectionStressWorkerThread%d' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#128"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00113] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00128] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#131"
+ , "c1" : "00146"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#146"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00131] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00146] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#151"
+ , "c1" : "00166"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190522 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190612 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#154"
+ , "c1" : "00169"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190522 the MagicNumber/String  'ConnectionStressWorker' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190612 the MagicNumber/String  'ConnectionStressWorker' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#155"
+ , "c1" : "00170"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190522 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#156"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190522 the MagicNumber/String  1000 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#157"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190522 the MagicNumber/String  1000 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#158"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190522 the MagicNumber/String  4096 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#159"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190522 the MagicNumber/String  4096 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#160"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190522 the MagicNumber/String  1000 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#161"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190522 the MagicNumber/String  10 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#161"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190522 the MagicNumber/String  1000 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#162"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190522 the MagicNumber/String  127 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#162"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190522 the MagicNumber/String  1000 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#164"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190522 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#167"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190522 the MagicNumber/String  500 should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190612 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00171"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190522 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190612 the MagicNumber/String  1000 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190612 the MagicNumber/String  1000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190522 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190612 the MagicNumber/String  4096 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00174"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#174"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190612 the MagicNumber/String  4096 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#175"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190612 the MagicNumber/String  1000 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00176"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#176"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190612 the MagicNumber/String  10 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00176"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#176"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190612 the MagicNumber/String  1000 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190612 the MagicNumber/String  127 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190612 the MagicNumber/String  1000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00179"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.close@POLYN192145 the MagicNumber/String  'ManualMetadataUpdater' should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190612 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00182"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#182"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190612 the MagicNumber/String  500 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#186"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00186] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190612 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#197"
+ , "c1" : "00188"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.FetchMetadataStressor.tryConnect@POLYN192843 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.tryConnect@POLYN190612 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#199"
+ , "c1" : "00194"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.FetchMetadataStressor.tryConnect@POLYN192843 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectStressor.close@POLYN192235 the MagicNumber/String  'ManualMetadataUpdater' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#201"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00201] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00212"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.FetchMetadataStressor.tryConnect@POLYN192843 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.FetchMetadataStressor.tryConnect@POLYN192933 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#205"
+ , "c1" : "00214"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#214"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.FetchMetadataStressor.tryConnect@POLYN192933 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00216"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#216"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.FetchMetadataStressor.tryConnect@POLYN192933 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00220"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#220"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00205] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00220] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#205"
+ , "c1" : "00220"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#220"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00205] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00220] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#211"
+ , "c1" : "00226"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#226"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00211] For method run list of called methods Object monObjet|int WorkerUtils_perSecToPerPeriodN193596"
+ , "c3" : "QC-JAV000007[00226] For method run list of called methods Object monObjet|int WorkerUtils_perSecToPerPeriodN193686"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#221"
+ , "c1" : "00236"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#236"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00221] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00236] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00229"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#229"
+ , "c1" : "00244"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectLoop.run@POLYN193431 the MagicNumber/String  'ConnectLoop' should be converted to const"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectLoop.run@POLYN193521 the MagicNumber/String  'ConnectLoop' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00231"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#231"
+ , "c1" : "00246"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectLoop.run@POLYN193431 the MagicNumber/String  'stressor' should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.ConnectLoop.run@POLYN193521 the MagicNumber/String  'stressor' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00242"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#242"
+ , "c1" : "00257"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#257"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00242] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00257] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#241"
+ , "c1" : "00256"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.StatusUpdater.run@POLYN194657 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.StatusUpdater.run@POLYN194747 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#245"
+ , "c1" : "00260"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#260"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.StatusUpdater.run@POLYN194657 the MagicNumber/String  1000.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.StatusUpdater.run@POLYN194747 the MagicNumber/String  1000.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00249"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#249"
+ , "c1" : "00264"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.StatusUpdater.run@POLYN194657 the MagicNumber/String  'StatusUpdater' should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.StatusUpdater.run@POLYN194747 the MagicNumber/String  'StatusUpdater' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00285"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#285"
+ , "c1" : "00300"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#300"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00285] For method stop arguments Platform  platform"
+ , "c3" : "QC-JAV000006[00300] For method stop arguments Platform  platform"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00299"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#299"
+ , "c1" : "00314"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#314"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE572[00299] The program calls a thread's run() method instead of calling start()"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00286"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#286"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00286"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#286"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00287"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#287"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String  'ConnectionStressWorker is not running.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00289"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#289"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String  '{}: Deactivating ConnectionStressWorker.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00295"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#295"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#297"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00298"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#298"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAVCWE572[00314] The program calls a thread's run() method instead of calling start()"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00301"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00303"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#303"
+ , "c1" : "00301"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00302"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#302"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String  'ConnectionStressWorker is not running.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00304"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#304"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String  '{}: Deactivating ConnectionStressWorker.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00305"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#305"
+ , "c1" : "00310"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00312"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#312"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00313"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#313"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00316"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#316"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00318"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#318"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00319"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#319"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00320"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#320"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#84"
+ , "c1" : "00099"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#99"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#84"
+ , "c1" : "00099"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#99"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#85"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String 'ConnectionStressWorker is already running.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#87"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String '{}: Activating ConnectionStressWorker with {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#91"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#92"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#95"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#96"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String 'StatusUpdaterWorkerThread%d' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#96"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#98"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#100"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String 'ConnectionStressWorkerThread%d' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String 'ConnectionStressWorker is already running.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#100"
+ , "c1" : "00102"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String '{}: Activating ConnectionStressWorker with {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#101"
+ , "c1" : "00106"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#106"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186874 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00286"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#286"
+ , "c1" : "00107"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#107"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00286] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00286"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#286"
+ , "c1" : "00110"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00286] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00287"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#287"
+ , "c1" : "00111"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#111"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00287] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String 'ConnectionStressWorker is not running.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String 'StatusUpdaterWorkerThread%d' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00289"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#289"
+ , "c1" : "00111"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#111"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String '{}: Deactivating ConnectionStressWorker.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00295"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#295"
+ , "c1" : "00113"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#113"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00295] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#297"
+ , "c1" : "00115"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00297] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String 'ConnectionStressWorkerThread%d' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00298"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#298"
+ , "c1" : "00115"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00298] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#116"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00116] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.start@POLYN186964 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00301"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#301"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00301] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00301] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00303"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#303"
+ , "c1" : "00301"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#301"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00303] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00301] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00302"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#302"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00302] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String 'ConnectionStressWorker is not running.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00304"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#304"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00304] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00304] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String '{}: Deactivating ConnectionStressWorker.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00305"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#305"
+ , "c1" : "00310"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#310"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00310] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00312"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#312"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00312] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00313"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#313"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00313] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00316"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#316"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00316] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00318"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#318"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00318] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00319"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#319"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00319] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00320"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#320"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00320] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196497 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

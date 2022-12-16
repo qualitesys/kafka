@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.WorkerConfigTransformer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#28"
+ , "c5" : "00046"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#46"
  , "c1" : "WorkerConfigTransformer"
  , "c2" : "WorkerConfigTransformer(Worker;Map<String,ConfigProvider>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#34"
+ , "c5" : "00052"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#52"
  , "c1" : "Map<String,String>"
  , "c2" : "transform(Map<String,String>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#38"
+ , "c5" : "00056"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#56"
  , "c1" : "Map<String,String>"
  , "c2" : "transform(String;Map<String,String>)"
  , "c3" : "5"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#56"
+ , "c5" : "00074"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#74"
  , "c1" : "void"
  , "c2" : "scheduleReload(String;Map<String,Long>)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#62"
+ , "c5" : "00080"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#80"
  , "c1" : "void"
  , "c2" : "scheduleReload(String;String;long)"
  , "c3" : "5"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#85"
+ , "c5" : "00103"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#103"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -150,157 +150,157 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#34"
+ , "c1" : "00052"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method transform arguments Map&lt;String ,String &gt;  configs"
+ , "c3" : "QC-JAV000006[00052] For method transform arguments Map&lt;String ,String &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#35"
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.transform@POLYN157815 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method transform arguments String  connectorName|Map&lt;String ,String &gt;  configs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.transform@POLYN158052 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.transform@POLYN158052 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.transform@POLYN158052 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.transform@POLYN158052 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.transform@POLYN157923 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method scheduleReload arguments String  connectorName|Map&lt;String ,Long &gt;  ttls"
+ , "c3" : "QC-JAV000006[00056] For method transform arguments String  connectorName|Map&lt;String ,String &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#56"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00056] The argument ttls is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00057"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#57"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.transform@POLYN158160 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#57"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.transform@POLYN158160 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#59"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.transform@POLYN158160 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#62"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method scheduleReload arguments String  connectorName|String  path|long  ttl"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159652 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159652 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.transform@POLYN158160 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159652 the MagicNumber/String  'Scheduling a restart of connector {} in {} ms' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00074] For method scheduleReload arguments String  connectorName|Map&lt;String ,Long &gt;  ttls"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159652 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00074"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#74"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00074] The argument ttls is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159652 the MagicNumber/String  'Unexpected error during connector restart: ' should be converted to const"
+ , "c1" : "00080"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#80"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00080] For method scheduleReload arguments String  connectorName|String  path|long  ttl"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#86"
+ , "c1" : "00082"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.close@POLYN161051 the MagicNumber/String  'config provider' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159760 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159760 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159760 the MagicNumber/String  'Scheduling a restart of connector {} in {} ms' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159760 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#95"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159760 the MagicNumber/String  'Unexpected error during connector restart: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.runtime.WorkerConfigTransformer.close@POLYN161159 the MagicNumber/String  'config provider' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159652"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159760"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#64"
+ , "c1" : "00082"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#82"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159652 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159760 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#69"
+ , "c1" : "00087"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#87"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159652 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159760 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#74"
+ , "c1" : "00092"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#92"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159652 the MagicNumber/String 'Scheduling a restart of connector {} in {} ms' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159760 the MagicNumber/String 'Scheduling a restart of connector {} in {} ms' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#76"
+ , "c1" : "00094"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#94"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159652 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159760 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#77"
+ , "c1" : "00095"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#95"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159652 the MagicNumber/String 'Unexpected error during connector restart: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN159760 the MagicNumber/String 'Unexpected error during connector restart: ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

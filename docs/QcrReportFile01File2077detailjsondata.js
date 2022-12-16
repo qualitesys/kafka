@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#24"
+ , "c5" : "00039"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#39"
  , "c1" : "MemoryNavigableLRUCache"
  , "c2" : "MemoryNavigableLRUCache(String;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#29"
+ , "c5" : "00044"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#44"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "range(Bytes;Bytes)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#45"
+ , "c5" : "00060"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#60"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "reverseRange(Bytes;Bytes)"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#60"
+ , "c5" : "00075"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#75"
  , "c1" : "Iterator<Bytes>"
  , "c2" : "getIterator(TreeMap<Bytes,byte[]>;Bytes;Bytes;boolean)"
  , "c3" : "7"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#87"
+ , "c5" : "00102"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#102"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00092"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#92"
+ , "c5" : "00107"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#107"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "reverseAll()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00096"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#96"
+ , "c5" : "00111"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#111"
  , "c1" : "TreeMap<Bytes,byte[]>"
  , "c2" : "toTreeMap()"
  , "c3" : "1"
@@ -164,325 +164,325 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method range arguments Bytes  from|Bytes  to"
+ , "c3" : "QC-JAV000006[00044] For method range arguments Bytes  from|Bytes  to"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00029] For method range list of called methods Object monObjet|TreeMap&lt;Bytes,byte[]&gt; toTreeMapN167183|java.util.Iterator&lt;org.apache.kafka.common.utils.Bytes&gt; getIteratorN167276"
+ , "c3" : "QC-JAV000007[00044] For method range list of called methods Object monObjet|TreeMap&lt;Bytes,byte[]&gt; toTreeMapN167273|java.util.Iterator&lt;org.apache.kafka.common.utils.Bytes&gt; getIteratorN167366"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#44"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00029] The argument from is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00044] The argument from is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#44"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00029] The argument to is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.range@POLYN166556 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.range@POLYN166556 the MagicNumber/String  'Returning empty iterator for fetch with invalid key range: from &amp;gt; to. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.range@POLYN166556 the MagicNumber/String  'This may be due to range arguments set in the wrong order, ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.range@POLYN166556 the MagicNumber/String  'or serdes that don't preserve ordering when lexicographically comparing the serialized bytes. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.range@POLYN166556 the MagicNumber/String  'Note that the built-in numerical serdes do not follow this for negative numbers' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.range@POLYN166556 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAVCWE476[00044] The argument to is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method reverseRange arguments Bytes  from|Bytes  to"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00045] For method reverseRange list of called methods Object monObjet|TreeMap&lt;Bytes,byte[]&gt; toTreeMapN168278|java.util.Iterator&lt;org.apache.kafka.common.utils.Bytes&gt; getIteratorN168371"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#45"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00045] The argument from is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#45"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00045] The argument to is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.range@POLYN166646 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00046"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.reverseRange@POLYN167651 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.range@POLYN166646 the MagicNumber/String  'Returning empty iterator for fetch with invalid key range: from &amp;gt; to. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.reverseRange@POLYN167651 the MagicNumber/String  'Returning empty iterator for fetch with invalid key range: from &amp;gt; to. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.range@POLYN166646 the MagicNumber/String  'This may be due to range arguments set in the wrong order, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.reverseRange@POLYN167651 the MagicNumber/String  'This may be due to range arguments set in the wrong order, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.range@POLYN166646 the MagicNumber/String  'or serdes that don't preserve ordering when lexicographically comparing the serialized bytes. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.reverseRange@POLYN167651 the MagicNumber/String  'or serdes that don't preserve ordering when lexicographically comparing the serialized bytes. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.range@POLYN166646 the MagicNumber/String  'Note that the built-in numerical serdes do not follow this for negative numbers' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#50"
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.reverseRange@POLYN167651 the MagicNumber/String  'Note that the built-in numerical serdes do not follow this for negative numbers' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.reverseRange@POLYN167651 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.range@POLYN166646 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method getIterator arguments TreeMap&lt;Bytes ,byte[] &gt;  treeMap|Bytes  from|Bytes  to|boolean  forward"
+ , "c3" : "QC-JAV000006[00060] For method reverseRange arguments Bytes  from|Bytes  to"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#60"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00060] For method reverseRange list of called methods Object monObjet|TreeMap&lt;Bytes,byte[]&gt; toTreeMapN168368|java.util.Iterator&lt;org.apache.kafka.common.utils.Bytes&gt; getIteratorN168461"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#60"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00060] The argument treeMap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00060] The argument from is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#60"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00060] The argument to is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168710 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.reverseRange@POLYN167741 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#61"
+ , "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168710 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.reverseRange@POLYN167741 the MagicNumber/String  'Returning empty iterator for fetch with invalid key range: from &amp;gt; to. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168710 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.reverseRange@POLYN167741 the MagicNumber/String  'This may be due to range arguments set in the wrong order, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168710 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168710 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.reverseRange@POLYN167741 the MagicNumber/String  'or serdes that don't preserve ordering when lexicographically comparing the serialized bytes. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168710 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.reverseRange@POLYN167741 the MagicNumber/String  'Note that the built-in numerical serdes do not follow this for negative numbers' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#66"
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168710 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168710 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168710 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168710 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168710 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168710 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#73"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00073] The argument prefixKeySerializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.reverseRange@POLYN167741 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache the MagicNumber/String  null should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00075] For method getIterator arguments TreeMap&lt;Bytes ,byte[] &gt;  treeMap|Bytes  from|Bytes  to|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache the MagicNumber/String  true should be converted to const"
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#75"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00075] The argument treeMap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#82"
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168800 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#76"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168800 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168800 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168800 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168800 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168800 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168800 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168800 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168800 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168800 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168800 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.getIterator@POLYN168800 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#88"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.all@POLYN171288 the MagicNumber/String  null should be converted to const"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00088] The argument prefixKeySerializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#88"
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.all@POLYN171288 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#93"
+ , "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.reverseAll@POLYN171488 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#93"
+ , "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.reverseAll@POLYN171488 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#96"
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.all@POLYN171378 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.all@POLYN171378 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.reverseAll@POLYN171578 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.reverseAll@POLYN171578 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#111"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00096] Lock statement on synchronized method toTreeMap"
+ , "c3" : "QC-JAV000019[00111] Lock statement on synchronized method toTreeMap"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#145"
+ , "c1" : "00160"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.CacheIterator.peekNextKey@POLYN173317 the MagicNumber/String  'peekNextKey not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.CacheIterator.peekNextKey@POLYN173407 the MagicNumber/String  'peekNextKey not supported' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#139"
+ , "c1" : "00154"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#154"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00139] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00154] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#139"
+ , "c1" : "00154"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#154"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00139] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00154] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

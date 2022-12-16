@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.NetworkSend" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkSend.java.html#10"
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkSend.java.html#25"
  , "c1" : "NetworkSend"
  , "c2" : "NetworkSend(String;Send)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkSend.java.html#15"
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkSend.java.html#30"
  , "c1" : "String"
  , "c2" : "destinationId()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkSend.java.html#20"
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkSend.java.html#35"
  , "c1" : "boolean"
  , "c2" : "completed()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkSend.java.html#25"
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkSend.java.html#40"
  , "c1" : "long"
  , "c2" : "writeTo(TransferableChannel)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkSend.java.html#30"
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkSend.java.html#45"
  , "c1" : "long"
  , "c2" : "size()"
  , "c3" : "1"
@@ -104,10 +104,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkSend.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkSend.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method writeTo arguments TransferableChannel  channel"
+ , "c3" : "QC-JAV000006[00040] For method writeTo arguments TransferableChannel  channel"
 }} 
 ]
 , 

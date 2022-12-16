@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.HeartbeatRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#40"
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#55"
  , "c1" : "HeartbeatRequest"
  , "c2" : "HeartbeatRequest(HeartbeatRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#46"
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#61"
  , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#55"
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#70"
  , "c1" : "HeartbeatRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#60"
+ , "c5" : "00075"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#75"
  , "c1" : "HeartbeatRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -118,66 +118,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#24"
+ , "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#39"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00039] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.requests.HeartbeatRequest.Builder.build@POLYN148615 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.HeartbeatRequest.Builder.build@POLYN148705 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.requests.HeartbeatRequest.Builder.build@POLYN148615 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.HeartbeatRequest.Builder.build@POLYN148705 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.requests.HeartbeatRequest.Builder.build@POLYN148615 the MagicNumber/String  'The broker heartbeat protocol version ' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.requests.HeartbeatRequest.Builder.build@POLYN148705 the MagicNumber/String  'The broker heartbeat protocol version ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#27"
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.requests.HeartbeatRequest.Builder.build@POLYN148615 the MagicNumber/String  ' does not support usage of config group.instance.id.' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.requests.HeartbeatRequest.Builder.build@POLYN148705 the MagicNumber/String  ' does not support usage of config group.instance.id.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#46"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00061] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#49"
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.requests.HeartbeatRequest.getErrorResponse@POLYN149466 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.requests.HeartbeatRequest.getErrorResponse@POLYN149556 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#55"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00070] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.HeartbeatRequest.Builder.toString@POLYN149058"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.HeartbeatRequest.Builder.toString@POLYN149148"
 }} 
 ]
 , 

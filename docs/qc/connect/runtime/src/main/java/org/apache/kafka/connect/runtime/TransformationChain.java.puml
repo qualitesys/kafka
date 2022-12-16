@@ -2,11 +2,11 @@
 !pragma layout smetana
 "AutoCloseable" <|-- "org.apache.kafka.connect.runtime.TransformationChain"
 class org.apache.kafka.connect.runtime.TransformationChain {
-+TransformationChain(List<Transformation<R>>;RetryWithToleranceOperator) : TransformationChain [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#21]]]
-+apply(R) : R [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#26]]]
-+close() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#44]]]
-+equals(Object) : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#51]]]
-+hashCode() : int [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#59]]]
-+toString() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#63]]]
++TransformationChain(List<Transformation<R>>;RetryWithToleranceOperator) : TransformationChain [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#36]]]
++apply(R) : R [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#41]]]
++close() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#59]]]
++equals(Object) : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#66]]]
++hashCode() : int [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#74]]]
++toString() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#78]]]
 } 
 @enduml

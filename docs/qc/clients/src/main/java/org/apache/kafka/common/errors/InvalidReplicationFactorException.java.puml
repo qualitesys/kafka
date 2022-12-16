@@ -2,7 +2,7 @@
 !pragma layout smetana
 "ApiException" <|-- "org.apache.kafka.common.errors.InvalidReplicationFactorException"
 class org.apache.kafka.common.errors.InvalidReplicationFactorException {
-+InvalidReplicationFactorException(String) : InvalidReplicationFactorException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicationFactorException.java.html#8]]]
-+InvalidReplicationFactorException(String;Throwable) : InvalidReplicationFactorException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicationFactorException.java.html#12]]]
++InvalidReplicationFactorException(String) : InvalidReplicationFactorException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicationFactorException.java.html#23]]]
++InvalidReplicationFactorException(String;Throwable) : InvalidReplicationFactorException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicationFactorException.java.html#27]]]
 } 
 @enduml

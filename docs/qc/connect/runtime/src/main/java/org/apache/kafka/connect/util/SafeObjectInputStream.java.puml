@@ -2,8 +2,8 @@
 !pragma layout smetana
 "ObjectInputStream" <|-- "org.apache.kafka.connect.util.SafeObjectInputStream"
 class org.apache.kafka.connect.util.SafeObjectInputStream {
-+SafeObjectInputStream(InputStream) : SafeObjectInputStream [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SafeObjectInputStream.java.html#32]]]
-resolveClass(ObjectStreamClass) : Class<?> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SafeObjectInputStream.java.html#37]]]
--isBlocked(String) : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SafeObjectInputStream.java.html#47]]]
++SafeObjectInputStream(InputStream) : SafeObjectInputStream [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SafeObjectInputStream.java.html#47]]]
+resolveClass(ObjectStreamClass) : Class<?> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SafeObjectInputStream.java.html#52]]]
+-isBlocked(String) : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SafeObjectInputStream.java.html#62]]]
 } 
 @enduml

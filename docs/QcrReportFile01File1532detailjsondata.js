@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.shell.HistoryCommandHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#62"
+ , "c5" : "00079"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#79"
  , "c1" : "HistoryCommandHandler"
  , "c2" : "HistoryCommandHandler(int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#67"
+ , "c5" : "00084"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#84"
  , "c1" : "void"
  , "c2" : "run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#81"
+ , "c5" : "00098"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#98"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00086"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#86"
+ , "c5" : "00103"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#103"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -153,185 +153,185 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#25"
+ , "c1" : "00042"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.name@POLYN150932 the MagicNumber/String  'history' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.description@POLYN151034 the MagicNumber/String  'Print command history.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.shellOnly@POLYN151136 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#39"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method addArguments arguments ArgumentParser  parser"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#39"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00039] The argument parser is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.addArguments@POLYN151230 the MagicNumber/String  'numEntriesToShow' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.addArguments@POLYN151230 the MagicNumber/String  '?' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.addArguments@POLYN151230 the MagicNumber/String  'The number of entries to show.' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.name@POLYN151034 the MagicNumber/String  'history' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#47"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method createHandler arguments Namespace  namespace"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#47"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00047] The argument namespace is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.createHandler@POLYN151527 the MagicNumber/String  'numEntriesToShow' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.description@POLYN151136 the MagicNumber/String  'Print command history.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#49"
+ , "c1" : "00052"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.createHandler@POLYN151527 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.shellOnly@POLYN151238 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#54"
+ , "c1" : "00056"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String &gt;  nextWords|List&lt;Candidate &gt;  candidates"
+ , "c3" : "QC-JAV000006[00056] For method addArguments arguments ArgumentParser  parser"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#54"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00054] Void method completeNext is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#54"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00054] Void method completeNext is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#67"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#67"
+ , "c1" : "00056"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#56"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00067] The argument shell is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00056] The argument parser is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#68"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00068] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#75"
+ , "c1" : "00057"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00075] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.addArguments@POLYN151332 the MagicNumber/String  'numEntriesToShow' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#58"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.addArguments@POLYN151332 the MagicNumber/String  '?' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.addArguments@POLYN151332 the MagicNumber/String  'The number of entries to show.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#64"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00064] For method createHandler arguments Namespace  namespace"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#64"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00064] The argument namespace is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.createHandler@POLYN151629 the MagicNumber/String  'numEntriesToShow' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#66"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.createHandler@POLYN151629 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN152204 the MagicNumber/String  'The history command requires a shell.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN152204 the MagicNumber/String  '% 5d  %s%n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method equals arguments Object  other"
+ , "c3" : "QC-JAV000006[00071] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String &gt;  nextWords|List&lt;Candidate &gt;  candidates"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#87"
+ , "c1" : "00071"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#71"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00071] Void method completeNext is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#71"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00071] Void method completeNext is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#84"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00084] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#84"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00084] The argument shell is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#85"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00085] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.shell.HistoryCommandHandler.equals@POLYN153155 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000001[00092] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN152306 the MagicNumber/String  'The history command requires a shell.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN152306 the MagicNumber/String  '% 5d  %s%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#103"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00103] For method equals arguments Object  other"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.shell.HistoryCommandHandler.equals@POLYN153257 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.HistoryCommandHandler.run@POLYN152204"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.HistoryCommandHandler.run@POLYN152306"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#71"
+ , "c1" : "00088"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#88"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN152204 the MagicNumber/String 'The history command requires a shell.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN152306 the MagicNumber/String 'The history command requires a shell.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#76"
+ , "c1" : "00093"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#93"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN152204 the MagicNumber/String '% 5d  %s%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN152306 the MagicNumber/String '% 5d  %s%n' MUST BE CONVERTED to const"
 }} 
 ]
 , 

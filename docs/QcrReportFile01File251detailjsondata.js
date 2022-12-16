@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.TxnPartitionEntry" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#43"
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#58"
  , "c1" : "TxnPartitionEntry"
  , "c2" : "TxnPartitionEntry()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#51"
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#66"
  , "c1" : "void"
  , "c2" : "resetSequenceNumbers(Consumer<ProducerBatch>)"
  , "c3" : "2"
@@ -91,24 +91,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#45"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.clients.producer.internals.TxnPartitionEntry.TxnPartitionEntry@POLYN145691 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.producer.internals.TxnPartitionEntry.TxnPartitionEntry@POLYN145781 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#51"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00051] For method resetSequenceNumbers arguments Consumer&lt;ProducerBatch &gt;  resetSequence"
+ , "c3" : "QC-JAV000006[00066] For method resetSequenceNumbers arguments Consumer&lt;ProducerBatch &gt;  resetSequence"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#51"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#66"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00051] The argument resetSequence is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00066] The argument resetSequence is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

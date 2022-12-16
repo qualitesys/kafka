@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#20"
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#39"
  , "c1" : "DescribeReplicaLogDirsResult"
  , "c2" : "DescribeReplicaLogDirsResult(Map<TopicPartitionReplica,KafkaFuture<ReplicaLogDirInfo>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#25"
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#46"
  , "c1" : "Map<TopicPartitionReplica,KafkaFuture<ReplicaLogDirInfo>>"
  , "c2" : "values()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#30"
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#53"
  , "c1" : "KafkaFuture<Map<TopicPartitionReplica,ReplicaLogDirInfo>>"
  , "c2" : "all()"
  , "c3" : "2"
@@ -86,73 +86,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#31"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.all@POLYN155628 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.all@POLYN155766 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#63"
+ , "c1" : "00086"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.ReplicaLogDirInfo@POLYN156942 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.ReplicaLogDirInfo@POLYN157080 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#63"
+ , "c1" : "00086"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.ReplicaLogDirInfo@POLYN156942 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.ReplicaLogDirInfo@POLYN157080 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#95"
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.toString@POLYN157878 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.toString@POLYN158016 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#96"
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.toString@POLYN157878 the MagicNumber/String  '(currentReplicaLogDir=' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.toString@POLYN158016 the MagicNumber/String  '(currentReplicaLogDir=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#98"
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.toString@POLYN157878 the MagicNumber/String  ', futureReplicaLogDir=' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.toString@POLYN158016 the MagicNumber/String  ', futureReplicaLogDir=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#100"
+ , "c1" : "00123"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.toString@POLYN157878 the MagicNumber/String  ', futureReplicaOffsetLag=' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.toString@POLYN158016 the MagicNumber/String  ', futureReplicaOffsetLag=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#102"
+ , "c1" : "00125"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.toString@POLYN157878 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.toString@POLYN158016 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#104"
+ , "c1" : "00127"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.toString@POLYN157878 the MagicNumber/String  'ReplicaLogDirInfo(currentReplicaLogDir=' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.toString@POLYN158016 the MagicNumber/String  'ReplicaLogDirInfo(currentReplicaLogDir=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#104"
+ , "c1" : "00127"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.toString@POLYN157878 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo.toString@POLYN158016 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

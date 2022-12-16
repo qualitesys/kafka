@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.transforms.RegexRouter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#38"
+ , "c5" : "00053"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#53"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#45"
+ , "c5" : "00060"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#60"
  , "c1" : "R"
  , "c2" : "apply(R)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#58"
+ , "c5" : "00073"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#73"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#62"
+ , "c5" : "00077"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#77"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -123,52 +123,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#38"
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method configure arguments Map&lt;String ,? &gt;  props"
+ , "c3" : "QC-JAV000006[00053] For method configure arguments Map&lt;String ,? &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#45"
+ , "c1" : "00060"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method apply arguments R  record"
+ , "c3" : "QC-JAV000006[00060] For method apply arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#45"
+ , "c1" : "00060"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#60"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00045] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00060] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#49"
+ , "c1" : "00064"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.transforms.RegexRouter.apply@POLYN152299 the MagicNumber/String  'Rerouting from topic '{}' to new topic '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.transforms.RegexRouter.apply@POLYN152389 the MagicNumber/String  'Rerouting from topic '{}' to new topic '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.transforms.RegexRouter.apply@POLYN152299 the MagicNumber/String  'Not rerouting topic '{}' as it does not match the configured regex' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.transforms.RegexRouter.apply@POLYN152389 the MagicNumber/String  'Not rerouting topic '{}' as it does not match the configured regex' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#58"
+ , "c1" : "00073"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#73"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00058] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00073] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#58"
+ , "c1" : "00073"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#73"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00058] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00073] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

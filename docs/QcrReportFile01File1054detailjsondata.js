@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.converters.IntegerConverter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/IntegerConverter.java.html#13"
+ , "c5" : "00034"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/IntegerConverter.java.html#34"
  , "c1" : "IntegerConverter"
  , "c2" : "IntegerConverter()"
  , "c3" : "1"
@@ -68,10 +68,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/IntegerConverter.java.html#14"
+ , "c1" : "00035"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/IntegerConverter.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.IntegerConverter.IntegerConverter@POLYN144597 the MagicNumber/String  'integer' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.converters.IntegerConverter.IntegerConverter@POLYN144723 the MagicNumber/String  'integer' should be converted to const"
 }} 
 ]
 , 

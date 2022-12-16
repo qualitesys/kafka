@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.ForeachProcessor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachProcessor.java.html#11"
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachProcessor.java.html#26"
  , "c1" : "ForeachProcessor"
  , "c2" : "ForeachProcessor(ForeachAction<K,V>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachProcessor.java.html#16"
+ , "c5" : "00031"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachProcessor.java.html#31"
  , "c1" : "void"
  , "c2" : "process(Record<K,V>)"
  , "c3" : "1"
@@ -84,17 +84,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachProcessor.java.html#16"
+ , "c1" : "00031"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachProcessor.java.html#31"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00016] For method process arguments Record&lt;K ,V &gt;  record"
+ , "c3" : "QC-JAV000006[00031] For method process arguments Record&lt;K ,V &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachProcessor.java.html#16"
+ , "c1" : "00031"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachProcessor.java.html#31"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00016] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00031] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

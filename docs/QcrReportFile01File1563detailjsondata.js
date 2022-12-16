@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#15"
+ , "c5" : "00030"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#30"
  , "c1" : "RemoteLogMetadataTopicPartitioner"
  , "c2" : "RemoteLogMetadataTopicPartitioner(int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#34"
  , "c1" : "int"
  , "c2" : "metadataPartition(TopicIdPartition)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#27"
+ , "c5" : "00042"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#42"
  , "c1" : "byte[]"
  , "c2" : "toBytes(TopicIdPartition)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#36"
+ , "c5" : "00051"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#51"
  , "c1" : "byte[]"
  , "c2" : "toBytes(int)"
  , "c3" : "1"
@@ -109,66 +109,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#19"
+ , "c1" : "00034"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method metadataPartition arguments TopicIdPartition  topicIdPartition"
+ , "c3" : "QC-JAV000006[00034] For method metadataPartition arguments TopicIdPartition  topicIdPartition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#20"
+ , "c1" : "00035"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner.metadataPartition@POLYN146317 the MagicNumber/String  'TopicPartition can not be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner.metadataPartition@POLYN146317 the MagicNumber/String  'No of partitions [{}], partitionNum: [{}] for given topic: [{}]' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#27"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method toBytes arguments TopicIdPartition  topicIdPartition"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#27"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument topicIdPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#36"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method toBytes arguments int  n"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner.metadataPartition@POLYN146407 the MagicNumber/String  'TopicPartition can not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00038"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner.toBytes@POLYN147234 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner.metadataPartition@POLYN146407 the MagicNumber/String  'No of partitions [{}], partitionNum: [{}] for given topic: [{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner.toBytes@POLYN147234 the MagicNumber/String  16 should be converted to const"
+ , "c1" : "00042"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#42"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00042] For method toBytes arguments TopicIdPartition  topicIdPartition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#40"
+ , "c1" : "00042"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#42"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00042] The argument topicIdPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#51"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00051] For method toBytes arguments int  n"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner.toBytes@POLYN147234 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner.toBytes@POLYN147324 the MagicNumber/String  24 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner.toBytes@POLYN147324 the MagicNumber/String  16 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#55"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner.toBytes@POLYN147324 the MagicNumber/String  8 should be converted to const"
 }} 
 ]
 , 

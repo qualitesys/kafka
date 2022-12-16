@@ -2,12 +2,12 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer"
 class org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer {
-+CopartitionedTopicsEnforcer(String) : CopartitionedTopicsEnforcer [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#23]]]
-+enforce(Set<String>;Map<String,InternalTopicConfig>;Cluster) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#29]]]
--maybeSetNumberOfPartitionsForInternalTopic(int;InternalTopicConfig) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#100]]]
--validateAndGetNumOfPartitions(Map<Object,InternalTopicConfig>;Collection<InternalTopicConfig>) : int [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#107]]]
--emptyNumberOfPartitionsExceptionSupplier(String) : Supplier<TopologyException> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#136]]]
--getSamePartitions(Map<String,Integer>) : int [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#140]]]
--getMaxPartitions(Map<Object,InternalTopicConfig>) : int [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#154]]]
++CopartitionedTopicsEnforcer(String) : CopartitionedTopicsEnforcer [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#38]]]
++enforce(Set<String>;Map<String,InternalTopicConfig>;Cluster) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#44]]]
+-maybeSetNumberOfPartitionsForInternalTopic(int;InternalTopicConfig) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#115]]]
+-validateAndGetNumOfPartitions(Map<Object,InternalTopicConfig>;Collection<InternalTopicConfig>) : int [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#122]]]
+-emptyNumberOfPartitionsExceptionSupplier(String) : Supplier<TopologyException> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#151]]]
+-getSamePartitions(Map<String,Integer>) : int [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#155]]]
+-getMaxPartitions(Map<Object,InternalTopicConfig>) : int [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#169]]]
 } 
 @enduml

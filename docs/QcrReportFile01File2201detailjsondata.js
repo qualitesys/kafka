@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.fault.KiboshFaultWorker" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#25"
+ , "c5" : "00040"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#40"
  , "c1" : "KiboshFaultWorker"
  , "c2" : "KiboshFaultWorker(String;KiboshFaultSpec;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#32"
+ , "c5" : "00047"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#47"
  , "c1" : "void"
  , "c2" : "start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#42"
+ , "c5" : "00057"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#57"
  , "c1" : "void"
  , "c2" : "stop(Platform)"
  , "c3" : "1"
@@ -100,66 +100,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#32"
+ , "c1" : "00047"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String &gt;  errorFuture"
+ , "c3" : "QC-JAV000006[00047] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String &gt;  errorFuture"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#32"
+ , "c1" : "00047"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#47"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00032] The argument status is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00047] The argument status is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#34"
+ , "c1" : "00049"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.start@POLYN148926 the MagicNumber/String  'Activating {} {}: {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.start@POLYN149016 the MagicNumber/String  'Activating {} {}: {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.start@POLYN148926 the MagicNumber/String  'Adding fault ' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.start@POLYN149016 the MagicNumber/String  'Adding fault ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#38"
+ , "c1" : "00053"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.start@POLYN148926 the MagicNumber/String  'Added fault ' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.start@POLYN149016 the MagicNumber/String  'Added fault ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#42"
+ , "c1" : "00057"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method stop arguments Platform  platform"
+ , "c3" : "QC-JAV000006[00057] For method stop arguments Platform  platform"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#43"
+ , "c1" : "00058"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.stop@POLYN149716 the MagicNumber/String  'Deactivating {} {}: {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.stop@POLYN149806 the MagicNumber/String  'Deactivating {} {}: {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#44"
+ , "c1" : "00059"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.stop@POLYN149716 the MagicNumber/String  'Removing fault ' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.stop@POLYN149806 the MagicNumber/String  'Removing fault ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#46"
+ , "c1" : "00061"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.stop@POLYN149716 the MagicNumber/String  'Removed fault ' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.stop@POLYN149806 the MagicNumber/String  'Removed fault ' should be converted to const"
 }} 
 ]
 , 

@@ -2,6 +2,6 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo"
 class org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo {
-+main(String[]) : void [[[./../../../../../../../../../../../.././qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#88]]]
++main(String[]) : void [[[./../../../../../../../../../../../.././qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java.html#122]]]
 } 
 @enduml

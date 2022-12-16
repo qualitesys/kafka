@@ -2,12 +2,12 @@
 !pragma layout smetana
 "ThroughputGenerator" <|-- "org.apache.kafka.trogdor.workload.GaussianThroughputGenerator"
 class org.apache.kafka.trogdor.workload.GaussianThroughputGenerator {
-+GaussianThroughputGenerator(int;double;int;long) : GaussianThroughputGenerator [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#26]]]
-+messagesPerWindowAverage() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#44]]]
-+messagesPerWindowDeviation() : double [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#49]]]
-+windowsUntilRateChange() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#54]]]
-+windowSizeMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#59]]]
--calculateNextWindow(boolean) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#63]]]
-+throttle() : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#89]]]
++GaussianThroughputGenerator(int;double;int;long) : GaussianThroughputGenerator [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#74]]]
++messagesPerWindowAverage() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#92]]]
++messagesPerWindowDeviation() : double [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#97]]]
++windowsUntilRateChange() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#102]]]
++windowSizeMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#107]]]
+-calculateNextWindow(boolean) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#111]]]
++throttle() : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#137]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#19"
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#37"
  , "c1" : "CompositeReadOnlySessionStore"
  , "c2" : "CompositeReadOnlySessionStore(StateStoreProvider;QueryableStoreType<ReadOnlySessionStore<K,V>>;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#28"
+ , "c5" : "00046"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#46"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "findSessions(K;long;long)"
  , "c3" : "4"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#56"
+ , "c5" : "00074"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#74"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardFindSessions(K;long;long)"
  , "c3" : "4"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#82"
+ , "c5" : "00100"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#100"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "findSessions(K;K;long;long)"
  , "c3" : "4"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00109"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#109"
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#127"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardFindSessions(K;K;long;long)"
  , "c3" : "4"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00136"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#136"
+ , "c5" : "00154"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#154"
  , "c1" : "V"
  , "c2" : "fetchSession(K;long;long)"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00155"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#155"
+ , "c5" : "00173"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#173"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "fetch(K)"
  , "c3" : "4"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00177"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#177"
+ , "c5" : "00195"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#195"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardFetch(K)"
  , "c3" : "4"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00201"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#201"
+ , "c5" : "00219"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#219"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "fetch(K;K)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00211"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#211"
+ , "c5" : "00229"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#229"
  , "c1" : "KeyValueIterator<Windowed<K>,V>"
  , "c2" : "backwardFetch(K;K)"
  , "c3" : "1"
@@ -163,276 +163,220 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#28"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method findSessions arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00035] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00043] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN175201 the MagicNumber/String  'key can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN175201 the MagicNumber/String  'State store  [' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN175201 the MagicNumber/String  '] is not available anymore' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00046"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN175201 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN175201 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method backwardFindSessions arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
+ , "c3" : "QC-JAV000006[00046] For method findSessions arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00053] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#61"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00061] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#49"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN175309 the MagicNumber/String  'key can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00063] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN175309 the MagicNumber/String  'State store  [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#69"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00069] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN175309 the MagicNumber/String  '] is not available anymore' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#59"
+ , "c1" : "00064"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN176497 the MagicNumber/String  'key can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN175309 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#71"
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN176497 the MagicNumber/String  'State store  [' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN175309 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN176497 the MagicNumber/String  '] is not available anymore' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN176497 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN176497 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#82"
+ , "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method findSessions arguments K  keyFrom|K  keyTo|long  earliestSessionEndTime|long  latestSessionStartTime"
+ , "c3" : "QC-JAV000006[00074] For method backwardFindSessions arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00081] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00087] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN176605 the MagicNumber/String  'key can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00089] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN176605 the MagicNumber/String  'State store  [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#96"
+ , "c1" : "00089"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00096] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN176605 the MagicNumber/String  '] is not available anymore' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#98"
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN177793 the MagicNumber/String  'State store  [' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN176605 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#98"
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN177793 the MagicNumber/String  '] is not available anymore' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#99"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN177793 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN176605 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN177793 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00100] For method findSessions arguments K  keyFrom|K  keyTo|long  earliestSessionEndTime|long  latestSessionStartTime"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#109"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00109] For method backwardFindSessions arguments K  keyFrom|K  keyTo|long  earliestSessionEndTime|long  latestSessionStartTime"
+ , "c1" : "00107"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00107] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00114] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00116] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN177901 the MagicNumber/String  'State store  [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#123"
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00123] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN177901 the MagicNumber/String  '] is not available anymore' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#125"
+ , "c1" : "00117"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN179044 the MagicNumber/String  'State store  [' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN177901 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#125"
+ , "c1" : "00118"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN179044 the MagicNumber/String  '] is not available anymore' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN179044 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN177901 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#127"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN179044 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#136"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00136] For method fetchSession arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
+ , "c3" : "QC-JAV000006[00127] For method backwardFindSessions arguments K  keyFrom|K  keyTo|long  earliestSessionEndTime|long  latestSessionStartTime"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#142"
+ , "c1" : "00134"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00142] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00134] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#137"
+ , "c1" : "00141"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180237 the MagicNumber/String  'key can't be null' should be converted to const"
+ , "c3" : "QC-JAV000001[00141] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00143"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#143"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN179152 the MagicNumber/String  'State store  [' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00143"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#143"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN179152 the MagicNumber/String  '] is not available anymore' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180237 the MagicNumber/String  'State store  [' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#144"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180237 the MagicNumber/String  '] is not available anymore' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN179152 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00145"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180237 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN179152 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#146"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180237 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#151"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180237 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#155"
+ , "c1" : "00154"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00155] For method fetch arguments K  key"
+ , "c3" : "QC-JAV000006[00154] For method fetchSession arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -443,122 +387,178 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#166"
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00166] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180345 the MagicNumber/String  'key can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#156"
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181245 the MagicNumber/String  'key can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180345 the MagicNumber/String  'State store  [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#167"
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181245 the MagicNumber/String  'State store  [' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180345 the MagicNumber/String  '] is not available anymore' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#167"
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181245 the MagicNumber/String  '] is not available anymore' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180345 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#168"
+ , "c1" : "00164"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181245 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180345 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00169"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181245 the MagicNumber/String  'please re-discover its location from the state metadata. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180345 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#170"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181245 the MagicNumber/String  'Original error message: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#177"
+ , "c1" : "00173"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#173"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method backwardFetch arguments K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#182"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00182] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#188"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00188] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000006[00173] For method fetch arguments K  key"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00178"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN182485 the MagicNumber/String  'key can't be null' should be converted to const"
+ , "c3" : "QC-JAV000001[00178] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#190"
+ , "c1" : "00184"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN182485 the MagicNumber/String  'State store  [' should be converted to const"
+ , "c3" : "QC-JAV000001[00184] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#190"
+ , "c1" : "00174"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN182485 the MagicNumber/String  '] is not available anymore' should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181353 the MagicNumber/String  'key can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#191"
+ , "c1" : "00185"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN182485 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181353 the MagicNumber/String  'State store  [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#192"
+ , "c1" : "00185"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN182485 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181353 the MagicNumber/String  '] is not available anymore' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#201"
+ , "c1" : "00186"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#186"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181353 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00187"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#187"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181353 the MagicNumber/String  'please re-discover its location from the state metadata. ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#188"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181353 the MagicNumber/String  'Original error message: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00195"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#195"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00201] For method fetch arguments K  keyFrom|K  keyTo"
+ , "c3" : "QC-JAV000006[00195] For method backwardFetch arguments K  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#211"
+ , "c1" : "00200"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#200"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00200] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00206"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#206"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00206] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN182593 the MagicNumber/String  'key can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00208"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#208"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN182593 the MagicNumber/String  'State store  [' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00208"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#208"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN182593 the MagicNumber/String  '] is not available anymore' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00209"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#209"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN182593 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00210"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#210"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN182593 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#219"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00211] For method backwardFetch arguments K  keyFrom|K  keyTo"
+ , "c3" : "QC-JAV000006[00219] For method fetch arguments K  keyFrom|K  keyTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00229"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#229"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00229] For method backwardFetch arguments K  keyFrom|K  keyTo"
 }} 
 ]
 , 

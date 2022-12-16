@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.SessionBytesStoreSupplier" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionBytesStoreSupplier.java.html#10"
+ , "c5" : "00039"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionBytesStoreSupplier.java.html#39"
  , "c1" : "long"
  , "c2" : "segmentIntervalMs()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionBytesStoreSupplier.java.html#13"
+ , "c5" : "00046"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionBytesStoreSupplier.java.html#46"
  , "c1" : "long"
  , "c2" : "retentionPeriod()"
  , "c3" : "1"

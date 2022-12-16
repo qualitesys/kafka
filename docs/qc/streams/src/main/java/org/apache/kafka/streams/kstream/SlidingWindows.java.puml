@@ -2,14 +2,14 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.kstream.SlidingWindows"
 class org.apache.kafka.streams.kstream.SlidingWindows {
--SlidingWindows(long;long) : SlidingWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#24]]]
-+ofTimeDifferenceWithNoGrace(Duration) : SlidingWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#38]]]
-+ofTimeDifferenceAndGrace(Duration;Duration) : SlidingWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#43]]]
-+withTimeDifferenceAndGrace(Duration;Duration) : SlidingWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#54]]]
-+timeDifferenceMs() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#64]]]
-+gracePeriodMs() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#68]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#73]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#86]]]
-+toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#91]]]
+-SlidingWindows(long;long) : SlidingWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#82]]]
++ofTimeDifferenceWithNoGrace(Duration) : SlidingWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#107]]]
++ofTimeDifferenceAndGrace(Duration;Duration) : SlidingWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#121]]]
++withTimeDifferenceAndGrace(Duration;Duration) : SlidingWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#142]]]
++timeDifferenceMs() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#152]]]
++gracePeriodMs() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#156]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#161]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#174]]]
++toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#179]]]
 } 
 @enduml

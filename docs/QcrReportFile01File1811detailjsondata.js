@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#18"
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#35"
  , "c1" : "StreamTableJoinNode"
  , "c2" : "StreamTableJoinNode(String;ProcessorParameters<K,V,?,?>;String[];String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#31"
+ , "c5" : "00048"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#48"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#40"
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#57"
  , "c1" : "void"
  , "c2" : "writeToTopology(InternalTopologyBuilder)"
  , "c3" : "2"
@@ -100,66 +100,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#32"
+ , "c1" : "00049"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode.toString@POLYN147148 the MagicNumber/String  'StreamTableJoinNode{' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode.toString@POLYN147250 the MagicNumber/String  'StreamTableJoinNode{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#33"
+ , "c1" : "00050"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode.toString@POLYN147148 the MagicNumber/String  'storeNames=' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode.toString@POLYN147250 the MagicNumber/String  'storeNames=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#34"
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode.toString@POLYN147148 the MagicNumber/String  ', processorParameters=' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode.toString@POLYN147250 the MagicNumber/String  ', processorParameters=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#35"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode.toString@POLYN147148 the MagicNumber/String  ', otherJoinSideNodeName='' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode.toString@POLYN147250 the MagicNumber/String  ', otherJoinSideNodeName='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#35"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode.toString@POLYN147148 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode.toString@POLYN147250 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#36"
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode.toString@POLYN147148 the MagicNumber/String  '} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode.toString@POLYN147250 the MagicNumber/String  '} ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#40"
+ , "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method writeToTopology arguments InternalTopologyBuilder  topologyBuilder"
+ , "c3" : "QC-JAV000006[00057] For method writeToTopology arguments InternalTopologyBuilder  topologyBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#40"
+ , "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#57"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00040] The argument topologyBuilder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00057] The argument topologyBuilder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#48"
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode.writeToTopology@POLYN147507 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode.writeToTopology@POLYN147609 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

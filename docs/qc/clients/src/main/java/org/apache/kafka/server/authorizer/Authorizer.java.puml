@@ -2,12 +2,12 @@
 !pragma layout smetana
 "Configurable" <|-- "org.apache.kafka.server.authorizer.Authorizer"
 class org.apache.kafka.server.authorizer.Authorizer {
-start(AuthorizerServerInfo) : Map<Endpoint,?extendsCompletionStage<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#34]]]
-authorize(AuthorizableRequestContext;List<Action>) : List<AuthorizationResult> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#37]]]
-createAcls(AuthorizableRequestContext;List<AclBinding>) : List<?extendsCompletionStage<AclCreateResult>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#40]]]
-deleteAcls(AuthorizableRequestContext;List<AclBindingFilter>) : List<?extendsCompletionStage<AclDeleteResult>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#43]]]
-acls(AclBindingFilter) : Iterable<AclBinding> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#46]]]
-aclCount() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#49]]]
-authorizeByResourceType(AuthorizableRequestContext;AclOperation;ResourceType) : AuthorizationResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#54]]]
+start(AuthorizerServerInfo) : Map<Endpoint,?extendsCompletionStage<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#93]]]
+authorize(AuthorizableRequestContext;List<Action>) : List<AuthorizationResult> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#109]]]
+createAcls(AuthorizableRequestContext;List<AclBinding>) : List<?extendsCompletionStage<AclCreateResult>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#126]]]
+deleteAcls(AuthorizableRequestContext;List<AclBindingFilter>) : List<?extendsCompletionStage<AclDeleteResult>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#147]]]
+acls(AclBindingFilter) : Iterable<AclBinding> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#158]]]
+aclCount() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#164]]]
+authorizeByResourceType(AuthorizableRequestContext;AclOperation;ResourceType) : AuthorizationResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#188]]]
 } 
 @enduml

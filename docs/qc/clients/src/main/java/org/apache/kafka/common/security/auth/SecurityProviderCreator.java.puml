@@ -2,7 +2,7 @@
 !pragma layout smetana
 "Configurable" <|-- "org.apache.kafka.common.security.auth.SecurityProviderCreator"
 class org.apache.kafka.common.security.auth.SecurityProviderCreator {
-configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SecurityProviderCreator.java.html#15]]]
-getProvider() : Provider [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SecurityProviderCreator.java.html#20]]]
+configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SecurityProviderCreator.java.html#35]]]
+getProvider() : Provider [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SecurityProviderCreator.java.html#42]]]
 } 
 @enduml

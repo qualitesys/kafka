@@ -2,16 +2,16 @@
 !pragma layout smetana
 "AbstractDualSchemaRocksDBSegmentedBytesStore<KeyValueSegment>" <|-- "org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore"
 class org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore {
-AbstractRocksDBTimeOrderedSegmentedBytesStore(String;String;long;long;KeySchema;Optional<KeySchema>) : AbstractRocksDBTimeOrderedSegmentedBytesStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#71]]]
-+fetch(Bytes;long;long) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#82]]]
-+backwardFetch(Bytes;long;long) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#89]]]
-getIndexToBaseStoreIterator(SegmentIterator<KeyValueSegment>) : IndexToBaseStoreIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#95]]]
-fetch(Bytes;long;long;boolean) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#97]]]
-+fetch(Bytes;Bytes;long;long) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#129]]]
-+backwardFetch(Bytes;Bytes;long;long) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#137]]]
-fetch(Bytes;Bytes;long;long;boolean) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#144]]]
-+remove(Bytes;long) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#188]]]
-+fetchAll(long;long) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#193]]]
-+backwardFetchAll(long;long) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#208]]]
+AbstractRocksDBTimeOrderedSegmentedBytesStore(String;String;long;long;KeySchema;Optional<KeySchema>) : AbstractRocksDBTimeOrderedSegmentedBytesStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#114]]]
++fetch(Bytes;long;long) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#125]]]
++backwardFetch(Bytes;long;long) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#132]]]
+getIndexToBaseStoreIterator(SegmentIterator<KeyValueSegment>) : IndexToBaseStoreIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#138]]]
+fetch(Bytes;long;long;boolean) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#140]]]
++fetch(Bytes;Bytes;long;long) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#172]]]
++backwardFetch(Bytes;Bytes;long;long) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#180]]]
+fetch(Bytes;Bytes;long;long;boolean) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#187]]]
++remove(Bytes;long) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#231]]]
++fetchAll(long;long) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#236]]]
++backwardFetchAll(long;long) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#251]]]
 } 
 @enduml

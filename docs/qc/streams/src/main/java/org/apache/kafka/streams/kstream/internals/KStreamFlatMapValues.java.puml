@@ -2,7 +2,7 @@
 !pragma layout smetana
 "FixedKeyProcessorSupplier<KIn,VIn,VOut>" <|-- "org.apache.kafka.streams.kstream.internals.KStreamFlatMapValues"
 class org.apache.kafka.streams.kstream.internals.KStreamFlatMapValues {
-KStreamFlatMapValues(ValueMapperWithKey<?superKIn,?superVIn,?extendsIterable<?extendsVOut>>) : KStreamFlatMapValues [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMapValues.java.html#14]]]
-+get() : FixedKeyProcessor<KIn,VIn,VOut> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMapValues.java.html#19]]]
+KStreamFlatMapValues(ValueMapperWithKey<?superKIn,?superVIn,?extendsIterable<?extendsVOut>>) : KStreamFlatMapValues [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMapValues.java.html#29]]]
++get() : FixedKeyProcessor<KIn,VIn,VOut> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMapValues.java.html#34]]]
 } 
 @enduml

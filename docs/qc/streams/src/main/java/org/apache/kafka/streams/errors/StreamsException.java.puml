@@ -2,13 +2,13 @@
 !pragma layout smetana
 "KafkaException" <|-- "org.apache.kafka.streams.errors.StreamsException"
 class org.apache.kafka.streams.errors.StreamsException {
-+StreamsException(String) : StreamsException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#16]]]
-+StreamsException(String;TaskId) : StreamsException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#20]]]
-+StreamsException(String;Throwable) : StreamsException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#25]]]
-+StreamsException(String;Throwable;TaskId) : StreamsException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#29]]]
-+StreamsException(Throwable) : StreamsException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#34]]]
-+StreamsException(Throwable;TaskId) : StreamsException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#38]]]
-+taskId() : Optional<TaskId> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#44]]]
-+setTaskId(TaskId) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#48]]]
++StreamsException(String) : StreamsException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#36]]]
++StreamsException(String;TaskId) : StreamsException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#40]]]
++StreamsException(String;Throwable) : StreamsException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#45]]]
++StreamsException(String;Throwable;TaskId) : StreamsException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#49]]]
++StreamsException(Throwable) : StreamsException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#54]]]
++StreamsException(Throwable;TaskId) : StreamsException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#58]]]
++taskId() : Optional<TaskId> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#68]]]
++setTaskId(TaskId) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#72]]]
 } 
 @enduml

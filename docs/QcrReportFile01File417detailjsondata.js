@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.TopicDeletionDisabledException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00008"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicDeletionDisabledException.java.html#8"
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicDeletionDisabledException.java.html#23"
  , "c1" : "TopicDeletionDisabledException"
  , "c2" : "TopicDeletionDisabledException()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicDeletionDisabledException.java.html#11"
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicDeletionDisabledException.java.html#26"
  , "c1" : "TopicDeletionDisabledException"
  , "c2" : "TopicDeletionDisabledException(String)"
  , "c3" : "1"

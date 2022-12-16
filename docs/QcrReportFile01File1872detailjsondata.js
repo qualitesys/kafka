@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.ChangelogRegister" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogRegister.java.html#10"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogRegister.java.html#32"
  , "c1" : "void"
  , "c2" : "register(TopicPartition;ProcessorStateManager)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogRegister.java.html#13"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogRegister.java.html#38"
  , "c1" : "void"
  , "c2" : "unregister(Collection<TopicPartition>)"
  , "c3" : "1"

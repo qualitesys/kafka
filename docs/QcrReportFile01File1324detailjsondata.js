@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.SnapshotGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#45"
+ , "c5" : "00060"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#60"
  , "c1" : "SnapshotGenerator"
  , "c2" : "SnapshotGenerator(LogContext;SnapshotWriter<ApiMessageAndVersion>;int;List<Section>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#61"
+ , "c5" : "00078"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#78"
  , "c1" : "long"
  , "c2" : "lastContainedLogOffset()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#65"
+ , "c5" : "00082"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#82"
  , "c1" : "SnapshotWriter"
  , "c2" : "writer()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#70"
+ , "c5" : "00091"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#91"
  , "c1" : "boolean"
  , "c2" : "generateBatch()"
  , "c3" : "5"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#98"
+ , "c5" : "00124"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#124"
  , "c1" : "OptionalLong"
  , "c2" : "generateBatches()"
  , "c3" : "3"
@@ -134,192 +134,192 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#45"
+ , "c1" : "00060"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#60"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00045] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00060] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#48"
+ , "c1" : "00063"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#63"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00048] The argument sections is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00063] The argument sections is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#55"
+ , "c1" : "00070"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.controller.SnapshotGenerator.SnapshotGenerator@POLYN156386 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.controller.SnapshotGenerator.SnapshotGenerator@POLYN156386 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.controller.SnapshotGenerator.SnapshotGenerator@POLYN156386 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.controller.SnapshotGenerator.SnapshotGenerator@POLYN156542 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.controller.SnapshotGenerator.SnapshotGenerator@POLYN156542 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#73"
+ , "c1" : "00072"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.controller.SnapshotGenerator.SnapshotGenerator@POLYN156542 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#74"
+ , "c1" : "00092"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String  'Generated {} record(s) for the {} section of snapshot {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String  'Generating records for the {} section of snapshot {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#99"
+ , "c1" : "00095"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.controller.SnapshotGenerator.generateBatches@POLYN159092 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String  'Generated {} record(s) for the {} section of snapshot {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#104"
+ , "c1" : "00097"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.controller.SnapshotGenerator.generateBatches@POLYN159092 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String  'Generating records for the {} section of snapshot {}.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#125"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.controller.SnapshotGenerator.generateBatches@POLYN159248 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#130"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.controller.SnapshotGenerator.generateBatches@POLYN159248 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.SnapshotGenerator.lastContainedLogOffset@POLYN157315"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.SnapshotGenerator.lastContainedLogOffset@POLYN157471"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#71"
+ , "c1" : "00092"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#92"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#73"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#74"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String 'Generated {} record-s- for the {} section of snapshot {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#76"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#77"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#81"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#84"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String 'Generating records for the {} section of snapshot {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#93"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#94"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157597 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#95"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String 'Generated {} record-s- for the {} section of snapshot {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#97"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00097] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#98"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String 'Generating records for the {} section of snapshot {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#114"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#115"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.controller.SnapshotGenerator.generateBatch@POLYN157753 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

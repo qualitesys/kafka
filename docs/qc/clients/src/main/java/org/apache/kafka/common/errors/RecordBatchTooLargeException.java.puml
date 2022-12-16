@@ -2,9 +2,9 @@
 !pragma layout smetana
 "ApiException" <|-- "org.apache.kafka.common.errors.RecordBatchTooLargeException"
 class org.apache.kafka.common.errors.RecordBatchTooLargeException {
-+RecordBatchTooLargeException() : RecordBatchTooLargeException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordBatchTooLargeException.java.html#9]]]
-+RecordBatchTooLargeException(String;Throwable) : RecordBatchTooLargeException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordBatchTooLargeException.java.html#13]]]
-+RecordBatchTooLargeException(String) : RecordBatchTooLargeException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordBatchTooLargeException.java.html#17]]]
-+RecordBatchTooLargeException(Throwable) : RecordBatchTooLargeException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordBatchTooLargeException.java.html#21]]]
++RecordBatchTooLargeException() : RecordBatchTooLargeException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordBatchTooLargeException.java.html#26]]]
++RecordBatchTooLargeException(String;Throwable) : RecordBatchTooLargeException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordBatchTooLargeException.java.html#30]]]
++RecordBatchTooLargeException(String) : RecordBatchTooLargeException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordBatchTooLargeException.java.html#34]]]
++RecordBatchTooLargeException(Throwable) : RecordBatchTooLargeException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordBatchTooLargeException.java.html#38]]]
 } 
 @enduml

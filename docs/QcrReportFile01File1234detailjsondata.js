@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.transforms.util.SchemaUtil" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#11"
+ , "c5" : "00026"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#26"
  , "c1" : "SchemaBuilder"
  , "c2" : "copySchemaBasics(Schema)"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#21"
+ , "c5" : "00036"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#36"
  , "c1" : "SchemaBuilder"
  , "c2" : "copySchemaBasics(Schema;SchemaBuilder)"
  , "c3" : "2"
@@ -98,59 +98,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#11"
+ , "c1" : "00026"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#26"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00011] For method copySchemaBasics arguments Schema  source"
+ , "c3" : "QC-JAV000006[00026] For method copySchemaBasics arguments Schema  source"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#11"
+ , "c1" : "00026"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#26"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00011] For method copySchemaBasics list of called methods Object monObjet|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_arrayN144676"
+ , "c3" : "QC-JAV000007[00026] For method copySchemaBasics list of called methods Object monObjet|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_arrayN144766"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#11"
+ , "c1" : "00026"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#26"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00011] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00026] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#21"
+ , "c1" : "00036"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#36"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00021] For method copySchemaBasics arguments Schema  source|SchemaBuilder  builder"
+ , "c3" : "QC-JAV000006[00036] For method copySchemaBasics arguments Schema  source|SchemaBuilder  builder"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#21"
+ , "c1" : "00036"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#36"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00021] For method copySchemaBasics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; source_parametersN145430"
+ , "c3" : "QC-JAV000007[00036] For method copySchemaBasics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; source_parametersN145520"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#21"
+ , "c1" : "00036"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#36"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00021] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00036] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#21"
+ , "c1" : "00036"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#36"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00021] The argument builder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00036] The argument builder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#27"
+ , "c1" : "00042"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.transforms.util.SchemaUtil.copySchemaBasics@POLYN144993 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.transforms.util.SchemaUtil.copySchemaBasics@POLYN145083 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

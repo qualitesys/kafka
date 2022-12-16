@@ -2,17 +2,17 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.kstream.KTable"
 class org.apache.kafka.streams.kstream.KTable {
-filter(Predicate<?superK,?superV>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#25]]]
-filter(Predicate<?superK,?superV>;Named) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#28]]]
-filter(Predicate<?superK,?superV>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#31]]]
-filter(Predicate<?superK,?superV>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#35]]]
-filterNot(Predicate<?superK,?superV>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#40]]]
-filterNot(Predicate<?superK,?superV>;Named) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#43]]]
-filterNot(Predicate<?superK,?superV>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#46]]]
-filterNot(Predicate<?superK,?superV>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#50]]]
-toStream() : KStream<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#87]]]
-toStream(Named) : KStream<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#90]]]
-suppress(Suppressed<?superK>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#100]]]
-queryableStoreName() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#270]]]
+filter(Predicate<?superK,?superV>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#92]]]
+filter(Predicate<?superK,?superV>;Named) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#115]]]
+filter(Predicate<?superK,?superV>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#153]]]
+filter(Predicate<?superK,?superV>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#193]]]
+filterNot(Predicate<?superK,?superV>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#217]]]
+filterNot(Predicate<?superK,?superV>;Named) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#240]]]
+filterNot(Predicate<?superK,?superV>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#277]]]
+filterNot(Predicate<?superK,?superV>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#316]]]
+toStream() : KStream<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#646]]]
+toStream(Named) : KStream<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#658]]]
+suppress(Suppressed<?superK>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#724]]]
+queryableStoreName() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#2368]]]
 } 
 @enduml

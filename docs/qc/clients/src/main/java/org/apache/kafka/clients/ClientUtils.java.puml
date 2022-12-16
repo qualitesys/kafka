@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.ClientUtils"
 class org.apache.kafka.clients.ClientUtils {
--ClientUtils() : ClientUtils [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#29]]]
-+parseAndValidateAddresses(List<String>;String) : List<InetSocketAddress> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#32]]]
-+parseAndValidateAddresses(List<String>;ClientDnsLookup) : List<InetSocketAddress> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#36]]]
-+createChannelBuilder(AbstractConfig;Time;LogContext) : ChannelBuilder [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#79]]]
-resolve(String;HostResolver) : List<InetAddress> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#86]]]
-filterPreferredAddresses(InetAddress[]) : List<InetAddress> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#95]]]
+-ClientUtils() : ClientUtils [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#44]]]
++parseAndValidateAddresses(List<String>;String) : List<InetSocketAddress> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#47]]]
++parseAndValidateAddresses(List<String>;ClientDnsLookup) : List<InetSocketAddress> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#51]]]
++createChannelBuilder(AbstractConfig;Time;LogContext) : ChannelBuilder [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#102]]]
+resolve(String;HostResolver) : List<InetAddress> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#109]]]
+filterPreferredAddresses(InetAddress[]) : List<InetAddress> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#126]]]
 } 
 @enduml

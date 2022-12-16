@@ -2,7 +2,7 @@
 !pragma layout smetana
 "FixedKeyProcessorSupplier<K,V,V>" <|-- "org.apache.kafka.streams.kstream.internals.KStreamPeek"
 class org.apache.kafka.streams.kstream.internals.KStreamPeek {
-+KStreamPeek(ForeachAction<K,V>) : KStreamPeek [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamPeek.java.html#14]]]
-+get() : FixedKeyProcessor<K,V,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamPeek.java.html#19]]]
++KStreamPeek(ForeachAction<K,V>) : KStreamPeek [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamPeek.java.html#29]]]
++get() : FixedKeyProcessor<K,V,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamPeek.java.html#34]]]
 } 
 @enduml

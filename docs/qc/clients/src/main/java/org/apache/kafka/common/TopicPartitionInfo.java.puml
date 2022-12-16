@@ -2,13 +2,13 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.TopicPartitionInfo"
 class org.apache.kafka.common.TopicPartitionInfo {
-+TopicPartitionInfo(int;Node;List<Node>;List<Node>) : TopicPartitionInfo [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionInfo.java.html#19]]]
-+partition() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionInfo.java.html#27]]]
-+leader() : Node [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionInfo.java.html#32]]]
-+replicas() : List<Node> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionInfo.java.html#37]]]
-+isr() : List<Node> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionInfo.java.html#42]]]
-+toString() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionInfo.java.html#46]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionInfo.java.html#52]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionInfo.java.html#65]]]
++TopicPartitionInfo(int;Node;List<Node>;List<Node>) : TopicPartitionInfo [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionInfo.java.html#44]]]
++partition() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionInfo.java.html#54]]]
++leader() : Node [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionInfo.java.html#61]]]
++replicas() : List<Node> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionInfo.java.html#71]]]
++isr() : List<Node> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionInfo.java.html#78]]]
++toString() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionInfo.java.html#82]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionInfo.java.html#88]]]
++hashCode() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionInfo.java.html#101]]]
 } 
 @enduml

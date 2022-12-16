@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.RecordCollectorImpl" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#63"
+ , "c5" : "00080"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#80"
  , "c1" : "RecordCollectorImpl"
  , "c2" : "RecordCollectorImpl(LogContext;TaskId;StreamsProducer;ProductionExceptionHandler;StreamsMetricsImpl;ProcessorTopology)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00095"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#95"
+ , "c5" : "00112"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#112"
  , "c1" : "void"
  , "c2" : "initialize()"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00232"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#232"
+ , "c5" : "00252"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#252"
  , "c1" : "void"
  , "c2" : "recordSendError(String;Exception;ProducerRecord<byte[],byte[]>)"
  , "c3" : "9"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00265"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#265"
+ , "c5" : "00285"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#285"
  , "c1" : "boolean"
  , "c2" : "isFatalException(Exception)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00281"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#281"
+ , "c5" : "00304"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#304"
  , "c1" : "void"
  , "c2" : "flush()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00289"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#289"
+ , "c5" : "00315"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#315"
  , "c1" : "void"
  , "c2" : "closeClean()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00303"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#303"
+ , "c5" : "00332"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#332"
  , "c1" : "void"
  , "c2" : "closeDirty()"
  , "c3" : "2"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00314"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#314"
+ , "c5" : "00343"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#343"
  , "c1" : "void"
  , "c2" : "removeAllProducedSensors()"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00323"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#323"
+ , "c5" : "00352"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#352"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "offsets()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00327"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#327"
+ , "c5" : "00356"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#356"
  , "c1" : "void"
  , "c2" : "checkForException()"
  , "c3" : "2"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00337"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#337"
+ , "c5" : "00366"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#366"
  , "c1" : "Producer<byte[],byte[]>"
  , "c2" : "producer()"
  , "c3" : "1"
@@ -209,514 +209,514 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#63"
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#80"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00063] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00080] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#64"
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#81"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00064] The argument taskId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00081] The argument taskId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#65"
+ , "c1" : "00082"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#82"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00065] The argument streamsProducer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00082] The argument streamsProducer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#68"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#85"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00068] The argument topology is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00085] The argument topology is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#79"
+ , "c1" : "00096"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00079] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#115"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#120"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'Could not get partitions for topic {}, will retry' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#127"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'Could not determine the number of partitions for topic '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#128"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  '' for task ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#128"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  ' due to ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00096] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'Could not get partition information for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#135"
+ , "c1" : "00140"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  ' for task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'Could not get partitions for topic {}, will retry' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#136"
+ , "c1" : "00147"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  '. This can happen if the topic does not exist.' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'Could not determine the number of partitions for topic '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#139"
+ , "c1" : "00148"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  '' for task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#146"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00146] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00148"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  ' due to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#152"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00152] The argument keySerializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#153"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00153] The argument valueSerializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#155"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'Could not get partition information for topic ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#155"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  ' for task ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00156"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#156"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  '. This can happen if the topic does not exist.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#159"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00166"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#166"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00155] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#164"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#164"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'unknown because key is null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#165"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#165"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'unknown because value is null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#168"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'ClassCastException while producing data to topic %s. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#169"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'A serializer (key: %s / value: %s) is not compatible to the actual key or value type ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#170"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  '(key type: %s / value type: %s). ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#171"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'Change the default Serdes in StreamConfig or provide correct Serdes via method parameters ' should be converted to const"
+ , "c3" : "QC-JAVCWE476[00166] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#172"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  '(for example if using the DSL, `#to(String topic, Produced&amp;lt;K, V&amp;gt; produced)` with ' should be converted to const"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00172] The argument keySerializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#173"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00173] The argument valueSerializer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#175"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00175] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  '`Produced.keySerde(WindowedSerdes.timeWindowedSerdeFrom(String.class))`).' should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#184"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'unknown because key is null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00185"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00185"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'unknown because value is null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#188"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'ClassCastException while producing data to topic %s. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00189"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'A serializer (key: %s / value: %s) is not compatible to the actual key or value type ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00190"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  '(key type: %s / value type: %s). ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00191"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#191"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'Change the default Serdes in StreamConfig or provide correct Serdes via method parameters ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00192"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#192"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  '(for example if using the DSL, `#to(String topic, Produced&amp;lt;K, V&amp;gt; produced)` with ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00193"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  '`Produced.keySerde(WindowedSerdes.timeWindowedSerdeFrom(String.class))`).' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#195"
+ , "c1" : "00209"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#198"
+ , "c1" : "00213"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'Received offset={} in produce response for {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#201"
+ , "c1" : "00215"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  '-changelog' should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#203"
+ , "c1" : "00218"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'Received offset={} in produce response for {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#204"
+ , "c1" : "00221"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'Unable to records bytes produced to topic {} by sink node {} as the node is not recognized.\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  '-changelog' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#205"
+ , "c1" : "00223"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#223"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'Known sink nodes are {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00227"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#227"
+ , "c1" : "00224"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'Failed record: (key {} value {} timestamp {}) topic=[{}] partition=[{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'Unable to records bytes produced to topic {} by sink node {} as the node is not recognized.\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00232"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#232"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00232] For method recordSendError arguments String  topic|Exception  exception|ProducerRecord&lt;byte[] ,byte[] &gt;  serializedRecord"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00232"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#232"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00232] For method recordSendError list of called methods Object monObjet|java.lang.String String_formatN205294"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00232"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#232"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00232] The argument exception is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#236"
+ , "c1" : "00225"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String  '\nWritten offsets would not be recorded and no more records would be sent since this is a fatal error.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#241"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String  '\nWritten offsets would not be recorded and no more records would be sent since the producer is fenced, ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00242"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#242"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String  'indicating the task may be migrated out' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String  '\nThe broker is either slow or in bad state (like not having enough replicas) in responding the request, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'Known sink nodes are {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00247"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String  'or the connection to broker was interrupted sending the request or receiving the response. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl the MagicNumber/String  'Failed record: (key {} value {} timestamp {}) topic=[{}] partition=[{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#248"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String  '\nConsider overwriting `max.block.ms` and /or ' should be converted to const"
+ , "c1" : "00252"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#252"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00252] For method recordSendError arguments String  topic|Exception  exception|ProducerRecord&lt;byte[] ,byte[] &gt;  serializedRecord"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00249"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#249"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String  '`delivery.timeout.ms` to a larger value to wait longer for such scenarios and avoid timeout errors' should be converted to const"
+ , "c1" : "00252"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#252"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00252] For method recordSendError list of called methods Object monObjet|java.lang.String String_formatN205468"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#253"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String  '\nException handler choose to FAIL the processing, no more records would be sent.' should be converted to const"
+ , "c1" : "00252"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#252"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00252] The argument exception is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00256"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String  '\nException handler choose to CONTINUE processing in spite of this error but written offsets would not be recorded.' should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String  '\nWritten offsets would not be recorded and no more records would be sent since this is a fatal error.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#265"
+ , "c1" : "00261"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#261"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String  '\nWritten offsets would not be recorded and no more records would be sent since the producer is fenced, ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00262"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#262"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String  'indicating the task may be migrated out' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00266"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#266"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String  '\nThe broker is either slow or in bad state (like not having enough replicas) in responding the request, ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00267"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#267"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String  'or the connection to broker was interrupted sending the request or receiving the response. ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00268"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#268"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String  '\nConsider overwriting `max.block.ms` and /or ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00269"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#269"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String  '`delivery.timeout.ms` to a larger value to wait longer for such scenarios and avoid timeout errors' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00273"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#273"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String  '\nException handler choose to FAIL the processing, no more records would be sent.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00276"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#276"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String  '\nException handler choose to CONTINUE processing in spite of this error but written offsets would not be recorded.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00285"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#285"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00265] For method isFatalException arguments Exception  exception"
+ , "c3" : "QC-JAV000006[00285] For method isFatalException arguments Exception  exception"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00282"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#282"
+ , "c1" : "00305"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.flush@POLYN207626 the MagicNumber/String  'Flushing record collector' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00290"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#290"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.closeClean@POLYN207951 the MagicNumber/String  'Closing record collector clean' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00304"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#304"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.closeDirty@POLYN208268 the MagicNumber/String  'Closing record collector dirty' should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.flush@POLYN207800 the MagicNumber/String  'Flushing record collector' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00316"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#316"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00316] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.closeClean@POLYN208125 the MagicNumber/String  'Closing record collector clean' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00330"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#330"
+ , "c1" : "00333"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.checkForException@POLYN209103 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.closeDirty@POLYN208442 the MagicNumber/String  'Closing record collector dirty' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00331"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#331"
+ , "c1" : "00345"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.checkForException@POLYN209103 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00345] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00359"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#359"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00359] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.checkForException@POLYN209277 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00360"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#360"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.checkForException@POLYN209277 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordCollectorImpl.closeClean@POLYN207951"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordCollectorImpl.closeClean@POLYN208125"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordCollectorImpl.closeDirty@POLYN208268"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordCollectorImpl.closeDirty@POLYN208442"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordCollectorImpl.flush@POLYN207626"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#236"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00236] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String '\nWritten offsets would not be recorded and no more records would be sent since this is a fatal error.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#241"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00241] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String '\nWritten offsets would not be recorded and no more records would be sent since the producer is fenced, ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00242"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#242"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00242] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String 'indicating the task may be migrated out' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#246"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String '\nThe broker is either slow or in bad state -like not having enough replicas- in responding the request, ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#247"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00247] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String 'or the connection to broker was interrupted sending the request or receiving the response. ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#248"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00248] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String '\nConsider overwriting `max.block.ms` and /or ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00249"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#249"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String '`delivery.timeout.ms` to a larger value to wait longer for such scenarios and avoid timeout errors' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#253"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String '\nException handler choose to FAIL the processing, no more records would be sent.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordCollectorImpl.flush@POLYN207800"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00256"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#256"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00256] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205093 the MagicNumber/String '\nException handler choose to CONTINUE processing in spite of this error but written offsets would not be recorded.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00256] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String '\nWritten offsets would not be recorded and no more records would be sent since this is a fatal error.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00290"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#290"
+ , "c1" : "00261"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#261"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00290] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.closeClean@POLYN207951 the MagicNumber/String 'Closing record collector clean' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00261] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String '\nWritten offsets would not be recorded and no more records would be sent since the producer is fenced, ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00304"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#304"
+ , "c1" : "00262"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#262"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00304] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.closeDirty@POLYN208268 the MagicNumber/String 'Closing record collector dirty' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00262] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String 'indicating the task may be migrated out' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00282"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#282"
+ , "c1" : "00266"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#266"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00282] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.flush@POLYN207626 the MagicNumber/String 'Flushing record collector' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00266] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String '\nThe broker is either slow or in bad state -like not having enough replicas- in responding the request, ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00267"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#267"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String 'or the connection to broker was interrupted sending the request or receiving the response. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00268"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#268"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00268] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String '\nConsider overwriting `max.block.ms` and /or ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00269"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#269"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00269] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String '`delivery.timeout.ms` to a larger value to wait longer for such scenarios and avoid timeout errors' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00273"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#273"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00273] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String '\nException handler choose to FAIL the processing, no more records would be sent.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00276"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#276"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00276] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.recordSendError@POLYN205267 the MagicNumber/String '\nException handler choose to CONTINUE processing in spite of this error but written offsets would not be recorded.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00316"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#316"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00316] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.closeClean@POLYN208125 the MagicNumber/String 'Closing record collector clean' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00333"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#333"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00333] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.closeDirty@POLYN208442 the MagicNumber/String 'Closing record collector dirty' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00305"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.flush@POLYN207800 the MagicNumber/String 'Flushing record collector' MUST BE CONVERTED to const"
 }} 
 ]
 , 

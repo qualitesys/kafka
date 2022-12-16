@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.kstream.BranchedKStream"
 class org.apache.kafka.streams.kstream.BranchedKStream {
-branch(Predicate<?superK,?superV>) : BranchedKStream<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.html#9]]]
-branch(Predicate<?superK,?superV>;Branched<K,V>) : BranchedKStream<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.html#12]]]
-defaultBranch() : Map<String,KStream<K,V>> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.html#15]]]
-defaultBranch(Branched<K,V>) : Map<String,KStream<K,V>> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.html#18]]]
-noDefaultBranch() : Map<String,KStream<K,V>> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.html#21]]]
+branch(Predicate<?superK,?superV>) : BranchedKStream<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.html#127]]]
+branch(Predicate<?superK,?superV>;Branched<K,V>) : BranchedKStream<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.html#141]]]
+defaultBranch() : Map<String,KStream<K,V>> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.html#150]]]
+defaultBranch(Branched<K,V>) : Map<String,KStream<K,V>> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.html#162]]]
+noDefaultBranch() : Map<String,KStream<K,V>> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.html#171]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.snapshot.SnapshotWriter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.html#12"
+ , "c5" : "00041"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.html#41"
  , "c1" : "OffsetAndEpoch"
  , "c2" : "snapshotId()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.html#15"
+ , "c5" : "00046"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.html#46"
  , "c1" : "long"
  , "c2" : "lastContainedLogOffset()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.html#18"
+ , "c5" : "00051"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.html#51"
  , "c1" : "int"
  , "c2" : "lastContainedLogEpoch()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.html#21"
+ , "c5" : "00058"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.html#58"
  , "c1" : "boolean"
  , "c2" : "isFrozen()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.html#24"
+ , "c5" : "00068"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.html#68"
  , "c1" : "void"
  , "c2" : "append(List<T>)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.html#27"
+ , "c5" : "00075"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.html#75"
  , "c1" : "void"
  , "c2" : "freeze()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.html#30"
+ , "c5" : "00082"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.html#82"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

@@ -2,9 +2,9 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.internals.AdminApiHandler"
 class org.apache.kafka.clients.admin.internals.AdminApiHandler {
-apiName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#18]]]
-buildRequest(int;Set<K>) : Collection<RequestAndKeys<K>> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#21]]]
-handleResponse(Node;Set<K>;AbstractResponse) : ApiResult<K,V> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#24]]]
-lookupStrategy() : AdminApiLookupStrategy<K> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#27]]]
+apiName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#35]]]
+buildRequest(int;Set<K>) : Collection<RequestAndKeys<K>> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#49]]]
+handleResponse(Node;Set<K>;AbstractResponse) : ApiResult<K,V> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#71]]]
+lookupStrategy() : AdminApiLookupStrategy<K> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#79]]]
 } 
 @enduml

@@ -2,16 +2,16 @@
 !pragma layout smetana
 "MeasurableStat" <|-- "org.apache.kafka.common.metrics.stats.SampledStat"
 class org.apache.kafka.common.metrics.stats.SampledStat {
-+SampledStat(double) : SampledStat [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#17]]]
-+record(MetricConfig;double;long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#23]]]
--advance(MetricConfig;long) : Sample [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#31]]]
-newSample(long) : Sample [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#44]]]
-+measure(MetricConfig;long) : double [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#49]]]
-+current(long) : Sample [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#54]]]
-+oldest(long) : Sample [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#60]]]
-+toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#73]]]
-update(Sample;MetricConfig;double;long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#81]]]
-+combine(List<Sample>;MetricConfig;long) : double [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#83]]]
-purgeObsoleteSamples(MetricConfig;long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#86]]]
++SampledStat(double) : SampledStat [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#41]]]
++record(MetricConfig;double;long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#47]]]
+-advance(MetricConfig;long) : Sample [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#55]]]
+newSample(long) : Sample [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#68]]]
++measure(MetricConfig;long) : double [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#73]]]
++current(long) : Sample [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#78]]]
++oldest(long) : Sample [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#84]]]
++toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#97]]]
+update(Sample;MetricConfig;double;long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#105]]]
++combine(List<Sample>;MetricConfig;long) : double [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#107]]]
+purgeObsoleteSamples(MetricConfig;long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#110]]]
 } 
 @enduml

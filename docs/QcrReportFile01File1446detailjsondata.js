@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.snapshot.SnapshotReader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#12"
+ , "c5" : "00043"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#43"
  , "c1" : "OffsetAndEpoch"
  , "c2" : "snapshotId()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#15"
+ , "c5" : "00048"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#48"
  , "c1" : "long"
  , "c2" : "lastContainedLogOffset()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#18"
+ , "c5" : "00053"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#53"
  , "c1" : "int"
  , "c2" : "lastContainedLogEpoch()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#21"
+ , "c5" : "00058"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#58"
  , "c1" : "long"
  , "c2" : "lastContainedLogTimestamp()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#24"
+ , "c5" : "00063"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#63"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

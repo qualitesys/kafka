@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.StateRestoreListener" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#11"
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#52"
  , "c1" : "void"
  , "c2" : "onRestoreStart(TopicPartition;String;long;long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#17"
+ , "c5" : "00072"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#72"
  , "c1" : "void"
  , "c2" : "onBatchRestored(TopicPartition;String;long;long)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#23"
+ , "c5" : "00084"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#84"
  , "c1" : "void"
  , "c2" : "onRestoreEnd(TopicPartition;String;long)"
  , "c3" : "1"

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DeleteConsumerGroupsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupsResult.java.html#16"
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupsResult.java.html#35"
  , "c1" : "DeleteConsumerGroupsResult"
  , "c2" : "DeleteConsumerGroupsResult(Map<String,KafkaFuture<Void>>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupsResult.java.html#21"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupsResult.java.html#43"
  , "c1" : "Map<String,KafkaFuture<Void>>"
  , "c2" : "deletedGroups()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupsResult.java.html#28"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupsResult.java.html#52"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -86,10 +86,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupsResult.java.html#29"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupsResult.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.clients.admin.DeleteConsumerGroupsResult.all@POLYN147666 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.admin.DeleteConsumerGroupsResult.all@POLYN147810 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

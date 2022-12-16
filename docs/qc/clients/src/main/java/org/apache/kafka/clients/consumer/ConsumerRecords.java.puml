@@ -2,12 +2,12 @@
 !pragma layout smetana
 "Iterable<ConsumerRecord<K,V>>" <|-- "org.apache.kafka.clients.consumer.ConsumerRecords"
 class org.apache.kafka.clients.consumer.ConsumerRecords {
-+ConsumerRecords(Map<TopicPartition,List<ConsumerRecord<K,V>>>) : ConsumerRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#20]]]
-+records(TopicPartition) : List<ConsumerRecord<K,V>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#25]]]
-+records(String) : Iterable<ConsumerRecord<K,V>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#34]]]
-+partitions() : Set<TopicPartition> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#46]]]
-+iterator() : Iterator<ConsumerRecord<K,V>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#51]]]
-+count() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#56]]]
-+isEmpty() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#90]]]
++ConsumerRecords(Map<TopicPartition,List<ConsumerRecord<K,V>>>) : ConsumerRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#39]]]
++records(TopicPartition) : List<ConsumerRecord<K,V>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#48]]]
++records(String) : Iterable<ConsumerRecord<K,V>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#59]]]
++partitions() : Set<TopicPartition> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#74]]]
++iterator() : Iterator<ConsumerRecord<K,V>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#79]]]
++count() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#86]]]
++isEmpty() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#120]]]
 } 
 @enduml

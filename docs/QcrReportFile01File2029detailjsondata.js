@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.BlockBasedTableConfigWithAccessibleCache" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BlockBasedTableConfigWithAccessibleCache.java.html#12"
+ , "c5" : "00027"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BlockBasedTableConfigWithAccessibleCache.java.html#27"
  , "c1" : "BlockBasedTableConfig"
  , "c2" : "setBlockCache(Cache)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BlockBasedTableConfigWithAccessibleCache.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BlockBasedTableConfigWithAccessibleCache.java.html#32"
  , "c1" : "Cache"
  , "c2" : "blockCache()"
  , "c3" : "1"
@@ -77,10 +77,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BlockBasedTableConfigWithAccessibleCache.java.html#12"
+ , "c1" : "00027"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BlockBasedTableConfigWithAccessibleCache.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00012] For method setBlockCache arguments Cache  cache"
+ , "c3" : "QC-JAV000006[00027] For method setBlockCache arguments Cache  cache"
 }} 
 ]
 , 

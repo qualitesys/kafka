@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.SessionStoreBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#32"
  , "c1" : "SessionStoreBuilder"
  , "c2" : "SessionStoreBuilder(SessionBytesStoreSupplier;Serde<K>;Serde<V>;Time)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#27"
+ , "c5" : "00042"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#42"
  , "c1" : "SessionStore<K,V>"
  , "c2" : "build()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#36"
+ , "c5" : "00051"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#51"
  , "c1" : "SessionStore<Bytes,byte[]>"
  , "c2" : "maybeWrapCaching(SessionStore<Bytes,byte[]>)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#43"
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#58"
  , "c1" : "SessionStore<Bytes,byte[]>"
  , "c2" : "maybeWrapLogging(SessionStore<Bytes,byte[]>)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#50"
+ , "c5" : "00065"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#65"
  , "c1" : "long"
  , "c2" : "retentionPeriod()"
  , "c3" : "1"
@@ -118,38 +118,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#17"
+ , "c1" : "00032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#32"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00017] The argument storeSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#21"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.state.internals.SessionStoreBuilder.SessionStoreBuilder@POLYN148077 the MagicNumber/String  'storeSupplier cannot be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#22"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.state.internals.SessionStoreBuilder.SessionStoreBuilder@POLYN148077 the MagicNumber/String  'storeSupplier's metricsScope can't be null' should be converted to const"
+ , "c3" : "QC-JAVCWE476[00032] The argument storeSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00036"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#36"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method maybeWrapCaching arguments SessionStore&lt;Bytes ,byte[] &gt;  inner"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.state.internals.SessionStoreBuilder.SessionStoreBuilder@POLYN148167 the MagicNumber/String  'storeSupplier cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#43"
+ , "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#37"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.SessionStoreBuilder.SessionStoreBuilder@POLYN148167 the MagicNumber/String  'storeSupplier's metricsScope can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method maybeWrapLogging arguments SessionStore&lt;Bytes ,byte[] &gt;  inner"
+ , "c3" : "QC-JAV000006[00051] For method maybeWrapCaching arguments SessionStore&lt;Bytes ,byte[] &gt;  inner"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#58"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00058] For method maybeWrapLogging arguments SessionStore&lt;Bytes ,byte[] &gt;  inner"
 }} 
 ]
 , 

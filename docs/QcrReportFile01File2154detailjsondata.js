@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.WrappingStoreProvider" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#19"
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#36"
  , "c1" : "WrappingStoreProvider"
  , "c2" : "WrappingStoreProvider(Collection<StreamThreadStateStoreProvider>;StoreQueryParameters)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#26"
+ , "c5" : "00043"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#43"
  , "c1" : "void"
  , "c2" : "setStoreQueryParameters(StoreQueryParameters)"
  , "c3" : "1"
@@ -91,52 +91,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#26"
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method setStoreQueryParameters arguments StoreQueryParameters  storeQueryParameters"
+ , "c3" : "QC-JAV000006[00043] For method setStoreQueryParameters arguments StoreQueryParameters  storeQueryParameters"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#35"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00035] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00052] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#38"
+ , "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.state.internals.WrappingStoreProvider the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.state.internals.WrappingStoreProvider the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#44"
+ , "c1" : "00061"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.state.internals.WrappingStoreProvider the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.state.internals.WrappingStoreProvider the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#46"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.WrappingStoreProvider the MagicNumber/String  'The specified partition %d for store %s does not exist.' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.WrappingStoreProvider the MagicNumber/String  'The specified partition %d for store %s does not exist.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#50"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.internals.WrappingStoreProvider the MagicNumber/String  'The state store, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.state.internals.WrappingStoreProvider the MagicNumber/String  'The state store, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#50"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.internals.WrappingStoreProvider the MagicNumber/String  ', may have migrated to another instance.' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.state.internals.WrappingStoreProvider the MagicNumber/String  ', may have migrated to another instance.' should be converted to const"
 }} 
 ]
 , 

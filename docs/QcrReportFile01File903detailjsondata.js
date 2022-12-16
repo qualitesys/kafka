@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.Java" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00008"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#8"
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#23"
  , "c1" : "Java"
  , "c2" : "Java()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#13"
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#28"
  , "c1" : "Version"
  , "c2" : "parseVersion(String)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#28"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#43"
  , "c1" : "boolean"
  , "c2" : "isIbmJdk()"
  , "c3" : "1"
@@ -100,80 +100,80 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#13"
+ , "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#28"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00013] For method parseVersion arguments String  versionString"
+ , "c3" : "QC-JAV000006[00028] For method parseVersion arguments String  versionString"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#13"
+ , "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#28"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00013] For method parseVersion list of called methods Object monObjet|int Integer_parseIntN146001|int Integer_parseIntN146197"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#14"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.utils.Java.parseVersion@POLYN145782 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#20"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.utils.Java.parseVersion@POLYN145782 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000007[00028] For method parseVersion list of called methods Object monObjet|int Integer_parseIntN146091|int Integer_parseIntN146287"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.Java.isIbmJdk@POLYN146636 the MagicNumber/String  'java.vendor' should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.Java.parseVersion@POLYN145872 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#29"
+ , "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.Java.isIbmJdk@POLYN146636 the MagicNumber/String  'IBM' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.utils.Java.parseVersion@POLYN145872 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.utils.Java.Version.toString@POLYN147153 the MagicNumber/String  'Version(majorVersion=' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.utils.Java.isIbmJdk@POLYN146726 the MagicNumber/String  'java.vendor' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#45"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.utils.Java.Version.toString@POLYN147153 the MagicNumber/String  ', minorVersion=' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.utils.Java.isIbmJdk@POLYN146726 the MagicNumber/String  'IBM' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#45"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.utils.Java.Version.toString@POLYN147153 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.utils.Java.Version.toString@POLYN147243 the MagicNumber/String  'Version(majorVersion=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#50"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.utils.Java.Version.isJava9Compatible@POLYN147328 the MagicNumber/String  9 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.utils.Java.Version.toString@POLYN147243 the MagicNumber/String  ', minorVersion=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#54"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.utils.Java.Version.isJava11Compatible@POLYN147433 the MagicNumber/String  11 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.utils.Java.Version.toString@POLYN147243 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.utils.Java.Version.isJava9Compatible@POLYN147418 the MagicNumber/String  9 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#69"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.utils.Java.Version.isJava11Compatible@POLYN147523 the MagicNumber/String  11 should be converted to const"
 }} 
 ]
 , 

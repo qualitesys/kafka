@@ -2,8 +2,8 @@
 !pragma layout smetana
 "AuthenticateCallbackHandler" <|-- "org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler"
 class org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler {
-+configure(Map<String,?>;String;List<AppConfigurationEntry>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#30]]]
-+handle(Callback[]) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#35]]]
-+close() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#82]]]
++configure(Map<String,?>;String;List<AppConfigurationEntry>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#52]]]
++handle(Callback[]) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#57]]]
++close() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#104]]]
 } 
 @enduml

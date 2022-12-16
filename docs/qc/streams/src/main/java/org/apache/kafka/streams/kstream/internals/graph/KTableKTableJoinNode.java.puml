@@ -2,14 +2,14 @@
 !pragma layout smetana
 "BaseJoinProcessorNode<K,Change<V1>,Change<V2>,Change<VR>>" <|-- "org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode"
 class org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode {
-KTableKTableJoinNode(String;ProcessorParameters<K,Change<V1>,?,?>;ProcessorParameters<K,Change<V2>,?,?>;ProcessorParameters<K,Change<VR>,?,?>;String;String;Serde<K>;Serde<VR>;String[];String[];StoreBuilder<TimestampedKeyValueStore<K,VR>>) : KTableKTableJoinNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#23]]]
-+keySerde() : Serde<K> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#50]]]
-+valueSerde() : Serde<VR> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#54]]]
-+joinThisStoreNames() : String[] [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#58]]]
-+joinOtherStoreNames() : String[] [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#62]]]
-+queryableStoreName() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#66]]]
-+joinMerger() : KTableKTableJoinMerger<K,VR> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#72]]]
-+writeToTopology(InternalTopologyBuilder) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#80]]]
-+toString() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#110]]]
+KTableKTableJoinNode(String;ProcessorParameters<K,Change<V1>,?,?>;ProcessorParameters<K,Change<V2>,?,?>;ProcessorParameters<K,Change<VR>,?,?>;String;String;Serde<K>;Serde<VR>;String[];String[];StoreBuilder<TimestampedKeyValueStore<K,VR>>) : KTableKTableJoinNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#40]]]
++keySerde() : Serde<K> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#67]]]
++valueSerde() : Serde<VR> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#71]]]
++joinThisStoreNames() : String[] [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#75]]]
++joinOtherStoreNames() : String[] [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#79]]]
++queryableStoreName() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#83]]]
++joinMerger() : KTableKTableJoinMerger<K,VR> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#91]]]
++writeToTopology(InternalTopologyBuilder) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#99]]]
++toString() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#129]]]
 } 
 @enduml

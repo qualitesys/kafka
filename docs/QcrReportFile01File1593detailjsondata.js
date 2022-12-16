@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.StreamsBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#47"
+ , "c5" : "00077"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#77"
  , "c1" : "StreamsBuilder"
  , "c2" : "StreamsBuilder()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#54"
+ , "c5" : "00088"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#88"
  , "c1" : "StreamsBuilder"
  , "c2" : "StreamsBuilder(TopologyConfig)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#60"
+ , "c5" : "00094"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#94"
  , "c1" : "Topology"
  , "c2" : "getNewTopology(TopologyConfig)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00207"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#207"
+ , "c5" : "00509"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#509"
  , "c1" : "StreamsBuilder"
  , "c2" : "addStateStore(StoreBuilder<?>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00247"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#247"
+ , "c5" : "00612"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#612"
  , "c1" : "Topology"
  , "c2" : "build()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00252"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#252"
+ , "c5" : "00623"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#623"
  , "c1" : "Topology"
  , "c2" : "build(Properties)"
  , "c3" : "1"
@@ -141,318 +141,80 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#60"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method getNewTopology arguments TopologyConfig  topologyConfigs"
+ , "c3" : "QC-JAV000006[00094] For method getNewTopology arguments TopologyConfig  topologyConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#65"
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#112"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00065] Lock statement on synchronized method "
+ , "c3" : "QC-JAV000019[00112] Lock statement on synchronized method "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#70"
+ , "c1" : "00129"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#129"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00070] Lock statement on synchronized method "
+ , "c3" : "QC-JAV000019[00129] Lock statement on synchronized method "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#76"
+ , "c1" : "00148"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#148"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00076] Lock statement on synchronized method "
+ , "c3" : "QC-JAV000019[00148] Lock statement on synchronized method "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#77"
+ , "c1" : "00149"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#77"
+ , "c1" : "00149"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#77"
+ , "c1" : "00149"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#77"
+ , "c1" : "00149"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#81"
+ , "c1" : "00167"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#167"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00081] Lock statement on synchronized method "
+ , "c3" : "QC-JAV000019[00167] Lock statement on synchronized method "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#83"
+ , "c1" : "00169"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'topics can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'consumed can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#90"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00090] Lock statement on synchronized method "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#95"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00095] Lock statement on synchronized method "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'topicPattern can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#98"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'consumed can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#103"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00103] Lock statement on synchronized method "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#105"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00105] The argument materialized is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'topic can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'consumed can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'materialized can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#113"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  '-' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#119"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00119] Lock statement on synchronized method "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#124"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00124] Lock statement on synchronized method "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'topic can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#127"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'consumed can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#134"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  '-' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#140"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00140] Lock statement on synchronized method "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#142"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'topic can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#143"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'materialized can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#146"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  '-' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#155"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00155] Lock statement on synchronized method "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#157"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'topic can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#158"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'consumed can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#164"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'topics can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#170"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00170] Lock statement on synchronized method "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#171"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#175"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00175] Lock statement on synchronized method "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#177"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00177] The argument materialized is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#178"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'topic can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#179"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'consumed can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#180"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'materialized can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#186"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'consumed can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -463,136 +225,374 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#194"
+ , "c1" : "00193"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'topic can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#195"
+ , "c1" : "00193"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'materialized can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#197"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  '-' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#207"
+ , "c1" : "00214"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#214"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00207] Lock statement on synchronized method addStateStore"
+ , "c3" : "QC-JAV000019[00214] Lock statement on synchronized method "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#207"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00207] For method addStateStore arguments StoreBuilder&lt;? &gt;  builder"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#208"
+ , "c1" : "00216"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.StreamsBuilder.addStateStore@POLYN335326 the MagicNumber/String  'builder can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'topicPattern can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00215"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#215"
+ , "c1" : "00217"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#217"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'consumed can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00258"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#258"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00215] Lock statement on synchronized method "
+ , "c3" : "QC-JAV000019[00258] Lock statement on synchronized method "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#218"
+ , "c1" : "00260"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#260"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00218] The argument stateUpdateSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00260] The argument materialized is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#219"
+ , "c1" : "00261"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#261"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'storeBuilder can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'topic can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#220"
+ , "c1" : "00262"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#262"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'consumed can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'consumed can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00231"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#231"
+ , "c1" : "00263"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#263"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'materialized can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00268"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#268"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  '-' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00291"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#291"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00231] Lock statement on synchronized method "
+ , "c3" : "QC-JAV000019[00291] Lock statement on synchronized method "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#235"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'storeBuilder can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#236"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'consumed can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#247"
+ , "c1" : "00314"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#314"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00247] Lock statement on synchronized method build"
+ , "c3" : "QC-JAV000019[00314] Lock statement on synchronized method "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#248"
+ , "c1" : "00316"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#316"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.streams.StreamsBuilder.build@POLYN340118 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'topic can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#252"
+ , "c1" : "00317"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#317"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'consumed can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00324"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#324"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  '-' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00347"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#347"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00252] Lock statement on synchronized method build"
+ , "c3" : "QC-JAV000019[00347] Lock statement on synchronized method "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#252"
+ , "c1" : "00349"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#349"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'topic can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#350"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'materialized can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00353"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#353"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  '-' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00377"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#377"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00377] Lock statement on synchronized method "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00379"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#379"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'topic can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00380"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#380"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'consumed can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00386"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#386"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00386] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  '-' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00407"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#407"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00407] Lock statement on synchronized method "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00408"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#408"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00408"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#408"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00443"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#443"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00443] Lock statement on synchronized method "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00445"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#445"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00445] The argument materialized is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00446"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#446"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00446] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'topic can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00447"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#447"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00447] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'consumed can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00448"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#448"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'materialized can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00454"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#454"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00454] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  '-' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00484"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#484"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00484] Lock statement on synchronized method "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00486"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#486"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00486] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'topic can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00487"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#487"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'materialized can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00489"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#489"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  '-' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00509"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#509"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00509] Lock statement on synchronized method addStateStore"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00509"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#509"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00252] For method build arguments Properties  props"
+ , "c3" : "QC-JAV000006[00509] For method addStateStore arguments StoreBuilder&lt;? &gt;  builder"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#254"
+ , "c1" : "00510"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#510"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.streams.StreamsBuilder.build@POLYN340469 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.streams.StreamsBuilder.addStateStore@POLYN337552 the MagicNumber/String  'builder can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#247"
+ , "c1" : "00547"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#547"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00547] Lock statement on synchronized method "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00550"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#550"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00550] The argument stateUpdateSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00551"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#551"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00551] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'storeBuilder can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00552"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#552"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00552] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'consumed can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00591"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#591"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00591] Lock statement on synchronized method "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00595"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#595"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00595] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'storeBuilder can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00596"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#596"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.streams.StreamsBuilder the MagicNumber/String  'consumed can't be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00612"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#612"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00612] Lock statement on synchronized method build"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00613"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#613"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00613] In method org.apache.kafka.streams.StreamsBuilder.build@POLYN342344 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00623"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#623"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00623] Lock statement on synchronized method build"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00623"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#623"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00623] For method build arguments Properties  props"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00625"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#625"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00625] In method org.apache.kafka.streams.StreamsBuilder.build@POLYN342695 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00612"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#612"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00247] Public method build is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00612] Public method build is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

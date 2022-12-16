@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#15"
+ , "c5" : "00030"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#30"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#20"
+ , "c5" : "00035"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#35"
  , "c1" : "List<ConfigValue>"
  , "c2" : "validate(ConnectorClientConfigRequest)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#25"
+ , "c5" : "00040"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#40"
  , "c1" : "ConfigValue"
  , "c2" : "configValue(Map.Entry<String,Object>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#32"
+ , "c5" : "00047"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#47"
  , "c1" : "void"
  , "c2" : "validate(ConfigValue)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#39"
+ , "c5" : "00054"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#54"
  , "c1" : "String"
  , "c2" : "policyName()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#56"
  , "c1" : "boolean"
  , "c2" : "isAllowed(ConfigValue)"
  , "c3" : "1"
@@ -148,94 +148,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#20"
+ , "c1" : "00035"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#35"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00020] For method validate arguments ConnectorClientConfigRequest  connectorClientConfigRequest"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#20"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00020] For method validate list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; connectorClientConfigRequest_clientPropsN145887"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#20"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00020] The argument connectorClientConfigRequest is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#25"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method configValue arguments Map.Entry&lt;String ,Object &gt;  configEntry"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#25"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00025] The argument configEntry is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#32"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method validate arguments ConfigValue  configValue"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#32"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00032] The argument configValue is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy.validate@POLYN146584 the MagicNumber/String  'The '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy.validate@POLYN146584 the MagicNumber/String  '' policy does not allow '' should be converted to const"
+ , "c3" : "QC-JAV000006[00035] For method validate arguments ConnectorClientConfigRequest  connectorClientConfigRequest"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00035"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy.validate@POLYN146584 the MagicNumber/String  '' to be overridden in the connector configuration.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method isAllowed arguments ConfigValue  configValue"
+ , "c3" : "QC-JAV000007[00035] For method validate list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; connectorClientConfigRequest_clientPropsN145977"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#15"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00015] Void method close is empty or contains only a return."
+ , "c1" : "00035"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#35"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00035] The argument connectorClientConfigRequest is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#15"
+ , "c1" : "00040"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#40"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00040] For method configValue arguments Map.Entry&lt;String ,Object &gt;  configEntry"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00040"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#40"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00040] The argument configEntry is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#47"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00047] For method validate arguments ConfigValue  configValue"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#47"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00047] The argument configValue is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#49"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy.validate@POLYN146674 the MagicNumber/String  'The '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#49"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy.validate@POLYN146674 the MagicNumber/String  '' policy does not allow '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#50"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy.validate@POLYN146674 the MagicNumber/String  '' to be overridden in the connector configuration.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#56"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00056] For method isAllowed arguments ConfigValue  configValue"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#30"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00015] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000005[00030] Void method close is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#30"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00030] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

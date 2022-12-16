@@ -2,12 +2,12 @@
 !pragma layout smetana
 "WindowedSerializer<T>" <|-- "org.apache.kafka.streams.kstream.SessionWindowedSerializer"
 class org.apache.kafka.streams.kstream.SessionWindowedSerializer {
-+SessionWindowedSerializer() : SessionWindowedSerializer [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#19]]]
-+SessionWindowedSerializer(Serializer<T>) : SessionWindowedSerializer [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#21]]]
-+configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#27]]]
-+serialize(String;Windowed<T>) : byte[] [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#54]]]
-+close() : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#65]]]
-+serializeBaseKey(String;Windowed<T>) : byte[] [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#72]]]
-innerSerializer() : Serializer<T> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#79]]]
++SessionWindowedSerializer() : SessionWindowedSerializer [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#34]]]
++SessionWindowedSerializer(Serializer<T>) : SessionWindowedSerializer [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#36]]]
++configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#42]]]
++serialize(String;Windowed<T>) : byte[] [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#69]]]
++close() : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#80]]]
++serializeBaseKey(String;Windowed<T>) : byte[] [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#87]]]
+innerSerializer() : Serializer<T> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#94]]]
 } 
 @enduml

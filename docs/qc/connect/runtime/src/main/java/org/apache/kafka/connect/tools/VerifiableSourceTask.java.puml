@@ -2,10 +2,10 @@
 !pragma layout smetana
 "SourceTask" <|-- "org.apache.kafka.connect.tools.VerifiableSourceTask"
 class org.apache.kafka.connect.tools.VerifiableSourceTask {
-+version() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceTask.java.html#43]]]
-+start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceTask.java.html#48]]]
-+poll() : List<SourceRecord> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceTask.java.html#72]]]
-+commitRecord(SourceRecord;RecordMetadata) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceTask.java.html#101]]]
-+stop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceTask.java.html#120]]]
++version() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceTask.java.html#66]]]
++start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceTask.java.html#71]]]
++poll() : List<SourceRecord> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceTask.java.html#95]]]
++commitRecord(SourceRecord;RecordMetadata) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceTask.java.html#124]]]
++stop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceTask.java.html#143]]]
 } 
 @enduml

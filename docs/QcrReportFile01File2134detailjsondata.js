@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#65"
+ , "c5" : "00080"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#80"
  , "c1" : "TimeOrderedCachingWindowStore"
  , "c2" : "TimeOrderedCachingWindowStore(WindowStore<Bytes,byte[]>;long;long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#76"
+ , "c5" : "00091"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#91"
  , "c1" : "void"
  , "c2" : "enforceWrappedStore(WindowStore<Bytes,byte[]>)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#85"
+ , "c5" : "00100"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#100"
  , "c1" : "RocksDBTimeOrderedWindowStore"
  , "c2" : "getWrappedStore(StateStore)"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#97"
+ , "c5" : "00112"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#112"
  , "c1" : "void"
  , "c2" : "init(ProcessorContext;StateStore)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#103"
+ , "c5" : "00118"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#118"
  , "c1" : "void"
  , "c2" : "init(StateStoreContext;StateStore)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00108"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#108"
+ , "c5" : "00123"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#123"
  , "c1" : "void"
  , "c2" : "initInternal(InternalProcessorContext<?,?>)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00128"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#128"
+ , "c5" : "00143"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#143"
  , "c1" : "void"
  , "c2" : "putAndMaybeForward(List<DirtyEntry>;InternalProcessorContext<?,?>)"
  , "c3" : "11"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00187"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#187"
+ , "c5" : "00202"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#202"
  , "c1" : "void"
  , "c2" : "putAndMaybeForward(InternalProcessorContext<?,?>;DirtyEntry;Bytes;long)"
  , "c3" : "4"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00229"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#229"
+ , "c5" : "00244"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#244"
  , "c1" : "boolean"
  , "c2" : "setFlushListener(CacheFlushListener<byte[],byte[]>;boolean)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00237"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#237"
+ , "c5" : "00252"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#252"
  , "c1" : "Bytes"
  , "c2" : "indexKeyToBaseKey(Bytes)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00245"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#245"
+ , "c5" : "00260"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#260"
  , "c1" : "void"
  , "c2" : "put(Bytes;byte[];long)"
  , "c3" : "3"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00288"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#288"
+ , "c5" : "00303"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#303"
  , "c1" : "byte[]"
  , "c2" : "fetch(Bytes;long)"
  , "c3" : "4"
@@ -126,19 +126,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00307"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#307"
+ , "c5" : "00322"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#322"
  , "c1" : "WindowStoreIterator<byte[]>"
  , "c2" : "fetch(Bytes;long;long)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00323"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#323"
- , "c1" : "WindowStoreIterator<byte[]>"
- , "c2" : "backwardFetch(Bytes;long;long)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -147,14 +138,23 @@ var maDataBlocs = {
  , "c5" : "00338"
  , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#338"
  , "c1" : "WindowStoreIterator<byte[]>"
+ , "c2" : "backwardFetch(Bytes;long;long)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00353"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#353"
+ , "c1" : "WindowStoreIterator<byte[]>"
  , "c2" : "fetchInternal(WindowStoreIterator<byte[]>;Bytes;long;long;boolean)"
  , "c3" : "1"
  , "c4" : "7"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00358"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#358"
+ , "c5" : "00373"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#373"
  , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
  , "c2" : "fetch(Bytes;Bytes;long;long)"
  , "c3" : "3"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00384"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#384"
+ , "c5" : "00399"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#399"
  , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
  , "c2" : "backwardFetch(Bytes;Bytes;long;long)"
  , "c3" : "3"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00408"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#408"
+ , "c5" : "00423"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#423"
  , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
  , "c2" : "fetchKeyRange(KeyValueIterator<Windowed<Bytes>,byte[]>;Bytes;Bytes;long;long;boolean)"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00439"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#439"
+ , "c5" : "00454"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#454"
  , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
  , "c2" : "fetchAll(long;long)"
  , "c3" : "1"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00448"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#448"
+ , "c5" : "00463"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#463"
  , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
  , "c2" : "backwardFetchAll(long;long)"
  , "c3" : "1"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00456"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#456"
+ , "c5" : "00471"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#471"
  , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
  , "c2" : "fetchAllInternal(KeyValueIterator<Windowed<Bytes>,byte[]>;long;long;boolean)"
  , "c3" : "1"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00482"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#482"
+ , "c5" : "00497"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#497"
  , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00490"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#490"
+ , "c5" : "00505"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#505"
  , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
  , "c2" : "backwardAll()"
  , "c3" : "1"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00498"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#498"
+ , "c5" : "00513"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#513"
  , "c1" : "void"
  , "c2" : "flush()"
  , "c3" : "1"
@@ -234,8 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00504"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#504"
+ , "c5" : "00519"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#519"
  , "c1" : "void"
  , "c2" : "flushCache()"
  , "c3" : "1"
@@ -243,8 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00509"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#509"
+ , "c5" : "00524"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#524"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -283,11 +283,11 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.key" }
+{ "ligne" :  "R0:org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258997.key" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.value" }
+{ "ligne" :  "R1:org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258997.value" }
 ,
-{ "ligne" :  "R2:org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.windowStartTimestamp" }
+{ "ligne" :  "R2:org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258997.windowStartTimestamp" }
 ]
 ,
 "data12b" : [
@@ -356,878 +356,878 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#76"
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method enforceWrappedStore arguments WindowStore&lt;Bytes ,byte[] &gt;  underlying"
+ , "c3" : "QC-JAV000006[00091] For method enforceWrappedStore arguments WindowStore&lt;Bytes ,byte[] &gt;  underlying"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#76"
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00076] For method enforceWrappedStore list of called methods Object monObjet|org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowStore getWrappedStoreN250810"
+ , "c3" : "QC-JAV000007[00091] For method enforceWrappedStore list of called methods Object monObjet|org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowStore getWrappedStoreN250900"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#78"
+ , "c1" : "00093"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.enforceWrappedStore@POLYN250666 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.enforceWrappedStore@POLYN250756 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#79"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.enforceWrappedStore@POLYN250666 the MagicNumber/String  'TimeOrderedCachingWindowStore only supports RocksDBTimeOrderedWindowStore backed store' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.enforceWrappedStore@POLYN250756 the MagicNumber/String  'TimeOrderedCachingWindowStore only supports RocksDBTimeOrderedWindowStore backed store' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#85"
+ , "c1" : "00100"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method getWrappedStore arguments StateStore  wrapped"
+ , "c3" : "QC-JAV000006[00100] For method getWrappedStore arguments StateStore  wrapped"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#92"
+ , "c1" : "00107"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.getWrappedStore@POLYN251097 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.getWrappedStore@POLYN251187 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#97"
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method init arguments ProcessorContext  context|StateStore  root"
+ , "c3" : "QC-JAV000006[00112] For method init arguments ProcessorContext  context|StateStore  root"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#103"
+ , "c1" : "00118"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#118"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method init arguments StateStoreContext  context|StateStore  root"
+ , "c3" : "QC-JAV000006[00118] For method init arguments StateStoreContext  context|StateStore  root"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#108"
+ , "c1" : "00123"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#123"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method initInternal arguments InternalProcessorContext&lt;? ,? &gt;  context"
+ , "c3" : "QC-JAV000006[00123] For method initInternal arguments InternalProcessorContext&lt;? ,? &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#108"
+ , "c1" : "00123"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#123"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00108] For method initInternal list of called methods Object monObjet|java.lang.String StreamsConfig_InternalConfig_getStringN252241|java.lang.String ProcessorStateManager_storeChangelogTopicN252512|org.apache.kafka.streams.processor.TaskId context_taskIdN252887"
+ , "c3" : "QC-JAV000007[00123] For method initInternal list of called methods Object monObjet|java.lang.String StreamsConfig_InternalConfig_getStringN252331|java.lang.String ProcessorStateManager_storeChangelogTopicN252602|org.apache.kafka.streams.processor.TaskId context_taskIdN252977"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#108"
+ , "c1" : "00123"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#123"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00108] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00123] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#121"
+ , "c1" : "00136"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.initInternal@POLYN252115 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.initInternal@POLYN252205 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#128"
+ , "c1" : "00143"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00128] For method putAndMaybeForward arguments List&lt;DirtyEntry &gt;  entries|InternalProcessorContext&lt;? ,? &gt;  context"
+ , "c3" : "QC-JAV000006[00143] For method putAndMaybeForward arguments List&lt;DirtyEntry &gt;  entries|InternalProcessorContext&lt;? ,? &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#128"
+ , "c1" : "00143"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00128] For method putAndMaybeForward list of called methods Object monObjet|boolean PrefixedWindowKeySchemas_isTimeFirstSchemaKeyN253700|org.apache.kafka.common.utils.Bytes indexKeyToBaseKeyN253891|org.apache.kafka.common.utils.Bytes Bytes_wrapN254796|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; TimeFirstWindowKeySchema_fromStoreBytesKeyN255339|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; KeyFirstWindowKeySchema_fromStoreBytesKeyN255473"
+ , "c3" : "QC-JAV000007[00143] For method putAndMaybeForward list of called methods Object monObjet|boolean PrefixedWindowKeySchemas_isTimeFirstSchemaKeyN253790|org.apache.kafka.common.utils.Bytes indexKeyToBaseKeyN253981|org.apache.kafka.common.utils.Bytes Bytes_wrapN254886|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; TimeFirstWindowKeySchema_fromStoreBytesKeyN255429|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; KeyFirstWindowKeySchema_fromStoreBytesKeyN255563"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#129"
+ , "c1" : "00144"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#144"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00129] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00144] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#139"
+ , "c1" : "00154"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00139] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00154] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#141"
+ , "c1" : "00156"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00141] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00156] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#147"
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00147] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00162] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#148"
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00148] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00163] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#160"
+ , "c1" : "00175"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00160] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00175] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#171"
+ , "c1" : "00186"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00171] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00186] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#181"
+ , "c1" : "00196"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00181] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00196] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#150"
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.putAndMaybeForward@POLYN253185 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.putAndMaybeForward@POLYN253275 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#187"
+ , "c1" : "00202"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#202"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00187] For method putAndMaybeForward arguments InternalProcessorContext&lt;? ,? &gt;  context|DirtyEntry  finalEntry|Bytes  binaryKey|long  windowStartTimestamp"
+ , "c3" : "QC-JAV000006[00202] For method putAndMaybeForward arguments InternalProcessorContext&lt;? ,? &gt;  context|DirtyEntry  finalEntry|Bytes  binaryKey|long  windowStartTimestamp"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#187"
+ , "c1" : "00202"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#202"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00187] For method putAndMaybeForward list of called methods Object monObjet|byte[] finalEntry_newValueN256163|byte[] context_recordContextN257586"
+ , "c3" : "QC-JAV000007[00202] For method putAndMaybeForward list of called methods Object monObjet|byte[] finalEntry_newValueN256253|byte[] context_recordContextN257676"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#187"
+ , "c1" : "00202"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#202"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00187] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00202] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#188"
+ , "c1" : "00203"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#203"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00188] The argument finalEntry is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00203] The argument finalEntry is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#191"
+ , "c1" : "00206"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.putAndMaybeForward@POLYN255874 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#193"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.putAndMaybeForward@POLYN255874 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#194"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.putAndMaybeForward@POLYN255874 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#198"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.putAndMaybeForward@POLYN255874 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#198"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.putAndMaybeForward@POLYN255874 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.putAndMaybeForward@POLYN255964 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.putAndMaybeForward@POLYN255874 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.putAndMaybeForward@POLYN255964 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00210"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#210"
+ , "c1" : "00209"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.putAndMaybeForward@POLYN255874 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.putAndMaybeForward@POLYN255964 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00229"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#229"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00229] For method setFlushListener arguments CacheFlushListener&lt;byte[] ,byte[] &gt;  flushListener|boolean  sendOldValues"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00234"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#234"
+ , "c1" : "00213"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.setFlushListener@POLYN258021 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.putAndMaybeForward@POLYN255964 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00237"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#237"
+ , "c1" : "00213"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#213"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.putAndMaybeForward@POLYN255964 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00223"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#223"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.putAndMaybeForward@POLYN255964 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00225"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#225"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.putAndMaybeForward@POLYN255964 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00244"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#244"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00237] For method indexKeyToBaseKey arguments Bytes  indexKey"
+ , "c3" : "QC-JAV000006[00244] For method setFlushListener arguments CacheFlushListener&lt;byte[] ,byte[] &gt;  flushListener|boolean  sendOldValues"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00237"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#237"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00237] For method indexKeyToBaseKey list of called methods Object monObjet|byte[] KeyFirstWindowKeySchema_extractStoreKeyBytesN258450"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00237"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#237"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00237] The argument indexKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#245"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00245] Lock statement on synchronized method put"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#245"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00245] For method put arguments Bytes  key|byte[]  value|long  windowStartTimestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#245"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00245] For method put list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes TimeFirstWindowKeySchema_toStoreKeyBinaryN259114"
+ , "c1" : "00249"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#249"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.setFlushListener@POLYN258111 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00252"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#252"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907 the MagicNumber/String  0 should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00252] For method indexKeyToBaseKey arguments Bytes  indexKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#257"
+ , "c1" : "00252"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#252"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00252] For method indexKeyToBaseKey list of called methods Object monObjet|byte[] KeyFirstWindowKeySchema_extractStoreKeyBytesN258540"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00252"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#252"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00252] The argument indexKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00260"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#260"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00260] Lock statement on synchronized method put"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00260"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#260"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00260] For method put arguments Bytes  key|byte[]  value|long  windowStartTimestamp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00260"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#260"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00260] For method put list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes TimeFirstWindowKeySchema_toStoreKeyBinaryN259204"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00267"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#267"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258997 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00272"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#272"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258997 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#274"
+ , "c1" : "00287"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#287"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258997 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00278"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#278"
+ , "c1" : "00289"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#289"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258997 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00279"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#279"
+ , "c1" : "00293"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258997 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00288"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#288"
+ , "c1" : "00294"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#294"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258997 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00303"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#303"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00288] For method fetch arguments Bytes  key|long  timestamp"
+ , "c3" : "QC-JAV000006[00303] For method fetch arguments Bytes  key|long  timestamp"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00288"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#288"
+ , "c1" : "00303"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#303"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00288] For method fetch list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes TimeFirstWindowKeySchema_toStoreKeyBinaryN261204"
+ , "c3" : "QC-JAV000007[00303] For method fetch list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes TimeFirstWindowKeySchema_toStoreKeyBinaryN261294"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00291"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#291"
+ , "c1" : "00306"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#306"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN260825 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN260915 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00295"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#295"
+ , "c1" : "00310"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN260825 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN260915 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00299"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#299"
+ , "c1" : "00314"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN260825 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN260915 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00307"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#307"
+ , "c1" : "00322"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#322"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00307] Lock statement on synchronized method fetch"
+ , "c3" : "QC-JAV000019[00322] Lock statement on synchronized method fetch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00307"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#307"
+ , "c1" : "00322"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#322"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00307] For method fetch arguments Bytes  key|long  timeFrom|long  timeTo"
+ , "c3" : "QC-JAV000006[00322] For method fetch arguments Bytes  key|long  timeFrom|long  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00315"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#315"
+ , "c1" : "00330"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN261862 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN261952 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00319"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#319"
+ , "c1" : "00334"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN261862 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN261952 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00323"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#323"
+ , "c1" : "00338"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#338"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00323] Lock statement on synchronized method backwardFetch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00323"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#323"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00323] For method backwardFetch arguments Bytes  key|long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00331"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#331"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN262551 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00335"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#335"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN262551 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000019[00338] Lock statement on synchronized method backwardFetch"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00338"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#338"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00338] For method fetchInternal arguments WindowStoreIterator&lt;byte[] &gt;  underlyingIterator|Bytes  key|long  timeFrom|long  timeTo|boolean  forward"
+ , "c3" : "QC-JAV000006[00338] For method backwardFetch arguments Bytes  key|long  timeFrom|long  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00358"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#358"
+ , "c1" : "00346"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#346"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN262641 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#350"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN262641 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00353"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#353"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00358] For method fetch arguments Bytes  keyFrom|Bytes  keyTo|long  timeFrom|long  timeTo"
+ , "c3" : "QC-JAV000006[00353] For method fetchInternal arguments WindowStoreIterator&lt;byte[] &gt;  underlyingIterator|Bytes  key|long  timeFrom|long  timeTo|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00362"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#362"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264621 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00373"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#373"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00373] For method fetch arguments Bytes  keyFrom|Bytes  keyTo|long  timeFrom|long  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00362"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#362"
+ , "c1" : "00377"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264621 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264711 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00362"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#362"
+ , "c1" : "00377"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264621 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264711 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00363"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#363"
+ , "c1" : "00377"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264621 the MagicNumber/String  'Returning empty iterator for fetch with invalid key range: from &amp;gt; to. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264711 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00364"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#364"
+ , "c1" : "00378"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#378"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264621 the MagicNumber/String  'This may be due to range arguments set in the wrong order, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264711 the MagicNumber/String  'Returning empty iterator for fetch with invalid key range: from &amp;gt; to. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00365"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#365"
+ , "c1" : "00379"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00365] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264621 the MagicNumber/String  'or serdes that don't preserve ordering when lexicographically comparing the serialized bytes. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00366"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#366"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264621 the MagicNumber/String  'Note that the built-in numerical serdes do not follow this for negative numbers' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00376"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#376"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264621 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264711 the MagicNumber/String  'This may be due to range arguments set in the wrong order, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00380"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#380"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264621 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264711 the MagicNumber/String  'or serdes that don't preserve ordering when lexicographically comparing the serialized bytes. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00384"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#384"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00384] For method backwardFetch arguments Bytes  keyFrom|Bytes  keyTo|long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00388"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#388"
+ , "c1" : "00381"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#381"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN265856 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00388"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#388"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN265856 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00388"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#388"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN265856 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00389"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#389"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00389] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN265856 the MagicNumber/String  'Returning empty iterator for fetch with invalid key range: from &amp;gt; to. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00390"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#390"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00390] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN265856 the MagicNumber/String  'This may be due to serdes that don't preserve ordering when lexicographically comparing the serialized bytes. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264711 the MagicNumber/String  'Note that the built-in numerical serdes do not follow this for negative numbers' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00391"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#391"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN265856 the MagicNumber/String  'Note that the built-in numerical serdes do not follow this for negative numbers' should be converted to const"
+ , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264711 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00401"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#401"
+ , "c1" : "00395"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN265856 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN264711 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00399"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#399"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00399] For method backwardFetch arguments Bytes  keyFrom|Bytes  keyTo|long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00403"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#403"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN265946 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00403"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#403"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN265946 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00403"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#403"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN265946 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00404"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#404"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN265946 the MagicNumber/String  'Returning empty iterator for fetch with invalid key range: from &amp;gt; to. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00405"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#405"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00405] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN265856 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00405] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN265946 the MagicNumber/String  'This may be due to serdes that don't preserve ordering when lexicographically comparing the serialized bytes. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00408"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#408"
+ , "c1" : "00406"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#406"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN265946 the MagicNumber/String  'Note that the built-in numerical serdes do not follow this for negative numbers' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00416"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#416"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN265946 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00420"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#420"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN265946 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00423"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#423"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00408] For method fetchKeyRange arguments KeyValueIterator&lt;Windowed&lt;Bytes &gt; ,byte[] &gt;  underlyingIterator|Bytes  keyFrom|Bytes  keyTo|long  timeFrom|long  timeTo|boolean  forward"
+ , "c3" : "QC-JAV000006[00423] For method fetchKeyRange arguments KeyValueIterator&lt;Windowed&lt;Bytes &gt; ,byte[] &gt;  underlyingIterator|Bytes  keyFrom|Bytes  keyTo|long  timeFrom|long  timeTo|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00439"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#439"
+ , "c1" : "00454"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#454"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00439] For method fetchAll arguments long  timeFrom|long  timeTo"
+ , "c3" : "QC-JAV000006[00454] For method fetchAll arguments long  timeFrom|long  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00444"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#444"
+ , "c1" : "00459"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#459"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetchAll@POLYN268713 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetchAll@POLYN268803 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00448"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#448"
+ , "c1" : "00463"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#463"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00448] For method backwardFetchAll arguments long  timeFrom|long  timeTo"
+ , "c3" : "QC-JAV000006[00463] For method backwardFetchAll arguments long  timeFrom|long  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00453"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#453"
+ , "c1" : "00468"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#468"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00453] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetchAll@POLYN269270 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00468] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetchAll@POLYN269360 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00456"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#456"
+ , "c1" : "00471"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#471"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00456] For method fetchAllInternal arguments KeyValueIterator&lt;Windowed&lt;Bytes &gt; ,byte[] &gt;  underlyingIterator|long  timeFrom|long  timeTo|boolean  forward"
+ , "c3" : "QC-JAV000006[00471] For method fetchAllInternal arguments KeyValueIterator&lt;Windowed&lt;Bytes &gt; ,byte[] &gt;  underlyingIterator|long  timeFrom|long  timeTo|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00461"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#461"
+ , "c1" : "00476"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#476"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetchAllInternal@POLYN269813 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetchAllInternal@POLYN269903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00461"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#461"
+ , "c1" : "00476"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#476"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetchAllInternal@POLYN269813 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetchAllInternal@POLYN269903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00461"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#461"
+ , "c1" : "00476"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#476"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetchAllInternal@POLYN269813 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetchAllInternal@POLYN269903 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00462"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#462"
+ , "c1" : "00477"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#477"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00462] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetchAllInternal@POLYN269813 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetchAllInternal@POLYN269903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00462"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#462"
+ , "c1" : "00477"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#477"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00462] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetchAllInternal@POLYN269813 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetchAllInternal@POLYN269903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00486"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#486"
+ , "c1" : "00501"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00486] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.all@POLYN271107 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.all@POLYN271197 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00486"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#486"
+ , "c1" : "00501"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00486] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.all@POLYN271107 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00494"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#494"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00494] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardAll@POLYN271580 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00494"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#494"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00494] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardAll@POLYN271580 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00498"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#498"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00498] Lock statement on synchronized method flush"
+ , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.all@POLYN271197 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#509"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardAll@POLYN271670 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00509"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#509"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardAll@POLYN271670 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00513"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#513"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00509] Lock statement on synchronized method close"
+ , "c3" : "QC-JAV000019[00513] Lock statement on synchronized method flush"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00516"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#516"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.close@POLYN272347 the MagicNumber/String  'Caught an exception while closing caching window store for store ' should be converted to const"
+ , "c1" : "00524"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#524"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00524] Lock statement on synchronized method close"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00589"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#589"
+ , "c1" : "00531"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#531"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00589] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.close@POLYN272437 the MagicNumber/String  'Caught an exception while closing caching window store for store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00590"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#590"
+ , "c1" : "00604"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#604"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00590] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00591"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#591"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00591] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00592"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#592"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00592] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00589"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#589"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00589] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00590"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#590"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00590] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00591"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#591"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00591] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00592"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#592"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00592] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00581"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#581"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00581] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275909 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00582"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#582"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00582] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275909 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00594"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#594"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00594] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275909 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00595"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#595"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00595] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275909 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00600"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#600"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275909 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00601"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#601"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00601] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275909 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000001[00604] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00605"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#605"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00605] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275909 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000001[00605] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00606"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#606"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00606] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00607"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#607"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00607] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00604"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#604"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00604] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00605"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#605"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00605] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00606"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#606"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00606] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00607"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#607"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00607] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00596"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#596"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275999 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00597"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#597"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00597] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275999 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00609"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#609"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00609] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275999 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00610"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#610"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00610] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275909 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00610] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275999 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00611"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#611"
+ , "c1" : "00615"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#615"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00611] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275909 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00615] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275999 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00614"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#614"
+ , "c1" : "00616"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#616"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00614] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275909 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00616] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275999 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00659"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#659"
+ , "c1" : "00620"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#620"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00659] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.currentSegmentLastTime@POLYN278969 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00620] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275999 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00669"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#669"
+ , "c1" : "00625"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#625"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00669] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.getNextSegmentIterator@POLYN279166 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00625] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275999 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00683"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#683"
+ , "c1" : "00626"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#626"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00683] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.getNextSegmentIterator@POLYN279166 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00626] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275999 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00695"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#695"
+ , "c1" : "00629"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#629"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN275999 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00674"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#674"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.currentSegmentLastTime@POLYN279059 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00684"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#684"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00684] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.getNextSegmentIterator@POLYN279256 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00698"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#698"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00698] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.getNextSegmentIterator@POLYN279256 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00710"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#710"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00695] For method setCacheKeyRange arguments long  lowerRangeEndTime|long  upperRangeEndTime"
+ , "c3" : "QC-JAV000006[00710] For method setCacheKeyRange arguments long  lowerRangeEndTime|long  upperRangeEndTime"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00697"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#697"
+ , "c1" : "00712"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#712"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00697] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.setCacheKeyRange@POLYN280458 the MagicNumber/String  'Error iterating over segments: segment interval has changed' should be converted to const"
+ , "c3" : "QC-JAV000010[00712] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.setCacheKeyRange@POLYN280548 the MagicNumber/String  'Error iterating over segments: segment interval has changed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00702"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#702"
+ , "c1" : "00717"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#717"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00702] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.setCacheKeyRange@POLYN280458 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00717] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.setCacheKeyRange@POLYN280548 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.getWrappedStore@POLYN251097"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.getWrappedStore@POLYN251187"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#92"
+ , "c1" : "00107"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#107"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.getWrappedStore@POLYN251097 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.getWrappedStore@POLYN251187 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.KafkaProducerMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#34"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#49"
  , "c1" : "KafkaProducerMetrics"
  , "c2" : "KafkaProducerMetrics(Metrics)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#68"
+ , "c5" : "00083"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#83"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#78"
+ , "c5" : "00093"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#93"
  , "c1" : "void"
  , "c2" : "recordFlush(long)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#82"
+ , "c5" : "00097"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#97"
  , "c1" : "void"
  , "c2" : "recordInit(long)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00086"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#86"
+ , "c5" : "00101"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#101"
  , "c1" : "void"
  , "c2" : "recordBeginTxn(long)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#90"
+ , "c5" : "00105"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#105"
  , "c1" : "void"
  , "c2" : "recordSendOffsets(long)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#94"
+ , "c5" : "00109"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#109"
  , "c1" : "void"
  , "c2" : "recordCommitTxn(long)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#98"
+ , "c5" : "00113"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#113"
  , "c1" : "void"
  , "c2" : "recordAbortTxn(long)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00102"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#102"
+ , "c5" : "00117"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#117"
  , "c1" : "void"
  , "c2" : "recordMetadataWait(long)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00106"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#106"
+ , "c5" : "00121"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#121"
  , "c1" : "Sensor"
  , "c2" : "newLatencySensor(String;String)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#112"
+ , "c5" : "00127"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#127"
  , "c1" : "MetricName"
  , "c2" : "metricName(String;String)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00116"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#116"
+ , "c5" : "00131"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#131"
  , "c1" : "void"
  , "c2" : "removeMetric(String)"
  , "c3" : "1"
@@ -181,129 +181,129 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#34"
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#49"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00034] The argument metrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00049] The argument metrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#39"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN154446 the MagicNumber/String  'Total time producer has spent in flush in nanoseconds.' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN154536 the MagicNumber/String  'Total time producer has spent in flush in nanoseconds.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#43"
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN154446 the MagicNumber/String  'Total time producer has spent in initTransactions in nanoseconds.' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN154536 the MagicNumber/String  'Total time producer has spent in initTransactions in nanoseconds.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#47"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN154446 the MagicNumber/String  'Total time producer has spent in beginTransaction in nanoseconds.' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN154536 the MagicNumber/String  'Total time producer has spent in beginTransaction in nanoseconds.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#51"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN154446 the MagicNumber/String  'Total time producer has spent in sendOffsetsToTransaction in nanoseconds.' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN154536 the MagicNumber/String  'Total time producer has spent in sendOffsetsToTransaction in nanoseconds.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#55"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN154446 the MagicNumber/String  'Total time producer has spent in commitTransaction in nanoseconds.' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN154536 the MagicNumber/String  'Total time producer has spent in commitTransaction in nanoseconds.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#59"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN154446 the MagicNumber/String  'Total time producer has spent in abortTransaction in nanoseconds.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN154446 the MagicNumber/String  'Total time producer has spent waiting on topic metadata in nanoseconds.' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN154536 the MagicNumber/String  'Total time producer has spent in abortTransaction in nanoseconds.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#78"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method recordFlush arguments long  duration"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.KafkaProducerMetrics@POLYN154536 the MagicNumber/String  'Total time producer has spent waiting on topic metadata in nanoseconds.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#82"
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#93"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method recordInit arguments long  duration"
+ , "c3" : "QC-JAV000006[00093] For method recordFlush arguments long  duration"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#86"
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method recordBeginTxn arguments long  duration"
+ , "c3" : "QC-JAV000006[00097] For method recordInit arguments long  duration"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#90"
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00090] For method recordSendOffsets arguments long  duration"
+ , "c3" : "QC-JAV000006[00101] For method recordBeginTxn arguments long  duration"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#94"
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#105"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00094] For method recordCommitTxn arguments long  duration"
+ , "c3" : "QC-JAV000006[00105] For method recordSendOffsets arguments long  duration"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#98"
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#109"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method recordAbortTxn arguments long  duration"
+ , "c3" : "QC-JAV000006[00109] For method recordCommitTxn arguments long  duration"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#102"
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#113"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00102] For method recordMetadataWait arguments long  duration"
+ , "c3" : "QC-JAV000006[00113] For method recordAbortTxn arguments long  duration"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#106"
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#117"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00106] For method newLatencySensor arguments String  name|String  description"
+ , "c3" : "QC-JAV000006[00117] For method recordMetadataWait arguments long  duration"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#112"
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00112] For method metricName arguments String  name|String  description"
+ , "c3" : "QC-JAV000006[00121] For method newLatencySensor arguments String  name|String  description"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#116"
+ , "c1" : "00127"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method removeMetric arguments String  name"
+ , "c3" : "QC-JAV000006[00127] For method metricName arguments String  name|String  description"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#131"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00131] For method removeMetric arguments String  name"
 }} 
 ]
 , 

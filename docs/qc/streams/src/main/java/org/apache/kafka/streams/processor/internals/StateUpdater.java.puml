@@ -2,15 +2,15 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.StateUpdater"
 class org.apache.kafka.streams.processor.internals.StateUpdater {
-start() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#46]]]
-shutdown(Duration) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#49]]]
-add(Task) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#52]]]
-remove(TaskId) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#55]]]
-drainRestoredActiveTasks(Duration) : Set<StreamTask> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#58]]]
-drainRemovedTasks() : Set<Task> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#62]]]
-drainExceptionsAndFailedTasks() : List<ExceptionAndTasks> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#65]]]
-getTasks() : Set<Task> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#68]]]
-getActiveTasks() : Set<StreamTask> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#71]]]
-getStandbyTasks() : Set<StandbyTask> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#74]]]
+start() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#63]]]
+shutdown(Duration) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#73]]]
+add(Task) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#82]]]
+remove(TaskId) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#95]]]
+drainRestoredActiveTasks(Duration) : Set<StreamTask> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#106]]]
+drainRemovedTasks() : Set<Task> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#119]]]
+drainExceptionsAndFailedTasks() : List<ExceptionAndTasks> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#128]]]
+getTasks() : Set<Task> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#143]]]
+getActiveTasks() : Set<StreamTask> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#158]]]
+getStandbyTasks() : Set<StandbyTask> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#172]]]
 } 
 @enduml

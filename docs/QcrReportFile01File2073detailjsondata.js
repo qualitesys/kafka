@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.ListValueStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#25"
+ , "c5" : "00047"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#47"
  , "c1" : "ListValueStore"
  , "c2" : "ListValueStore(KeyValueStore<Bytes,byte[]>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#30"
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#52"
  , "c1" : "void"
  , "c2" : "put(Bytes;byte[])"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#41"
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#63"
  , "c1" : "byte[]"
  , "c2" : "putIfAbsent(Bytes;byte[])"
  , "c3" : "4"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#60"
+ , "c5" : "00082"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#82"
  , "c1" : "void"
  , "c2" : "putInternal(Bytes;byte[];byte[])"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#72"
+ , "c5" : "00094"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#94"
  , "c1" : "void"
  , "c2" : "putAll(List<KeyValue<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#77"
+ , "c5" : "00099"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#99"
  , "c1" : "byte[]"
  , "c2" : "delete(Bytes)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#84"
+ , "c5" : "00106"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#106"
  , "c1" : "byte[]"
  , "c2" : "get(Bytes)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#89"
+ , "c5" : "00111"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#111"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "range(Bytes;Bytes)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#94"
+ , "c5" : "00116"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#116"
  , "c1" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#99"
+ , "c5" : "00121"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#121"
  , "c1" : "long"
  , "c2" : "approximateNumEntries()"
  , "c3" : "1"
@@ -163,164 +163,164 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#30"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method put arguments Bytes  key|byte[]  addedValue"
+ , "c3" : "QC-JAV000006[00052] For method put arguments Bytes  key|byte[]  addedValue"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#32"
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.state.internals.ListValueStore.put@POLYN165550 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.state.internals.ListValueStore.put@POLYN165682 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#33"
+ , "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.state.internals.ListValueStore.put@POLYN165550 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.state.internals.ListValueStore.put@POLYN165682 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#41"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method putIfAbsent arguments Bytes  key|byte[]  addedValue"
+ , "c3" : "QC-JAV000006[00063] For method putIfAbsent arguments Bytes  key|byte[]  addedValue"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#44"
+ , "c1" : "00066"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.state.internals.ListValueStore.putIfAbsent@POLYN166104 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.ListValueStore.putIfAbsent@POLYN166236 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#46"
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.ListValueStore.putIfAbsent@POLYN166104 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.state.internals.ListValueStore.putIfAbsent@POLYN166236 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#47"
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.state.internals.ListValueStore.putIfAbsent@POLYN166104 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.state.internals.ListValueStore.putIfAbsent@POLYN166236 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#53"
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.state.internals.ListValueStore.putIfAbsent@POLYN166104 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.state.internals.ListValueStore.putIfAbsent@POLYN166236 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#60"
+ , "c1" : "00082"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method putInternal arguments Bytes  key|byte[]  addedValue|byte[]  oldValue"
+ , "c3" : "QC-JAV000006[00082] For method putInternal arguments Bytes  key|byte[]  addedValue|byte[]  oldValue"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#61"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.state.internals.ListValueStore.putInternal@POLYN166745 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.internals.ListValueStore.putInternal@POLYN166745 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.ListValueStore.putInternal@POLYN166745 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.state.internals.ListValueStore.putInternal@POLYN166745 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#72"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method putAll arguments List&lt;KeyValue&lt;Bytes ,byte[] &gt; &gt;  entries"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.state.internals.ListValueStore.putAll@POLYN167644 the MagicNumber/String  'putAll not supported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method delete arguments Bytes  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.state.internals.ListValueStore.delete@POLYN167875 the MagicNumber/String  'delete not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.state.internals.ListValueStore.putInternal@POLYN166877 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#84"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method get arguments Bytes  key"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.state.internals.ListValueStore.putInternal@POLYN166877 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.state.internals.ListValueStore.putInternal@POLYN166877 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#89"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.state.internals.ListValueStore.putInternal@POLYN166877 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00089] For method range arguments Bytes  from|Bytes  to"
+ , "c3" : "QC-JAV000006[00094] For method putAll arguments List&lt;KeyValue&lt;Bytes ,byte[] &gt; &gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#90"
+ , "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.state.internals.ListValueStore.range@POLYN168265 the MagicNumber/String  'range not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.state.internals.ListValueStore.putAll@POLYN167776 the MagicNumber/String  'putAll not supported' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00126] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#99"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00099] For method delete arguments Bytes  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#128"
+ , "c1" : "00102"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.state.internals.ListValueStore.ValueListIterator.makeNext@POLYN169752 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.streams.state.internals.ListValueStore.delete@POLYN168007 the MagicNumber/String  'delete not supported' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#134"
+ , "c1" : "00106"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#106"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00106] For method get arguments Bytes  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#111"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00111] For method range arguments Bytes  from|Bytes  to"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.state.internals.ListValueStore.ValueListIterator.makeNext@POLYN169752 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.state.internals.ListValueStore.range@POLYN168397 the MagicNumber/String  'range not supported' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00148] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#150"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.state.internals.ListValueStore.ValueListIterator.makeNext@POLYN169884 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00156"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#156"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.state.internals.ListValueStore.ValueListIterator.makeNext@POLYN169884 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

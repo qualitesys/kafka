@@ -2,17 +2,17 @@
 !pragma layout smetana
 "Appendable" <|-- "java.io.Writer"
 class java.io.Writer {
-Writer() : Writer [[[./../.././qc/secujava/java.io.Writer.java.html#20]]]
-Writer(Object) : Writer [[[./../.././qc/secujava/java.io.Writer.java.html#25]]]
-+write(int) : void [[[./../.././qc/secujava/java.io.Writer.java.html#33]]]
-+write(char[]) : void [[[./../.././qc/secujava/java.io.Writer.java.html#44]]]
-+write(char[];int;int) : void [[[./../.././qc/secujava/java.io.Writer.java.html#49]]]
-+write(String) : void [[[./../.././qc/secujava/java.io.Writer.java.html#52]]]
-+write(String;int;int) : void [[[./../.././qc/secujava/java.io.Writer.java.html#57]]]
-+append(CharSequence) : Writer [[[./../.././qc/secujava/java.io.Writer.java.html#74]]]
-+append(CharSequence;int;int) : Writer [[[./../.././qc/secujava/java.io.Writer.java.html#83]]]
-+append(char) : Writer [[[./../.././qc/secujava/java.io.Writer.java.html#90]]]
-+flush() : void [[[./../.././qc/secujava/java.io.Writer.java.html#96]]]
-+close() : void [[[./../.././qc/secujava/java.io.Writer.java.html#99]]]
+Writer() : Writer [[[./../.././qc/secujava/java.io.Writer.java.html#75]]]
+Writer(Object) : Writer [[[./../.././qc/secujava/java.io.Writer.java.html#86]]]
++write(int) : void [[[./../.././qc/secujava/java.io.Writer.java.html#107]]]
++write(char[]) : void [[[./../.././qc/secujava/java.io.Writer.java.html#126]]]
++write(char[];int;int) : void [[[./../.././qc/secujava/java.io.Writer.java.html#145]]]
++write(String) : void [[[./../.././qc/secujava/java.io.Writer.java.html#156]]]
++write(String;int;int) : void [[[./../.././qc/secujava/java.io.Writer.java.html#180]]]
++append(CharSequence) : Writer [[[./../.././qc/secujava/java.io.Writer.java.html#223]]]
++append(CharSequence;int;int) : Writer [[[./../.././qc/secujava/java.io.Writer.java.html#267]]]
++append(char) : Writer [[[./../.././qc/secujava/java.io.Writer.java.html#292]]]
++flush() : void [[[./../.././qc/secujava/java.io.Writer.java.html#313]]]
++close() : void [[[./../.././qc/secujava/java.io.Writer.java.html#323]]]
 } 
 @enduml

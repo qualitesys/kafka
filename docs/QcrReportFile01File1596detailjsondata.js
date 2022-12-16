@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.StreamsMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#14"
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#35"
  , "c1" : "Map<MetricName,?extendsMetric>"
  , "c2" : "metrics()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#17"
+ , "c5" : "00064"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#64"
  , "c1" : "Sensor"
  , "c2" : "addLatencyRateTotalSensor(String;String;String;Sensor.RecordingLevel;String...)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#24"
+ , "c5" : "00094"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#94"
  , "c1" : "Sensor"
  , "c2" : "addRateTotalSensor(String;String;String;Sensor.RecordingLevel;String...)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#31"
+ , "c5" : "00115"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#115"
  , "c1" : "Sensor"
  , "c2" : "addSensor(String;Sensor.RecordingLevel)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#35"
+ , "c5" : "00133"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#133"
  , "c1" : "Sensor"
  , "c2" : "addSensor(String;Sensor.RecordingLevel;Sensor...)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#40"
+ , "c5" : "00141"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#141"
  , "c1" : "void"
  , "c2" : "removeSensor(Sensor)"
  , "c3" : "1"

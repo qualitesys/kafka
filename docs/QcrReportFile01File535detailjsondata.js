@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.types.Field" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#11"
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#26"
  , "c1" : "Field"
  , "c2" : "Field(String;Type;String;boolean;Object)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#22"
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#37"
  , "c1" : "Field"
  , "c2" : "Field(String;Type;String)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#26"
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#41"
  , "c1" : "Field"
  , "c2" : "Field(String;Type;String;Object)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#30"
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#45"
  , "c1" : "Field"
  , "c2" : "Field(String;Type)"
  , "c3" : "1"
@@ -109,381 +109,381 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#11"
+ , "c1" : "00026"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#26"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00011] The argument type is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00026] The argument type is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.protocol.types.Field.Field@POLYN168155 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.protocol.types.Field.Field@POLYN168281 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.protocol.types.Field.Field@POLYN168155 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.protocol.types.Field.Field@POLYN168281 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#27"
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.protocol.types.Field.Field@POLYN168414 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.protocol.types.Field.Field@POLYN168540 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.protocol.types.Field.Field@POLYN168696 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.protocol.types.Field.Field@POLYN168822 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.protocol.types.Field.Field@POLYN168696 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.protocol.types.Field.Field@POLYN168822 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.protocol.types.Field.Field@POLYN168696 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.protocol.types.Field.Field@POLYN168822 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.protocol.types.Field.Int8.Int8@POLYN168981 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.protocol.types.Field.Int8.Int8@POLYN169107 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.protocol.types.Field.Int8.Int8@POLYN168981 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.protocol.types.Field.Int8.Int8@POLYN169107 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#39"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.protocol.types.Field.Int8.Int8@POLYN169227 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.protocol.types.Field.Int8.Int8@POLYN169353 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#45"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.protocol.types.Field.Int32.Int32@POLYN169548 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.protocol.types.Field.Int32.Int32@POLYN169674 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#45"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.protocol.types.Field.Int32.Int32@POLYN169548 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.protocol.types.Field.Int32.Int32@POLYN169674 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#49"
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.protocol.types.Field.Int32.Int32@POLYN169794 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.protocol.types.Field.Int32.Int32@POLYN169920 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#55"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.protocol.types.Field.Int64.Int64@POLYN170115 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.protocol.types.Field.Int64.Int64@POLYN170241 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#55"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.protocol.types.Field.Int64.Int64@POLYN170115 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.protocol.types.Field.Int64.Int64@POLYN170241 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#59"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.protocol.types.Field.Int64.Int64@POLYN170361 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.protocol.types.Field.Int64.Int64@POLYN170487 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#65"
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.protocol.types.Field.UUID.UUID@POLYN170682 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.protocol.types.Field.UUID.UUID@POLYN170808 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#65"
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.protocol.types.Field.UUID.UUID@POLYN170682 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.protocol.types.Field.UUID.UUID@POLYN170808 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#69"
+ , "c1" : "00084"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.protocol.types.Field.UUID.UUID@POLYN170928 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.protocol.types.Field.UUID.UUID@POLYN171054 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#75"
+ , "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.protocol.types.Field.Int16.Int16@POLYN171249 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.protocol.types.Field.Int16.Int16@POLYN171375 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#75"
+ , "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.protocol.types.Field.Int16.Int16@POLYN171249 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.protocol.types.Field.Int16.Int16@POLYN171375 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#81"
+ , "c1" : "00096"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.protocol.types.Field.Uint16.Uint16@POLYN171547 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.protocol.types.Field.Uint16.Uint16@POLYN171673 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#81"
+ , "c1" : "00096"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.protocol.types.Field.Uint16.Uint16@POLYN171547 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.protocol.types.Field.Uint16.Uint16@POLYN171673 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#87"
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.protocol.types.Field.Uint32.Uint32@POLYN171845 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.protocol.types.Field.Uint32.Uint32@POLYN171971 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#87"
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.protocol.types.Field.Uint32.Uint32@POLYN171845 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.protocol.types.Field.Uint32.Uint32@POLYN171971 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#93"
+ , "c1" : "00108"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.protocol.types.Field.Float64.Float64@POLYN172143 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.protocol.types.Field.Float64.Float64@POLYN172269 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#93"
+ , "c1" : "00108"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.protocol.types.Field.Float64.Float64@POLYN172143 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.protocol.types.Field.Float64.Float64@POLYN172269 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#97"
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.protocol.types.Field.Float64.Float64@POLYN172389 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.protocol.types.Field.Float64.Float64@POLYN172515 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#103"
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.protocol.types.Field.Str.Str@POLYN172710 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.common.protocol.types.Field.Str.Str@POLYN172836 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#103"
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.protocol.types.Field.Str.Str@POLYN172710 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.common.protocol.types.Field.Str.Str@POLYN172836 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#109"
+ , "c1" : "00124"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.protocol.types.Field.CompactStr.CompactStr@POLYN173008 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.protocol.types.Field.CompactStr.CompactStr@POLYN173134 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#109"
+ , "c1" : "00124"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.protocol.types.Field.CompactStr.CompactStr@POLYN173008 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.protocol.types.Field.CompactStr.CompactStr@POLYN173134 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#115"
+ , "c1" : "00130"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.protocol.types.Field.NullableStr.NullableStr@POLYN173306 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.protocol.types.Field.NullableStr.NullableStr@POLYN173432 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#115"
+ , "c1" : "00130"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.protocol.types.Field.NullableStr.NullableStr@POLYN173306 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.protocol.types.Field.NullableStr.NullableStr@POLYN173432 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#121"
+ , "c1" : "00136"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.common.protocol.types.Field.CompactNullableStr.CompactNullableStr@POLYN173604 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.protocol.types.Field.CompactNullableStr.CompactNullableStr@POLYN173730 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#121"
+ , "c1" : "00136"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.common.protocol.types.Field.CompactNullableStr.CompactNullableStr@POLYN173604 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.protocol.types.Field.CompactNullableStr.CompactNullableStr@POLYN173730 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#127"
+ , "c1" : "00142"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.protocol.types.Field.Bool.Bool@POLYN173902 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.protocol.types.Field.Bool.Bool@POLYN174028 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#127"
+ , "c1" : "00142"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.protocol.types.Field.Bool.Bool@POLYN173902 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#133"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.protocol.types.Field.Array.Array@POLYN174200 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#133"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.protocol.types.Field.Array.Array@POLYN174200 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#139"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.protocol.types.Field.CompactArray.CompactArray@POLYN174553 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#139"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.protocol.types.Field.CompactArray.CompactArray@POLYN174553 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.protocol.types.Field.Bool.Bool@POLYN174028 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.common.protocol.types.Field.Array.Array@POLYN174326 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.common.protocol.types.Field.Array.Array@POLYN174326 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#154"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.common.protocol.types.Field.CompactArray.CompactArray@POLYN174679 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#154"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.common.protocol.types.Field.CompactArray.CompactArray@POLYN174679 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#169"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00148] For method of arguments Object  ...fields"
+ , "c3" : "QC-JAV000006[00169] For method of arguments Object  ...fields"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#153"
+ , "c1" : "00174"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.common.protocol.types.Field.TaggedFieldsSection.TaggedFieldsSection@POLYN175407 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.common.protocol.types.Field.TaggedFieldsSection.TaggedFieldsSection@POLYN175533 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#153"
+ , "c1" : "00174"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.common.protocol.types.Field.TaggedFieldsSection.TaggedFieldsSection@POLYN175407 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.common.protocol.types.Field.TaggedFieldsSection.TaggedFieldsSection@POLYN175533 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#166"
+ , "c1" : "00187"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#187"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00166] For method withFields arguments Field  ...fields"
+ , "c3" : "QC-JAV000006[00187] For method withFields arguments Field  ...fields"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#168"
+ , "c1" : "00189"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.protocol.types.Field.ComplexArray.withFields@POLYN175974 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.common.protocol.types.Field.ComplexArray.withFields@POLYN176100 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#168"
+ , "c1" : "00189"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.protocol.types.Field.ComplexArray.withFields@POLYN175974 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.common.protocol.types.Field.ComplexArray.withFields@POLYN176100 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#171"
+ , "c1" : "00192"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#192"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00171] For method nullableWithFields arguments Field  ...fields"
+ , "c3" : "QC-JAV000006[00192] For method nullableWithFields arguments Field  ...fields"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#173"
+ , "c1" : "00194"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.protocol.types.Field.ComplexArray.nullableWithFields@POLYN176346 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.common.protocol.types.Field.ComplexArray.nullableWithFields@POLYN176472 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#173"
+ , "c1" : "00194"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.protocol.types.Field.ComplexArray.nullableWithFields@POLYN176346 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.common.protocol.types.Field.ComplexArray.nullableWithFields@POLYN176472 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#176"
+ , "c1" : "00197"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#197"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00176] For method withFields arguments String  docStringOverride|Field  ...fields"
+ , "c3" : "QC-JAV000006[00197] For method withFields arguments String  docStringOverride|Field  ...fields"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#178"
+ , "c1" : "00199"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.common.protocol.types.Field.ComplexArray.withFields@POLYN176719 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.common.protocol.types.Field.ComplexArray.withFields@POLYN176845 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#178"
+ , "c1" : "00199"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.common.protocol.types.Field.ComplexArray.withFields@POLYN176719 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.common.protocol.types.Field.ComplexArray.withFields@POLYN176845 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

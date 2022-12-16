@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.MessageUtil" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#23"
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#41"
  , "c1" : "byte[]"
  , "c2" : "byteBufferToArray(ByteBuffer)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#34"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#52"
  , "c1" : "String"
  , "c2" : "deepToString(Iterator<?>)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#47"
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#65"
  , "c1" : "byte"
  , "c2" : "jsonNodeToByte(JsonNode;String)"
  , "c3" : "5"
@@ -45,28 +45,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#66"
- , "c1" : "short"
- , "c2" : "jsonNodeToShort(JsonNode;String)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#75"
- , "c1" : "int"
- , "c2" : "jsonNodeToUnsignedShort(JsonNode;String)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
  , "c5" : "00084"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#84"
- , "c1" : "long"
- , "c2" : "jsonNodeToUnsignedInt(JsonNode;String)"
+ , "c1" : "short"
+ , "c2" : "jsonNodeToShort(JsonNode;String)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -75,14 +57,32 @@ var maDataBlocs = {
  , "c5" : "00093"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#93"
  , "c1" : "int"
+ , "c2" : "jsonNodeToUnsignedShort(JsonNode;String)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00102"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#102"
+ , "c1" : "long"
+ , "c2" : "jsonNodeToUnsignedInt(JsonNode;String)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00111"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#111"
+ , "c1" : "int"
  , "c2" : "jsonNodeToInt(JsonNode;String)"
  , "c3" : "5"
  , "c4" : "7"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00119"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#119"
+ , "c5" : "00137"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#137"
  , "c1" : "long"
  , "c2" : "jsonNodeToLong(JsonNode;String)"
  , "c3" : "5"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00145"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#145"
+ , "c5" : "00163"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#163"
  , "c1" : "byte[]"
  , "c2" : "jsonNodeToBinary(JsonNode;String)"
  , "c3" : "2"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00157"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#157"
+ , "c5" : "00175"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#175"
  , "c1" : "double"
  , "c2" : "jsonNodeToDouble(JsonNode;String)"
  , "c3" : "2"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00165"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#165"
+ , "c5" : "00183"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#183"
  , "c1" : "byte[]"
  , "c2" : "duplicate(byte[])"
  , "c3" : "2"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00172"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#172"
+ , "c5" : "00193"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#193"
  , "c1" : "boolean"
  , "c2" : "compareRawTaggedFields(List<RawTaggedField>;List<RawTaggedField>)"
  , "c3" : "5"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00183"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#183"
+ , "c5" : "00204"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#204"
  , "c1" : "ByteBuffer"
  , "c2" : "toByteBuffer(Message;short)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00192"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#192"
+ , "c5" : "00213"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#213"
  , "c1" : "ByteBuffer"
  , "c2" : "toVersionPrefixedByteBuffer(short;Message)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00202"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#202"
+ , "c5" : "00223"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#223"
  , "c1" : "byte[]"
  , "c2" : "toVersionPrefixedBytes(short;Message)"
  , "c3" : "3"
@@ -245,717 +245,717 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#23"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method byteBufferToArray arguments ByteBuffer  buf"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#23"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00023] The argument buf is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#34"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method deepToString arguments Iterator&lt;? &gt;  iter"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#34"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00034] The argument iter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00038] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.protocol.MessageUtil.deepToString@POLYN173376 the MagicNumber/String  '[' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.protocol.MessageUtil.deepToString@POLYN173376 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000006[00041] For method byteBufferToArray arguments ByteBuffer  buf"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.protocol.MessageUtil.deepToString@POLYN173376 the MagicNumber/String  ', ' should be converted to const"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00041] The argument buf is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.protocol.MessageUtil.deepToString@POLYN173376 the MagicNumber/String  ']' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#47"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method jsonNodeToByte arguments JsonNode  node|String  about"
+ , "c3" : "QC-JAV000006[00052] For method deepToString arguments Iterator&lt;? &gt;  iter"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#47"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00047] For method jsonNodeToByte list of called methods Object monObjet|int jsonNodeToIntN174236"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174114 the MagicNumber/String  256 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174114 the MagicNumber/String  128 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174114 the MagicNumber/String  ': value ' should be converted to const"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#52"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00052] The argument iter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174114 the MagicNumber/String  ' does not fit in an 8-bit signed integer.' should be converted to const"
+ , "c3" : "QC-JAV000001[00056] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#60"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174114 the MagicNumber/String  ': value ' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.protocol.MessageUtil.deepToString@POLYN173502 the MagicNumber/String  '[' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.protocol.MessageUtil.deepToString@POLYN173502 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#59"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.protocol.MessageUtil.deepToString@POLYN173502 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174114 the MagicNumber/String  ' does not fit in an 8-bit signed integer.' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.protocol.MessageUtil.deepToString@POLYN173502 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#66"
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method jsonNodeToShort arguments JsonNode  node|String  about"
+ , "c3" : "QC-JAV000006[00065] For method jsonNodeToByte arguments JsonNode  node|String  about"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#66"
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00066] For method jsonNodeToShort list of called methods Object monObjet|int jsonNodeToIntN175098"
+ , "c3" : "QC-JAV000007[00065] For method jsonNodeToByte list of called methods Object monObjet|int jsonNodeToIntN174362"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#69"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToShort@POLYN174976 the MagicNumber/String  ': value ' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174240 the MagicNumber/String  256 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#70"
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToShort@POLYN174976 the MagicNumber/String  ' does not fit in a 16-bit signed integer.' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174240 the MagicNumber/String  128 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#75"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method jsonNodeToUnsignedShort arguments JsonNode  node|String  about"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#75"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00075] For method jsonNodeToUnsignedShort list of called methods Object monObjet|int jsonNodeToIntN175682"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#77"
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToUnsignedShort@POLYN175560 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174240 the MagicNumber/String  ': value ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174240 the MagicNumber/String  ' does not fit in an 8-bit signed integer.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToUnsignedShort@POLYN175560 the MagicNumber/String  ': value ' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174240 the MagicNumber/String  ': value ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToUnsignedShort@POLYN175560 the MagicNumber/String  ' does not fit in a 16-bit unsigned integer.' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174240 the MagicNumber/String  ' does not fit in an 8-bit signed integer.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method jsonNodeToUnsignedInt arguments JsonNode  node|String  about"
+ , "c3" : "QC-JAV000006[00084] For method jsonNodeToShort arguments JsonNode  node|String  about"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00084] For method jsonNodeToUnsignedInt list of called methods Object monObjet|long jsonNodeToLongN176189"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToUnsignedInt@POLYN176067 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000007[00084] For method jsonNodeToShort list of called methods Object monObjet|int jsonNodeToIntN175224"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToUnsignedInt@POLYN176067 the MagicNumber/String  ': value ' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToShort@POLYN175102 the MagicNumber/String  ': value ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToUnsignedInt@POLYN176067 the MagicNumber/String  ' does not fit in a 32-bit unsigned integer.' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToShort@POLYN175102 the MagicNumber/String  ' does not fit in a 16-bit signed integer.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#93"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00093] For method jsonNodeToInt arguments JsonNode  node|String  about"
+ , "c3" : "QC-JAV000006[00093] For method jsonNodeToUnsignedShort arguments JsonNode  node|String  about"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#93"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00093] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00093] For method jsonNodeToUnsignedShort list of called methods Object monObjet|int jsonNodeToIntN175808"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#98"
+ , "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176574 the MagicNumber/String  ': expected an integer or ' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToUnsignedShort@POLYN175686 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#99"
+ , "c1" : "00096"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176574 the MagicNumber/String  'string type, but got ' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToUnsignedShort@POLYN175686 the MagicNumber/String  ': value ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#97"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToUnsignedShort@POLYN175686 the MagicNumber/String  ' does not fit in a 16-bit unsigned integer.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176574 the MagicNumber/String  '0x' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00102] For method jsonNodeToUnsignedInt arguments JsonNode  node|String  about"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#102"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00102] For method jsonNodeToUnsignedInt list of called methods Object monObjet|long jsonNodeToLongN176315"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176574 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToUnsignedInt@POLYN176193 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#104"
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176574 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToUnsignedInt@POLYN176193 the MagicNumber/String  ': value ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176574 the MagicNumber/String  ': failed to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToUnsignedInt@POLYN176193 the MagicNumber/String  ' does not fit in a 32-bit unsigned integer.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176574 the MagicNumber/String  'parse hexadecimal number: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#113"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176574 the MagicNumber/String  ': failed to ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176574 the MagicNumber/String  'parse number: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#119"
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#111"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00119] For method jsonNodeToLong arguments JsonNode  node|String  about"
+ , "c3" : "QC-JAV000006[00111] For method jsonNodeToInt arguments JsonNode  node|String  about"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#119"
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#111"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00119] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00111] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176700 the MagicNumber/String  ': expected an integer or ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176700 the MagicNumber/String  'string type, but got ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176700 the MagicNumber/String  '0x' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#122"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176700 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#122"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176700 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String  ': expected an integer or ' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176700 the MagicNumber/String  ': failed to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String  'string type, but got ' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176700 the MagicNumber/String  'parse hexadecimal number: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#128"
+ , "c1" : "00131"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String  '0x' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#130"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#130"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176700 the MagicNumber/String  ': failed to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String  ': failed to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToInt@POLYN176700 the MagicNumber/String  'parse number: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#133"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String  'parse hexadecimal number: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#139"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String  ': failed to ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String  'parse number: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#145"
+ , "c1" : "00137"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#137"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00145] For method jsonNodeToBinary arguments JsonNode  node|String  about"
+ , "c3" : "QC-JAV000006[00137] For method jsonNodeToLong arguments JsonNode  node|String  about"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#145"
+ , "c1" : "00137"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#137"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00145] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00137] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#147"
+ , "c1" : "00142"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToBinary@POLYN179214 the MagicNumber/String  ': expected Base64-encoded binary data.' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String  ': expected an integer or ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#153"
+ , "c1" : "00143"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToBinary@POLYN179214 the MagicNumber/String  ': unable to retrieve Base64-encoded binary data' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String  'string type, but got ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00146"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#146"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String  '0x' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String  16 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#150"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String  ': failed to ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00151"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#151"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String  'parse hexadecimal number: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#157"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String  ': failed to ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00158"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#158"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String  'parse number: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#163"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00157] For method jsonNodeToDouble arguments JsonNode  node|String  about"
+ , "c3" : "QC-JAV000006[00163] For method jsonNodeToBinary arguments JsonNode  node|String  about"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#157"
+ , "c1" : "00163"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#163"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00157] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#159"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToDouble@POLYN179794 the MagicNumber/String  ': expected a floating point ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#160"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToDouble@POLYN179794 the MagicNumber/String  'type, but got ' should be converted to const"
+ , "c3" : "QC-JAVCWE476[00163] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#165"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00165] For method duplicate arguments byte[]  array"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.common.protocol.MessageUtil.duplicate@POLYN180200 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToBinary@POLYN179340 the MagicNumber/String  ': expected Base64-encoded binary data.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#167"
+ , "c1" : "00171"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.common.protocol.MessageUtil.duplicate@POLYN180200 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#172"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00172] For method compareRawTaggedFields arguments List&lt;RawTaggedField &gt;  first|List&lt;RawTaggedField &gt;  second"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#174"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.common.protocol.MessageUtil.compareRawTaggedFields@POLYN180561 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToBinary@POLYN179340 the MagicNumber/String  ': unable to retrieve Base64-encoded binary data' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#175"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.protocol.MessageUtil.compareRawTaggedFields@POLYN180561 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#176"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.common.protocol.MessageUtil.compareRawTaggedFields@POLYN180561 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#183"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00183] For method toByteBuffer arguments Message  message|short  version"
+ , "c3" : "QC-JAV000006[00175] For method jsonNodeToDouble arguments JsonNode  node|String  about"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#183"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00183] For method toByteBuffer list of called methods Object monObjet|java.nio.ByteBuffer message_sizeN181302"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#183"
+ , "c1" : "00175"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#175"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00183] The argument message is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00175] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#192"
+ , "c1" : "00177"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToDouble@POLYN179920 the MagicNumber/String  ': expected a floating point ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00178"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#178"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToDouble@POLYN179920 the MagicNumber/String  'type, but got ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00183"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#183"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00192] For method toVersionPrefixedByteBuffer arguments short  version|Message  message"
+ , "c3" : "QC-JAV000006[00183] For method duplicate arguments byte[]  array"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#192"
+ , "c1" : "00184"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#184"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.protocol.MessageUtil.duplicate@POLYN180326 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00185"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.common.protocol.MessageUtil.duplicate@POLYN180326 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#193"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00192] For method toVersionPrefixedByteBuffer list of called methods Object monObjet|java.nio.ByteBuffer message_sizeN181955"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#192"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00192] The argument message is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00193] For method compareRawTaggedFields arguments List&lt;RawTaggedField &gt;  first|List&lt;RawTaggedField &gt;  second"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00195"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.common.protocol.MessageUtil.toVersionPrefixedByteBuffer@POLYN181753 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.common.protocol.MessageUtil.compareRawTaggedFields@POLYN180687 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#202"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00202] For method toVersionPrefixedBytes arguments short  version|Message  message"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#202"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00202] For method toVersionPrefixedBytes list of called methods Object monObjet|java.nio.ByteBuffer toVersionPrefixedByteBufferN182635"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#206"
+ , "c1" : "00196"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.protocol.MessageUtil.toVersionPrefixedBytes@POLYN182507 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.protocol.MessageUtil.compareRawTaggedFields@POLYN180687 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#207"
+ , "c1" : "00197"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.common.protocol.MessageUtil.toVersionPrefixedBytes@POLYN182507 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.common.protocol.MessageUtil.compareRawTaggedFields@POLYN180687 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00204"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#204"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00204] For method toByteBuffer arguments Message  message|short  version"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00204"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#204"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00204] For method toByteBuffer list of called methods Object monObjet|java.nio.ByteBuffer message_sizeN181428"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00204"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#204"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00204] The argument message is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00213"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#213"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00213] For method toVersionPrefixedByteBuffer arguments short  version|Message  message"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00213"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#213"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00213] For method toVersionPrefixedByteBuffer list of called methods Object monObjet|java.nio.ByteBuffer message_sizeN182081"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00213"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#213"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00213] The argument message is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00216"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#216"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.common.protocol.MessageUtil.toVersionPrefixedByteBuffer@POLYN181879 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00223"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#223"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00223] For method toVersionPrefixedBytes arguments short  version|Message  message"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00223"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#223"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00223] For method toVersionPrefixedBytes list of called methods Object monObjet|java.nio.ByteBuffer toVersionPrefixedByteBufferN182761"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00227"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#227"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.common.protocol.MessageUtil.toVersionPrefixedBytes@POLYN182633 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00228"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#228"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.common.protocol.MessageUtil.toVersionPrefixedBytes@POLYN182633 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.MessageUtil.jsonNodeToShort@POLYN174976"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.MessageUtil.jsonNodeToShort@POLYN175102"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174114"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174240"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.MessageUtil.jsonNodeToDouble@POLYN179794"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.MessageUtil.jsonNodeToDouble@POLYN179920"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#69"
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#87"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToShort@POLYN174976 the MagicNumber/String ': value ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToShort@POLYN175102 the MagicNumber/String ': value ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#70"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#88"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToShort@POLYN174976 the MagicNumber/String ' does not fit in a 16-bit signed integer.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToShort@POLYN175102 the MagicNumber/String ' does not fit in a 16-bit signed integer.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#50"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#68"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174114 the MagicNumber/String 256 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174240 the MagicNumber/String 256 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#53"
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#71"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174114 the MagicNumber/String 128 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174240 the MagicNumber/String 128 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#55"
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#73"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174114 the MagicNumber/String ': value ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174240 the MagicNumber/String ': value ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#56"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#74"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174114 the MagicNumber/String ' does not fit in an 8-bit signed integer.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174240 the MagicNumber/String ' does not fit in an 8-bit signed integer.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#60"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#78"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174114 the MagicNumber/String ': value ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174240 the MagicNumber/String ': value ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#61"
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#79"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174114 the MagicNumber/String ' does not fit in an 8-bit signed integer.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN174240 the MagicNumber/String ' does not fit in an 8-bit signed integer.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#124"
+ , "c1" : "00142"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#142"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String ': expected an integer or ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00142] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String ': expected an integer or ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#125"
+ , "c1" : "00143"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00125] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String 'string type, but got ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String 'string type, but got ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#128"
+ , "c1" : "00146"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#146"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String '0x' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String '0x' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#130"
+ , "c1" : "00148"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#148"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String 16 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String 16 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#130"
+ , "c1" : "00148"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#148"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#132"
+ , "c1" : "00150"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#150"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00132] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String ': failed to ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00150] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String ': failed to ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#133"
+ , "c1" : "00151"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String 'parse hexadecimal number: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00151] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String 'parse hexadecimal number: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#139"
+ , "c1" : "00157"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#157"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String ': failed to ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String ': failed to ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#140"
+ , "c1" : "00158"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#158"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00140] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN177891 the MagicNumber/String 'parse number: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00158] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToLong@POLYN178017 the MagicNumber/String 'parse number: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#159"
+ , "c1" : "00177"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#177"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00159] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToDouble@POLYN179794 the MagicNumber/String ': expected a floating point ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToDouble@POLYN179920 the MagicNumber/String ': expected a floating point ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#160"
+ , "c1" : "00178"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#178"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToDouble@POLYN179794 the MagicNumber/String 'type, but got ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00178] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToDouble@POLYN179920 the MagicNumber/String 'type, but got ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

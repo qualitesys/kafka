@@ -2,12 +2,12 @@
 !pragma layout smetana
 "AuthenticateCallbackHandler" <|-- "org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerValidatorCallbackHandler"
 class org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerValidatorCallbackHandler {
-+configure(Map<String,?>;String;List<AppConfigurationEntry>) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#43]]]
-init(CloseableVerificationKeyResolver;AccessTokenValidator) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#60]]]
-+close() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#74]]]
-+handle(Callback[]) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#85]]]
--handleValidatorCallback(OAuthBearerValidatorCallback) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#99]]]
--handleExtensionsValidatorCallback(OAuthBearerExtensionsValidatorCallback) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#113]]]
--checkInitialized() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#119]]]
++configure(Map<String,?>;String;List<AppConfigurationEntry>) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#120]]]
+init(CloseableVerificationKeyResolver;AccessTokenValidator) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#139]]]
++close() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#153]]]
++handle(Callback[]) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#164]]]
+-handleValidatorCallback(OAuthBearerValidatorCallback) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#178]]]
+-handleExtensionsValidatorCallback(OAuthBearerExtensionsValidatorCallback) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#192]]]
+-checkInitialized() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#198]]]
 } 
 @enduml

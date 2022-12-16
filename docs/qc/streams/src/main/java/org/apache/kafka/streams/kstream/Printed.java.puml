@@ -2,10 +2,10 @@
 !pragma layout smetana
 "NamedOperation<Printed<K,V>>" <|-- "org.apache.kafka.streams.kstream.Printed"
 class org.apache.kafka.streams.kstream.Printed {
--Printed(OutputStream) : Printed [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#21]]]
-Printed(Printed<K,V>) : Printed [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#26]]]
-+withLabel(String) : Printed<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#52]]]
-+withKeyValueMapper(KeyValueMapper<?superK,?superV,String>) : Printed<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#59]]]
-+withName(String) : Printed<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#67]]]
+-Printed(OutputStream) : Printed [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#42]]]
+Printed(Printed<K,V>) : Printed [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#50]]]
++withLabel(String) : Printed<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#94]]]
++withKeyValueMapper(KeyValueMapper<?superK,?superV,String>) : Printed<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#119]]]
++withName(String) : Printed<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#132]]]
 } 
 @enduml

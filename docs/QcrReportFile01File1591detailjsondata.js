@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.LagInfo" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#15"
+ , "c5" : "00033"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#33"
  , "c1" : "LagInfo"
  , "c2" : "LagInfo(long;long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#22"
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#45"
  , "c1" : "long"
  , "c2" : "currentOffsetPosition()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#27"
+ , "c5" : "00054"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#54"
  , "c1" : "long"
  , "c2" : "endOffsetPosition()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#32"
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#63"
  , "c1" : "long"
  , "c2" : "offsetLag()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#37"
+ , "c5" : "00068"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#68"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#48"
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#79"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#53"
+ , "c5" : "00084"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#84"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -129,59 +129,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#18"
+ , "c1" : "00036"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.LagInfo.LagInfo@POLYN149418 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.LagInfo.LagInfo@POLYN149604 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#37"
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method equals arguments Object  obj"
+ , "c3" : "QC-JAV000006[00068] For method equals arguments Object  obj"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#39"
+ , "c1" : "00070"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.LagInfo.equals@POLYN150492 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.LagInfo.equals@POLYN150678 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#54"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.LagInfo.toString@POLYN151157 the MagicNumber/String  'LagInfo {' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.LagInfo.toString@POLYN151343 the MagicNumber/String  'LagInfo {' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#55"
+ , "c1" : "00086"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.LagInfo.toString@POLYN151157 the MagicNumber/String  ' currentOffsetPosition=' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.LagInfo.toString@POLYN151343 the MagicNumber/String  ' currentOffsetPosition=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#56"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.LagInfo.toString@POLYN151157 the MagicNumber/String  ', endOffsetPosition=' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.LagInfo.toString@POLYN151343 the MagicNumber/String  ', endOffsetPosition=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#57"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.LagInfo.toString@POLYN151157 the MagicNumber/String  ', offsetLag=' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.LagInfo.toString@POLYN151343 the MagicNumber/String  ', offsetLag=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#58"
+ , "c1" : "00089"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.LagInfo.toString@POLYN151157 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.LagInfo.toString@POLYN151343 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

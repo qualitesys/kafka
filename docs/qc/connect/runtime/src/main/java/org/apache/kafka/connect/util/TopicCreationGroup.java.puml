@@ -2,13 +2,13 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.connect.util.TopicCreationGroup"
 class org.apache.kafka.connect.util.TopicCreationGroup {
-TopicCreationGroup(String;SourceConnectorConfig) : TopicCreationGroup [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#27]]]
-+configuredGroups(SourceConnectorConfig) : Map<String,TopicCreationGroup> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#37]]]
-+name() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#54]]]
-+matches(String) : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#59]]]
-+newTopic(String) : NewTopic [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#65]]]
-+equals(Object) : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#74]]]
-+hashCode() : int [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#91]]]
-+toString() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#98]]]
+TopicCreationGroup(String;SourceConnectorConfig) : TopicCreationGroup [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#44]]]
++configuredGroups(SourceConnectorConfig) : Map<String,TopicCreationGroup> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#61]]]
++name() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#82]]]
++matches(String) : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#95]]]
++newTopic(String) : NewTopic [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#108]]]
++equals(Object) : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#117]]]
++hashCode() : int [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#134]]]
++toString() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#141]]]
 } 
 @enduml

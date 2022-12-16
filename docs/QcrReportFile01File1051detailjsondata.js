@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.converters.ByteArrayConverter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#21"
+ , "c5" : "00040"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#40"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#26"
+ , "c5" : "00045"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#45"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#30"
+ , "c5" : "00049"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#49"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;boolean)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#34"
+ , "c5" : "00053"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#53"
  , "c1" : "byte[]"
  , "c2" : "fromConnectData(String;Schema;Object)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#45"
+ , "c5" : "00064"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#64"
  , "c1" : "SchemaAndValue"
  , "c2" : "toConnectData(String;byte[])"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#50"
+ , "c5" : "00069"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#69"
  , "c1" : "byte[]"
  , "c2" : "fromConnectHeader(String;String;Schema;Object)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#55"
+ , "c5" : "00074"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#74"
  , "c1" : "SchemaAndValue"
  , "c2" : "toConnectHeader(String;String;byte[])"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#60"
+ , "c5" : "00079"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#79"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -175,150 +175,150 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#26"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method configure arguments Map&lt;String ,? &gt;  configs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#30"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#34"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method fromConnectData arguments String  topic|Schema  schema|Object  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150179 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150179 the MagicNumber/String  'Invalid schema type for ByteArrayConverter: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150179 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150179 the MagicNumber/String  'ByteArrayConverter is not compatible with objects of type ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method toConnectData arguments String  topic|byte[]  value"
+ , "c3" : "QC-JAV000006[00045] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#50"
+ , "c1" : "00049"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method fromConnectHeader arguments String  topic|String  headerKey|Schema  schema|Object  value"
+ , "c3" : "QC-JAV000006[00049] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#53"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00053] For method fromConnectData arguments String  topic|Schema  schema|Object  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150293 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#55"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150293 the MagicNumber/String  'Invalid schema type for ByteArrayConverter: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#57"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150293 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#58"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150293 the MagicNumber/String  'ByteArrayConverter is not compatible with objects of type ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#64"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method toConnectHeader arguments String  topic|String  headerKey|byte[]  value"
+ , "c3" : "QC-JAV000006[00064] For method toConnectData arguments String  topic|byte[]  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#26"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00026] Void method configure is empty or contains only a return."
+ , "c1" : "00069"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#69"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00069] For method fromConnectHeader arguments String  topic|String  headerKey|Schema  schema|Object  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#26"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00026] Void method configure is empty or contains only a return. Interface segregation"
+ , "c1" : "00074"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#74"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00074] For method toConnectHeader arguments String  topic|String  headerKey|byte[]  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#45"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00030] Void method configure is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00045] Void method configure is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#45"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00030] Void method configure is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00045] Void method configure is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#60"
+ , "c1" : "00049"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#49"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00060] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00049] Void method configure is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#60"
+ , "c1" : "00049"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#49"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00060] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00049] Void method configure is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#79"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00079] Void method close is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#79"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00079] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150179"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150293"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#35"
+ , "c1" : "00054"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#54"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00035] In the recursive method org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150179 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150293 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#36"
+ , "c1" : "00055"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#55"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150179 the MagicNumber/String 'Invalid schema type for ByteArrayConverter: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150293 the MagicNumber/String 'Invalid schema type for ByteArrayConverter: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#38"
+ , "c1" : "00057"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#57"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00038] In the recursive method org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150179 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150293 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#39"
+ , "c1" : "00058"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00039] In the recursive method org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150179 the MagicNumber/String 'ByteArrayConverter is not compatible with objects of type ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.connect.converters.ByteArrayConverter.fromConnectData@POLYN150293 the MagicNumber/String 'ByteArrayConverter is not compatible with objects of type ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

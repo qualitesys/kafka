@@ -2,12 +2,12 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.LogDirDescription"
 class org.apache.kafka.clients.admin.LogDirDescription {
-+LogDirDescription(ApiException;Map<TopicPartition,ReplicaInfo>) : LogDirDescription [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#20]]]
-+LogDirDescription(ApiException;Map<TopicPartition,ReplicaInfo>;long;long) : LogDirDescription [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#24]]]
-+error() : ApiException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#32]]]
-+replicaInfos() : Map<TopicPartition,ReplicaInfo> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#37]]]
-+totalBytes() : OptionalLong [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#42]]]
-+usableBytes() : OptionalLong [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#47]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#52]]]
++LogDirDescription(ApiException;Map<TopicPartition,ReplicaInfo>) : LogDirDescription [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#37]]]
++LogDirDescription(ApiException;Map<TopicPartition,ReplicaInfo>;long;long) : LogDirDescription [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#41]]]
++error() : ApiException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#57]]]
++replicaInfos() : Map<TopicPartition,ReplicaInfo> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#65]]]
++totalBytes() : OptionalLong [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#73]]]
++usableBytes() : OptionalLong [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#81]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#86]]]
 } 
 @enduml

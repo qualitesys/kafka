@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#26"
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#41"
  , "c1" : "ProcessorNodeMetrics"
  , "c2" : "ProcessorNodeMetrics()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#66"
+ , "c5" : "00081"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#81"
  , "c1" : "Sensor"
  , "c2" : "suppressionEmitSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#82"
+ , "c5" : "00097"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#97"
  , "c1" : "Sensor"
  , "c2" : "skippedIdempotentUpdatesSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#98"
+ , "c5" : "00113"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#113"
  , "c1" : "Sensor"
  , "c2" : "processAtSourceSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00124"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#124"
+ , "c5" : "00139"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#139"
  , "c1" : "Sensor"
  , "c2" : "forwardSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00150"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#150"
+ , "c5" : "00165"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#165"
  , "c1" : "Sensor"
  , "c2" : "e2ELatencySensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00169"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#169"
+ , "c5" : "00184"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#184"
  , "c1" : "Sensor"
  , "c2" : "emitFinalLatencySensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00187"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#187"
+ , "c5" : "00202"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#202"
  , "c1" : "Sensor"
  , "c2" : "emittedRecordsSensor(String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00205"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#205"
+ , "c5" : "00220"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#220"
  , "c1" : "Sensor"
  , "c2" : "throughputParentSensor(String;String;String;String;String;RecordingLevel;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00225"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#225"
+ , "c5" : "00240"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#240"
  , "c1" : "Sensor"
  , "c2" : "throughputSensor(String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl;Sensor...)"
  , "c3" : "1"
@@ -170,178 +170,178 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#66"
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method suppressionEmitSensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00081] For method suppressionEmitSensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#82"
+ , "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method skippedIdempotentUpdatesSensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00097] For method skippedIdempotentUpdatesSensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#98"
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#113"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method processAtSourceSensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00113] For method processAtSourceSensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#98"
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#113"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00098] For method processAtSourceSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_taskLevelSensorN177373"
+ , "c3" : "QC-JAV000007[00113] For method processAtSourceSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_taskLevelSensorN177463"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#101"
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#116"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00101] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00116] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#124"
+ , "c1" : "00139"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#139"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00124] For method forwardSensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00139] For method forwardSensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#124"
+ , "c1" : "00139"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#139"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00124] For method forwardSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor throughputParentSensorN178195"
+ , "c3" : "QC-JAV000007[00139] For method forwardSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor throughputParentSensorN178285"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#150"
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#165"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00150] For method e2ELatencySensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00165] For method e2ELatencySensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#150"
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#165"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00150] For method e2ELatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN178947|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_nodeLevelTagMapN179179"
+ , "c3" : "QC-JAV000007[00165] For method e2ELatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN179037|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_nodeLevelTagMapN179269"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#153"
+ , "c1" : "00168"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#168"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00153] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#154"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics.e2ELatencySensor@POLYN178652 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAVCWE476[00168] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00169"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#169"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00169] For method emitFinalLatencySensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#169"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00169] For method emitFinalLatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN179823|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_nodeLevelTagMapN180055"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#172"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00172] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics.emitFinalLatencySensor@POLYN179528 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics.e2ELatencySensor@POLYN178742 the MagicNumber/String  '-' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#184"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00184] For method emitFinalLatencySensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#184"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00184] For method emitFinalLatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN179913|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_nodeLevelTagMapN180145"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#187"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00187] For method emittedRecordsSensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#187"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00187] For method emittedRecordsSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN180677|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_nodeLevelTagMapN180909"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#190"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00190] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00187] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#191"
+ , "c1" : "00188"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics.emittedRecordsSensor@POLYN180382 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics.emitFinalLatencySensor@POLYN179618 the MagicNumber/String  '-' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00202"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#202"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00202] For method emittedRecordsSensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00202"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#202"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00202] For method emittedRecordsSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN180767|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_nodeLevelTagMapN180999"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00205"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#205"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00205] For method throughputParentSensor arguments String  threadId|String  taskId|String  metricNamePrefix|String  descriptionOfRate|String  descriptionOfCount|RecordingLevel  recordingLevel|StreamsMetricsImpl  streamsMetrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#205"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00205] For method throughputParentSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_taskLevelSensorN181509|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_nodeLevelTagMapN181711"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#211"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00211] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00205] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00225"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#225"
+ , "c1" : "00206"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#206"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics.emittedRecordsSensor@POLYN180472 the MagicNumber/String  '-' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00220"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#220"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00225] For method throughputSensor arguments String  threadId|String  taskId|String  processorNodeId|String  metricNamePrefix|String  descriptionOfRate|String  descriptionOfCount|RecordingLevel  recordingLevel|StreamsMetricsImpl  streamsMetrics|Sensor  ...parentSensors"
+ , "c3" : "QC-JAV000006[00220] For method throughputParentSensor arguments String  threadId|String  taskId|String  metricNamePrefix|String  descriptionOfRate|String  descriptionOfCount|RecordingLevel  recordingLevel|StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00225"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#225"
+ , "c1" : "00220"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#220"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00225] For method throughputSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN182370|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_nodeLevelTagMapN182616"
+ , "c3" : "QC-JAV000007[00220] For method throughputParentSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_taskLevelSensorN181599|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_nodeLevelTagMapN181801"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00232"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#232"
+ , "c1" : "00226"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#226"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00232] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00226] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#240"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00240] For method throughputSensor arguments String  threadId|String  taskId|String  processorNodeId|String  metricNamePrefix|String  descriptionOfRate|String  descriptionOfCount|RecordingLevel  recordingLevel|StreamsMetricsImpl  streamsMetrics|Sensor  ...parentSensors"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#240"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00240] For method throughputSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN182460|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_nodeLevelTagMapN182706"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00247"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#247"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00247] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

@@ -2,6 +2,6 @@
 !pragma layout smetana
 "WrappingNullableSerde<LeftOrRightValue<V1,V2>,Void,Object>" <|-- "org.apache.kafka.streams.state.internals.LeftOrRightValueSerde"
 class org.apache.kafka.streams.state.internals.LeftOrRightValueSerde {
-+LeftOrRightValueSerde(Serde<V1>;Serde<V2>) : LeftOrRightValueSerde [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#8]]]
++LeftOrRightValueSerde(Serde<V1>;Serde<V2>) : LeftOrRightValueSerde [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#23]]]
 } 
 @enduml

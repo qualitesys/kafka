@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#32"
+ , "c5" : "00050"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#50"
  , "c1" : "RemoteLogMetadataSerde"
  , "c2" : "RemoteLogMetadataSerde()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#43"
+ , "c5" : "00061"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#61"
  , "c1" : "ApiMessage"
  , "c2" : "newApiMessage(short)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#47"
+ , "c5" : "00065"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#65"
  , "c1" : "Map<Short,RemoteLogMetadataTransform>"
  , "c2" : "createRemoteLogMetadataTransforms()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#56"
+ , "c5" : "00074"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#74"
  , "c1" : "Map<String,Short>"
  , "c2" : "createRemoteLogStorageClassToApiKeyMap()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#65"
+ , "c5" : "00083"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#83"
  , "c1" : "byte[]"
  , "c2" : "serialize(RemoteLogMetadata)"
  , "c3" : "2"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#78"
+ , "c5" : "00096"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#96"
  , "c1" : "RemoteLogMetadata"
  , "c2" : "deserialize(byte[])"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#84"
+ , "c5" : "00102"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#102"
  , "c1" : "RemoteLogMetadataTransform"
  , "c2" : "remoteLogMetadataTransform(short)"
  , "c3" : "2"
@@ -136,87 +136,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#43"
+ , "c1" : "00061"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method newApiMessage arguments short  apiKey"
+ , "c3" : "QC-JAV000006[00061] For method newApiMessage arguments short  apiKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#65"
+ , "c1" : "00083"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method serialize arguments RemoteLogMetadata  remoteLogMetadata"
+ , "c3" : "QC-JAV000006[00083] For method serialize arguments RemoteLogMetadata  remoteLogMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#65"
+ , "c1" : "00083"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#83"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00065] The argument remoteLogMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00083] The argument remoteLogMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#67"
+ , "c1" : "00085"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.serialize@POLYN162640 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.serialize@POLYN162640 the MagicNumber/String  'ApiKey for given RemoteStorageMetadata class: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.serialize@POLYN162640 the MagicNumber/String  ' does not exist.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.serialize@POLYN162640 the MagicNumber/String  'unchecked' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#78"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method deserialize arguments byte[]  data"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#84"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method remoteLogMetadataTransform arguments short  apiKey"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.serialize@POLYN162748 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.remoteLogMetadataTransform@POLYN163624 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.serialize@POLYN162748 the MagicNumber/String  'ApiKey for given RemoteStorageMetadata class: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.remoteLogMetadataTransform@POLYN163624 the MagicNumber/String  'RemoteLogMetadataTransform for apikey: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.serialize@POLYN162748 the MagicNumber/String  ' does not exist.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#87"
+ , "c1" : "00090"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.remoteLogMetadataTransform@POLYN163624 the MagicNumber/String  ' does not exist.' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.serialize@POLYN162748 the MagicNumber/String  'unchecked' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00096"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#96"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00096] For method deserialize arguments byte[]  data"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#102"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00102] For method remoteLogMetadataTransform arguments short  apiKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.remoteLogMetadataTransform@POLYN163732 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.remoteLogMetadataTransform@POLYN163732 the MagicNumber/String  'RemoteLogMetadataTransform for apikey: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.remoteLogMetadataTransform@POLYN163732 the MagicNumber/String  ' does not exist.' should be converted to const"
 }} 
 ]
 , 

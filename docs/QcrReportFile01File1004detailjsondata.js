@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.file.FileStreamSourceConnector" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#37"
+ , "c5" : "00055"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#55"
  , "c1" : "String"
  , "c2" : "version()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#42"
+ , "c5" : "00060"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#60"
  , "c1" : "void"
  , "c2" : "start(Map<String,String>)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#54"
+ , "c5" : "00072"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#72"
  , "c1" : "Class<?extendsTask>"
  , "c2" : "taskClass()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#59"
+ , "c5" : "00077"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#77"
  , "c1" : "List<Map<String,String>>"
  , "c2" : "taskConfigs(int)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#72"
+ , "c5" : "00090"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#90"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#77"
+ , "c5" : "00095"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#95"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -143,59 +143,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#42"
+ , "c1" : "00060"
+ , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method start arguments Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00060] For method start arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#46"
+ , "c1" : "00064"
+ , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.file.FileStreamSourceConnector.start@POLYN154304 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.file.FileStreamSourceConnector.start@POLYN154412 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#47"
+ , "c1" : "00065"
+ , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.file.FileStreamSourceConnector.start@POLYN154304 the MagicNumber/String  ''topic' in FileStreamSourceConnector configuration requires definition of a single topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.connect.file.FileStreamSourceConnector.start@POLYN154412 the MagicNumber/String  ''topic' in FileStreamSourceConnector configuration requires definition of a single topic' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#49"
+ , "c1" : "00067"
+ , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.file.FileStreamSourceConnector.start@POLYN154304 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.file.FileStreamSourceConnector.start@POLYN154412 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#59"
+ , "c1" : "00077"
+ , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method taskConfigs arguments int  maxTasks"
+ , "c3" : "QC-JAV000006[00077] For method taskConfigs arguments int  maxTasks"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#63"
+ , "c1" : "00081"
+ , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.file.FileStreamSourceConnector.taskConfigs@POLYN155301 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.connect.file.FileStreamSourceConnector.taskConfigs@POLYN155409 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.file.FileStreamSourceConnector.taskConfigs@POLYN155301"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.file.FileStreamSourceConnector.taskConfigs@POLYN155409"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#63"
+ , "c1" : "00081"
+ , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#81"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.connect.file.FileStreamSourceConnector.taskConfigs@POLYN155301 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.connect.file.FileStreamSourceConnector.taskConfigs@POLYN155409 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

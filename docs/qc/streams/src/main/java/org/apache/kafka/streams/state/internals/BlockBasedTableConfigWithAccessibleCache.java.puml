@@ -2,7 +2,7 @@
 !pragma layout smetana
 "BlockBasedTableConfig" <|-- "org.apache.kafka.streams.state.internals.BlockBasedTableConfigWithAccessibleCache"
 class org.apache.kafka.streams.state.internals.BlockBasedTableConfigWithAccessibleCache {
-+setBlockCache(Cache) : BlockBasedTableConfig [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BlockBasedTableConfigWithAccessibleCache.java.html#12]]]
-+blockCache() : Cache [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BlockBasedTableConfigWithAccessibleCache.java.html#17]]]
++setBlockCache(Cache) : BlockBasedTableConfig [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BlockBasedTableConfigWithAccessibleCache.java.html#27]]]
++blockCache() : Cache [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BlockBasedTableConfigWithAccessibleCache.java.html#32]]]
 } 
 @enduml

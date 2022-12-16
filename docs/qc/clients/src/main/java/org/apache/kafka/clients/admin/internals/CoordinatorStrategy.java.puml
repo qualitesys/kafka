@@ -2,14 +2,14 @@
 !pragma layout smetana
 "AdminApiLookupStrategy<CoordinatorKey>" <|-- "org.apache.kafka.clients.admin.internals.CoordinatorStrategy"
 class org.apache.kafka.clients.admin.internals.CoordinatorStrategy {
-+CoordinatorStrategy(FindCoordinatorRequest.CoordinatorType;LogContext) : CoordinatorStrategy [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#34]]]
-+lookupScope(CoordinatorKey) : ApiRequestScope [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#43]]]
-+buildRequest(Set<CoordinatorKey>) : FindCoordinatorRequest.Builder [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#54]]]
-+handleResponse(Set<CoordinatorKey>;AbstractResponse) : LookupResult<CoordinatorKey> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#74]]]
-+disableBatch() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#104]]]
--requireSingletonAndType(Set<CoordinatorKey>) : CoordinatorKey [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#108]]]
--ensureSameType(Set<CoordinatorKey>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#119]]]
--isRepresentableKey(String) : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#128]]]
--handleError(Errors;CoordinatorKey;int;Map<CoordinatorKey,Integer>;Map<CoordinatorKey,Throwable>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#132]]]
++CoordinatorStrategy(FindCoordinatorRequest.CoordinatorType;LogContext) : CoordinatorStrategy [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#49]]]
++lookupScope(CoordinatorKey) : ApiRequestScope [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#58]]]
++buildRequest(Set<CoordinatorKey>) : FindCoordinatorRequest.Builder [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#69]]]
++handleResponse(Set<CoordinatorKey>;AbstractResponse) : LookupResult<CoordinatorKey> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#89]]]
++disableBatch() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#119]]]
+-requireSingletonAndType(Set<CoordinatorKey>) : CoordinatorKey [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#123]]]
+-ensureSameType(Set<CoordinatorKey>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#134]]]
+-isRepresentableKey(String) : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#143]]]
+-handleError(Errors;CoordinatorKey;int;Map<CoordinatorKey,Integer>;Map<CoordinatorKey,Throwable>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#147]]]
 } 
 @enduml

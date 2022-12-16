@@ -2,10 +2,10 @@
 !pragma layout smetana
 "AbstractRequest" <|-- "org.apache.kafka.common.requests.DescribeTransactionsRequest"
 class org.apache.kafka.common.requests.DescribeTransactionsRequest {
--DescribeTransactionsRequest(DescribeTransactionsRequestData;short) : DescribeTransactionsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#34]]]
-+data() : DescribeTransactionsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#40]]]
-+getErrorResponse(int;Throwable) : DescribeTransactionsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#45]]]
-+parse(ByteBuffer;short) : DescribeTransactionsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#60]]]
-+toString(boolean) : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#66]]]
+-DescribeTransactionsRequest(DescribeTransactionsRequestData;short) : DescribeTransactionsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#49]]]
++data() : DescribeTransactionsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#55]]]
++getErrorResponse(int;Throwable) : DescribeTransactionsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#60]]]
++parse(ByteBuffer;short) : DescribeTransactionsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#75]]]
++toString(boolean) : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsRequest.java.html#81]]]
 } 
 @enduml

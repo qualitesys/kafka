@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.mirror.Checkpoint" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#46"
+ , "c5" : "00061"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#61"
  , "c1" : "Checkpoint"
  , "c2" : "Checkpoint(String;TopicPartition;long;long;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#55"
+ , "c5" : "00070"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#70"
  , "c1" : "String"
  , "c2" : "consumerGroupId()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#59"
+ , "c5" : "00074"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#74"
  , "c1" : "TopicPartition"
  , "c2" : "topicPartition()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#63"
+ , "c5" : "00078"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#78"
  , "c1" : "long"
  , "c2" : "upstreamOffset()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#67"
+ , "c5" : "00082"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#82"
  , "c1" : "long"
  , "c2" : "downstreamOffset()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#71"
+ , "c5" : "00086"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#86"
  , "c1" : "String"
  , "c2" : "metadata()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#75"
+ , "c5" : "00090"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#90"
  , "c1" : "OffsetAndMetadata"
  , "c2" : "offsetAndMetadata()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#80"
+ , "c5" : "00095"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#95"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00086"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#86"
+ , "c5" : "00101"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#101"
  , "c1" : "ByteBuffer"
  , "c2" : "serializeValue(short)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#97"
+ , "c5" : "00112"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#112"
  , "c1" : "ByteBuffer"
  , "c2" : "serializeKey()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00105"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#105"
+ , "c5" : "00120"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#120"
  , "c1" : "Checkpoint"
  , "c2" : "deserializeRecord(ConsumerRecord<byte[],byte[]>)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00122"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#122"
+ , "c5" : "00137"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#137"
  , "c1" : "Schema"
  , "c2" : "valueSchema(short)"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00127"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#127"
+ , "c5" : "00142"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#142"
  , "c1" : "Struct"
  , "c2" : "valueStruct(Schema)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00135"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#135"
+ , "c5" : "00150"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#150"
  , "c1" : "Struct"
  , "c2" : "keyStruct()"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00143"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#143"
+ , "c5" : "00158"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#158"
  , "c1" : "Struct"
  , "c2" : "headerStruct(short)"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00149"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#149"
+ , "c5" : "00164"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#164"
  , "c1" : "Map<String,?>"
  , "c2" : "connectPartition()"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00157"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#157"
+ , "c5" : "00172"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#172"
  , "c1" : "String"
  , "c2" : "unwrapGroup(Map<String,?>)"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00161"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#161"
+ , "c5" : "00176"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#176"
  , "c1" : "byte[]"
  , "c2" : "recordKey()"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00165"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#165"
+ , "c5" : "00180"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#180"
  , "c1" : "byte[]"
  , "c2" : "recordValue()"
  , "c3" : "1"
@@ -267,108 +267,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#81"
+ , "c1" : "00096"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.connect.mirror.Checkpoint.toString@POLYN168597 the MagicNumber/String  'Checkpoint{consumerGroupId=%s, topicPartition=%s, ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.mirror.Checkpoint.toString@POLYN168597 the MagicNumber/String  'upstreamOffset=%d, downstreamOffset=%d, metatadata=%s}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#86"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method serializeValue arguments short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#86"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00086] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct headerStructN168950"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.connect.mirror.Checkpoint.toString@POLYN168687 the MagicNumber/String  'Checkpoint{consumerGroupId=%s, topicPartition=%s, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#97"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00097] For method serializeKey list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct keyStructN169721"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#105"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method deserializeRecord arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#105"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00105] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.connect.mirror.Checkpoint header_getShortN170436|java.lang.Long valueStruct_getLongN170710|java.lang.Long valueStruct_getLongN170804"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#105"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00105] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#122"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method valueSchema arguments short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.mirror.Checkpoint.valueSchema@POLYN171629 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.mirror.Checkpoint.toString@POLYN168687 the MagicNumber/String  'upstreamOffset=%d, downstreamOffset=%d, metatadata=%s}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#127"
+ , "c1" : "00101"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00127] For method valueStruct arguments Schema  schema"
+ , "c3" : "QC-JAV000006[00101] For method serializeValue arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#143"
+ , "c1" : "00101"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method headerStruct arguments short  version"
+ , "c3" : "QC-JAV000007[00101] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct headerStructN169040"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#157"
+ , "c1" : "00112"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00157] For method unwrapGroup arguments Map&lt;String ,? &gt;  connectPartition"
+ , "c3" : "QC-JAV000007[00112] For method serializeKey list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct keyStructN169811"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#157"
+ , "c1" : "00120"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#120"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00120] For method deserializeRecord arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#120"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00120] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.connect.mirror.Checkpoint header_getShortN170526|java.lang.Long valueStruct_getLongN170800|java.lang.Long valueStruct_getLongN170894"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#120"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00157] The argument connectPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00120] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00137"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#137"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00137] For method valueSchema arguments short  version"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00138"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#138"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.mirror.Checkpoint.valueSchema@POLYN171719 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00142"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#142"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00142] For method valueStruct arguments Schema  schema"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00158"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#158"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00158] For method headerStruct arguments short  version"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#172"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00172] For method unwrapGroup arguments Map&lt;String ,? &gt;  connectPartition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#172"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00172] The argument connectPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Checkpoint.connectPartition@POLYN173092"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Checkpoint.connectPartition@POLYN173182"
 }} 
 ]
 , 

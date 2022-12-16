@@ -2,9 +2,9 @@
 !pragma layout smetana
 "RuntimeException" <|-- "org.apache.kafka.common.KafkaException"
 class org.apache.kafka.common.KafkaException {
-+KafkaException(String;Throwable) : KafkaException [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaException.java.html#9]]]
-+KafkaException(String) : KafkaException [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaException.java.html#13]]]
-+KafkaException(Throwable) : KafkaException [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaException.java.html#17]]]
-+KafkaException() : KafkaException [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaException.java.html#21]]]
++KafkaException(String;Throwable) : KafkaException [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaException.java.html#26]]]
++KafkaException(String) : KafkaException [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaException.java.html#30]]]
++KafkaException(Throwable) : KafkaException [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaException.java.html#34]]]
++KafkaException() : KafkaException [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/KafkaException.java.html#38]]]
 } 
 @enduml

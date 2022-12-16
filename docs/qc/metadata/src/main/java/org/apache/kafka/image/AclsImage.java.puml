@@ -2,12 +2,12 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.image.AclsImage"
 class org.apache.kafka.image.AclsImage {
-+AclsImage(Map<Uuid,StandardAcl>) : AclsImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#25]]]
-+isEmpty() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#29]]]
-+acls() : Map<Uuid,StandardAcl> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#33]]]
-+write(Consumer<List<ApiMessageAndVersion>>) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#37]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#47]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#52]]]
-+toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#59]]]
++AclsImage(Map<Uuid,StandardAcl>) : AclsImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#44]]]
++isEmpty() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#48]]]
++acls() : Map<Uuid,StandardAcl> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#52]]]
++write(Consumer<List<ApiMessageAndVersion>>) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#56]]]
++hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#66]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#71]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#78]]]
 } 
 @enduml

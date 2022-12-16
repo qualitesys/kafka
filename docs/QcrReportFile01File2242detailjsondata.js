@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.task.NoOpTaskWorker" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#18"
+ , "c5" : "00033"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#33"
  , "c1" : "NoOpTaskWorker"
  , "c2" : "NoOpTaskWorker(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#38"
  , "c1" : "void"
  , "c2" : "start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#31"
+ , "c5" : "00046"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#46"
  , "c1" : "void"
  , "c2" : "stop(Platform)"
  , "c3" : "1"
@@ -123,94 +123,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String &gt;  errorFuture"
+ , "c3" : "QC-JAV000006[00038] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String &gt;  errorFuture"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#38"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00023] The argument status is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00038] The argument status is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN144849 the MagicNumber/String  '{}: Activating NoOpTask.' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN144939 the MagicNumber/String  '{}: Activating NoOpTask.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#27"
+ , "c1" : "00042"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN144849 the MagicNumber/String  'active' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN144939 the MagicNumber/String  'active' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#31"
+ , "c1" : "00046"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method stop arguments Platform  platform"
+ , "c3" : "QC-JAV000006[00046] For method stop arguments Platform  platform"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#32"
+ , "c1" : "00047"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN145289 the MagicNumber/String  '{}: Deactivating NoOpTask.' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN145379 the MagicNumber/String  '{}: Deactivating NoOpTask.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN145289 the MagicNumber/String  'done' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN145379 the MagicNumber/String  'done' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN144849"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN144939"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN145289"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN145379"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#40"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00025] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN144849 the MagicNumber/String '{}: Activating NoOpTask.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN144939 the MagicNumber/String '{}: Activating NoOpTask.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#27"
+ , "c1" : "00042"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#42"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00027] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN144849 the MagicNumber/String 'active' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN144939 the MagicNumber/String 'active' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#32"
+ , "c1" : "00047"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#47"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00032] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN145289 the MagicNumber/String '{}: Deactivating NoOpTask.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN145379 the MagicNumber/String '{}: Deactivating NoOpTask.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#48"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN145289 the MagicNumber/String 'done' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN145379 the MagicNumber/String 'done' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.snapshot.Snapshots" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#36"
+ , "c5" : "00051"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#51"
  , "c1" : "Path"
  , "c2" : "snapshotDir(Path)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#40"
+ , "c5" : "00055"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#55"
  , "c1" : "String"
  , "c2" : "filenameFromSnapshotId(OffsetAndEpoch)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#44"
+ , "c5" : "00059"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#59"
  , "c1" : "Path"
  , "c2" : "moveRename(Path;OffsetAndEpoch)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#48"
+ , "c5" : "00063"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#63"
  , "c1" : "Path"
  , "c2" : "deleteRename(Path;OffsetAndEpoch)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#52"
+ , "c5" : "00067"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#67"
  , "c1" : "Path"
  , "c2" : "snapshotPath(Path;OffsetAndEpoch)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#56"
+ , "c5" : "00071"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#71"
  , "c1" : "Path"
  , "c2" : "createTempFile(Path;OffsetAndEpoch)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#71"
+ , "c5" : "00086"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#86"
  , "c1" : "Optional<SnapshotPath>"
  , "c2" : "parse(Path)"
  , "c3" : "7"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#98"
+ , "c5" : "00115"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#115"
  , "c1" : "boolean"
  , "c2" : "deleteIfExists(Path;OffsetAndEpoch)"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00116"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#116"
+ , "c5" : "00135"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#135"
  , "c1" : "void"
  , "c2" : "markForDelete(Path;OffsetAndEpoch)"
  , "c3" : "1"
@@ -184,276 +184,276 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#36"
+ , "c1" : "00051"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method snapshotDir arguments Path  logDir"
+ , "c3" : "QC-JAV000006[00051] For method snapshotDir arguments Path  logDir"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#40"
+ , "c1" : "00055"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method filenameFromSnapshotId arguments OffsetAndEpoch  snapshotId"
+ , "c3" : "QC-JAV000006[00055] For method filenameFromSnapshotId arguments OffsetAndEpoch  snapshotId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#40"
+ , "c1" : "00055"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#55"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00040] The argument snapshotId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.snapshot.Snapshots.filenameFromSnapshotId@POLYN161263 the MagicNumber/String  '%s-%s' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method moveRename arguments Path  source|OffsetAndEpoch  snapshotId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#44"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00044] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method deleteRename arguments Path  source|OffsetAndEpoch  snapshotId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#48"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00048] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#52"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method snapshotPath arguments Path  logDir|OffsetAndEpoch  snapshotId"
+ , "c3" : "QC-JAVCWE476[00055] The argument snapshotId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method createTempFile arguments Path  logDir|OffsetAndEpoch  snapshotId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00056] For method createTempFile list of called methods Object monObjet|java.nio.file.Path snapshotDirN162388"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.snapshot.Snapshots.createTempFile@POLYN162266 the MagicNumber/String  '%s-' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.snapshot.Snapshots.filenameFromSnapshotId@POLYN161377 the MagicNumber/String  '%s-%s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.snapshot.Snapshots.createTempFile@POLYN162266 the MagicNumber/String  'Error creating temporary file, logDir = %s, snapshotId = %s.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#71"
+ , "c1" : "00059"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00071] For method parse arguments Path  path"
+ , "c3" : "QC-JAV000006[00059] For method moveRename arguments Path  source|OffsetAndEpoch  snapshotId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#71"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method parse list of called methods Object monObjet|java.lang.String filename_toStringN163381|long Long_parseLongN164011|int Integer_parseIntN164168"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#71"
+ , "c1" : "00059"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#59"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00071] The argument path is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00059] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.snapshot.Snapshots.parse@POLYN163080 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.snapshot.Snapshots.parse@POLYN163080 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.snapshot.Snapshots.parse@POLYN163080 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.snapshot.Snapshots.parse@POLYN163080 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.snapshot.Snapshots.parse@POLYN163080 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.snapshot.Snapshots.parse@POLYN163080 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.snapshot.Snapshots.parse@POLYN163080 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.snapshot.Snapshots.parse@POLYN163080 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#98"
+ , "c1" : "00063"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method deleteIfExists arguments Path  logDir|OffsetAndEpoch  snapshotId"
+ , "c3" : "QC-JAV000006[00063] For method deleteRename arguments Path  source|OffsetAndEpoch  snapshotId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#98"
+ , "c1" : "00063"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#63"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00063] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00067"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00098] For method deleteIfExists list of called methods Object monObjet|java.nio.file.Path snapshotPathN164775|java.nio.file.Path deleteRenameN164883"
+ , "c3" : "QC-JAV000006[00067] For method snapshotPath arguments Path  logDir|OffsetAndEpoch  snapshotId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#71"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00071] For method createTempFile arguments Path  logDir|OffsetAndEpoch  snapshotId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#71"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00071] For method createTempFile list of called methods Object monObjet|java.nio.file.Path snapshotDirN162502"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.snapshot.Snapshots.createTempFile@POLYN162380 the MagicNumber/String  '%s-' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.snapshot.Snapshots.createTempFile@POLYN162380 the MagicNumber/String  'Error creating temporary file, logDir = %s, snapshotId = %s.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#86"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00086] For method parse arguments Path  path"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#86"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00086] For method parse list of called methods Object monObjet|java.lang.String filename_toStringN163495|long Long_parseLongN164125|int Integer_parseIntN164282"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#86"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00086] The argument path is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.snapshot.Snapshots.parse@POLYN163194 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.snapshot.Snapshots.parse@POLYN163194 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#95"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.snapshot.Snapshots.parse@POLYN163194 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#97"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.snapshot.Snapshots.parse@POLYN163194 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.snapshot.Snapshots.parse@POLYN163194 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164653 the MagicNumber/String  'Deleted snapshot files for snapshot {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.snapshot.Snapshots.parse@POLYN163194 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164653 the MagicNumber/String  'Did not delete snapshot files for snapshot {} since they did not exist.' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.snapshot.Snapshots.parse@POLYN163194 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#110"
+ , "c1" : "00106"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164653 the MagicNumber/String  'Error deleting snapshot files {} and {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.snapshot.Snapshots.parse@POLYN163194 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#111"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164653 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#116"
+ , "c1" : "00115"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#115"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method markForDelete arguments Path  logDir|OffsetAndEpoch  snapshotId"
+ , "c3" : "QC-JAV000006[00115] For method deleteIfExists arguments Path  logDir|OffsetAndEpoch  snapshotId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#116"
+ , "c1" : "00115"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#115"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00116] For method markForDelete list of called methods Object monObjet|java.nio.file.Path snapshotPathN165828|java.nio.file.Path deleteRenameN165936"
+ , "c3" : "QC-JAV000007[00115] For method deleteIfExists list of called methods Object monObjet|java.nio.file.Path snapshotPathN164889|java.nio.file.Path deleteRenameN164997"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#120"
+ , "c1" : "00121"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.snapshot.Snapshots.markForDelete@POLYN165710 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164767 the MagicNumber/String  'Deleted snapshot files for snapshot {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#124"
+ , "c1" : "00123"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.snapshot.Snapshots.markForDelete@POLYN165710 the MagicNumber/String  'Error renaming snapshot file from %s to %s.' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164767 the MagicNumber/String  'Did not delete snapshot files for snapshot {} since they did not exist.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#127"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164767 the MagicNumber/String  'Error deleting snapshot files {} and {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#128"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164767 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#135"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00135] For method markForDelete arguments Path  logDir|OffsetAndEpoch  snapshotId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#135"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00135] For method markForDelete list of called methods Object monObjet|java.nio.file.Path snapshotPathN165942|java.nio.file.Path deleteRenameN166050"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#139"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.snapshot.Snapshots.markForDelete@POLYN165824 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00143"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#143"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.snapshot.Snapshots.markForDelete@POLYN165824 the MagicNumber/String  'Error renaming snapshot file from %s to %s.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164653"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164767"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#104"
+ , "c1" : "00121"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#121"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164653 the MagicNumber/String 'Deleted snapshot files for snapshot {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164767 the MagicNumber/String 'Deleted snapshot files for snapshot {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#106"
+ , "c1" : "00123"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#123"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164653 the MagicNumber/String 'Did not delete snapshot files for snapshot {} since they did not exist.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164767 the MagicNumber/String 'Did not delete snapshot files for snapshot {} since they did not exist.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#110"
+ , "c1" : "00127"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#127"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164653 the MagicNumber/String 'Error deleting snapshot files {} and {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164767 the MagicNumber/String 'Error deleting snapshot files {} and {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#111"
+ , "c1" : "00128"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#128"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164653 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN164767 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

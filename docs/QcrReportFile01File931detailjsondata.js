@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.quota.ClientQuotaCallback" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#14"
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#40"
  , "c1" : "Map<String,String>"
  , "c2" : "quotaMetricTags(ClientQuotaType;KafkaPrincipal;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#17"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#56"
  , "c1" : "Double"
  , "c2" : "quotaLimit(ClientQuotaType;Map<String,String>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#20"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#67"
  , "c1" : "void"
  , "c2" : "updateQuota(ClientQuotaType;ClientQuotaEntity;double)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#23"
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#77"
  , "c1" : "void"
  , "c2" : "removeQuota(ClientQuotaType;ClientQuotaEntity)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#26"
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#91"
  , "c1" : "boolean"
  , "c2" : "quotaResetRequired(ClientQuotaType)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#29"
+ , "c5" : "00103"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#103"
  , "c1" : "boolean"
  , "c2" : "updateClusterMetadata(Cluster)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#32"
+ , "c5" : "00108"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#108"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "java.io.FileReader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/secujava/java.io.FileReader.java.html#10"
+ , "c5" : "00057"
+ , "c5link" : "././qc/secujava/java.io.FileReader.java.html#57"
  , "c1" : "FileReader"
  , "c2" : "FileReader(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/secujava/java.io.FileReader.java.html#15"
+ , "c5" : "00071"
+ , "c5link" : "././qc/secujava/java.io.FileReader.java.html#71"
  , "c1" : "FileReader"
  , "c2" : "FileReader(File)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/secujava/java.io.FileReader.java.html#20"
+ , "c5" : "00081"
+ , "c5link" : "././qc/secujava/java.io.FileReader.java.html#81"
  , "c1" : "FileReader"
  , "c2" : "FileReader(FileDescriptor)"
  , "c3" : "1"

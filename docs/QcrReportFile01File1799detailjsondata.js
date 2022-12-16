@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.graph.GraphNode" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#38"
  , "c1" : "GraphNode"
  , "c2" : "GraphNode(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#27"
+ , "c5" : "00042"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#42"
  , "c1" : "Collection<GraphNode>"
  , "c2" : "parentNodes()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#31"
+ , "c5" : "00046"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#46"
  , "c1" : "String[]"
  , "c2" : "parentNodeNames()"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#40"
+ , "c5" : "00055"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#55"
  , "c1" : "boolean"
  , "c2" : "allParentsWrittenToTopology()"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#49"
+ , "c5" : "00064"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#64"
  , "c1" : "Collection<GraphNode>"
  , "c2" : "children()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#53"
+ , "c5" : "00068"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#68"
  , "c1" : "void"
  , "c2" : "clearChildren()"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#60"
+ , "c5" : "00075"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#75"
  , "c1" : "boolean"
  , "c2" : "removeChild(GraphNode)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#64"
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#79"
  , "c1" : "void"
  , "c2" : "addChild(GraphNode)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#69"
+ , "c5" : "00084"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#84"
  , "c1" : "String"
  , "c2" : "nodeName()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#73"
+ , "c5" : "00088"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#88"
  , "c1" : "boolean"
  , "c2" : "isKeyChangingOperation()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#77"
+ , "c5" : "00092"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#92"
  , "c1" : "boolean"
  , "c2" : "isValueChangingOperation()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#81"
+ , "c5" : "00096"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#96"
  , "c1" : "boolean"
  , "c2" : "isMergeNode()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#85"
+ , "c5" : "00100"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#100"
  , "c1" : "void"
  , "c2" : "setMergeNode(boolean)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#89"
+ , "c5" : "00104"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#104"
  , "c1" : "void"
  , "c2" : "setValueChangingOperation(boolean)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#93"
+ , "c5" : "00108"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#108"
  , "c1" : "void"
  , "c2" : "keyChangingOperation(boolean)"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#97"
+ , "c5" : "00112"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#112"
  , "c1" : "void"
  , "c2" : "setBuildPriority(int)"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00101"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#101"
+ , "c5" : "00116"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#116"
  , "c1" : "Integer"
  , "c2" : "buildPriority()"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00105"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#105"
+ , "c5" : "00120"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#120"
  , "c1" : "void"
  , "c2" : "writeToTopology(InternalTopologyBuilder)"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00107"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#107"
+ , "c5" : "00122"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#122"
  , "c1" : "boolean"
  , "c2" : "hasWrittenToTopology()"
  , "c3" : "1"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00111"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#111"
+ , "c5" : "00126"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#126"
  , "c1" : "void"
  , "c2" : "setHasWrittenToTopology(boolean)"
  , "c3" : "1"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00116"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#116"
+ , "c5" : "00131"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#131"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -276,234 +276,234 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.parentNodeNames@POLYN154107 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.parentNodeNames@POLYN154197 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#43"
+ , "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.allParentsWrittenToTopology@POLYN154560 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.allParentsWrittenToTopology@POLYN154650 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#46"
+ , "c1" : "00061"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.allParentsWrittenToTopology@POLYN154560 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.allParentsWrittenToTopology@POLYN154650 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#60"
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method removeChild arguments GraphNode  child"
+ , "c3" : "QC-JAV000006[00075] For method removeChild arguments GraphNode  child"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#60"
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#75"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00060] The argument child is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00075] The argument child is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#64"
+ , "c1" : "00079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method addChild arguments GraphNode  childNode"
+ , "c3" : "QC-JAV000006[00079] For method addChild arguments GraphNode  childNode"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#64"
+ , "c1" : "00079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#79"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00064] The argument childNode is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00079] The argument childNode is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#85"
+ , "c1" : "00100"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method setMergeNode arguments boolean  mergeNode"
+ , "c3" : "QC-JAV000006[00100] For method setMergeNode arguments boolean  mergeNode"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#89"
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00089] For method setValueChangingOperation arguments boolean  valueChangingOperation"
+ , "c3" : "QC-JAV000006[00104] For method setValueChangingOperation arguments boolean  valueChangingOperation"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#93"
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00093] For method keyChangingOperation arguments boolean  keyChangingOperation"
+ , "c3" : "QC-JAV000006[00108] For method keyChangingOperation arguments boolean  keyChangingOperation"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#97"
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method setBuildPriority arguments int  buildPriority"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#105"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method writeToTopology arguments InternalTopologyBuilder  topologyBuilder"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#111"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00111] For method setHasWrittenToTopology arguments boolean  hasWrittenToTopology"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#116"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00116] For method toString list of called methods Object monObjet|java.lang.String[] parentNodeNamesN157028"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN156942 the MagicNumber/String  'StreamsGraphNode{' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#119"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN156942 the MagicNumber/String  'nodeName='' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#119"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN156942 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000006[00112] For method setBuildPriority arguments int  buildPriority"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#120"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN156942 the MagicNumber/String  ', buildPriority=' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00120] For method writeToTopology arguments InternalTopologyBuilder  topologyBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#121"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN156942 the MagicNumber/String  ', hasWrittenToTopology=' should be converted to const"
+ , "c1" : "00126"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#126"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00126] For method setHasWrittenToTopology arguments boolean  hasWrittenToTopology"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#122"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN156942 the MagicNumber/String  ', keyChangingOperation=' should be converted to const"
+ , "c1" : "00131"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#131"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00131] For method toString list of called methods Object monObjet|java.lang.String[] parentNodeNamesN157118"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#123"
+ , "c1" : "00133"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN156942 the MagicNumber/String  ', valueChangingOperation=' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN157032 the MagicNumber/String  'StreamsGraphNode{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#124"
+ , "c1" : "00134"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN156942 the MagicNumber/String  ', mergeNode=' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN157032 the MagicNumber/String  'nodeName='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#125"
+ , "c1" : "00134"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN156942 the MagicNumber/String  ', parentNodes=' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN157032 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#125"
+ , "c1" : "00135"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN156942 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN157032 the MagicNumber/String  ', buildPriority=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#27"
+ , "c1" : "00136"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#136"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN157032 the MagicNumber/String  ', hasWrittenToTopology=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00137"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#137"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN157032 the MagicNumber/String  ', keyChangingOperation=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00138"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#138"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN157032 the MagicNumber/String  ', valueChangingOperation=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#139"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN157032 the MagicNumber/String  ', mergeNode=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#140"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN157032 the MagicNumber/String  ', parentNodes=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#140"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.kstream.internals.graph.GraphNode.toString@POLYN157032 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#42"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00027] Public method parentNodes is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00042] Public method parentNodes is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#40"
+ , "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#55"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00040] Public method allParentsWrittenToTopology is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#49"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00049] Public method children is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#60"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00060] Public method removeChild is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#107"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00107] Public method hasWrittenToTopology is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#53"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00053] Public method clearChildren is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00055] Public method allParentsWrittenToTopology is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#64"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00064] Public method addChild is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00064] Public method children is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#105"
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#75"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00105] Public method writeToTopology is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00075] Public method removeChild is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#111"
+ , "c1" : "00122"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#122"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00111] Public method setHasWrittenToTopology is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00122] Public method hasWrittenToTopology is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#68"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00068] Public method clearChildren is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#79"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00079] Public method addChild is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00120] Public method writeToTopology is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00126"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#126"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00126] Public method setHasWrittenToTopology is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

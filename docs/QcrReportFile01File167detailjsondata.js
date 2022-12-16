@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.internals.FenceProducersHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#27"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#42"
  , "c1" : "FenceProducersHandler"
  , "c2" : "FenceProducersHandler(LogContext)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#34"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#49"
  , "c1" : "AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,ProducerIdAndEpoch>"
  , "c2" : "newFuture(Collection<String>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#40"
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#55"
  , "c1" : "Set<CoordinatorKey>"
  , "c2" : "buildKeySet(Collection<String>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#47"
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#62"
  , "c1" : "String"
  , "c2" : "apiName()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#52"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#67"
  , "c1" : "AdminApiLookupStrategy<CoordinatorKey>"
  , "c2" : "lookupStrategy()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#57"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#72"
  , "c1" : "InitProducerIdRequest.Builder"
  , "c2" : "buildSingleRequest(int;CoordinatorKey)"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#77"
+ , "c5" : "00092"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#92"
  , "c1" : "ApiResult<CoordinatorKey,ProducerIdAndEpoch>"
  , "c2" : "handleSingleResponse(Node;CoordinatorKey;AbstractResponse)"
  , "c3" : "2"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#97"
+ , "c5" : "00112"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#112"
  , "c1" : "ApiResult<CoordinatorKey,ProducerIdAndEpoch>"
  , "c2" : "handleError(CoordinatorKey;Errors)"
  , "c3" : "6"
@@ -145,192 +145,192 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#43"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00028] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00043] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#34"
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method newFuture arguments Collection&lt;String &gt;  transactionalIds"
+ , "c3" : "QC-JAV000006[00049] For method newFuture arguments Collection&lt;String &gt;  transactionalIds"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#40"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method buildKeySet arguments Collection&lt;String &gt;  transactionalIds"
+ , "c3" : "QC-JAV000006[00055] For method buildKeySet arguments Collection&lt;String &gt;  transactionalIds"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#40"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#55"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00040] The argument transactionalIds is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00055] The argument transactionalIds is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#48"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.apiName@POLYN159350 the MagicNumber/String  'fenceProducer' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#57"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method buildSingleRequest arguments int  brokerId|CoordinatorKey  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#57"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00057] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.buildSingleRequest@POLYN159576 the MagicNumber/String  'Invalid group coordinator key ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.buildSingleRequest@POLYN159576 the MagicNumber/String  ' when building `InitProducerId` request' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.apiName@POLYN159440 the MagicNumber/String  'fenceProducer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.buildSingleRequest@POLYN159576 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method handleSingleResponse arguments Node  broker|CoordinatorKey  key|AbstractResponse  abstractResponse"
+ , "c3" : "QC-JAV000006[00072] For method buildSingleRequest arguments int  brokerId|CoordinatorKey  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#97"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#72"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00072] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.buildSingleRequest@POLYN159666 the MagicNumber/String  'Invalid group coordinator key ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.buildSingleRequest@POLYN159666 the MagicNumber/String  ' when building `InitProducerId` request' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.buildSingleRequest@POLYN159666 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method handleError arguments CoordinatorKey  transactionalIdKey|Errors  error"
+ , "c3" : "QC-JAV000006[00092] For method handleSingleResponse arguments Node  broker|CoordinatorKey  key|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#98"
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#112"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00112] For method handleError arguments CoordinatorKey  transactionalIdKey|Errors  error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#113"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00098] The argument transactionalIdKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#99"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00099] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#104"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161291 the MagicNumber/String  'InitProducerId request for transactionalId `' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#104"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161291 the MagicNumber/String  '` ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#105"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161291 the MagicNumber/String  'failed due to cluster authorization failure' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161291 the MagicNumber/String  'InitProducerId request for transactionalId `' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161291 the MagicNumber/String  '` ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#110"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161291 the MagicNumber/String  'failed due to transactional ID authorization failure' should be converted to const"
+ , "c3" : "QC-JAVCWE476[00113] The argument transactionalIdKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161291 the MagicNumber/String  'InitProducerId request for transactionalId `{}` failed because the ' should be converted to const"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00114] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#115"
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161291 the MagicNumber/String  'coordinator is still in the process of loading state. Will retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161381 the MagicNumber/String  'InitProducerId request for transactionalId `' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#123"
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161291 the MagicNumber/String  'InitProducerId request for transactionalId `{}` returned error {}. Will attempt ' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161381 the MagicNumber/String  '` ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161381 the MagicNumber/String  'failed due to cluster authorization failure' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161291 the MagicNumber/String  'to find the coordinator again and retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161381 the MagicNumber/String  'InitProducerId request for transactionalId `' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#132"
+ , "c1" : "00124"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161291 the MagicNumber/String  'InitProducerId request for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161381 the MagicNumber/String  '` ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#133"
+ , "c1" : "00125"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161291 the MagicNumber/String  'transactionalId `' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161381 the MagicNumber/String  'failed due to transactional ID authorization failure' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#133"
+ , "c1" : "00129"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161291 the MagicNumber/String  '` failed due to unexpected error' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161381 the MagicNumber/String  'InitProducerId request for transactionalId `{}` failed because the ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#130"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161381 the MagicNumber/String  'coordinator is still in the process of loading state. Will retry' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00138"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#138"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161381 the MagicNumber/String  'InitProducerId request for transactionalId `{}` returned error {}. Will attempt ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#139"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161381 the MagicNumber/String  'to find the coordinator again and retry' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00147"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#147"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161381 the MagicNumber/String  'InitProducerId request for ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161381 the MagicNumber/String  'transactionalId `' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161381 the MagicNumber/String  '` failed due to unexpected error' should be converted to const"
 }} 
 ]
 , 

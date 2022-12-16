@@ -2,14 +2,14 @@
 !pragma layout smetana
 "BranchedKStream<K,V>" <|-- "org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl"
 class org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl {
-BranchedKStreamImpl(KStreamImpl<K,V>;boolean;NamedInternal) : BranchedKStreamImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#29]]]
-+branch(Predicate<?superK,?superV>) : BranchedKStream<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#42]]]
-+branch(Predicate<?superK,?superV>;Branched<K,V>) : BranchedKStream<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#47]]]
-+defaultBranch() : Map<String,KStream<K,V>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#54]]]
-+defaultBranch(Branched<K,V>) : Map<String,KStream<K,V>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#59]]]
--createBranch(Branched<K,V>;int) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#64]]]
--getBranchChildName(int;BranchedInternal<K,V>) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#78]]]
--process(KStreamImpl<K,V>;String;BranchedInternal<K,V>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#86]]]
-+noDefaultBranch() : Map<String,KStream<K,V>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#101]]]
+BranchedKStreamImpl(KStreamImpl<K,V>;boolean;NamedInternal) : BranchedKStreamImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#44]]]
++branch(Predicate<?superK,?superV>) : BranchedKStream<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#57]]]
++branch(Predicate<?superK,?superV>;Branched<K,V>) : BranchedKStream<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#62]]]
++defaultBranch() : Map<String,KStream<K,V>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#69]]]
++defaultBranch(Branched<K,V>) : Map<String,KStream<K,V>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#74]]]
+-createBranch(Branched<K,V>;int) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#79]]]
+-getBranchChildName(int;BranchedInternal<K,V>) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#93]]]
+-process(KStreamImpl<K,V>;String;BranchedInternal<K,V>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#101]]]
++noDefaultBranch() : Map<String,KStream<K,V>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#116]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.tools.ThroughputThrottler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c5" : "00127"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c1" : "ThroughputThrottler"
  , "c2" : "ThroughputThrottler(long;long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c5" : "00127"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c1" : "boolean"
  , "c2" : "shouldThrottle(long;long)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c5" : "00127"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c1" : "void"
  , "c2" : "throttle()"
  , "c3" : "6"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c5" : "00127"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c1" : "void"
  , "c2" : "wakeup()"
  , "c3" : "1"
@@ -123,129 +123,129 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.tools.ThroughputThrottler.ThroughputThrottler@POLYN155120 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.tools.ThroughputThrottler.ThroughputThrottler@POLYN155318 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00094] For method shouldThrottle arguments long  amountSoFar|long  sendStartMs"
+ , "c3" : "QC-JAV000006[00127] For method shouldThrottle arguments long  amountSoFar|long  sendStartMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.tools.ThroughputThrottler.shouldThrottle@POLYN155664 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.tools.ThroughputThrottler.shouldThrottle@POLYN155862 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.tools.ThroughputThrottler.shouldThrottle@POLYN155664 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.tools.ThroughputThrottler.shouldThrottle@POLYN155862 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.tools.ThroughputThrottler.shouldThrottle@POLYN155664 the MagicNumber/String  1000 should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.tools.ThroughputThrottler.shouldThrottle@POLYN155862 the MagicNumber/String  1000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.tools.ThroughputThrottler.shouldThrottle@POLYN155664 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.tools.ThroughputThrottler.shouldThrottle@POLYN155862 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00094] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00127] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE390[00094] Detection of error condition without action (see http://cwe.mitre.org/data/definitions/390.html)"
+ , "c3" : "QC-JAVCWE390[00127] Detection of error condition without action (see http://cwe.mitre.org/data/definitions/390.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00094] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00127] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.tools.ThroughputThrottler.throttle@POLYN156271 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.tools.ThroughputThrottler.throttle@POLYN156469 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.tools.ThroughputThrottler.throttle@POLYN156271 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.tools.ThroughputThrottler.throttle@POLYN156469 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.tools.ThroughputThrottler.throttle@POLYN156271 the MagicNumber/String  1000000 should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.tools.ThroughputThrottler.throttle@POLYN156469 the MagicNumber/String  1000000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.tools.ThroughputThrottler.throttle@POLYN156271 the MagicNumber/String  1000000 should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.tools.ThroughputThrottler.throttle@POLYN156469 the MagicNumber/String  1000000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.tools.ThroughputThrottler.throttle@POLYN156271 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.tools.ThroughputThrottler.throttle@POLYN156469 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.tools.ThroughputThrottler.throttle@POLYN156271 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.tools.ThroughputThrottler.throttle@POLYN156469 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00094] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00127] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.tools.ThroughputThrottler.wakeup@POLYN157947 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.tools.ThroughputThrottler.wakeup@POLYN158145 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
+ , "c1" : "00127"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00094] Public method wakeup is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00127] Public method wakeup is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

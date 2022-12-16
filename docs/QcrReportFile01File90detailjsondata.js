@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeTopicsOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#17"
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#40"
  , "c1" : "DescribeTopicsOptions"
  , "c2" : "timeoutMs(Integer)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#22"
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#45"
  , "c1" : "DescribeTopicsOptions"
  , "c2" : "includeAuthorizedOperations(boolean)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#27"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#50"
  , "c1" : "boolean"
  , "c2" : "includeAuthorizedOperations()"
  , "c3" : "1"
@@ -86,17 +86,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#17"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method timeoutMs arguments Integer  timeoutMs"
+ , "c3" : "QC-JAV000006[00040] For method timeoutMs arguments Integer  timeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#22"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method includeAuthorizedOperations arguments boolean  includeAuthorizedOperations"
+ , "c3" : "QC-JAV000006[00045] For method includeAuthorizedOperations arguments boolean  includeAuthorizedOperations"
 }} 
 ]
 , 

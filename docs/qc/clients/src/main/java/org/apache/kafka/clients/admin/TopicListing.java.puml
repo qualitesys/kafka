@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.TopicListing"
 class org.apache.kafka.clients.admin.TopicListing {
-+TopicListing(String;boolean) : TopicListing [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicListing.java.html#15]]]
-+TopicListing(String;Uuid;boolean) : TopicListing [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicListing.java.html#22]]]
-+topicId() : Uuid [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicListing.java.html#29]]]
-+name() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicListing.java.html#34]]]
-+isInternal() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicListing.java.html#39]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicListing.java.html#44]]]
++TopicListing(String;boolean) : TopicListing [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicListing.java.html#38]]]
++TopicListing(String;Uuid;boolean) : TopicListing [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicListing.java.html#51]]]
++topicId() : Uuid [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicListing.java.html#60]]]
++name() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicListing.java.html#67]]]
++isInternal() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicListing.java.html#75]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicListing.java.html#80]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.mirror.MirrorClient" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#38"
+ , "c5" : "00063"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#63"
  , "c1" : "MirrorClient"
  , "c2" : "MirrorClient(Map<String,Object>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#42"
+ , "c5" : "00067"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#67"
  , "c1" : "MirrorClient"
  , "c2" : "MirrorClient(MirrorClientConfig)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#49"
+ , "c5" : "00074"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#74"
  , "c1" : "MirrorClient"
  , "c2" : "MirrorClient(AdminClient;ReplicationPolicy;Map<String,Object>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#57"
+ , "c5" : "00082"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#82"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#62"
+ , "c5" : "00088"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#88"
  , "c1" : "ReplicationPolicy"
  , "c2" : "replicationPolicy()"
  , "c3" : "1"
@@ -63,46 +63,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#67"
+ , "c5" : "00096"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#96"
  , "c1" : "int"
  , "c2" : "replicationHops(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#77"
- , "c1" : "Set<String>"
- , "c2" : "heartbeatTopics()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#84"
- , "c1" : "Set<String>"
- , "c2" : "checkpointTopics()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00091"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#91"
- , "c1" : "Set<String>"
- , "c2" : "upstreamClusters()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#99"
- , "c1" : "Set<String>"
- , "c2" : "remoteTopics()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -111,14 +75,50 @@ var maDataBlocs = {
  , "c5" : "00106"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#106"
  , "c1" : "Set<String>"
+ , "c2" : "heartbeatTopics()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00113"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#113"
+ , "c1" : "Set<String>"
+ , "c2" : "checkpointTopics()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#120"
+ , "c1" : "Set<String>"
+ , "c2" : "upstreamClusters()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00128"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#128"
+ , "c1" : "Set<String>"
+ , "c2" : "remoteTopics()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00135"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#135"
+ , "c1" : "Set<String>"
  , "c2" : "remoteTopics(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00114"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#114"
+ , "c5" : "00148"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#148"
  , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
  , "c2" : "remoteConsumerOffsets(String;String;Duration)"
  , "c3" : "4"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00147"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#147"
+ , "c5" : "00181"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#181"
  , "c1" : "Set<String>"
  , "c2" : "listTopics()"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00155"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#155"
+ , "c5" : "00189"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#189"
  , "c1" : "int"
  , "c2" : "countHopsForTopic(String;String)"
  , "c3" : "5"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00177"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#177"
+ , "c5" : "00211"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#211"
  , "c1" : "boolean"
  , "c2" : "isHeartbeatTopic(String)"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00181"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#181"
+ , "c5" : "00215"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#215"
  , "c1" : "boolean"
  , "c2" : "isCheckpointTopic(String)"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00185"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#185"
+ , "c5" : "00219"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#219"
  , "c1" : "boolean"
  , "c2" : "isRemoteTopic(String)"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00190"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#190"
+ , "c5" : "00224"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#224"
  , "c1" : "Set<String>"
  , "c2" : "allSources(String)"
  , "c3" : "2"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00202"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#202"
+ , "c5" : "00236"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#236"
  , "c1" : "boolean"
  , "c2" : "endOfStream(Consumer<?,?>;Collection<TopicPartition>)"
  , "c3" : "3"
@@ -281,297 +281,297 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#42"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00042] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#67"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method replicationHops arguments String  upstreamClusterAlias"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.connect.mirror.MirrorClient.replicationHops@POLYN179918 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.mirror.MirrorClient.replicationHops@POLYN179918 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#106"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00106] For method remoteTopics arguments String  source"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#106"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00106] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00067] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#114"
+ , "c1" : "00096"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#96"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00114] For method remoteConsumerOffsets arguments String  consumerGroupId|String  remoteClusterAlias|Duration  timeout"
+ , "c3" : "QC-JAV000006[00096] For method replicationHops arguments String  upstreamClusterAlias"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#115"
+ , "c1" : "00099"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.mirror.MirrorClient.replicationHops@POLYN180122 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.mirror.MirrorClient.replicationHops@POLYN180122 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#135"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00135] For method remoteTopics arguments String  source"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#135"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00115] The argument timeout is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00135] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00129] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#130"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00130] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00132] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#136"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00136] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00132] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#136"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00136] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#125"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.mirror.MirrorClient.remoteConsumerOffsets@POLYN182185 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#137"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.mirror.MirrorClient.remoteConsumerOffsets@POLYN182185 the MagicNumber/String  'Could not deserialize record. Skipping.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.mirror.MirrorClient.remoteConsumerOffsets@POLYN182185 the MagicNumber/String  'Consumed {} checkpoint records for {} from {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#155"
+ , "c1" : "00148"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00155] For method countHopsForTopic arguments String  topic|String  sourceClusterAlias"
+ , "c3" : "QC-JAV000006[00148] For method remoteConsumerOffsets arguments String  consumerGroupId|String  remoteClusterAlias|Duration  timeout"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#160"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00160] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00149"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#149"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00149] The argument timeout is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#156"
+ , "c1" : "00163"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.connect.mirror.MirrorClient.countHopsForTopic@POLYN184685 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00163] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#158"
+ , "c1" : "00164"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.mirror.MirrorClient.countHopsForTopic@POLYN184685 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000001[00164] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#161"
+ , "c1" : "00166"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.connect.mirror.MirrorClient.countHopsForTopic@POLYN184685 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#162"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.connect.mirror.MirrorClient.countHopsForTopic@POLYN184685 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000001[00166] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.mirror.MirrorClient.countHopsForTopic@POLYN184685 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000001[00170] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#177"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method isHeartbeatTopic arguments String  topic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#181"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00181] For method isCheckpointTopic arguments String  topic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#185"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00185] For method isRemoteTopic arguments String  topic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#187"
+ , "c1" : "00166"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.connect.mirror.MirrorClient.isRemoteTopic@POLYN185954 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00166] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00170] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#159"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.connect.mirror.MirrorClient.remoteConsumerOffsets@POLYN182389 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#171"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.connect.mirror.MirrorClient.remoteConsumerOffsets@POLYN182389 the MagicNumber/String  'Could not deserialize record. Skipping.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#175"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.mirror.MirrorClient.remoteConsumerOffsets@POLYN182389 the MagicNumber/String  'Consumed {} checkpoint records for {} from {}.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00189"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#189"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00189] For method countHopsForTopic arguments String  topic|String  sourceClusterAlias"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00194"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#194"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00194] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00190"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#190"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00190] For method allSources arguments String  topic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.mirror.MirrorClient.allSources@POLYN186211 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.connect.mirror.MirrorClient.countHopsForTopic@POLYN184889 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#202"
+ , "c1" : "00192"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#192"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.connect.mirror.MirrorClient.countHopsForTopic@POLYN184889 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00195"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#195"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.connect.mirror.MirrorClient.countHopsForTopic@POLYN184889 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.connect.mirror.MirrorClient.countHopsForTopic@POLYN184889 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00204"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#204"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.connect.mirror.MirrorClient.countHopsForTopic@POLYN184889 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#211"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00202] For method endOfStream arguments Consumer&lt;? ,? &gt;  consumer|Collection&lt;TopicPartition &gt;  assignments"
+ , "c3" : "QC-JAV000006[00211] For method isHeartbeatTopic arguments String  topic"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#202"
+ , "c1" : "00215"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#215"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00202] For method endOfStream list of called methods Object monObjet|boolean consumer_endOffsetsN187131"
+ , "c3" : "QC-JAV000006[00215] For method isCheckpointTopic arguments String  topic"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#202"
+ , "c1" : "00219"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#219"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00219] For method isRemoteTopic arguments String  topic"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00221"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#221"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.connect.mirror.MirrorClient.isRemoteTopic@POLYN186158 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00224"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#224"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00224] For method allSources arguments String  topic"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00227"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#227"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.connect.mirror.MirrorClient.allSources@POLYN186415 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00236"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#236"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00236] For method endOfStream arguments Consumer&lt;? ,? &gt;  consumer|Collection&lt;TopicPartition &gt;  assignments"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00236"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#236"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00236] For method endOfStream list of called methods Object monObjet|boolean consumer_endOffsetsN187335"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00236"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#236"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00202] The argument consumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00236] The argument consumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#206"
+ , "c1" : "00240"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.connect.mirror.MirrorClient.endOfStream@POLYN186926 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.connect.mirror.MirrorClient.endOfStream@POLYN187130 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#209"
+ , "c1" : "00243"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.connect.mirror.MirrorClient.endOfStream@POLYN186926 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.connect.mirror.MirrorClient.endOfStream@POLYN187130 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorClient.endOfStream@POLYN186926"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorClient.endOfStream@POLYN187130"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorClient.remoteConsumerOffsets@POLYN182185"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorClient.remoteConsumerOffsets@POLYN182389"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#206"
+ , "c1" : "00240"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#240"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00206] In the recursive method org.apache.kafka.connect.mirror.MirrorClient.endOfStream@POLYN186926 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00240] In the recursive method org.apache.kafka.connect.mirror.MirrorClient.endOfStream@POLYN187130 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#209"
+ , "c1" : "00243"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#243"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00209] In the recursive method org.apache.kafka.connect.mirror.MirrorClient.endOfStream@POLYN186926 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00243] In the recursive method org.apache.kafka.connect.mirror.MirrorClient.endOfStream@POLYN187130 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#125"
+ , "c1" : "00159"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#159"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00125] In the recursive method org.apache.kafka.connect.mirror.MirrorClient.remoteConsumerOffsets@POLYN182185 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00159] In the recursive method org.apache.kafka.connect.mirror.MirrorClient.remoteConsumerOffsets@POLYN182389 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#137"
+ , "c1" : "00171"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#171"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.connect.mirror.MirrorClient.remoteConsumerOffsets@POLYN182185 the MagicNumber/String 'Could not deserialize record. Skipping.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.connect.mirror.MirrorClient.remoteConsumerOffsets@POLYN182389 the MagicNumber/String 'Could not deserialize record. Skipping.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#141"
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#175"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00141] In the recursive method org.apache.kafka.connect.mirror.MirrorClient.remoteConsumerOffsets@POLYN182185 the MagicNumber/String 'Consumed {} checkpoint records for {} from {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.connect.mirror.MirrorClient.remoteConsumerOffsets@POLYN182389 the MagicNumber/String 'Consumed {} checkpoint records for {} from {}.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

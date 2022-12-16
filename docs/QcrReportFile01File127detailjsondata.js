@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ProducerState" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#16"
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#31"
  , "c1" : "ProducerState"
  , "c2" : "ProducerState(long;int;int;long;OptionalInt;OptionalLong)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#32"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#47"
  , "c1" : "long"
  , "c2" : "producerId()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#36"
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#51"
  , "c1" : "int"
  , "c2" : "producerEpoch()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#40"
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#55"
  , "c1" : "int"
  , "c2" : "lastSequence()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#44"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#59"
  , "c1" : "long"
  , "c2" : "lastTimestamp()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#48"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#63"
  , "c1" : "OptionalLong"
  , "c2" : "currentTransactionStartOffset()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#52"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#67"
  , "c1" : "OptionalInt"
  , "c2" : "coordinatorEpoch()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#57"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#72"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#70"
+ , "c5" : "00085"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#85"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#76"
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#91"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -163,94 +163,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#57"
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00072] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#59"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00059] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00074] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#58"
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.admin.ProducerState.equals@POLYN149640 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.admin.ProducerState.equals@POLYN149730 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#59"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.admin.ProducerState.equals@POLYN149640 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.admin.ProducerState.equals@POLYN149730 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#59"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.admin.ProducerState.equals@POLYN149640 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.admin.ProducerState.equals@POLYN149730 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#77"
+ , "c1" : "00092"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.clients.admin.ProducerState.toString@POLYN150711 the MagicNumber/String  'ProducerState(' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.clients.admin.ProducerState.toString@POLYN150801 the MagicNumber/String  'ProducerState(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#78"
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.admin.ProducerState.toString@POLYN150711 the MagicNumber/String  'producerId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.admin.ProducerState.toString@POLYN150801 the MagicNumber/String  'producerId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#79"
+ , "c1" : "00094"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.admin.ProducerState.toString@POLYN150711 the MagicNumber/String  ', producerEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.clients.admin.ProducerState.toString@POLYN150801 the MagicNumber/String  ', producerEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#80"
+ , "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.admin.ProducerState.toString@POLYN150711 the MagicNumber/String  ', lastSequence=' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.clients.admin.ProducerState.toString@POLYN150801 the MagicNumber/String  ', lastSequence=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#81"
+ , "c1" : "00096"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.admin.ProducerState.toString@POLYN150711 the MagicNumber/String  ', lastTimestamp=' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.clients.admin.ProducerState.toString@POLYN150801 the MagicNumber/String  ', lastTimestamp=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#82"
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.admin.ProducerState.toString@POLYN150711 the MagicNumber/String  ', coordinatorEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.clients.admin.ProducerState.toString@POLYN150801 the MagicNumber/String  ', coordinatorEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#83"
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.admin.ProducerState.toString@POLYN150711 the MagicNumber/String  ', currentTransactionStartOffset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.clients.admin.ProducerState.toString@POLYN150801 the MagicNumber/String  ', currentTransactionStartOffset=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#84"
+ , "c1" : "00099"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ProducerState.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.admin.ProducerState.toString@POLYN150711 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.clients.admin.ProducerState.toString@POLYN150801 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

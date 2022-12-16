@@ -2,9 +2,9 @@
 !pragma layout smetana
 "Time" <|-- "org.apache.kafka.common.utils.SystemTime"
 class org.apache.kafka.common.utils.SystemTime {
-+milliseconds() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html#12]]]
-+nanoseconds() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html#17]]]
-+sleep(long) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html#22]]]
-+waitObject(Object;Supplier<Boolean>;long) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html#27]]]
++milliseconds() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html#32]]]
++nanoseconds() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html#37]]]
++sleep(long) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html#42]]]
++waitObject(Object;Supplier<Boolean>;long) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/SystemTime.java.html#47]]]
 } 
 @enduml

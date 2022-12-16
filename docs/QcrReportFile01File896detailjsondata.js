@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.Crc32C" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#23"
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#46"
  , "c1" : "Crc32C"
  , "c2" : "Crc32C()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#26"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#56"
  , "c1" : "long"
  , "c2" : "compute(byte[];int;int)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#33"
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#70"
  , "c1" : "long"
  , "c2" : "compute(ByteBuffer;int;int)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#39"
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#76"
  , "c1" : "Checksum"
  , "c2" : "create()"
  , "c3" : "1"
@@ -125,52 +125,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#26"
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method compute arguments byte[]  bytes|int  offset|int  size"
+ , "c3" : "QC-JAV000006[00056] For method compute arguments byte[]  bytes|int  offset|int  size"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#26"
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00026] For method compute list of called methods Object monObjet|java.util.zip.Checksum createN154865"
+ , "c3" : "QC-JAV000007[00056] For method compute list of called methods Object monObjet|java.util.zip.Checksum createN155087"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#33"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method compute arguments ByteBuffer  buffer|int  offset|int  size"
+ , "c3" : "QC-JAV000006[00070] For method compute arguments ByteBuffer  buffer|int  offset|int  size"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#33"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00033] For method compute list of called methods Object monObjet|java.util.zip.Checksum createN155457"
+ , "c3" : "QC-JAV000007[00070] For method compute list of called methods Object monObjet|java.util.zip.Checksum createN155679"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#26"
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#56"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00026] Public method compute is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00056] Public method compute is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#33"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#70"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00033] Public method compute is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00070] Public method compute is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.Crc32C.Java9ChecksumFactory.create@POLYN156435"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.Crc32C.Java9ChecksumFactory.create@POLYN156657"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.AbstractProcessor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/AbstractProcessor.java.html#10"
+ , "c5" : "00033"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/AbstractProcessor.java.html#33"
  , "c1" : "AbstractProcessor"
  , "c2" : "AbstractProcessor()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/AbstractProcessor.java.html#13"
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/AbstractProcessor.java.html#36"
  , "c1" : "void"
  , "c2" : "init(ProcessorContext)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/AbstractProcessor.java.html#19"
+ , "c5" : "00047"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/AbstractProcessor.java.html#47"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/AbstractProcessor.java.html#24"
+ , "c5" : "00056"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/AbstractProcessor.java.html#56"
  , "c1" : "ProcessorContext"
  , "c2" : "context()"
  , "c3" : "1"
@@ -109,24 +109,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/AbstractProcessor.java.html#13"
+ , "c1" : "00036"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/AbstractProcessor.java.html#36"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00013] For method init arguments ProcessorContext  context"
+ , "c3" : "QC-JAV000006[00036] For method init arguments ProcessorContext  context"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/AbstractProcessor.java.html#19"
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/AbstractProcessor.java.html#47"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00019] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00047] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/AbstractProcessor.java.html#19"
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/AbstractProcessor.java.html#47"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00019] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00047] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

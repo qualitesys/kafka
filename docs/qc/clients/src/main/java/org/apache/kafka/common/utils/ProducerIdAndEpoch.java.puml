@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.utils.ProducerIdAndEpoch"
 class org.apache.kafka.common.utils.ProducerIdAndEpoch {
-+ProducerIdAndEpoch(long;short) : ProducerIdAndEpoch [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#12]]]
-+isValid() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#17]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#22]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#27]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#38]]]
++ProducerIdAndEpoch(long;short) : ProducerIdAndEpoch [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#27]]]
++isValid() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#32]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#37]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#42]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#53]]]
 } 
 @enduml

@@ -2,10 +2,10 @@
 !pragma layout smetana
 "AbstractRequest" <|-- "org.apache.kafka.common.requests.OffsetDeleteRequest"
 class org.apache.kafka.common.requests.OffsetDeleteRequest {
-+OffsetDeleteRequest(OffsetDeleteRequestData;short) : OffsetDeleteRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#36]]]
-+getErrorResponse(int;Errors) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#41]]]
-+getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#50]]]
-+parse(ByteBuffer;short) : OffsetDeleteRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#54]]]
-+data() : OffsetDeleteRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#59]]]
++OffsetDeleteRequest(OffsetDeleteRequestData;short) : OffsetDeleteRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#51]]]
++getErrorResponse(int;Errors) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#56]]]
++getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#65]]]
++parse(ByteBuffer;short) : OffsetDeleteRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#69]]]
++data() : OffsetDeleteRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#74]]]
 } 
 @enduml

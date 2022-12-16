@@ -2,19 +2,19 @@
 !pragma layout smetana
 "Windows<Window>" <|-- "org.apache.kafka.streams.kstream.JoinWindows"
 class org.apache.kafka.streams.kstream.JoinWindows {
-JoinWindows(JoinWindows) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#26]]]
--JoinWindows(long;long;long;boolean) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#30]]]
-+ofTimeDifferenceAndGrace(Duration;Duration) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#49]]]
-+ofTimeDifferenceWithNoGrace(Duration) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#60]]]
-+of(Duration) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#66]]]
-+before(Duration) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#73]]]
-+after(Duration) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#80]]]
-+windowsFor(long) : Map<Long,Window> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#88]]]
-+size() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#93]]]
-+grace(Duration) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#99]]]
-+gracePeriodMs() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#112]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#117]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#131]]]
-+toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#136]]]
+JoinWindows(JoinWindows) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#85]]]
+-JoinWindows(long;long;long;boolean) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#89]]]
++ofTimeDifferenceAndGrace(Duration;Duration) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#123]]]
++ofTimeDifferenceWithNoGrace(Duration) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#145]]]
++of(Duration) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#160]]]
++before(Duration) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#176]]]
++after(Duration) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#192]]]
++windowsFor(long) : Map<Long,Window> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#205]]]
++size() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#210]]]
++grace(Duration) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#227]]]
++gracePeriodMs() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#240]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#245]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#259]]]
++toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#264]]]
 } 
 @enduml

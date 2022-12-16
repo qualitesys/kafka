@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.quota.ClientQuotaEntity" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#18"
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#37"
  , "c1" : "boolean"
  , "c2" : "isValidEntityType(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#25"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#49"
  , "c1" : "ClientQuotaEntity"
  , "c2" : "ClientQuotaEntity(Map<String,String>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#30"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#56"
  , "c1" : "Map<String,String>"
  , "c2" : "entries()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#35"
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#61"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#43"
+ , "c5" : "00069"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#69"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#48"
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#74"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -134,66 +134,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#18"
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method isValidEntityType arguments String  entityType"
+ , "c3" : "QC-JAV000006[00037] For method isValidEntityType arguments String  entityType"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#35"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00061] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00063] The same method call o.getClass() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#62"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.quota.ClientQuotaEntity.equals@POLYN149160 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.quota.ClientQuotaEntity.equals@POLYN149160 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.quota.ClientQuotaEntity.equals@POLYN149160 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.quota.ClientQuotaEntity.toString@POLYN149822 the MagicNumber/String  'ClientQuotaEntity(entries=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.quota.ClientQuotaEntity.toString@POLYN149822 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00037] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.quota.ClientQuotaEntity.equals@POLYN149004 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.quota.ClientQuotaEntity.equals@POLYN149004 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.quota.ClientQuotaEntity.equals@POLYN149004 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.quota.ClientQuotaEntity.toString@POLYN149666 the MagicNumber/String  'ClientQuotaEntity(entries=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.quota.ClientQuotaEntity.toString@POLYN149666 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#18"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00018] Public method isValidEntityType is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00037] Public method isValidEntityType is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

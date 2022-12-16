@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#20"
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#35"
  , "c1" : "ValueAndTimestampSerializer"
  , "c2" : "ValueAndTimestampSerializer(Serializer<V>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#26"
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#41"
  , "c1" : "boolean"
  , "c2" : "valuesAreSameAndTimeIsIncreasing(byte[];byte[])"
  , "c3" : "9"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#47"
+ , "c5" : "00062"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#62"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;boolean)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#54"
+ , "c5" : "00069"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#69"
  , "c1" : "byte[]"
  , "c2" : "serialize(String;ValueAndTimestamp<V>)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#62"
+ , "c5" : "00077"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#77"
  , "c1" : "byte[]"
  , "c2" : "serialize(String;V;long)"
  , "c3" : "3"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#88"
+ , "c5" : "00103"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#103"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#93"
+ , "c5" : "00108"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#108"
  , "c1" : "boolean"
  , "c2" : "timeIsDecreasing(byte[];byte[])"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#97"
+ , "c5" : "00112"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#112"
  , "c1" : "long"
  , "c2" : "extractTimestamp(byte[])"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#103"
+ , "c5" : "00118"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#118"
  , "c1" : "boolean"
  , "c2" : "valuesAreSame(byte[];byte[])"
  , "c3" : "3"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00113"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#113"
+ , "c5" : "00128"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#128"
  , "c1" : "void"
  , "c2" : "setIfUnset(SerdeGetter)"
  , "c3" : "1"
@@ -156,171 +156,171 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method valuesAreSameAndTimeIsIncreasing arguments byte[]  oldRecord|byte[]  newRecord"
+ , "c3" : "QC-JAV000006[00041] For method valuesAreSameAndTimeIsIncreasing arguments byte[]  oldRecord|byte[]  newRecord"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.valuesAreSameAndTimeIsIncreasing@POLYN156587 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.valuesAreSameAndTimeIsIncreasing@POLYN156677 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.valuesAreSameAndTimeIsIncreasing@POLYN156587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.valuesAreSameAndTimeIsIncreasing@POLYN156677 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#30"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.valuesAreSameAndTimeIsIncreasing@POLYN156587 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.valuesAreSameAndTimeIsIncreasing@POLYN156587 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.valuesAreSameAndTimeIsIncreasing@POLYN156587 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.valuesAreSameAndTimeIsIncreasing@POLYN156587 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.valuesAreSameAndTimeIsIncreasing@POLYN156677 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#47"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.valuesAreSameAndTimeIsIncreasing@POLYN156677 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#50"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.valuesAreSameAndTimeIsIncreasing@POLYN156677 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#54"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method serialize arguments String  topic|ValueAndTimestamp&lt;V &gt;  data"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.serialize@POLYN157677 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.serialize@POLYN157677 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.valuesAreSameAndTimeIsIncreasing@POLYN156677 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method serialize arguments String  topic|V  data|long  timestamp"
+ , "c3" : "QC-JAV000006[00062] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#65"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.serialize@POLYN158069 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.serialize@POLYN158069 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.serialize@POLYN158069 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.serialize@POLYN158069 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#93"
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00093] For method timeIsDecreasing arguments byte[]  oldRecord|byte[]  newRecord"
+ , "c3" : "QC-JAV000006[00069] For method serialize arguments String  topic|ValueAndTimestamp&lt;V &gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#97"
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#71"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.serialize@POLYN157767 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.serialize@POLYN157767 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method extractTimestamp arguments byte[]  bytes"
+ , "c3" : "QC-JAV000006[00077] For method serialize arguments String  topic|V  data|long  timestamp"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#99"
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.extractTimestamp@POLYN159291 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.serialize@POLYN158159 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#99"
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.extractTimestamp@POLYN159291 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.serialize@POLYN158159 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#103"
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#90"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.serialize@POLYN158159 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#91"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.serialize@POLYN158159 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method valuesAreSame arguments byte[]  left|byte[]  right"
+ , "c3" : "QC-JAV000006[00108] For method timeIsDecreasing arguments byte[]  oldRecord|byte[]  newRecord"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.valuesAreSame@POLYN159753 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.valuesAreSame@POLYN159753 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#113"
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00113] For method setIfUnset arguments SerdeGetter  getter"
+ , "c3" : "QC-JAV000006[00112] For method extractTimestamp arguments byte[]  bytes"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.extractTimestamp@POLYN159381 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.extractTimestamp@POLYN159381 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00118"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#118"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00118] For method valuesAreSame arguments byte[]  left|byte[]  right"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.valuesAreSame@POLYN159843 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00124"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#124"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer.valuesAreSame@POLYN159843 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#128"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00128] For method setIfUnset arguments SerdeGetter  getter"
 }} 
 ]
 , 

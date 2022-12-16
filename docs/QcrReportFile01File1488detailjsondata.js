@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "java.net.CacheRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/secujava/java.net.CacheRequest.java.html#12"
+ , "c5" : "00055"
+ , "c5link" : "././qc/secujava/java.net.CacheRequest.java.html#55"
  , "c1" : "OutputStream"
  , "c2" : "getBody()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/secujava/java.net.CacheRequest.java.html#15"
+ , "c5" : "00062"
+ , "c5link" : "././qc/secujava/java.net.CacheRequest.java.html#62"
  , "c1" : "void"
  , "c2" : "abort()"
  , "c3" : "1"

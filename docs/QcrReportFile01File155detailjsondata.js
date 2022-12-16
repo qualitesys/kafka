@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#18"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#56"
  , "c1" : "ApiRequestScope"
  , "c2" : "lookupScope(T)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#21"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#67"
  , "c1" : "AbstractRequest.Builder<?>"
  , "c2" : "buildRequest(Set<T>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#24"
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#88"
  , "c1" : "LookupResult<T>"
  , "c2" : "handleResponse(Set<T>;AbstractResponse)"
  , "c3" : "1"

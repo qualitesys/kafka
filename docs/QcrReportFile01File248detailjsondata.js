@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.StickyPartitionCache" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#16"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#34"
  , "c1" : "StickyPartitionCache"
  , "c2" : "StickyPartitionCache()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#20"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#38"
  , "c1" : "int"
  , "c2" : "partition(String;Cluster)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#28"
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#46"
  , "c1" : "int"
  , "c2" : "nextPartition(String;Cluster;int)"
  , "c3" : "9"
@@ -107,87 +107,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#20"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00020] For method partition arguments String  topic|Cluster  cluster"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#22"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.partition@POLYN150835 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.partition@POLYN150835 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#28"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method nextPartition arguments String  topic|Cluster  cluster|int  prevPartition"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#28"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00028] For method nextPartition list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForTopicN151425|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_availablePartitionsForTopicN151806|int Utils_toPositiveN151993|int Utils_toPositiveN152584"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#28"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00028] The argument cluster is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN151257 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN151257 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN151257 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000006[00038] For method partition arguments String  topic|Cluster  cluster"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN151257 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.partition@POLYN150943 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#42"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN151257 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.partition@POLYN150943 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#48"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#46"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00046] For method nextPartition arguments String  topic|Cluster  cluster|int  prevPartition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#46"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00046] For method nextPartition list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForTopicN151533|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_availablePartitionsForTopicN151914|int Utils_toPositiveN152101|int Utils_toPositiveN152692"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#46"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00046] The argument cluster is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN151257 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN151365 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN151365 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#57"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN151365 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#58"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN151365 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN151365 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#66"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN151365 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

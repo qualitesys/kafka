@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.internals.AllBrokersStrategy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#30"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#56"
  , "c1" : "AllBrokersStrategy"
  , "c2" : "AllBrokersStrategy(LogContext)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#37"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#63"
  , "c1" : "ApiRequestScope"
  , "c2" : "lookupScope(BrokerKey)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#42"
+ , "c5" : "00068"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#68"
  , "c1" : "MetadataRequest.Builder"
  , "c2" : "buildRequest(Set<BrokerKey>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#49"
+ , "c5" : "00075"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#75"
  , "c1" : "LookupResult<BrokerKey>"
  , "c2" : "handleResponse(Set<BrokerKey>;AbstractResponse)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#74"
+ , "c5" : "00100"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#100"
  , "c1" : "void"
  , "c2" : "validateLookupKeys(Set<BrokerKey>)"
  , "c3" : "3"
@@ -148,297 +148,297 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#31"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#57"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00031] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00057] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#37"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method lookupScope arguments BrokerKey  key"
+ , "c3" : "QC-JAV000006[00063] For method lookupScope arguments BrokerKey  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#42"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method buildRequest arguments Set&lt;BrokerKey &gt;  keys"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#49"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method handleResponse arguments Set&lt;BrokerKey &gt;  keys|AbstractResponse  abstractResponse"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.handleResponse@POLYN172159 the MagicNumber/String  'Metadata response contained no brokers. Will backoff and retry' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.handleResponse@POLYN172159 the MagicNumber/String  'Discovered all brokers {} to send requests to' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#74"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method validateLookupKeys arguments Set&lt;BrokerKey &gt;  keys"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#74"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00074] The argument keys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00068] For method buildRequest arguments Set&lt;BrokerKey &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.validateLookupKeys@POLYN173363 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.validateLookupKeys@POLYN173363 the MagicNumber/String  'Unexpected key set: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.validateLookupKeys@POLYN173363 the MagicNumber/String  'Unexpected key set: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00075] For method handleResponse arguments Set&lt;BrokerKey &gt;  keys|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#94"
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00094] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.handleResponse@POLYN172315 the MagicNumber/String  'Metadata response contained no brokers. Will backoff and retry' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#93"
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.equals@POLYN174130 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.handleResponse@POLYN172315 the MagicNumber/String  'Discovered all brokers {} to send requests to' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.equals@POLYN174130 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#100"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00100] For method validateLookupKeys arguments Set&lt;BrokerKey &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#94"
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#100"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00100] The argument keys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.equals@POLYN174130 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.validateLookupKeys@POLYN173519 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.validateLookupKeys@POLYN173519 the MagicNumber/String  'Unexpected key set: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.toString@POLYN174792 the MagicNumber/String  'BrokerKey(' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.validateLookupKeys@POLYN173519 the MagicNumber/String  'Unexpected key set: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.toString@POLYN174792 the MagicNumber/String  'brokerId=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.toString@POLYN174792 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#122"
+ , "c1" : "00118"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#118"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method completeLookup arguments Map&lt;BrokerKey ,Integer &gt;  brokerMapping"
+ , "c3" : "QC-JAV000006[00118] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#122"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00122] The argument brokerMapping is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#124"
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.completeLookup@POLYN175520 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000021[00120] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#125"
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.completeLookup@POLYN175520 the MagicNumber/String  'Invalid lookup mapping ' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.equals@POLYN174286 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#125"
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.completeLookup@POLYN175520 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.equals@POLYN174286 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.equals@POLYN174286 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#132"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.toString@POLYN174948 the MagicNumber/String  'BrokerKey(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#133"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00133] For method completeLookupExceptionally arguments Map&lt;BrokerKey ,Throwable &gt;  lookupErrors"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.toString@POLYN174948 the MagicNumber/String  'brokerId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#133"
+ , "c1" : "00134"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#134"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.toString@POLYN174948 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#148"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00148] For method completeLookup arguments Map&lt;BrokerKey ,Integer &gt;  brokerMapping"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#148"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00133] The argument lookupErrors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00148] The argument brokerMapping is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#135"
+ , "c1" : "00150"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.completeLookupExceptionally@POLYN176204 the MagicNumber/String  'Unexpected keys among lookup errors: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.completeLookup@POLYN175676 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#141"
+ , "c1" : "00151"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#151"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.completeLookup@POLYN175676 the MagicNumber/String  'Invalid lookup mapping ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00151"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#151"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.completeLookup@POLYN175676 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00141] For method complete arguments Map&lt;BrokerKey ,V &gt;  values"
+ , "c3" : "QC-JAV000006[00159] For method completeLookupExceptionally arguments Map&lt;BrokerKey ,Throwable &gt;  lookupErrors"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#141"
+ , "c1" : "00159"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#159"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00141] The argument values is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00159] The argument lookupErrors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#145"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00145] For method complete arguments AllBrokersStrategy.BrokerKey  key|V  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#147"
+ , "c1" : "00161"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.complete@POLYN176822 the MagicNumber/String  'Invalid attempt to complete with lookup key sentinel' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.completeLookupExceptionally@POLYN176360 the MagicNumber/String  'Unexpected keys among lookup errors: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#154"
+ , "c1" : "00167"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#167"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00154] For method completeExceptionally arguments Map&lt;BrokerKey ,Throwable &gt;  errors"
+ , "c3" : "QC-JAV000006[00167] For method complete arguments Map&lt;BrokerKey ,V &gt;  values"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#154"
+ , "c1" : "00167"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#167"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00154] The argument errors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00167] The argument values is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#158"
+ , "c1" : "00171"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#171"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00158] For method completeExceptionally arguments AllBrokersStrategy.BrokerKey  key|Throwable  t"
+ , "c3" : "QC-JAV000006[00171] For method complete arguments AllBrokersStrategy.BrokerKey  key|V  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#170"
+ , "c1" : "00173"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#173"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.complete@POLYN176978 the MagicNumber/String  'Invalid attempt to complete with lookup key sentinel' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00180"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#180"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00170] For method futureOrThrow arguments BrokerKey  key"
+ , "c3" : "QC-JAV000006[00180] For method completeExceptionally arguments Map&lt;BrokerKey ,Throwable &gt;  errors"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#170"
+ , "c1" : "00180"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#180"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00170] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00180] The argument errors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#172"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.futureOrThrow@POLYN177935 the MagicNumber/String  'Attempt to complete with invalid key: ' should be converted to const"
+ , "c1" : "00184"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#184"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00184] For method completeExceptionally arguments AllBrokersStrategy.BrokerKey  key|Throwable  t"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#176"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.futureOrThrow@POLYN177935 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00196"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#196"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00196] For method futureOrThrow arguments BrokerKey  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#177"
+ , "c1" : "00196"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#196"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00196] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00198"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.futureOrThrow@POLYN177935 the MagicNumber/String  'Attempt to complete with unknown broker id: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.futureOrThrow@POLYN178091 the MagicNumber/String  'Attempt to complete with invalid key: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00202"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.futureOrThrow@POLYN178091 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00203"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#203"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.futureOrThrow@POLYN178091 the MagicNumber/String  'Attempt to complete with unknown broker id: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AllBrokersStrategy.handleResponse@POLYN172159"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AllBrokersStrategy.handleResponse@POLYN172315"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#56"
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#82"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.handleResponse@POLYN172159 the MagicNumber/String 'Metadata response contained no brokers. Will backoff and retry' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.handleResponse@POLYN172315 the MagicNumber/String 'Metadata response contained no brokers. Will backoff and retry' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#59"
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#85"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.handleResponse@POLYN172159 the MagicNumber/String 'Discovered all brokers {} to send requests to' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.handleResponse@POLYN172315 the MagicNumber/String 'Discovered all brokers {} to send requests to' MUST BE CONVERTED to const"
 }} 
 ]
 , 

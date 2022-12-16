@@ -2,15 +2,15 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.image.ClientQuotaImage"
 class org.apache.kafka.image.ClientQuotaImage {
-+ClientQuotaImage(Map<String,Double>) : ClientQuotaImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#30]]]
-quotas() : Map<String,Double> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#34]]]
-+write(ClientQuotaEntity;Consumer<List<ApiMessageAndVersion>>) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#38]]]
-+entityToData(ClientQuotaEntity) : List<EntityData> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#51]]]
-+dataToEntity(List<EntityData>) : ClientQuotaEntity [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#61]]]
-+toDescribeValues() : List<ValueData> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#69]]]
-+isEmpty() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#77]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#82]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#89]]]
-+toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#94]]]
++ClientQuotaImage(Map<String,Double>) : ClientQuotaImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#49]]]
+quotas() : Map<String,Double> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#53]]]
++write(ClientQuotaEntity;Consumer<List<ApiMessageAndVersion>>) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#57]]]
++entityToData(ClientQuotaEntity) : List<EntityData> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#70]]]
++dataToEntity(List<EntityData>) : ClientQuotaEntity [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#80]]]
++toDescribeValues() : List<ValueData> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#88]]]
++isEmpty() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#96]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#101]]]
++hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#108]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#113]]]
 } 
 @enduml

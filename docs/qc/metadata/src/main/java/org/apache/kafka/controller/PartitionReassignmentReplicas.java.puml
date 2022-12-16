@@ -2,13 +2,13 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.controller.PartitionReassignmentReplicas"
 class org.apache.kafka.controller.PartitionReassignmentReplicas {
--calculateDifference(List<Integer>;List<Integer>) : Set<Integer> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#17]]]
-PartitionReassignmentReplicas(List<Integer>;List<Integer>) : PartitionReassignmentReplicas [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#23]]]
-removing() : List<Integer> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#33]]]
-adding() : List<Integer> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#37]]]
-merged() : List<Integer> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#41]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#46]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#51]]]
-+toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#60]]]
+-calculateDifference(List<Integer>;List<Integer>) : Set<Integer> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#32]]]
+PartitionReassignmentReplicas(List<Integer>;List<Integer>) : PartitionReassignmentReplicas [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#38]]]
+removing() : List<Integer> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#48]]]
+adding() : List<Integer> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#52]]]
+merged() : List<Integer> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#56]]]
++hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#61]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#66]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#75]]]
 } 
 @enduml

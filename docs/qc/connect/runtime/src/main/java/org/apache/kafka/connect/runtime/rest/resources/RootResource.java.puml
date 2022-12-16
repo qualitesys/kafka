@@ -2,8 +2,8 @@
 !pragma layout smetana
 "ConnectResource" <|-- "org.apache.kafka.connect.runtime.rest.resources.RootResource"
 class org.apache.kafka.connect.runtime.rest.resources.RootResource {
-+RootResource(Herder) : RootResource [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/RootResource.java.html#19]]]
-+requestTimeout(long) : void [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/RootResource.java.html#24]]]
-+serverInfo() : ServerInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/RootResource.java.html#31]]]
++RootResource(Herder) : RootResource [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/RootResource.java.html#34]]]
++requestTimeout(long) : void [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/RootResource.java.html#39]]]
++serverInfo() : ServerInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/RootResource.java.html#46]]]
 } 
 @enduml

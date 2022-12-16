@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt"
 class org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt {
-+SerializedJwt(String) : SerializedJwt [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#17]]]
-+getToken() : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#40]]]
-+getHeader() : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#46]]]
-+getPayload() : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#52]]]
-+getSignature() : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#58]]]
--validateSection(String;String) : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#62]]]
++SerializedJwt(String) : SerializedJwt [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#35]]]
++getToken() : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#62]]]
++getHeader() : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#72]]]
++getPayload() : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#82]]]
++getSignature() : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#92]]]
+-validateSection(String;String) : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#96]]]
 } 
 @enduml

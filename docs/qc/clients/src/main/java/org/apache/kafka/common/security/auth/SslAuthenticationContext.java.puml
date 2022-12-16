@@ -2,10 +2,10 @@
 !pragma layout smetana
 "AuthenticationContext" <|-- "org.apache.kafka.common.security.auth.SslAuthenticationContext"
 class org.apache.kafka.common.security.auth.SslAuthenticationContext {
-+SslAuthenticationContext(SSLSession;InetAddress;String) : SslAuthenticationContext [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.html#12]]]
-+session() : SSLSession [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.html#18]]]
-+securityProtocol() : SecurityProtocol [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.html#23]]]
-+clientAddress() : InetAddress [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.html#28]]]
-+listenerName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.html#33]]]
++SslAuthenticationContext(SSLSession;InetAddress;String) : SslAuthenticationContext [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.html#27]]]
++session() : SSLSession [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.html#33]]]
++securityProtocol() : SecurityProtocol [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.html#38]]]
++clientAddress() : InetAddress [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.html#43]]]
++listenerName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.html#48]]]
 } 
 @enduml

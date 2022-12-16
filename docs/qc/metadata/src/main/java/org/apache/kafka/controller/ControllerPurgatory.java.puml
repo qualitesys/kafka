@@ -2,9 +2,9 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.controller.ControllerPurgatory"
 class org.apache.kafka.controller.ControllerPurgatory {
-completeUpTo(long) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#18]]]
-failAll(Exception) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#33]]]
-add(long;DeferredEvent) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#45]]]
-highestPendingOffset() : OptionalLong [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#63]]]
+completeUpTo(long) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#44]]]
+failAll(Exception) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#63]]]
+add(long;DeferredEvent) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#80]]]
+highestPendingOffset() : OptionalLong [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#101]]]
 } 
 @enduml

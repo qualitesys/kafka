@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.BrokerHeartbeatResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#32"
  , "c1" : "BrokerHeartbeatResponse"
  , "c2" : "BrokerHeartbeatResponse(BrokerHeartbeatResponseData)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#38"
  , "c1" : "BrokerHeartbeatResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#28"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#43"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#33"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#48"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#39"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#54"
  , "c1" : "BrokerHeartbeatResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#44"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#59"
  , "c1" : "boolean"
  , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"
@@ -136,38 +136,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#35"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.requests.BrokerHeartbeatResponse.errorCounts@POLYN146238 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.requests.BrokerHeartbeatResponse.errorCounts@POLYN146328 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#39"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00054] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#44"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method shouldClientThrottle arguments short  version"
+ , "c3" : "QC-JAV000006[00059] For method shouldClientThrottle arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#45"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.requests.BrokerHeartbeatResponse.shouldClientThrottle@POLYN146887 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.requests.BrokerHeartbeatResponse.shouldClientThrottle@POLYN146977 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BrokerHeartbeatResponse.throttleTimeMs@POLYN146081"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BrokerHeartbeatResponse.throttleTimeMs@POLYN146171"
 }} 
 ]
 , 

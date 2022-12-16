@@ -2,12 +2,12 @@
 !pragma layout smetana
 "AbstractResponse" <|-- "org.apache.kafka.common.requests.CreateAclsResponse"
 class org.apache.kafka.common.requests.CreateAclsResponse {
-+CreateAclsResponse(CreateAclsResponseData) : CreateAclsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#16]]]
-+data() : CreateAclsResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#22]]]
-+throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#27]]]
-+results() : List<CreateAclsResponseData.AclCreationResult> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#31]]]
-+errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#36]]]
-+parse(ByteBuffer;short) : CreateAclsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#40]]]
-+shouldClientThrottle(short) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#45]]]
++CreateAclsResponse(CreateAclsResponseData) : CreateAclsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#31]]]
++data() : CreateAclsResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#37]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#42]]]
++results() : List<CreateAclsResponseData.AclCreationResult> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#46]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#51]]]
++parse(ByteBuffer;short) : CreateAclsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#55]]]
++shouldClientThrottle(short) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#60]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.Tasks" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#52"
+ , "c5" : "00067"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#67"
  , "c1" : "Tasks"
  , "c2" : "Tasks(LogContext;TopologyMetadata;ActiveTaskCreator;StandbyTaskCreator)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#64"
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#79"
  , "c1" : "void"
  , "c2" : "setMainConsumer(Consumer<byte[],byte[]>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#68"
+ , "c5" : "00083"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#83"
  , "c1" : "void"
  , "c2" : "handleNewAssignmentAndCreateTasks(Map<TaskId,Set<TopicPartition>>;Map<TaskId,Set<TopicPartition>>;Set<TaskId>;Set<TaskId>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#77"
+ , "c5" : "00092"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#92"
  , "c1" : "void"
  , "c2" : "maybeCreateTasksFromNewTopologies(Set<String>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#84"
+ , "c5" : "00099"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#99"
  , "c1" : "double"
  , "c2" : "totalProducerBlockedTime()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#88"
+ , "c5" : "00103"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#103"
  , "c1" : "void"
  , "c2" : "createTasks(Map<TaskId,Set<TopicPartition>>;Map<TaskId,Set<TopicPartition>>)"
  , "c3" : "10"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00128"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#128"
+ , "c5" : "00143"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#143"
  , "c1" : "void"
  , "c2" : "convertActiveToStandby(StreamTask;Set<TopicPartition>;Map<TaskId,RuntimeException>)"
  , "c3" : "2"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00147"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#147"
+ , "c5" : "00162"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#162"
  , "c1" : "void"
  , "c2" : "convertStandbyToActive(StandbyTask;Set<TopicPartition>)"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00160"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#160"
+ , "c5" : "00175"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#175"
  , "c1" : "void"
  , "c2" : "updateInputPartitionsAndResume(Task;Set<TopicPartition>)"
  , "c3" : "5"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00177"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#177"
+ , "c5" : "00192"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#192"
  , "c1" : "void"
  , "c2" : "cleanUpTaskProducerAndRemoveTask(TaskId;Map<TaskId,RuntimeException>)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00189"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#189"
+ , "c5" : "00204"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#204"
  , "c1" : "void"
  , "c2" : "reInitializeThreadProducer()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00193"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#193"
+ , "c5" : "00208"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#208"
  , "c1" : "void"
  , "c2" : "closeThreadProducerIfNeeded()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00198"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#198"
+ , "c5" : "00213"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#213"
  , "c1" : "void"
  , "c2" : "closeAndRemoveTaskProducerIfNeeded(Task)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00202"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#202"
+ , "c5" : "00217"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#217"
  , "c1" : "void"
  , "c2" : "removeTaskBeforeClosing(TaskId)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00213"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#213"
+ , "c5" : "00228"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#228"
  , "c1" : "void"
  , "c2" : "clear()"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00221"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#221"
+ , "c5" : "00236"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#236"
  , "c1" : "Task"
  , "c2" : "activeTasksForInputPartition(TopicPartition)"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00226"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#226"
+ , "c5" : "00241"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#241"
  , "c1" : "Task"
  , "c2" : "standbyTask(TaskId)"
  , "c3" : "2"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00233"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#233"
+ , "c5" : "00248"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#248"
  , "c1" : "Task"
  , "c2" : "task(TaskId)"
  , "c3" : "2"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00240"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#240"
+ , "c5" : "00255"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#255"
  , "c1" : "Collection<Task>"
  , "c2" : "tasks(Collection<TaskId>)"
  , "c3" : "2"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00249"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#249"
+ , "c5" : "00264"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#264"
  , "c1" : "Collection<Task>"
  , "c2" : "activeTasks()"
  , "c3" : "1"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00253"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#253"
+ , "c5" : "00268"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#268"
  , "c1" : "Collection<Task>"
  , "c2" : "allTasks()"
  , "c3" : "1"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00257"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#257"
+ , "c5" : "00272"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#272"
  , "c1" : "Collection<Task>"
  , "c2" : "notPausedActiveTasks()"
  , "c3" : "1"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00264"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#264"
+ , "c5" : "00279"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#279"
  , "c1" : "Collection<Task>"
  , "c2" : "notPausedTasks()"
  , "c3" : "1"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00271"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#271"
+ , "c5" : "00286"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#286"
  , "c1" : "Set<TaskId>"
  , "c2" : "activeTaskIds()"
  , "c3" : "1"
@@ -234,8 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00275"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#275"
+ , "c5" : "00290"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#290"
  , "c1" : "Set<TaskId>"
  , "c2" : "standbyTaskIds()"
  , "c3" : "1"
@@ -243,8 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00280"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#280"
+ , "c5" : "00295"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#295"
  , "c1" : "Map<TaskId,Task>"
  , "c2" : "activeTaskMap()"
  , "c3" : "1"
@@ -252,8 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00285"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#285"
+ , "c5" : "00300"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#300"
  , "c1" : "Map<TaskId,Task>"
  , "c2" : "standbyTaskMap()"
  , "c3" : "1"
@@ -261,8 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00289"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#289"
+ , "c5" : "00304"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#304"
  , "c1" : "Map<TaskId,Task>"
  , "c2" : "tasksPerId()"
  , "c3" : "1"
@@ -270,8 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00293"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#293"
+ , "c5" : "00308"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#308"
  , "c1" : "boolean"
  , "c2" : "owned(TaskId)"
  , "c3" : "1"
@@ -279,8 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00297"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#297"
+ , "c5" : "00312"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#312"
  , "c1" : "StreamsProducer"
  , "c2" : "streamsProducerForTask(TaskId)"
  , "c3" : "1"
@@ -288,8 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00301"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#301"
+ , "c5" : "00316"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#316"
  , "c1" : "StreamsProducer"
  , "c2" : "threadProducer()"
  , "c3" : "1"
@@ -297,8 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00305"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#305"
+ , "c5" : "00320"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#320"
  , "c1" : "Map<MetricName,Metric>"
  , "c2" : "producerMetrics()"
  , "c3" : "1"
@@ -306,8 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00309"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#309"
+ , "c5" : "00324"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#324"
  , "c1" : "Set<String>"
  , "c2" : "producerClientIds()"
  , "c3" : "1"
@@ -315,8 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00313"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#313"
+ , "c5" : "00328"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#328"
  , "c1" : "Consumer<byte[],byte[]>"
  , "c2" : "mainConsumer()"
  , "c3" : "1"
@@ -324,8 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00317"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#317"
+ , "c5" : "00332"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#332"
  , "c1" : "Collection<Task>"
  , "c2" : "successfullyProcessed()"
  , "c3" : "1"
@@ -333,8 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00321"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#321"
+ , "c5" : "00336"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#336"
  , "c1" : "void"
  , "c2" : "addToSuccessfullyProcessed(Task)"
  , "c3" : "1"
@@ -342,8 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00325"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#325"
+ , "c5" : "00340"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#340"
  , "c1" : "void"
  , "c2" : "removeTaskFromCuccessfullyProcessedBeforeClosing(Task)"
  , "c3" : "1"
@@ -351,8 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00329"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#329"
+ , "c5" : "00344"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#344"
  , "c1" : "void"
  , "c2" : "clearSuccessfullyProcessed()"
  , "c3" : "1"
@@ -360,8 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00334"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#334"
+ , "c5" : "00349"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#349"
  , "c1" : "void"
  , "c2" : "addTask(Task)"
  , "c3" : "3"
@@ -454,318 +454,318 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#52"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#67"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00052] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00067] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#64"
+ , "c1" : "00079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method setMainConsumer arguments Consumer&lt;byte[] ,byte[] &gt;  mainConsumer"
+ , "c3" : "QC-JAV000006[00079] For method setMainConsumer arguments Consumer&lt;byte[] ,byte[] &gt;  mainConsumer"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#68"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method handleNewAssignmentAndCreateTasks arguments Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  activeTasksToCreate|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  standbyTasksToCreate|Set&lt;TaskId &gt;  assignedActiveTasks|Set&lt;TaskId &gt;  assignedStandbyTasks"
+ , "c3" : "QC-JAV000006[00083] For method handleNewAssignmentAndCreateTasks arguments Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  activeTasksToCreate|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  standbyTasksToCreate|Set&lt;TaskId &gt;  assignedActiveTasks|Set&lt;TaskId &gt;  assignedStandbyTasks"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#77"
+ , "c1" : "00092"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method maybeCreateTasksFromNewTopologies arguments Set&lt;String &gt;  currentNamedTopologies"
+ , "c3" : "QC-JAV000006[00092] For method maybeCreateTasksFromNewTopologies arguments Set&lt;String &gt;  currentNamedTopologies"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#88"
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method createTasks arguments Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  activeTasksToCreate|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  standbyTasksToCreate"
+ , "c3" : "QC-JAV000006[00103] For method createTasks arguments Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  activeTasksToCreate|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  standbyTasksToCreate"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#88"
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#103"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00088] The argument activeTasksToCreate is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00103] The argument activeTasksToCreate is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#89"
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#104"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00089] The argument standbyTasksToCreate is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00104] The argument standbyTasksToCreate is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#91"
+ , "c1" : "00106"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00091] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00106] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#99"
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00099] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00114] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#112"
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00112] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00127] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#94"
+ , "c1" : "00109"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.processor.internals.Tasks.createTasks@POLYN194649 the MagicNumber/String  'Attempted to create an active task that we already own: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.processor.internals.Tasks.createTasks@POLYN194739 the MagicNumber/String  'Attempted to create an active task that we already own: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#102"
+ , "c1" : "00117"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.streams.processor.internals.Tasks.createTasks@POLYN194649 the MagicNumber/String  'Attempted to create a standby task that we already own: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.processor.internals.Tasks.createTasks@POLYN194739 the MagicNumber/String  'Attempted to create a standby task that we already own: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#128"
+ , "c1" : "00143"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00128] For method convertActiveToStandby arguments StreamTask  activeTask|Set&lt;TopicPartition &gt;  partitions|Map&lt;TaskId ,RuntimeException &gt;  taskCloseExceptions"
+ , "c3" : "QC-JAV000006[00143] For method convertActiveToStandby arguments StreamTask  activeTask|Set&lt;TopicPartition &gt;  partitions|Map&lt;TaskId ,RuntimeException &gt;  taskCloseExceptions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#128"
+ , "c1" : "00143"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#143"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00128] The argument activeTask is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00143] The argument activeTask is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#131"
+ , "c1" : "00146"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.streams.processor.internals.Tasks.convertActiveToStandby@POLYN196785 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.processor.internals.Tasks.convertActiveToStandby@POLYN196785 the MagicNumber/String  'Attempted to convert unknown active task to standby task: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.processor.internals.Tasks.convertActiveToStandby@POLYN196875 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#147"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00147] For method convertStandbyToActive arguments StandbyTask  standbyTask|Set&lt;TopicPartition &gt;  partitions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#147"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00147] The argument standbyTask is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.processor.internals.Tasks.convertStandbyToActive@POLYN198148 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.processor.internals.Tasks.convertActiveToStandby@POLYN196875 the MagicNumber/String  'Attempted to convert unknown active task to standby task: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.processor.internals.Tasks.convertStandbyToActive@POLYN198148 the MagicNumber/String  'Attempted to convert unknown standby task to stream task: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#160"
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#162"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00160] For method updateInputPartitionsAndResume arguments Task  task|Set&lt;TopicPartition &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00162] For method convertStandbyToActive arguments StandbyTask  standbyTask|Set&lt;TopicPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#160"
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#162"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00160] The argument task is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00162] The argument standbyTask is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.processor.internals.Tasks.updateInputPartitionsAndResume@POLYN199070 the MagicNumber/String  'Update task {} inputPartitions: current {}, new {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.processor.internals.Tasks.convertStandbyToActive@POLYN198238 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#177"
+ , "c1" : "00164"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#164"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.streams.processor.internals.Tasks.convertStandbyToActive@POLYN198238 the MagicNumber/String  'Attempted to convert unknown standby task to stream task: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#175"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method cleanUpTaskProducerAndRemoveTask arguments TaskId  taskId|Map&lt;TaskId ,RuntimeException &gt;  taskCloseExceptions"
+ , "c3" : "QC-JAV000006[00175] For method updateInputPartitionsAndResume arguments Task  task|Set&lt;TopicPartition &gt;  topicPartitions"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#175"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00175] The argument task is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00178"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#178"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00178] The argument taskCloseExceptions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.processor.internals.Tasks.cleanUpTaskProducerAndRemoveTask@POLYN200139 the MagicNumber/String  'Failed to close task %s cleanly. Attempting to close remaining tasks before re-throwing:' should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.processor.internals.Tasks.updateInputPartitionsAndResume@POLYN199160 the MagicNumber/String  'Update task {} inputPartitions: current {}, new {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#198"
+ , "c1" : "00192"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#192"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00198] For method closeAndRemoveTaskProducerIfNeeded arguments Task  activeTask"
+ , "c3" : "QC-JAV000006[00192] For method cleanUpTaskProducerAndRemoveTask arguments TaskId  taskId|Map&lt;TaskId ,RuntimeException &gt;  taskCloseExceptions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#198"
+ , "c1" : "00193"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#193"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00198] The argument activeTask is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00193] The argument taskCloseExceptions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#202"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00202] For method removeTaskBeforeClosing arguments TaskId  taskId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#220"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00220] For method activeTasksForInputPartition arguments TopicPartition  partition"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00225"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#225"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00225] For method standbyTask arguments TaskId  taskId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00228"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#228"
+ , "c1" : "00197"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.streams.processor.internals.Tasks.standbyTask@POLYN202244 the MagicNumber/String  'Standby task unknown: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.processor.internals.Tasks.cleanUpTaskProducerAndRemoveTask@POLYN200229 the MagicNumber/String  'Failed to close task %s cleanly. Attempting to close remaining tasks before re-throwing:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#233"
+ , "c1" : "00213"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#213"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00233] For method task arguments TaskId  taskId"
+ , "c3" : "QC-JAV000006[00213] For method closeAndRemoveTaskProducerIfNeeded arguments Task  activeTask"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00213"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#213"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00213] The argument activeTask is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00217"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#217"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00217] For method removeTaskBeforeClosing arguments TaskId  taskId"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00235"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#235"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.processor.internals.Tasks.task@POLYN202584 the MagicNumber/String  'Task unknown: ' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00235] For method activeTasksForInputPartition arguments TopicPartition  partition"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00240"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#240"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00240] For method tasks arguments Collection&lt;TaskId &gt;  taskIds"
+ , "c3" : "QC-JAV000006[00240] For method standbyTask arguments TaskId  taskId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00293"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#293"
+ , "c1" : "00243"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#243"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.streams.processor.internals.Tasks.standbyTask@POLYN202334 the MagicNumber/String  'Standby task unknown: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00248"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#248"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00293] For method owned arguments TaskId  taskId"
+ , "c3" : "QC-JAV000006[00248] For method task arguments TaskId  taskId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#297"
+ , "c1" : "00250"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#250"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.streams.processor.internals.Tasks.task@POLYN202674 the MagicNumber/String  'Task unknown: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00255"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#255"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00297] For method streamsProducerForTask arguments TaskId  taskId"
+ , "c3" : "QC-JAV000006[00255] For method tasks arguments Collection&lt;TaskId &gt;  taskIds"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00321"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#321"
+ , "c1" : "00308"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#308"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00321] For method addToSuccessfullyProcessed arguments Task  task"
+ , "c3" : "QC-JAV000006[00308] For method owned arguments TaskId  taskId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00325"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#325"
+ , "c1" : "00312"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#312"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00325] For method removeTaskFromCuccessfullyProcessedBeforeClosing arguments Task  task"
+ , "c3" : "QC-JAV000006[00312] For method streamsProducerForTask arguments TaskId  taskId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00334"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#334"
+ , "c1" : "00336"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#336"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00334] For method addTask arguments Task  task"
+ , "c3" : "QC-JAV000006[00336] For method addToSuccessfullyProcessed arguments Task  task"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00334"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#334"
+ , "c1" : "00340"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#340"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00340] For method removeTaskFromCuccessfullyProcessedBeforeClosing arguments Task  task"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00349"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#349"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00349] For method addTask arguments Task  task"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00349"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#349"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00334] The argument task is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00349] The argument task is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.Tasks.cleanUpTaskProducerAndRemoveTask@POLYN200139"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.Tasks.cleanUpTaskProducerAndRemoveTask@POLYN200229"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.Tasks.updateInputPartitionsAndResume@POLYN199070"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.Tasks.updateInputPartitionsAndResume@POLYN199160"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#182"
+ , "c1" : "00197"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#197"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00182] In the recursive method org.apache.kafka.streams.processor.internals.Tasks.cleanUpTaskProducerAndRemoveTask@POLYN200139 the MagicNumber/String 'Failed to close task %s cleanly. Attempting to close remaining tasks before re-throwing:' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00197] In the recursive method org.apache.kafka.streams.processor.internals.Tasks.cleanUpTaskProducerAndRemoveTask@POLYN200229 the MagicNumber/String 'Failed to close task %s cleanly. Attempting to close remaining tasks before re-throwing:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#163"
+ , "c1" : "00178"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#178"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.streams.processor.internals.Tasks.updateInputPartitionsAndResume@POLYN199070 the MagicNumber/String 'Update task {} inputPartitions: current {}, new {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00178] In the recursive method org.apache.kafka.streams.processor.internals.Tasks.updateInputPartitionsAndResume@POLYN199160 the MagicNumber/String 'Update task {} inputPartitions: current {}, new {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.metrics.FilteringJmxReporter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#16"
+ , "c5" : "00031"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#31"
  , "c1" : "FilteringJmxReporter"
  , "c2" : "FilteringJmxReporter(MetricsRegistry;Predicate<MetricName>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#22"
+ , "c5" : "00037"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#37"
  , "c1" : "void"
  , "c2" : "onMetricAdded(MetricName;Metric)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#28"
+ , "c5" : "00043"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#43"
  , "c1" : "void"
  , "c2" : "updatePredicate(Predicate<MetricName>)"
  , "c3" : "3"
@@ -86,17 +86,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#22"
+ , "c1" : "00037"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method onMetricAdded arguments MetricName  name|Metric  metric"
+ , "c3" : "QC-JAV000006[00037] For method onMetricAdded arguments MetricName  name|Metric  metric"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method updatePredicate arguments Predicate&lt;MetricName &gt;  predicate"
+ , "c3" : "QC-JAV000006[00043] For method updatePredicate arguments Predicate&lt;MetricName &gt;  predicate"
 }} 
 ]
 , 

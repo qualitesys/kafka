@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.FixedOrderMap" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#13"
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#37"
  , "c1" : "boolean"
  , "c2" : "removeEldestEntry(Map.Entry<K,V>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#19"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#43"
  , "c1" : "V"
  , "c2" : "remove(Object)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#25"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#49"
  , "c1" : "boolean"
  , "c2" : "remove(Object;Object)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#30"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#54"
  , "c1" : "FixedOrderMap<K,V>"
  , "c2" : "clone()"
  , "c3" : "1"
@@ -102,45 +102,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#13"
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00013] For method removeEldestEntry arguments Map.Entry&lt;K ,V &gt;  eldest"
+ , "c3" : "QC-JAV000006[00037] For method removeEldestEntry arguments Map.Entry&lt;K ,V &gt;  eldest"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#14"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.utils.FixedOrderMap.removeEldestEntry@POLYN145579 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.utils.FixedOrderMap.removeEldestEntry@POLYN145723 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#19"
+ , "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method remove arguments Object  key"
+ , "c3" : "QC-JAV000006[00043] For method remove arguments Object  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#20"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.utils.FixedOrderMap.remove@POLYN145765 the MagicNumber/String  'Removing from registeredStores is not allowed' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.utils.FixedOrderMap.remove@POLYN145909 the MagicNumber/String  'Removing from registeredStores is not allowed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#25"
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method remove arguments Object  key|Object  value"
+ , "c3" : "QC-JAV000006[00049] For method remove arguments Object  key|Object  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#26"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.utils.FixedOrderMap.remove@POLYN145944 the MagicNumber/String  'Removing from registeredStores is not allowed' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.utils.FixedOrderMap.remove@POLYN146088 the MagicNumber/String  'Removing from registeredStores is not allowed' should be converted to const"
 }} 
 ]
 , 

@@ -2,8 +2,8 @@
 !pragma layout smetana
 "RemoteLogMetadataTransform<RemotePartitionDeleteMetadata>" <|-- "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemotePartitionDeleteMetadataTransform"
 class org.apache.kafka.server.log.remote.metadata.storage.serialization.RemotePartitionDeleteMetadataTransform {
-+toApiMessageAndVersion(RemotePartitionDeleteMetadata) : ApiMessageAndVersion [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemotePartitionDeleteMetadataTransform.java.html#14]]]
--createTopicIdPartitionEntry(TopicIdPartition) : RemotePartitionDeleteMetadataRecord.TopicIdPartitionEntry [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemotePartitionDeleteMetadataTransform.java.html#23]]]
-+fromApiMessageAndVersion(ApiMessageAndVersion) : RemotePartitionDeleteMetadata [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemotePartitionDeleteMetadataTransform.java.html#30]]]
++toApiMessageAndVersion(RemotePartitionDeleteMetadata) : ApiMessageAndVersion [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemotePartitionDeleteMetadataTransform.java.html#29]]]
+-createTopicIdPartitionEntry(TopicIdPartition) : RemotePartitionDeleteMetadataRecord.TopicIdPartitionEntry [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemotePartitionDeleteMetadataTransform.java.html#38]]]
++fromApiMessageAndVersion(ApiMessageAndVersion) : RemotePartitionDeleteMetadata [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemotePartitionDeleteMetadataTransform.java.html#45]]]
 } 
 @enduml

@@ -2,11 +2,11 @@
 !pragma layout smetana
 "AbstractConfig" <|-- "org.apache.kafka.connect.mirror.MirrorClientConfig"
 class org.apache.kafka.connect.mirror.MirrorClientConfig {
-MirrorClientConfig(Map<?,?>) : MirrorClientConfig [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#31]]]
-+replicationPolicy() : ReplicationPolicy [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#35]]]
-+adminConfig() : Map<String,Object> [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#40]]]
-+consumerConfig() : Map<String,Object> [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#45]]]
-+producerConfig() : Map<String,Object> [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#50]]]
--clientConfig(String) : Map<String,Object> [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#54]]]
+MirrorClientConfig(Map<?,?>) : MirrorClientConfig [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#64]]]
++replicationPolicy() : ReplicationPolicy [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#68]]]
++adminConfig() : Map<String,Object> [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#73]]]
++consumerConfig() : Map<String,Object> [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#78]]]
++producerConfig() : Map<String,Object> [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#83]]]
+-clientConfig(String) : Map<String,Object> [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClientConfig.java.html#87]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.common.JsonUtil" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#28"
+ , "c5" : "00045"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#45"
  , "c1" : "String"
  , "c2" : "toJsonString(Object)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#36"
+ , "c5" : "00053"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#53"
  , "c1" : "String"
  , "c2" : "toPrettyJsonString(Object)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#45"
+ , "c5" : "00068"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#68"
  , "c1" : "boolean"
  , "c2" : "openBraceComesFirst(String)"
  , "c3" : "3"
@@ -107,59 +107,59 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#28"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method toJsonString arguments Object  object"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#36"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method toPrettyJsonString arguments Object  object"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method openBraceComesFirst arguments String  input"
+ , "c3" : "QC-JAV000006[00045] For method toJsonString arguments Object  object"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#45"
+ , "c1" : "00053"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00045] For method openBraceComesFirst list of called methods Object monObjet|char input_charAtN155641"
+ , "c3" : "QC-JAV000006[00053] For method toPrettyJsonString arguments Object  object"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#45"
+ , "c1" : "00068"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#68"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00068] For method openBraceComesFirst arguments String  input"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#68"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00068] For method openBraceComesFirst list of called methods Object monObjet|char input_charAtN155845"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#68"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00045] The argument input is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00068] The argument input is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#46"
+ , "c1" : "00069"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN155363 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN155567 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#49"
+ , "c1" : "00072"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN155363 the MagicNumber/String  '{' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN155567 the MagicNumber/String  '{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#52"
+ , "c1" : "00075"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN155363 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN155567 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

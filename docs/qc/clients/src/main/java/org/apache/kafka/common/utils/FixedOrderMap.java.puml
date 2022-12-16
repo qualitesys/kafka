@@ -2,9 +2,9 @@
 !pragma layout smetana
 "LinkedHashMap<K,V>" <|-- "org.apache.kafka.common.utils.FixedOrderMap"
 class org.apache.kafka.common.utils.FixedOrderMap {
-removeEldestEntry(Map.Entry<K,V>) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#13]]]
-+remove(Object) : V [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#19]]]
-+remove(Object;Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#25]]]
-+clone() : FixedOrderMap<K,V> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#30]]]
+removeEldestEntry(Map.Entry<K,V>) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#37]]]
++remove(Object) : V [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#43]]]
++remove(Object;Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#49]]]
++clone() : FixedOrderMap<K,V> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#54]]]
 } 
 @enduml

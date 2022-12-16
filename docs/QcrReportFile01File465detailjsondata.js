@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.Quota" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#10"
+ , "c5" : "00027"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#27"
  , "c1" : "Quota"
  , "c2" : "Quota(double;boolean)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#15"
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#32"
  , "c1" : "Quota"
  , "c2" : "upperBound(double)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#19"
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#36"
  , "c1" : "Quota"
  , "c2" : "lowerBound(double)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#23"
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#40"
  , "c1" : "boolean"
  , "c2" : "isUpperBound()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#27"
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#44"
  , "c1" : "double"
  , "c2" : "bound()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#31"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#48"
  , "c1" : "boolean"
  , "c2" : "acceptable(double)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#36"
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#53"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#45"
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#62"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#55"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#72"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -154,115 +154,115 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#15"
+ , "c1" : "00032"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#32"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00015] For method upperBound arguments double  upperBound"
+ , "c3" : "QC-JAV000006[00032] For method upperBound arguments double  upperBound"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#16"
+ , "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.metrics.Quota.upperBound@POLYN147224 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.metrics.Quota.upperBound@POLYN147326 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#19"
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#36"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method lowerBound arguments double  lowerBound"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#20"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.metrics.Quota.lowerBound@POLYN147399 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#31"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method acceptable arguments double  value"
+ , "c3" : "QC-JAV000006[00036] For method lowerBound arguments double  lowerBound"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN148046 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.metrics.Quota.lowerBound@POLYN147501 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN148046 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN148046 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN148046 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#45"
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method equals arguments Object  obj"
+ , "c3" : "QC-JAV000006[00048] For method acceptable arguments double  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#47"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.metrics.Quota.equals@POLYN148570 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN148148 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#49"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.metrics.Quota.equals@POLYN148570 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN148148 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#56"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.Quota.toString@POLYN149117 the MagicNumber/String  'upper=' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN148148 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#56"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.Quota.toString@POLYN149117 the MagicNumber/String  'lower=' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.metrics.Quota.hashCode@POLYN148148 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#15"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#62"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00062] For method equals arguments Object  obj"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#64"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.metrics.Quota.equals@POLYN148672 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#66"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.metrics.Quota.equals@POLYN148672 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#73"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.metrics.Quota.toString@POLYN149219 the MagicNumber/String  'upper=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#73"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.metrics.Quota.toString@POLYN149219 the MagicNumber/String  'lower=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#32"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00015] Public method upperBound is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00032] Public method upperBound is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#19"
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#36"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00019] Public method lowerBound is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00036] Public method lowerBound is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

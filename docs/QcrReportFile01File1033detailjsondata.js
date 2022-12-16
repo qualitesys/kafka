@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.mirror.MirrorMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#89"
+ , "c5" : "00104"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#104"
  , "c1" : "MirrorMetrics"
  , "c2" : "MirrorMetrics(MirrorTaskConfig)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00108"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#108"
+ , "c5" : "00123"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#123"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#112"
+ , "c5" : "00127"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#127"
  , "c1" : "void"
  , "c2" : "countRecord(TopicPartition)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00116"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#116"
+ , "c5" : "00131"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#131"
  , "c1" : "void"
  , "c2" : "recordAge(TopicPartition;long)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00120"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#120"
+ , "c5" : "00135"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#135"
  , "c1" : "void"
  , "c2" : "replicationLatency(TopicPartition;long)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00124"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#124"
+ , "c5" : "00139"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#139"
  , "c1" : "void"
  , "c2" : "recordBytes(TopicPartition;long)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00128"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#128"
+ , "c5" : "00143"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#143"
  , "c1" : "void"
  , "c2" : "checkpointLatency(TopicPartition;String;long)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00132"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#132"
+ , "c5" : "00147"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#147"
  , "c1" : "GroupMetrics"
  , "c2" : "group(TopicPartition;String)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00137"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#137"
+ , "c5" : "00152"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#152"
  , "c1" : "void"
  , "c2" : "addReporter(MetricsReporter)"
  , "c3" : "1"
@@ -170,101 +170,80 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#89"
+ , "c1" : "00104"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#104"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00089] The argument taskConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00104] The argument taskConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#95"
+ , "c1" : "00110"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.connect.mirror.MirrorMetrics.MirrorMetrics@POLYN180940 the MagicNumber/String  'record-count' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.connect.mirror.MirrorMetrics.MirrorMetrics@POLYN181030 the MagicNumber/String  'record-count' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#96"
+ , "c1" : "00111"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.connect.mirror.MirrorMetrics.MirrorMetrics@POLYN180940 the MagicNumber/String  'byte-rate' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.mirror.MirrorMetrics.MirrorMetrics@POLYN180940 the MagicNumber/String  'record-age' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#98"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.mirror.MirrorMetrics.MirrorMetrics@POLYN180940 the MagicNumber/String  'replication-latency' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.mirror.MirrorMetrics.MirrorMetrics@POLYN181030 the MagicNumber/String  'byte-rate' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#112"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00112] For method countRecord arguments TopicPartition  topicPartition"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#116"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method recordAge arguments TopicPartition  topicPartition|long  ageMillis"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#120"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00120] For method replicationLatency arguments TopicPartition  topicPartition|long  millis"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#124"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00124] For method recordBytes arguments TopicPartition  topicPartition|long  bytes"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#128"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00128] For method checkpointLatency arguments TopicPartition  topicPartition|String  group|long  millis"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#132"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00132] For method group arguments TopicPartition  topicPartition|String  group"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#132"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00132] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.connect.mirror.MirrorMetrics.group@POLYN183283 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.connect.mirror.MirrorMetrics.MirrorMetrics@POLYN181030 the MagicNumber/String  'record-age' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#137"
+ , "c1" : "00113"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.mirror.MirrorMetrics.MirrorMetrics@POLYN181030 the MagicNumber/String  'replication-latency' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method addReporter arguments MetricsReporter  reporter"
+ , "c3" : "QC-JAV000006[00127] For method countRecord arguments TopicPartition  topicPartition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#131"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00131] For method recordAge arguments TopicPartition  topicPartition|long  ageMillis"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#135"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00135] For method replicationLatency arguments TopicPartition  topicPartition|long  millis"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#139"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00139] For method recordBytes arguments TopicPartition  topicPartition|long  bytes"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00143"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#143"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00143] For method checkpointLatency arguments TopicPartition  topicPartition|String  group|long  millis"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00147"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#147"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00147] For method group arguments TopicPartition  topicPartition|String  group"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -278,126 +257,147 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN183993 the MagicNumber/String  '-' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#148"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN183993 the MagicNumber/String  '-' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#151"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN183993 the MagicNumber/String  'target' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.mirror.MirrorMetrics.group@POLYN183373 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#152"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN183993 the MagicNumber/String  'topic' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00152] For method addReporter arguments MetricsReporter  reporter"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN183993 the MagicNumber/String  'partition' should be converted to const"
+ , "c1" : "00162"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#162"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00162] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#155"
+ , "c1" : "00163"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN183993 the MagicNumber/String  'records-sent' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN184083 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#158"
+ , "c1" : "00163"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN183993 the MagicNumber/String  'bytes-sent' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN184083 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#161"
+ , "c1" : "00166"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN183993 the MagicNumber/String  'record-age' should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN184083 the MagicNumber/String  'target' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN183993 the MagicNumber/String  'replication-latency' should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN184083 the MagicNumber/String  'topic' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#178"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00178] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#180"
+ , "c1" : "00168"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.connect.mirror.MirrorMetrics.GroupMetrics.GroupMetrics@POLYN187136 the MagicNumber/String  'source' should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN184083 the MagicNumber/String  'partition' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#181"
+ , "c1" : "00170"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.connect.mirror.MirrorMetrics.GroupMetrics.GroupMetrics@POLYN187136 the MagicNumber/String  'target' should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN184083 the MagicNumber/String  'records-sent' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00173"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#173"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN184083 the MagicNumber/String  'bytes-sent' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00176"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#176"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN184083 the MagicNumber/String  'record-age' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.connect.mirror.MirrorMetrics.GroupMetrics.GroupMetrics@POLYN187136 the MagicNumber/String  'group' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics.PartitionMetrics@POLYN184083 the MagicNumber/String  'replication-latency' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#183"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.connect.mirror.MirrorMetrics.GroupMetrics.GroupMetrics@POLYN187136 the MagicNumber/String  'topic' should be converted to const"
+ , "c1" : "00193"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#193"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00193] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#184"
+ , "c1" : "00195"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.connect.mirror.MirrorMetrics.GroupMetrics.GroupMetrics@POLYN187136 the MagicNumber/String  'partition' should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.connect.mirror.MirrorMetrics.GroupMetrics.GroupMetrics@POLYN187226 the MagicNumber/String  'source' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#186"
+ , "c1" : "00196"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.connect.mirror.MirrorMetrics.GroupMetrics.GroupMetrics@POLYN187136 the MagicNumber/String  'checkpoint-latency' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.connect.mirror.MirrorMetrics.GroupMetrics.GroupMetrics@POLYN187226 the MagicNumber/String  'target' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00197"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#197"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.connect.mirror.MirrorMetrics.GroupMetrics.GroupMetrics@POLYN187226 the MagicNumber/String  'group' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00198"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#198"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.connect.mirror.MirrorMetrics.GroupMetrics.GroupMetrics@POLYN187226 the MagicNumber/String  'topic' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00199"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#199"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.connect.mirror.MirrorMetrics.GroupMetrics.GroupMetrics@POLYN187226 the MagicNumber/String  'partition' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00201"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#201"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.connect.mirror.MirrorMetrics.GroupMetrics.GroupMetrics@POLYN187226 the MagicNumber/String  'checkpoint-latency' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorMetrics.addReporter@POLYN183655"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorMetrics.addReporter@POLYN183745"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorMetrics.close@POLYN182091"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorMetrics.close@POLYN182181"
 }} 
 ]
 , 

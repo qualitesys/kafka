@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.config.provider.FileConfigProvider" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#24"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#42"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#28"
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#51"
  , "c1" : "ConfigData"
  , "c2" : "get(String)"
  , "c3" : "4"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#52"
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#81"
  , "c1" : "ConfigData"
  , "c2" : "get(String;Set<String>)"
  , "c3" : "4"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#74"
+ , "c5" : "00103"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#103"
  , "c1" : "Reader"
  , "c2" : "reader(String)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#78"
+ , "c5" : "00107"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#107"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -155,66 +155,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#24"
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00042] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#28"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method get arguments String  path"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00038] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00039] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155671 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155671 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155671 the MagicNumber/String  'Could not read properties from file {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155671 the MagicNumber/String  'Could not read properties from file ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#52"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method get arguments String  path|Set&lt;String &gt;  keys"
+ , "c3" : "QC-JAV000006[00051] For method get arguments String  path"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -225,136 +176,185 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157320 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157320 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00062] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#68"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157320 the MagicNumber/String  'Could not read properties from file {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155845 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155845 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157320 the MagicNumber/String  'Could not read properties from file ' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155845 the MagicNumber/String  'Could not read properties from file {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#74"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#70"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155845 the MagicNumber/String  'Could not read properties from file ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method reader arguments String  path"
+ , "c3" : "QC-JAV000006[00081] For method get arguments String  path|Set&lt;String &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#24"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00024] Void method configure is empty or contains only a return."
+ , "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#90"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00090] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#24"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00024] Void method configure is empty or contains only a return. Interface segregation"
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157494 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#78"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00078] Void method close is empty or contains only a return."
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#91"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157494 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#78"
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#97"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157494 the MagicNumber/String  'Could not read properties from file {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157494 the MagicNumber/String  'Could not read properties from file ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#103"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00103] For method reader arguments String  path"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#42"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00078] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000005[00042] Void method configure is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#42"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00042] Void method configure is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00107] Void method close is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00107] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155671"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155845"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157320"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157494"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#30"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#53"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00030] In the recursive method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155671 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155845 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#40"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#63"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155671 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#46"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155671 the MagicNumber/String 'Could not read properties from file {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#47"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155671 the MagicNumber/String 'Could not read properties from file ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#54"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157320 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#62"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157320 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#68"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157320 the MagicNumber/String 'Could not read properties from file {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155845 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#69"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157320 the MagicNumber/String 'Could not read properties from file ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155845 the MagicNumber/String 'Could not read properties from file {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#70"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN155845 the MagicNumber/String 'Could not read properties from file ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#83"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157494 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#91"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157494 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#97"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00097] In the recursive method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157494 the MagicNumber/String 'Could not read properties from file {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#98"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.common.config.provider.FileConfigProvider.get@POLYN157494 the MagicNumber/String 'Could not read properties from file ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

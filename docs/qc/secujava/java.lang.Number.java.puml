@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.io.Serializable" <|-- "java.lang.Number"
 class java.lang.Number {
-+intValue() : int [[[./../.././qc/secujava/java.lang.Number.java.html#57]]]
-+longValue() : long [[[./../.././qc/secujava/java.lang.Number.java.html#66]]]
-+floatValue() : float [[[./../.././qc/secujava/java.lang.Number.java.html#75]]]
-+doubleValue() : double [[[./../.././qc/secujava/java.lang.Number.java.html#84]]]
-+byteValue() : byte [[[./../.././qc/secujava/java.lang.Number.java.html#94]]]
-+shortValue() : short [[[./../.././qc/secujava/java.lang.Number.java.html#106]]]
++intValue() : int [[[./../.././qc/secujava/java.lang.Number.java.html#106]]]
++longValue() : long [[[./../.././qc/secujava/java.lang.Number.java.html#121]]]
++floatValue() : float [[[./../.././qc/secujava/java.lang.Number.java.html#136]]]
++doubleValue() : double [[[./../.././qc/secujava/java.lang.Number.java.html#151]]]
++byteValue() : byte [[[./../.././qc/secujava/java.lang.Number.java.html#168]]]
++shortValue() : short [[[./../.././qc/secujava/java.lang.Number.java.html#187]]]
 } 
 @enduml

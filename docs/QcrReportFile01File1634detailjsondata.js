@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.Consumed" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#20"
+ , "c5" : "00061"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#61"
  , "c1" : "Consumed"
  , "c2" : "Consumed(Serde<K>;Serde<V>;TimestampExtractor;Topology.AutoOffsetReset;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#33"
+ , "c5" : "00077"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#77"
  , "c1" : "Consumed"
  , "c2" : "Consumed(Consumed<K,V>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#73"
+ , "c5" : "00161"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#161"
  , "c1" : "Consumed<K,V>"
  , "c2" : "withKeySerde(Serde<K>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#79"
+ , "c5" : "00172"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#172"
  , "c1" : "Consumed<K,V>"
  , "c2" : "withValueSerde(Serde<V>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#85"
+ , "c5" : "00183"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#183"
  , "c1" : "Consumed<K,V>"
  , "c2" : "withTimestampExtractor(TimestampExtractor)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00091"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#91"
+ , "c5" : "00194"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#194"
  , "c1" : "Consumed<K,V>"
  , "c2" : "withOffsetResetPolicy(Topology.AutoOffsetReset)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#98"
+ , "c5" : "00206"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#206"
  , "c1" : "Consumed<K,V>"
  , "c2" : "withName(String)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#104"
+ , "c5" : "00212"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#212"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00119"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#119"
+ , "c5" : "00227"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#227"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -161,192 +161,192 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#33"
+ , "c1" : "00077"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#77"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00033] The argument consumed is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00077] The argument consumed is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#47"
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#54"
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#54"
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#54"
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#59"
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#59"
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#59"
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#59"
+ , "c1" : "00128"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#64"
+ , "c1" : "00140"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#64"
+ , "c1" : "00140"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#64"
+ , "c1" : "00140"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#64"
+ , "c1" : "00140"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#69"
+ , "c1" : "00152"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#69"
+ , "c1" : "00152"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#69"
+ , "c1" : "00152"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#69"
+ , "c1" : "00152"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.kstream.Consumed the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#73"
+ , "c1" : "00161"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method withKeySerde arguments Serde&lt;K &gt;  keySerde"
+ , "c3" : "QC-JAV000006[00161] For method withKeySerde arguments Serde&lt;K &gt;  keySerde"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#79"
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#172"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method withValueSerde arguments Serde&lt;V &gt;  valueSerde"
+ , "c3" : "QC-JAV000006[00172] For method withValueSerde arguments Serde&lt;V &gt;  valueSerde"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#85"
+ , "c1" : "00183"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#183"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method withTimestampExtractor arguments TimestampExtractor  timestampExtractor"
+ , "c3" : "QC-JAV000006[00183] For method withTimestampExtractor arguments TimestampExtractor  timestampExtractor"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#91"
+ , "c1" : "00194"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00091] For method withOffsetResetPolicy arguments Topology.AutoOffsetReset  resetPolicy"
+ , "c3" : "QC-JAV000006[00194] For method withOffsetResetPolicy arguments Topology.AutoOffsetReset  resetPolicy"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#98"
+ , "c1" : "00206"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#206"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method withName arguments String  processorName"
+ , "c3" : "QC-JAV000006[00206] For method withName arguments String  processorName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#104"
+ , "c1" : "00212"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#212"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00212] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#108"
+ , "c1" : "00216"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00108] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00216] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#106"
+ , "c1" : "00214"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.kstream.Consumed.equals@POLYN192482 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.streams.kstream.Consumed.equals@POLYN193130 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#108"
+ , "c1" : "00216"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.kstream.Consumed.equals@POLYN192482 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.streams.kstream.Consumed.equals@POLYN193130 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#109"
+ , "c1" : "00217"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.kstream.Consumed.equals@POLYN192482 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.kstream.Consumed.equals@POLYN193130 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

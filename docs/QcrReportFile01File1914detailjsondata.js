@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.SinkNode" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#21"
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#36"
  , "c1" : "SinkNode"
  , "c2" : "SinkNode(String;TopicNameExtractor<KIn,VIn>;Serializer<KIn>;Serializer<VIn>;StreamPartitioner<?superKIn,?superVIn>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#36"
+ , "c5" : "00053"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#53"
  , "c1" : "void"
  , "c2" : "addChild(ProcessorNode<Void,Void,?,?>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#41"
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#58"
  , "c1" : "void"
  , "c2" : "init(InternalProcessorContext<Void,Void>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#49"
+ , "c5" : "00066"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#66"
  , "c1" : "void"
  , "c2" : "process(Record<KIn,VIn>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#83"
+ , "c5" : "00102"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#102"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#89"
+ , "c5" : "00110"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#110"
  , "c1" : "String"
  , "c2" : "toString(String)"
  , "c3" : "1"
@@ -127,66 +127,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#36"
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method addChild arguments ProcessorNode&lt;Void ,Void ,? ,? &gt;  child"
+ , "c3" : "QC-JAV000006[00053] For method addChild arguments ProcessorNode&lt;Void ,Void ,? ,? &gt;  child"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#37"
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.processor.internals.SinkNode.addChild@POLYN156179 the MagicNumber/String  'sink node does not allow addChild' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.processor.internals.SinkNode.addChild@POLYN156305 the MagicNumber/String  'sink node does not allow addChild' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#41"
+ , "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method init arguments InternalProcessorContext&lt;Void ,Void &gt;  context"
+ , "c3" : "QC-JAV000006[00058] For method init arguments InternalProcessorContext&lt;Void ,Void &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#49"
+ , "c1" : "00066"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method process arguments Record&lt;KIn ,VIn &gt;  record"
+ , "c3" : "QC-JAV000006[00066] For method process arguments Record&lt;KIn ,VIn &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#49"
+ , "c1" : "00066"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#66"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00049] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00066] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#84"
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.internals.SinkNode.toString@POLYN158196 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.processor.internals.SinkNode.toString@POLYN158322 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#89"
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00089] For method toString arguments String  indent"
+ , "c3" : "QC-JAV000006[00110] For method toString arguments String  indent"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#91"
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.processor.internals.SinkNode.toString@POLYN158403 the MagicNumber/String  '\ttopic:\t\t' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.processor.internals.SinkNode.toString@POLYN158529 the MagicNumber/String  '\ttopic:\t\t' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#93"
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.processor.internals.SinkNode.toString@POLYN158403 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.processor.internals.SinkNode.toString@POLYN158529 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ]
 , 

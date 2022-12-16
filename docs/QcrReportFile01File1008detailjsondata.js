@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.json.JsonConverterConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#54"
+ , "c5" : "00071"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#71"
  , "c1" : "ConfigDef"
  , "c2" : "configDef()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#63"
+ , "c5" : "00080"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#80"
  , "c1" : "JsonConverterConfig"
  , "c2" : "JsonConverterConfig(Map<String,?>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#71"
+ , "c5" : "00092"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#92"
  , "c1" : "boolean"
  , "c2" : "schemasEnabled()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#76"
+ , "c5" : "00101"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#101"
  , "c1" : "int"
  , "c2" : "schemaCacheSize()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#81"
+ , "c5" : "00110"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#110"
  , "c1" : "DecimalFormat"
  , "c2" : "decimalFormat()"
  , "c3" : "1"

@@ -2,12 +2,12 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.TopicPartitionMetadata"
 class org.apache.kafka.streams.processor.internals.TopicPartitionMetadata {
-+TopicPartitionMetadata(long;ProcessorMetadata) : TopicPartitionMetadata [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#21]]]
-+partitionTime() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#27]]]
-+processorMetadata() : ProcessorMetadata [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#31]]]
-+encode() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#35]]]
-+decode(String) : TopicPartitionMetadata [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#45]]]
-+hashCode() : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#79]]]
-+equals(Object) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#84]]]
++TopicPartitionMetadata(long;ProcessorMetadata) : TopicPartitionMetadata [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#38]]]
++partitionTime() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#44]]]
++processorMetadata() : ProcessorMetadata [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#48]]]
++encode() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#52]]]
++decode(String) : TopicPartitionMetadata [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#62]]]
++hashCode() : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#96]]]
++equals(Object) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#101]]]
 } 
 @enduml

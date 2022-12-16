@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.RenewDelegationTokenOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenOptions.java.html#12"
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenOptions.java.html#31"
  , "c1" : "RenewDelegationTokenOptions"
  , "c2" : "renewTimePeriodMs(long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenOptions.java.html#17"
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenOptions.java.html#36"
  , "c1" : "long"
  , "c2" : "renewTimePeriodMs()"
  , "c3" : "1"
@@ -77,10 +77,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenOptions.java.html#12"
+ , "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenOptions.java.html#31"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00012] For method renewTimePeriodMs arguments long  renewTimePeriodMs"
+ , "c3" : "QC-JAV000006[00031] For method renewTimePeriodMs arguments long  renewTimePeriodMs"
 }} 
 ]
 , 

@@ -2,9 +2,9 @@
 !pragma layout smetana
 "SourceTask" <|-- "org.apache.kafka.connect.tools.SchemaSourceTask"
 class org.apache.kafka.connect.tools.SchemaSourceTask {
-+version() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceTask.java.html#68]]]
-+start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceTask.java.html#73]]]
-+poll() : List<SourceRecord> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceTask.java.html#101]]]
-+stop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceTask.java.html#150]]]
++version() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceTask.java.html#83]]]
++start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceTask.java.html#88]]]
++poll() : List<SourceRecord> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceTask.java.html#116]]]
++stop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceTask.java.html#165]]]
 } 
 @enduml

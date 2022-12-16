@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.Config"
 class org.apache.kafka.clients.admin.Config {
-+Config(Collection<ConfigEntry>) : Config [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/Config.java.html#19]]]
-+entries() : Collection<ConfigEntry> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/Config.java.html#26]]]
-+get(String) : ConfigEntry [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/Config.java.html#31]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/Config.java.html#36]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/Config.java.html#48]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/Config.java.html#53]]]
++Config(Collection<ConfigEntry>) : Config [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/Config.java.html#40]]]
++entries() : Collection<ConfigEntry> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/Config.java.html#49]]]
++get(String) : ConfigEntry [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/Config.java.html#56]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/Config.java.html#61]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/Config.java.html#73]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/Config.java.html#78]]]
 } 
 @enduml

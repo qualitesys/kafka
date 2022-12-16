@@ -2,10 +2,10 @@
 !pragma layout smetana
 "DefaultReplicationPolicy" <|-- "org.apache.kafka.connect.mirror.IdentityReplicationPolicy"
 class org.apache.kafka.connect.mirror.IdentityReplicationPolicy {
-+configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#18]]]
-+formatRemoteTopic(String;String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#28]]]
-+topicSource(String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#38]]]
-+upstreamTopic(String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#48]]]
--looksLikeHeartbeat(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#56]]]
++configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#39]]]
++formatRemoteTopic(String;String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#53]]]
++topicSource(String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#72]]]
++upstreamTopic(String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#87]]]
+-looksLikeHeartbeat(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#95]]]
 } 
 @enduml

@@ -2,14 +2,14 @@
 !pragma layout smetana
 "SourceConnector" <|-- "org.apache.kafka.connect.mirror.MirrorHeartbeatConnector"
 class org.apache.kafka.connect.mirror.MirrorHeartbeatConnector {
-+MirrorHeartbeatConnector() : MirrorHeartbeatConnector [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#19]]]
-MirrorHeartbeatConnector(MirrorConnectorConfig) : MirrorHeartbeatConnector [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#24]]]
-+start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#29]]]
-+stop() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#36]]]
-+taskClass() : Class<?extendsTask> [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#41]]]
-+taskConfigs(int) : List<Map<String,String>> [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#46]]]
-+config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#57]]]
-+version() : String [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#62]]]
--createInternalTopics() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#66]]]
++MirrorHeartbeatConnector() : MirrorHeartbeatConnector [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#35]]]
+MirrorHeartbeatConnector(MirrorConnectorConfig) : MirrorHeartbeatConnector [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#40]]]
++start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#45]]]
++stop() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#52]]]
++taskClass() : Class<?extendsTask> [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#57]]]
++taskConfigs(int) : List<Map<String,String>> [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#62]]]
++config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#73]]]
++version() : String [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#78]]]
+-createInternalTopics() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#82]]]
 } 
 @enduml

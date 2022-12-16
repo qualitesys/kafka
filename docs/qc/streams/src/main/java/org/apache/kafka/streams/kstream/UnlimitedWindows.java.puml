@@ -2,14 +2,14 @@
 !pragma layout smetana
 "Windows<UnlimitedWindow>" <|-- "org.apache.kafka.streams.kstream.UnlimitedWindows"
 class org.apache.kafka.streams.kstream.UnlimitedWindows {
--UnlimitedWindows(long) : UnlimitedWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#24]]]
-+of() : UnlimitedWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#29]]]
-+startOn(Instant) : UnlimitedWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#34]]]
-+windowsFor(long) : Map<Long,UnlimitedWindow> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#44]]]
-+size() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#57]]]
-+gracePeriodMs() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#62]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#67]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#79]]]
-+toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#84]]]
+-UnlimitedWindows(long) : UnlimitedWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#53]]]
++of() : UnlimitedWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#60]]]
++startOn(Instant) : UnlimitedWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#71]]]
++windowsFor(long) : Map<Long,UnlimitedWindow> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#81]]]
++size() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#99]]]
++gracePeriodMs() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#104]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#109]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#121]]]
++toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#126]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeConsumerGroupsOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsOptions.java.html#14"
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsOptions.java.html#33"
  , "c1" : "DescribeConsumerGroupsOptions"
  , "c2" : "includeAuthorizedOperations(boolean)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsOptions.java.html#19"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsOptions.java.html#38"
  , "c1" : "boolean"
  , "c2" : "includeAuthorizedOperations()"
  , "c3" : "1"
@@ -77,10 +77,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsOptions.java.html#14"
+ , "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsOptions.java.html#33"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00014] For method includeAuthorizedOperations arguments boolean  includeAuthorizedOperations"
+ , "c3" : "QC-JAV000006[00033] For method includeAuthorizedOperations arguments boolean  includeAuthorizedOperations"
 }} 
 ]
 , 

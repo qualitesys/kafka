@@ -2,12 +2,12 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.connect.data.Field"
 class org.apache.kafka.connect.data.Field {
-+Field(String;int;Schema) : Field [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#12]]]
-+name() : String [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#19]]]
-+index() : int [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#25]]]
-+schema() : Schema [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#30]]]
-+equals(Object) : boolean [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#35]]]
-+hashCode() : int [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#45]]]
-+toString() : String [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#50]]]
++Field(String;int;Schema) : Field [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#31]]]
++name() : String [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#41]]]
++index() : int [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#50]]]
++schema() : Schema [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#58]]]
++equals(Object) : boolean [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#63]]]
++hashCode() : int [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#73]]]
++toString() : String [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#78]]]
 } 
 @enduml

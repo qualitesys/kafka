@@ -18,55 +18,10 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.storage.ConfigBackingStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#32"
  , "c1" : "void"
  , "c2" : "start()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#19"
- , "c1" : "void"
- , "c2" : "stop()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#22"
- , "c1" : "ClusterConfigState"
- , "c2" : "snapshot()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#25"
- , "c1" : "boolean"
- , "c2" : "contains(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#28"
- , "c1" : "void"
- , "c2" : "putConnectorConfig(String;Map<String,String>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#31"
- , "c1" : "void"
- , "c2" : "removeConnectorConfig(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,61 +30,25 @@ var maDataBlocs = {
  , "c5" : "00034"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#34"
  , "c1" : "void"
- , "c2" : "putTaskConfigs(String;List<Map<String,String>>)"
+ , "c2" : "stop()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#37"
- , "c1" : "void"
- , "c2" : "removeTaskConfigs(String)"
+ , "c5" : "00041"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#41"
+ , "c1" : "ClusterConfigState"
+ , "c2" : "snapshot()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#40"
- , "c1" : "void"
- , "c2" : "refresh(long;TimeUnit)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#43"
- , "c1" : "void"
- , "c2" : "putTargetState(String;TargetState)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#46"
- , "c1" : "void"
- , "c2" : "putSessionKey(SessionKey)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#49"
- , "c1" : "void"
- , "c2" : "putRestartRequest(RestartRequest)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#52"
- , "c1" : "void"
- , "c2" : "putTaskCountRecord(String;int)"
+ , "c5" : "00048"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#48"
+ , "c1" : "boolean"
+ , "c2" : "contains(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -138,14 +57,95 @@ var maDataBlocs = {
  , "c5" : "00055"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#55"
  , "c1" : "void"
+ , "c2" : "putConnectorConfig(String;Map<String,String>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#61"
+ , "c1" : "void"
+ , "c2" : "removeConnectorConfig(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#68"
+ , "c1" : "void"
+ , "c2" : "putTaskConfigs(String;List<Map<String,String>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00074"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#74"
+ , "c1" : "void"
+ , "c2" : "removeTaskConfigs(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#83"
+ , "c1" : "void"
+ , "c2" : "refresh(long;TimeUnit)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#90"
+ , "c1" : "void"
+ , "c2" : "putTargetState(String;TargetState)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00096"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#96"
+ , "c1" : "void"
+ , "c2" : "putSessionKey(SessionKey)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00102"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#102"
+ , "c1" : "void"
+ , "c2" : "putRestartRequest(RestartRequest)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00109"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#109"
+ , "c1" : "void"
+ , "c2" : "putTaskCountRecord(String;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00117"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#117"
+ , "c1" : "void"
  , "c2" : "claimWritePrivileges()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#59"
+ , "c5" : "00125"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#125"
  , "c1" : "void"
  , "c2" : "setUpdateListener(UpdateListener)"
  , "c3" : "1"

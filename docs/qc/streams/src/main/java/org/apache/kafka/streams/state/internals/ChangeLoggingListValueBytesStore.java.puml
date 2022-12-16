@@ -2,8 +2,8 @@
 !pragma layout smetana
 "ChangeLoggingKeyValueBytesStore" <|-- "org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore"
 class org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore {
-ChangeLoggingListValueBytesStore(KeyValueStore<Bytes,byte[]>) : ChangeLoggingListValueBytesStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#9]]]
-+put(Bytes;byte[]) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#14]]]
-+putIfAbsent(Bytes;byte[]) : byte[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#27]]]
+ChangeLoggingListValueBytesStore(KeyValueStore<Bytes,byte[]>) : ChangeLoggingListValueBytesStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#24]]]
++put(Bytes;byte[]) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#29]]]
++putIfAbsent(Bytes;byte[]) : byte[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.html#42]]]
 } 
 @enduml

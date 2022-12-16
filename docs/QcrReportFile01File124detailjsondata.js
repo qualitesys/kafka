@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.NewTopic" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#28"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#47"
  , "c1" : "NewTopic"
  , "c2" : "NewTopic(String;int;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#33"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#56"
  , "c1" : "NewTopic"
  , "c2" : "NewTopic(String;Optional<Integer>;Optional<Short>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#41"
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#70"
  , "c1" : "NewTopic"
  , "c2" : "NewTopic(String;Map<Integer,List<Integer>>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#49"
+ , "c5" : "00080"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#80"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#54"
+ , "c5" : "00087"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#87"
  , "c1" : "int"
  , "c2" : "numPartitions()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#59"
+ , "c5" : "00094"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#94"
  , "c1" : "short"
  , "c2" : "replicationFactor()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#64"
+ , "c5" : "00102"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#102"
  , "c1" : "Map<Integer,List<Integer>>"
  , "c2" : "replicasAssignments()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#69"
+ , "c5" : "00112"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#112"
  , "c1" : "NewTopic"
  , "c2" : "configs(Map<String,String>)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#75"
+ , "c5" : "00120"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#120"
  , "c1" : "Map<String,String>"
  , "c2" : "configs()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#79"
+ , "c5" : "00124"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#124"
  , "c1" : "CreatableTopic"
  , "c2" : "convertToCreatableTopic()"
  , "c3" : "5"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#104"
+ , "c5" : "00149"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#149"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00116"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#116"
+ , "c5" : "00161"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#161"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00128"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#128"
+ , "c5" : "00173"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#173"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -197,136 +197,136 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#37"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.admin.NewTopic.NewTopic@POLYN168557 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.admin.NewTopic.NewTopic@POLYN168827 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#69"
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method configs arguments Map&lt;String ,String &gt;  configs"
+ , "c3" : "QC-JAV000006[00112] For method configs arguments Map&lt;String ,String &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#84"
+ , "c1" : "00129"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.admin.NewTopic.convertToCreatableTopic@POLYN170981 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.admin.NewTopic.convertToCreatableTopic@POLYN171251 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#92"
+ , "c1" : "00137"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.clients.admin.NewTopic.convertToCreatableTopic@POLYN170981 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.clients.admin.NewTopic.convertToCreatableTopic@POLYN171251 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#106"
+ , "c1" : "00151"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.clients.admin.NewTopic.toString@POLYN172263 the MagicNumber/String  '(name=' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.admin.NewTopic.toString@POLYN172533 the MagicNumber/String  '(name=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#107"
+ , "c1" : "00152"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.clients.admin.NewTopic.toString@POLYN172263 the MagicNumber/String  ', numPartitions=' should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.admin.NewTopic.toString@POLYN172533 the MagicNumber/String  ', numPartitions=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#107"
+ , "c1" : "00152"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.clients.admin.NewTopic.toString@POLYN172263 the MagicNumber/String  'default' should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.admin.NewTopic.toString@POLYN172533 the MagicNumber/String  'default' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#108"
+ , "c1" : "00153"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.clients.admin.NewTopic.toString@POLYN172263 the MagicNumber/String  ', replicationFactor=' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.admin.NewTopic.toString@POLYN172533 the MagicNumber/String  ', replicationFactor=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#108"
+ , "c1" : "00153"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.clients.admin.NewTopic.toString@POLYN172263 the MagicNumber/String  'default' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.admin.NewTopic.toString@POLYN172533 the MagicNumber/String  'default' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#109"
+ , "c1" : "00154"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.clients.admin.NewTopic.toString@POLYN172263 the MagicNumber/String  ', replicasAssignments=' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.clients.admin.NewTopic.toString@POLYN172533 the MagicNumber/String  ', replicasAssignments=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#110"
+ , "c1" : "00155"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.admin.NewTopic.toString@POLYN172263 the MagicNumber/String  ', configs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.clients.admin.NewTopic.toString@POLYN172533 the MagicNumber/String  ', configs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#111"
+ , "c1" : "00156"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.admin.NewTopic.toString@POLYN172263 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.clients.admin.NewTopic.toString@POLYN172533 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#116"
+ , "c1" : "00161"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00161] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#118"
+ , "c1" : "00163"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00118] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00163] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#117"
+ , "c1" : "00162"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.clients.admin.NewTopic.equals@POLYN173114 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.clients.admin.NewTopic.equals@POLYN173384 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#118"
+ , "c1" : "00163"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.clients.admin.NewTopic.equals@POLYN173114 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.clients.admin.NewTopic.equals@POLYN173384 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#118"
+ , "c1" : "00163"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.clients.admin.NewTopic.equals@POLYN173114 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.clients.admin.NewTopic.equals@POLYN173384 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#69"
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#112"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00069] Public method configs is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00112] Public method configs is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#75"
+ , "c1" : "00120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00075] Public method configs is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00120] Public method configs is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

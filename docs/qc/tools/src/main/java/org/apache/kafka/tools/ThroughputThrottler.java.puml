@@ -2,9 +2,9 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.tools.ThroughputThrottler"
 class org.apache.kafka.tools.ThroughputThrottler {
-+ThroughputThrottler(long;long) : ThroughputThrottler [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94]]]
-+shouldThrottle(long;long) : boolean [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94]]]
-+throttle() : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94]]]
-+wakeup() : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94]]]
++ThroughputThrottler(long;long) : ThroughputThrottler [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127]]]
++shouldThrottle(long;long) : boolean [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127]]]
++throttle() : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127]]]
++wakeup() : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#127]]]
 } 
 @enduml

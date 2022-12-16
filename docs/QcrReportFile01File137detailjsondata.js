@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.SupportedVersionRange" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#13"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#38"
  , "c1" : "SupportedVersionRange"
  , "c2" : "SupportedVersionRange(short;short)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#25"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#50"
  , "c1" : "short"
  , "c2" : "minVersion()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#29"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#54"
  , "c1" : "short"
  , "c2" : "maxVersion()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#34"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#59"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#48"
+ , "c5" : "00073"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#73"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#53"
+ , "c5" : "00078"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#78"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -127,66 +127,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#14"
+ , "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.clients.admin.SupportedVersionRange.SupportedVersionRange@POLYN147310 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.SupportedVersionRange.SupportedVersionRange@POLYN147460 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#14"
+ , "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.clients.admin.SupportedVersionRange.SupportedVersionRange@POLYN147310 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.SupportedVersionRange.SupportedVersionRange@POLYN147460 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#17"
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.clients.admin.SupportedVersionRange.SupportedVersionRange@POLYN147310 the MagicNumber/String  'Expected 1 &amp;lt;= minVersion &amp;lt;= maxVersion but received minVersion:%d, maxVersion:%d.' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.admin.SupportedVersionRange.SupportedVersionRange@POLYN147460 the MagicNumber/String  'Expected 1 &amp;lt;= minVersion &amp;lt;= maxVersion but received minVersion:%d, maxVersion:%d.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#34"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method equals arguments Object  other"
+ , "c3" : "QC-JAV000006[00059] For method equals arguments Object  other"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#39"
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00039] The same method call other.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00064] The same method call other.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#36"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.admin.SupportedVersionRange.equals@POLYN148048 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.admin.SupportedVersionRange.equals@POLYN148198 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#39"
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.SupportedVersionRange.equals@POLYN148048 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.admin.SupportedVersionRange.equals@POLYN148198 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#40"
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.admin.SupportedVersionRange.equals@POLYN148048 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.admin.SupportedVersionRange.equals@POLYN148198 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#54"
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.SupportedVersionRange.toString@POLYN148806 the MagicNumber/String  'SupportedVersionRange[min_version:%d, max_version:%d]' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.admin.SupportedVersionRange.toString@POLYN148956 the MagicNumber/String  'SupportedVersionRange[min_version:%d, max_version:%d]' should be converted to const"
 }} 
 ]
 , 

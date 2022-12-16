@@ -2,15 +2,15 @@
 !pragma layout smetana
 "ReadOnlySessionStore<K,V>" <|-- "org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore"
 class org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore {
-+CompositeReadOnlySessionStore(StateStoreProvider;QueryableStoreType<ReadOnlySessionStore<K,V>>;String) : CompositeReadOnlySessionStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#19]]]
-+findSessions(K;long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#28]]]
-+backwardFindSessions(K;long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#56]]]
-+findSessions(K;K;long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#82]]]
-+backwardFindSessions(K;K;long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#109]]]
-+fetchSession(K;long;long) : V [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#136]]]
-+fetch(K) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#155]]]
-+backwardFetch(K) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#177]]]
-+fetch(K;K) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#201]]]
-+backwardFetch(K;K) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#211]]]
++CompositeReadOnlySessionStore(StateStoreProvider;QueryableStoreType<ReadOnlySessionStore<K,V>>;String) : CompositeReadOnlySessionStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#37]]]
++findSessions(K;long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#46]]]
++backwardFindSessions(K;long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#74]]]
++findSessions(K;K;long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#100]]]
++backwardFindSessions(K;K;long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#127]]]
++fetchSession(K;long;long) : V [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#154]]]
++fetch(K) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#173]]]
++backwardFetch(K) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#195]]]
++fetch(K;K) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#219]]]
++backwardFetch(K;K) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#229]]]
 } 
 @enduml

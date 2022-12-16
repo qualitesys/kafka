@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.LazyDownConversionRecordsSend" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#25"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#43"
  , "c1" : "LazyDownConversionRecordsSend"
  , "c2" : "LazyDownConversionRecordsSend(LazyDownConversionRecords)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#32"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#50"
  , "c1" : "MemoryRecords"
  , "c2" : "buildOverflowBatch(int)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#52"
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#70"
  , "c1" : "long"
  , "c2" : "writeTo(TransferableChannel;long;int)"
  , "c3" : "4"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#81"
+ , "c5" : "00099"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#99"
  , "c1" : "RecordConversionStats"
  , "c2" : "recordConversionStats()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#85"
+ , "c5" : "00103"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#103"
  , "c1" : "TopicPartition"
  , "c2" : "topicPartition()"
  , "c3" : "1"
@@ -141,108 +141,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#25"
+ , "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#43"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00025] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00043] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#27"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.record.LazyDownConversionRecordsSend.LazyDownConversionRecordsSend@POLYN152568 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.record.LazyDownConversionRecordsSend.LazyDownConversionRecordsSend@POLYN152676 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#32"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method buildOverflowBatch arguments int  remaining"
+ , "c3" : "QC-JAV000006[00050] For method buildOverflowBatch arguments int  remaining"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#41"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN152976 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN153084 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#42"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN152976 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN153084 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#46"
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN152976 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN153084 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#47"
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN152976 the MagicNumber/String  'Constructed overflow message batch for partition {} with length={}' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN153084 the MagicNumber/String  'Constructed overflow message batch for partition {} with length={}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#52"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method writeTo arguments TransferableChannel  channel|long  previouslyWritten|int  remaining"
+ , "c3" : "QC-JAV000006[00070] For method writeTo arguments TransferableChannel  channel|long  previouslyWritten|int  remaining"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#53"
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.record.LazyDownConversionRecordsSend.writeTo@POLYN153752 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.record.LazyDownConversionRecordsSend.writeTo@POLYN153860 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#63"
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.record.LazyDownConversionRecordsSend.writeTo@POLYN153752 the MagicNumber/String  'Down-converted records for partition {} with length={}' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.record.LazyDownConversionRecordsSend.writeTo@POLYN153860 the MagicNumber/String  'Down-converted records for partition {} with length={}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN152976"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN153084"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#41"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#59"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00041] In the recursive method org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN152976 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN153084 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#42"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#60"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN152976 the MagicNumber/String 1L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN153084 the MagicNumber/String 1L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#46"
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#64"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN152976 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN153084 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#47"
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecordsSend.java.html#65"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN152976 the MagicNumber/String 'Constructed overflow message batch for partition {} with length={}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.common.record.LazyDownConversionRecordsSend.buildOverflowBatch@POLYN153084 the MagicNumber/String 'Constructed overflow message batch for partition {} with length={}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

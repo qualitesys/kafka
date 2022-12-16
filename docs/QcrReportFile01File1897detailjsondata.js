@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.ProcessorNode" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#37"
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#52"
  , "c1" : "ProcessorNode"
  , "c2" : "ProcessorNode(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#56"
  , "c1" : "ProcessorNode"
  , "c2" : "ProcessorNode(String;Processor<KIn,VIn,KOut,VOut>;Set<String>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#54"
+ , "c5" : "00069"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#69"
  , "c1" : "ProcessorNode"
  , "c2" : "ProcessorNode(String;FixedKeyProcessor<KIn,VIn,VOut>;Set<String>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#67"
+ , "c5" : "00082"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#82"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#71"
+ , "c5" : "00086"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#86"
  , "c1" : "List<ProcessorNode<KOut,VOut,?,?>>"
  , "c2" : "children()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#75"
+ , "c5" : "00090"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#90"
  , "c1" : "ProcessorNode<KOut,VOut,?,?>"
  , "c2" : "getChild(String)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#79"
+ , "c5" : "00094"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#94"
  , "c1" : "void"
  , "c2" : "addChild(ProcessorNode<KOut,VOut,?,?>)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#84"
+ , "c5" : "00099"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#99"
  , "c1" : "void"
  , "c2" : "init(InternalProcessorContext<KOut,VOut>)"
  , "c3" : "4"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00108"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#108"
+ , "c5" : "00123"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#123"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "3"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00130"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#130"
+ , "c5" : "00145"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#145"
  , "c1" : "void"
  , "c2" : "throwIfClosed()"
  , "c3" : "2"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00137"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#137"
+ , "c5" : "00152"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#152"
  , "c1" : "void"
  , "c2" : "process(Record<KIn,VIn>)"
  , "c3" : "5"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00170"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#170"
+ , "c5" : "00185"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#185"
  , "c1" : "void"
  , "c2" : "punctuate(long;Punctuator)"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00174"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#174"
+ , "c5" : "00189"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#189"
  , "c1" : "boolean"
  , "c2" : "isTerminalNode()"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00180"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#180"
+ , "c5" : "00197"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#197"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00185"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#185"
+ , "c5" : "00204"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#204"
  , "c1" : "String"
  , "c2" : "toString(String)"
  , "c3" : "3"
@@ -215,339 +215,339 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#38"
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.processor.internals.ProcessorNode.ProcessorNode@POLYN170727 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.processor.internals.ProcessorNode.ProcessorNode@POLYN170841 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#38"
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.processor.internals.ProcessorNode.ProcessorNode@POLYN170727 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.processor.internals.ProcessorNode.ProcessorNode@POLYN170841 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#47"
+ , "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.processor.internals.ProcessorNode.ProcessorNode@POLYN170983 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.ProcessorNode.ProcessorNode@POLYN171097 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#59"
+ , "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.processor.internals.ProcessorNode.ProcessorNode@POLYN171719 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.processor.internals.ProcessorNode.ProcessorNode@POLYN171833 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#75"
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#90"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method getChild arguments String  childName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#79"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method addChild arguments ProcessorNode&lt;KOut ,VOut ,? ,? &gt;  child"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#79"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00079] The argument child is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#84"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method init arguments InternalProcessorContext&lt;KOut ,VOut &gt;  context"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN173194 the MagicNumber/String  'The processor is not closed' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN173194 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000006[00090] For method getChild arguments String  childName"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN173194 the MagicNumber/String  null should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00094] For method addChild arguments ProcessorNode&lt;KOut ,VOut ,? ,? &gt;  child"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN173194 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#94"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00094] The argument child is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN173194 the MagicNumber/String  'failed to initialize processor %s' should be converted to const"
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#99"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00099] For method init arguments InternalProcessorContext&lt;KOut ,VOut &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#105"
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN173194 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN173308 the MagicNumber/String  'The processor is not closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#112"
+ , "c1" : "00106"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.processor.internals.ProcessorNode.close@POLYN174336 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN173308 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN173308 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN173308 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.processor.internals.ProcessorNode.close@POLYN174336 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN173308 the MagicNumber/String  'failed to initialize processor %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#124"
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.processor.internals.ProcessorNode.close@POLYN174336 the MagicNumber/String  'failed to close processor %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN173308 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.processor.internals.ProcessorNode.close@POLYN174336 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.processor.internals.ProcessorNode.close@POLYN174450 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#132"
+ , "c1" : "00130"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.processor.internals.ProcessorNode.throwIfClosed@POLYN175135 the MagicNumber/String  'The processor is already closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.processor.internals.ProcessorNode.close@POLYN174450 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#137"
+ , "c1" : "00139"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#139"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.processor.internals.ProcessorNode.close@POLYN174450 the MagicNumber/String  'failed to close processor %s' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00142"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#142"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.processor.internals.ProcessorNode.close@POLYN174450 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00147"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#147"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.processor.internals.ProcessorNode.throwIfClosed@POLYN175249 the MagicNumber/String  'The processor is already closed' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00152"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#152"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method process arguments Record&lt;KIn ,VIn &gt;  record"
+ , "c3" : "QC-JAV000006[00152] For method process arguments Record&lt;KIn ,VIn &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#137"
+ , "c1" : "00152"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#152"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00137] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175301 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#143"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175301 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175301 the MagicNumber/String  'neither the processor nor the fixed key processor were set.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175301 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175301 the MagicNumber/String  'unknown because key is null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#154"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175301 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#154"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175301 the MagicNumber/String  'unknown because value is null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#155"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175301 the MagicNumber/String  'ClassCastException invoking processor: %s. Do the Processor's ' should be converted to const"
+ , "c3" : "QC-JAVCWE476[00152] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00156"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175301 the MagicNumber/String  'input types match the deserialized types? Check the Serde setup and change the default Serdes in ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#157"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175301 the MagicNumber/String  'StreamConfig or provide correct Serdes via method parameters. Make sure the Processor can accept ' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175415 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175301 the MagicNumber/String  'the deserialized input of type key: %s, and value: %s.%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175415 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#159"
+ , "c1" : "00164"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175301 the MagicNumber/String  'Note that although incorrect Serdes are a common cause of error, the cast exception might have ' should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175415 the MagicNumber/String  'neither the processor nor the fixed key processor were set.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#160"
+ , "c1" : "00168"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175301 the MagicNumber/String  'another cause (in user code, for example). For example, if a processor wires in a store, but casts ' should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175415 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#161"
+ , "c1" : "00168"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175301 the MagicNumber/String  'the generics incorrectly, a class cast exception could be raised during processing, but the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175415 the MagicNumber/String  'unknown because key is null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#162"
+ , "c1" : "00169"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175301 the MagicNumber/String  'cause would not be wrong Serdes.' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175415 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175415 the MagicNumber/String  'unknown because value is null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#170"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00170] For method punctuate arguments long  timestamp|Punctuator  punctuator"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#170"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00170] The argument punctuator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.processor.internals.ProcessorNode.toString@POLYN177177 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175415 the MagicNumber/String  'ClassCastException invoking processor: %s. Do the Processor's ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#171"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175415 the MagicNumber/String  'input types match the deserialized types? Check the Serde setup and change the default Serdes in ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175415 the MagicNumber/String  'StreamConfig or provide correct Serdes via method parameters. Make sure the Processor can accept ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00173"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#173"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175415 the MagicNumber/String  'the deserialized input of type key: %s, and value: %s.%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00174"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#174"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175415 the MagicNumber/String  'Note that although incorrect Serdes are a common cause of error, the cast exception might have ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#175"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175415 the MagicNumber/String  'another cause (in user code, for example). For example, if a processor wires in a store, but casts ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00176"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#176"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175415 the MagicNumber/String  'the generics incorrectly, a class cast exception could be raised during processing, but the ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN175415 the MagicNumber/String  'cause would not be wrong Serdes.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00185"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#185"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00185] For method toString arguments String  indent"
+ , "c3" : "QC-JAV000006[00185] For method punctuate arguments long  timestamp|Punctuator  punctuator"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#186"
+ , "c1" : "00185"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#185"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00185] The argument punctuator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00198"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.processor.internals.ProcessorNode.toString@POLYN177370 the MagicNumber/String  ':\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.streams.processor.internals.ProcessorNode.toString@POLYN177291 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#187"
+ , "c1" : "00204"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#204"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00204] For method toString arguments String  indent"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00205"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.processor.internals.ProcessorNode.toString@POLYN177370 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.processor.internals.ProcessorNode.toString@POLYN177484 the MagicNumber/String  ':\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#188"
+ , "c1" : "00206"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.processor.internals.ProcessorNode.toString@POLYN177370 the MagicNumber/String  '\tstates:\t\t[' should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.processor.internals.ProcessorNode.toString@POLYN177484 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#191"
+ , "c1" : "00207"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.processor.internals.ProcessorNode.toString@POLYN177370 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.streams.processor.internals.ProcessorNode.toString@POLYN177484 the MagicNumber/String  '\tstates:\t\t[' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#193"
+ , "c1" : "00210"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.processor.internals.ProcessorNode.toString@POLYN177370 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.streams.processor.internals.ProcessorNode.toString@POLYN177484 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#194"
+ , "c1" : "00212"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.streams.processor.internals.ProcessorNode.toString@POLYN177370 the MagicNumber/String  ']\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.processor.internals.ProcessorNode.toString@POLYN177484 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#180"
+ , "c1" : "00213"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#213"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.processor.internals.ProcessorNode.toString@POLYN177484 the MagicNumber/String  ']\n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00197"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#197"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00180] Public method toString is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00197] Public method toString is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#170"
+ , "c1" : "00185"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#185"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00170] Public method punctuate is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00185] Public method punctuate is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

@@ -2,16 +2,16 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.TopicDescription"
 class org.apache.kafka.clients.admin.TopicDescription {
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#24]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#35]]]
-+TopicDescription(String;boolean;List<TopicPartitionInfo>) : TopicDescription [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#40]]]
-+TopicDescription(String;boolean;List<TopicPartitionInfo>;Set<AclOperation>) : TopicDescription [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#45]]]
-+TopicDescription(String;boolean;List<TopicPartitionInfo>;Set<AclOperation>;Uuid) : TopicDescription [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#51]]]
-+name() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#61]]]
-+isInternal() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#66]]]
-+topicId() : Uuid [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#70]]]
-+partitions() : List<TopicPartitionInfo> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#75]]]
-+authorizedOperations() : Set<AclOperation> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#80]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#85]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#41]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#52]]]
++TopicDescription(String;boolean;List<TopicPartitionInfo>) : TopicDescription [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#64]]]
++TopicDescription(String;boolean;List<TopicPartitionInfo>;Set<AclOperation>) : TopicDescription [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#77]]]
++TopicDescription(String;boolean;List<TopicPartitionInfo>;Set<AclOperation>;Uuid) : TopicDescription [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#92]]]
++name() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#104]]]
++isInternal() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#112]]]
++topicId() : Uuid [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#116]]]
++partitions() : List<TopicPartitionInfo> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#124]]]
++authorizedOperations() : Set<AclOperation> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#131]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#136]]]
 } 
 @enduml

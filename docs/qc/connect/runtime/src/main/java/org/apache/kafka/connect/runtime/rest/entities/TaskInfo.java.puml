@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.connect.runtime.rest.entities.TaskInfo"
 class org.apache.kafka.connect.runtime.rest.entities.TaskInfo {
-+TaskInfo(ConnectorTaskId;Map<String,String>) : TaskInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#14]]]
-+id() : ConnectorTaskId [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#20]]]
-+config() : Map<String,String> [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#25]]]
-+equals(Object) : boolean [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#30]]]
-+hashCode() : int [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#39]]]
++TaskInfo(ConnectorTaskId;Map<String,String>) : TaskInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#29]]]
++id() : ConnectorTaskId [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#35]]]
++config() : Map<String,String> [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#40]]]
++equals(Object) : boolean [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#45]]]
++hashCode() : int [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#54]]]
 } 
 @enduml

@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.QueryableStoreProvider"
 class org.apache.kafka.streams.state.internals.QueryableStoreProvider {
-+QueryableStoreProvider(GlobalStateStoreProvider) : QueryableStoreProvider [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#19]]]
-+addStoreProviderForThread(String;StreamThreadStateStoreProvider) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#38]]]
-+removeStoreProviderForThread(String) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#42]]]
++QueryableStoreProvider(GlobalStateStoreProvider) : QueryableStoreProvider [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#38]]]
++addStoreProviderForThread(String;StreamThreadStateStoreProvider) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#67]]]
++removeStoreProviderForThread(String) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#71]]]
 } 
 @enduml

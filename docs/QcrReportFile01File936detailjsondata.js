@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.connector.Connector" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#20"
+ , "c5" : "00056"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#56"
  , "c1" : "void"
  , "c2" : "initialize(ConnectorContext)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#25"
+ , "c5" : "00076"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#76"
  , "c1" : "void"
  , "c2" : "initialize(ConnectorContext;List<Map<String,String>>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#32"
+ , "c5" : "00087"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#87"
  , "c1" : "ConnectorContext"
  , "c2" : "context()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#37"
+ , "c5" : "00097"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#97"
  , "c1" : "void"
  , "c2" : "start(Map<String,String>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#40"
+ , "c5" : "00107"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#107"
  , "c1" : "void"
  , "c2" : "reconfigure(Map<String,String>)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#46"
+ , "c5" : "00115"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#115"
  , "c1" : "Class<?extendsTask>"
  , "c2" : "taskClass()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#49"
+ , "c5" : "00124"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#124"
  , "c1" : "List<Map<String,String>>"
  , "c2" : "taskConfigs(int)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#52"
+ , "c5" : "00129"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#129"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#55"
+ , "c5" : "00137"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#137"
  , "c1" : "Config"
  , "c2" : "validate(Map<String,String>)"
  , "c3" : "2"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#67"
+ , "c5" : "00152"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#152"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -179,80 +179,80 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#20"
+ , "c1" : "00056"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00020] For method initialize arguments ConnectorContext  ctx"
+ , "c3" : "QC-JAV000006[00056] For method initialize arguments ConnectorContext  ctx"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#25"
+ , "c1" : "00076"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method initialize arguments ConnectorContext  ctx|List&lt;Map&lt;String ,String &gt; &gt;  taskConfigs"
+ , "c3" : "QC-JAV000006[00076] For method initialize arguments ConnectorContext  ctx|List&lt;Map&lt;String ,String &gt; &gt;  taskConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#37"
+ , "c1" : "00097"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method start arguments Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00097] For method start arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#40"
+ , "c1" : "00107"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method reconfigure arguments Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00107] For method reconfigure arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#49"
+ , "c1" : "00124"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#124"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method taskConfigs arguments int  maxTasks"
+ , "c3" : "QC-JAV000006[00124] For method taskConfigs arguments int  maxTasks"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#55"
+ , "c1" : "00137"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#137"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method validate arguments Map&lt;String ,String &gt;  connectorConfigs"
+ , "c3" : "QC-JAV000006[00137] For method validate arguments Map&lt;String ,String &gt;  connectorConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#57"
+ , "c1" : "00139"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.connector.Connector.validate@POLYN168968 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.connect.connector.Connector.validate@POLYN169478 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#59"
+ , "c1" : "00141"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.connector.Connector.validate@POLYN168968 the MagicNumber/String  '%s.config() must return a ConfigDef that is not null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.connector.Connector.validate@POLYN169478 the MagicNumber/String  '%s.config() must return a ConfigDef that is not null.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.connector.Connector.validate@POLYN168968"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.connector.Connector.validate@POLYN169478"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#57"
+ , "c1" : "00139"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#139"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.connect.connector.Connector.validate@POLYN168968 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.connect.connector.Connector.validate@POLYN169478 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#59"
+ , "c1" : "00141"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#141"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.connect.connector.Connector.validate@POLYN168968 the MagicNumber/String '%s.config-- must return a ConfigDef that is not null.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00141] In the recursive method org.apache.kafka.connect.connector.Connector.validate@POLYN169478 the MagicNumber/String '%s.config-- must return a ConfigDef that is not null.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

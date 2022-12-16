@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.ProcessorContextUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#14"
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#35"
  , "c1" : "ProcessorContextUtils"
  , "c2" : "ProcessorContextUtils()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#17"
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#41"
  , "c1" : "long"
  , "c2" : "currentSystemTime(ProcessorContext)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#22"
+ , "c5" : "00048"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#48"
  , "c1" : "StreamsMetricsImpl"
  , "c2" : "getMetricsImpl(ProcessorContext)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#27"
+ , "c5" : "00055"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#55"
  , "c1" : "StreamsMetricsImpl"
  , "c2" : "getMetricsImpl(StateStoreContext)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#31"
+ , "c5" : "00059"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#59"
  , "c1" : "String"
  , "c2" : "changelogFor(ProcessorContext;String;Boolean)"
  , "c3" : "3"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#42"
+ , "c5" : "00070"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#70"
  , "c1" : "String"
  , "c2" : "changelogFor(StateStoreContext;String;Boolean)"
  , "c3" : "3"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#53"
+ , "c5" : "00081"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#81"
  , "c1" : "String"
  , "c2" : "getPrefix(Map<String,Object>;String)"
  , "c3" : "3"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#65"
+ , "c5" : "00093"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#93"
  , "c1" : "InternalProcessorContext"
  , "c2" : "asInternalProcessorContext(ProcessorContext)"
  , "c3" : "3"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#75"
+ , "c5" : "00103"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#103"
  , "c1" : "InternalProcessorContext"
  , "c2" : "asInternalProcessorContext(StateStoreContext)"
  , "c3" : "3"
@@ -184,185 +184,185 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#17"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method currentSystemTime arguments ProcessorContext  context"
+ , "c3" : "QC-JAV000006[00041] For method currentSystemTime arguments ProcessorContext  context"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#17"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#41"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00017] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00041] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#22"
+ , "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method getMetricsImpl arguments ProcessorContext  context"
+ , "c3" : "QC-JAV000006[00048] For method getMetricsImpl arguments ProcessorContext  context"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#22"
+ , "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#48"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00022] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00048] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#27"
+ , "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method getMetricsImpl arguments StateStoreContext  context"
+ , "c3" : "QC-JAV000006[00055] For method getMetricsImpl arguments StateStoreContext  context"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#27"
+ , "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#55"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00055] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#31"
+ , "c1" : "00059"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method changelogFor arguments ProcessorContext  context|String  storeName|Boolean  newChangelogTopic"
+ , "c3" : "QC-JAV000006[00059] For method changelogFor arguments ProcessorContext  context|String  storeName|Boolean  newChangelogTopic"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#31"
+ , "c1" : "00059"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00031] For method changelogFor list of called methods Object monObjet|java.lang.String getPrefixN155200"
+ , "c3" : "QC-JAV000007[00059] For method changelogFor list of called methods Object monObjet|java.lang.String getPrefixN155368"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#31"
+ , "c1" : "00059"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#59"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00031] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00059] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#35"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.changelogFor@POLYN155039 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#42"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method changelogFor arguments StateStoreContext  context|String  storeName|Boolean  newChangelogTopic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#42"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00042] For method changelogFor list of called methods Object monObjet|java.lang.String getPrefixN155978"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#42"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00042] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.changelogFor@POLYN155817 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#53"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method getPrefix arguments Map&lt;String ,Object &gt;  configs|String  applicationId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.getPrefix@POLYN156595 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#65"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method asInternalProcessorContext arguments ProcessorContext  context"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.changelogFor@POLYN155207 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN157011 the MagicNumber/String  'This component requires internal features of Kafka Streams and must be disabled for unit tests.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method asInternalProcessorContext arguments StateStoreContext  context"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN157306 the MagicNumber/String  'This component requires internal features of Kafka Streams and must be disabled for unit tests.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN157011"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN157306"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorContextUtils.getMetricsImpl@POLYN154682"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorContextUtils.getMetricsImpl@POLYN154884"
+ , "c3" : "QC-JAV000006[00070] For method changelogFor arguments StateStoreContext  context|String  storeName|Boolean  newChangelogTopic"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#70"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN157011 the MagicNumber/String 'This component requires internal features of Kafka Streams and must be disabled for unit tests.' MUST BE CONVERTED to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00070] For method changelogFor list of called methods Object monObjet|java.lang.String getPrefixN156146"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#80"
+ , "c1" : "00070"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#70"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00070] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.changelogFor@POLYN155985 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#81"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00081] For method getPrefix arguments Map&lt;String ,Object &gt;  configs|String  applicationId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.getPrefix@POLYN156763 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#93"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00093] For method asInternalProcessorContext arguments ProcessorContext  context"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN157179 the MagicNumber/String  'This component requires internal features of Kafka Streams and must be disabled for unit tests.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#103"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00103] For method asInternalProcessorContext arguments StateStoreContext  context"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN157474 the MagicNumber/String  'This component requires internal features of Kafka Streams and must be disabled for unit tests.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN157179"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN157474"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorContextUtils.getMetricsImpl@POLYN154850"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorContextUtils.getMetricsImpl@POLYN155052"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#98"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN157306 the MagicNumber/String 'This component requires internal features of Kafka Streams and must be disabled for unit tests.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN157179 the MagicNumber/String 'This component requires internal features of Kafka Streams and must be disabled for unit tests.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#108"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN157474 the MagicNumber/String 'This component requires internal features of Kafka Streams and must be disabled for unit tests.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

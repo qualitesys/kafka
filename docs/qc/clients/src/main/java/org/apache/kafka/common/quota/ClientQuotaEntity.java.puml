@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.quota.ClientQuotaEntity"
 class org.apache.kafka.common.quota.ClientQuotaEntity {
-+isValidEntityType(String) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#18]]]
-+ClientQuotaEntity(Map<String,String>) : ClientQuotaEntity [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#25]]]
-+entries() : Map<String,String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#30]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#35]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#43]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#48]]]
++isValidEntityType(String) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#37]]]
++ClientQuotaEntity(Map<String,String>) : ClientQuotaEntity [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#49]]]
++entries() : Map<String,String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#56]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#61]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#69]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#74]]]
 } 
 @enduml

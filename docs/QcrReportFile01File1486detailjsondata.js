@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "java.lang.StringBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#16"
+ , "c5" : "00084"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#84"
  , "c1" : "StringBuilder"
  , "c2" : "StringBuilder()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#21"
+ , "c5" : "00096"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#96"
  , "c1" : "StringBuilder"
  , "c2" : "StringBuilder(int)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#26"
+ , "c5" : "00108"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#108"
  , "c1" : "StringBuilder"
  , "c2" : "StringBuilder(String)"
  , "c3" : "1"
@@ -45,136 +45,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#32"
+ , "c5" : "00122"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#122"
  , "c1" : "StringBuilder"
  , "c2" : "StringBuilder(CharSequence)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#38"
- , "c1" : "StringBuilder"
- , "c2" : "append(Object)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#42"
- , "c1" : "StringBuilder"
- , "c2" : "append(String)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#48"
- , "c1" : "StringBuilder"
- , "c2" : "append(StringBuilder)"
- , "c3" : "3"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#61"
- , "c1" : "StringBuilder"
- , "c2" : "append(StringBuffer)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#67"
- , "c1" : "StringBuilder"
- , "c2" : "append(CharSequence)"
- , "c3" : "5"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#80"
- , "c1" : "StringBuilder"
- , "c2" : "append(CharSequence;int;int)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#85"
- , "c1" : "StringBuilder"
- , "c2" : "append(char[])"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#90"
- , "c1" : "StringBuilder"
- , "c2" : "append(char[];int;int)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00096"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#96"
- , "c1" : "StringBuilder"
- , "c2" : "append(boolean)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00101"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#101"
- , "c1" : "StringBuilder"
- , "c2" : "append(char)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00107"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#107"
- , "c1" : "StringBuilder"
- , "c2" : "append(int)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00113"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#113"
- , "c1" : "StringBuilder"
- , "c2" : "append(long)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00119"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#119"
- , "c1" : "StringBuilder"
- , "c2" : "append(float)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00125"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#125"
- , "c1" : "StringBuilder"
- , "c2" : "append(double)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -183,70 +57,34 @@ var maDataBlocs = {
  , "c5" : "00131"
  , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#131"
  , "c1" : "StringBuilder"
- , "c2" : "appendCodePoint(int)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00137"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#137"
- , "c1" : "StringBuilder"
- , "c2" : "delete(int;int)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00143"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#143"
- , "c1" : "StringBuilder"
- , "c2" : "deleteCharAt(int)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00149"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#149"
- , "c1" : "StringBuilder"
- , "c2" : "replace(int;int;String)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00155"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#155"
- , "c1" : "StringBuilder"
- , "c2" : "insert(int;char[];int;int)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00163"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#163"
- , "c1" : "StringBuilder"
- , "c2" : "insert(int;Object)"
+ , "c2" : "append(Object)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00168"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#168"
+ , "c5" : "00135"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#135"
  , "c1" : "StringBuilder"
- , "c2" : "insert(int;String)"
+ , "c2" : "append(String)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00174"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#174"
+ , "c5" : "00141"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#141"
  , "c1" : "StringBuilder"
- , "c2" : "insert(int;char[])"
+ , "c2" : "append(StringBuilder)"
+ , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00172"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#172"
+ , "c1" : "StringBuilder"
+ , "c2" : "append(StringBuffer)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -255,115 +93,79 @@ var maDataBlocs = {
  , "c5" : "00180"
  , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#180"
  , "c1" : "StringBuilder"
- , "c2" : "insert(int;CharSequence)"
- , "c3" : "3"
- , "c4" : "3"
+ , "c2" : "append(CharSequence)"
+ , "c3" : "5"
+ , "c4" : "5"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00189"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#189"
+ , "c5" : "00195"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#195"
  , "c1" : "StringBuilder"
- , "c2" : "insert(int;CharSequence;int;int)"
+ , "c2" : "append(CharSequence;int;int)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00197"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#197"
+ , "c5" : "00200"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#200"
  , "c1" : "StringBuilder"
- , "c2" : "insert(int;boolean)"
+ , "c2" : "append(char[])"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00203"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#203"
+ , "c5" : "00205"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#205"
  , "c1" : "StringBuilder"
- , "c2" : "insert(int;char)"
+ , "c2" : "append(char[];int;int)"
  , "c3" : "1"
  , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00209"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#209"
- , "c1" : "StringBuilder"
- , "c2" : "insert(int;int)"
- , "c3" : "1"
- , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00214"
  , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#214"
  , "c1" : "StringBuilder"
- , "c2" : "insert(int;long)"
+ , "c2" : "append(boolean)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00219"
  , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#219"
  , "c1" : "StringBuilder"
- , "c2" : "insert(int;float)"
+ , "c2" : "append(char)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00224"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#224"
+ , "c5" : "00228"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#228"
  , "c1" : "StringBuilder"
- , "c2" : "insert(int;double)"
+ , "c2" : "append(int)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00229"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#229"
- , "c1" : "int"
- , "c2" : "indexOf(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00234"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#234"
- , "c1" : "int"
- , "c2" : "indexOf(String;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00240"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#240"
- , "c1" : "int"
- , "c2" : "lastIndexOf(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00245"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#245"
- , "c1" : "int"
- , "c2" : "lastIndexOf(String;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00250"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#250"
+ , "c5" : "00237"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#237"
  , "c1" : "StringBuilder"
- , "c2" : "reverse()"
+ , "c2" : "append(long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00246"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#246"
+ , "c1" : "StringBuilder"
+ , "c2" : "append(float)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -371,6 +173,204 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00255"
  , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#255"
+ , "c1" : "StringBuilder"
+ , "c2" : "append(double)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00263"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#263"
+ , "c1" : "StringBuilder"
+ , "c2" : "appendCodePoint(int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00271"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#271"
+ , "c1" : "StringBuilder"
+ , "c2" : "delete(int;int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00279"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#279"
+ , "c1" : "StringBuilder"
+ , "c2" : "deleteCharAt(int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00287"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#287"
+ , "c1" : "StringBuilder"
+ , "c2" : "replace(int;int;String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00295"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#295"
+ , "c1" : "StringBuilder"
+ , "c2" : "insert(int;char[];int;int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00308"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#308"
+ , "c1" : "StringBuilder"
+ , "c2" : "insert(int;Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00316"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#316"
+ , "c1" : "StringBuilder"
+ , "c2" : "insert(int;String)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00324"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#324"
+ , "c1" : "StringBuilder"
+ , "c2" : "insert(int;char[])"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00332"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#332"
+ , "c1" : "StringBuilder"
+ , "c2" : "insert(int;CharSequence)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00343"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#343"
+ , "c1" : "StringBuilder"
+ , "c2" : "insert(int;CharSequence;int;int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00356"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#356"
+ , "c1" : "StringBuilder"
+ , "c2" : "insert(int;boolean)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00365"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#365"
+ , "c1" : "StringBuilder"
+ , "c2" : "insert(int;char)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00376"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#376"
+ , "c1" : "StringBuilder"
+ , "c2" : "insert(int;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00386"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#386"
+ , "c1" : "StringBuilder"
+ , "c2" : "insert(int;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00396"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#396"
+ , "c1" : "StringBuilder"
+ , "c2" : "insert(int;float)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00406"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#406"
+ , "c1" : "StringBuilder"
+ , "c2" : "insert(int;double)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00413"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#413"
+ , "c1" : "int"
+ , "c2" : "indexOf(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00420"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#420"
+ , "c1" : "int"
+ , "c2" : "indexOf(String;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00428"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#428"
+ , "c1" : "int"
+ , "c2" : "lastIndexOf(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00435"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#435"
+ , "c1" : "int"
+ , "c2" : "lastIndexOf(String;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00440"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#440"
+ , "c1" : "StringBuilder"
+ , "c2" : "reverse()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00445"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#445"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -378,8 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00261"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#261"
+ , "c5" : "00461"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#461"
  , "c1" : "void"
  , "c2" : "writeObject(java.io.ObjectOutputStream)"
  , "c3" : "1"
@@ -387,8 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00269"
- , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#269"
+ , "c5" : "00472"
+ , "c5link" : "././qc/secujava/java.lang.StringBuilder.java.html#472"
  , "c1" : "void"
  , "c2" : "readObject(java.io.ObjectInputStream)"
  , "c3" : "1"
@@ -474,423 +474,423 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#17"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method java.lang.StringBuilder.StringBuilder@POLYN220912 the MagicNumber/String  16 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#26"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00026] The argument str is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#27"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method java.lang.StringBuilder.StringBuilder@POLYN221615 the MagicNumber/String  16 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#32"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00032] The argument seq is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method java.lang.StringBuilder.StringBuilder@POLYN222142 the MagicNumber/String  16 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method append arguments Object  obj"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#42"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method append arguments String  str"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method append arguments StringBuilder  sb"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method java.lang.StringBuilder.append@POLYN222831 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method java.lang.StringBuilder.append@POLYN222831 the MagicNumber/String  'null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method java.lang.StringBuilder.append@POLYN222831 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#61"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method append arguments StringBuffer  sb"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#67"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method append arguments CharSequence  s"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method java.lang.StringBuilder.append@POLYN224588 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method java.lang.StringBuilder.append@POLYN224588 the MagicNumber/String  'null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method java.lang.StringBuilder.append@POLYN224588 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#80"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method append arguments CharSequence  s|int  start|int  end"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#85"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method append arguments char[]  str"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method java.lang.StringBuilder.StringBuilder@POLYN222130 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#90"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00090] For method append arguments char[]  str|int  offset|int  len"
+ , "c1" : "00108"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#108"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00108] The argument str is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#96"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00096] For method append arguments boolean  b"
+ , "c1" : "00109"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method java.lang.StringBuilder.StringBuilder@POLYN222833 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#101"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method append arguments char  c"
+ , "c1" : "00122"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#122"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00122] The argument seq is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#107"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00107] For method append arguments int  i"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#113"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00113] For method append arguments long  lng"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#119"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00119] For method append arguments float  f"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#125"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00125] For method append arguments double  d"
+ , "c1" : "00123"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#123"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00123] In method java.lang.StringBuilder.StringBuilder@POLYN223360 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#131"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00131] For method appendCodePoint arguments int  codePoint"
+ , "c3" : "QC-JAV000006[00131] For method append arguments Object  obj"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#137"
+ , "c1" : "00135"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#135"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method delete arguments int  start|int  end"
+ , "c3" : "QC-JAV000006[00135] For method append arguments String  str"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00141"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#141"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00141] For method append arguments StringBuilder  sb"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00142"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#142"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00142] In method java.lang.StringBuilder.append@POLYN224049 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#143"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method deleteCharAt arguments int  index"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00143] In method java.lang.StringBuilder.append@POLYN224049 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#149"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00149] For method replace arguments int  start|int  end|String  str"
+ , "c1" : "00148"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method java.lang.StringBuilder.append@POLYN224049 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#155"
+ , "c1" : "00172"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#172"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00155] For method insert arguments int  index|char[]  str|int  offset|int  len"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#163"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00163] For method insert arguments int  offset|Object  obj"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#168"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00168] For method insert arguments int  offset|String  str"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#174"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00174] For method insert arguments int  offset|char[]  str"
+ , "c3" : "QC-JAV000006[00172] For method append arguments StringBuffer  sb"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#180"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00180] For method insert arguments int  dstOffset|CharSequence  s"
+ , "c3" : "QC-JAV000006[00180] For method append arguments CharSequence  s"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00181"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method java.lang.StringBuilder.insert@POLYN229921 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method java.lang.StringBuilder.append@POLYN225806 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method java.lang.StringBuilder.insert@POLYN229921 the MagicNumber/String  'null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#185"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method java.lang.StringBuilder.insert@POLYN229921 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method java.lang.StringBuilder.append@POLYN225806 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00189"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#189"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00189] For method insert arguments int  dstOffset|CharSequence  s|int  start|int  end"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00189] In method java.lang.StringBuilder.append@POLYN225806 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#197"
+ , "c1" : "00195"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#195"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00197] For method insert arguments int  offset|boolean  b"
+ , "c3" : "QC-JAV000006[00195] For method append arguments CharSequence  s|int  start|int  end"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#203"
+ , "c1" : "00200"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00203] For method insert arguments int  offset|char  c"
+ , "c3" : "QC-JAV000006[00200] For method append arguments char[]  str"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#209"
+ , "c1" : "00205"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#205"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00209] For method insert arguments int  offset|int  i"
+ , "c3" : "QC-JAV000006[00205] For method append arguments char[]  str|int  offset|int  len"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00214"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#214"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00214] For method insert arguments int  offset|long  l"
+ , "c3" : "QC-JAV000006[00214] For method append arguments boolean  b"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#219"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00219] For method insert arguments int  offset|float  f"
+ , "c3" : "QC-JAV000006[00219] For method append arguments char  c"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00224"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#224"
+ , "c1" : "00228"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#228"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00224] For method insert arguments int  offset|double  d"
+ , "c3" : "QC-JAV000006[00228] For method append arguments int  i"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00229"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#229"
+ , "c1" : "00237"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#237"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00229] For method indexOf arguments String  str"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#230"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method java.lang.StringBuilder.indexOf@POLYN232973 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00234"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#234"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00234] For method indexOf arguments String  str|int  fromIndex"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00234"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#234"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00234] The argument str is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#235"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method java.lang.StringBuilder.indexOf@POLYN233177 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#236"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method java.lang.StringBuilder.indexOf@POLYN233177 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#240"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00240] For method lastIndexOf arguments String  str"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#245"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00245] For method lastIndexOf arguments String  str|int  fromIndex"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#245"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00245] The argument str is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00237] For method append arguments long  lng"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00246"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#246"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method java.lang.StringBuilder.lastIndexOf@POLYN233768 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#247"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method java.lang.StringBuilder.lastIndexOf@POLYN233768 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#257"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method java.lang.StringBuilder.toString@POLYN234250 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#261"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00261] For method writeObject arguments java.io.ObjectOutputStream  s"
+ , "c3" : "QC-JAV000006[00246] For method append arguments float  f"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00269"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#269"
+ , "c1" : "00255"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#255"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00269] For method readObject arguments java.io.ObjectInputStream  s"
+ , "c3" : "QC-JAV000006[00255] For method append arguments double  d"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00269"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#269"
+ , "c1" : "00263"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#263"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00269] For method readObject list of called methods Object monObjet|int s_readIntN235362"
+ , "c3" : "QC-JAV000006[00263] For method appendCodePoint arguments int  codePoint"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00271"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#271"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00271] For method delete arguments int  start|int  end"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00279"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#279"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00279] For method deleteCharAt arguments int  index"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00287"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#287"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00287] For method replace arguments int  start|int  end|String  str"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00295"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#295"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00295] For method insert arguments int  index|char[]  str|int  offset|int  len"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00308"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#308"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00308] For method insert arguments int  offset|Object  obj"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00316"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#316"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00316] For method insert arguments int  offset|String  str"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00324"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#324"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00324] For method insert arguments int  offset|char[]  str"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00332"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#332"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00332] For method insert arguments int  dstOffset|CharSequence  s"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00333"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#333"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00333] In method java.lang.StringBuilder.insert@POLYN231139 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00334"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#334"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00334] In method java.lang.StringBuilder.insert@POLYN231139 the MagicNumber/String  'null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00337"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#337"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00337] In method java.lang.StringBuilder.insert@POLYN231139 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00343"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#343"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00343] For method insert arguments int  dstOffset|CharSequence  s|int  start|int  end"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00356"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#356"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00356] For method insert arguments int  offset|boolean  b"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00365"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#365"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00365] For method insert arguments int  offset|char  c"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00376"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#376"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00376] For method insert arguments int  offset|int  i"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00386"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#386"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00386] For method insert arguments int  offset|long  l"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00396"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#396"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00396] For method insert arguments int  offset|float  f"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00406"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#406"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00406] For method insert arguments int  offset|double  d"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00413"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#413"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00413] For method indexOf arguments String  str"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00414"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#414"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00414] In method java.lang.StringBuilder.indexOf@POLYN234191 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00420"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#420"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00420] For method indexOf arguments String  str|int  fromIndex"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00420"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#420"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00420] The argument str is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00421"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#421"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00421] In method java.lang.StringBuilder.indexOf@POLYN234395 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00422"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#422"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00422] In method java.lang.StringBuilder.indexOf@POLYN234395 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00428"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#428"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00428] For method lastIndexOf arguments String  str"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00435"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#435"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00435] For method lastIndexOf arguments String  str|int  fromIndex"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00435"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#435"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00435] The argument str is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00436"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#436"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00436] In method java.lang.StringBuilder.lastIndexOf@POLYN234986 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00437"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#437"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00437] In method java.lang.StringBuilder.lastIndexOf@POLYN234986 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00447"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#447"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00447] In method java.lang.StringBuilder.toString@POLYN235468 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00461"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#461"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00461] For method writeObject arguments java.io.ObjectOutputStream  s"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00472"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#472"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00472] For method readObject arguments java.io.ObjectInputStream  s"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00472"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#472"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00472] For method readObject list of called methods Object monObjet|int s_readIntN236580"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.StringBuilder.insert@POLYN232707"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.StringBuilder.insert@POLYN233925"
 }} 
 ]
 , 

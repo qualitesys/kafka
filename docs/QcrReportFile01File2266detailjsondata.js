@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.PayloadGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadGenerator.java.html#25"
+ , "c5" : "00052"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadGenerator.java.html#52"
  , "c1" : "byte[]"
  , "c2" : "generate(long)"
  , "c3" : "1"

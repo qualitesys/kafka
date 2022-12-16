@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#69"
+ , "c5" : "00089"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#89"
  , "c1" : "OffsetsForLeaderEpochRequest"
  , "c2" : "OffsetsForLeaderEpochRequest(OffsetForLeaderEpochRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#75"
+ , "c5" : "00095"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#95"
  , "c1" : "OffsetForLeaderEpochRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#79"
+ , "c5" : "00099"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#99"
  , "c1" : "int"
  , "c2" : "replicaId()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#83"
+ , "c5" : "00103"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#103"
  , "c1" : "OffsetsForLeaderEpochRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#88"
+ , "c5" : "00108"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#108"
  , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00108"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#108"
+ , "c5" : "00131"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#131"
  , "c1" : "boolean"
  , "c2" : "supportsTopicPermission(short)"
  , "c3" : "1"
@@ -136,87 +136,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#37"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method forConsumer arguments OffsetForLeaderTopicCollection  epochsByPartition"
+ , "c3" : "QC-JAV000006[00057] For method forConsumer arguments OffsetForLeaderTopicCollection  epochsByPartition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#45"
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.Builder.forConsumer@POLYN158838 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.Builder.forConsumer@POLYN158976 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#48"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method forFollower arguments short  version|OffsetForLeaderTopicCollection  epochsByPartition|int  replicaId"
+ , "c3" : "QC-JAV000006[00068] For method forFollower arguments short  version|OffsetForLeaderTopicCollection  epochsByPartition|int  replicaId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#56"
+ , "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00076] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#58"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.Builder.build@POLYN159768 the MagicNumber/String  'Cannot build ' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.Builder.build@POLYN159906 the MagicNumber/String  'Cannot build ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#58"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.Builder.build@POLYN159768 the MagicNumber/String  ' with version ' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.Builder.build@POLYN159906 the MagicNumber/String  ' with version ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#83"
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method parse arguments ByteBuffer  buffer|short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#88"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00103] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method supportsTopicPermission arguments short  latestUsableVersion"
+ , "c3" : "QC-JAV000006[00108] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#109"
+ , "c1" : "00131"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#131"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00131] For method supportsTopicPermission arguments short  latestUsableVersion"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.supportsTopicPermission@POLYN162240 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.supportsTopicPermission@POLYN162378 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.Builder.toString@POLYN160213"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.Builder.toString@POLYN160351"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.replicaId@POLYN160662"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.replicaId@POLYN160800"
 }} 
 ]
 , 

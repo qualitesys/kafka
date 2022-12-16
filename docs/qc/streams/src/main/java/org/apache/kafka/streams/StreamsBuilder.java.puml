@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.StreamsBuilder"
 class org.apache.kafka.streams.StreamsBuilder {
-+StreamsBuilder() : StreamsBuilder [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#47]]]
-+StreamsBuilder(TopologyConfig) : StreamsBuilder [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#54]]]
-getNewTopology(TopologyConfig) : Topology [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#60]]]
-+addStateStore(StoreBuilder<?>) : StreamsBuilder [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#207]]]
-+build() : Topology [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#247]]]
-+build(Properties) : Topology [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#252]]]
++StreamsBuilder() : StreamsBuilder [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#77]]]
++StreamsBuilder(TopologyConfig) : StreamsBuilder [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#88]]]
+getNewTopology(TopologyConfig) : Topology [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#94]]]
++addStateStore(StoreBuilder<?>) : StreamsBuilder [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#509]]]
++build() : Topology [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#612]]]
++build(Properties) : Topology [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#623]]]
 } 
 @enduml

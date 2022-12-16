@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#29"
+ , "c5" : "00046"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#46"
  , "c1" : "ErrorHandlingMetrics"
  , "c2" : "ErrorHandlingMetrics(ConnectorTaskId;ConnectMetrics)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#63"
+ , "c5" : "00082"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#82"
  , "c1" : "void"
  , "c2" : "recordFailure()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#68"
+ , "c5" : "00089"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#89"
  , "c1" : "void"
  , "c2" : "recordError()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#73"
+ , "c5" : "00096"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#96"
  , "c1" : "void"
  , "c2" : "recordSkipped()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#78"
+ , "c5" : "00103"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#103"
  , "c1" : "void"
  , "c2" : "recordRetry()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#83"
+ , "c5" : "00110"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#110"
  , "c1" : "void"
  , "c2" : "recordErrorLogged()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#88"
+ , "c5" : "00117"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#117"
  , "c1" : "void"
  , "c2" : "recordDeadLetterQueueProduceRequest()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#93"
+ , "c5" : "00124"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#124"
  , "c1" : "void"
  , "c2" : "recordDeadLetterQueueProduceFailed()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#98"
+ , "c5" : "00131"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#131"
  , "c1" : "void"
  , "c2" : "recordErrorTimestamp()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#103"
+ , "c5" : "00138"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#138"
  , "c1" : "ConnectMetrics.MetricGroup"
  , "c2" : "metricGroup()"
  , "c3" : "1"
@@ -163,73 +163,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#29"
+ , "c1" : "00046"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#46"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00029] The argument id is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00046] The argument id is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#29"
+ , "c1" : "00046"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#46"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00029] The argument connectMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00046] The argument connectMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#38"
+ , "c1" : "00055"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158592 the MagicNumber/String  'total-record-failures' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158802 the MagicNumber/String  'total-record-failures' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#41"
+ , "c1" : "00058"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158592 the MagicNumber/String  'total-record-errors' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158802 the MagicNumber/String  'total-record-errors' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#44"
+ , "c1" : "00061"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158592 the MagicNumber/String  'total-records-skipped' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158802 the MagicNumber/String  'total-records-skipped' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#47"
+ , "c1" : "00064"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158592 the MagicNumber/String  'total-retries' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158802 the MagicNumber/String  'total-retries' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#50"
+ , "c1" : "00067"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158592 the MagicNumber/String  'total-errors-logged' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158802 the MagicNumber/String  'total-errors-logged' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#53"
+ , "c1" : "00070"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158592 the MagicNumber/String  'deadletterqueue-produce-requests' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158802 the MagicNumber/String  'deadletterqueue-produce-requests' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#56"
+ , "c1" : "00073"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158592 the MagicNumber/String  'deadletterqueue-produce-failures' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics.ErrorHandlingMetrics@POLYN158802 the MagicNumber/String  'deadletterqueue-produce-failures' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#98"
+ , "c1" : "00131"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00098] Public method recordErrorTimestamp is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00131] Public method recordErrorTimestamp is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

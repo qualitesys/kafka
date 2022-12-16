@@ -2,18 +2,18 @@
 !pragma layout smetana
 "RemoteLogMetadata" <|-- "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot"
 class org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot {
-+RemoteLogSegmentMetadataSnapshot(Uuid;long;long;long;int;long;int;RemoteLogSegmentState;Map<Integer,Long>) : RemoteLogSegmentMetadataSnapshot [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#41]]]
-+create(RemoteLogSegmentMetadata) : RemoteLogSegmentMetadataSnapshot [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#66]]]
-+segmentId() : Uuid [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#73]]]
-+startOffset() : long [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#78]]]
-+endOffset() : long [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#83]]]
-+segmentSizeInBytes() : int [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#88]]]
-+maxTimestampMs() : long [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#93]]]
-+segmentLeaderEpochs() : NavigableMap<Integer,Long> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#98]]]
-+state() : RemoteLogSegmentState [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#103]]]
-+topicIdPartition() : TopicIdPartition [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#108]]]
-+equals(Object) : boolean [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#113]]]
-+hashCode() : int [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#122]]]
-+toString() : String [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#127]]]
++RemoteLogSegmentMetadataSnapshot(Uuid;long;long;long;int;long;int;RemoteLogSegmentState;Map<Integer,Long>) : RemoteLogSegmentMetadataSnapshot [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#92]]]
++create(RemoteLogSegmentMetadata) : RemoteLogSegmentMetadataSnapshot [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#117]]]
++segmentId() : Uuid [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#126]]]
++startOffset() : long [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#133]]]
++endOffset() : long [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#140]]]
++segmentSizeInBytes() : int [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#147]]]
++maxTimestampMs() : long [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#154]]]
++segmentLeaderEpochs() : NavigableMap<Integer,Long> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#161]]]
++state() : RemoteLogSegmentState [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#174]]]
++topicIdPartition() : TopicIdPartition [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#179]]]
++equals(Object) : boolean [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#184]]]
++hashCode() : int [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#193]]]
++toString() : String [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#198]]]
 } 
 @enduml

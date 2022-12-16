@@ -2,13 +2,13 @@
 !pragma layout smetana
 "SinkTask" <|-- "org.apache.kafka.connect.file.FileStreamSinkTask"
 class org.apache.kafka.connect.file.FileStreamSinkTask {
-+FileStreamSinkTask() : FileStreamSinkTask [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#28]]]
-+FileStreamSinkTask(PrintStream) : FileStreamSinkTask [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#32]]]
-+version() : String [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#38]]]
-+start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#43]]]
-+put(Collection<SinkRecord>) : void [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#60]]]
-+flush(Map<TopicPartition,OffsetAndMetadata>) : void [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#68]]]
-+stop() : void [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#74]]]
--logFilename() : String [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#79]]]
++FileStreamSinkTask() : FileStreamSinkTask [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#45]]]
++FileStreamSinkTask(PrintStream) : FileStreamSinkTask [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#49]]]
++version() : String [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#55]]]
++start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#60]]]
++put(Collection<SinkRecord>) : void [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#77]]]
++flush(Map<TopicPartition,OffsetAndMetadata>) : void [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#85]]]
++stop() : void [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#91]]]
+-logFilename() : String [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#96]]]
 } 
 @enduml

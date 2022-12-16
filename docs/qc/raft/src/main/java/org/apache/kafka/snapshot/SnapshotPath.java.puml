@@ -2,7 +2,7 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.snapshot.SnapshotPath"
 class org.apache.kafka.snapshot.SnapshotPath {
-+SnapshotPath(Path;OffsetAndEpoch;boolean;boolean) : SnapshotPath [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotPath.java.html#13]]]
-+toString() : String [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotPath.java.html#21]]]
++SnapshotPath(Path;OffsetAndEpoch;boolean;boolean) : SnapshotPath [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotPath.java.html#28]]]
++toString() : String [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotPath.java.html#36]]]
 } 
 @enduml

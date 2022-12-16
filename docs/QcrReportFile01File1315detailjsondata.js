@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.PartitionChangeBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#28"
+ , "c5" : "00045"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#45"
  , "c1" : "boolean"
  , "c2" : "changeRecordIsNoOp(PartitionChangeRecord)"
  , "c3" : "7"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#60"
+ , "c5" : "00085"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#85"
  , "c1" : "PartitionChangeBuilder"
  , "c2" : "PartitionChangeBuilder(PartitionRegistration;Uuid;int;Function<Integer,Boolean>;boolean)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#77"
+ , "c5" : "00102"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#102"
  , "c1" : "PartitionChangeBuilder"
  , "c2" : "setTargetIsr(List<Integer>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#82"
+ , "c5" : "00107"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#107"
  , "c1" : "PartitionChangeBuilder"
  , "c2" : "setTargetReplicas(List<Integer>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#87"
+ , "c5" : "00112"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#112"
  , "c1" : "PartitionChangeBuilder"
  , "c2" : "setElection(Election)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00092"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#92"
+ , "c5" : "00117"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#117"
  , "c1" : "PartitionChangeBuilder"
  , "c2" : "setTargetRemoving(List<Integer>)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#97"
+ , "c5" : "00122"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#122"
  , "c1" : "PartitionChangeBuilder"
  , "c2" : "setTargetAdding(List<Integer>)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00102"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#102"
+ , "c5" : "00127"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#127"
  , "c1" : "PartitionChangeBuilder"
  , "c2" : "setTargetLeaderRecoveryState(LeaderRecoveryState)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00120"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#120"
+ , "c5" : "00149"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#149"
  , "c1" : "ElectionResult"
  , "c2" : "electLeader()"
  , "c3" : "2"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00129"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#129"
+ , "c5" : "00160"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#160"
  , "c1" : "ElectionResult"
  , "c2" : "electPreferredLeader()"
  , "c3" : "4"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00152"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#152"
+ , "c5" : "00185"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#185"
  , "c1" : "ElectionResult"
  , "c2" : "electAnyLeader()"
  , "c3" : "5"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00178"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#178"
+ , "c5" : "00211"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#211"
  , "c1" : "boolean"
  , "c2" : "isValidNewLeader(int)"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00182"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#182"
+ , "c5" : "00215"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#215"
  , "c1" : "void"
  , "c2" : "tryElection(PartitionChangeRecord)"
  , "c3" : "5"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00209"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#209"
+ , "c5" : "00259"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#259"
  , "c1" : "void"
  , "c2" : "triggerLeaderEpochBumpIfNeeded(PartitionChangeRecord)"
  , "c3" : "3"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00218"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#218"
+ , "c5" : "00268"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#268"
  , "c1" : "void"
  , "c2" : "completeReassignmentIfNeeded()"
  , "c3" : "11"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00249"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#249"
+ , "c5" : "00299"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#299"
  , "c1" : "Optional<ApiMessageAndVersion>"
  , "c2" : "build()"
  , "c3" : "8"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00286"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#286"
+ , "c5" : "00336"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#336"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -263,423 +263,423 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#28"
+ , "c1" : "00045"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method changeRecordIsNoOp arguments PartitionChangeRecord  record"
+ , "c3" : "QC-JAV000006[00045] For method changeRecordIsNoOp arguments PartitionChangeRecord  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#28"
+ , "c1" : "00045"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#45"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00028] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00045] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#29"
+ , "c1" : "00046"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189925 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#29"
+ , "c1" : "00046"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189625 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189925 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#30"
+ , "c1" : "00047"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189625 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189925 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#31"
+ , "c1" : "00048"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189925 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#31"
+ , "c1" : "00048"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189625 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189925 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#32"
+ , "c1" : "00049"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189925 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#32"
+ , "c1" : "00049"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189625 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189925 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#33"
+ , "c1" : "00050"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189925 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#33"
+ , "c1" : "00050"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189625 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189925 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#34"
+ , "c1" : "00051"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189625 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189925 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#35"
+ , "c1" : "00052"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189625 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.controller.PartitionChangeBuilder.changeRecordIsNoOp@POLYN189925 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#60"
+ , "c1" : "00085"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#85"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00060] The argument partition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method setTargetIsr arguments List&lt;Integer &gt;  targetIsr"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#82"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method setTargetReplicas arguments List&lt;Integer &gt;  targetReplicas"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#87"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00087] For method setElection arguments Election  election"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#92"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method setTargetRemoving arguments List&lt;Integer &gt;  targetRemoving"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#97"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method setTargetAdding arguments List&lt;Integer &gt;  targetAdding"
+ , "c3" : "QC-JAVCWE476[00085] The argument partition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#102"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00102] For method setTargetLeaderRecoveryState arguments LeaderRecoveryState  targetLeaderRecoveryState"
+ , "c3" : "QC-JAV000006[00102] For method setTargetIsr arguments List&lt;Integer &gt;  targetIsr"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#130"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.controller.PartitionChangeBuilder.electPreferredLeader@POLYN194207 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.controller.PartitionChangeBuilder.electPreferredLeader@POLYN194207 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#137"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.controller.PartitionChangeBuilder.electPreferredLeader@POLYN194207 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.controller.PartitionChangeBuilder.electPreferredLeader@POLYN194207 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#145"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.controller.PartitionChangeBuilder.electPreferredLeader@POLYN194207 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#148"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.controller.PartitionChangeBuilder.electPreferredLeader@POLYN194207 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#155"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.controller.PartitionChangeBuilder.electAnyLeader@POLYN195276 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#162"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.controller.PartitionChangeBuilder.electAnyLeader@POLYN195276 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#171"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.controller.PartitionChangeBuilder.electAnyLeader@POLYN195276 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#175"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.controller.PartitionChangeBuilder.electAnyLeader@POLYN195276 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#178"
+ , "c1" : "00107"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00178] For method isValidNewLeader arguments int  replica"
+ , "c3" : "QC-JAV000006[00107] For method setTargetReplicas arguments List&lt;Integer &gt;  targetReplicas"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#182"
+ , "c1" : "00112"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00182] For method tryElection arguments PartitionChangeRecord  record"
+ , "c3" : "QC-JAV000006[00112] For method setElection arguments Election  election"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#182"
+ , "c1" : "00117"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#117"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00182] For method tryElection list of called methods Object monObjet|org.apache.kafka.controller.PartitionChangeBuilder.ElectionResult electLeaderN196750"
+ , "c3" : "QC-JAV000006[00117] For method setTargetRemoving arguments List&lt;Integer &gt;  targetRemoving"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#182"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00182] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00122"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#122"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00122] For method setTargetAdding arguments List&lt;Integer &gt;  targetAdding"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#186"
+ , "c1" : "00127"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#127"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00127] For method setTargetLeaderRecoveryState arguments LeaderRecoveryState  targetLeaderRecoveryState"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00161"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196657 the MagicNumber/String  'Setting new leader for topicId {}, partition {} to {} using {} election' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.controller.PartitionChangeBuilder.electPreferredLeader@POLYN194507 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#190"
+ , "c1" : "00163"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196657 the MagicNumber/String  'an unclean' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.controller.PartitionChangeBuilder.electPreferredLeader@POLYN194507 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#190"
+ , "c1" : "00168"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196657 the MagicNumber/String  'a clean' should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.controller.PartitionChangeBuilder.electPreferredLeader@POLYN194507 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.controller.PartitionChangeBuilder.electPreferredLeader@POLYN194507 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00176"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#176"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.controller.PartitionChangeBuilder.electPreferredLeader@POLYN194507 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#179"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.controller.PartitionChangeBuilder.electPreferredLeader@POLYN194507 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#188"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.controller.PartitionChangeBuilder.electAnyLeader@POLYN195576 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00195"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#195"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.controller.PartitionChangeBuilder.electAnyLeader@POLYN195576 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196657 the MagicNumber/String  'Failed to find a new leader with current state: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.controller.PartitionChangeBuilder.electAnyLeader@POLYN195576 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#209"
+ , "c1" : "00208"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#208"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.controller.PartitionChangeBuilder.electAnyLeader@POLYN195576 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#211"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00209] For method triggerLeaderEpochBumpIfNeeded arguments PartitionChangeRecord  record"
+ , "c3" : "QC-JAV000006[00211] For method isValidNewLeader arguments int  replica"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#209"
+ , "c1" : "00215"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#215"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00215] For method tryElection arguments PartitionChangeRecord  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00215"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#215"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00215] For method tryElection list of called methods Object monObjet|org.apache.kafka.controller.PartitionChangeBuilder.ElectionResult electLeaderN197050"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00215"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#215"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00209] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00215] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#260"
+ , "c1" : "00219"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.controller.PartitionChangeBuilder.build@POLYN200553 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196957 the MagicNumber/String  'Setting new leader for topicId {}, partition {} to {} using {} election' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00287"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#287"
+ , "c1" : "00223"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#223"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202462 the MagicNumber/String  'PartitionChangeBuilder(' should be converted to const"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196957 the MagicNumber/String  'an unclean' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00288"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#288"
+ , "c1" : "00223"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#223"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202462 the MagicNumber/String  'partition=' should be converted to const"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196957 the MagicNumber/String  'a clean' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00289"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#289"
+ , "c1" : "00237"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#237"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202462 the MagicNumber/String  ', topicId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196957 the MagicNumber/String  'Failed to find a new leader with current state: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00290"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#290"
+ , "c1" : "00259"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#259"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00259] For method triggerLeaderEpochBumpIfNeeded arguments PartitionChangeRecord  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00259"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#259"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00259] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00310"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202462 the MagicNumber/String  ', partitionId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.controller.PartitionChangeBuilder.build@POLYN200853 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00291"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#291"
+ , "c1" : "00337"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202462 the MagicNumber/String  ', isAcceptableLeader=' should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202762 the MagicNumber/String  'PartitionChangeBuilder(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00292"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#292"
+ , "c1" : "00338"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#338"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202462 the MagicNumber/String  ', targetIsr=' should be converted to const"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202762 the MagicNumber/String  'partition=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00293"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#293"
+ , "c1" : "00339"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#339"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202462 the MagicNumber/String  ', targetReplicas=' should be converted to const"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202762 the MagicNumber/String  ', topicId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00294"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#294"
+ , "c1" : "00340"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#340"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202462 the MagicNumber/String  ', targetRemoving=' should be converted to const"
+ , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202762 the MagicNumber/String  ', partitionId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00295"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#295"
+ , "c1" : "00341"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#341"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202462 the MagicNumber/String  ', targetAdding=' should be converted to const"
+ , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202762 the MagicNumber/String  ', isAcceptableLeader=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00296"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#296"
+ , "c1" : "00342"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#342"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202462 the MagicNumber/String  ', election=' should be converted to const"
+ , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202762 the MagicNumber/String  ', targetIsr=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#297"
+ , "c1" : "00343"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202462 the MagicNumber/String  ', targetLeaderRecoveryState=' should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202762 the MagicNumber/String  ', targetReplicas=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00298"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#298"
+ , "c1" : "00344"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202462 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202762 the MagicNumber/String  ', targetRemoving=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#28"
+ , "c1" : "00345"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#345"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202762 the MagicNumber/String  ', targetAdding=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00346"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#346"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202762 the MagicNumber/String  ', election=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00347"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#347"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202762 the MagicNumber/String  ', targetLeaderRecoveryState=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00348"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#348"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.controller.PartitionChangeBuilder.toString@POLYN202762 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#45"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00028] Public method changeRecordIsNoOp is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00045] Public method changeRecordIsNoOp is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#87"
+ , "c1" : "00112"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#112"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00087] Public method setElection is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00112] Public method setElection is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196657"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196957"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#186"
+ , "c1" : "00219"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#219"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196657 the MagicNumber/String 'Setting new leader for topicId {}, partition {} to {} using {} election' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00219] In the recursive method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196957 the MagicNumber/String 'Setting new leader for topicId {}, partition {} to {} using {} election' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#190"
+ , "c1" : "00223"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#223"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00190] In the recursive method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196657 the MagicNumber/String 'a clean' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00223] In the recursive method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196957 the MagicNumber/String 'a clean' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#190"
+ , "c1" : "00223"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#223"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00190] In the recursive method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196657 the MagicNumber/String 'an unclean' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00223] In the recursive method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196957 the MagicNumber/String 'an unclean' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#204"
+ , "c1" : "00237"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#237"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196657 the MagicNumber/String 'Failed to find a new leader with current state: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00237] In the recursive method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196957 the MagicNumber/String 'Failed to find a new leader with current state: {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

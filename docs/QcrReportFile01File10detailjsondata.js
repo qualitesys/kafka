@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.DefaultHostResolver" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/DefaultHostResolver.java.html#11"
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/DefaultHostResolver.java.html#26"
  , "c1" : "InetAddress[]"
  , "c2" : "resolve(String)"
  , "c3" : "1"
@@ -68,10 +68,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/DefaultHostResolver.java.html#11"
+ , "c1" : "00026"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/DefaultHostResolver.java.html#26"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00011] For method resolve arguments String  host"
+ , "c3" : "QC-JAV000006[00026] For method resolve arguments String  host"
 }} 
 ]
 , 

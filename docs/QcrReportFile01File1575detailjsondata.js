@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00219"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#219"
+ , "c5" : "00240"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#240"
  , "c1" : "RemoteLogManagerConfig"
  , "c2" : "RemoteLogManagerConfig(AbstractConfig)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00245"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#245"
+ , "c5" : "00266"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#266"
  , "c1" : "RemoteLogManagerConfig"
  , "c2" : "RemoteLogManagerConfig(boolean;String;String;String;String;String;long;int;long;long;long;double;int;int;String;Map<String,Object>;String;Map<String,Object>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00284"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#284"
+ , "c5" : "00305"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#305"
  , "c1" : "boolean"
  , "c2" : "enableRemoteStorageSystem()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00288"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#288"
+ , "c5" : "00309"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#309"
  , "c1" : "String"
  , "c2" : "remoteStorageManagerClassName()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00292"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#292"
+ , "c5" : "00313"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#313"
  , "c1" : "String"
  , "c2" : "remoteStorageManagerClassPath()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00296"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#296"
+ , "c5" : "00317"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#317"
  , "c1" : "String"
  , "c2" : "remoteLogMetadataManagerClassName()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00300"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#300"
+ , "c5" : "00321"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#321"
  , "c1" : "String"
  , "c2" : "remoteLogMetadataManagerClassPath()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00304"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#304"
+ , "c5" : "00325"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#325"
  , "c1" : "long"
  , "c2" : "remoteLogIndexFileCacheTotalSizeBytes()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00308"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#308"
+ , "c5" : "00329"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#329"
  , "c1" : "int"
  , "c2" : "remoteLogManagerThreadPoolSize()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00312"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#312"
+ , "c5" : "00333"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#333"
  , "c1" : "long"
  , "c2" : "remoteLogManagerTaskIntervalMs()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00316"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#316"
+ , "c5" : "00337"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#337"
  , "c1" : "long"
  , "c2" : "remoteLogManagerTaskRetryBackoffMs()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00320"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#320"
+ , "c5" : "00341"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#341"
  , "c1" : "long"
  , "c2" : "remoteLogManagerTaskRetryBackoffMaxMs()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00324"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#324"
+ , "c5" : "00345"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#345"
  , "c1" : "double"
  , "c2" : "remoteLogManagerTaskRetryJitter()"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00328"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#328"
+ , "c5" : "00349"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#349"
  , "c1" : "int"
  , "c2" : "remoteLogReaderThreads()"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00332"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#332"
+ , "c5" : "00353"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#353"
  , "c1" : "int"
  , "c2" : "remoteLogReaderMaxPendingTasks()"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00336"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#336"
+ , "c5" : "00357"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#357"
  , "c1" : "String"
  , "c2" : "remoteLogMetadataManagerListenerName()"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00340"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#340"
+ , "c5" : "00361"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#361"
  , "c1" : "String"
  , "c2" : "remoteStorageManagerPrefix()"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00344"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#344"
+ , "c5" : "00365"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#365"
  , "c1" : "String"
  , "c2" : "remoteLogMetadataManagerPrefix()"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00348"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#348"
+ , "c5" : "00369"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#369"
  , "c1" : "Map<String,Object>"
  , "c2" : "remoteStorageManagerProps()"
  , "c3" : "1"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00352"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#352"
+ , "c5" : "00373"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#373"
  , "c1" : "Map<String,Object>"
  , "c2" : "remoteLogMetadataManagerProps()"
  , "c3" : "1"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00357"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#357"
+ , "c5" : "00378"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#378"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00382"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#382"
+ , "c5" : "00403"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#403"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -271,45 +271,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#219"
+ , "c1" : "00240"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#240"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00219] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00240] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#235"
+ , "c1" : "00256"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.RemoteLogManagerConfig@POLYN197269 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.RemoteLogManagerConfig@POLYN197395 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00239"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#239"
+ , "c1" : "00260"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#260"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.RemoteLogManagerConfig@POLYN197269 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.RemoteLogManagerConfig@POLYN197395 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00357"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#357"
+ , "c1" : "00378"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#378"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00357] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00378] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00358"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#358"
+ , "c1" : "00379"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.equals@POLYN202326 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.equals@POLYN202452 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00359"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#359"
+ , "c1" : "00380"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#380"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00359] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.equals@POLYN202326 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.equals@POLYN202452 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

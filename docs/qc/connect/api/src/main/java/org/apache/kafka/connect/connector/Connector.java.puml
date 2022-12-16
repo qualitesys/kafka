@@ -2,15 +2,15 @@
 !pragma layout smetana
 "Versioned" <|-- "org.apache.kafka.connect.connector.Connector"
 class org.apache.kafka.connect.connector.Connector {
-+initialize(ConnectorContext) : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#20]]]
-+initialize(ConnectorContext;List<Map<String,String>>) : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#25]]]
-context() : ConnectorContext [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#32]]]
-+start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#37]]]
-+reconfigure(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#40]]]
-+taskClass() : Class<?extendsTask> [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#46]]]
-+taskConfigs(int) : List<Map<String,String>> [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#49]]]
-+stop() : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#52]]]
-+validate(Map<String,String>) : Config [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#55]]]
-+config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#67]]]
++initialize(ConnectorContext) : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#56]]]
++initialize(ConnectorContext;List<Map<String,String>>) : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#76]]]
+context() : ConnectorContext [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#87]]]
++start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#97]]]
++reconfigure(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#107]]]
++taskClass() : Class<?extendsTask> [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#115]]]
++taskConfigs(int) : List<Map<String,String>> [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#124]]]
++stop() : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#129]]]
++validate(Map<String,String>) : Config [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#137]]]
++config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#152]]]
 } 
 @enduml

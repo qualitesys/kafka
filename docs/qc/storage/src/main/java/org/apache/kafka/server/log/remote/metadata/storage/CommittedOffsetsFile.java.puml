@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.server.log.remote.metadata.storage.CommittedOffsetsFile"
 class org.apache.kafka.server.log.remote.metadata.storage.CommittedOffsetsFile {
-CommittedOffsetsFile(File) : CommittedOffsetsFile [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/CommittedOffsetsFile.java.html#24]]]
-+writeEntries(Map<Integer,Long>) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/CommittedOffsetsFile.java.html#53]]]
-+readEntries() : Map<Integer,Long> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/CommittedOffsetsFile.java.html#57]]]
+CommittedOffsetsFile(File) : CommittedOffsetsFile [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/CommittedOffsetsFile.java.html#41]]]
++writeEntries(Map<Integer,Long>) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/CommittedOffsetsFile.java.html#70]]]
++readEntries() : Map<Integer,Long> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/CommittedOffsetsFile.java.html#74]]]
 } 
 @enduml

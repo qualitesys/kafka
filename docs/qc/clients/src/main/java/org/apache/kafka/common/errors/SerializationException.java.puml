@@ -2,9 +2,9 @@
 !pragma layout smetana
 "KafkaException" <|-- "org.apache.kafka.common.errors.SerializationException"
 class org.apache.kafka.common.errors.SerializationException {
-+SerializationException(String;Throwable) : SerializationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/SerializationException.java.html#11]]]
-+SerializationException(String) : SerializationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/SerializationException.java.html#15]]]
-+SerializationException(Throwable) : SerializationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/SerializationException.java.html#19]]]
-+SerializationException() : SerializationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/SerializationException.java.html#23]]]
++SerializationException(String;Throwable) : SerializationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/SerializationException.java.html#28]]]
++SerializationException(String) : SerializationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/SerializationException.java.html#32]]]
++SerializationException(Throwable) : SerializationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/SerializationException.java.html#36]]]
++SerializationException() : SerializationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/SerializationException.java.html#40]]]
 } 
 @enduml

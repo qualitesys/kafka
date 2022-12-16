@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.MessageSizeAccumulator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#10"
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#31"
  , "c1" : "int"
  , "c2" : "totalSize()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#15"
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#39"
  , "c1" : "int"
  , "c2" : "sizeExcludingZeroCopy()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#20"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#50"
  , "c1" : "int"
  , "c2" : "zeroCopySize()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#24"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#54"
  , "c1" : "void"
  , "c2" : "addZeroCopyBytes(int)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#29"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#59"
  , "c1" : "void"
  , "c2" : "addBytes(int)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#33"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#63"
  , "c1" : "void"
  , "c2" : "add(MessageSizeAccumulator)"
  , "c3" : "1"
@@ -120,31 +120,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#24"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method addZeroCopyBytes arguments int  size"
+ , "c3" : "QC-JAV000006[00054] For method addZeroCopyBytes arguments int  size"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#29"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method addBytes arguments int  size"
+ , "c3" : "QC-JAV000006[00059] For method addBytes arguments int  size"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#33"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method add arguments MessageSizeAccumulator  size"
+ , "c3" : "QC-JAV000006[00063] For method add arguments MessageSizeAccumulator  size"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#33"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageSizeAccumulator.java.html#63"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00033] The argument size is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00063] The argument size is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

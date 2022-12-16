@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.authorizer.AclCreateResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#16"
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#31"
  , "c1" : "AclCreateResult"
  , "c2" : "AclCreateResult()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#20"
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#35"
  , "c1" : "AclCreateResult"
  , "c2" : "AclCreateResult(ApiException)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#25"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#42"
  , "c1" : "Optional<ApiException>"
  , "c2" : "exception()"
  , "c3" : "1"
@@ -86,17 +86,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#17"
+ , "c1" : "00032"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.server.authorizer.AclCreateResult.AclCreateResult@POLYN143324 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.server.authorizer.AclCreateResult.AclCreateResult@POLYN143426 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#26"
+ , "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.server.authorizer.AclCreateResult.exception@POLYN143645 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.server.authorizer.AclCreateResult.exception@POLYN143747 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

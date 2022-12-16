@@ -2,7 +2,7 @@
 !pragma layout smetana
 "StreamPartitioner<K,V>" <|-- "org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner"
 class org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner {
-+DefaultStreamPartitioner(Serializer<K>) : DefaultStreamPartitioner [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#12]]]
-+partition(String;K;V;int) : Integer [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#17]]]
++DefaultStreamPartitioner(Serializer<K>) : DefaultStreamPartitioner [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#27]]]
++partition(String;K;V;int) : Integer [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStreamPartitioner.java.html#32]]]
 } 
 @enduml

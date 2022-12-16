@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.FenceProducersResult"
 class org.apache.kafka.clients.admin.FenceProducersResult {
-FenceProducersResult(Map<CoordinatorKey,KafkaFuture<ProducerIdAndEpoch>>) : FenceProducersResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#20]]]
-+fencedProducers() : Map<String,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#25]]]
-+producerId(String) : KafkaFuture<Long> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#33]]]
-+epochId(String) : KafkaFuture<Short> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#38]]]
-+all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#43]]]
+FenceProducersResult(Map<CoordinatorKey,KafkaFuture<ProducerIdAndEpoch>>) : FenceProducersResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#39]]]
++fencedProducers() : Map<String,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#47]]]
++producerId(String) : KafkaFuture<Long> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#57]]]
++epochId(String) : KafkaFuture<Short> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#64]]]
++all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#71]]]
 } 
 @enduml

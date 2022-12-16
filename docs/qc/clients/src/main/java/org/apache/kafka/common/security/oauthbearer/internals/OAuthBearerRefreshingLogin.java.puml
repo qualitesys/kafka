@@ -2,10 +2,10 @@
 !pragma layout smetana
 "Login" <|-- "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin"
 class org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin {
-+configure(Map<String,?>;String;Configuration;AuthenticateCallbackHandler) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#29]]]
-+close() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#71]]]
-+subject() : Subject [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#77]]]
-+serviceName() : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#82]]]
-+login() : LoginContext [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#87]]]
++configure(Map<String,?>;String;Configuration;AuthenticateCallbackHandler) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#83]]]
++close() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#132]]]
++subject() : Subject [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#138]]]
++serviceName() : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#143]]]
++login() : LoginContext [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#148]]]
 } 
 @enduml

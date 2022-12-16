@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#17"
+ , "c5" : "00036"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#36"
  , "c1" : "RemoteLogSegmentId"
  , "c2" : "RemoteLogSegmentId(TopicIdPartition;Uuid)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#23"
+ , "c5" : "00044"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#44"
  , "c1" : "TopicIdPartition"
  , "c2" : "topicIdPartition()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#28"
+ , "c5" : "00051"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#51"
  , "c1" : "Uuid"
  , "c2" : "id()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#33"
+ , "c5" : "00056"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#56"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#41"
+ , "c5" : "00064"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#64"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#53"
+ , "c5" : "00076"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#76"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -127,80 +127,80 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#18"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.RemoteLogSegmentId@POLYN148747 the MagicNumber/String  'topicIdPartition can not be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#19"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.RemoteLogSegmentId@POLYN148747 the MagicNumber/String  'id can not be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.toString@POLYN149383 the MagicNumber/String  'RemoteLogSegmentId{' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.toString@POLYN149383 the MagicNumber/String  'topicIdPartition=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.toString@POLYN149383 the MagicNumber/String  ', id=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00037"
  , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.toString@POLYN149383 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.RemoteLogSegmentId@POLYN148885 the MagicNumber/String  'topicIdPartition can not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#41"
+ , "c1" : "00038"
+ , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#38"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.RemoteLogSegmentId@POLYN148885 the MagicNumber/String  'id can not be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#57"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.toString@POLYN149521 the MagicNumber/String  'RemoteLogSegmentId{' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#58"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.toString@POLYN149521 the MagicNumber/String  'topicIdPartition=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
+ , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#59"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.toString@POLYN149521 the MagicNumber/String  ', id=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.toString@POLYN149521 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#64"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00064] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#45"
+ , "c1" : "00068"
+ , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00045] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00068] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#43"
+ , "c1" : "00066"
+ , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.equals@POLYN149601 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.equals@POLYN149739 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#45"
+ , "c1" : "00068"
+ , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.equals@POLYN149601 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.equals@POLYN149739 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#46"
+ , "c1" : "00069"
+ , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.equals@POLYN149601 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.equals@POLYN149739 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

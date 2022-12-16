@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.mirror.SourceAndTarget" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00009"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#9"
+ , "c5" : "00024"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#24"
  , "c1" : "SourceAndTarget"
  , "c2" : "SourceAndTarget(String;String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#14"
+ , "c5" : "00029"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#29"
  , "c1" : "String"
  , "c2" : "source()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#18"
+ , "c5" : "00033"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#33"
  , "c1" : "String"
  , "c2" : "target()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#38"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#28"
+ , "c5" : "00043"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#43"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#33"
+ , "c5" : "00048"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#48"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "1"
@@ -127,38 +127,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#24"
+ , "c1" : "00039"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.connect.mirror.SourceAndTarget.toString@POLYN143285 the MagicNumber/String  '-&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.mirror.SourceAndTarget.toString@POLYN143375 the MagicNumber/String  '-&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method equals arguments Object  other"
+ , "c3" : "QC-JAV000006[00048] For method equals arguments Object  other"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#34"
+ , "c1" : "00049"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.mirror.SourceAndTarget.equals@POLYN143563 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.mirror.SourceAndTarget.equals@POLYN143653 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#28"
+ , "c1" : "00043"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#43"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00028] Public method hashCode is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00043] Public method hashCode is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#33"
+ , "c1" : "00048"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#48"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00033] Public method equals is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00048] Public method equals is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

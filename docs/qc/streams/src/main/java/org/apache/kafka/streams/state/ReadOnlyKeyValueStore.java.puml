@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.state.ReadOnlyKeyValueStore"
 class org.apache.kafka.streams.state.ReadOnlyKeyValueStore {
-get(K) : V [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#11]]]
-range(K;K) : KeyValueIterator<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#14]]]
-reverseRange(K;K) : KeyValueIterator<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#17]]]
-all() : KeyValueIterator<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#22]]]
-reverseAll() : KeyValueIterator<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#25]]]
-approximateNumEntries() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#35]]]
+get(K) : V [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#45]]]
+range(K;K) : KeyValueIterator<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#60]]]
+reverseRange(K;K) : KeyValueIterator<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#75]]]
+all() : KeyValueIterator<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#88]]]
+reverseAll() : KeyValueIterator<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#99]]]
+approximateNumEntries() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#134]]]
 } 
 @enduml

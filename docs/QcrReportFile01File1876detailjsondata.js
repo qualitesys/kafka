@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.DefaultKafkaClientSupplier" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#32"
  , "c1" : "Admin"
  , "c2" : "getAdmin(Map<String,Object>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#23"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#38"
  , "c1" : "Producer<byte[],byte[]>"
  , "c2" : "getProducer(Map<String,Object>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#28"
+ , "c5" : "00043"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#43"
  , "c1" : "Consumer<byte[],byte[]>"
  , "c2" : "getConsumer(Map<String,Object>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#33"
+ , "c5" : "00048"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#48"
  , "c1" : "Consumer<byte[],byte[]>"
  , "c2" : "getRestoreConsumer(Map<String,Object>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#38"
+ , "c5" : "00053"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#53"
  , "c1" : "Consumer<byte[],byte[]>"
  , "c2" : "getGlobalConsumer(Map<String,Object>)"
  , "c3" : "1"
@@ -104,38 +104,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#17"
+ , "c1" : "00032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#32"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method getAdmin arguments Map&lt;String ,Object &gt;  config"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#23"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method getProducer arguments Map&lt;String ,Object &gt;  config"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#28"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method getConsumer arguments Map&lt;String ,Object &gt;  config"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#33"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method getRestoreConsumer arguments Map&lt;String ,Object &gt;  config"
+ , "c3" : "QC-JAV000006[00032] For method getAdmin arguments Map&lt;String ,Object &gt;  config"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00038"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method getGlobalConsumer arguments Map&lt;String ,Object &gt;  config"
+ , "c3" : "QC-JAV000006[00038] For method getProducer arguments Map&lt;String ,Object &gt;  config"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#43"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00043] For method getConsumer arguments Map&lt;String ,Object &gt;  config"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#48"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00048] For method getRestoreConsumer arguments Map&lt;String ,Object &gt;  config"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#53"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00053] For method getGlobalConsumer arguments Map&lt;String ,Object &gt;  config"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.OffsetCheckpoint" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#41"
+ , "c5" : "00070"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#70"
  , "c1" : "OffsetCheckpoint"
  , "c2" : "OffsetCheckpoint(File)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#47"
+ , "c5" : "00080"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#80"
  , "c1" : "void"
  , "c2" : "write(Map<TopicPartition,Long>)"
  , "c3" : "5"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#87"
+ , "c5" : "00122"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#122"
  , "c1" : "void"
  , "c2" : "writeIntLine(BufferedWriter;int)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#94"
+ , "c5" : "00131"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#131"
  , "c1" : "void"
  , "c2" : "writeEntry(BufferedWriter;TopicPartition;long)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00107"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#107"
+ , "c5" : "00149"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#149"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "read()"
  , "c3" : "7"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00152"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#152"
+ , "c5" : "00196"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#196"
  , "c1" : "int"
  , "c2" : "readInt(BufferedReader)"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00161"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#161"
+ , "c5" : "00207"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#207"
  , "c1" : "void"
  , "c2" : "delete()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00166"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#166"
+ , "c5" : "00212"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#212"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00170"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#170"
+ , "c5" : "00216"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#216"
  , "c1" : "boolean"
  , "c2" : "isValid(long)"
  , "c3" : "1"
@@ -191,276 +191,276 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#47"
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method write arguments Map&lt;TopicPartition ,Long &gt;  offsets"
+ , "c3" : "QC-JAV000006[00080] For method write arguments Map&lt;TopicPartition ,Long &gt;  offsets"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#47"
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#80"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00047] The argument offsets is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00080] The argument offsets is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#55"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#88"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00055] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00067] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00068] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.write@POLYN173497 the MagicNumber/String  '.tmp' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.write@POLYN173497 the MagicNumber/String  'Writing tmp checkpoint file {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.write@POLYN173497 the MagicNumber/String  'Received offset={} to write to checkpoint file for {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.write@POLYN173497 the MagicNumber/String  'Attempted to write a negative offset to the checkpoint file' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.write@POLYN173497 the MagicNumber/String  'Swapping tmp checkpoint file {} {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#87"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00087] For method writeIntLine arguments BufferedWriter  writer|int  number"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#87"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00087] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#94"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00094] For method writeEntry arguments BufferedWriter  writer|TopicPartition  part|long  offset"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#94"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00094] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#95"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00095] The argument part is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#98"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.writeEntry@POLYN176048 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000019[00088] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.writeEntry@POLYN176048 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000001[00100] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#108"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00108] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#117"
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00117] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00101] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#123"
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00123] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.write@POLYN173773 the MagicNumber/String  '.tmp' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#125"
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00125] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.write@POLYN173773 the MagicNumber/String  'Writing tmp checkpoint file {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#112"
+ , "c1" : "00105"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN176908 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.write@POLYN173773 the MagicNumber/String  'Received offset={} to write to checkpoint file for {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#116"
+ , "c1" : "00106"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN176908 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.write@POLYN173773 the MagicNumber/String  'Attempted to write a negative offset to the checkpoint file' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#118"
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN176908 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.write@POLYN173773 the MagicNumber/String  'Swapping tmp checkpoint file {} {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#120"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN176908 the MagicNumber/String  'Malformed line in offset checkpoint file: '%s'.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN176908 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#124"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN176908 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN176908 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#130"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN176908 the MagicNumber/String  'Read offset={} from checkpoint file for {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#138"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN176908 the MagicNumber/String  'Expected %d entries but found only %d' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#143"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN176908 the MagicNumber/String  'Unknown offset checkpoint version: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#152"
+ , "c1" : "00122"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00152] For method readInt arguments BufferedReader  reader"
+ , "c3" : "QC-JAV000006[00122] For method writeIntLine arguments BufferedWriter  writer|int  number"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#152"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00152] For method readInt list of called methods Object monObjet|java.lang.String reader_readLineN179596"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#152"
+ , "c1" : "00122"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#122"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00152] The argument reader is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00122] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#131"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00131] For method writeEntry arguments BufferedWriter  writer|TopicPartition  part|long  offset"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#131"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00131] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#132"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00132] The argument part is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#135"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.writeEntry@POLYN176324 the MagicNumber/String  ' ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00137"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#137"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.writeEntry@POLYN176324 the MagicNumber/String  ' ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#150"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00150] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#159"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00159] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#165"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00165] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#167"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00167] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.readInt@POLYN179479 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN177184 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#155"
+ , "c1" : "00158"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.readInt@POLYN179479 the MagicNumber/String  'File ended prematurely.' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN177184 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#170"
+ , "c1" : "00160"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#160"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN177184 the MagicNumber/String  3 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN177184 the MagicNumber/String  'Malformed line in offset checkpoint file: '%s'.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#165"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN177184 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00166"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#166"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN177184 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00168"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#168"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN177184 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN177184 the MagicNumber/String  'Read offset={} from checkpoint file for {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00180"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#180"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN177184 the MagicNumber/String  'Expected %d entries but found only %d' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00185"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN177184 the MagicNumber/String  'Unknown offset checkpoint version: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#196"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00170] For method isValid arguments long  offset"
+ , "c3" : "QC-JAV000006[00196] For method readInt arguments BufferedReader  reader"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#171"
+ , "c1" : "00196"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#196"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00196] For method readInt list of called methods Object monObjet|java.lang.String reader_readLineN179872"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#196"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00196] The argument reader is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00198"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.isValid@POLYN180187 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.readInt@POLYN179755 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00199"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#199"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.readInt@POLYN179755 the MagicNumber/String  'File ended prematurely.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00216"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#216"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00216] For method isValid arguments long  offset"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00217"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#217"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.isValid@POLYN180463 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.OffsetCheckpoint.toString@POLYN180081"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.OffsetCheckpoint.toString@POLYN180357"
 }} 
 ]
 , 

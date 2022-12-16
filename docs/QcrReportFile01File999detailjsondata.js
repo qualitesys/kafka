@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#26"
+ , "c5" : "00071"
+ , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#71"
  , "c1" : "Supplier<Configuration>"
  , "c2" : "initializeConfiguration(Supplier<Configuration>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#41"
+ , "c5" : "00086"
+ , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#86"
  , "c1" : "BasicAuthSecurityRestExtension"
  , "c2" : "BasicAuthSecurityRestExtension()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#46"
+ , "c5" : "00091"
+ , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#91"
  , "c1" : "BasicAuthSecurityRestExtension"
  , "c2" : "BasicAuthSecurityRestExtension(Supplier<Configuration>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#51"
+ , "c5" : "00096"
+ , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#96"
  , "c1" : "void"
  , "c2" : "register(ConnectRestExtensionContext)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#58"
+ , "c5" : "00103"
+ , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#103"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#63"
+ , "c5" : "00108"
+ , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#108"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#69"
+ , "c5" : "00114"
+ , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#114"
  , "c1" : "String"
  , "c2" : "version()"
  , "c3" : "1"
@@ -173,94 +173,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#26"
+ , "c1" : "00071"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method initializeConfiguration arguments Supplier&lt;Configuration &gt;  configurationSupplier"
+ , "c3" : "QC-JAV000006[00071] For method initializeConfiguration arguments Supplier&lt;Configuration &gt;  configurationSupplier"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#26"
+ , "c1" : "00071"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#71"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00026] The argument configurationSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00071] The argument configurationSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#34"
+ , "c1" : "00079"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.initializeConfiguration@POLYN162129 the MagicNumber/String  'Failed to retrieve JAAS configuration' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.initializeConfiguration@POLYN162399 the MagicNumber/String  'Failed to retrieve JAAS configuration' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#51"
+ , "c1" : "00096"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#96"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00051] For method register arguments ConnectRestExtensionContext  restPluginContext"
+ , "c3" : "QC-JAV000006[00096] For method register arguments ConnectRestExtensionContext  restPluginContext"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#51"
+ , "c1" : "00096"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#96"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00051] The argument restPluginContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00096] The argument restPluginContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#52"
+ , "c1" : "00097"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.register@POLYN162885 the MagicNumber/String  'Registering JAAS basic auth filter' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.register@POLYN163155 the MagicNumber/String  'Registering JAAS basic auth filter' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#54"
+ , "c1" : "00099"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.register@POLYN162885 the MagicNumber/String  'Finished registering JAAS basic auth filter' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.register@POLYN163155 the MagicNumber/String  'Finished registering JAAS basic auth filter' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#63"
+ , "c1" : "00108"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00063] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00108] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#58"
+ , "c1" : "00103"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00058] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00103] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#58"
+ , "c1" : "00103"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00058] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00103] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.register@POLYN162885"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.register@POLYN163155"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#52"
+ , "c1" : "00097"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#97"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.register@POLYN162885 the MagicNumber/String 'Registering JAAS basic auth filter' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00097] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.register@POLYN163155 the MagicNumber/String 'Registering JAAS basic auth filter' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#54"
+ , "c1" : "00099"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#99"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.register@POLYN162885 the MagicNumber/String 'Finished registering JAAS basic auth filter' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.register@POLYN163155 the MagicNumber/String 'Finished registering JAAS basic auth filter' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ExpireDelegationTokenOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ExpireDelegationTokenOptions.java.html#12"
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ExpireDelegationTokenOptions.java.html#31"
  , "c1" : "ExpireDelegationTokenOptions"
  , "c2" : "expiryTimePeriodMs(long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ExpireDelegationTokenOptions.java.html#17"
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ExpireDelegationTokenOptions.java.html#36"
  , "c1" : "long"
  , "c2" : "expiryTimePeriodMs()"
  , "c3" : "1"
@@ -77,10 +77,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ExpireDelegationTokenOptions.java.html#12"
+ , "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ExpireDelegationTokenOptions.java.html#31"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00012] For method expiryTimePeriodMs arguments long  expiryTimePeriodMs"
+ , "c3" : "QC-JAV000006[00031] For method expiryTimePeriodMs arguments long  expiryTimePeriodMs"
 }} 
 ]
 , 

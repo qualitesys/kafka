@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeClusterOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#15"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#38"
  , "c1" : "DescribeClusterOptions"
  , "c2" : "timeoutMs(Integer)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#20"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#43"
  , "c1" : "DescribeClusterOptions"
  , "c2" : "includeAuthorizedOperations(boolean)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#26"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#52"
  , "c1" : "boolean"
  , "c2" : "includeAuthorizedOperations()"
  , "c3" : "1"
@@ -86,17 +86,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#15"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00015] For method timeoutMs arguments Integer  timeoutMs"
+ , "c3" : "QC-JAV000006[00038] For method timeoutMs arguments Integer  timeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#20"
+ , "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00020] For method includeAuthorizedOperations arguments boolean  includeAuthorizedOperations"
+ , "c3" : "QC-JAV000006[00043] For method includeAuthorizedOperations arguments boolean  includeAuthorizedOperations"
 }} 
 ]
 , 

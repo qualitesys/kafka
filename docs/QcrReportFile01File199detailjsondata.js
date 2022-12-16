@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#23"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#47"
  , "c1" : "Map<String,List<TopicPartition>>"
  , "c2" : "assign(Map<String,Integer>;Map<String,Subscription>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#27"
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#51"
  , "c1" : "GroupAssignment"
  , "c2" : "assign(Cluster;GroupSubscription)"
  , "c3" : "6"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#56"
+ , "c5" : "00080"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#80"
  , "c1" : "List<TopicPartition>"
  , "c2" : "partitions(String;int)"
  , "c3" : "2"
@@ -137,178 +137,178 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#23"
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method assign arguments Map&lt;String ,Integer &gt;  partitionsPerTopic|Map&lt;String ,Subscription &gt;  subscriptions"
+ , "c3" : "QC-JAV000006[00047] For method assign arguments Map&lt;String ,Integer &gt;  partitionsPerTopic|Map&lt;String ,Subscription &gt;  subscriptions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#27"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method assign arguments Cluster  metadata|GroupSubscription  groupSubscription"
+ , "c3" : "QC-JAV000006[00051] For method assign arguments Cluster  metadata|GroupSubscription  groupSubscription"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#27"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00027] For method assign list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment metadata_partitionCountForTopicN162472|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment assignN162920"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#27"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument metadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#27"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument groupSubscription is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00035] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN161703 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN161703 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN161703 the MagicNumber/String  'Skipping assignment for topic {} since no metadata is available' should be converted to const"
+ , "c3" : "QC-JAV000007[00051] For method assign list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment metadata_partitionCountForTopicN162634|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment assignN163082"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#51"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00051] The argument map is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00051] The argument metadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method partitions arguments String  topic|int  numPartitions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.partitions@POLYN164010 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#73"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method compareTo arguments MemberInfo  otherMemberInfo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#73"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#51"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00073] The argument otherMemberInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00051] The argument groupSubscription is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#79"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.compareTo@POLYN164975 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000001[00059] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#81"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.compareTo@POLYN164975 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN161865 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#88"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN161865 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN161865 the MagicNumber/String  'Skipping assignment for topic {} since no metadata is available' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#75"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00075] The argument map is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00080] For method partitions arguments String  topic|int  numPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#100"
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.toString@POLYN166138 the MagicNumber/String  'MemberInfo [member.id: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.partitions@POLYN164172 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#101"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.toString@POLYN166138 the MagicNumber/String  ', group.instance.id: ' should be converted to const"
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#97"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00097] For method compareTo arguments MemberInfo  otherMemberInfo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#101"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.toString@POLYN166138 the MagicNumber/String  '{}' should be converted to const"
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#97"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00097] The argument otherMemberInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#102"
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.toString@POLYN166138 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.compareTo@POLYN165137 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.compareTo@POLYN165137 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#112"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00112] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#127"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.toString@POLYN166300 the MagicNumber/String  'MemberInfo [member.id: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#128"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.toString@POLYN166300 the MagicNumber/String  ', group.instance.id: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#128"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.toString@POLYN166300 the MagicNumber/String  '{}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00129"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#129"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.toString@POLYN166300 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN161703"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN161865"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#36"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#60"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN161703 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN161865 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#36"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#60"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN161703 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN161865 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#39"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#63"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00039] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN161703 the MagicNumber/String 'Skipping assignment for topic {} since no metadata is available' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN161865 the MagicNumber/String 'Skipping assignment for topic {} since no metadata is available' MUST BE CONVERTED to const"
 }} 
 ]
 , 

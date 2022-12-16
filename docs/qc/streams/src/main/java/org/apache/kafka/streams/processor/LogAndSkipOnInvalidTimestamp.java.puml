@@ -2,6 +2,6 @@
 !pragma layout smetana
 "ExtractRecordMetadataTimestamp" <|-- "org.apache.kafka.streams.processor.LogAndSkipOnInvalidTimestamp"
 class org.apache.kafka.streams.processor.LogAndSkipOnInvalidTimestamp {
-+onInvalidTimestamp(ConsumerRecord<Object,Object>;long;long) : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/LogAndSkipOnInvalidTimestamp.java.html#14]]]
++onInvalidTimestamp(ConsumerRecord<Object,Object>;long;long) : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/LogAndSkipOnInvalidTimestamp.java.html#61]]]
 } 
 @enduml

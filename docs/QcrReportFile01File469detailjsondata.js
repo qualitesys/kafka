@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.internals.IntGaugeSuite" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00096"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#96"
+ , "c5" : "00146"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#146"
  , "c1" : "IntGaugeSuite"
  , "c2" : "IntGaugeSuite(Logger;String;Metrics;Function<K,MetricName>;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00115"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#115"
+ , "c5" : "00165"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#165"
  , "c1" : "void"
  , "c2" : "increment(K)"
  , "c3" : "6"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00156"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#156"
+ , "c5" : "00210"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#210"
  , "c1" : "void"
  , "c2" : "performPendingMetricsOperations()"
  , "c3" : "6"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00181"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#181"
+ , "c5" : "00235"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#235"
  , "c1" : "void"
  , "c2" : "decrement(K)"
  , "c3" : "5"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00202"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#202"
+ , "c5" : "00256"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#256"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "3"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00219"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#219"
+ , "c5" : "00275"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#275"
  , "c1" : "int"
  , "c2" : "maxEntries()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00224"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#224"
+ , "c5" : "00280"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#280"
  , "c1" : "Metrics"
  , "c2" : "metrics()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00229"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#229"
+ , "c5" : "00288"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#288"
  , "c1" : "Map<K,Integer>"
  , "c2" : "values()"
  , "c3" : "2"
@@ -152,290 +152,290 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#74"
+ , "c1" : "00122"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.StoredIntGauge.StoredIntGauge@POLYN180842 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.StoredIntGauge.StoredIntGauge@POLYN181196 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#79"
+ , "c1" : "00129"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#129"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00079] Lock statement on synchronized method value"
+ , "c3" : "QC-JAV000019[00129] Lock statement on synchronized method value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#79"
+ , "c1" : "00129"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#129"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method value arguments MetricConfig  config|long  now"
+ , "c3" : "QC-JAV000006[00129] For method value arguments MetricConfig  config|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#83"
+ , "c1" : "00133"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#133"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00083] Lock statement on synchronized method increment"
+ , "c3" : "QC-JAV000019[00133] Lock statement on synchronized method increment"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#87"
+ , "c1" : "00137"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#137"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00087] Lock statement on synchronized method decrement"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#91"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00091] Lock statement on synchronized method value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#96"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00096] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN181528 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#110"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN181528 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#111"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN181528 the MagicNumber/String  '{}: created new gauge suite with maxEntries = {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#115"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00115] For method increment arguments K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#115"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00115] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#116"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00116] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN182614 the MagicNumber/String  '{}: Attempted to increment {}, but the GaugeSuite was closed.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN182614 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#125"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN182614 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN182614 the MagicNumber/String  '{}: Attempted to increment {}, but there are already {} entries.' should be converted to const"
+ , "c3" : "QC-JAV000019[00137] Lock statement on synchronized method decrement"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN182614 the MagicNumber/String  null should be converted to const"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00141] Lock statement on synchronized method value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#142"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN182614 the MagicNumber/String  '{}: Removing the metric {}, which has a value of 0.' should be converted to const"
+ , "c1" : "00146"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#146"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00146] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#149"
+ , "c1" : "00156"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN182614 the MagicNumber/String  '{}: Adding a new metric {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN181882 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#159"
+ , "c1" : "00160"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN185020 the MagicNumber/String  '{}: entering performPendingMetricsOperations' should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN181882 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN185020 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#163"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN185020 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN181882 the MagicNumber/String  '{}: created new gauge suite with maxEntries = {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#165"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN185020 the MagicNumber/String  '{}: removing metric {}' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00165] For method increment arguments K  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#170"
+ , "c1" : "00165"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#165"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00165] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00166"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#166"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00166] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00168"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN185020 the MagicNumber/String  '{}: adding metric {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN182968 the MagicNumber/String  '{}: Attempted to increment {}, but the GaugeSuite was closed.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00173"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#173"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN182968 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN185020 the MagicNumber/String  '{}: leaving performPendingMetricsOperations' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN182968 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#181"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00181] Lock statement on synchronized method decrement"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#181"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00181] For method decrement arguments K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#181"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00181] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#183"
+ , "c1" : "00182"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN186302 the MagicNumber/String  '{}: Attempted to decrement {}, but the gauge suite was closed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN182968 the MagicNumber/String  '{}: Attempted to increment {}, but there are already {} entries.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#188"
+ , "c1" : "00191"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN186302 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN182968 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#189"
+ , "c1" : "00192"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN186302 the MagicNumber/String  '{}: Attempted to decrement {}, but no such metric was registered.' should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN182968 the MagicNumber/String  '{}: Removing the metric {}, which has a value of 0.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#193"
+ , "c1" : "00199"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN186302 the MagicNumber/String  '{}: Removed a reference to {}.  {} reference(s) remaining.' should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN182968 the MagicNumber/String  '{}: Adding a new metric {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#195"
+ , "c1" : "00213"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN186302 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#202"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00202] Lock statement on synchronized method close"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#204"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN187294 the MagicNumber/String  '{}: gauge suite is already closed.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#207"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN187294 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#208"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN187294 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00210"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#210"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN187294 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN185374 the MagicNumber/String  '{}: entering performPendingMetricsOperations' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00215"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN187294 the MagicNumber/String  '{}: closed {} metric(s).' should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN185374 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00217"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#217"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN185374 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#219"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN185374 the MagicNumber/String  '{}: removing metric {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00224"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#224"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN185374 the MagicNumber/String  '{}: adding metric {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00229"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#229"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN185374 the MagicNumber/String  '{}: leaving performPendingMetricsOperations' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00235"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#235"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00229] Lock statement on synchronized method values"
+ , "c3" : "QC-JAV000019[00235] Lock statement on synchronized method decrement"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00235"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#235"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00235] For method decrement arguments K  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00235"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#235"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00235] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00237"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#237"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN186656 the MagicNumber/String  '{}: Attempted to decrement {}, but the gauge suite was closed.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00242"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#242"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN186656 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00243"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#243"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN186656 the MagicNumber/String  '{}: Attempted to decrement {}, but no such metric was registered.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00247"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#247"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN186656 the MagicNumber/String  '{}: Removed a reference to {}.  {} reference(s) remaining.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00249"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#249"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN186656 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00256"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#256"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00256] Lock statement on synchronized method close"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00258"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#258"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN187648 the MagicNumber/String  '{}: gauge suite is already closed.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00261"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#261"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN187648 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00262"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#262"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN187648 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#264"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN187648 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00269"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#269"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN187648 the MagicNumber/String  '{}: closed {} metric(s).' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00288"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#288"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00288] Lock statement on synchronized method values"
 }} 
 ]
 , 

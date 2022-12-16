@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.TaskState" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.html#27"
+ , "c5" : "00044"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.html#44"
  , "c1" : "TaskState"
  , "c2" : "TaskState(TaskSpec;JsonNode)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.html#33"
+ , "c5" : "00050"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.html#50"
  , "c1" : "TaskSpec"
  , "c2" : "spec()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.html#38"
+ , "c5" : "00055"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.html#55"
  , "c1" : "JsonNode"
  , "c2" : "status()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.html#42"
+ , "c5" : "00059"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.html#59"
  , "c1" : "TaskStateType"
  , "c2" : "stateType()"
  , "c3" : "1"
@@ -95,10 +95,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.html#29"
+ , "c1" : "00046"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.trogdor.rest.TaskState.TaskState@POLYN147677 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.trogdor.rest.TaskState.TaskState@POLYN147779 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

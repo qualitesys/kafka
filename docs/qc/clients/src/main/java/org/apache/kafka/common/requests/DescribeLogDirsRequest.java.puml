@@ -2,10 +2,10 @@
 !pragma layout smetana
 "AbstractRequest" <|-- "org.apache.kafka.common.requests.DescribeLogDirsRequest"
 class org.apache.kafka.common.requests.DescribeLogDirsRequest {
-+DescribeLogDirsRequest(DescribeLogDirsRequestData;short) : DescribeLogDirsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsRequest.java.html#36]]]
-+data() : DescribeLogDirsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsRequest.java.html#42]]]
-+getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsRequest.java.html#47]]]
-+isAllTopicPartitions() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsRequest.java.html#53]]]
-+parse(ByteBuffer;short) : DescribeLogDirsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsRequest.java.html#57]]]
++DescribeLogDirsRequest(DescribeLogDirsRequestData;short) : DescribeLogDirsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsRequest.java.html#51]]]
++data() : DescribeLogDirsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsRequest.java.html#57]]]
++getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsRequest.java.html#62]]]
++isAllTopicPartitions() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsRequest.java.html#68]]]
++parse(ByteBuffer;short) : DescribeLogDirsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsRequest.java.html#72]]]
 } 
 @enduml

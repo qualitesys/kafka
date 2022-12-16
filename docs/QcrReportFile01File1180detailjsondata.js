@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.storage.OffsetUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#12"
+ , "c5" : "00027"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#27"
  , "c1" : "void"
  , "c2" : "validateFormat(Object)"
  , "c3" : "3"
@@ -82,101 +82,101 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#12"
+ , "c1" : "00027"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00012] For method validateFormat arguments Object  offsetData"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#13"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.connect.storage.OffsetUtils.validateFormat@POLYN146320 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#17"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.connect.storage.OffsetUtils.validateFormat@POLYN146320 the MagicNumber/String  'Offsets must be specified as a Map' should be converted to const"
+ , "c3" : "QC-JAV000006[00027] For method validateFormat arguments Object  offsetData"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00028"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00028] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00031] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00034] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#24"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#29"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  'Offsets may only use String keys' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.connect.storage.OffsetUtils.validateFormat@POLYN146410 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00032"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.storage.OffsetUtils.validateFormat@POLYN146410 the MagicNumber/String  'Offsets must be specified as a Map' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#35"
+ , "c1" : "00043"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00043] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#36"
+ , "c1" : "00046"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  'Offsets may only contain primitive types as values, but field ' should be converted to const"
+ , "c3" : "QC-JAV000001[00046] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#36"
+ , "c1" : "00049"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  ' contains ' should be converted to const"
+ , "c3" : "QC-JAV000001[00049] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#38"
+ , "c1" : "00039"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  'Offsets may only contain primitive types as values, but field ' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#38"
+ , "c1" : "00044"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  ' contains ' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  'Offsets may only use String keys' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#47"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#50"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#51"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  'Offsets may only contain primitive types as values, but field ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#51"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  ' contains ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  'Offsets may only contain primitive types as values, but field ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  ' contains ' should be converted to const"
 }} 
 ]
 , 

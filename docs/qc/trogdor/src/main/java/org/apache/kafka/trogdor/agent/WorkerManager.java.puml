@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.trogdor.agent.WorkerManager"
 class org.apache.kafka.trogdor.agent.WorkerManager {
-WorkerManager(Platform;Scheduler) : WorkerManager [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#115]]]
-+createWorker(long;String;TaskSpec) : KafkaFuture<String> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#246]]]
-+stopWorker(long;boolean) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#447]]]
-+workerStates() : TreeMap<Long,WorkerState> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#531]]]
-+beginShutdown() : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#548]]]
-+waitForShutdown() : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#554]]]
+WorkerManager(Platform;Scheduler) : WorkerManager [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#157]]]
++createWorker(long;String;TaskSpec) : KafkaFuture<String> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#318]]]
++stopWorker(long;boolean) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#527]]]
++workerStates() : TreeMap<Long,WorkerState> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#616]]]
++beginShutdown() : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#633]]]
++waitForShutdown() : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#639]]]
 } 
 @enduml

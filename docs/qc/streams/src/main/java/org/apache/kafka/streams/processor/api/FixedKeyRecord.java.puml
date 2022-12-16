@@ -2,15 +2,15 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.processor.api.FixedKeyRecord"
 class org.apache.kafka.streams.processor.api.FixedKeyRecord {
-FixedKeyRecord(K;V;long;Headers) : FixedKeyRecord [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#19]]]
-+key() : K [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#33]]]
-+value() : V [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#38]]]
-+timestamp() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#43]]]
-+headers() : Headers [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#48]]]
-+withTimestamp(long) : FixedKeyRecord<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#58]]]
-+withHeaders(Headers) : FixedKeyRecord<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#63]]]
-+toString() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#68]]]
-+equals(Object) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#78]]]
-+hashCode() : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#89]]]
+FixedKeyRecord(K;V;long;Headers) : FixedKeyRecord [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#50]]]
++key() : K [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#66]]]
++value() : V [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#73]]]
++timestamp() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#80]]]
++headers() : Headers [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#87]]]
++withTimestamp(long) : FixedKeyRecord<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#112]]]
++withHeaders(Headers) : FixedKeyRecord<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#128]]]
++toString() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#133]]]
++equals(Object) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#143]]]
++hashCode() : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyRecord.java.html#154]]]
 } 
 @enduml

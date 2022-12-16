@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.tools.MockConnector" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#34"
+ , "c5" : "00060"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#60"
  , "c1" : "String"
  , "c2" : "version()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#39"
+ , "c5" : "00065"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#65"
  , "c1" : "void"
  , "c2" : "start(Map<String,String>)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#60"
+ , "c5" : "00086"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#86"
  , "c1" : "Class<?extendsTask>"
  , "c2" : "taskClass()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#65"
+ , "c5" : "00091"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#91"
  , "c1" : "List<Map<String,String>>"
  , "c2" : "taskConfigs(int)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#71"
+ , "c5" : "00097"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#97"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "3"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#85"
+ , "c5" : "00111"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#111"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -157,129 +157,129 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#39"
+ , "c1" : "00065"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method start arguments Map&lt;String ,String &gt;  config"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#39"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00039] For method start list of called methods Object monObjet|long Long_parseLongN155750"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#39"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00039] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.tools.MockConnector.start@POLYN155223 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.tools.MockConnector.start@POLYN155223 the MagicNumber/String  'Started MockConnector with failure delay of {} ms' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.tools.MockConnector.start@POLYN155223 the MagicNumber/String  'Triggering connector failure' should be converted to const"
+ , "c3" : "QC-JAV000006[00065] For method start arguments Map&lt;String ,String &gt;  config"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method taskConfigs arguments int  maxTasks"
+ , "c3" : "QC-JAV000007[00065] For method start list of called methods Object monObjet|long Long_parseLongN155906"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.tools.MockConnector.taskConfigs@POLYN156518 the MagicNumber/String  'Creating single task for MockConnector' should be converted to const"
+ , "c1" : "00065"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#65"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00065] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#72"
+ , "c1" : "00073"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.tools.MockConnector.stop@POLYN156744 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.tools.MockConnector.start@POLYN155379 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.tools.MockConnector.stop@POLYN156744 the MagicNumber/String  20 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.tools.MockConnector.stop@POLYN156744 the MagicNumber/String  'Failed timely termination of scheduler' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.tools.MockConnector.start@POLYN155379 the MagicNumber/String  'Started MockConnector with failure delay of {} ms' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.tools.MockConnector.stop@POLYN156744 the MagicNumber/String  'Task was interrupted during shutdown' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.tools.MockConnector.start@POLYN155379 the MagicNumber/String  'Triggering connector failure' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#91"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00091] For method taskConfigs arguments int  maxTasks"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.tools.MockConnector.taskConfigs@POLYN156674 the MagicNumber/String  'Creating single task for MockConnector' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.tools.MockConnector.stop@POLYN156900 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.tools.MockConnector.stop@POLYN156900 the MagicNumber/String  20 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.tools.MockConnector.stop@POLYN156900 the MagicNumber/String  'Failed timely termination of scheduler' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.connect.tools.MockConnector.stop@POLYN156900 the MagicNumber/String  'Task was interrupted during shutdown' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.tools.MockConnector.start@POLYN155223"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.tools.MockConnector.start@POLYN155379"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.tools.MockConnector.taskConfigs@POLYN156518"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.tools.MockConnector.taskConfigs@POLYN156674"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#47"
+ , "c1" : "00073"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#73"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.connect.tools.MockConnector.start@POLYN155223 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.connect.tools.MockConnector.start@POLYN155379 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#50"
+ , "c1" : "00076"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#76"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.connect.tools.MockConnector.start@POLYN155223 the MagicNumber/String 'Started MockConnector with failure delay of {} ms' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.connect.tools.MockConnector.start@POLYN155379 the MagicNumber/String 'Started MockConnector with failure delay of {} ms' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#53"
+ , "c1" : "00079"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#79"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.connect.tools.MockConnector.start@POLYN155223 the MagicNumber/String 'Triggering connector failure' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.connect.tools.MockConnector.start@POLYN155379 the MagicNumber/String 'Triggering connector failure' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#66"
+ , "c1" : "00092"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#92"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.connect.tools.MockConnector.taskConfigs@POLYN156518 the MagicNumber/String 'Creating single task for MockConnector' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.connect.tools.MockConnector.taskConfigs@POLYN156674 the MagicNumber/String 'Creating single task for MockConnector' MUST BE CONVERTED to const"
 }} 
 ]
 , 

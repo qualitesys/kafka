@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.FetchMetadata" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#29"
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#62"
  , "c1" : "int"
  , "c2" : "nextEpoch(int)"
  , "c3" : "5"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#46"
+ , "c5" : "00083"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#83"
  , "c1" : "FetchMetadata"
  , "c2" : "FetchMetadata(int;int)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#52"
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#91"
  , "c1" : "boolean"
  , "c2" : "isFull()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#56"
+ , "c5" : "00095"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#95"
  , "c1" : "int"
  , "c2" : "sessionId()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#60"
+ , "c5" : "00099"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#99"
  , "c1" : "int"
  , "c2" : "epoch()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#65"
+ , "c5" : "00104"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#104"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#70"
+ , "c5" : "00109"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#109"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#78"
+ , "c5" : "00119"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#119"
  , "c1" : "FetchMetadata"
  , "c2" : "nextCloseExisting()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#83"
+ , "c5" : "00126"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#126"
  , "c1" : "FetchMetadata"
  , "c2" : "newIncremental(int)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#88"
+ , "c5" : "00133"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#133"
  , "c1" : "FetchMetadata"
  , "c2" : "nextIncremental()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#93"
+ , "c5" : "00138"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#138"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "7"
@@ -179,129 +179,129 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#29"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method nextEpoch arguments int  prevEpoch"
+ , "c3" : "QC-JAV000006[00062] For method nextEpoch arguments int  prevEpoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#30"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.FetchMetadata.nextEpoch@POLYN158252 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.requests.FetchMetadata.nextEpoch@POLYN158522 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#34"
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.requests.FetchMetadata.nextEpoch@POLYN158252 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.requests.FetchMetadata.nextEpoch@POLYN158522 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#36"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.requests.FetchMetadata.nextEpoch@POLYN158252 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.requests.FetchMetadata.nextEpoch@POLYN158522 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#70"
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#109"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00109] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#72"
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00072] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00111] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#71"
+ , "c1" : "00110"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.requests.FetchMetadata.equals@POLYN159612 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.common.requests.FetchMetadata.equals@POLYN159882 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#72"
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.requests.FetchMetadata.equals@POLYN159612 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.requests.FetchMetadata.equals@POLYN159882 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#72"
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.requests.FetchMetadata.equals@POLYN159612 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.requests.FetchMetadata.equals@POLYN159882 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#83"
+ , "c1" : "00126"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#126"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method newIncremental arguments int  sessionId"
+ , "c3" : "QC-JAV000006[00126] For method newIncremental arguments int  sessionId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#96"
+ , "c1" : "00141"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.requests.FetchMetadata.toString@POLYN160819 the MagicNumber/String  '(sessionId=INVALID, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.common.requests.FetchMetadata.toString@POLYN161089 the MagicNumber/String  '(sessionId=INVALID, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#98"
+ , "c1" : "00143"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.requests.FetchMetadata.toString@POLYN160819 the MagicNumber/String  '(sessionId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.requests.FetchMetadata.toString@POLYN161089 the MagicNumber/String  '(sessionId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#98"
+ , "c1" : "00143"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.requests.FetchMetadata.toString@POLYN160819 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.requests.FetchMetadata.toString@POLYN161089 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#101"
+ , "c1" : "00146"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.requests.FetchMetadata.toString@POLYN160819 the MagicNumber/String  'epoch=INITIAL)' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.requests.FetchMetadata.toString@POLYN161089 the MagicNumber/String  'epoch=INITIAL)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#103"
+ , "c1" : "00148"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.requests.FetchMetadata.toString@POLYN160819 the MagicNumber/String  'epoch=FINAL)' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.common.requests.FetchMetadata.toString@POLYN161089 the MagicNumber/String  'epoch=FINAL)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#105"
+ , "c1" : "00150"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.requests.FetchMetadata.toString@POLYN160819 the MagicNumber/String  'epoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.requests.FetchMetadata.toString@POLYN161089 the MagicNumber/String  'epoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#105"
+ , "c1" : "00150"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.requests.FetchMetadata.toString@POLYN160819 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.requests.FetchMetadata.toString@POLYN161089 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#29"
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#62"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00029] Public method nextEpoch is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00062] Public method nextEpoch is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

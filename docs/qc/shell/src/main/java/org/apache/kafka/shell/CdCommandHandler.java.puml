@@ -2,9 +2,9 @@
 !pragma layout smetana
 "Commands.Handler" <|-- "org.apache.kafka.shell.CdCommandHandler"
 class org.apache.kafka.shell.CdCommandHandler {
-+CdCommandHandler(Optional<String>) : CdCommandHandler [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#61]]]
-+run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#66]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#89]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#94]]]
++CdCommandHandler(Optional<String>) : CdCommandHandler [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#78]]]
++run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#83]]]
++hashCode() : int [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#106]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#111]]]
 } 
 @enduml

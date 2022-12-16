@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.UnregisterBrokerRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#30"
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#45"
  , "c1" : "UnregisterBrokerRequest"
  , "c2" : "UnregisterBrokerRequest(UnregisterBrokerRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#36"
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#51"
  , "c1" : "UnregisterBrokerRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#41"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#56"
  , "c1" : "UnregisterBrokerResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#48"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#63"
  , "c1" : "UnregisterBrokerRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -95,24 +95,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#23"
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00038] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#41"
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c3" : "QC-JAV000006[00056] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#48"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00063] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ]
 , 

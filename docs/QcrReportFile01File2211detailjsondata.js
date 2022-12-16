@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.CreateTaskRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.html#15"
+ , "c5" : "00032"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.html#32"
  , "c1" : "CreateTaskRequest"
  , "c2" : "CreateTaskRequest(String;TaskSpec)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.html#22"
+ , "c5" : "00039"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.html#39"
  , "c1" : "String"
  , "c2" : "id()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.html#27"
+ , "c5" : "00044"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.html#44"
  , "c1" : "TaskSpec"
  , "c2" : "spec()"
  , "c3" : "1"

@@ -2,10 +2,10 @@
 !pragma layout smetana
 "Throwable" <|-- "java.lang.Error"
 class java.lang.Error {
-+Error() : Error [[[./../.././qc/secujava/java.lang.Error.java.html#57]]]
-+Error(String) : Error [[[./../.././qc/secujava/java.lang.Error.java.html#69]]]
-+Error(String;Throwable) : Error [[[./../.././qc/secujava/java.lang.Error.java.html#87]]]
-+Error(Throwable) : Error [[[./../.././qc/secujava/java.lang.Error.java.html#104]]]
-Error(String;Throwable;boolean;boolean) : Error [[[./../.././qc/secujava/java.lang.Error.java.html#123]]]
++Error() : Error [[[./../.././qc/secujava/java.lang.Error.java.html#104]]]
++Error(String) : Error [[[./../.././qc/secujava/java.lang.Error.java.html#123]]]
++Error(String;Throwable) : Error [[[./../.././qc/secujava/java.lang.Error.java.html#154]]]
++Error(Throwable) : Error [[[./../.././qc/secujava/java.lang.Error.java.html#183]]]
+Error(String;Throwable;boolean;boolean) : Error [[[./../.././qc/secujava/java.lang.Error.java.html#216]]]
 } 
 @enduml

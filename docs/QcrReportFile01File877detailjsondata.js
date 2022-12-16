@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.serialization.StringSerializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#15"
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#33"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;boolean)"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#25"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#43"
  , "c1" : "byte[]"
  , "c2" : "serialize(String;String)"
  , "c3" : "3"
@@ -114,101 +114,101 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#15"
+ , "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#33"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00015] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00033] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#15"
+ , "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#33"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00015] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00033] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#16"
+ , "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.serialization.StringSerializer.configure@POLYN145967 the MagicNumber/String  'key.serializer.encoding' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.serialization.StringSerializer.configure@POLYN146075 the MagicNumber/String  'key.serializer.encoding' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#16"
+ , "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.serialization.StringSerializer.configure@POLYN145967 the MagicNumber/String  'value.serializer.encoding' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.serialization.StringSerializer.configure@POLYN146075 the MagicNumber/String  'value.serializer.encoding' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#18"
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.serialization.StringSerializer.configure@POLYN145967 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.serialization.StringSerializer.configure@POLYN146075 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#19"
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.common.serialization.StringSerializer.configure@POLYN145967 the MagicNumber/String  'serializer.encoding' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.serialization.StringSerializer.configure@POLYN146075 the MagicNumber/String  'serializer.encoding' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#25"
+ , "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method serialize arguments String  topic|String  data"
+ , "c3" : "QC-JAV000006[00043] For method serialize arguments String  topic|String  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#27"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.serialization.StringSerializer.serialize@POLYN146665 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.serialization.StringSerializer.serialize@POLYN146773 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#28"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.serialization.StringSerializer.serialize@POLYN146665 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.serialization.StringSerializer.serialize@POLYN146773 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#32"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.serialization.StringSerializer.serialize@POLYN146665 the MagicNumber/String  'Error when serializing string to byte[] due to unsupported encoding ' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.serialization.StringSerializer.serialize@POLYN146773 the MagicNumber/String  'Error when serializing string to byte[] due to unsupported encoding ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.serialization.StringSerializer.serialize@POLYN146665"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.serialization.StringSerializer.serialize@POLYN146773"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#27"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#45"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00027] In the recursive method org.apache.kafka.common.serialization.StringSerializer.serialize@POLYN146665 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.common.serialization.StringSerializer.serialize@POLYN146773 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#28"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#46"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00028] In the recursive method org.apache.kafka.common.serialization.StringSerializer.serialize@POLYN146665 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.common.serialization.StringSerializer.serialize@POLYN146773 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#32"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#50"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00032] In the recursive method org.apache.kafka.common.serialization.StringSerializer.serialize@POLYN146665 the MagicNumber/String 'Error when serializing string to byte[] due to unsupported encoding ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.common.serialization.StringSerializer.serialize@POLYN146773 the MagicNumber/String 'Error when serializing string to byte[] due to unsupported encoding ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

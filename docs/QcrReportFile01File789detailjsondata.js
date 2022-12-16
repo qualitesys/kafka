@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientProvider" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientProvider.java.html#13"
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientProvider.java.html#28"
  , "c1" : "OAuthBearerSaslClientProvider"
  , "c2" : "OAuthBearerSaslClientProvider()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientProvider.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientProvider.java.html#34"
  , "c1" : "void"
  , "c2" : "initialize()"
  , "c3" : "1"
@@ -77,31 +77,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientProvider.java.html#14"
+ , "c1" : "00029"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientProvider.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientProvider.OAuthBearerSaslClientProvider@POLYN142925 the MagicNumber/String  'SASL/OAUTHBEARER Client Provider' should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientProvider.OAuthBearerSaslClientProvider@POLYN143015 the MagicNumber/String  'SASL/OAUTHBEARER Client Provider' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientProvider.java.html#14"
+ , "c1" : "00029"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientProvider.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientProvider.OAuthBearerSaslClientProvider@POLYN142925 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientProvider.OAuthBearerSaslClientProvider@POLYN143015 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientProvider.java.html#14"
+ , "c1" : "00029"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientProvider.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientProvider.OAuthBearerSaslClientProvider@POLYN142925 the MagicNumber/String  'SASL/OAUTHBEARER Client Provider for Kafka' should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientProvider.OAuthBearerSaslClientProvider@POLYN143015 the MagicNumber/String  'SASL/OAUTHBEARER Client Provider for Kafka' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientProvider.java.html#15"
+ , "c1" : "00030"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientProvider.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientProvider.OAuthBearerSaslClientProvider@POLYN142925 the MagicNumber/String  'SaslClientFactory.' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientProvider.OAuthBearerSaslClientProvider@POLYN143015 the MagicNumber/String  'SaslClientFactory.' should be converted to const"
 }} 
 ]
 , 

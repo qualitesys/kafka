@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "java.net.CacheResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/secujava/java.net.CacheResponse.java.html#14"
+ , "c5" : "00053"
+ , "c5link" : "././qc/secujava/java.net.CacheResponse.java.html#53"
  , "c1" : "Map<String,List<String>>"
  , "c2" : "getHeaders()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/secujava/java.net.CacheResponse.java.html#17"
+ , "c5" : "00063"
+ , "c5link" : "././qc/secujava/java.net.CacheResponse.java.html#63"
  , "c1" : "InputStream"
  , "c2" : "getBody()"
  , "c3" : "1"

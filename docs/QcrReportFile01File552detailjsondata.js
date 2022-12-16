@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.CompressionRatioEstimator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#18"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#42"
  , "c1" : "float"
  , "c2" : "updateEstimation(String;CompressionType;float)"
  , "c3" : "4"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#32"
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#58"
  , "c1" : "float"
  , "c2" : "estimation(String;CompressionType)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#38"
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#66"
  , "c1" : "void"
  , "c2" : "resetEstimation(String)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#48"
+ , "c5" : "00078"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#78"
  , "c1" : "void"
  , "c2" : "removeEstimation(String)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#53"
+ , "c5" : "00085"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#85"
  , "c1" : "void"
  , "c2" : "setEstimation(String;CompressionType;float)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#60"
+ , "c5" : "00092"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#92"
  , "c1" : "float[]"
  , "c2" : "getAndCreateEstimationIfAbsent(String)"
  , "c3" : "3"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#72"
+ , "c5" : "00104"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#104"
  , "c1" : "float[]"
  , "c2" : "initialCompressionRatio()"
  , "c3" : "2"
@@ -150,136 +150,136 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#18"
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method updateEstimation arguments String  topic|CompressionType  type|float  observedRatio"
+ , "c3" : "QC-JAV000006[00042] For method updateEstimation arguments String  topic|CompressionType  type|float  observedRatio"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#18"
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00018] For method updateEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN154811"
+ , "c3" : "QC-JAV000007[00042] For method updateEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN155003"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#18"
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#42"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00018] The argument type is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00042] The argument type is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#21"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#45"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00021] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00045] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#32"
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method estimation arguments String  topic|CompressionType  type"
+ , "c3" : "QC-JAV000006[00058] For method estimation arguments String  topic|CompressionType  type"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#32"
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00032] For method estimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN155749"
+ , "c3" : "QC-JAV000007[00058] For method estimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN155941"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#32"
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#58"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00032] The argument type is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method resetEstimation arguments String  topic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00038] For method resetEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN156038"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#40"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00040] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method removeEstimation arguments String  topic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#53"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method setEstimation arguments String  topic|CompressionType  type|float  ratio"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#53"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00053] For method setEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN156755"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#53"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00053] The argument type is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#55"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00055] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#60"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method getAndCreateEstimationIfAbsent arguments String  topic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#60"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00060] For method getAndCreateEstimationIfAbsent list of called methods Object monObjet|float[] initialCompressionRatioN157238"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.record.CompressionRatioEstimator.getAndCreateEstimationIfAbsent@POLYN156969 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAVCWE476[00058] The argument type is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#66"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00066] For method resetEstimation arguments String  topic"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#66"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00066] For method resetEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN156230"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#68"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00068] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#78"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00078] For method removeEstimation arguments String  topic"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#85"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00085] For method setEstimation arguments String  topic|CompressionType  type|float  ratio"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#85"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00085] For method setEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN156947"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#85"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00085] The argument type is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#87"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00087] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#92"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00092] For method getAndCreateEstimationIfAbsent arguments String  topic"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#92"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00092] For method getAndCreateEstimationIfAbsent list of called methods Object monObjet|float[] initialCompressionRatioN157430"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.record.CompressionRatioEstimator.getAndCreateEstimationIfAbsent@POLYN156969 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.record.CompressionRatioEstimator.getAndCreateEstimationIfAbsent@POLYN157161 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.record.CompressionRatioEstimator.getAndCreateEstimationIfAbsent@POLYN157161 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

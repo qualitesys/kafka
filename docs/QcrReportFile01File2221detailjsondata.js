@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.StopTaskRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html#13"
+ , "c5" : "00030"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html#30"
  , "c1" : "StopTaskRequest"
  , "c2" : "StopTaskRequest(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html#18"
+ , "c5" : "00035"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html#35"
  , "c1" : "String"
  , "c2" : "id()"
  , "c3" : "1"
@@ -77,17 +77,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html#14"
+ , "c1" : "00031"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.trogdor.rest.StopTaskRequest.StopTaskRequest@POLYN142375 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.rest.StopTaskRequest.StopTaskRequest@POLYN142477 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html#14"
+ , "c1" : "00031"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.trogdor.rest.StopTaskRequest.StopTaskRequest@POLYN142375 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.rest.StopTaskRequest.StopTaskRequest@POLYN142477 the MagicNumber/String  '' should be converted to const"
 }} 
 ]
 , 

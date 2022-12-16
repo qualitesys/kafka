@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.UniformStickyPartitioner" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#16"
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#45"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#19"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#57"
  , "c1" : "int"
  , "c2" : "partition(String;Object;byte[];Object;byte[];Cluster)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#23"
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#61"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#27"
+ , "c5" : "00068"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#68"
  , "c1" : "void"
  , "c2" : "onNewBatch(String;Cluster;int)"
  , "c3" : "1"
@@ -109,52 +109,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#16"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00016] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00045] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#19"
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method partition arguments String  topic|Object  key|byte[]  keyBytes|Object  value|byte[]  valueBytes|Cluster  cluster"
+ , "c3" : "QC-JAV000006[00057] For method partition arguments String  topic|Object  key|byte[]  keyBytes|Object  value|byte[]  valueBytes|Cluster  cluster"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#27"
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method onNewBatch arguments String  topic|Cluster  cluster|int  prevPartition"
+ , "c3" : "QC-JAV000006[00068] For method onNewBatch arguments String  topic|Cluster  cluster|int  prevPartition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#16"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#45"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00016] Void method configure is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00045] Void method configure is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#16"
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#45"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00016] Void method configure is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00045] Void method configure is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#23"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#61"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00023] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00061] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#23"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/UniformStickyPartitioner.java.html#61"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00023] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00061] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

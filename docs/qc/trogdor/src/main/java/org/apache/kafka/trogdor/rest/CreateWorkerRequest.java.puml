@@ -2,9 +2,9 @@
 !pragma layout smetana
 "Message" <|-- "org.apache.kafka.trogdor.rest.CreateWorkerRequest"
 class org.apache.kafka.trogdor.rest.CreateWorkerRequest {
-+CreateWorkerRequest(long;String;TaskSpec) : CreateWorkerRequest [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html#16]]]
-+workerId() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html#25]]]
-+taskId() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html#30]]]
-+spec() : TaskSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html#35]]]
++CreateWorkerRequest(long;String;TaskSpec) : CreateWorkerRequest [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html#33]]]
++workerId() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html#42]]]
++taskId() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html#47]]]
++spec() : TaskSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html#52]]]
 } 
 @enduml

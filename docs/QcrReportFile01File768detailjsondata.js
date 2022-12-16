@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#30"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#52"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;String;List<AppConfigurationEntry>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#35"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#57"
  , "c1" : "void"
  , "c2" : "handle(Callback[])"
  , "c3" : "21"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#82"
+ , "c5" : "00104"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#104"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -114,122 +114,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#30"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method configure arguments Map&lt;String ,? &gt;  configs|String  saslMechanism|List&lt;AppConfigurationEntry &gt;  jaasConfigEntries"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#35"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method handle arguments Callback[]  callbacks"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00038] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00039] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00039] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00044] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00047] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00049] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00053] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00054] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00054] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00056] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000006[00052] For method configure arguments Map&lt;String ,? &gt;  configs|String  saslMechanism|List&lt;AppConfigurationEntry &gt;  jaasConfigEntries"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00057] Avoid declaring class instance within loop, performance impact"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00057] For method handle arguments Callback[]  callbacks"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#57"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00057] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00060] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#58"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00058] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00061] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#59"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00059] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00063] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00061] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -237,20 +153,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#66"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00066] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00066] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00067] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -261,87 +163,185 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00072] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00073] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler.handle@POLYN160680 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler.handle@POLYN160680 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler.handle@POLYN160680 the MagicNumber/String  'Could not login: the client is being asked for a password, but the Kafka' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler.handle@POLYN160680 the MagicNumber/String  ' client code does not currently support obtaining a password from the user.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler.handle@POLYN160680 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#65"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler.handle@POLYN160680 the MagicNumber/String  'unchecked' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler.handle@POLYN160680 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00071] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00075] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler.handle@POLYN160680 the MagicNumber/String  'Unrecognized SASL ClientCallback' should be converted to const"
+ , "c3" : "QC-JAV000001[00076] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#82"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00082] Void method close is empty or contains only a return."
+ , "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#76"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00076] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#82"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00078] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00079] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00079] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00080] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00081] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00085] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00088] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00088] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#89"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00089] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#91"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00091] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00094] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#95"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00095] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#62"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler.handle@POLYN160812 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00067"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#67"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler.handle@POLYN160812 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#71"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler.handle@POLYN160812 the MagicNumber/String  'Could not login: the client is being asked for a password, but the Kafka' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler.handle@POLYN160812 the MagicNumber/String  ' client code does not currently support obtaining a password from the user.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler.handle@POLYN160812 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler.handle@POLYN160812 the MagicNumber/String  'unchecked' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler.handle@POLYN160812 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.security.authenticator.SaslClientCallbackHandler.handle@POLYN160812 the MagicNumber/String  'Unrecognized SASL ClientCallback' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#104"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00082] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000005[00104] Void method close is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#104"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00104] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

@@ -2,9 +2,9 @@
 !pragma layout smetana
 "Transformation<R>" <|-- "org.apache.kafka.connect.transforms.TimestampRouter"
 class org.apache.kafka.connect.transforms.TimestampRouter {
-+configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#43]]]
-+apply(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#57]]]
-+close() : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#75]]]
-+config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#80]]]
++configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#58]]]
++apply(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#72]]]
++close() : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#90]]]
++config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#95]]]
 } 
 @enduml

@@ -2,7 +2,7 @@
 !pragma layout smetana
 "BaseRecordBatchBenchmark" <|-- "org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark"
 class org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark {
-compressionType() : CompressionType [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.java.html#33]]]
-+measureValidateMessagesAndAssignOffsetsCompressed(Blackhole) : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.java.html#38]]]
+compressionType() : CompressionType [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.java.html#48]]]
++measureValidateMessagesAndAssignOffsetsCompressed(Blackhole) : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.java.html#53]]]
 } 
 @enduml

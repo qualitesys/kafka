@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.shell.Commands" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#67"
+ , "c5" : "00097"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#97"
  , "c1" : "Commands"
  , "c2" : "Commands(boolean)"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#79"
+ , "c5" : "00109"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#109"
  , "c1" : "ArgumentParser"
  , "c2" : "parser()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#84"
+ , "c5" : "00122"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#122"
  , "c1" : "Handler"
  , "c2" : "parseCommand(List<String>)"
  , "c3" : "7"
@@ -123,248 +123,248 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#72"
+ , "c1" : "00102"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00072] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00102] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#68"
+ , "c1" : "00098"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.shell.Commands.Commands@POLYN163027 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#68"
+ , "c1" : "00098"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.shell.Commands.Commands@POLYN163027 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#69"
+ , "c1" : "00099"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String  'command' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.shell.Commands.Commands@POLYN163027 the MagicNumber/String  'command' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#84"
+ , "c1" : "00122"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method parseCommand arguments List&lt;String &gt;  arguments"
+ , "c3" : "QC-JAV000006[00122] For method parseCommand arguments List&lt;String &gt;  arguments"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#90"
+ , "c1" : "00128"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00090] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00128] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#86"
+ , "c1" : "00124"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#90"
+ , "c1" : "00128"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#94"
+ , "c1" : "00132"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#98"
+ , "c1" : "00136"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#104"
+ , "c1" : "00142"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  'command' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String  'command' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#105"
+ , "c1" : "00143"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#106"
+ , "c1" : "00144"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  'invalid choice: '' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String  'invalid choice: '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
+ , "c1" : "00145"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
+ , "c1" : "00145"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  '': did you mean '' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String  '': did you mean '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
+ , "c1" : "00145"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  ''?' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String  ''?' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#110"
+ , "c1" : "00148"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#111"
+ , "c1" : "00149"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  'Unknown command specified: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String  'Unknown command specified: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.Commands.Commands@POLYN162799"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.Commands.Commands@POLYN163027"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.Commands.parseCommand@POLYN163858"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#68"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#68"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#69"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String 'command' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#86"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#90"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#94"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.Commands.parseCommand@POLYN164086"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#98"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.shell.Commands.Commands@POLYN163027 the MagicNumber/String '' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#104"
+ , "c1" : "00098"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#98"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 'command' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.shell.Commands.Commands@POLYN163027 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#105"
+ , "c1" : "00099"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#99"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.shell.Commands.Commands@POLYN163027 the MagicNumber/String 'command' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#106"
+ , "c1" : "00124"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#124"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 'invalid choice: '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
+ , "c1" : "00128"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#128"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String '': did you mean '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
+ , "c1" : "00132"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#132"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String ''?' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00132] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
+ , "c1" : "00136"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#136"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00136] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#110"
+ , "c1" : "00142"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#142"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00142] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String 'command' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#111"
+ , "c1" : "00143"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 'Unknown command specified: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00144"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#144"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String 'invalid choice: '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00145"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#145"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String '': did you mean '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00145"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#145"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String ''?' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00145"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#145"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#148"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00149"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#149"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00149] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN164086 the MagicNumber/String 'Unknown command specified: ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

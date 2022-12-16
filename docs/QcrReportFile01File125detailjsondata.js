@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.OffsetSpec" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/OffsetSpec.java.html#25"
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/OffsetSpec.java.html#44"
  , "c1" : "OffsetSpec"
  , "c2" : "latest()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/OffsetSpec.java.html#30"
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/OffsetSpec.java.html#51"
  , "c1" : "OffsetSpec"
  , "c2" : "earliest()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/OffsetSpec.java.html#35"
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/OffsetSpec.java.html#60"
  , "c1" : "OffsetSpec"
  , "c2" : "forTimestamp(long)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/OffsetSpec.java.html#40"
+ , "c5" : "00069"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/OffsetSpec.java.html#69"
  , "c1" : "OffsetSpec"
  , "c2" : "maxTimestamp()"
  , "c3" : "1"
@@ -95,10 +95,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/OffsetSpec.java.html#35"
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/OffsetSpec.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method forTimestamp arguments long  timestamp"
+ , "c3" : "QC-JAV000006[00060] For method forTimestamp arguments long  timestamp"
 }} 
 ]
 , 

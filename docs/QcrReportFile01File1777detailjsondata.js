@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.WindowedStreamPartitioner" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#12"
+ , "c5" : "00027"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#27"
  , "c1" : "WindowedStreamPartitioner"
  , "c2" : "WindowedStreamPartitioner(WindowedSerializer<K>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#18"
+ , "c5" : "00043"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#43"
  , "c1" : "Integer"
  , "c2" : "partition(String;Windowed<K>;V;int)"
  , "c3" : "1"
@@ -77,10 +77,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#18"
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method partition arguments String  topic|Windowed&lt;K &gt;  windowedKey|V  value|int  numPartitions"
+ , "c3" : "QC-JAV000006[00043] For method partition arguments String  topic|Windowed&lt;K &gt;  windowedKey|V  value|int  numPartitions"
 }} 
 ]
 , 

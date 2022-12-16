@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.producer.internals.StickyPartitionCache"
 class org.apache.kafka.clients.producer.internals.StickyPartitionCache {
-+StickyPartitionCache() : StickyPartitionCache [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#16]]]
-+partition(String;Cluster) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#20]]]
-+nextPartition(String;Cluster;int) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#28]]]
++StickyPartitionCache() : StickyPartitionCache [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#34]]]
++partition(String;Cluster) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#38]]]
++nextPartition(String;Cluster;int) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#46]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.util.ConnectorTaskId" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#16"
+ , "c5" : "00034"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#34"
  , "c1" : "ConnectorTaskId"
  , "c2" : "ConnectorTaskId(String;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#22"
+ , "c5" : "00040"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#40"
  , "c1" : "String"
  , "c2" : "connector()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#27"
+ , "c5" : "00045"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#45"
  , "c1" : "int"
  , "c2" : "task()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#32"
+ , "c5" : "00050"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#50"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "4"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#47"
+ , "c5" : "00065"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#65"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#54"
+ , "c5" : "00072"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#72"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#59"
+ , "c5" : "00077"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#77"
  , "c1" : "int"
  , "c2" : "compareTo(ConnectorTaskId)"
  , "c3" : "2"
@@ -136,87 +136,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#32"
+ , "c1" : "00050"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00050] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#35"
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00035] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00053] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#34"
+ , "c1" : "00052"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.util.ConnectorTaskId.equals@POLYN148486 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.util.ConnectorTaskId.equals@POLYN148594 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#35"
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.util.ConnectorTaskId.equals@POLYN148486 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.util.ConnectorTaskId.equals@POLYN148594 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#36"
+ , "c1" : "00054"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.util.ConnectorTaskId.equals@POLYN148486 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.util.ConnectorTaskId.equals@POLYN148486 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.util.ConnectorTaskId.hashCode@POLYN149108 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.util.ConnectorTaskId.hashCode@POLYN149108 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.util.ConnectorTaskId.hashCode@POLYN149108 the MagicNumber/String  31 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.util.ConnectorTaskId.toString@POLYN149453 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.util.ConnectorTaskId.equals@POLYN148594 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#59"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method compareTo arguments ConnectorTaskId  o"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.util.ConnectorTaskId.equals@POLYN148594 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#61"
+ , "c1" : "00066"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.util.ConnectorTaskId.compareTo@POLYN149599 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.util.ConnectorTaskId.hashCode@POLYN149216 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#66"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.util.ConnectorTaskId.hashCode@POLYN149216 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00067"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#67"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.util.ConnectorTaskId.hashCode@POLYN149216 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#73"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.util.ConnectorTaskId.toString@POLYN149561 the MagicNumber/String  '-' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#77"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00077] For method compareTo arguments ConnectorTaskId  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.util.ConnectorTaskId.compareTo@POLYN149707 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

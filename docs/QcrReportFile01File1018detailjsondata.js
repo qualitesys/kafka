@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.mirror.RemoteClusterUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#18"
+ , "c5" : "00045"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#45"
  , "c1" : "RemoteClusterUtils"
  , "c2" : "RemoteClusterUtils()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#21"
+ , "c5" : "00049"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#49"
  , "c1" : "int"
  , "c2" : "replicationHops(Map<String,Object>;String)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#29"
+ , "c5" : "00057"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#57"
  , "c1" : "Set<String>"
  , "c2" : "heartbeatTopics(Map<String,Object>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#37"
+ , "c5" : "00065"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#65"
  , "c1" : "Set<String>"
  , "c2" : "checkpointTopics(Map<String,Object>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#45"
+ , "c5" : "00073"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#73"
  , "c1" : "Set<String>"
  , "c2" : "upstreamClusters(Map<String,Object>)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#53"
+ , "c5" : "00087"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#87"
  , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
  , "c2" : "translateOffsets(Map<String,Object>;String;String;Duration)"
  , "c3" : "1"
@@ -113,38 +113,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#21"
+ , "c1" : "00049"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00021] For method replicationHops arguments Map&lt;String ,Object &gt;  properties|String  upstreamClusterAlias"
+ , "c3" : "QC-JAV000006[00049] For method replicationHops arguments Map&lt;String ,Object &gt;  properties|String  upstreamClusterAlias"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#29"
+ , "c1" : "00057"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method heartbeatTopics arguments Map&lt;String ,Object &gt;  properties"
+ , "c3" : "QC-JAV000006[00057] For method heartbeatTopics arguments Map&lt;String ,Object &gt;  properties"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#37"
+ , "c1" : "00065"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method checkpointTopics arguments Map&lt;String ,Object &gt;  properties"
+ , "c3" : "QC-JAV000006[00065] For method checkpointTopics arguments Map&lt;String ,Object &gt;  properties"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#45"
+ , "c1" : "00073"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#73"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method upstreamClusters arguments Map&lt;String ,Object &gt;  properties"
+ , "c3" : "QC-JAV000006[00073] For method upstreamClusters arguments Map&lt;String ,Object &gt;  properties"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#53"
+ , "c1" : "00087"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method translateOffsets arguments Map&lt;String ,Object &gt;  properties|String  remoteClusterAlias|String  consumerGroupId|Duration  timeout"
+ , "c3" : "QC-JAV000006[00087] For method translateOffsets arguments Map&lt;String ,Object &gt;  properties|String  remoteClusterAlias|String  consumerGroupId|Duration  timeout"
 }} 
 ]
 , 

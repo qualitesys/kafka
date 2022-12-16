@@ -2,16 +2,16 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.connect.runtime.isolation.PluginScanResult"
 class org.apache.kafka.connect.runtime.isolation.PluginScanResult {
-+PluginScanResult(Collection<PluginDesc<SinkConnector>>;Collection<PluginDesc<SourceConnector>>;Collection<PluginDesc<Converter>>;Collection<PluginDesc<HeaderConverter>>;Collection<PluginDesc<Transformation<?>>>;Collection<PluginDesc<Predicate<?>>>;Collection<PluginDesc<ConfigProvider>>;Collection<PluginDesc<ConnectRestExtension>>;Collection<PluginDesc<ConnectorClientConfigOverridePolicy>>) : PluginScanResult [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#31]]]
-+sinkConnectors() : Collection<PluginDesc<SinkConnector>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#56]]]
-+sourceConnectors() : Collection<PluginDesc<SourceConnector>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#60]]]
-+converters() : Collection<PluginDesc<Converter>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#64]]]
-+headerConverters() : Collection<PluginDesc<HeaderConverter>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#68]]]
-+transformations() : Collection<PluginDesc<Transformation<?>>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#72]]]
-+predicates() : Collection<PluginDesc<Predicate<?>>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#76]]]
-+configProviders() : Collection<PluginDesc<ConfigProvider>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#80]]]
-+restExtensions() : Collection<PluginDesc<ConnectRestExtension>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#84]]]
-+connectorClientConfigPolicies() : Collection<PluginDesc<ConnectorClientConfigOverridePolicy>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#88]]]
-+isEmpty() : boolean [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#92]]]
++PluginScanResult(Collection<PluginDesc<SinkConnector>>;Collection<PluginDesc<SourceConnector>>;Collection<PluginDesc<Converter>>;Collection<PluginDesc<HeaderConverter>>;Collection<PluginDesc<Transformation<?>>>;Collection<PluginDesc<Predicate<?>>>;Collection<PluginDesc<ConfigProvider>>;Collection<PluginDesc<ConnectRestExtension>>;Collection<PluginDesc<ConnectorClientConfigOverridePolicy>>) : PluginScanResult [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#46]]]
++sinkConnectors() : Collection<PluginDesc<SinkConnector>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#71]]]
++sourceConnectors() : Collection<PluginDesc<SourceConnector>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#75]]]
++converters() : Collection<PluginDesc<Converter>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#79]]]
++headerConverters() : Collection<PluginDesc<HeaderConverter>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#83]]]
++transformations() : Collection<PluginDesc<Transformation<?>>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#87]]]
++predicates() : Collection<PluginDesc<Predicate<?>>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#91]]]
++configProviders() : Collection<PluginDesc<ConfigProvider>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#95]]]
++restExtensions() : Collection<PluginDesc<ConnectRestExtension>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#99]]]
++connectorClientConfigPolicies() : Collection<PluginDesc<ConnectorClientConfigOverridePolicy>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#103]]]
++isEmpty() : boolean [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#107]]]
 } 
 @enduml

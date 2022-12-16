@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.NewPartitionReassignment" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitionReassignment.java.html#15"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitionReassignment.java.html#34"
  , "c1" : "NewPartitionReassignment"
  , "c2" : "NewPartitionReassignment(List<Integer>)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitionReassignment.java.html#21"
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitionReassignment.java.html#40"
  , "c1" : "List<Integer>"
  , "c2" : "targetReplicas()"
  , "c3" : "1"
@@ -77,24 +77,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitionReassignment.java.html#16"
+ , "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitionReassignment.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.clients.admin.NewPartitionReassignment.NewPartitionReassignment@POLYN143619 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.admin.NewPartitionReassignment.NewPartitionReassignment@POLYN143733 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitionReassignment.java.html#16"
+ , "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitionReassignment.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.clients.admin.NewPartitionReassignment.NewPartitionReassignment@POLYN143619 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.admin.NewPartitionReassignment.NewPartitionReassignment@POLYN143733 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitionReassignment.java.html#17"
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitionReassignment.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.clients.admin.NewPartitionReassignment.NewPartitionReassignment@POLYN143619 the MagicNumber/String  'Cannot create a new partition reassignment without any replicas' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.admin.NewPartitionReassignment.NewPartitionReassignment@POLYN143733 the MagicNumber/String  'Cannot create a new partition reassignment without any replicas' should be converted to const"
 }} 
 ]
 , 

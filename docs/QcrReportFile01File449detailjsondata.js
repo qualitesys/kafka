@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.internals.Topic" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#25"
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#40"
  , "c1" : "void"
  , "c2" : "validate(String)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#31"
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#46"
  , "c1" : "void"
  , "c2" : "validate(String;String;Consumer<String>)"
  , "c3" : "5"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#44"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#59"
  , "c1" : "boolean"
  , "c2" : "isInternal(String)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#49"
+ , "c5" : "00069"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
  , "c1" : "boolean"
  , "c2" : "hasCollisionChars(String)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#54"
+ , "c5" : "00080"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#80"
  , "c1" : "String"
  , "c2" : "unifyCollisionChars(String)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#59"
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#91"
  , "c1" : "boolean"
  , "c2" : "hasCollision(String;String)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#64"
+ , "c5" : "00098"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#98"
  , "c1" : "boolean"
  , "c2" : "containsValidPattern(String)"
  , "c3" : "3"
@@ -136,276 +136,276 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#25"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method validate arguments String  topic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#26"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.internals.Topic.validate@POLYN157330 the MagicNumber/String  'Topic name' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#31"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method validate arguments String  name|String  logPrefix|Consumer&lt;String &gt;  throwableConsumer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#31"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00031] The argument name is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#31"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00031] The argument throwableConsumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  ' is illegal, it can't be empty' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  '..' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  ' cannot be \'.\' or \'..\'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  ' is illegal, it can't be longer than ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  ' characters, ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  ': ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  ' \'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  '\' is illegal, it contains a character other than ' should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00040] For method validate arguments String  topic"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.internals.Topic.validate@POLYN157595 the MagicNumber/String  'ASCII alphanumerics, '.', '_' and '-'' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.internals.Topic.validate@POLYN157534 the MagicNumber/String  'Topic name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#44"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method isInternal arguments String  topic"
+ , "c3" : "QC-JAV000006[00046] For method validate arguments String  name|String  logPrefix|Consumer&lt;String &gt;  throwableConsumer"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#49"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method hasCollisionChars arguments String  topic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#49"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#46"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00049] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00046] The argument name is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#46"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00046] The argument throwableConsumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#48"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.internals.Topic.validate@POLYN157799 the MagicNumber/String  ' is illegal, it can't be empty' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#49"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.internals.Topic.validate@POLYN157799 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#49"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.internals.Topic.validate@POLYN157799 the MagicNumber/String  '..' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.internals.Topic.hasCollisionChars@POLYN159039 the MagicNumber/String  '_' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.internals.Topic.validate@POLYN157799 the MagicNumber/String  ' cannot be \'.\' or \'..\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#50"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.internals.Topic.hasCollisionChars@POLYN159039 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.internals.Topic.validate@POLYN157799 the MagicNumber/String  ' is illegal, it can't be longer than ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#54"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method unifyCollisionChars arguments String  topic"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.internals.Topic.validate@POLYN157799 the MagicNumber/String  ' characters, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#54"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00054] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.internals.Topic.validate@POLYN157799 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.internals.Topic.unifyCollisionChars@POLYN159438 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.internals.Topic.validate@POLYN157799 the MagicNumber/String  ' \'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.internals.Topic.unifyCollisionChars@POLYN159438 the MagicNumber/String  '_' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.internals.Topic.validate@POLYN157799 the MagicNumber/String  '\' is illegal, it contains a character other than ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#56"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.internals.Topic.validate@POLYN157799 the MagicNumber/String  'ASCII alphanumerics, '.', '_' and '-'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method hasCollision arguments String  topicA|String  topicB"
+ , "c3" : "QC-JAV000006[00059] For method isInternal arguments String  topic"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#64"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method containsValidPattern arguments String  topic"
+ , "c3" : "QC-JAV000006[00069] For method hasCollisionChars arguments String  topic"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#64"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00064] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#65"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  'a' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  'z' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  '0' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  '9' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  'A' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  'Z' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAVCWE476[00069] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  '_' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.internals.Topic.hasCollisionChars@POLYN159243 the MagicNumber/String  '_' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.internals.Topic.hasCollisionChars@POLYN159243 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#80"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00080] For method unifyCollisionChars arguments String  topic"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#74"
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#80"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00080] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160106 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.internals.Topic.unifyCollisionChars@POLYN159642 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.internals.Topic.unifyCollisionChars@POLYN159642 the MagicNumber/String  '_' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#91"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00091] For method hasCollision arguments String  topicA|String  topicB"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#98"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00098] For method containsValidPattern arguments String  topic"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#98"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00098] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160310 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160310 the MagicNumber/String  'a' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160310 the MagicNumber/String  'z' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160310 the MagicNumber/String  '0' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160310 the MagicNumber/String  '9' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160310 the MagicNumber/String  'A' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160310 the MagicNumber/String  'Z' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160310 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160310 the MagicNumber/String  '_' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160310 the MagicNumber/String  '-' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160310 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.internals.Topic.containsValidPattern@POLYN160310 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

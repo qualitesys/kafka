@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.stats.CumulativeSum" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#12"
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#32"
  , "c1" : "CumulativeSum"
  , "c2" : "CumulativeSum()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#16"
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#36"
  , "c1" : "CumulativeSum"
  , "c2" : "CumulativeSum(double)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#21"
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#41"
  , "c1" : "void"
  , "c2" : "record(MetricConfig;double;long)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#26"
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#46"
  , "c1" : "double"
  , "c2" : "measure(MetricConfig;long)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#31"
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#51"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -111,38 +111,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#13"
+ , "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.metrics.stats.CumulativeSum.CumulativeSum@POLYN144365 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.metrics.stats.CumulativeSum.CumulativeSum@POLYN144485 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#21"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00021] For method record arguments MetricConfig  config|double  value|long  now"
+ , "c3" : "QC-JAV000006[00041] For method record arguments MetricConfig  config|double  value|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#26"
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method measure arguments MetricConfig  config|long  now"
+ , "c3" : "QC-JAV000006[00046] For method measure arguments MetricConfig  config|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#32"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.metrics.stats.CumulativeSum.toString@POLYN144926 the MagicNumber/String  'CumulativeSum(total=' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.metrics.stats.CumulativeSum.toString@POLYN145046 the MagicNumber/String  'CumulativeSum(total=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#32"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.metrics.stats.CumulativeSum.toString@POLYN144926 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.metrics.stats.CumulativeSum.toString@POLYN145046 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

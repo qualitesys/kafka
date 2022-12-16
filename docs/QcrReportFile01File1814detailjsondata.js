@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.graph.TableSourceNode" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#28"
+ , "c5" : "00046"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#46"
  , "c1" : "TableSourceNode"
  , "c2" : "TableSourceNode(String;String;String;ConsumedInternal<K,V>;MaterializedInternal<K,V,?>;ProcessorParameters<K,V,?,?>;boolean)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#47"
+ , "c5" : "00065"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#65"
  , "c1" : "void"
  , "c2" : "reuseSourceTopicForChangeLog(boolean)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#52"
+ , "c5" : "00070"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#70"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#67"
+ , "c5" : "00085"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#85"
  , "c1" : "void"
  , "c2" : "writeToTopology(InternalTopologyBuilder)"
  , "c3" : "8"
@@ -116,143 +116,143 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#47"
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method reuseSourceTopicForChangeLog arguments boolean  shouldReuseSourceTopicForChangelog"
+ , "c3" : "QC-JAV000006[00065] For method reuseSourceTopicForChangeLog arguments boolean  shouldReuseSourceTopicForChangelog"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#53"
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.toString@POLYN167856 the MagicNumber/String  'TableSourceNode{' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.toString@POLYN167964 the MagicNumber/String  'TableSourceNode{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#54"
+ , "c1" : "00072"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.toString@POLYN167856 the MagicNumber/String  'materializedInternal=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.toString@POLYN167856 the MagicNumber/String  ', processorParameters=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.toString@POLYN167856 the MagicNumber/String  ', sourceName='' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.toString@POLYN167856 the MagicNumber/String  '\'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.toString@POLYN167856 the MagicNumber/String  ', isGlobalKTable=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.toString@POLYN167856 the MagicNumber/String  '} ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#67"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method writeToTopology arguments InternalTopologyBuilder  topologyBuilder"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#67"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00067] The argument topologyBuilder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.toString@POLYN167964 the MagicNumber/String  'materializedInternal=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.writeToTopology@POLYN168449 the MagicNumber/String  'A table source node must have a single topic as input' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.toString@POLYN167964 the MagicNumber/String  ', processorParameters=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.toString@POLYN167964 the MagicNumber/String  ', sourceName='' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.toString@POLYN167964 the MagicNumber/String  '\'' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.toString@POLYN167964 the MagicNumber/String  ', isGlobalKTable=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.writeToTopology@POLYN168449 the MagicNumber/String  'A table source node must have a single topic as input' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.toString@POLYN167964 the MagicNumber/String  '} ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#132"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00132] For method withSourceName arguments String  sourceName"
+ , "c3" : "QC-JAV000006[00085] For method writeToTopology arguments InternalTopologyBuilder  topologyBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#137"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#85"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00085] The argument topologyBuilder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#91"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.writeToTopology@POLYN168557 the MagicNumber/String  'A table source node must have a single topic as input' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.kstream.internals.graph.TableSourceNode.writeToTopology@POLYN168557 the MagicNumber/String  'A table source node must have a single topic as input' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method withTopic arguments String  topic"
+ , "c3" : "QC-JAV000006[00150] For method withSourceName arguments String  sourceName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#142"
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00142] For method withMaterializedInternal arguments MaterializedInternal&lt;K ,V ,? &gt;  materializedInternal"
+ , "c3" : "QC-JAV000006[00155] For method withTopic arguments String  topic"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#147"
+ , "c1" : "00160"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#160"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00147] For method withConsumedInternal arguments ConsumedInternal&lt;K ,V &gt;  consumedInternal"
+ , "c3" : "QC-JAV000006[00160] For method withMaterializedInternal arguments MaterializedInternal&lt;K ,V ,? &gt;  materializedInternal"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#152"
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#165"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00152] For method withProcessorParameters arguments ProcessorParameters&lt;K ,V ,? ,? &gt;  processorParameters"
+ , "c3" : "QC-JAV000006[00165] For method withConsumedInternal arguments ConsumedInternal&lt;K ,V &gt;  consumedInternal"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#157"
+ , "c1" : "00170"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#170"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00157] For method withNodeName arguments String  nodeName"
+ , "c3" : "QC-JAV000006[00170] For method withProcessorParameters arguments ProcessorParameters&lt;K ,V ,? ,? &gt;  processorParameters"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#162"
+ , "c1" : "00175"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#175"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00162] For method isGlobalKTable arguments boolean  isGlobaKTable"
+ , "c3" : "QC-JAV000006[00175] For method withNodeName arguments String  nodeName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#162"
+ , "c1" : "00180"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#180"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00180] For method isGlobalKTable arguments boolean  isGlobaKTable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00180"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#180"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00162] Public method isGlobalKTable is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00180] Public method isGlobalKTable is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

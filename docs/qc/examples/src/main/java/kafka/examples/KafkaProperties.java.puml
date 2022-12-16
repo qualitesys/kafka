@@ -2,6 +2,6 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "kafka.examples.KafkaProperties"
 class kafka.examples.KafkaProperties {
--KafkaProperties() : KafkaProperties [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/KafkaProperties.java.html#9]]]
+-KafkaProperties() : KafkaProperties [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/KafkaProperties.java.html#24]]]
 } 
 @enduml

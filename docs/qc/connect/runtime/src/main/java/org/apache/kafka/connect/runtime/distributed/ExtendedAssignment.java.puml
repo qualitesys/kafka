@@ -2,19 +2,19 @@
 !pragma layout smetana
 "ConnectProtocol.Assignment" <|-- "org.apache.kafka.connect.runtime.distributed.ExtendedAssignment"
 class org.apache.kafka.connect.runtime.distributed.ExtendedAssignment {
-+ExtendedAssignment(short;short;String;String;long;Collection<String>;Collection<ConnectorTaskId>;Collection<String>;Collection<ConnectorTaskId>;int) : ExtendedAssignment [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#44]]]
-+duplicate(ExtendedAssignment) : ExtendedAssignment [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#57]]]
-+version() : short [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#72]]]
-+revokedConnectors() : Collection<String> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#77]]]
-+revokedTasks() : Collection<ConnectorTaskId> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#82]]]
-+delay() : int [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#87]]]
-+empty() : ExtendedAssignment [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#92]]]
-+toString() : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#97]]]
--revokedAsMap() : Map<String,Collection<Integer>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#111]]]
-+toStruct() : Struct [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#139]]]
-+fromStruct(short;Struct) : ExtendedAssignment [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#153]]]
--taskAssignments(Map<String,Collection<Integer>>) : Collection<Struct> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#169]]]
--extractConnectors(Struct;String) : Collection<String> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#181]]]
--extractTasks(Struct;String) : Collection<ConnectorTaskId> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#202]]]
++ExtendedAssignment(short;short;String;String;long;Collection<String>;Collection<ConnectorTaskId>;Collection<String>;Collection<ConnectorTaskId>;int) : ExtendedAssignment [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#76]]]
++duplicate(ExtendedAssignment) : ExtendedAssignment [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#89]]]
++version() : short [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#108]]]
++revokedConnectors() : Collection<String> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#117]]]
++revokedTasks() : Collection<ConnectorTaskId> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#126]]]
++delay() : int [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#135]]]
++empty() : ExtendedAssignment [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#144]]]
++toString() : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#149]]]
+-revokedAsMap() : Map<String,Collection<Integer>> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#163]]]
++toStruct() : Struct [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#195]]]
++fromStruct(short;Struct) : ExtendedAssignment [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#214]]]
+-taskAssignments(Map<String,Collection<Integer>>) : Collection<Struct> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#230]]]
+-extractConnectors(Struct;String) : Collection<String> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#242]]]
+-extractTasks(Struct;String) : Collection<ConnectorTaskId> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#263]]]
 } 
 @enduml

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.ThroughputGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ThroughputGenerator.java.html#18"
+ , "c5" : "00052"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ThroughputGenerator.java.html#52"
  , "c1" : "void"
  , "c2" : "throttle()"
  , "c3" : "1"

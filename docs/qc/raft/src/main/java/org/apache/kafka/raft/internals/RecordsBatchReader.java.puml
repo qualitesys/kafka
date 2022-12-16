@@ -2,13 +2,13 @@
 !pragma layout smetana
 "BatchReader<T>" <|-- "org.apache.kafka.raft.internals.RecordsBatchReader"
 class org.apache.kafka.raft.internals.RecordsBatchReader {
--RecordsBatchReader(long;RecordsIterator<T>;CloseListener<BatchReader<T>>) : RecordsBatchReader [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#24]]]
-+hasNext() : boolean [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#36]]]
-+next() : Batch<T> [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#47]]]
-+baseOffset() : long [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#60]]]
-+lastOffset() : OptionalLong [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#64]]]
-+close() : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#73]]]
--ensureOpen() : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#97]]]
--nextBatch() : Optional<Batch<T>> [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#103]]]
+-RecordsBatchReader(long;RecordsIterator<T>;CloseListener<BatchReader<T>>) : RecordsBatchReader [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#39]]]
++hasNext() : boolean [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#51]]]
++next() : Batch<T> [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#62]]]
++baseOffset() : long [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#75]]]
++lastOffset() : OptionalLong [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#79]]]
++close() : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#88]]]
+-ensureOpen() : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#112]]]
+-nextBatch() : Optional<Batch<T>> [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#118]]]
 } 
 @enduml

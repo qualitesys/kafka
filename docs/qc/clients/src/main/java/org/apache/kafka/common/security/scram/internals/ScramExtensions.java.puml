@@ -2,9 +2,9 @@
 !pragma layout smetana
 "SaslExtensions" <|-- "org.apache.kafka.common.security.scram.internals.ScramExtensions"
 class org.apache.kafka.common.security.scram.internals.ScramExtensions {
-+ScramExtensions() : ScramExtensions [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramExtensions.java.html#13]]]
-+ScramExtensions(String) : ScramExtensions [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramExtensions.java.html#17]]]
-+ScramExtensions(Map<String,String>) : ScramExtensions [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramExtensions.java.html#21]]]
-+tokenAuthenticated() : boolean [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramExtensions.java.html#25]]]
++ScramExtensions() : ScramExtensions [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramExtensions.java.html#28]]]
++ScramExtensions(String) : ScramExtensions [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramExtensions.java.html#32]]]
++ScramExtensions(Map<String,String>) : ScramExtensions [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramExtensions.java.html#36]]]
++tokenAuthenticated() : boolean [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramExtensions.java.html#40]]]
 } 
 @enduml

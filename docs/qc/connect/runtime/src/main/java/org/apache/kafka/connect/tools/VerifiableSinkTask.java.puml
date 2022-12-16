@@ -2,10 +2,10 @@
 !pragma layout smetana
 "SinkTask" <|-- "org.apache.kafka.connect.tools.VerifiableSinkTask"
 class org.apache.kafka.connect.tools.VerifiableSinkTask {
-+version() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkTask.java.html#31]]]
-+start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkTask.java.html#36]]]
-+put(Collection<SinkRecord>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkTask.java.html#46]]]
-+flush(Map<TopicPartition,OffsetAndMetadata>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkTask.java.html#72]]]
-+stop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkTask.java.html#94]]]
++version() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkTask.java.html#51]]]
++start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkTask.java.html#56]]]
++put(Collection<SinkRecord>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkTask.java.html#66]]]
++flush(Map<TopicPartition,OffsetAndMetadata>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkTask.java.html#92]]]
++stop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkTask.java.html#114]]]
 } 
 @enduml

@@ -2,12 +2,12 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.QuorumInfo"
 class org.apache.kafka.clients.admin.QuorumInfo {
-QuorumInfo(Integer;List<ReplicaState>;List<ReplicaState>) : QuorumInfo [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#14]]]
-+leaderId() : Integer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#20]]]
-+voters() : List<ReplicaState> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#24]]]
-+observers() : List<ReplicaState> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#28]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#33]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#43]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#48]]]
+QuorumInfo(Integer;List<ReplicaState>;List<ReplicaState>) : QuorumInfo [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#31]]]
++leaderId() : Integer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#37]]]
++voters() : List<ReplicaState> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#41]]]
++observers() : List<ReplicaState> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#45]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#50]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#60]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/QuorumInfo.java.html#65]]]
 } 
 @enduml

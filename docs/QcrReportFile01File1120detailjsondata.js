@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.errors.LogReporter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#24"
+ , "c5" : "00041"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#41"
  , "c1" : "LogReporter"
  , "c2" : "LogReporter(ConnectorTaskId;ConnectorConfig;ErrorHandlingMetrics)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#36"
+ , "c5" : "00057"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#57"
  , "c1" : "Future<RecordMetadata>"
  , "c2" : "report(ProcessingContext)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#51"
+ , "c5" : "00072"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#72"
  , "c1" : "String"
  , "c2" : "message(ProcessingContext)"
  , "c3" : "1"
@@ -116,45 +116,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#36"
+ , "c1" : "00057"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method report arguments ProcessingContext  context"
+ , "c3" : "QC-JAV000006[00057] For method report arguments ProcessingContext  context"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#36"
+ , "c1" : "00057"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#57"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00036] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00057] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#51"
+ , "c1" : "00072"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00051] For method message arguments ProcessingContext  context"
+ , "c3" : "QC-JAV000006[00072] For method message arguments ProcessingContext  context"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#51"
+ , "c1" : "00072"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#72"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00051] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00072] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#52"
+ , "c1" : "00073"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.connect.runtime.errors.LogReporter.message@POLYN149543 the MagicNumber/String  'Error encountered in task %s. %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.runtime.errors.LogReporter.message@POLYN149669 the MagicNumber/String  'Error encountered in task %s. %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.errors.LogReporter.report@POLYN149016"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.errors.LogReporter.report@POLYN149142"
 }} 
 ]
 , 

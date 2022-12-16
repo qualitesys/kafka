@@ -2,16 +2,16 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.timeline.BaseHashTable"
 class org.apache.kafka.timeline.BaseHashTable {
-BaseHashTable(int) : BaseHashTable [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#23]]]
-expectedSizeToCapacity(int) : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#28]]]
--roundUpToPowerOfTwo(long) : long [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#34]]]
-baseSize() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#45]]]
-baseElements() : Object[] [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#49]]]
-baseGet(Object) : T [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#53]]]
-baseAddOrReplace(T) : T [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#73]]]
-baseRemove(Object) : T [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#110]]]
--rehash(int) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#143]]]
-findSlot(Object;int) : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#169]]]
-baseToDebugString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#195]]]
+BaseHashTable(int) : BaseHashTable [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#55]]]
+expectedSizeToCapacity(int) : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#66]]]
+-roundUpToPowerOfTwo(long) : long [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#72]]]
+baseSize() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#83]]]
+baseElements() : Object[] [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#87]]]
+baseGet(Object) : T [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#91]]]
+baseAddOrReplace(T) : T [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#111]]]
+baseRemove(Object) : T [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#148]]]
+-rehash(int) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#183]]]
+findSlot(Object;int) : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#211]]]
+baseToDebugString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#239]]]
 } 
 @enduml

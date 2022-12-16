@@ -2,11 +2,11 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.message.StructSpec"
 class org.apache.kafka.message.StructSpec {
-+StructSpec(String;String;List<FieldSpec>) : StructSpec [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#24]]]
-+name() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#63]]]
-+versions() : Versions [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#67]]]
-+versionsString() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#72]]]
-+fields() : List<FieldSpec> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#77]]]
-hasKeys() : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#81]]]
++StructSpec(String;String;List<FieldSpec>) : StructSpec [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#39]]]
++name() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#78]]]
++versions() : Versions [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#82]]]
++versionsString() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#87]]]
++fields() : List<FieldSpec> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#92]]]
+hasKeys() : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#96]]]
 } 
 @enduml

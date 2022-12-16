@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.DescribeClusterResult"
 class org.apache.kafka.clients.admin.DescribeClusterResult {
-DescribeClusterResult(KafkaFuture<Collection<Node>>;KafkaFuture<Node>;KafkaFuture<String>;KafkaFuture<Set<AclOperation>>) : DescribeClusterResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#21]]]
-+nodes() : KafkaFuture<Collection<Node>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#32]]]
-+controller() : KafkaFuture<Node> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#37]]]
-+clusterId() : KafkaFuture<String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#42]]]
-+authorizedOperations() : KafkaFuture<Set<AclOperation>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#47]]]
+DescribeClusterResult(KafkaFuture<Collection<Node>>;KafkaFuture<Node>;KafkaFuture<String>;KafkaFuture<Set<AclOperation>>) : DescribeClusterResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#40]]]
++nodes() : KafkaFuture<Collection<Node>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#53]]]
++controller() : KafkaFuture<Node> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#61]]]
++clusterId() : KafkaFuture<String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#69]]]
++authorizedOperations() : KafkaFuture<Set<AclOperation>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#77]]]
 } 
 @enduml

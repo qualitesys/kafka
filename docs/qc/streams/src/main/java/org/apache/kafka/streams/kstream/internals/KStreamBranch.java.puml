@@ -2,7 +2,7 @@
 !pragma layout smetana
 "ProcessorSupplier<K,V,K,V>" <|-- "org.apache.kafka.streams.kstream.internals.KStreamBranch"
 class org.apache.kafka.streams.kstream.internals.KStreamBranch {
-KStreamBranch(List<Predicate<?superK,?superV>>;List<String>) : KStreamBranch [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#16]]]
-+get() : Processor<K,V,K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#23]]]
+KStreamBranch(List<Predicate<?superK,?superV>>;List<String>) : KStreamBranch [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#31]]]
++get() : Processor<K,V,K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#38]]]
 } 
 @enduml

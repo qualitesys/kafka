@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.PunctuationQueue"
 class org.apache.kafka.streams.processor.internals.PunctuationQueue {
-+schedule(PunctuationSchedule) : Cancellable [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#14]]]
-+close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#21]]]
-mayPunctuate(long;PunctuationType;ProcessorNodePunctuator) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#28]]]
++schedule(PunctuationSchedule) : Cancellable [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#29]]]
++close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#36]]]
+mayPunctuate(long;PunctuationType;ProcessorNodePunctuator) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#45]]]
 } 
 @enduml

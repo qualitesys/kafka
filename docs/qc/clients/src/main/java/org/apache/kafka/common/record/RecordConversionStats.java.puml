@@ -2,12 +2,12 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.record.RecordConversionStats"
 class org.apache.kafka.common.record.RecordConversionStats {
-+RecordConversionStats(long;int;long) : RecordConversionStats [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#12]]]
-+RecordConversionStats() : RecordConversionStats [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#18]]]
-+add(RecordConversionStats) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#22]]]
-+temporaryMemoryBytes() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#29]]]
-+numRecordsConverted() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#33]]]
-+conversionTimeNanos() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#37]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#42]]]
++RecordConversionStats(long;int;long) : RecordConversionStats [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#27]]]
++RecordConversionStats() : RecordConversionStats [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#33]]]
++add(RecordConversionStats) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#37]]]
++temporaryMemoryBytes() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#53]]]
++numRecordsConverted() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#57]]]
++conversionTimeNanos() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#61]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#66]]]
 } 
 @enduml

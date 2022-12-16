@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.internals.KafkaFutureImpl" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#21"
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#38"
  , "c1" : "KafkaFutureImpl"
  , "c2" : "KafkaFutureImpl()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#25"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#42"
  , "c1" : "KafkaFutureImpl"
  , "c2" : "KafkaFutureImpl(boolean;KafkaCompletableFuture<T>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#31"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#48"
  , "c1" : "CompletionStage<T>"
  , "c2" : "toCompletionStage()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#81"
+ , "c5" : "00104"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#104"
  , "c1" : "KafkaFuture<T>"
  , "c2" : "whenComplete(BiConsumer<?superT,?superThrowable>)"
  , "c3" : "3"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#98"
+ , "c5" : "00121"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#121"
  , "c1" : "boolean"
  , "c2" : "complete(T)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#103"
+ , "c5" : "00126"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#126"
  , "c1" : "boolean"
  , "c2" : "completeExceptionally(Throwable)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00113"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#113"
+ , "c5" : "00140"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#140"
  , "c1" : "boolean"
  , "c2" : "cancel(boolean)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00118"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#118"
+ , "c5" : "00153"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#153"
  , "c1" : "void"
  , "c2" : "maybeThrowCancellationException(Throwable)"
  , "c3" : "2"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00126"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#126"
+ , "c5" : "00163"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#163"
  , "c1" : "T"
  , "c2" : "get()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00137"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#137"
+ , "c5" : "00177"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#177"
  , "c1" : "T"
  , "c2" : "get(long;TimeUnit)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00149"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#149"
+ , "c5" : "00192"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#192"
  , "c1" : "T"
  , "c2" : "getNow(T)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00163"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#163"
+ , "c5" : "00208"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#208"
  , "c1" : "boolean"
  , "c2" : "isCancelled()"
  , "c3" : "3"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00185"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#185"
+ , "c5" : "00232"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#232"
  , "c1" : "boolean"
  , "c2" : "isCompletedExceptionally()"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00191"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#191"
+ , "c5" : "00240"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#240"
  , "c1" : "boolean"
  , "c2" : "isDone()"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00196"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#196"
+ , "c5" : "00245"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#245"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -208,157 +208,157 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#22"
+ , "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.internals.KafkaFutureImpl.KafkaFutureImpl@POLYN171627 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#37"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00037] The argument function is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.internals.KafkaFutureImpl the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.internals.KafkaFutureImpl.KafkaFutureImpl@POLYN171921 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#57"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00057] The argument completableFuture is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00057] The argument function is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#63"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.internals.KafkaFutureImpl the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.internals.KafkaFutureImpl the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#81"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00081] For method whenComplete arguments BiConsumer&lt;? super T ,? super Throwable &gt;  biConsumer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#81"
+ , "c1" : "00077"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#77"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00081] The argument biConsumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00077] The argument completableFuture is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#93"
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.internals.KafkaFutureImpl.whenComplete@POLYN174183 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.internals.KafkaFutureImpl the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#98"
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method complete arguments T  newValue"
+ , "c3" : "QC-JAV000006[00104] For method whenComplete arguments BiConsumer&lt;? super T ,? super Throwable &gt;  biConsumer"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#103"
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#104"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00104] The argument biConsumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.internals.KafkaFutureImpl.whenComplete@POLYN174477 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method completeExceptionally arguments Throwable  newException"
+ , "c3" : "QC-JAV000006[00121] For method complete arguments T  newValue"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#113"
+ , "c1" : "00126"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#126"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00113] For method cancel arguments boolean  mayInterruptIfRunning"
+ , "c3" : "QC-JAV000006[00126] For method completeExceptionally arguments Throwable  newException"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#118"
+ , "c1" : "00140"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00118] For method maybeThrowCancellationException arguments Throwable  cause"
+ , "c3" : "QC-JAV000006[00140] For method cancel arguments boolean  mayInterruptIfRunning"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#137"
+ , "c1" : "00153"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#153"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method get arguments long  timeout|TimeUnit  unit"
+ , "c3" : "QC-JAV000006[00153] For method maybeThrowCancellationException arguments Throwable  cause"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#149"
+ , "c1" : "00177"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#177"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00149] For method getNow arguments T  valueIfAbsent"
+ , "c3" : "QC-JAV000006[00177] For method get arguments long  timeout|TimeUnit  unit"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#172"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.common.internals.KafkaFutureImpl.isCancelled@POLYN177743 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00192"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#192"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00192] For method getNow arguments T  valueIfAbsent"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#173"
+ , "c1" : "00217"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.internals.KafkaFutureImpl.isCancelled@POLYN177743 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.common.internals.KafkaFutureImpl.isCancelled@POLYN178037 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#197"
+ , "c1" : "00218"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.common.internals.KafkaFutureImpl.toString@POLYN178581 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.common.internals.KafkaFutureImpl.isCancelled@POLYN178037 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#198"
+ , "c1" : "00246"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.common.internals.KafkaFutureImpl.toString@POLYN178581 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.internals.KafkaFutureImpl.toString@POLYN178875 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#200"
+ , "c1" : "00247"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.common.internals.KafkaFutureImpl.toString@POLYN178581 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.common.internals.KafkaFutureImpl.toString@POLYN178875 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#206"
+ , "c1" : "00249"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.internals.KafkaFutureImpl.toString@POLYN178581 the MagicNumber/String  'KafkaFuture{value=%s,exception=%s,done=%b}' should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.common.internals.KafkaFutureImpl.toString@POLYN178875 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#206"
+ , "c1" : "00255"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.internals.KafkaFutureImpl.toString@POLYN178581 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.common.internals.KafkaFutureImpl.toString@POLYN178875 the MagicNumber/String  'KafkaFuture{value=%s,exception=%s,done=%b}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#206"
+ , "c1" : "00255"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.internals.KafkaFutureImpl.toString@POLYN178581 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.common.internals.KafkaFutureImpl.toString@POLYN178875 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00255"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#255"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.common.internals.KafkaFutureImpl.toString@POLYN178875 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

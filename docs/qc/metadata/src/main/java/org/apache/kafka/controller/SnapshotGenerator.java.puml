@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.controller.SnapshotGenerator"
 class org.apache.kafka.controller.SnapshotGenerator {
-SnapshotGenerator(LogContext;SnapshotWriter<ApiMessageAndVersion>;int;List<Section>) : SnapshotGenerator [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#45]]]
-lastContainedLogOffset() : long [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#61]]]
-writer() : SnapshotWriter [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#65]]]
--generateBatch() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#70]]]
-generateBatches() : OptionalLong [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#98]]]
+SnapshotGenerator(LogContext;SnapshotWriter<ApiMessageAndVersion>;int;List<Section>) : SnapshotGenerator [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#60]]]
+lastContainedLogOffset() : long [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#78]]]
+writer() : SnapshotWriter [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#82]]]
+-generateBatch() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#91]]]
+generateBatches() : OptionalLong [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#124]]]
 } 
 @enduml

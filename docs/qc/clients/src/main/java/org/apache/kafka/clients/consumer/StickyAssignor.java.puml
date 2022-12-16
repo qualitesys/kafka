@@ -2,11 +2,11 @@
 !pragma layout smetana
 "AbstractStickyAssignor" <|-- "org.apache.kafka.clients.consumer.StickyAssignor"
 class org.apache.kafka.clients.consumer.StickyAssignor {
-+name() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#44]]]
-+onAssignment(Assignment;ConsumerGroupMetadata) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#49]]]
-+subscriptionUserData(Set<String>) : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#55]]]
-memberData(Subscription) : MemberData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#63]]]
-serializeTopicPartitionAssignment(MemberData) : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#72]]]
--deserializeTopicPartitionAssignment(ByteBuffer) : MemberData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#90]]]
++name() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#199]]]
++onAssignment(Assignment;ConsumerGroupMetadata) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#204]]]
++subscriptionUserData(Set<String>) : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#210]]]
+memberData(Subscription) : MemberData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#218]]]
+serializeTopicPartitionAssignment(MemberData) : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#227]]]
+-deserializeTopicPartitionAssignment(ByteBuffer) : MemberData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#245]]]
 } 
 @enduml

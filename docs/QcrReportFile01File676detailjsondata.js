@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.FetchSnapshotRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#34"
  , "c1" : "FetchSnapshotRequest"
  , "c2" : "FetchSnapshotRequest(FetchSnapshotRequestData;short)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#25"
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#40"
  , "c1" : "FetchSnapshotResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#34"
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#49"
  , "c1" : "FetchSnapshotRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#39"
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#62"
  , "c1" : "FetchSnapshotRequestData"
  , "c2" : "singleton(String;TopicPartition;UnaryOperator<FetchSnapshotRequestData.PartitionSnapshot>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#60"
+ , "c5" : "00089"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#89"
  , "c1" : "Optional<FetchSnapshotRequestData.PartitionSnapshot>"
  , "c2" : "forTopicPartition(FetchSnapshotRequestData;TopicPartition)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#73"
+ , "c5" : "00102"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#102"
  , "c1" : "FetchSnapshotRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -136,73 +136,73 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#39"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method singleton arguments String  clusterId|TopicPartition  topicPartition|UnaryOperator&lt;FetchSnapshotRequestData.PartitionSnapshot &gt;  operator"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#41"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00041] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#42"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00042] The argument operator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#60"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method forTopicPartition arguments FetchSnapshotRequestData  data|TopicPartition  topicPartition"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#61"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00061] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00040] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#62"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00062] For method singleton arguments String  clusterId|TopicPartition  topicPartition|UnaryOperator&lt;FetchSnapshotRequestData.PartitionSnapshot &gt;  operator"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#64"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00062] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00064] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#73"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#65"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00065] The argument operator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#86"
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#89"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00089] For method forTopicPartition arguments FetchSnapshotRequestData  data|TopicPartition  topicPartition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#90"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00090] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#91"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00091] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#102"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00102] For method parse arguments ByteBuffer  buffer|short  version"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#115"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00115] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FetchSnapshotRequest.Builder.toString@POLYN158365"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FetchSnapshotRequest.Builder.toString@POLYN158539"
 }} 
 ]
 , 

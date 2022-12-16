@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.serialization.VoidSerializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00006"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.html#6"
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.html#21"
  , "c1" : "byte[]"
  , "c2" : "serialize(String;Void)"
  , "c3" : "1"
@@ -75,17 +75,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00006"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.html#6"
+ , "c1" : "00021"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.html#21"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00006] For method serialize arguments String  topic|Void  data"
+ , "c3" : "QC-JAV000006[00021] For method serialize arguments String  topic|Void  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00007"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.html#7"
+ , "c1" : "00022"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00007] In method org.apache.kafka.common.serialization.VoidSerializer.serialize@POLYN140523 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.serialization.VoidSerializer.serialize@POLYN140613 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

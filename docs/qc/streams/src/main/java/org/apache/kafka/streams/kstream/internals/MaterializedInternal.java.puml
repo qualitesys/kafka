@@ -2,17 +2,17 @@
 !pragma layout smetana
 "Materialized<K,V,S>" <|-- "org.apache.kafka.streams.kstream.internals.MaterializedInternal"
 class org.apache.kafka.streams.kstream.internals.MaterializedInternal {
-+MaterializedInternal(Materialized<K,V,S>) : MaterializedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#17]]]
-+MaterializedInternal(Materialized<K,V,S>;InternalNameProvider;String) : MaterializedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#21]]]
-+queryableStoreName() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#46]]]
-+storeName() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#50]]]
-+storeType() : StoreType [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#57]]]
-+storeSupplier() : StoreSupplier<S> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#61]]]
-+keySerde() : Serde<K> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#65]]]
-+valueSerde() : Serde<V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#69]]]
-+loggingEnabled() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#73]]]
-logConfig() : Map<String,String> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#77]]]
-+cachingEnabled() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#81]]]
-retention() : Duration [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#85]]]
++MaterializedInternal(Materialized<K,V,S>) : MaterializedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#32]]]
++MaterializedInternal(Materialized<K,V,S>;InternalNameProvider;String) : MaterializedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#36]]]
++queryableStoreName() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#61]]]
++storeName() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#65]]]
++storeType() : StoreType [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#72]]]
++storeSupplier() : StoreSupplier<S> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#76]]]
++keySerde() : Serde<K> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#80]]]
++valueSerde() : Serde<V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#84]]]
++loggingEnabled() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#88]]]
+logConfig() : Map<String,String> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#92]]]
++cachingEnabled() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#96]]]
+retention() : Duration [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/MaterializedInternal.java.html#100]]]
 } 
 @enduml

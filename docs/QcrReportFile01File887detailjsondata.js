@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.ByteBufferUnmapper" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#45"
+ , "c5" : "00064"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#64"
  , "c1" : "ByteBufferUnmapper"
  , "c2" : "ByteBufferUnmapper()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#48"
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#74"
  , "c1" : "void"
  , "c2" : "unmap(String;ByteBuffer)"
  , "c3" : "3"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#61"
+ , "c5" : "00087"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#87"
  , "c1" : "MethodHandle"
  , "c2" : "lookupUnmapMethodHandle()"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#74"
+ , "c5" : "00100"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#100"
  , "c1" : "MethodHandle"
  , "c2" : "unmapJava7Or8(MethodHandles.Lookup)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#90"
+ , "c5" : "00125"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#125"
  , "c1" : "MethodHandle"
  , "c2" : "unmapJava9(MethodHandles.Lookup)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00100"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#100"
+ , "c5" : "00135"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#135"
  , "c1" : "boolean"
  , "c2" : "nonNull(Object)"
  , "c3" : "1"
@@ -127,178 +127,178 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method unmap arguments String  resourceDescription|ByteBuffer  buffer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#48"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00048] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmap@POLYN161353 the MagicNumber/String  'Unmapping only works with direct buffers' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmap@POLYN161353 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmap@POLYN161353 the MagicNumber/String  'Unable to unmap the mapped buffer: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.utils.ByteBufferUnmapper.lookupUnmapMethodHandle@POLYN161949 the MagicNumber/String  'Unmapping is not supported on this platform, because internal ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.utils.ByteBufferUnmapper.lookupUnmapMethodHandle@POLYN161949 the MagicNumber/String  'Java APIs are not compatible with this Kafka version' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method unmapJava7Or8 arguments MethodHandles.Lookup  lookup"
+ , "c3" : "QC-JAV000006[00074] For method unmap arguments String  resourceDescription|ByteBuffer  buffer"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#74"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00074] The argument lookup is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00074] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava7Or8@POLYN162457 the MagicNumber/String  'java.nio.DirectByteBuffer' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmap@POLYN161563 the MagicNumber/String  'Unmapping only works with direct buffers' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava7Or8@POLYN162457 the MagicNumber/String  'cleaner' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmap@POLYN161563 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#78"
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava7Or8@POLYN162457 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava7Or8@POLYN162457 the MagicNumber/String  'clean' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava7Or8@POLYN162457 the MagicNumber/String  'nonNull' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava7Or8@POLYN162457 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava7Or8@POLYN162457 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#90"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00090] For method unmapJava9 arguments MethodHandles.Lookup  lookup"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#90"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00090] The argument lookup is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava9@POLYN164416 the MagicNumber/String  'sun.misc.Unsafe' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava9@POLYN164416 the MagicNumber/String  'invokeCleaner' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava9@POLYN164416 the MagicNumber/String  'theUnsafe' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmap@POLYN161563 the MagicNumber/String  'Unable to unmap the mapped buffer: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava9@POLYN164416 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.utils.ByteBufferUnmapper.lookupUnmapMethodHandle@POLYN162159 the MagicNumber/String  'Unmapping is not supported on this platform, because internal ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava9@POLYN164416 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.utils.ByteBufferUnmapper.lookupUnmapMethodHandle@POLYN162159 the MagicNumber/String  'Java APIs are not compatible with this Kafka version' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00100] For method nonNull arguments Object  o"
+ , "c3" : "QC-JAV000006[00100] For method unmapJava7Or8 arguments MethodHandles.Lookup  lookup"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#101"
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#100"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00100] The argument lookup is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.utils.ByteBufferUnmapper.nonNull@POLYN165171 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava7Or8@POLYN162667 the MagicNumber/String  'java.nio.DirectByteBuffer' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava7Or8@POLYN162667 the MagicNumber/String  'cleaner' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava7Or8@POLYN162667 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava7Or8@POLYN162667 the MagicNumber/String  'clean' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava7Or8@POLYN162667 the MagicNumber/String  'nonNull' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#119"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava7Or8@POLYN162667 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#119"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava7Or8@POLYN162667 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#125"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00125] For method unmapJava9 arguments MethodHandles.Lookup  lookup"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#125"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00125] The argument lookup is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00126"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#126"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava9@POLYN164626 the MagicNumber/String  'sun.misc.Unsafe' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#127"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava9@POLYN164626 the MagicNumber/String  'invokeCleaner' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00129"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#129"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava9@POLYN164626 the MagicNumber/String  'theUnsafe' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#130"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava9@POLYN164626 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#131"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.utils.ByteBufferUnmapper.unmapJava9@POLYN164626 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#135"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00135] For method nonNull arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00136"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#136"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.utils.ByteBufferUnmapper.nonNull@POLYN165381 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

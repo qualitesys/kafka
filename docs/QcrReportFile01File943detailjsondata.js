@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.data.Decimal" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#15"
+ , "c5" : "00050"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#50"
  , "c1" : "SchemaBuilder"
  , "c2" : "builder(int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#22"
+ , "c5" : "00057"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#57"
  , "c1" : "Schema"
  , "c2" : "schema(int)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#27"
+ , "c5" : "00066"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#66"
  , "c1" : "byte[]"
  , "c2" : "fromLogical(Schema;BigDecimal)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#39"
+ , "c5" : "00078"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#78"
  , "c1" : "BigDecimal"
  , "c2" : "toLogical(Schema;byte[])"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#43"
+ , "c5" : "00082"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#82"
  , "c1" : "int"
  , "c2" : "scale(Schema)"
  , "c3" : "2"
@@ -125,115 +125,115 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#15"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00015] For method builder arguments int  scale"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#19"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.connect.data.Decimal.builder@POLYN153503 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#22"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method schema arguments int  scale"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#27"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method fromLogical arguments Schema  schema|BigDecimal  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#27"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00027] For method fromLogical list of called methods Object monObjet|int scaleN154221"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#27"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument schema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#27"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.connect.data.Decimal.fromLogical@POLYN154099 the MagicNumber/String  'Decimal value has mismatching scale for given Decimal schema. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.data.Decimal.fromLogical@POLYN154099 the MagicNumber/String  'Schema has scale %d, value has scale %d.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#39"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method toLogical arguments Schema  schema|byte[]  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#43"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method scale arguments Schema  schema"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#43"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00043] For method scale list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; schema_parametersN155009"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#43"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00043] The argument schema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.data.Decimal.scale@POLYN154912 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.data.Decimal.scale@POLYN154912 the MagicNumber/String  'Invalid Decimal schema: scale parameter not found.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#50"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00050] For method builder arguments int  scale"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.data.Decimal.scale@POLYN154912 the MagicNumber/String  'Invalid scale parameter found in Decimal schema: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.data.Decimal.builder@POLYN153737 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#57"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00057] For method schema arguments int  scale"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#66"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00066] For method fromLogical arguments Schema  schema|BigDecimal  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#66"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00066] For method fromLogical list of called methods Object monObjet|int scaleN154455"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#66"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00066] The argument schema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#66"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00066] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00070"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#70"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.connect.data.Decimal.fromLogical@POLYN154333 the MagicNumber/String  'Decimal value has mismatching scale for given Decimal schema. ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#71"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.data.Decimal.fromLogical@POLYN154333 the MagicNumber/String  'Schema has scale %d, value has scale %d.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#78"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00078] For method toLogical arguments Schema  schema|byte[]  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#82"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00082] For method scale arguments Schema  schema"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#82"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00082] For method scale list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; schema_parametersN155243"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#82"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00082] The argument schema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.data.Decimal.scale@POLYN155146 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.data.Decimal.scale@POLYN155146 the MagicNumber/String  'Invalid Decimal schema: scale parameter not found.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00089"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#89"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.data.Decimal.scale@POLYN155146 the MagicNumber/String  'Invalid scale parameter found in Decimal schema: ' should be converted to const"
 }} 
 ]
 , 

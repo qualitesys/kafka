@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#29"
+ , "c5" : "00044"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#44"
  , "c1" : "BranchedKStreamImpl"
  , "c2" : "BranchedKStreamImpl(KStreamImpl<K,V>;boolean;NamedInternal)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#42"
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#57"
  , "c1" : "BranchedKStream<K,V>"
  , "c2" : "branch(Predicate<?superK,?superV>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#47"
+ , "c5" : "00062"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#62"
  , "c1" : "BranchedKStream<K,V>"
  , "c2" : "branch(Predicate<?superK,?superV>;Branched<K,V>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#54"
+ , "c5" : "00069"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#69"
  , "c1" : "Map<String,KStream<K,V>>"
  , "c2" : "defaultBranch()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#59"
+ , "c5" : "00074"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#74"
  , "c1" : "Map<String,KStream<K,V>>"
  , "c2" : "defaultBranch(Branched<K,V>)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#64"
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#79"
  , "c1" : "void"
  , "c2" : "createBranch(Branched<K,V>;int)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#78"
+ , "c5" : "00093"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#93"
  , "c1" : "String"
  , "c2" : "getBranchChildName(int;BranchedInternal<K,V>)"
  , "c3" : "3"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00086"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#86"
+ , "c5" : "00101"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#101"
  , "c1" : "void"
  , "c2" : "process(KStreamImpl<K,V>;String;BranchedInternal<K,V>)"
  , "c3" : "6"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00101"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#101"
+ , "c5" : "00116"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#116"
  , "c1" : "Map<String,KStream<K,V>>"
  , "c2" : "noDefaultBranch()"
  , "c3" : "1"
@@ -154,108 +154,108 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#44"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00029] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00044] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#44"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00029] The argument named is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00044] The argument named is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#42"
+ , "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method branch arguments Predicate&lt;? super K ,? super V &gt;  predicate"
+ , "c3" : "QC-JAV000006[00057] For method branch arguments Predicate&lt;? super K ,? super V &gt;  predicate"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#47"
+ , "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method branch arguments Predicate&lt;? super K ,? super V &gt;  predicate|Branched&lt;K ,V &gt;  branched"
+ , "c3" : "QC-JAV000006[00062] For method branch arguments Predicate&lt;? super K ,? super V &gt;  predicate|Branched&lt;K ,V &gt;  branched"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#59"
+ , "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method defaultBranch arguments Branched&lt;K ,V &gt;  branched"
+ , "c3" : "QC-JAV000006[00074] For method defaultBranch arguments Branched&lt;K ,V &gt;  branched"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#60"
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.defaultBranch@POLYN163846 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#64"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method createBranch arguments Branched&lt;K ,V &gt;  branched|int  index"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#78"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method getBranchChildName arguments int  index|BranchedInternal&lt;K ,V &gt;  branchedInternal"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#78"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00078] The argument branchedInternal is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.defaultBranch@POLYN163936 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.getBranchChildName@POLYN165520 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method process arguments KStreamImpl&lt;K ,V &gt;  branch|String  branchChildName|BranchedInternal&lt;K ,V &gt;  branchedInternal"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#87"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00087] The argument branchedInternal is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#88"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.process@POLYN165900 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.process@POLYN165900 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000006[00079] For method createBranch arguments Branched&lt;K ,V &gt;  branched|int  index"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#93"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00093] For method getBranchChildName arguments int  index|BranchedInternal&lt;K ,V &gt;  branchedInternal"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#93"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00093] The argument branchedInternal is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.process@POLYN165900 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.getBranchChildName@POLYN165610 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#101"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00101] For method process arguments KStreamImpl&lt;K ,V &gt;  branch|String  branchChildName|BranchedInternal&lt;K ,V &gt;  branchedInternal"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#102"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00102] The argument branchedInternal is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.process@POLYN165990 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.process@POLYN165990 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.process@POLYN165990 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

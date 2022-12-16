@@ -2,11 +2,11 @@
 !pragma layout smetana
 "GlobalStateMaintainer" <|-- "org.apache.kafka.streams.processor.internals.GlobalStateUpdateTask"
 class org.apache.kafka.streams.processor.internals.GlobalStateUpdateTask {
-+GlobalStateUpdateTask(LogContext;ProcessorTopology;InternalProcessorContext;GlobalStateManager;DeserializationExceptionHandler) : GlobalStateUpdateTask [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#32]]]
-+initialize() : Map<TopicPartition,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#47]]]
-+update(ConsumerRecord<byte[],byte[]>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#74]]]
-+flushState() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#100]]]
-+close(boolean) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#109]]]
--initTopology() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#122]]]
++GlobalStateUpdateTask(LogContext;ProcessorTopology;InternalProcessorContext;GlobalStateManager;DeserializationExceptionHandler) : GlobalStateUpdateTask [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#49]]]
++initialize() : Map<TopicPartition,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#67]]]
++update(ConsumerRecord<byte[],byte[]>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#94]]]
++flushState() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#120]]]
++close(boolean) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#129]]]
+-initTopology() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#142]]]
 } 
 @enduml

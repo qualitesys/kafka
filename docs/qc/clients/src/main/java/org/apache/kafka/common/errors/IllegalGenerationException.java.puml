@@ -2,9 +2,9 @@
 !pragma layout smetana
 "ApiException" <|-- "org.apache.kafka.common.errors.IllegalGenerationException"
 class org.apache.kafka.common.errors.IllegalGenerationException {
-+IllegalGenerationException() : IllegalGenerationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/IllegalGenerationException.java.html#7]]]
-+IllegalGenerationException(String;Throwable) : IllegalGenerationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/IllegalGenerationException.java.html#11]]]
-+IllegalGenerationException(String) : IllegalGenerationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/IllegalGenerationException.java.html#15]]]
-+IllegalGenerationException(Throwable) : IllegalGenerationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/IllegalGenerationException.java.html#19]]]
++IllegalGenerationException() : IllegalGenerationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/IllegalGenerationException.java.html#22]]]
++IllegalGenerationException(String;Throwable) : IllegalGenerationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/IllegalGenerationException.java.html#26]]]
++IllegalGenerationException(String) : IllegalGenerationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/IllegalGenerationException.java.html#30]]]
++IllegalGenerationException(Throwable) : IllegalGenerationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/IllegalGenerationException.java.html#34]]]
 } 
 @enduml

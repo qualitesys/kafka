@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.RequestUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#18"
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#33"
  , "c1" : "RequestUtils"
  , "c2" : "RequestUtils()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#20"
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#35"
  , "c1" : "Optional<Integer>"
  , "c2" : "getLeaderEpoch(int)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#25"
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#40"
  , "c1" : "boolean"
  , "c2" : "hasTransactionalRecords(ProduceRequest)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#30"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#50"
  , "c1" : "boolean"
  , "c2" : "flag(ProduceRequest;Predicate<RecordBatch>)"
  , "c3" : "5"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#42"
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#62"
  , "c1" : "ByteBuffer"
  , "c2" : "serialize(Message;short;Message;short)"
  , "c3" : "1"
@@ -132,129 +132,129 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#20"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00020] For method getLeaderEpoch arguments int  leaderEpoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#25"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method hasTransactionalRecords arguments ProduceRequest  request"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#30"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method flag arguments ProduceRequest  request|Predicate&lt;RecordBatch &gt;  predicate"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#30"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00030] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#30"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00030] The argument predicate is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00032] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00033] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00034] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00034] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00033] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00034] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00034] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.requests.RequestUtils.flag@POLYN151645 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.requests.RequestUtils.flag@POLYN151645 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method serialize arguments Message  header|short  headerVersion|Message  apiMessage|short  apiVersion"
+ , "c3" : "QC-JAV000006[00035] For method getLeaderEpoch arguments int  leaderEpoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#42"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00042] For method serialize list of called methods Object monObjet|java.nio.ByteBuffer header_sizeN152725|int apiMessage_sizeN152841"
+ , "c3" : "QC-JAV000006[00040] For method hasTransactionalRecords arguments ProduceRequest  request"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#43"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00043] The argument header is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#50"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00050] For method flag arguments ProduceRequest  request|Predicate&lt;RecordBatch &gt;  predicate"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#45"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#50"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00045] The argument apiMessage is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00050] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#50"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00050] The argument predicate is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#52"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00052] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00053] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00054] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00054] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00053] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00054] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00054] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#55"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.requests.RequestUtils.flag@POLYN151765 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#59"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.requests.RequestUtils.flag@POLYN151765 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#62"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00062] For method serialize arguments Message  header|short  headerVersion|Message  apiMessage|short  apiVersion"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#62"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00062] For method serialize list of called methods Object monObjet|java.nio.ByteBuffer header_sizeN152845|int apiMessage_sizeN152961"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#63"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00063] The argument header is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#65"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00065] The argument apiMessage is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

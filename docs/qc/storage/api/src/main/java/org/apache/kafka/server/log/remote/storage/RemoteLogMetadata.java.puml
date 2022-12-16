@@ -2,9 +2,9 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.server.log.remote.storage.RemoteLogMetadata"
 class org.apache.kafka.server.log.remote.storage.RemoteLogMetadata {
-RemoteLogMetadata(int;long) : RemoteLogMetadata [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html#17]]]
-+eventTimestampMs() : long [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html#23]]]
-+brokerId() : int [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html#28]]]
-+topicIdPartition() : TopicIdPartition [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html#33]]]
+RemoteLogMetadata(int;long) : RemoteLogMetadata [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html#39]]]
++eventTimestampMs() : long [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html#47]]]
++brokerId() : int [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html#54]]]
++topicIdPartition() : TopicIdPartition [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html#61]]]
 } 
 @enduml

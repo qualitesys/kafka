@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.ProducerIdsImage" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#20"
+ , "c5" : "00039"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#39"
  , "c1" : "ProducerIdsImage"
  , "c2" : "ProducerIdsImage(long)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#24"
+ , "c5" : "00043"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#43"
  , "c1" : "long"
  , "c2" : "highestSeenProducerId()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#28"
+ , "c5" : "00047"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#47"
  , "c1" : "void"
  , "c2" : "write(Consumer<List<ApiMessageAndVersion>>)"
  , "c3" : "2"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#39"
+ , "c5" : "00058"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#58"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#46"
+ , "c5" : "00065"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#65"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#51"
+ , "c5" : "00070"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#70"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#55"
+ , "c5" : "00074"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#74"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"
@@ -136,80 +136,80 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#28"
+ , "c1" : "00047"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method write arguments Consumer&lt;List&lt;ApiMessageAndVersion &gt; &gt;  out"
+ , "c3" : "QC-JAV000006[00047] For method write arguments Consumer&lt;List&lt;ApiMessageAndVersion &gt; &gt;  out"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#28"
+ , "c1" : "00047"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#47"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00028] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00047] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#29"
+ , "c1" : "00048"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.image.ProducerIdsImage.write@POLYN147327 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.image.ProducerIdsImage.write@POLYN147441 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#32"
+ , "c1" : "00051"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.image.ProducerIdsImage.write@POLYN147327 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.image.ProducerIdsImage.write@POLYN147441 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#33"
+ , "c1" : "00052"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.image.ProducerIdsImage.write@POLYN147327 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.image.ProducerIdsImage.write@POLYN147441 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#34"
+ , "c1" : "00053"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.image.ProducerIdsImage.write@POLYN147327 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.image.ProducerIdsImage.write@POLYN147441 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#39"
+ , "c1" : "00058"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00058] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#40"
+ , "c1" : "00059"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.image.ProducerIdsImage.equals@POLYN147879 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.image.ProducerIdsImage.equals@POLYN147993 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#52"
+ , "c1" : "00071"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.image.ProducerIdsImage.toString@POLYN148360 the MagicNumber/String  'ProducerIdsImage(highestSeenProducerId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.image.ProducerIdsImage.toString@POLYN148474 the MagicNumber/String  'ProducerIdsImage(highestSeenProducerId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#52"
+ , "c1" : "00071"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.image.ProducerIdsImage.toString@POLYN148360 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.image.ProducerIdsImage.toString@POLYN148474 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#56"
+ , "c1" : "00075"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.image.ProducerIdsImage.isEmpty@POLYN148494 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.image.ProducerIdsImage.isEmpty@POLYN148608 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

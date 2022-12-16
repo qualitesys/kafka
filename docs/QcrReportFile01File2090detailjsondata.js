@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.NamedCache" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#43"
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#58"
  , "c1" : "NamedCache"
  , "c2" : "NamedCache(String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#56"
+ , "c5" : "00071"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#71"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#60"
+ , "c5" : "00075"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#75"
  , "c1" : "long"
  , "c2" : "hits()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#64"
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#79"
  , "c1" : "long"
  , "c2" : "misses()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#68"
+ , "c5" : "00083"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#83"
  , "c1" : "long"
  , "c2" : "overwrites()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#72"
+ , "c5" : "00087"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#87"
  , "c1" : "long"
  , "c2" : "flushes()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#76"
+ , "c5" : "00091"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#91"
  , "c1" : "LRUCacheEntry"
  , "c2" : "get(Bytes)"
  , "c3" : "3"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#89"
+ , "c5" : "00104"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#104"
  , "c1" : "void"
  , "c2" : "setListener(ThreadCache.DirtyEntryFlushListener)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#93"
+ , "c5" : "00108"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#108"
  , "c1" : "void"
  , "c2" : "flush()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#97"
+ , "c5" : "00112"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#112"
  , "c1" : "void"
  , "c2" : "flush(LRUNode)"
  , "c3" : "9"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00142"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#142"
+ , "c5" : "00157"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#157"
  , "c1" : "void"
  , "c2" : "put(Bytes;LRUCacheEntry)"
  , "c3" : "5"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00172"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#172"
+ , "c5" : "00187"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#187"
  , "c1" : "long"
  , "c2" : "sizeInBytes()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00176"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#176"
+ , "c5" : "00191"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#191"
  , "c1" : "LRUNode"
  , "c2" : "getInternal(Bytes)"
  , "c3" : "3"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00189"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#189"
+ , "c5" : "00204"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#204"
  , "c1" : "void"
  , "c2" : "updateLRU(LRUNode)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00195"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#195"
+ , "c5" : "00210"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#210"
  , "c1" : "void"
  , "c2" : "remove(LRUNode)"
  , "c3" : "5"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00208"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#208"
+ , "c5" : "00223"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#223"
  , "c1" : "void"
  , "c2" : "putHead(LRUNode)"
  , "c3" : "3"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00220"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#220"
+ , "c5" : "00235"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#235"
  , "c1" : "void"
  , "c2" : "evict()"
  , "c3" : "3"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00233"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#233"
+ , "c5" : "00248"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#248"
  , "c1" : "LRUCacheEntry"
  , "c2" : "putIfAbsent(Bytes;LRUCacheEntry)"
  , "c3" : "2"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00241"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#241"
+ , "c5" : "00256"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#256"
  , "c1" : "void"
  , "c2" : "putAll(List<KeyValue<byte[],LRUCacheEntry>>)"
  , "c3" : "2"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00247"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#247"
+ , "c5" : "00262"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#262"
  , "c1" : "LRUCacheEntry"
  , "c2" : "delete(Bytes)"
  , "c3" : "2"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00260"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#260"
+ , "c5" : "00275"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#275"
  , "c1" : "long"
  , "c2" : "size()"
  , "c3" : "1"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00264"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#264"
+ , "c5" : "00279"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#279"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00268"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#268"
+ , "c5" : "00283"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#283"
  , "c1" : "Iterator<Bytes>"
  , "c2" : "keyRange(Bytes;Bytes;boolean)"
  , "c3" : "1"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00273"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#273"
+ , "c5" : "00288"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#288"
  , "c1" : "Iterator<Bytes>"
  , "c2" : "reverseKeyRange(Bytes;Bytes)"
  , "c3" : "1"
@@ -234,8 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00278"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#278"
+ , "c5" : "00293"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#293"
  , "c1" : "Set<Bytes>"
  , "c2" : "computeSubSet(Bytes;Bytes;boolean)"
  , "c3" : "9"
@@ -243,8 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00292"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#292"
+ , "c5" : "00307"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#307"
  , "c1" : "Iterator<Bytes>"
  , "c2" : "keySetIterator(Set<Bytes>;boolean)"
  , "c3" : "3"
@@ -252,8 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00300"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#300"
+ , "c5" : "00315"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#315"
  , "c1" : "Iterator<Bytes>"
  , "c2" : "allKeys()"
  , "c3" : "1"
@@ -261,8 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00304"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#304"
+ , "c5" : "00319"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#319"
  , "c1" : "Iterator<Bytes>"
  , "c2" : "reverseAllKeys()"
  , "c3" : "1"
@@ -270,8 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00308"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#308"
+ , "c5" : "00323"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#323"
  , "c1" : "LRUCacheEntry"
  , "c2" : "first()"
  , "c3" : "2"
@@ -279,8 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00315"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#315"
+ , "c5" : "00330"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#330"
  , "c1" : "LRUCacheEntry"
  , "c2" : "last()"
  , "c3" : "2"
@@ -288,8 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00322"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#322"
+ , "c5" : "00337"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#337"
  , "c1" : "LRUNode"
  , "c2" : "head()"
  , "c3" : "1"
@@ -297,8 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00326"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#326"
+ , "c5" : "00341"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#341"
  , "c1" : "LRUNode"
  , "c2" : "tail()"
  , "c3" : "1"
@@ -306,8 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00330"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#330"
+ , "c5" : "00345"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#345"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -346,31 +346,31 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197711.entries" }
+{ "ligne" :  "R0:org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197813.entries" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453.key" }
+{ "ligne" :  "R1:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555.key" }
 ,
-{ "ligne" :  "R2:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453.value" }
+{ "ligne" :  "R2:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555.value" }
 ]
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197711 (R0 in line [00241])" }
+{ "ligne" : "S0:org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197813 (R0 in line [00256])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453 (R1 in line [00142],R2 in line [00142])" }
+{ "ligne" : "S0:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555 (R1 in line [00157],R2 in line [00157])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.get@POLYN143132" }
+{ "ligne" : "S0:org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.get@POLYN143222" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197711 (R0 in line [00241])" }
+{ "ligne" : "S1:org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197813 (R0 in line [00256])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453 (R1 in line [00142],R2 in line [00142])" }
+{ "ligne" : "S1:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555 (R1 in line [00157],R2 in line [00157])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453 (R1 in line [00142],R2 in line [00142])" }
+{ "ligne" : "S1:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555 (R1 in line [00157],R2 in line [00157])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.get@POLYN143132" }
+{ "ligne" : "S1:org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.get@POLYN143222" }
  ]
  } }
 ]
@@ -452,885 +452,885 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#56"
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#71"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00056] Lock statement on synchronized method name"
+ , "c3" : "QC-JAV000019[00071] Lock statement on synchronized method name"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#60"
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#75"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00060] Lock statement on synchronized method hits"
+ , "c3" : "QC-JAV000019[00075] Lock statement on synchronized method hits"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#64"
+ , "c1" : "00079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#79"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00064] Lock statement on synchronized method misses"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#68"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00068] Lock statement on synchronized method overwrites"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#72"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00072] Lock statement on synchronized method flushes"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#76"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00076] Lock statement on synchronized method get"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#76"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method get arguments Bytes  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#76"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00076] For method get list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache.LRUNode getInternalN190591"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.state.internals.NamedCache.get@POLYN190375 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.state.internals.NamedCache.get@POLYN190375 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.state.internals.NamedCache.get@POLYN190375 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000019[00079] Lock statement on synchronized method misses"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.state.internals.NamedCache.get@POLYN190375 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#89"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00089] Lock statement on synchronized method setListener"
+ , "c3" : "QC-JAV000019[00083] Lock statement on synchronized method overwrites"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#89"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#87"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00087] Lock statement on synchronized method flushes"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#91"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00091] Lock statement on synchronized method get"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00089] For method setListener arguments ThreadCache.DirtyEntryFlushListener  listener"
+ , "c3" : "QC-JAV000006[00091] For method get arguments Bytes  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#91"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00091] For method get list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache.LRUNode getInternalN190693"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.state.internals.NamedCache.get@POLYN190477 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#93"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00093] Lock statement on synchronized method flush"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191000 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.state.internals.NamedCache.get@POLYN190477 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#97"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method flush arguments LRUNode  evicted"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#97"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00097] For method flush list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache.LRUNode getInternalN192493"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00124] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.state.internals.NamedCache.get@POLYN190477 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#101"
+ , "c1" : "00098"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String  'Named cache {} stats on flush: #hits={}, #misses={}, #overwrites={}, #flushes={}' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.state.internals.NamedCache.get@POLYN190477 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#105"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String  'No listener for namespace ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String  ' registered with cache' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#125"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String  'Key = ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String  ' found in dirty key set, but entry is null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#130"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#142"
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#104"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00142] Lock statement on synchronized method put"
+ , "c3" : "QC-JAV000019[00104] Lock statement on synchronized method setListener"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#142"
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00142] For method put arguments Bytes  key|LRUCacheEntry  value"
+ , "c3" : "QC-JAV000006[00104] For method setListener arguments ThreadCache.DirtyEntryFlushListener  listener"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#142"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00142] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#146"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453 the MagicNumber/String  'Attempting to put a clean entry for key [%s] into NamedCache [%s] when it already contains a dirty entry for the same key' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#152"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#172"
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#108"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00172] Lock statement on synchronized method sizeInBytes"
+ , "c3" : "QC-JAV000019[00108] Lock statement on synchronized method flush"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#176"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00176] For method getInternal arguments Bytes  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#176"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00176] For method getInternal list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache.LRUNode cache_getN195036"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#178"
+ , "c1" : "00109"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.state.internals.NamedCache.getInternal@POLYN194931 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191102 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#181"
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#112"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00112] For method flush arguments LRUNode  evicted"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#112"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00112] For method flush list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache.LRUNode getInternalN192595"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.state.internals.NamedCache.getInternal@POLYN194931 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00139] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#189"
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String  'Named cache {} stats on flush: #hits={}, #misses={}, #overwrites={}, #flushes={}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String  'No listener for namespace ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String  ' registered with cache' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00133"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#133"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#140"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00141"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#141"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String  'Key = ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00141"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#141"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String  ' found in dirty key set, but entry is null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00145"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#145"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#157"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00157] Lock statement on synchronized method put"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00189] For method updateLRU arguments LRUNode  node"
+ , "c3" : "QC-JAV000006[00157] For method put arguments Bytes  key|LRUCacheEntry  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#195"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00195] For method remove arguments LRUNode  node"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#195"
+ , "c1" : "00157"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#157"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00195] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00157] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00161"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#161"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555 the MagicNumber/String  'Attempting to put a clean entry for key [%s] into NamedCache [%s] when it already contains a dirty entry for the same key' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#167"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00187"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#187"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00187] Lock statement on synchronized method sizeInBytes"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00191"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#191"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00191] For method getInternal arguments Bytes  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00191"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#191"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00191] For method getInternal list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache.LRUNode cache_getN195138"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.state.internals.NamedCache.getInternal@POLYN195033 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.state.internals.NamedCache.remove@POLYN195704 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.state.internals.NamedCache.getInternal@POLYN195033 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#201"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.state.internals.NamedCache.remove@POLYN195704 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#208"
+ , "c1" : "00204"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#204"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00208] For method putHead arguments LRUNode  node"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#208"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00208] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00204] For method updateLRU arguments LRUNode  node"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00210"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#210"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.streams.state.internals.NamedCache.putHead@POLYN196256 the MagicNumber/String  null should be converted to const"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00210] For method remove arguments LRUNode  node"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00210"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#210"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00210] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.state.internals.NamedCache.putHead@POLYN196256 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.state.internals.NamedCache.remove@POLYN195806 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00215"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#215"
+ , "c1" : "00216"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.streams.state.internals.NamedCache.putHead@POLYN196256 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.streams.state.internals.NamedCache.remove@POLYN195806 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#220"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00220] Lock statement on synchronized method evict"
+ , "c1" : "00223"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#223"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00223] For method putHead arguments LRUNode  node"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#221"
+ , "c1" : "00223"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#223"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00223] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00225"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.state.internals.NamedCache.evict@POLYN196770 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.streams.state.internals.NamedCache.putHead@POLYN196358 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#233"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00233] Lock statement on synchronized method putIfAbsent"
+ , "c1" : "00226"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#226"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.streams.state.internals.NamedCache.putHead@POLYN196358 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#233"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00233] For method putIfAbsent arguments Bytes  key|LRUCacheEntry  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#233"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00233] For method putIfAbsent list of called methods Object monObjet|org.apache.kafka.streams.state.internals.LRUCacheEntry getN197461"
+ , "c1" : "00230"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#230"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.streams.state.internals.NamedCache.putHead@POLYN196358 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00235"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#235"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00235] Lock statement on synchronized method evict"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00236"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.state.internals.NamedCache.putIfAbsent@POLYN197328 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.streams.state.internals.NamedCache.evict@POLYN196872 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#241"
+ , "c1" : "00248"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#248"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00241] Lock statement on synchronized method putAll"
+ , "c3" : "QC-JAV000019[00248] Lock statement on synchronized method putIfAbsent"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#241"
+ , "c1" : "00248"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#248"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00241] For method putAll arguments List&lt;KeyValue&lt;byte[] ,LRUCacheEntry &gt; &gt;  entries"
+ , "c3" : "QC-JAV000006[00248] For method putIfAbsent arguments Bytes  key|LRUCacheEntry  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#247"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00247] Lock statement on synchronized method delete"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#247"
+ , "c1" : "00248"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#248"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00247] For method delete arguments Bytes  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#247"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00247] For method delete list of called methods Object monObjet|org.apache.kafka.streams.state.internals.LRUCacheEntry cache_removeN198217|org.apache.kafka.streams.state.internals.LRUCacheEntry node_sizeN198555"
+ , "c3" : "QC-JAV000007[00248] For method putIfAbsent list of called methods Object monObjet|org.apache.kafka.streams.state.internals.LRUCacheEntry getN197563"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00250"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.streams.state.internals.NamedCache.delete@POLYN198112 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.streams.state.internals.NamedCache.putIfAbsent@POLYN197430 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00251"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#251"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.streams.state.internals.NamedCache.delete@POLYN198112 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00268"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#268"
+ , "c1" : "00256"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#256"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00268] Lock statement on synchronized method keyRange"
+ , "c3" : "QC-JAV000019[00256] Lock statement on synchronized method putAll"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00268"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#268"
+ , "c1" : "00256"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#256"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00268] For method keyRange arguments Bytes  from|Bytes  to|boolean  toInclusive"
+ , "c3" : "QC-JAV000006[00256] For method putAll arguments List&lt;KeyValue&lt;byte[] ,LRUCacheEntry &gt; &gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00268"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#268"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00268] For method keyRange list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.utils.Bytes&gt; computeSubSetN199076"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00270"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#270"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.state.internals.NamedCache.keyRange@POLYN198894 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00273"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#273"
+ , "c1" : "00262"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#262"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00273] Lock statement on synchronized method reverseKeyRange"
+ , "c3" : "QC-JAV000019[00262] Lock statement on synchronized method delete"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00273"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#273"
+ , "c1" : "00262"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#262"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00273] For method reverseKeyRange arguments Bytes  from|Bytes  to"
+ , "c3" : "QC-JAV000006[00262] For method delete arguments Bytes  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00273"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#273"
+ , "c1" : "00262"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#262"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00273] For method reverseKeyRange list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.utils.Bytes&gt; computeSubSetN199447"
+ , "c3" : "QC-JAV000007[00262] For method delete list of called methods Object monObjet|org.apache.kafka.streams.state.internals.LRUCacheEntry cache_removeN198319|org.apache.kafka.streams.state.internals.LRUCacheEntry node_sizeN198657"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#274"
+ , "c1" : "00265"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.streams.state.internals.NamedCache.reverseKeyRange@POLYN199293 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.streams.state.internals.NamedCache.delete@POLYN198214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00275"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#275"
+ , "c1" : "00266"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#266"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.streams.state.internals.NamedCache.reverseKeyRange@POLYN199293 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00278"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#278"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00278] For method computeSubSet arguments Bytes  from|Bytes  to|boolean  toInclusive"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00279"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#279"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.streams.state.internals.NamedCache.computeSubSet@POLYN199666 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00279"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#279"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.streams.state.internals.NamedCache.computeSubSet@POLYN199666 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00281"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#281"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.streams.state.internals.NamedCache.computeSubSet@POLYN199666 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.streams.state.internals.NamedCache.delete@POLYN198214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00283"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#283"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.streams.state.internals.NamedCache.computeSubSet@POLYN199666 the MagicNumber/String  null should be converted to const"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00283] Lock statement on synchronized method keyRange"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00284"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#284"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.streams.state.internals.NamedCache.computeSubSet@POLYN199666 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00283"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#283"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00283] For method keyRange arguments Bytes  from|Bytes  to|boolean  toInclusive"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00283"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#283"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00283] For method keyRange list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.utils.Bytes&gt; computeSubSetN199178"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00285"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.streams.state.internals.NamedCache.computeSubSet@POLYN199666 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.streams.state.internals.NamedCache.keyRange@POLYN198996 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#288"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.streams.state.internals.NamedCache.computeSubSet@POLYN199666 the MagicNumber/String  true should be converted to const"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00288] Lock statement on synchronized method reverseKeyRange"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00292"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#292"
+ , "c1" : "00288"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#288"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00292] For method keySetIterator arguments Set&lt;Bytes &gt;  keySet|boolean  forward"
+ , "c3" : "QC-JAV000006[00288] For method reverseKeyRange arguments Bytes  from|Bytes  to"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00288"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#288"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00288] For method reverseKeyRange list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.utils.Bytes&gt; computeSubSetN199549"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#289"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.streams.state.internals.NamedCache.reverseKeyRange@POLYN199395 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00290"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#290"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.streams.state.internals.NamedCache.reverseKeyRange@POLYN199395 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00293"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#293"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00293] For method computeSubSet arguments Bytes  from|Bytes  to|boolean  toInclusive"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00294"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#294"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.streams.state.internals.NamedCache.computeSubSet@POLYN199768 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00294"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#294"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.streams.state.internals.NamedCache.computeSubSet@POLYN199768 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00296"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#296"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.streams.state.internals.NamedCache.computeSubSet@POLYN199768 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00298"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#298"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.streams.state.internals.NamedCache.computeSubSet@POLYN199768 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00299"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#299"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.streams.state.internals.NamedCache.computeSubSet@POLYN199768 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00300"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#300"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00300] Lock statement on synchronized method allKeys"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00301"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.streams.state.internals.NamedCache.allKeys@POLYN201137 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.streams.state.internals.NamedCache.computeSubSet@POLYN199768 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00304"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#304"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00304] Lock statement on synchronized method reverseAllKeys"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00305"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#305"
+ , "c1" : "00303"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.streams.state.internals.NamedCache.reverseAllKeys@POLYN201319 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.streams.state.internals.NamedCache.computeSubSet@POLYN199768 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00308"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#308"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00308] Lock statement on synchronized method first"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00309"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#309"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.streams.state.internals.NamedCache.first@POLYN201480 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00310"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#310"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.streams.state.internals.NamedCache.first@POLYN201480 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00307"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#307"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00307] For method keySetIterator arguments Set&lt;Bytes &gt;  keySet|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00315"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#315"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00315] Lock statement on synchronized method last"
+ , "c3" : "QC-JAV000019[00315] Lock statement on synchronized method allKeys"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00316"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#316"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.streams.state.internals.NamedCache.last@POLYN201685 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.streams.state.internals.NamedCache.allKeys@POLYN201239 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00317"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#317"
+ , "c1" : "00319"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#319"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00319] Lock statement on synchronized method reverseAllKeys"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00320"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.streams.state.internals.NamedCache.last@POLYN201685 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.streams.state.internals.NamedCache.reverseAllKeys@POLYN201421 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00322"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#322"
+ , "c1" : "00323"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#323"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00322] Lock statement on synchronized method head"
+ , "c3" : "QC-JAV000019[00323] Lock statement on synchronized method first"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00326"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#326"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00326] Lock statement on synchronized method tail"
+ , "c1" : "00324"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#324"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.streams.state.internals.NamedCache.first@POLYN201582 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00325"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#325"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.streams.state.internals.NamedCache.first@POLYN201582 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00330"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#330"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00330] Lock statement on synchronized method close"
+ , "c3" : "QC-JAV000019[00330] Lock statement on synchronized method last"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00331"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202054 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.streams.state.internals.NamedCache.last@POLYN201787 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00332"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202054 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.streams.state.internals.NamedCache.last@POLYN201787 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00333"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#333"
+ , "c1" : "00337"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#337"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00337] Lock statement on synchronized method head"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00341"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#341"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00341] Lock statement on synchronized method tail"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00345"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#345"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00345] Lock statement on synchronized method close"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00346"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#346"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202054 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202156 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00361"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#361"
+ , "c1" : "00347"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#347"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.streams.state.internals.NamedCache.LRUNode.size@POLYN203179 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202156 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00362"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#362"
+ , "c1" : "00348"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#348"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.streams.state.internals.NamedCache.LRUNode.size@POLYN203179 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202156 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00363"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#363"
+ , "c1" : "00378"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#378"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.streams.state.internals.NamedCache.LRUNode.size@POLYN203179 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.streams.state.internals.NamedCache.LRUNode.size@POLYN203281 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00375"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#375"
+ , "c1" : "00379"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#379"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.streams.state.internals.NamedCache.LRUNode.size@POLYN203281 the MagicNumber/String  8 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00380"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#380"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.streams.state.internals.NamedCache.LRUNode.size@POLYN203281 the MagicNumber/String  8 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00392"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#392"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00375] For method update arguments LRUCacheEntry  entry"
+ , "c3" : "QC-JAV000006[00392] For method update arguments LRUCacheEntry  entry"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#260"
+ , "c1" : "00275"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#275"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00260] Public method size is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00275] Public method size is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#264"
+ , "c1" : "00279"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#279"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00264] Public method isEmpty is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00279] Public method isEmpty is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197711.entries"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197813.entries"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453.key"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555.key"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453.value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.NamedCache.size@POLYN198661"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555.value"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.NamedCache.size@POLYN198763"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.NamedCache.delete@POLYN198112"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202054"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.NamedCache.delete@POLYN198214"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.NamedCache.isEmpty@POLYN198767"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202156"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#146"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453 the MagicNumber/String 'Attempting to put a clean entry for key [%s] into NamedCache [%s] when it already contains a dirty entry for the same key' MUST BE CONVERTED to const"
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.NamedCache.isEmpty@POLYN198869"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#152"
+ , "c1" : "00161"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#161"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555 the MagicNumber/String 'Attempting to put a clean entry for key [%s] into NamedCache [%s] when it already contains a dirty entry for the same key' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#101"
+ , "c1" : "00167"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#167"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String 'Named cache {} stats on flush: #hits={}, #misses={}, #overwrites={}, #flushes={}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00167] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#105"
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#116"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00116] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String 'Named cache {} stats on flush: #hits={}, #misses={}, #overwrites={}, #flushes={}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#106"
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String ' registered with cache' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#106"
+ , "c1" : "00121"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#121"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String 'No listener for namespace ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String ' registered with cache' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#118"
+ , "c1" : "00121"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#121"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00118] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String 'No listener for namespace ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#125"
+ , "c1" : "00133"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#133"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00125] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#126"
+ , "c1" : "00140"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#140"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00126] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String ' found in dirty key set, but entry is null' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00140] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#126"
+ , "c1" : "00141"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#141"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00126] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String 'Key = ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00141] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String ' found in dirty key set, but entry is null' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#130"
+ , "c1" : "00141"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#141"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191106 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00141] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String 'Key = ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#250"
+ , "c1" : "00145"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#145"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00250] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.delete@POLYN198112 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00251"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#251"
+ , "c1" : "00265"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#265"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00251] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.delete@POLYN198112 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00265] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.delete@POLYN198214 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00331"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#331"
+ , "c1" : "00266"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#266"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00331] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202054 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00266] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.delete@POLYN198214 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00332"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#332"
+ , "c1" : "00346"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#346"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00332] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202054 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00346] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202156 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00333"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#333"
+ , "c1" : "00347"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#347"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00333] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202054 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00347] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202156 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00348"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#348"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00348] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202156 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

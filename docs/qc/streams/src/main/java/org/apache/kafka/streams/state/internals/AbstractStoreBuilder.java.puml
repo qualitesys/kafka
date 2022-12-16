@@ -2,13 +2,13 @@
 !pragma layout smetana
 "StoreBuilder<T>" <|-- "org.apache.kafka.streams.state.internals.AbstractStoreBuilder"
 class org.apache.kafka.streams.state.internals.AbstractStoreBuilder {
-+AbstractStoreBuilder(String;Serde<K>;Serde<V>;Time) : AbstractStoreBuilder [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#22]]]
-+withCachingEnabled() : StoreBuilder<T> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#35]]]
-+withCachingDisabled() : StoreBuilder<T> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#41]]]
-+withLoggingEnabled(Map<String,String>) : StoreBuilder<T> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#47]]]
-+withLoggingDisabled() : StoreBuilder<T> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#55]]]
-+logConfig() : Map<String,String> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#62]]]
-+loggingEnabled() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#67]]]
-+name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#72]]]
++AbstractStoreBuilder(String;Serde<K>;Serde<V>;Time) : AbstractStoreBuilder [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#37]]]
++withCachingEnabled() : StoreBuilder<T> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#50]]]
++withCachingDisabled() : StoreBuilder<T> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#56]]]
++withLoggingEnabled(Map<String,String>) : StoreBuilder<T> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#62]]]
++withLoggingDisabled() : StoreBuilder<T> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#70]]]
++logConfig() : Map<String,String> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#77]]]
++loggingEnabled() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#82]]]
++name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#87]]]
 } 
 @enduml

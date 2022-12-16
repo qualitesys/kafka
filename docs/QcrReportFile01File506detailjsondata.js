@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.PlaintextChannelBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#28"
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#46"
  , "c1" : "PlaintextChannelBuilder"
  , "c2" : "PlaintextChannelBuilder(ListenerName)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#32"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#50"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#37"
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#55"
  , "c1" : "KafkaChannel"
  , "c2" : "buildChannel(String;SelectionKey;int;MemoryPool;ChannelMetadataRegistry)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#51"
+ , "c5" : "00069"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#69"
  , "c1" : "KafkaChannel"
  , "c2" : "buildChannel(String;TransportLayer;Supplier<Authenticator>;int;MemoryPool;ChannelMetadataRegistry)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#56"
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#74"
  , "c1" : "PlaintextTransportLayer"
  , "c2" : "buildTransportLayer(SelectionKey)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#61"
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#79"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -157,136 +157,136 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#32"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00050] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#37"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method buildChannel arguments String  id|SelectionKey  key|int  maxReceiveSize|MemoryPool  memoryPool|ChannelMetadataRegistry  metadataRegistry"
+ , "c3" : "QC-JAV000006[00055] For method buildChannel arguments String  id|SelectionKey  key|int  maxReceiveSize|MemoryPool  memoryPool|ChannelMetadataRegistry  metadataRegistry"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#43"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.network.PlaintextChannelBuilder.buildChannel@POLYN157035 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.network.PlaintextChannelBuilder.buildChannel@POLYN157143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#45"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.network.PlaintextChannelBuilder.buildChannel@POLYN157035 the MagicNumber/String  'Failed to create channel due to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.network.PlaintextChannelBuilder.buildChannel@POLYN157143 the MagicNumber/String  'Failed to create channel due to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#51"
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00051] For method buildChannel arguments String  id|TransportLayer  transportLayer|Supplier&lt;Authenticator &gt;  authenticatorCreator|int  maxReceiveSize|MemoryPool  memoryPool|ChannelMetadataRegistry  metadataRegistry"
+ , "c3" : "QC-JAV000006[00069] For method buildChannel arguments String  id|TransportLayer  transportLayer|Supplier&lt;Authenticator &gt;  authenticatorCreator|int  maxReceiveSize|MemoryPool  memoryPool|ChannelMetadataRegistry  metadataRegistry"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#56"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method buildTransportLayer arguments SelectionKey  key"
+ , "c3" : "QC-JAV000006[00074] For method buildTransportLayer arguments SelectionKey  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#70"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.PlaintextAuthenticator@POLYN158764 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.PlaintextAuthenticator@POLYN158872 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#70"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.PlaintextAuthenticator@POLYN158764 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.principal@POLYN159264 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.principal@POLYN159264 the MagicNumber/String  'Unexpected call to principal() when listenerName is null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.complete@POLYN159988 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.PlaintextAuthenticator@POLYN158872 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.close@POLYN160082 the MagicNumber/String  'principal builder' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.principal@POLYN159372 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#75"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00075] Void method authenticate is empty or contains only a return."
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.principal@POLYN159372 the MagicNumber/String  'Unexpected call to principal() when listenerName is null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#75"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00075] Void method authenticate is empty or contains only a return. Interface segregation"
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.complete@POLYN160096 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#61"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00061] Void method close is empty or contains only a return."
+ , "c1" : "00117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.close@POLYN160190 the MagicNumber/String  'principal builder' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#61"
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#93"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00061] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000005[00093] Void method authenticate is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#93"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00093] Void method authenticate is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#79"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00079] Void method close is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#79"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00079] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.PlaintextChannelBuilder.buildChannel@POLYN157035"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.PlaintextChannelBuilder.buildChannel@POLYN157143"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#43"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#61"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00043] In the recursive method org.apache.kafka.common.network.PlaintextChannelBuilder.buildChannel@POLYN157035 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.network.PlaintextChannelBuilder.buildChannel@POLYN157143 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#45"
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#63"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.common.network.PlaintextChannelBuilder.buildChannel@POLYN157035 the MagicNumber/String 'Failed to create channel due to ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.common.network.PlaintextChannelBuilder.buildChannel@POLYN157143 the MagicNumber/String 'Failed to create channel due to ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

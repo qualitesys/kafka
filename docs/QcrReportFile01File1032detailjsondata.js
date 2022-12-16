@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.mirror.MirrorMakerConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#56"
+ , "c5" : "00085"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#85"
  , "c1" : "MirrorMakerConfig"
  , "c2" : "MirrorMakerConfig(Map<?,?>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#61"
+ , "c5" : "00090"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#90"
  , "c1" : "Set<String>"
  , "c2" : "clusters()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#65"
+ , "c5" : "00094"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#94"
  , "c1" : "List<SourceAndTarget>"
  , "c2" : "clusterPairs()"
  , "c3" : "7"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#99"
+ , "c5" : "00130"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#130"
  , "c1" : "MirrorClientConfig"
  , "c2" : "clientConfig(String)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00107"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#107"
+ , "c5" : "00138"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#138"
  , "c1" : "Map<String,String>"
  , "c2" : "clusterProps(String)"
  , "c3" : "5"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00136"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#136"
+ , "c5" : "00167"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#167"
  , "c1" : "Map<String,String>"
  , "c2" : "workerConfig(SourceAndTarget)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00173"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#173"
+ , "c5" : "00204"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#204"
  , "c1" : "Map<String,String>"
  , "c2" : "connectorBaseConfig(SourceAndTarget;Class<?>)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00208"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#208"
+ , "c5" : "00239"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#239"
  , "c1" : "List<String>"
  , "c2" : "configProviders()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00212"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#212"
+ , "c5" : "00243"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#243"
  , "c1" : "Map<String,String>"
  , "c2" : "transform(Map<String,String>)"
  , "c3" : "2"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00243"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#243"
+ , "c5" : "00274"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#274"
  , "c1" : "Map<String,String>"
  , "c2" : "stringsWithPrefixStripped(String)"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00249"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#249"
+ , "c5" : "00280"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#280"
  , "c1" : "Map<String,String>"
  , "c2" : "stringsWithPrefix(String)"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00255"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#255"
+ , "c5" : "00286"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#286"
  , "c1" : "Map<String,String>"
  , "c2" : "clusterConfigsWithPrefix(String;Map<String,String>)"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00261"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#261"
+ , "c5" : "00292"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#292"
  , "c1" : "Map<String,String>"
  , "c2" : "clientConfigsWithPrefix(String;Map<String,String>)"
  , "c3" : "1"
@@ -227,472 +227,472 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#57"
+ , "c1" : "00086"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.MirrorMakerConfig@POLYN193616 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.MirrorMakerConfig@POLYN193802 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#65"
+ , "c1" : "00094"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method clusterPairs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN194435|boolean Boolean_parseBooleanN194660|boolean Boolean_parseBooleanN195174|boolean Boolean_parseBooleanN195503"
+ , "c3" : "QC-JAV000007[00094] For method clusterPairs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN194621|boolean Boolean_parseBooleanN194846|boolean Boolean_parseBooleanN195360|boolean Boolean_parseBooleanN195689"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#75"
+ , "c1" : "00104"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00075] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00104] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#77"
+ , "c1" : "00106"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00077] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00106] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#77"
+ , "c1" : "00106"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00077] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00106] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#77"
+ , "c1" : "00106"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterPairs@POLYN194130 the MagicNumber/String  '-&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterPairs@POLYN194316 the MagicNumber/String  '-&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#77"
+ , "c1" : "00106"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterPairs@POLYN194130 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterPairs@POLYN194130 the MagicNumber/String  'enabled' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#99"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00099] For method clientConfig arguments String  cluster"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterPairs@POLYN194316 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterPairs@POLYN194316 the MagicNumber/String  'enabled' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#130"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00107] For method clusterProps arguments String  cluster"
+ , "c3" : "QC-JAV000006[00130] For method clientConfig arguments String  cluster"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#107"
+ , "c1" : "00138"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#138"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00107] For method clusterProps list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN196780"
+ , "c3" : "QC-JAV000006[00138] For method clusterProps arguments String  cluster"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00114] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00123] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#111"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196525 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#115"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196525 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#116"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196525 the MagicNumber/String  'producer.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#117"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196525 the MagicNumber/String  'consumer.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196525 the MagicNumber/String  'admin.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#124"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196525 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#125"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196525 the MagicNumber/String  'producer.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196525 the MagicNumber/String  'consumer.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#127"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196525 the MagicNumber/String  'admin.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#136"
+ , "c1" : "00138"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#138"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00136] For method workerConfig arguments SourceAndTarget  sourceAndTarget"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#136"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00136] For method workerConfig list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; transformN199641"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#136"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00136] The argument sourceAndTarget is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#143"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198366 the MagicNumber/String  'offset.storage' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#144"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198366 the MagicNumber/String  'config.storage' should be converted to const"
+ , "c3" : "QC-JAV000007[00138] For method clusterProps list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN196966"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00145"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198366 the MagicNumber/String  'status.storage' should be converted to const"
+ , "c3" : "QC-JAV000001[00145] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#154"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00154] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00142"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#142"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196711 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198366 the MagicNumber/String  'key.converter' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196711 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198366 the MagicNumber/String  'value.converter' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196711 the MagicNumber/String  'producer.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198366 the MagicNumber/String  'header.converter' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196711 the MagicNumber/String  'consumer.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198366 the MagicNumber/String  'task' should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196711 the MagicNumber/String  'admin.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#150"
+ , "c1" : "00155"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198366 the MagicNumber/String  'worker' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196711 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#151"
+ , "c1" : "00156"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198366 the MagicNumber/String  'replication.policy' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196711 the MagicNumber/String  'producer.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#157"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196711 the MagicNumber/String  'consumer.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198366 the MagicNumber/String  '-mm2' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterProps@POLYN196711 the MagicNumber/String  'admin.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#159"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198366 the MagicNumber/String  'mm2-offsets.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#160"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198366 the MagicNumber/String  '.internal' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#161"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198366 the MagicNumber/String  'mm2-status.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#162"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198366 the MagicNumber/String  '.internal' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#163"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198366 the MagicNumber/String  'mm2-configs.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#164"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198366 the MagicNumber/String  '.internal' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#173"
+ , "c1" : "00167"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#167"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00173] For method connectorBaseConfig arguments SourceAndTarget  sourceAndTarget|Class&lt;? &gt;  connectorClass"
+ , "c3" : "QC-JAV000006[00167] For method workerConfig arguments SourceAndTarget  sourceAndTarget"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#173"
+ , "c1" : "00167"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#167"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00173] For method connectorBaseConfig list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; clusterPropsN201503|java.util.Map&lt;java.lang.String,java.lang.String&gt; clusterPropsN201894"
+ , "c3" : "QC-JAV000007[00167] For method workerConfig list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; transformN199827"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#173"
+ , "c1" : "00167"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#167"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00173] The argument sourceAndTarget is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00167] The argument sourceAndTarget is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#173"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00173] The argument connectorClass is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00174"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#174"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198552 the MagicNumber/String  'offset.storage' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#175"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198552 the MagicNumber/String  'config.storage' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00176"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#176"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198552 the MagicNumber/String  'status.storage' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198552 the MagicNumber/String  'key.converter' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00178"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#178"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198552 the MagicNumber/String  'value.converter' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#179"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198552 the MagicNumber/String  'header.converter' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.connectorBaseConfig@POLYN200800 the MagicNumber/String  'replication.policy' should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198552 the MagicNumber/String  'task' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#198"
+ , "c1" : "00181"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.connectorBaseConfig@POLYN200800 the MagicNumber/String  '-&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198552 the MagicNumber/String  'worker' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#199"
+ , "c1" : "00182"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.connectorBaseConfig@POLYN200800 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198552 the MagicNumber/String  'replication.policy' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#202"
+ , "c1" : "00189"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.connectorBaseConfig@POLYN200800 the MagicNumber/String  'false' should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198552 the MagicNumber/String  '-mm2' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#212"
+ , "c1" : "00190"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198552 the MagicNumber/String  'mm2-offsets.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00191"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#191"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198552 the MagicNumber/String  '.internal' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00192"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#192"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198552 the MagicNumber/String  'mm2-status.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198552 the MagicNumber/String  '.internal' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00194"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#194"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198552 the MagicNumber/String  'mm2-configs.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00195"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#195"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.workerConfig@POLYN198552 the MagicNumber/String  '.internal' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00204"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#204"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00212] For method transform arguments Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00204] For method connectorBaseConfig arguments SourceAndTarget  sourceAndTarget|Class&lt;? &gt;  connectorClass"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#212"
+ , "c1" : "00204"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#204"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00212] For method transform list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; configProvidersN203346"
+ , "c3" : "QC-JAV000007[00204] For method connectorBaseConfig list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; clusterPropsN201689|java.util.Map&lt;java.lang.String,java.lang.String&gt; clusterPropsN202080"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#217"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00217] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00204"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#204"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00204] The argument sourceAndTarget is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#219"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.transform@POLYN203191 the MagicNumber/String  '.' should be converted to const"
+ , "c1" : "00204"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#204"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00204] The argument connectorClass is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00226"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#226"
+ , "c1" : "00211"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.transform@POLYN203191 the MagicNumber/String  'config provider' should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.connectorBaseConfig@POLYN200986 the MagicNumber/String  'replication.policy' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00229"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#229"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.connectorBaseConfig@POLYN200986 the MagicNumber/String  '-&amp;gt;' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00230"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#230"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.connectorBaseConfig@POLYN200986 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00233"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#233"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.connectorBaseConfig@POLYN200986 the MagicNumber/String  'false' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00243"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#243"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00243] For method stringsWithPrefixStripped arguments String  prefix"
+ , "c3" : "QC-JAV000006[00243] For method transform arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00243"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#243"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00243] The argument prefix is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00249"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#249"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00249] For method stringsWithPrefix arguments String  prefix"
+ , "c3" : "QC-JAV000007[00243] For method transform list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; configProvidersN203532"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00249"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#249"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00249] For method stringsWithPrefix list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN205734"
+ , "c1" : "00248"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#248"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00248] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00255"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#255"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00255] For method clusterConfigsWithPrefix arguments String  prefix|Map&lt;String ,String &gt;  props"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00255"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#255"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00255] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00250"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#250"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.transform@POLYN203377 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00257"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#257"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterConfigsWithPrefix@POLYN206014 the MagicNumber/String  '(^consumer.*|^producer.*|^admin.*)' should be converted to const"
+ , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.transform@POLYN203377 the MagicNumber/String  'config provider' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#261"
+ , "c1" : "00274"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#274"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00261] For method clientConfigsWithPrefix arguments String  prefix|Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00274] For method stringsWithPrefixStripped arguments String  prefix"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#261"
+ , "c1" : "00274"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#274"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00261] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00274] The argument prefix is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00263"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#263"
+ , "c1" : "00280"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#280"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00280] For method stringsWithPrefix arguments String  prefix"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00280"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#280"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00280] For method stringsWithPrefix list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN205920"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00286"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#286"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00286] For method clusterConfigsWithPrefix arguments String  prefix|Map&lt;String ,String &gt;  props"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00286"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#286"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00286] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00288"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clientConfigsWithPrefix@POLYN206576 the MagicNumber/String  '(^consumer.*|^producer.*|^admin.*)' should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clusterConfigsWithPrefix@POLYN206200 the MagicNumber/String  '(^consumer.*|^producer.*|^admin.*)' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00292"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#292"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00292] For method clientConfigsWithPrefix arguments String  prefix|Map&lt;String ,String &gt;  props"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00292"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#292"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00292] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00294"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#294"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.mirror.MirrorMakerConfig.clientConfigsWithPrefix@POLYN206762 the MagicNumber/String  '(^consumer.*|^producer.*|^admin.*)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorMakerConfig.transform@POLYN203191"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorMakerConfig.transform@POLYN203377"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#219"
+ , "c1" : "00250"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#250"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00219] In the recursive method org.apache.kafka.connect.mirror.MirrorMakerConfig.transform@POLYN203191 the MagicNumber/String '.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00250] In the recursive method org.apache.kafka.connect.mirror.MirrorMakerConfig.transform@POLYN203377 the MagicNumber/String '.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00226"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#226"
+ , "c1" : "00257"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#257"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00226] In the recursive method org.apache.kafka.connect.mirror.MirrorMakerConfig.transform@POLYN203191 the MagicNumber/String 'config provider' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00257] In the recursive method org.apache.kafka.connect.mirror.MirrorMakerConfig.transform@POLYN203377 the MagicNumber/String 'config provider' MUST BE CONVERTED to const"
 }} 
 ]
 , 

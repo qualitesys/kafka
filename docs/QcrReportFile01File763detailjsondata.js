@@ -67,66 +67,66 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#12"
+ , "c1" : "00027"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.security.authenticator.CredentialCache the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.security.authenticator.CredentialCache the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#14"
+ , "c1" : "00029"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.security.authenticator.CredentialCache the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.security.authenticator.CredentialCache the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#20"
+ , "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.security.authenticator.CredentialCache the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#22"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.security.authenticator.CredentialCache the MagicNumber/String  'Invalid credential class ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#22"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.security.authenticator.CredentialCache the MagicNumber/String  ', expected ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#25"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.security.authenticator.CredentialCache the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.security.authenticator.CredentialCache the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#37"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method get arguments String  username"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.authenticator.CredentialCache the MagicNumber/String  'Invalid credential class ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#41"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method put arguments String  username|C  credential"
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#37"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.authenticator.CredentialCache the MagicNumber/String  ', expected ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#45"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#40"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.security.authenticator.CredentialCache the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method remove arguments String  username"
+ , "c3" : "QC-JAV000006[00052] For method get arguments String  username"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#56"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00056] For method put arguments String  username|C  credential"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/CredentialCache.java.html#60"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00060] For method remove arguments String  username"
 }} 
 ]
 , 

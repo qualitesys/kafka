@@ -2,9 +2,9 @@
 !pragma layout smetana
 "AbstractRequest" <|-- "org.apache.kafka.common.requests.SaslHandshakeRequest"
 class org.apache.kafka.common.requests.SaslHandshakeRequest {
-+SaslHandshakeRequest(SaslHandshakeRequestData;short) : SaslHandshakeRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#36]]]
-+data() : SaslHandshakeRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#42]]]
-+getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#47]]]
-+parse(ByteBuffer;short) : SaslHandshakeRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#53]]]
++SaslHandshakeRequest(SaslHandshakeRequestData;short) : SaslHandshakeRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#59]]]
++data() : SaslHandshakeRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#65]]]
++getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#70]]]
++parse(ByteBuffer;short) : SaslHandshakeRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#76]]]
 } 
 @enduml

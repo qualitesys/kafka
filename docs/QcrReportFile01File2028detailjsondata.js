@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.BatchWritingStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00009"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BatchWritingStore.java.html#9"
+ , "c5" : "00024"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BatchWritingStore.java.html#24"
  , "c1" : "void"
  , "c2" : "addToBatch(KeyValue<byte[],byte[]>;WriteBatch)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BatchWritingStore.java.html#11"
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BatchWritingStore.java.html#26"
  , "c1" : "void"
  , "c2" : "write(WriteBatch)"
  , "c3" : "1"

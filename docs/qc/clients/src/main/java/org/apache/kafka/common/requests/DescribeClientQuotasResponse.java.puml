@@ -2,12 +2,12 @@
 !pragma layout smetana
 "AbstractResponse" <|-- "org.apache.kafka.common.requests.DescribeClientQuotasResponse"
 class org.apache.kafka.common.requests.DescribeClientQuotasResponse {
-+DescribeClientQuotasResponse(DescribeClientQuotasResponseData) : DescribeClientQuotasResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#24]]]
-+complete(KafkaFutureImpl<Map<ClientQuotaEntity,Map<String,Double>>>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#29]]]
-+throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#54]]]
-+data() : DescribeClientQuotasResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#59]]]
-+errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#64]]]
-+parse(ByteBuffer;short) : DescribeClientQuotasResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#68]]]
-+fromQuotaEntities(Map<ClientQuotaEntity,Map<String,Double>>;int) : DescribeClientQuotasResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#72]]]
++DescribeClientQuotasResponse(DescribeClientQuotasResponseData) : DescribeClientQuotasResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#39]]]
++complete(KafkaFutureImpl<Map<ClientQuotaEntity,Map<String,Double>>>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#44]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#69]]]
++data() : DescribeClientQuotasResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#74]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#79]]]
++parse(ByteBuffer;short) : DescribeClientQuotasResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#83]]]
++fromQuotaEntities(Map<ClientQuotaEntity,Map<String,Double>>;int) : DescribeClientQuotasResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#87]]]
 } 
 @enduml

@@ -2,17 +2,17 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.producer.RecordMetadata"
 class org.apache.kafka.clients.producer.RecordMetadata {
-+RecordMetadata(TopicPartition;long;int;long;int;int) : RecordMetadata [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#26]]]
-+RecordMetadata(TopicPartition;long;long;long;Long;int;int) : RecordMetadata [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#38]]]
--batchIndexToInt(long) : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#43]]]
-+hasOffset() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#50]]]
-+offset() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#55]]]
-+hasTimestamp() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#60]]]
-+timestamp() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#65]]]
-+serializedKeySize() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#70]]]
-+serializedValueSize() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#75]]]
-+topic() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#80]]]
-+partition() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#85]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#90]]]
++RecordMetadata(TopicPartition;long;int;long;int;int) : RecordMetadata [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#47]]]
++RecordMetadata(TopicPartition;long;long;long;Long;int;int) : RecordMetadata [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#66]]]
+-batchIndexToInt(long) : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#71]]]
++hasOffset() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#81]]]
++offset() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#89]]]
++hasTimestamp() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#97]]]
++timestamp() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#106]]]
++serializedKeySize() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#114]]]
++serializedValueSize() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#122]]]
++topic() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#129]]]
++partition() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#136]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#141]]]
 } 
 @enduml

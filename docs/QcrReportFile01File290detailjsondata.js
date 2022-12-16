@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.compress.SnappyFactory" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.html#17"
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.html#32"
  , "c1" : "SnappyFactory"
  , "c2" : "SnappyFactory()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.html#19"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.html#34"
  , "c1" : "OutputStream"
  , "c2" : "wrapForOutput(ByteBufferOutputStream)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.html#27"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.html#42"
  , "c1" : "InputStream"
  , "c2" : "wrapForInput(ByteBuffer)"
  , "c3" : "1"
@@ -86,17 +86,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.html#19"
+ , "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method wrapForOutput arguments ByteBufferOutputStream  buffer"
+ , "c3" : "QC-JAV000006[00034] For method wrapForOutput arguments ByteBufferOutputStream  buffer"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.html#27"
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method wrapForInput arguments ByteBuffer  buffer"
+ , "c3" : "QC-JAV000006[00042] For method wrapForInput arguments ByteBuffer  buffer"
 }} 
 ]
 , 

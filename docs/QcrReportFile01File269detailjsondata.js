@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.PartitionInfo" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#13"
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#30"
  , "c1" : "PartitionInfo"
  , "c2" : "PartitionInfo(String;int;Node;Node[];Node[])"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#17"
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#34"
  , "c1" : "PartitionInfo"
  , "c2" : "PartitionInfo(String;int;Node;Node[];Node[];Node[])"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#32"
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#51"
  , "c1" : "String"
  , "c2" : "topic()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#37"
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#58"
  , "c1" : "int"
  , "c2" : "partition()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#42"
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#65"
  , "c1" : "Node"
  , "c2" : "leader()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#47"
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#72"
  , "c1" : "Node[]"
  , "c2" : "replicas()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#52"
+ , "c5" : "00080"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#80"
  , "c1" : "Node[]"
  , "c2" : "inSyncReplicas()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#57"
+ , "c5" : "00087"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#87"
  , "c1" : "Node[]"
  , "c2" : "offlineReplicas()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#62"
+ , "c5" : "00092"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#92"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#73"
+ , "c5" : "00103"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#103"
  , "c1" : "String"
  , "c2" : "formatNodeIds(Node[])"
  , "c3" : "4"
@@ -156,80 +156,80 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#14"
+ , "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.PartitionInfo.PartitionInfo@POLYN152490 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.PartitionInfo.PartitionInfo@POLYN152670 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#63"
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.PartitionInfo.toString@POLYN154394 the MagicNumber/String  'Partition(topic = %s, partition = %d, leader = %s, replicas = %s, isr = %s, offlineReplicas = %s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.PartitionInfo.toString@POLYN154574 the MagicNumber/String  'Partition(topic = %s, partition = %d, leader = %s, replicas = %s, isr = %s, offlineReplicas = %s)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#66"
+ , "c1" : "00096"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.PartitionInfo.toString@POLYN154394 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.PartitionInfo.toString@POLYN154574 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#66"
+ , "c1" : "00096"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.PartitionInfo.toString@POLYN154394 the MagicNumber/String  'none' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.PartitionInfo.toString@POLYN154574 the MagicNumber/String  'none' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#73"
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method formatNodeIds arguments Node[]  nodes"
+ , "c3" : "QC-JAV000006[00103] For method formatNodeIds arguments Node[]  nodes"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#74"
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN154875 the MagicNumber/String  '[' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN155055 the MagicNumber/String  '[' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#75"
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN154875 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN155055 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#76"
+ , "c1" : "00106"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN154875 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN155055 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#78"
+ , "c1" : "00108"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN154875 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN155055 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#79"
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN154875 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN155055 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#82"
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN154875 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.PartitionInfo.formatNodeIds@POLYN155055 the MagicNumber/String  ']' should be converted to const"
 }} 
 ]
 , 

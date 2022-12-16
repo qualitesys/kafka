@@ -2,19 +2,19 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.InFlightRequests"
 class org.apache.kafka.clients.InFlightRequests {
-+InFlightRequests(int) : InFlightRequests [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#21]]]
-+add(NetworkClient.InFlightRequest) : void [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#26]]]
--requestQueue(String) : Deque<NetworkClient.InFlightRequest> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#38]]]
-+completeNext(String) : NetworkClient.InFlightRequest [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#46]]]
-+lastSent(String) : NetworkClient.InFlightRequest [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#53]]]
-+completeLastSent(String) : NetworkClient.InFlightRequest [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#58]]]
-+canSendMore(String) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#65]]]
-+count(String) : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#72]]]
-+isEmpty(String) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#78]]]
-+count() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#84]]]
-+isEmpty() : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#89]]]
-+clearAll(String) : Iterable<NetworkClient.InFlightRequest> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#98]]]
--hasExpiredRequest(long;Deque<NetworkClient.InFlightRequest>) : Boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#109]]]
-+nodesWithTimedOutRequests(long) : List<String> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#118]]]
++InFlightRequests(int) : InFlightRequests [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#38]]]
++add(NetworkClient.InFlightRequest) : void [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#45]]]
+-requestQueue(String) : Deque<NetworkClient.InFlightRequest> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#59]]]
++completeNext(String) : NetworkClient.InFlightRequest [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#69]]]
++lastSent(String) : NetworkClient.InFlightRequest [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#79]]]
++completeLastSent(String) : NetworkClient.InFlightRequest [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#88]]]
++canSendMore(String) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#100]]]
++count(String) : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#111]]]
++isEmpty(String) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#119]]]
++count() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#127]]]
++isEmpty() : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#134]]]
++clearAll(String) : Iterable<NetworkClient.InFlightRequest> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#148]]]
+-hasExpiredRequest(long;Deque<NetworkClient.InFlightRequest>) : Boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#159]]]
++nodesWithTimedOutRequests(long) : List<String> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#173]]]
 } 
 @enduml

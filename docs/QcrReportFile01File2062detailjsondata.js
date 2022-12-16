@@ -74,24 +74,24 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.html#26"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.KeyValueIterators.EmptyKeyValueIterator.hasNext@POLYN145884 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.state.internals.KeyValueIterators.EmptyKeyValueIterator.hasNext@POLYN145974 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.html#16"
+ , "c1" : "00031"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.html#31"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00016] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00031] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.html#16"
+ , "c1" : "00031"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.html#31"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00016] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00031] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

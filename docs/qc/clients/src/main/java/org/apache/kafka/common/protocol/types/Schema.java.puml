@@ -2,18 +2,18 @@
 !pragma layout smetana
 "Type" <|-- "org.apache.kafka.common.protocol.types.Schema"
 class org.apache.kafka.common.protocol.types.Schema {
-+Schema(Field...) : Schema [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#19]]]
-+Schema(boolean;Field...) : Schema [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#24]]]
-+write(ByteBuffer;Object) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#42]]]
-+read(ByteBuffer) : Struct [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#57]]]
-+sizeOf(Object) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#86]]]
-+numFields() : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#101]]]
-+get(int) : BoundField [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#106]]]
-+get(String) : BoundField [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#111]]]
-+fields() : BoundField[] [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#116]]]
-+toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#122]]]
-+validate(Object) : Struct [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#135]]]
-+walk(Visitor) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#151]]]
--handleNode(Type;Visitor) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#156]]]
++Schema(Field...) : Schema [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#42]]]
++Schema(boolean;Field...) : Schema [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#56]]]
++write(ByteBuffer;Object) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#76]]]
++read(ByteBuffer) : Struct [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#97]]]
++sizeOf(Object) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#128]]]
++numFields() : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#145]]]
++get(int) : BoundField [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#155]]]
++get(String) : BoundField [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#165]]]
++fields() : BoundField[] [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#172]]]
++toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#180]]]
++validate(Object) : Struct [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#193]]]
++walk(Visitor) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#209]]]
+-handleNode(Type;Visitor) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#214]]]
 } 
 @enduml

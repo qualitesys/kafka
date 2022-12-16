@@ -2,7 +2,7 @@
 !pragma layout smetana
 "KafkaException" <|-- "org.apache.kafka.common.network.InvalidReceiveException"
 class org.apache.kafka.common.network.InvalidReceiveException {
-+InvalidReceiveException(String) : InvalidReceiveException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/InvalidReceiveException.java.html#8]]]
-+InvalidReceiveException(String;Throwable) : InvalidReceiveException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/InvalidReceiveException.java.html#12]]]
++InvalidReceiveException(String) : InvalidReceiveException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/InvalidReceiveException.java.html#23]]]
++InvalidReceiveException(String;Throwable) : InvalidReceiveException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/InvalidReceiveException.java.html#27]]]
 } 
 @enduml

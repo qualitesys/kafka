@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.jmh.server.PartitionCreationBench" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#88"
+ , "c5" : "00103"
+ , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#103"
  , "c1" : "void"
  , "c2" : "setup()"
  , "c3" : "3"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00157"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#157"
+ , "c5" : "00172"
+ , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#172"
  , "c1" : "void"
  , "c2" : "tearDown()"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00169"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#169"
+ , "c5" : "00184"
+ , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#184"
  , "c1" : "LogConfig"
  , "c2" : "createLogConfig()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00187"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#187"
+ , "c5" : "00202"
+ , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#202"
  , "c1" : "void"
  , "c2" : "makeFollower()"
  , "c3" : "3"
@@ -132,528 +132,528 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#65"
+ , "c1" : "00080"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00065] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+ , "c3" : "QC-JAVCWE493[00080] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#68"
+ , "c1" : "00083"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00068] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+ , "c3" : "QC-JAVCWE493[00083] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#94"
+ , "c1" : "00109"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#94"
+ , "c1" : "00109"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  'scheduler-thread' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  'scheduler-thread' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#94"
+ , "c1" : "00109"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#96"
+ , "c1" : "00111"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#96"
+ , "c1" : "00111"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#96"
+ , "c1" : "00111"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#96"
+ , "c1" : "00111"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  9092 should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  9092 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#97"
+ , "c1" : "00112"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#97"
+ , "c1" : "00112"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#97"
+ , "c1" : "00112"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#97"
+ , "c1" : "00112"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#97"
+ , "c1" : "00112"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#97"
+ , "c1" : "00112"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#97"
+ , "c1" : "00112"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#97"
+ , "c1" : "00112"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#97"
+ , "c1" : "00112"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#97"
+ , "c1" : "00112"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#98"
+ , "c1" : "00113"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#105"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  4 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  1024 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  1024L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  0.9d should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  1024 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  1024 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  32 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  1024 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  1024 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  15 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  1000 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  'MD5' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#117"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  1000L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#119"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  10000L should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  10000L should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  1000L should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  4 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  1024 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  1024L should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  0.9d should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  60000 should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  1024 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#128"
+ , "c1" : "00122"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  1024 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#131"
+ , "c1" : "00122"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  32 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#122"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  1024 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#122"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  1024 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#123"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  15 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#123"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  1000 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#123"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#123"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  'MD5' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#132"
+ , "c1" : "00133"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184226 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  1000L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#158"
+ , "c1" : "00134"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.jmh.server.PartitionCreationBench.tearDown@POLYN188866 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  10000L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#200"
+ , "c1" : "00135"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00200] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  10000L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#201"
+ , "c1" : "00136"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00201] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  1000L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#206"
+ , "c1" : "00137"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00206] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  60000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#189"
+ , "c1" : "00143"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#194"
+ , "c1" : "00146"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#195"
+ , "c1" : "00147"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#196"
+ , "c1" : "00147"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.jmh.server.PartitionCreationBench.setup@POLYN184316 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#198"
+ , "c1" : "00173"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.jmh.server.PartitionCreationBench.tearDown@POLYN188956 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#202"
+ , "c1" : "00215"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00215] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#203"
+ , "c1" : "00216"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000001[00216] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00221"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#221"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00221] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#207"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#208"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00210"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#210"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String  0L should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00217"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#217"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#218"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#219"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00222"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#222"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00223"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#223"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00224"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#224"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00226"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#226"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00228"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#228"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#189"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#194"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00194] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#195"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00195] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#196"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00196] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String 2 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#198"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00198] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String 0L MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#202"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00202] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#203"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#204"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String 2 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#207"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00207] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#208"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00208] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#209"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00209] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00209] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00210"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#210"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00210] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00211] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00211] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#213"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String 0L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00217"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#217"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00217] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#218"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00218] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#219"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00219] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00222"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#222"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00222] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00223"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#223"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00223] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00224"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#224"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00224] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00226"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#226"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00226] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00228"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#228"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00228] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191318 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 , 

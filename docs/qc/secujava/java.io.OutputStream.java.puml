@@ -2,10 +2,10 @@
 !pragma layout smetana
 "Closeable" <|-- "java.io.OutputStream"
 class java.io.OutputStream {
-+write(int) : void [[[./../.././qc/secujava/java.io.OutputStream.java.html#8]]]
-+write(byte[]) : void [[[./../.././qc/secujava/java.io.OutputStream.java.html#11]]]
-+write(byte[];int;int) : void [[[./../.././qc/secujava/java.io.OutputStream.java.html#16]]]
-+flush() : void [[[./../.././qc/secujava/java.io.OutputStream.java.html#31]]]
-+close() : void [[[./../.././qc/secujava/java.io.OutputStream.java.html#35]]]
++write(int) : void [[[./../.././qc/secujava/java.io.OutputStream.java.html#62]]]
++write(byte[]) : void [[[./../.././qc/secujava/java.io.OutputStream.java.html#74]]]
++write(byte[];int;int) : void [[[./../.././qc/secujava/java.io.OutputStream.java.html#106]]]
++flush() : void [[[./../.././qc/secujava/java.io.OutputStream.java.html#138]]]
++close() : void [[[./../.././qc/secujava/java.io.OutputStream.java.html#151]]]
 } 
 @enduml

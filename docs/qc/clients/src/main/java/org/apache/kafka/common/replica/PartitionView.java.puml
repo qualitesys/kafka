@@ -2,7 +2,7 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.replica.PartitionView"
 class org.apache.kafka.common.replica.PartitionView {
-replicas() : Set<ReplicaView> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#10]]]
-leader() : ReplicaView [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#12]]]
+replicas() : Set<ReplicaView> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#27]]]
+leader() : ReplicaView [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#29]]]
 } 
 @enduml

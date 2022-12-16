@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.transforms.SetSchemaMetadata" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#39"
+ , "c5" : "00054"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#54"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#50"
+ , "c5" : "00065"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#65"
  , "c1" : "R"
  , "c2" : "apply(R)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#77"
+ , "c5" : "00092"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#92"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#82"
+ , "c5" : "00097"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#97"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#85"
+ , "c5" : "00100"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#100"
  , "c1" : "Schema"
  , "c2" : "operatingSchema(R)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#87"
+ , "c5" : "00102"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#102"
  , "c1" : "Object"
  , "c2" : "operatingValue(R)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#89"
+ , "c5" : "00104"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#104"
  , "c1" : "R"
  , "c2" : "newRecord(R;Schema)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00130"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#130"
+ , "c5" : "00161"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#161"
  , "c1" : "Object"
  , "c2" : "updateSchemaIn(Object;Schema)"
  , "c3" : "3"
@@ -166,150 +166,115 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#39"
+ , "c1" : "00054"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00054] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#44"
+ , "c1" : "00059"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.configure@POLYN169222 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.configure@POLYN169408 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#44"
+ , "c1" : "00059"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.configure@POLYN169222 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.configure@POLYN169408 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#45"
+ , "c1" : "00060"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.configure@POLYN169222 the MagicNumber/String  'Neither schema name nor version configured' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.configure@POLYN169408 the MagicNumber/String  'Neither schema name nor version configured' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#50"
+ , "c1" : "00065"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method apply arguments R  record"
+ , "c3" : "QC-JAV000006[00065] For method apply arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#50"
+ , "c1" : "00065"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00050] For method apply list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.connect.source.SourceRecord&gt; schema_typeN170499"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN169855 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN169855 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN169855 the MagicNumber/String  'updating schema metadata' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN169855 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN169855 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000007[00065] For method apply list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.connect.source.SourceRecord&gt; schema_typeN170685"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN169855 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN170041 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#69"
+ , "c1" : "00068"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN169855 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN170041 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN169855 the MagicNumber/String  'Applying SetSchemaMetadata SMT. Original schema: {}, updated schema: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN170041 the MagicNumber/String  'updating schema metadata' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#85"
+ , "c1" : "00078"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN170041 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN170041 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN170041 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN170041 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.connect.transforms.SetSchemaMetadata.apply@POLYN170041 the MagicNumber/String  'Applying SetSchemaMetadata SMT. Original schema: {}, updated schema: {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method operatingSchema arguments R  record"
+ , "c3" : "QC-JAV000006[00100] For method operatingSchema arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#87"
+ , "c1" : "00102"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#102"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00087] For method operatingValue arguments R  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#89"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00089] For method newRecord arguments R  record|Schema  updatedSchema"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#94"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00094] For method operatingSchema arguments R  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#94"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00094] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#99"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00099] For method operatingValue arguments R  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#99"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00099] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000006[00102] For method operatingValue arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -320,80 +285,115 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#104"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00104] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#113"
+ , "c1" : "00111"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#111"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00113] For method operatingSchema arguments R  record"
+ , "c3" : "QC-JAV000006[00111] For method operatingSchema arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#113"
+ , "c1" : "00111"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#111"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00113] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00111] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#118"
+ , "c1" : "00116"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#116"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00118] For method operatingValue arguments R  record"
+ , "c3" : "QC-JAV000006[00116] For method operatingValue arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#118"
+ , "c1" : "00116"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#116"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00118] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00116] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#123"
+ , "c1" : "00121"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00123] For method newRecord arguments R  record|Schema  updatedSchema"
+ , "c3" : "QC-JAV000006[00121] For method newRecord arguments R  record|Schema  updatedSchema"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#123"
+ , "c1" : "00121"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#121"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00123] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00121] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#130"
+ , "c1" : "00132"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00130] For method updateSchemaIn arguments Object  keyOrValue|Schema  updatedSchema"
+ , "c3" : "QC-JAV000006[00132] For method operatingSchema arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#130"
+ , "c1" : "00132"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#132"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00130] The argument updatedSchema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00132] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#82"
+ , "c1" : "00137"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#137"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00137] For method operatingValue arguments R  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00137"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#137"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00137] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00142"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#142"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00142] For method newRecord arguments R  record|Schema  updatedSchema"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00142"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#142"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00142] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00161"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#161"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00161] For method updateSchemaIn arguments Object  keyOrValue|Schema  updatedSchema"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00161"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#161"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00161] The argument updatedSchema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#97"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00082] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00097] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#82"
+ , "c1" : "00097"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#97"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00082] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00097] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 

@@ -2,11 +2,11 @@
 !pragma layout smetana
 "FuturePurgatory<T>" <|-- "org.apache.kafka.raft.internals.ThresholdPurgatory"
 class org.apache.kafka.raft.internals.ThresholdPurgatory {
-+ThresholdPurgatory(ExpirationService) : ThresholdPurgatory [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#18]]]
-+await(T;long) : CompletableFuture<Long> [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#23]]]
-+maybeComplete(T;long) : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#32]]]
-+completeAll(long) : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#41]]]
-+completeAllExceptionally(Throwable) : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#48]]]
-+numWaiting() : int [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#55]]]
++ThresholdPurgatory(ExpirationService) : ThresholdPurgatory [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#33]]]
++await(T;long) : CompletableFuture<Long> [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#38]]]
++maybeComplete(T;long) : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#47]]]
++completeAll(long) : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#56]]]
++completeAllExceptionally(Throwable) : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#63]]]
++numWaiting() : int [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#70]]]
 } 
 @enduml

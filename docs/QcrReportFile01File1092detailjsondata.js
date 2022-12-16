@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.WorkerInfo" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#29"
+ , "c5" : "00048"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#48"
  , "c1" : "WorkerInfo"
  , "c2" : "WorkerInfo()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#37"
+ , "c5" : "00058"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#58"
  , "c1" : "void"
  , "c2" : "logAll()"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#53"
+ , "c5" : "00074"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#74"
  , "c1" : "Object"
  , "c2" : "format(Object)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#58"
+ , "c5" : "00081"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#81"
  , "c1" : "void"
  , "c2" : "addRuntimeInfo()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#72"
+ , "c5" : "00097"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#97"
  , "c1" : "void"
  , "c2" : "addSystemInfo()"
  , "c3" : "1"
@@ -134,136 +134,136 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#40"
+ , "c1" : "00061"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.runtime.WorkerInfo.logAll@POLYN154061 the MagicNumber/String  ' values: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.runtime.WorkerInfo.logAll@POLYN154211 the MagicNumber/String  ' values: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#44"
+ , "c1" : "00065"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.runtime.WorkerInfo.logAll@POLYN154061 the MagicNumber/String  '\t' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.connect.runtime.WorkerInfo.logAll@POLYN154211 the MagicNumber/String  '\t' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#46"
+ , "c1" : "00067"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.runtime.WorkerInfo.logAll@POLYN154061 the MagicNumber/String  ' = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.runtime.WorkerInfo.logAll@POLYN154211 the MagicNumber/String  ' = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#53"
+ , "c1" : "00074"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method format arguments Object  value"
+ , "c3" : "QC-JAV000006[00074] For method format arguments Object  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#54"
+ , "c1" : "00075"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.runtime.WorkerInfo.format@POLYN155115 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.runtime.WorkerInfo.format@POLYN155265 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#54"
+ , "c1" : "00075"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.runtime.WorkerInfo.format@POLYN155115 the MagicNumber/String  'NA' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.runtime.WorkerInfo.format@POLYN155265 the MagicNumber/String  'NA' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#60"
+ , "c1" : "00083"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.runtime.WorkerInfo.addRuntimeInfo@POLYN155359 the MagicNumber/String  'jvm.args' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.WorkerInfo.addRuntimeInfo@POLYN155509 the MagicNumber/String  'jvm.args' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#60"
+ , "c1" : "00083"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.runtime.WorkerInfo.addRuntimeInfo@POLYN155359 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.WorkerInfo.addRuntimeInfo@POLYN155509 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#64"
+ , "c1" : "00087"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.runtime.WorkerInfo.addRuntimeInfo@POLYN155359 the MagicNumber/String  'java.version' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.runtime.WorkerInfo.addRuntimeInfo@POLYN155509 the MagicNumber/String  'java.version' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#67"
+ , "c1" : "00090"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.runtime.WorkerInfo.addRuntimeInfo@POLYN155359 the MagicNumber/String  'jvm.spec' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.runtime.WorkerInfo.addRuntimeInfo@POLYN155509 the MagicNumber/String  'jvm.spec' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#67"
+ , "c1" : "00090"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.runtime.WorkerInfo.addRuntimeInfo@POLYN155359 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.runtime.WorkerInfo.addRuntimeInfo@POLYN155509 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#68"
+ , "c1" : "00091"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.runtime.WorkerInfo.addRuntimeInfo@POLYN155359 the MagicNumber/String  'jvm.classpath' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.runtime.WorkerInfo.addRuntimeInfo@POLYN155509 the MagicNumber/String  'jvm.classpath' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#78"
+ , "c1" : "00103"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.runtime.WorkerInfo.addSystemInfo@POLYN156231 the MagicNumber/String  'os.spec' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.runtime.WorkerInfo.addSystemInfo@POLYN156381 the MagicNumber/String  'os.spec' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#78"
+ , "c1" : "00103"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.runtime.WorkerInfo.addSystemInfo@POLYN156231 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.runtime.WorkerInfo.addSystemInfo@POLYN156381 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#79"
+ , "c1" : "00104"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.runtime.WorkerInfo.addSystemInfo@POLYN156231 the MagicNumber/String  'os.vcpus' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.runtime.WorkerInfo.addSystemInfo@POLYN156381 the MagicNumber/String  'os.vcpus' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerInfo.logAll@POLYN154061"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerInfo.logAll@POLYN154211"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#40"
+ , "c1" : "00061"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#61"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.connect.runtime.WorkerInfo.logAll@POLYN154061 the MagicNumber/String ' values: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.connect.runtime.WorkerInfo.logAll@POLYN154211 the MagicNumber/String ' values: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#44"
+ , "c1" : "00065"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#65"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.connect.runtime.WorkerInfo.logAll@POLYN154061 the MagicNumber/String '\t' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.connect.runtime.WorkerInfo.logAll@POLYN154211 the MagicNumber/String '\t' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#46"
+ , "c1" : "00067"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#67"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.connect.runtime.WorkerInfo.logAll@POLYN154061 the MagicNumber/String ' = ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.connect.runtime.WorkerInfo.logAll@POLYN154211 the MagicNumber/String ' = ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

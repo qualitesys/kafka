@@ -2,16 +2,16 @@
 !pragma layout smetana
 "Writer" <|-- "java.io.OutputStreamWriter"
 class java.io.OutputStreamWriter {
-+OutputStreamWriter(OutputStream;String) : OutputStreamWriter [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#17]]]
-+OutputStreamWriter(OutputStream) : OutputStreamWriter [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#27]]]
-+OutputStreamWriter(OutputStream;Charset) : OutputStreamWriter [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#37]]]
-+OutputStreamWriter(OutputStream;CharsetEncoder) : OutputStreamWriter [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#45]]]
-+getEncoding() : String [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#53]]]
-flushBuffer() : void [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#58]]]
-+write(int) : void [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#63]]]
-+write(char[];int;int) : void [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#68]]]
-+write(String;int;int) : void [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#73]]]
-+flush() : void [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#78]]]
-+close() : void [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#82]]]
++OutputStreamWriter(OutputStream;String) : OutputStreamWriter [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#94]]]
++OutputStreamWriter(OutputStream) : OutputStreamWriter [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#108]]]
++OutputStreamWriter(OutputStream;Charset) : OutputStreamWriter [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#129]]]
++OutputStreamWriter(OutputStream;CharsetEncoder) : OutputStreamWriter [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#148]]]
++getEncoding() : String [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#175]]]
+flushBuffer() : void [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#184]]]
++write(int) : void [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#193]]]
++write(char[];int;int) : void [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#206]]]
++write(String;int;int) : void [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#219]]]
++flush() : void [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#228]]]
++close() : void [[[./../.././qc/secujava/java.io.OutputStreamWriter.java.html#232]]]
 } 
 @enduml

@@ -2,14 +2,14 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.server.common.ProducerIdsBlock"
 class org.apache.kafka.server.common.ProducerIdsBlock {
-+ProducerIdsBlock(int;long;int) : ProducerIdsBlock [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#17]]]
-+assignedBrokerId() : int [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#24]]]
-+firstProducerId() : long [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#29]]]
-+size() : int [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#34]]]
-+lastProducerId() : long [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#39]]]
-+nextBlockFirstId() : long [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#44]]]
-+toString() : String [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#49]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#58]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#66]]]
++ProducerIdsBlock(int;long;int) : ProducerIdsBlock [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#36]]]
++assignedBrokerId() : int [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#45]]]
++firstProducerId() : long [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#52]]]
++size() : int [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#59]]]
++lastProducerId() : long [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#66]]]
++nextBlockFirstId() : long [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#73]]]
++toString() : String [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#78]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#87]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#95]]]
 } 
 @enduml

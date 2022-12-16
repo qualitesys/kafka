@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.DescribeClientQuotasResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#24"
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#39"
  , "c1" : "DescribeClientQuotasResponse"
  , "c2" : "DescribeClientQuotasResponse(DescribeClientQuotasResponseData)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#29"
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#44"
  , "c1" : "void"
  , "c2" : "complete(KafkaFutureImpl<Map<ClientQuotaEntity,Map<String,Double>>>)"
  , "c3" : "5"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#54"
+ , "c5" : "00069"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#69"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#59"
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#74"
  , "c1" : "DescribeClientQuotasResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#64"
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#79"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#68"
+ , "c5" : "00083"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#83"
  , "c1" : "DescribeClientQuotasResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#72"
+ , "c5" : "00087"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#87"
  , "c1" : "DescribeClientQuotasResponse"
  , "c2" : "fromQuotaEntities(Map<ClientQuotaEntity,Map<String,Double>>;int)"
  , "c3" : "4"
@@ -159,143 +159,143 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#29"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method complete arguments KafkaFutureImpl&lt;Map&lt;ClientQuotaEntity ,Map&lt;String ,Double &gt; &gt; &gt;  future"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#29"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00029] The argument future is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00038] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00039] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00043] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000006[00044] For method complete arguments KafkaFutureImpl&lt;Map&lt;ClientQuotaEntity ,Map&lt;String ,Double &gt; &gt; &gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00044] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#68"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method parse arguments ByteBuffer  buffer|short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#72"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method fromQuotaEntities arguments Map&lt;ClientQuotaEntity ,Map&lt;String ,Double &gt; &gt;  entities|int  throttleTimeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#72"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00072] The argument entities is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00044] The argument future is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#76"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00076] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00053] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#77"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00077] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00054] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#78"
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00078] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00058] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#84"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00084] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00059] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#85"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00085] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#83"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00083] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#86"
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#87"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00087] For method fromQuotaEntities arguments Map&lt;ClientQuotaEntity ,Map&lt;String ,Double &gt; &gt;  entities|int  throttleTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#87"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00087] The argument entities is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00086] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00091] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00092] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00093] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.requests.DescribeClientQuotasResponse.fromQuotaEntities@POLYN162848 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00099] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.requests.DescribeClientQuotasResponse.fromQuotaEntities@POLYN162848 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00100] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00101] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.requests.DescribeClientQuotasResponse.fromQuotaEntities@POLYN162938 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.requests.DescribeClientQuotasResponse.fromQuotaEntities@POLYN162938 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeClientQuotasResponse.complete@POLYN160280"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeClientQuotasResponse.complete@POLYN160370"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeClientQuotasResponse.errorCounts@POLYN162393"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeClientQuotasResponse.errorCounts@POLYN162483"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeClientQuotasResponse.throttleTimeMs@POLYN162136"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeClientQuotasResponse.throttleTimeMs@POLYN162226"
 }} 
 ]
 , 

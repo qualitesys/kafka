@@ -2,14 +2,14 @@
 !pragma layout smetana
 "WindowBytesStoreSupplier" <|-- "org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier"
 class org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier {
-+InMemoryWindowBytesStoreSupplier(String;long;long;boolean) : InMemoryWindowBytesStoreSupplier [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#14]]]
-+name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#25]]]
-+get() : WindowStore<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#30]]]
-+metricsScope() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#39]]]
-+retentionPeriod() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#44]]]
-+windowSize() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#50]]]
-+segmentIntervalMs() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#56]]]
-+retainDuplicates() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#61]]]
-+toString() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#66]]]
++InMemoryWindowBytesStoreSupplier(String;long;long;boolean) : InMemoryWindowBytesStoreSupplier [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#29]]]
++name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#40]]]
++get() : WindowStore<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#45]]]
++metricsScope() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#54]]]
++retentionPeriod() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#59]]]
++windowSize() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#65]]]
++segmentIntervalMs() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#71]]]
++retainDuplicates() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#76]]]
++toString() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#81]]]
 } 
 @enduml
