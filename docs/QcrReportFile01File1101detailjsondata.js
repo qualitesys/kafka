@@ -172,7 +172,7 @@ var maDataBlocs = {
  , "c1" : "00160"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#160"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00160] For method deserializeMetadata list of called methods Object monObjet|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState header_getShortN210675|java.lang.Long struct_getLongN210926"
+ , "c3" : "QC-JAV000007[00160] For method deserializeMetadata list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct CONNECT_PROTOCOL_HEADER_SCHEMA_readN210581|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState header_getShortN210675|org.apache.kafka.common.protocol.types.Struct CONFIG_STATE_V0_readN210832|java.lang.Long struct_getLongN210926"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -214,7 +214,7 @@ var maDataBlocs = {
  , "c1" : "00213"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#213"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00213] For method deserializeAssignment list of called methods Object monObjet|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment header_getShortN213708|java.lang.Long struct_getLongN214241|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment assignment_getStringN214732"
+ , "c3" : "QC-JAV000007[00213] For method deserializeAssignment list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct CONNECT_PROTOCOL_HEADER_SCHEMA_readN213614|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment header_getShortN213708|org.apache.kafka.common.protocol.types.Struct ASSIGNMENT_V0_readN213865|java.lang.Long struct_getLongN214241|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment assignment_getStringN214732"
 }} 
 ,
 { "ligne" : {"" : ""

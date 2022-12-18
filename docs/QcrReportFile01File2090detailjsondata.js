@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java 126 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java 124 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.xml" 
  , "fic3"  : "" 
 }
@@ -346,31 +346,42 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197813.entries" }
+{ "ligne" :  "R0:org.apache.kafka.streams.state.internals.NamedCache.this" }
 ,
 { "ligne" :  "R1:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555.key" }
 ,
 { "ligne" :  "R2:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555.value" }
+,
+{ "ligne" :  "R3:org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197813.entries" }
 ]
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197813 (R0 in line [00256])" }
+{ "ligne" : "S0:org.apache.kafka.streams.state.internals.NamedCache.putIfAbsent@POLYN197430 (R0 in line [00248])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555 (R1 in line [00157],R2 in line [00157])" }
+{ "ligne" : "S0:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555 (R0 in line [00157],R1 in line [00157],R2 in line [00157])" }
 ,
 { "ligne" : "S0:org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.get@POLYN143222" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197813 (R0 in line [00256])" }
+{ "ligne" : "S1:org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197813 (R0 in line [00256],R3 in line [00256])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555 (R1 in line [00157],R2 in line [00157])" }
-,
-{ "ligne" : "S1:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555 (R1 in line [00157],R2 in line [00157])" }
+{ "ligne" : "S1:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555 (R0 in line [00157],R1 in line [00157],R2 in line [00157])" }
 ,
 { "ligne" : "S1:org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.get@POLYN143222" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "2" , "pas" : [
+{ "ligne" : "S2:org.apache.kafka.streams.state.internals.NamedCache.putIfAbsent@POLYN197430 (R0 in line [00248])" }
+,
+{ "ligne" : "S2:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555 (R0 in line [00157],R1 in line [00157],R2 in line [00157])" }
+,
+{ "ligne" : "S2:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555 (R0 in line [00157],R1 in line [00157],R2 in line [00157])" }
+,
+{ "ligne" : "S2:org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.get@POLYN143222" }
  ]
  } }
 ]
@@ -383,7 +394,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "3"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -397,7 +408,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "16"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
@@ -411,7 +422,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "6"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -861,7 +872,7 @@ var maDataBlocs = {
  , "c1" : "00262"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#262"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00262] For method delete list of called methods Object monObjet|org.apache.kafka.streams.state.internals.LRUCacheEntry cache_removeN198319|org.apache.kafka.streams.state.internals.LRUCacheEntry node_sizeN198657"
+ , "c3" : "QC-JAV000007[00262] For method delete list of called methods Object monObjet|org.apache.kafka.streams.state.internals.LRUCacheEntry cache_removeN198319"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1162,7 +1173,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197813.entries"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.streams.state.internals.NamedCache.this"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1177,6 +1188,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193555.value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197813.entries"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1198,13 +1216,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.NamedCache.delete@POLYN198214"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1296,20 +1307,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#145"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#265"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00265] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.delete@POLYN198214 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00266"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#266"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00266] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.delete@POLYN198214 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

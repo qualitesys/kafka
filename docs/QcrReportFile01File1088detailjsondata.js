@@ -750,7 +750,7 @@ var maDataBlocs = {
  , "c1" : "00177"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#177"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00177] For method initConfigTransformer list of called methods Object monObjet|org.apache.kafka.connect.runtime.WorkerConfigTransformer config_getListN418709"
+ , "c3" : "QC-JAV000007[00177] For method initConfigTransformer list of called methods Object monObjet|org.apache.kafka.connect.runtime.WorkerConfigTransformer config_getListN418709|org.apache.kafka.common.config.provider.ConfigProvider plugins_newConfigProviderN419006"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -953,7 +953,7 @@ var maDataBlocs = {
  , "c1" : "00358"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#358"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00358] For method isSinkConnector list of called methods Object monObjet|org.apache.kafka.common.config.ConfigData connectors_getN426903"
+ , "c3" : "QC-JAV000007[00358] For method isSinkConnector list of called methods Object monObjet|ClassLoader plugins_currentThreadLoaderN427174"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1157,13 +1157,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#520"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00520] For method isRunning arguments String  connName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00520"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#520"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00520] For method isRunning list of called methods Object monObjet|org.apache.kafka.common.config.ConfigData connectors_getN434158"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1961,7 +1954,7 @@ var maDataBlocs = {
  , "c1" : "01135"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1135"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01135] For method setTargetState list of called methods Object monObjet|org.apache.kafka.common.config.ConfigData connectors_getN464711"
+ , "c3" : "QC-JAV000007[01135] For method setTargetState list of called methods Object monObjet|org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader plugins_delegatingLoaderN464878"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1990,6 +1983,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1155"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01155] For method executeStateTransition arguments Runnable  stateTransition|ClassLoader  loader"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01155"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1155"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01155] For method executeStateTransition list of called methods Object monObjet|ClassLoader plugins_currentThreadLoaderN465787"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2612,7 +2612,7 @@ var maDataBlocs = {
  , "c1" : "01724"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1724"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01724] For method recordTaskAdded list of called methods Object monObjet|java.lang.String connectorTaskId_connectorN492765"
+ , "c3" : "QC-JAV000007[01724] For method recordTaskAdded list of called methods Object monObjet|java.lang.String connectorTaskId_connectorN492765|org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup connectMetrics_groupN492840"
 }} 
 ,
 { "ligne" : {"" : ""

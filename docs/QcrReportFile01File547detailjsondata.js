@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java 79 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java 80 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.xml" 
  , "fic3"  : "" 
 }
@@ -448,6 +448,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "16"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -589,6 +596,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#274"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00274] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00290"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#290"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00290] For method nextBatch list of called methods Object monObjet|java.lang.Long offsetAndSizeBuffer_getLongN219502"
 }} 
 ,
 { "ligne" : {"" : ""

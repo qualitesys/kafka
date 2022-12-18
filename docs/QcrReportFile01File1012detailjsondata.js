@@ -312,7 +312,7 @@ var maDataBlocs = {
  , "c1" : "00120"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00120] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.connect.mirror.Checkpoint header_getShortN170526|java.lang.Long valueStruct_getLongN170800|java.lang.Long valueStruct_getLongN170894"
+ , "c3" : "QC-JAV000007[00120] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct HEADER_SCHEMA_readN170432|org.apache.kafka.connect.mirror.Checkpoint header_getShortN170526|java.lang.Long valueStruct_getLongN170800|java.lang.Long valueStruct_getLongN170894|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN171082"
 }} 
 ,
 { "ligne" : {"" : ""

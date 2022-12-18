@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java 81 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java 82 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.xml" 
  , "fic3"  : "" 
 }
@@ -193,6 +193,7 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
+{ "ligne" :  "R0:org.apache.kafka.connect.runtime.WorkerSourceTask.this" }
 ]
 ,
 "data12b" : [
@@ -241,7 +242,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -348,7 +349,7 @@ var maDataBlocs = {
  , "c1" : "00195"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#195"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00195] For method commitOffsets list of called methods Object monObjet|boolean time_millisecondsN183173|boolean time_millisecondsN184577|boolean time_millisecondsN187006"
+ , "c3" : "QC-JAV000007[00195] For method commitOffsets list of called methods Object monObjet|java.lang.Long workerConfig_getLongN182978|java.util.concurrent.Future&lt;java.lang.Void&gt; offsetWriter_doFlushN184955|boolean time_millisecondsN187006"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -545,6 +546,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#298"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.connect.runtime.WorkerSourceTask.commitOffsets@POLYN182903 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00301"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#301"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00301] For method updateCommittableOffsets list of called methods Object monObjet|org.apache.kafka.connect.runtime.SubmittedRecords.CommittableOffsets submittedRecords_committableOffsetsN187401"
 }} 
 ,
 { "ligne" : {"" : ""

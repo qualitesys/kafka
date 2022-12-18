@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java 166 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java 167 rule violations " 
  , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.xml" 
  , "fic3"  : "" 
 }
@@ -187,7 +187,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -211,6 +211,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#46"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00046] For method generateAndWrite arguments MessageSpec  message|BufferedWriter  writer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#46"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00046] For method generateAndWrite list of called methods Object monObjet|java.util.Iterator&lt;org.apache.kafka.message.StructRegistry.StructInfo&gt; structRegistry_structsN229211"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java 205 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java 203 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -152,7 +152,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "75"
+ , "c4" : "74"
 }}
 ,
 { "ligne" : { "" : ""
@@ -166,7 +166,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "12"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -343,7 +343,7 @@ var maDataBlocs = {
  , "c1" : "00270"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#270"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00270] For method getCombinedStatus list of called methods Object monObjet|com.fasterxml.jackson.databind.JsonNode state_statusN263636"
+ , "c3" : "QC-JAV000007[00270] For method getCombinedStatus list of called methods Object monObjet|JsonNode state_statusN263636"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1043,13 +1043,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.coordinator.TaskManager.CreateTask.CreateTask@POLYN265551"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.coordinator.TaskManager.CreateTask.call@POLYN266280"
 }} 
 ,
@@ -1233,13 +1226,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#483"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00483] In the recursive method org.apache.kafka.trogdor.coordinator.TaskManager.CancelTask.call@POLYN271970 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00329"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#329"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00329] In the recursive method org.apache.kafka.trogdor.coordinator.TaskManager.CreateTask.CreateTask@POLYN265551 the MagicNumber/String 'startMs' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -413,7 +413,7 @@ var maDataBlocs = {
  , "c1" : "00347"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#347"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00347] For method asJsonSchema list of called methods Object monObjet|com.fasterxml.jackson.databind.node.ObjectNode asJsonSchemaN289672"
+ , "c3" : "QC-JAV000007[00347] For method asJsonSchema list of called methods Object monObjet|ObjectNode asJsonSchemaN289672"
 }} 
 ,
 { "ligne" : {"" : ""

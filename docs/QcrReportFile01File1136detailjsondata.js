@@ -563,7 +563,7 @@ var maDataBlocs = {
  , "c1" : "00252"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#252"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00252] For method newConverter list of called methods Object monObjet|Class&lt;?&gt; config_getClassN223335|org.apache.kafka.connect.storage.Converter config_originalsWithPrefixN224283|ClassLoader compareAndSwapLoadersN224711"
+ , "c3" : "QC-JAV000007[00252] For method newConverter list of called methods Object monObjet|Class&lt;?&gt; config_getClassN223335|boolean WorkerConfig_KEY_CONVERTER_CLASS_CONFIG_equalsN224065|org.apache.kafka.connect.storage.Converter config_originalsWithPrefixN224283|ClassLoader compareAndSwapLoadersN224711"
 }} 
 ,
 { "ligne" : {"" : ""

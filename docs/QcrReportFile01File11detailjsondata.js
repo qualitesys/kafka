@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java 155 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java 156 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.xml" 
  , "fic3"  : "" 
 }
@@ -210,7 +210,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -856,7 +856,7 @@ var maDataBlocs = {
  , "c1" : "00521"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#521"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00521] For method handleResponse list of called methods Object monObjet|java.util.LinkedHashMap&lt;org.apache.kafka.common.TopicPartition,FetchResponseData.PartitionData&gt; response_responseDataN261287|java.lang.String verifyFullFetchResponsePartitionsN261960|org.apache.kafka.common.requests.FetchMetadata FetchMetadata_newIncrementalN263073|java.lang.String verifyIncrementalFetchResponsePartitionsN263244"
+ , "c3" : "QC-JAV000007[00521] For method handleResponse list of called methods Object monObjet|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextCloseExistingN261150|java.util.LinkedHashMap&lt;org.apache.kafka.common.TopicPartition,FetchResponseData.PartitionData&gt; response_responseDataN261287|java.lang.String verifyFullFetchResponsePartitionsN261960|org.apache.kafka.common.requests.FetchMetadata FetchMetadata_newIncrementalN263073|java.lang.String verifyIncrementalFetchResponsePartitionsN263244|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextCloseExistingN263583|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextIncrementalN264453"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1025,6 +1025,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#601"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00601] For method handleError arguments Throwable  t"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00601"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#601"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00601] For method handleError list of called methods Object monObjet|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextCloseExistingN264937"
 }} 
 ,
 { "ligne" : {"" : ""

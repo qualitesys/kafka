@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectOutputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectOutputStream.java 492 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectOutputStream.java 526 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.ObjectOutputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -1566,7 +1566,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "42"
+ , "c4" : "51"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1580,7 +1580,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "19"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1622,7 +1622,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "14"
 }}
  ] 
 ,
@@ -2188,6 +2188,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01023"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1023"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01023] For method writeTypeString list of called methods Object monObjet|int handles_lookupN578832"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01027"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1027"
  , "c2" : "MAJOR"
@@ -2269,6 +2276,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1105"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01105] For method writeObject0 arguments Object  obj|boolean  unshared"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01105"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1105"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01105] For method writeObject0 list of called methods Object monObjet|boolean bout_setBlockDataModeN582039"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2426,6 +2440,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01220"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1220"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01220] For method writeClassDesc list of called methods Object monObjet|int handles_lookupN587757"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01226"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1226"
  , "c2" : "MAJOR"
@@ -2556,6 +2577,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1301"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01301] For method writeString arguments String  str|boolean  unshared"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01301"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1301"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01301] For method writeString list of called methods Object monObjet|long bout_getUTFLengthN591412"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3060,6 +3088,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1562"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01562] For method writeFatalException arguments IOException  ex"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01562"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1562"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01562] For method writeFatalException list of called methods Object monObjet|boolean bout_setBlockDataModeN605005"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4491,10 +4526,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "02386"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#2386"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02386] For method assign list of called methods Object monObjet|int htab_assignN644964"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "02398"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#2398"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02398] For method lookup arguments Object  obj"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02398"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#2398"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02398] For method lookup list of called methods Object monObjet|int htab_lookupN645426"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4647,6 +4696,34 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.drain@POLYN570316"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeByte@POLYN571147"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeInt@POLYN571987"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeBytes@POLYN573119"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectOutputStream.writeClassDesc@POLYN587426 ending with method java.io.ObjectOutputStream.writeProxyDesc@POLYN588415"
 }} 
@@ -4689,6 +4766,34 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeUTF@POLYN573931"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeLong@POLYN572267"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.write@POLYN569181"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeChars@POLYN573411"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectOutputStream.writeObject0@POLYN581909 ending with method java.io.ObjectOutputStream.writeArray@POLYN591940"
 }} 
@@ -4705,6 +4810,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectOutputStream.writeArray@POLYN591940"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.clear@POLYN581726"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4774,7 +4886,70 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.flush@POLYN570059"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.close@POLYN570549"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeFields@POLYN561979"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.ReplaceTable.lookup@POLYN645329"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeShort@POLYN571427"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.write@POLYN568462"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeBoolean@POLYN570867"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeChar@POLYN571707"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeDouble@POLYN572827"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeFloat@POLYN572547"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4866,6 +5041,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1294"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01294] In the recursive method java.io.ObjectOutputStream.writeNonProxyDesc@POLYN589917 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00702"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#702"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00702] In the recursive method java.io.ObjectOutputStream.write@POLYN569181 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00706"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#706"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00706] In the recursive method java.io.ObjectOutputStream.write@POLYN569181 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00706"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#706"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00706] In the recursive method java.io.ObjectOutputStream.write@POLYN569181 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00706"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#706"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00706] In the recursive method java.io.ObjectOutputStream.write@POLYN569181 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00709"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#709"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00709] In the recursive method java.io.ObjectOutputStream.write@POLYN569181 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5062,6 +5272,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1378"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01378] In the recursive method java.io.ObjectOutputStream.writeArray@POLYN591940 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00478"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#478"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00478] In the recursive method java.io.ObjectOutputStream.writeFields@POLYN561979 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00479"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#479"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00479] In the recursive method java.io.ObjectOutputStream.writeFields@POLYN561979 the MagicNumber/String 'no current PutField object' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00481"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#481"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00481] In the recursive method java.io.ObjectOutputStream.writeFields@POLYN561979 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00483"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#483"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00483] In the recursive method java.io.ObjectOutputStream.writeFields@POLYN561979 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

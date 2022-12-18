@@ -2,17 +2,17 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "java.lang.Object"
 class java.lang.Object {
--registerNatives() : void [[[./../.././qc/secujava/java.lang.Object.java.html#70]]]
-+getClass() : Class<?> [[[./../.././qc/secujava/java.lang.Object.java.html#114]]]
-+hashCode() : int [[[./../.././qc/secujava/java.lang.Object.java.html#185]]]
-+equals(Object) : boolean [[[./../.././qc/secujava/java.lang.Object.java.html#278]]]
-clone() : Object [[[./../.././qc/secujava/java.lang.Object.java.html#401]]]
-+toString() : String [[[./../.././qc/secujava/java.lang.Object.java.html#445]]]
-+notify() : void [[[./../.././qc/secujava/java.lang.Object.java.html#512]]]
-+notifyAll() : void [[[./../.././qc/secujava/java.lang.Object.java.html#557]]]
-+wait(long) : void [[[./../.././qc/secujava/java.lang.Object.java.html#868]]]
-+wait(long;int) : void [[[./../.././qc/secujava/java.lang.Object.java.html#1]]]
-+wait() : void [[[./../.././qc/secujava/java.lang.Object.java.html#1]]]
-finalize() : void [[[./../.././qc/secujava/java.lang.Object.java.html#1]]]
+-registerNatives() : void [[[./../.././qc/secujava/java.lang.Object.java.html#39]]]
++getClass() : Class<?> [[[./../.././qc/secujava/java.lang.Object.java.html#64]]]
++hashCode() : int [[[./../.././qc/secujava/java.lang.Object.java.html#101]]]
++equals(Object) : boolean [[[./../.././qc/secujava/java.lang.Object.java.html#149]]]
+clone() : Object [[[./../.././qc/secujava/java.lang.Object.java.html#213]]]
++toString() : String [[[./../.././qc/secujava/java.lang.Object.java.html#237]]]
++notify() : void [[[./../.././qc/secujava/java.lang.Object.java.html#273]]]
++notifyAll() : void [[[./../.././qc/secujava/java.lang.Object.java.html#297]]]
++wait(long) : void [[[./../.././qc/secujava/java.lang.Object.java.html#383]]]
++wait(long;int) : void [[[./../.././qc/secujava/java.lang.Object.java.html#447]]]
++wait() : void [[[./../.././qc/secujava/java.lang.Object.java.html#502]]]
+finalize() : void [[[./../.././qc/secujava/java.lang.Object.java.html#553]]]
 } 
 @enduml

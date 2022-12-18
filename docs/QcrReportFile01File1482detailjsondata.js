@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "java.lang.Number" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00106"
- , "c5link" : "././qc/secujava/java.lang.Number.java.html#106"
+ , "c5" : "00057"
+ , "c5link" : "././qc/secujava/java.lang.Number.java.html#57"
  , "c1" : "int"
  , "c2" : "intValue()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00121"
- , "c5link" : "././qc/secujava/java.lang.Number.java.html#121"
+ , "c5" : "00066"
+ , "c5link" : "././qc/secujava/java.lang.Number.java.html#66"
  , "c1" : "long"
  , "c2" : "longValue()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00136"
- , "c5link" : "././qc/secujava/java.lang.Number.java.html#136"
+ , "c5" : "00075"
+ , "c5link" : "././qc/secujava/java.lang.Number.java.html#75"
  , "c1" : "float"
  , "c2" : "floatValue()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00151"
- , "c5link" : "././qc/secujava/java.lang.Number.java.html#151"
+ , "c5" : "00084"
+ , "c5link" : "././qc/secujava/java.lang.Number.java.html#84"
  , "c1" : "double"
  , "c2" : "doubleValue()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00168"
- , "c5link" : "././qc/secujava/java.lang.Number.java.html#168"
+ , "c5" : "00094"
+ , "c5link" : "././qc/secujava/java.lang.Number.java.html#94"
  , "c1" : "byte"
  , "c2" : "byteValue()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00187"
- , "c5link" : "././qc/secujava/java.lang.Number.java.html#187"
+ , "c5" : "00106"
+ , "c5link" : "././qc/secujava/java.lang.Number.java.html#106"
  , "c1" : "short"
  , "c2" : "shortValue()"
  , "c3" : "1"

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.Aggregator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Aggregator.java.html#50"
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Aggregator.java.html#35"
  , "c1" : "VA"
  , "c2" : "apply(K;V;VA)"
  , "c3" : "1"

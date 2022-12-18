@@ -309,7 +309,7 @@
 <leniv><indtoken>299</indtoken><nbappels>18</nbappels></leniv>
 </nbappelsparniv>
 <nbappelspartoken>
-<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.671234061263E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
+<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.671355365642E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>1</indtoken><temps>0.002</temps><nbappels>15</nbappels><token>/*</token></leniv>
 <leniv><noligne>2</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>2</indtoken><temps>0.002</temps><nbappels>20</nbappels><token>`</token></leniv>
 <leniv><noligne>2</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>3</indtoken><temps>0.002</temps><nbappels>28</nbappels><token>*</token></leniv>
@@ -567,8 +567,8 @@
 <leniv><noligne>29</noligne><profmin>0</profmin><proffinale>142</proffinale><profmax>142</profmax><indtoken>255</indtoken><temps>0.003</temps><nbappels>82</nbappels><token>"SASL/OAUTHBEARER Server Provider"</token></leniv>
 <leniv><noligne>29</noligne><profmin>0</profmin><proffinale>115</proffinale><profmax>142</profmax><indtoken>256</indtoken><temps>0.003</temps><nbappels>52</nbappels><token>,</token></leniv>
 <leniv><noligne>29</noligne><profmin>0</profmin><proffinale>145</proffinale><profmax>145</profmax><indtoken>257</indtoken><temps>0.003</temps><nbappels>71</nbappels><token>1.0</token></leniv>
-<leniv><noligne>29</noligne><profmin>0</profmin><proffinale>115</proffinale><profmax>145</profmax><indtoken>258</indtoken><temps>0.004</temps><nbappels>53</nbappels><token>,</token></leniv>
-<leniv><noligne>29</noligne><profmin>0</profmin><proffinale>145</proffinale><profmax>145</profmax><indtoken>259</indtoken><temps>0.004</temps><nbappels>79</nbappels><token>"SASL/OAUTHBEARER Server Provider for Kafka"</token></leniv>
+<leniv><noligne>29</noligne><profmin>0</profmin><proffinale>115</proffinale><profmax>145</profmax><indtoken>258</indtoken><temps>0.003</temps><nbappels>53</nbappels><token>,</token></leniv>
+<leniv><noligne>29</noligne><profmin>0</profmin><proffinale>145</proffinale><profmax>145</profmax><indtoken>259</indtoken><temps>0.003</temps><nbappels>79</nbappels><token>"SASL/OAUTHBEARER Server Provider for Kafka"</token></leniv>
 <leniv><noligne>29</noligne><profmin>0</profmin><proffinale>109</proffinale><profmax>145</profmax><indtoken>260</indtoken><temps>0.004</temps><nbappels>55</nbappels><token>)</token></leniv>
 <leniv><noligne>29</noligne><profmin>0</profmin><proffinale>75</proffinale><profmax>109</profmax><indtoken>261</indtoken><temps>0.004</temps><nbappels>55</nbappels><token>;</token></leniv>
 <leniv><noligne>30</noligne><profmin>0</profmin><proffinale>105</proffinale><profmax>117</profmax><indtoken>262</indtoken><temps>0.004</temps><nbappels>467</nbappels><token>put</token></leniv>

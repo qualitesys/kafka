@@ -492,7 +492,7 @@ var maDataBlocs = {
  , "c1" : "00184"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#184"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00184] For method resetProducer list of called methods Object monObjet|double totalBlockedTimeN195953"
+ , "c3" : "QC-JAV000007[00184] For method resetProducer list of called methods Object monObjet|double totalBlockedTimeN195953|Producer&lt;byte[],byte[]&gt; clientSupplier_getProducerN196326"
 }} 
 ,
 { "ligne" : {"" : ""

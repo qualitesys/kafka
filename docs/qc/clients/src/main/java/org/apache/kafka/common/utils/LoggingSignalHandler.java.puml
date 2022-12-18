@@ -3,8 +3,8 @@
 "java.lang.Object" <|-- "org.apache.kafka.common.utils.LoggingSignalHandler"
 class org.apache.kafka.common.utils.LoggingSignalHandler {
 +LoggingSignalHandler() : LoggingSignalHandler [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#49]]]
-+register() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#68]]]
--createSignalHandler(Map<String,Object>) : Object [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#77]]]
--register(String;Map<String,Object>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#102]]]
++register() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#109]]]
+-createSignalHandler(Map<String,Object>) : Object [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#109]]]
+-register(String;Map<String,Object>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#109]]]
 } 
 @enduml

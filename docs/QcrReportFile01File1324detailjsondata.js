@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java 27 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java 28 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.xml" 
  , "fic3"  : "" 
 }
@@ -130,6 +130,13 @@ var maDataBlocs = {
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "14"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -166,6 +173,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#72"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.controller.SnapshotGenerator.SnapshotGenerator@POLYN156542 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#91"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00091] For method generateBatch list of called methods Object monObjet|java.util.Iterator&lt;java.util.List&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt;&gt; section_iteratorN158756"
 }} 
 ,
 { "ligne" : {"" : ""

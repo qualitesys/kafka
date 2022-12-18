@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/Metadata.java 187 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/Metadata.java 192 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.xml" 
  , "fic3"  : "" 
 }
@@ -391,29 +391,52 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.clients.Metadata.update@POLYN252367.requestVersion" }
+{ "ligne" :  "R0:org.apache.kafka.clients.Metadata.this" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.clients.Metadata.update@POLYN252367.response" }
+{ "ligne" :  "R1:org.apache.kafka.clients.Metadata.updateWithCurrentRequestVersion@POLYN251793.response" }
 ,
-{ "ligne" :  "R2:org.apache.kafka.clients.Metadata.update@POLYN252367.isPartialUpdate" }
+{ "ligne" :  "R2:org.apache.kafka.clients.Metadata.updateWithCurrentRequestVersion@POLYN251793.isPartialUpdate" }
 ,
-{ "ligne" :  "R3:org.apache.kafka.clients.Metadata.update@POLYN252367.nowMs" }
+{ "ligne" :  "R3:org.apache.kafka.clients.Metadata.updateWithCurrentRequestVersion@POLYN251793.nowMs" }
+,
+{ "ligne" :  "R4:org.apache.kafka.clients.Metadata.update@POLYN252367.requestVersion" }
+,
+{ "ligne" :  "R5:org.apache.kafka.clients.Metadata.update@POLYN252367.response" }
+,
+{ "ligne" :  "R6:org.apache.kafka.clients.Metadata.update@POLYN252367.isPartialUpdate" }
+,
+{ "ligne" :  "R7:org.apache.kafka.clients.Metadata.update@POLYN252367.nowMs" }
+,
+{ "ligne" :  "R8:org.apache.kafka.clients.Metadata.bootstrap@POLYN251401.addresses" }
 ]
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.clients.Metadata.update@POLYN252367 (R0 in line [00263],R1 in line [00263],R2 in line [00263],R3 in line [00263])" }
+{ "ligne" : "S0:org.apache.kafka.clients.Metadata.updateWithCurrentRequestVersion@POLYN251793 (R0 in line [00249],R1 in line [00249],R2 in line [00249],R3 in line [00249])" }
+,
+{ "ligne" : "S0:org.apache.kafka.clients.Metadata.update@POLYN252367 (R0 in line [00263],R4 in line [00263],R5 in line [00263],R6 in line [00263],R7 in line [00263])" }
 ,
 { "ligne" : "S0:org.apache.kafka.common.ClusterResource.clusterId@POLYN147039" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.clients.Metadata.update@POLYN252367 (R0 in line [00263],R1 in line [00263],R2 in line [00263],R3 in line [00263])" }
+{ "ligne" : "S1:org.apache.kafka.clients.Metadata.bootstrap@POLYN251401 (R0 in line [00238],R8 in line [00238])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.clients.Metadata.update@POLYN252367 (R0 in line [00263],R1 in line [00263],R2 in line [00263],R3 in line [00263])" }
+{ "ligne" : "S1:org.apache.kafka.clients.MetadataCache.bootstrap@POLYN188645" }
+ ]
+ } }
 ,
-{ "ligne" : "S1:org.apache.kafka.common.ClusterResource.clusterId@POLYN147039" }
+{ "sequence" : { "noseq" : "2" , "pas" : [
+{ "ligne" : "S2:org.apache.kafka.clients.Metadata.updateWithCurrentRequestVersion@POLYN251793 (R0 in line [00249],R1 in line [00249],R2 in line [00249],R3 in line [00249])" }
+,
+{ "ligne" : "S2:org.apache.kafka.clients.Metadata.update@POLYN252367 (R0 in line [00263],R4 in line [00263],R5 in line [00263],R6 in line [00263],R7 in line [00263])" }
+,
+{ "ligne" : "S2:org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN255371" }
+,
+{ "ligne" : "S2:org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN255371" }
+,
+{ "ligne" : "S2:org.apache.kafka.clients.Metadata.requestUpdate@POLYN246887 (R0 in line [00145])" }
  ]
  } }
 ]
@@ -426,7 +449,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "4"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1464,28 +1487,63 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.clients.Metadata.update@POLYN252367.requestVersion"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.clients.Metadata.this"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.clients.Metadata.update@POLYN252367.response"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.clients.Metadata.updateWithCurrentRequestVersion@POLYN251793.response"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.clients.Metadata.update@POLYN252367.isPartialUpdate"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.clients.Metadata.updateWithCurrentRequestVersion@POLYN251793.isPartialUpdate"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.clients.Metadata.update@POLYN252367.nowMs"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.clients.Metadata.updateWithCurrentRequestVersion@POLYN251793.nowMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.clients.Metadata.update@POLYN252367.requestVersion"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R5 : org.apache.kafka.clients.Metadata.update@POLYN252367.response"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R6 : org.apache.kafka.clients.Metadata.update@POLYN252367.isPartialUpdate"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R7 : org.apache.kafka.clients.Metadata.update@POLYN252367.nowMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R8 : org.apache.kafka.clients.Metadata.bootstrap@POLYN251401.addresses"
 }} 
 ,
 { "ligne" : {"" : ""

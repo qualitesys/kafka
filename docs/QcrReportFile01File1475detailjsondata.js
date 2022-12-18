@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "java.lang.Comparable" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00265"
- , "c5link" : "././qc/secujava/java.lang.Comparable.java.html#265"
+ , "c5" : "00140"
+ , "c5link" : "././qc/secujava/java.lang.Comparable.java.html#140"
  , "c1" : "int"
  , "c2" : "compareTo(T)"
  , "c3" : "1"

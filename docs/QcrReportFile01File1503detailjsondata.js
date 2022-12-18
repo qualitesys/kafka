@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00541"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#541"
+ , "c5" : "00538"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#538"
  , "c1" : "String"
  , "c2" : "getRequestURI()"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00541"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#541"
+ , "c5" : "00538"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#538"
  , "c1" : "StringBuffer"
  , "c2" : "getRequestURL()"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00541"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#541"
+ , "c5" : "00538"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#538"
  , "c1" : "String"
  , "c2" : "getServletPath()"
  , "c3" : "1"

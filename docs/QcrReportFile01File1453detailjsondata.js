@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.File.java.html" 
- , "texte" : "File secujava/java.io.File.java 160 rule violations " 
+ , "texte" : "File secujava/java.io.File.java 162 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.File.java.xml" 
  , "fic3"  : "" 
 }
@@ -607,6 +607,11 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
+{ "ligne" :  "R0:java.io.File.this" }
+,
+{ "ligne" :  "R1:java.io.File.writeObject@POLYN632341.s" }
+,
+{ "ligne" :  "R2:java.io.File.readObject@POLYN632722.s" }
 ]
 ,
 "data12b" : [
@@ -669,7 +674,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : { "" : ""
@@ -864,10 +869,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00415"
+ , "c1link" : "./qc/secujava/java.io.File.java.html#415"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00415] For method getName list of called methods Object monObjet|int path_lastIndexOfN577475"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00418"
  , "c1link" : "./qc/secujava/java.io.File.java.html#418"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00418] In method java.io.File.getName@POLYN577400 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00434"
+ , "c1link" : "./qc/secujava/java.io.File.java.html#434"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00434] For method getParent list of called methods Object monObjet|int path_lastIndexOfN578280"
 }} 
 ,
 { "ligne" : {"" : ""

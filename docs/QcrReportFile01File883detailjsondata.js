@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java 50 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java 51 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.xml" 
  , "fic3"  : "" 
 }
@@ -112,27 +112,29 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.prefix" }
+{ "ligne" :  "R0:org.apache.kafka.common.utils.AppInfoParser.this" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.id" }
+{ "ligne" :  "R1:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.prefix" }
 ,
-{ "ligne" :  "R2:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.metrics" }
+{ "ligne" :  "R2:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.id" }
 ,
-{ "ligne" :  "R3:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.nowMs" }
+{ "ligne" :  "R3:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.metrics" }
+,
+{ "ligne" :  "R4:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.nowMs" }
 ]
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 (R0 in line [00060],R1 in line [00060],R2 in line [00060],R3 in line [00060])" }
+{ "ligne" : "S0:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 (R0 in line [00060],R1 in line [00060],R2 in line [00060],R3 in line [00060],R4 in line [00060])" }
 ,
 { "ligne" : "S0:org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162927" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 (R0 in line [00060],R1 in line [00060],R2 in line [00060],R3 in line [00060])" }
+{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 (R0 in line [00060],R1 in line [00060],R2 in line [00060],R3 in line [00060],R4 in line [00060])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 (R0 in line [00060],R1 in line [00060],R2 in line [00060],R3 in line [00060])" }
+{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 (R0 in line [00060],R1 in line [00060],R2 in line [00060],R3 in line [00060],R4 in line [00060])" }
 ,
 { "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162927" }
  ]
@@ -147,7 +149,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "4"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -415,28 +417,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.prefix"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.common.utils.AppInfoParser.this"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.id"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.prefix"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.metrics"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.id"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.nowMs"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.metrics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.nowMs"
 }} 
 ,
 { "ligne" : {"" : ""

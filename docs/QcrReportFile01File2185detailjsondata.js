@@ -126,7 +126,7 @@ var maDataBlocs = {
  , "c1" : "00030"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00030] For method getIntConfig list of called methods Object monObjet|int node_getConfigN146269"
+ , "c3" : "QC-JAV000007[00030] For method getIntConfig list of called methods Object monObjet|java.lang.String node_getConfigN146269"
 }} 
 ,
 { "ligne" : {"" : ""

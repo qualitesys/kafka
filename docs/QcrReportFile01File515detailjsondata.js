@@ -811,7 +811,7 @@ var maDataBlocs = {
  , "c1" : "00326"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#326"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00326] For method doHandshake list of called methods Object monObjet|javax.net.ssl.SSLEngineResult.HandshakeStatus runDelegatedTasksN303349|javax.net.ssl.SSLEngineResult handshakeWrapN303685|int netWriteBufferSizeN303870|java.nio.ByteBuffer Utils_ensureCapacityN303988|javax.net.ssl.SSLEngineResult handshakeUnwrapN305560|int applicationBufferSizeN305769|java.nio.ByteBuffer Utils_ensureCapacityN305835|int netReadBufferSizeN306418|java.nio.ByteBuffer Utils_ensureCapacityN306484"
+ , "c3" : "QC-JAV000007[00326] For method doHandshake list of called methods Object monObjet|HandshakeStatus runDelegatedTasksN303349|SSLEngineResult handshakeWrapN303685|int netWriteBufferSizeN303870|java.nio.ByteBuffer Utils_ensureCapacityN303988|SSLEngineResult handshakeUnwrapN305560|int applicationBufferSizeN305769|java.nio.ByteBuffer Utils_ensureCapacityN305835|int netReadBufferSizeN306418|java.nio.ByteBuffer Utils_ensureCapacityN306484"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1000,7 +1000,7 @@ var maDataBlocs = {
  , "c1" : "00476"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#476"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00476] For method handshakeWrap list of called methods Object monObjet|javax.net.ssl.SSLEngineResult.HandshakeStatus runDelegatedTasksN311156"
+ , "c3" : "QC-JAV000007[00476] For method handshakeWrap list of called methods Object monObjet|HandshakeStatus runDelegatedTasksN311156"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1028,7 +1028,7 @@ var maDataBlocs = {
  , "c1" : "00507"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#507"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00507] For method handshakeUnwrap list of called methods Object monObjet|int readFromSocketChannelN311840|javax.net.ssl.SSLEngineResult.HandshakeStatus runDelegatedTasksN312504"
+ , "c3" : "QC-JAV000007[00507] For method handshakeUnwrap list of called methods Object monObjet|int readFromSocketChannelN311840|HandshakeStatus runDelegatedTasksN312504"
 }} 
 ,
 { "ligne" : {"" : ""

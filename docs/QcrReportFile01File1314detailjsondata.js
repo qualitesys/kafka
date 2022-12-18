@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java 83 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java 86 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -161,7 +161,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "16"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
@@ -175,7 +175,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -203,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -317,7 +317,7 @@ var maDataBlocs = {
  , "c1" : "00150"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00150] For method updateFeature list of called methods Object monObjet|org.apache.kafka.clients.NodeApiVersions metadataVersion_getN196133"
+ , "c3" : "QC-JAV000007[00150] For method updateFeature list of called methods Object monObjet|org.apache.kafka.clients.NodeApiVersions metadataVersion_getN196133|java.util.Optional&lt;java.lang.String&gt; quorumFeatures_reasonNotSupportedN196550"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -582,6 +582,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00279"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#279"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00279] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.VersionRange quorumFeatures_localSupportedFeatureN202297"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00279"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#279"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00279] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -667,6 +674,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.FeatureControlManager.invalidMetadataVersion@POLYN200897"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN199262"
 }} 
 ,
@@ -682,6 +696,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#213"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.controller.FeatureControlManager.invalidUpdateVersion@POLYN198753 the MagicNumber/String 'Invalid update version %d for feature %s. %s' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00258"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#258"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00258] In the recursive method org.apache.kafka.controller.FeatureControlManager.invalidMetadataVersion@POLYN200897 the MagicNumber/String 'Invalid metadata.version %d. %s' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

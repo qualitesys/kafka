@@ -3,13 +3,13 @@
 "java.lang.Object" <|-- "org.apache.kafka.common.security.authenticator.LoginManager"
 class org.apache.kafka.common.security.authenticator.LoginManager {
 -LoginManager(JaasContext;String;Map<String,?>;LoginMetadata<?>) : LoginManager [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#55]]]
-+acquireLoginManager(JaasContext;String;Class<?extendsLogin>;Map<String,?>) : LoginManager [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#115]]]
-+subject() : Subject [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#148]]]
-+serviceName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#152]]]
-cacheKey() : Object [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#157]]]
--acquire() : LoginManager [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#161]]]
-+release() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#170]]]
-+toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#189]]]
-+closeAll() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#197]]]
++acquireLoginManager(JaasContext;String;Class<?extendsLogin>;Map<String,?>) : LoginManager [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247]]]
++subject() : Subject [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247]]]
++serviceName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247]]]
+cacheKey() : Object [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247]]]
+-acquire() : LoginManager [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247]]]
++release() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247]]]
++toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1]]]
++closeAll() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1]]]
 } 
 @enduml

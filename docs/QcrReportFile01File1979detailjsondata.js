@@ -76,6 +76,7 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
+{ "ligne" :  "R0:org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyBuilder.this" }
 ]
 ,
 "data12b" : [

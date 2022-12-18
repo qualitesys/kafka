@@ -523,7 +523,7 @@ var maDataBlocs = {
  , "c1" : "00229"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#229"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00229] For method loadOffset list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; MirrorUtils_wrapPartitionN197773"
+ , "c3" : "QC-JAV000007[00229] For method loadOffset list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; MirrorUtils_wrapPartitionN197773|org.apache.kafka.connect.storage.OffsetStorageReader context_offsetStorageReaderN197926"
 }} 
 ,
 { "ligne" : {"" : ""

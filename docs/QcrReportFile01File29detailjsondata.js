@@ -765,8 +765,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01447"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1447"
+ , "c5" : "01510"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1510"
  , "c1" : "UpdateFeaturesResult"
  , "c2" : "updateFeatures(Map<String,FeatureUpdate>;UpdateFeaturesOptions)"
  , "c3" : "1"
@@ -774,8 +774,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01457"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1457"
+ , "c5" : "01510"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1510"
  , "c1" : "DescribeMetadataQuorumResult"
  , "c2" : "describeMetadataQuorum()"
  , "c3" : "1"
@@ -783,8 +783,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01476"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1476"
+ , "c5" : "01510"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1510"
  , "c1" : "DescribeMetadataQuorumResult"
  , "c2" : "describeMetadataQuorum(DescribeMetadataQuorumOptions)"
  , "c3" : "1"
@@ -792,8 +792,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01491"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1491"
+ , "c5" : "01510"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1510"
  , "c1" : "UnregisterBrokerResult"
  , "c2" : "unregisterBroker(int)"
  , "c3" : "1"
@@ -801,8 +801,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01518"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1518"
+ , "c5" : "00001"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1"
  , "c1" : "UnregisterBrokerResult"
  , "c2" : "unregisterBroker(int;UnregisterBrokerOptions)"
  , "c3" : "1"
@@ -810,8 +810,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01527"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1527"
+ , "c5" : "00001"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1"
  , "c1" : "DescribeProducersResult"
  , "c2" : "describeProducers(Collection<TopicPartition>)"
  , "c3" : "1"
@@ -819,8 +819,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01540"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1540"
+ , "c5" : "00001"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1"
  , "c1" : "DescribeProducersResult"
  , "c2" : "describeProducers(Collection<TopicPartition>;DescribeProducersOptions)"
  , "c3" : "1"
@@ -828,8 +828,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01549"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1549"
+ , "c5" : "00001"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1"
  , "c1" : "DescribeTransactionsResult"
  , "c2" : "describeTransactions(Collection<String>)"
  , "c3" : "1"
@@ -837,8 +837,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01561"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1561"
+ , "c5" : "00001"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1"
  , "c1" : "DescribeTransactionsResult"
  , "c2" : "describeTransactions(Collection<String>;DescribeTransactionsOptions)"
  , "c3" : "1"
@@ -846,8 +846,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01570"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1570"
+ , "c5" : "00001"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1"
  , "c1" : "AbortTransactionResult"
  , "c2" : "abortTransaction(AbortTransactionSpec)"
  , "c3" : "1"
@@ -855,8 +855,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01585"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1585"
+ , "c5" : "00001"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1"
  , "c1" : "AbortTransactionResult"
  , "c2" : "abortTransaction(AbortTransactionSpec;AbortTransactionOptions)"
  , "c3" : "1"
@@ -864,8 +864,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01593"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1593"
+ , "c5" : "00001"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1"
  , "c1" : "ListTransactionsResult"
  , "c2" : "listTransactions()"
  , "c3" : "1"
@@ -873,8 +873,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01607"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1607"
+ , "c5" : "00001"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1"
  , "c1" : "ListTransactionsResult"
  , "c2" : "listTransactions(ListTransactionsOptions)"
  , "c3" : "1"
@@ -882,8 +882,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01618"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1618"
+ , "c5" : "00001"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1"
  , "c1" : "FenceProducersResult"
  , "c2" : "fenceProducers(Collection<String>)"
  , "c3" : "1"
@@ -891,8 +891,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01629"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1629"
+ , "c5" : "00001"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1"
  , "c1" : "FenceProducersResult"
  , "c2" : "fenceProducers(Collection<String>;FenceProducersOptions)"
  , "c3" : "1"
@@ -900,8 +900,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01635"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1635"
+ , "c5" : "00001"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#1"
  , "c1" : "Map<MetricName,?extendsMetric>"
  , "c2" : "metrics()"
  , "c3" : "1"

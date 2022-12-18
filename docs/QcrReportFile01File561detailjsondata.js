@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java 44 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java 47 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -115,11 +115,18 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "6"
 }}
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#63"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00063] For method nextBatch list of called methods Object monObjet|java.nio.channels.FileChannel fileRecords_channelN174786|java.lang.Long logHeaderBuffer_getLongN175217"
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#66"
@@ -167,6 +174,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#177"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00177] For method writeTo arguments ByteBuffer  buffer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#177"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00177] For method writeTo list of called methods Object monObjet|java.nio.channels.FileChannel fileRecords_channelN179012"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -258,6 +272,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#211"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00211] For method loadBatchWithSize arguments int  size|String  description"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#211"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00211] For method loadBatchWithSize list of called methods Object monObjet|java.nio.channels.FileChannel fileRecords_channelN180619"
 }} 
 ,
 { "ligne" : {"" : ""

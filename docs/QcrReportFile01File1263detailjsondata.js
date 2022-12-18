@@ -201,7 +201,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method generateSchemas list of called methods Object monObjet|org.apache.kafka.message.Versions message_flexibleVersionsN203809"
+ , "c3" : "QC-JAV000007[00082] For method generateSchemas list of called methods Object monObjet|org.apache.kafka.message.Versions message_flexibleVersionsN203809|java.util.Iterator&lt;org.apache.kafka.message.StructSpec&gt; structRegistry_commonStructsN203939"
 }} 
 ,
 { "ligne" : {"" : ""

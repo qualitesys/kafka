@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "java.lang.Double" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00348"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#348"
+ , "c5" : "00195"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#195"
  , "c1" : "String"
  , "c2" : "toString(double)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00499"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#499"
+ , "c5" : "00273"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#273"
  , "c1" : "String"
  , "c2" : "toHexString(double)"
  , "c3" : "6"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00904"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#904"
+ , "c5" : "00503"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#503"
  , "c1" : "Double"
  , "c2" : "valueOf(String)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00933"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#933"
+ , "c5" : "00520"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#520"
  , "c1" : "Double"
  , "c2" : "valueOf(double)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00966"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#966"
+ , "c5" : "00539"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#539"
  , "c1" : "double"
  , "c2" : "parseDouble(String)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00985"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#985"
+ , "c5" : "00551"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#551"
  , "c1" : "boolean"
  , "c2" : "isNaN(double)"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01004"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1004"
+ , "c5" : "00563"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#563"
  , "c1" : "boolean"
  , "c2" : "isInfinite(double)"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01030"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1030"
+ , "c5" : "00580"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#580"
  , "c1" : "Double"
  , "c2" : "Double(double)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01055"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1055"
+ , "c5" : "00595"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#595"
  , "c1" : "Double"
  , "c2" : "Double(String)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01073"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1073"
+ , "c5" : "00607"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#607"
  , "c1" : "boolean"
  , "c2" : "isNaN()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01092"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1092"
+ , "c5" : "00619"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#619"
  , "c1" : "boolean"
  , "c2" : "isInfinite()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01113"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1113"
+ , "c5" : "00632"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#632"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01132"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1132"
+ , "c5" : "00644"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#644"
  , "c1" : "byte"
  , "c2" : "byteValue()"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01151"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1151"
+ , "c5" : "00656"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#656"
  , "c1" : "short"
  , "c2" : "shortValue()"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01168"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1168"
+ , "c5" : "00667"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#667"
  , "c1" : "int"
  , "c2" : "intValue()"
  , "c3" : "1"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01185"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1185"
+ , "c5" : "00678"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#678"
  , "c1" : "long"
  , "c2" : "longValue()"
  , "c3" : "1"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01204"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1204"
+ , "c5" : "00690"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#690"
  , "c1" : "float"
  , "c2" : "floatValue()"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01219"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1219"
+ , "c5" : "00700"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#700"
  , "c1" : "double"
  , "c2" : "doubleValue()"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01264"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1264"
+ , "c5" : "00725"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#725"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01346"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1346"
+ , "c5" : "00769"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#769"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "1"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01586"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1586"
+ , "c5" : "00806"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#806"
  , "c1" : "long"
  , "c2" : "doubleToLongBits(double)"
  , "c3" : "2"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01586"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1586"
+ , "c5" : "00852"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#852"
  , "c1" : "long"
  , "c2" : "doubleToRawLongBits(double)"
  , "c3" : "1"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1"
+ , "c5" : "00915"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#915"
  , "c1" : "double"
  , "c2" : "longBitsToDouble(long)"
  , "c3" : "1"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1"
+ , "c5" : "00947"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#947"
  , "c1" : "int"
  , "c2" : "compareTo(Double)"
  , "c3" : "1"
@@ -234,8 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/java.lang.Double.java.html#1"
+ , "c5" : "00969"
+ , "c5link" : "././qc/secujava/java.lang.Double.java.html#969"
  , "c1" : "int"
  , "c2" : "compare(double;double)"
  , "c3" : "3"
@@ -328,381 +328,381 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00348"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#348"
+ , "c1" : "00195"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#195"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00348] For method toString arguments double  d"
+ , "c3" : "QC-JAV000006[00195] For method toString arguments double  d"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00499"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#499"
+ , "c1" : "00273"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#273"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00499] For method toHexString arguments double  d"
+ , "c3" : "QC-JAV000006[00273] For method toHexString arguments double  d"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00499"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#499"
+ , "c1" : "00273"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#273"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00499] For method toHexString list of called methods Object monObjet|java.lang.String Long_toHexStringN378471"
+ , "c3" : "QC-JAV000007[00273] For method toHexString list of called methods Object monObjet|java.lang.String Long_toHexStringN379539"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00514"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#514"
+ , "c1" : "00284"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00514] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00284] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00516"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#516"
+ , "c1" : "00286"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#286"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00286] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00516"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#516"
+ , "c1" : "00286"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#286"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00286] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00517"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#517"
+ , "c1" : "00287"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#287"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00517] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00287] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00519"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#519"
+ , "c1" : "00289"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#289"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00519] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  '0x' should be converted to const"
+ , "c3" : "QC-JAV000010[00289] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  '0x' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00523"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#523"
+ , "c1" : "00293"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00523] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00524"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#524"
+ , "c1" : "00294"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00524] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  '0.0p0' should be converted to const"
+ , "c3" : "QC-JAV000010[00294] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  '0.0p0' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00534"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#534"
+ , "c1" : "00304"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#304"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00534] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  0x1000000000000000L should be converted to const"
+ , "c3" : "QC-JAV000010[00304] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  0x1000000000000000L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00538"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#538"
+ , "c1" : "00308"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00538] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  '0.' should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  '0.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00538"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#538"
+ , "c1" : "00308"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00538] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  '1.' should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  '1.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00544"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#544"
+ , "c1" : "00314"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00544] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00314] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00544"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#544"
+ , "c1" : "00314"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00544] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00314] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00545"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#545"
+ , "c1" : "00315"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#315"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00545] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  '0000000000000' should be converted to const"
+ , "c3" : "QC-JAV000010[00315] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  '0000000000000' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00546"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#546"
+ , "c1" : "00316"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#316"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00546] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  '0' should be converted to const"
+ , "c3" : "QC-JAV000010[00316] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  '0' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00547"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#547"
+ , "c1" : "00317"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00547] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  '0{1,12}$' should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  '0{1,12}$' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00547"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#547"
+ , "c1" : "00317"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00547] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00553"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#553"
+ , "c1" : "00323"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#323"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00553] In method java.lang.Double.toHexString@POLYN376994 the MagicNumber/String  'p' should be converted to const"
+ , "c3" : "QC-JAV000010[00323] In method java.lang.Double.toHexString@POLYN378062 the MagicNumber/String  'p' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00904"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#904"
+ , "c1" : "00503"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#503"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00904] For method valueOf arguments String  s"
+ , "c3" : "QC-JAV000006[00503] For method valueOf arguments String  s"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00933"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#933"
+ , "c1" : "00520"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#520"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00933] For method valueOf arguments double  d"
+ , "c3" : "QC-JAV000006[00520] For method valueOf arguments double  d"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00966"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#966"
+ , "c1" : "00539"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#539"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00966] For method parseDouble arguments String  s"
+ , "c3" : "QC-JAV000006[00539] For method parseDouble arguments String  s"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00985"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#985"
+ , "c1" : "00551"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#551"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00985] For method isNaN arguments double  v"
+ , "c3" : "QC-JAV000006[00551] For method isNaN arguments double  v"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01004"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1004"
+ , "c1" : "00563"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#563"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01004] For method isInfinite arguments double  v"
+ , "c3" : "QC-JAV000006[00563] For method isInfinite arguments double  v"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01264"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1264"
+ , "c1" : "00725"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#725"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01264] For method hashCode list of called methods Object monObjet|long doubleToLongBitsN391046"
+ , "c3" : "QC-JAV000007[00725] For method hashCode list of called methods Object monObjet|long doubleToLongBitsN392114"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01266"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1266"
+ , "c1" : "00727"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#727"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01266] In method java.lang.Double.hashCode@POLYN390971 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00727] In method java.lang.Double.hashCode@POLYN392039 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01346"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1346"
+ , "c1" : "00769"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#769"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01346] For method equals arguments Object  obj"
+ , "c3" : "QC-JAV000006[00769] For method equals arguments Object  obj"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01586"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1586"
+ , "c1" : "00806"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#806"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01586] For method doubleToLongBits arguments double  value"
+ , "c3" : "QC-JAV000006[00806] For method doubleToLongBits arguments double  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01586"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1586"
+ , "c1" : "00806"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#806"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01586] For method doubleToLongBits list of called methods Object monObjet|long doubleToRawLongBitsN394064"
+ , "c3" : "QC-JAV000007[00806] For method doubleToLongBits list of called methods Object monObjet|long doubleToRawLongBitsN395132"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01586"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1586"
+ , "c1" : "00812"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#812"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01586] In method java.lang.Double.doubleToLongBits@POLYN393967 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00812] In method java.lang.Double.doubleToLongBits@POLYN395035 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01586"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1586"
+ , "c1" : "00813"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#813"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01586] In method java.lang.Double.doubleToLongBits@POLYN393967 the MagicNumber/String  0x7ff8000000000000L should be converted to const"
+ , "c3" : "QC-JAV000010[00813] In method java.lang.Double.doubleToLongBits@POLYN395035 the MagicNumber/String  0x7ff8000000000000L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01586"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1586"
+ , "c1" : "00852"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#852"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01586] For method doubleToRawLongBits arguments double  value"
+ , "c3" : "QC-JAV000006[00852] For method doubleToRawLongBits arguments double  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
+ , "c1" : "00915"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#915"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method longBitsToDouble arguments long  bits"
+ , "c3" : "QC-JAV000006[00915] For method longBitsToDouble arguments long  bits"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
+ , "c1" : "00947"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#947"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method compareTo arguments Double  anotherDouble"
+ , "c3" : "QC-JAV000006[00947] For method compareTo arguments Double  anotherDouble"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00947"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#947"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00947] The argument anotherDouble is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00969"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#969"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00969] For method compare arguments double  d1|double  d2"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00969"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#969"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00969] For method compare list of called methods Object monObjet|long Double_doubleToLongBitsN400982|long Double_doubleToLongBitsN401076"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00971"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#971"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00971] In method java.lang.Double.compare@POLYN400669 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00973"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#973"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00973] In method java.lang.Double.compare@POLYN400669 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00979"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#979"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00979] In method java.lang.Double.compare@POLYN400669 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00980"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#980"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00980] In method java.lang.Double.compare@POLYN400669 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00981"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#981"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00981] In method java.lang.Double.compare@POLYN400669 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00001] The argument anotherDouble is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method compare arguments double  d1|double  d2"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method compare list of called methods Object monObjet|long Double_doubleToLongBitsN399914|long Double_doubleToLongBitsN400008"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.Double.compare@POLYN399601 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.Double.compare@POLYN399601 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.Double.compare@POLYN399601 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.Double.compare@POLYN399601 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.Double.compare@POLYN399601 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.hashCode@POLYN392039"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.hashCode@POLYN390971"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.toString@POLYN389598"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.toString@POLYN388530"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.byteValue@POLYN389924"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.byteValue@POLYN388856"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.doubleValue@POLYN391347"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.doubleValue@POLYN390279"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.floatValue@POLYN391114"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.floatValue@POLYN390046"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.intValue@POLYN390537"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.intValue@POLYN389469"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.isInfinite@POLYN389218"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.isInfinite@POLYN388150"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.isNaN@POLYN388886"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.isNaN@POLYN387818"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.longValue@POLYN390836"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.longValue@POLYN389768"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.shortValue@POLYN390238"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.shortValue@POLYN389170"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01266"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1266"
+ , "c1" : "00727"
+ , "c1link" : "./qc/secujava/java.lang.Double.java.html#727"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01266] In the recursive method java.lang.Double.hashCode@POLYN390971 the MagicNumber/String 32 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00727] In the recursive method java.lang.Double.hashCode@POLYN392039 the MagicNumber/String 32 MUST BE CONVERTED to const"
 }} 
 ]
 , 

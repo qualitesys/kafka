@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java 45 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java 46 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -157,7 +157,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -489,6 +489,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#245"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.common.requests.ProduceResponse.shouldClientThrottle@POLYN186918 the MagicNumber/String  6 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ProduceResponse.throttleTimeMs@POLYN179726"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "java.lang.Void" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/secujava/java.lang.Void.java.html#83"
+ , "c5" : "00048"
+ , "c5link" : "././qc/secujava/java.lang.Void.java.html#48"
  , "c1" : "Void"
  , "c2" : "Void()"
  , "c3" : "1"

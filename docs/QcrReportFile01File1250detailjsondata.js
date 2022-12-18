@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/FieldSpec.java 209 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/FieldSpec.java 188 rule violations " 
  , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.xml" 
  , "fic3"  : "" 
 }
@@ -336,35 +336,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "19"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "13"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1711,153 +1688,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#653"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00653] In method org.apache.kafka.message.FieldSpec.generateNonIgnorableFieldCheck@POLYN265973 the MagicNumber/String  '}%n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.FieldSpec.typeString@POLYN245732"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00583"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#583"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00583] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00584"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#584"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00584] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'if -%s%s != null- {%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00586"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#586"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00586] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'if -!%s%s.isEmpty--- {%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00588"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#588"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00588] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'if -%s%s == null  MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00592"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#592"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00592] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00593"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#593"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00593] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'if -%s%s != null- {%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00596"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#596"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00596] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'if -%s%s.hasRemaining--- {%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00599"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#599"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00599] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'if -%s%s.length != 0- {%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00604"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#604"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00604] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'if -%s%s == null  MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00607"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#607"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00607] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'if -%s%s == null  MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00612"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#612"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00612] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00613"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#613"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00613] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'if -%s%s != null- {%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00615"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#615"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00615] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'if -!%s%s.equals-%s-- {%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00618"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#618"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00618] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'if -%s%s == null  MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00623"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#623"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00623] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'if -%s%s%s- {%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00624"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#624"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00624] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String '!' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00624"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#624"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00624] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00624"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#624"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00624] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'true' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00627"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#627"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00627] In the recursive method org.apache.kafka.message.FieldSpec.generateNonDefaultValueCheck@POLYN262111 the MagicNumber/String 'if -%s%s != %s- {%n' MUST BE CONVERTED to const"
 }} 
 ]
 , 
