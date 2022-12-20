@@ -251,7 +251,7 @@ var maDataBlocs = {
  , "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#96"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00096] For method validate list of called methods Object monObjet|java.util.List&lt;DescribeAclsResource&gt; aclsN169715"
+ , "c3" : "QC-JAV000007[00096] For method validate list of called methods Object monObjet|java.util.List aclsN169715"
 }} 
 ,
 { "ligne" : {"" : ""

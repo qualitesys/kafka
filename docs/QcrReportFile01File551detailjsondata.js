@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java 9 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java 10 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -87,7 +87,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -96,7 +96,7 @@ var maDataBlocs = {
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00041] For method nextBatch list of called methods Object monObjet|java.lang.Integer nextBatchSizeN152047"
+ , "c3" : "QC-JAV000007[00041] For method nextBatch list of called methods Object monObjet|java.lang.Integer nextBatchSizeN152047|V buffer_getN152251"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -111,6 +111,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#46"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.record.ByteBufferLogInputStream.nextBatch@POLYN151897 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#66"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00066] For method nextBatchSize list of called methods Object monObjet|V buffer_getN153912"
 }} 
 ,
 { "ligne" : {"" : ""

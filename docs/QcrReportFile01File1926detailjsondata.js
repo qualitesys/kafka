@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java 305 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java 315 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.xml" 
  , "fic3"  : "" 
 }
@@ -411,6 +411,82 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1926Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1926&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.Map.get@POLYN426239.return" , "java.util.HashMap.get@POLYN617315.key"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00460]"
+ , "c3" : ["java.util.Map.get@POLYN426239.return" , "---java.util.Map.get@POLYN426239" , "org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN292272.taskId"]
+ , "c4" : "//QC-JAVCWE099[00460] In org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN292272[00460] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00469]"
+ , "c3" : ["org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN292272.taskId" , "---java.util.HashMap.get@POLYN617315" , "java.util.HashMap.get@POLYN617315.key"]
+ , "c4" : "//QC-JAVCWE099[00469] In org.apache.kafka.streams.processor.internals.StoreChangelogReader.restore@POLYN292272[00469] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 
@@ -480,7 +556,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "16"
 }}
  ] 
 ,
@@ -808,6 +884,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00349"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#349"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00349] For method restoringChangelogByPartition list of called methods Object monObjet|V changelogs_getN289407"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00351"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#351"
  , "c2" : "MAJOR"
@@ -847,6 +930,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#410"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00410] For method restore arguments Map&lt;TaskId ,Task &gt;  tasks"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00410"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#410"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00410] For method restore list of called methods Object monObjet|V changelogs_getN294725"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -978,6 +1068,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00503"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#503"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00503] For method shouldResume list of called methods Object monObjet|V changelogs_getN297180|org.apache.kafka.streams.processor.TaskId manager_taskIdN297291|V tasks_getN297371"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00503"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#503"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00503] The argument tasks is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1006,6 +1103,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00513"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#513"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00513] For method shouldPause list of called methods Object monObjet|V changelogs_getN297827|org.apache.kafka.streams.processor.TaskId manager_taskIdN297938|V tasks_getN298018"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00513"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#513"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00513] The argument tasks is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1028,7 +1132,7 @@ var maDataBlocs = {
  , "c1" : "00523"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#523"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00523] For method maybeLogRestorationProgress list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt; activeRestoringChangelogsN298557|org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata restoringChangelogByPartitionN299004"
+ , "c3" : "QC-JAV000007[00523] For method maybeLogRestorationProgress list of called methods Object monObjet|java.util.Set activeRestoringChangelogsN298557|org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata restoringChangelogByPartitionN299004"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1109,6 +1213,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00553"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#553"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00553] For method getPositionString list of called methods Object monObjet|java.util.Map stateManager_changelogOffsetsN300029"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00554"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#554"
  , "c2" : "CRITICAL"
@@ -1137,6 +1248,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00560"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#560"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00560] For method maybeUpdateLimitOffsetsForStandbyChangelogs list of called methods Object monObjet|java.util.Set changelogs_entrySetN300618|java.util.Set time_millisecondsN301428"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00586"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#586"
  , "c2" : "MINOR"
@@ -1147,7 +1265,7 @@ var maDataBlocs = {
  , "c1" : "00586"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#586"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00586] For method bufferChangelogRecords list of called methods Object monObjet|int changelogMetadata_bufferedRecords_sizeN302416"
+ , "c3" : "QC-JAV000007[00586] For method bufferChangelogRecords list of called methods Object monObjet|long record_offsetN302201|int changelogMetadata_bufferedRecords_sizeN302416"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1190,6 +1308,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#607"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00607] For method restoreChangelog arguments ChangelogMetadata  changelogMetadata"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00607"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#607"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00607] For method restoreChangelog list of called methods Object monObjet|org.apache.kafka.common.TopicPartition storeMetadata_changelogPartitionN302852|org.apache.kafka.streams.processor.StateStore storeMetadata_storeN302932|java.lang.Long storeMetadata_offsetN303813"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1405,6 +1530,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00745"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#745"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00745] For method updateLimitOffsetsForStandbyChangelogs list of called methods Object monObjet|org.apache.kafka.common.TopicPartition metadata_storeMetadata_changelogPartitionN310785|V committedOffsets_getN311118"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00745"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#745"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00745] The argument committedOffsets is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1469,7 +1601,7 @@ var maDataBlocs = {
  , "c1" : "00770"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#770"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00770] For method initializeChangelogs list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; endOffsetForChangelogsN312946|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; committedOffsetForChangelogsN313096|boolean newPartitionsToFindCommittedOffset_containsN313484"
+ , "c3" : "QC-JAV000007[00770] For method initializeChangelogs list of called methods Object monObjet|org.apache.kafka.common.TopicPartition metadata_storeMetadata_changelogPartitionN312459|java.util.Map endOffsetForChangelogsN312946|java.util.Map committedOffsetForChangelogsN313096|V changelogs_getN313286|V endOffsets_getN313385|boolean newPartitionsToFindCommittedOffset_containsN313484"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1760,6 +1892,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00900"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#900"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00900] For method prepareChangelogs list of called methods Object monObjet|org.apache.kafka.common.TopicPartition storeMetadata_changelogPartitionN318719|java.lang.Long storeMetadata_offsetN318799|V changelogs_getN318879|org.apache.kafka.common.TopicPartition storeMetadata_changelogPartitionN320030|org.apache.kafka.streams.processor.StateStore storeMetadata_storeN320110"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00905"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#905"
  , "c2" : "MAJOR"
@@ -1907,6 +2046,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00961"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#961"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00961] For method unregister list of called methods Object monObjet|V changelogs_removeN321223"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00966"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#966"
  , "c2" : "MAJOR"
@@ -2022,13 +2168,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.clear@POLYN321856"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.ChangelogMetadata.clear@POLYN282414"
 }} 
 ,
@@ -2058,6 +2197,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.enforceRestoreActive@POLYN287234"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.clear@POLYN321856"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2439,13 +2585,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00993"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#993"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00993] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.clear@POLYN321856 the MagicNumber/String 'Restore consumer get unexpected error unsubscribing' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00614"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#614"
  , "c2" : "BLOCKER"
@@ -2590,6 +2729,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#291"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00291] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.enforceRestoreActive@POLYN287234 the MagicNumber/String 0L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00993"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#993"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00993] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.clear@POLYN321856 the MagicNumber/String 'Restore consumer get unexpected error unsubscribing' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

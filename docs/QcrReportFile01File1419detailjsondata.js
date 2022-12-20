@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RequestManager.java 34 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RequestManager.java 36 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -121,6 +121,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "14"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -143,6 +150,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#56"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00056] For method findReadyVoter arguments long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#56"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00056] For method findReadyVoter list of called methods Object monObjet|V voters_getN166552|V connections_getN166646|boolean connection_isReadyN166740"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -171,6 +185,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#75"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00075] For method backoffBeforeAvailableVoter arguments long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#75"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00075] For method backoffBeforeAvailableVoter list of called methods Object monObjet|V connections_getN167392"
 }} 
 ,
 { "ligne" : {"" : ""

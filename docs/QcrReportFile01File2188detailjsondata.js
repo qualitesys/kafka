@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java 28 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java 29 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.xml" 
  , "fic3"  : "" 
 }
@@ -103,6 +103,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -167,6 +174,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#79"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00079] For method prettyPrintGrid arguments List&lt;List&lt;String &gt; &gt;  lines"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#79"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00079] For method prettyPrintGrid list of called methods Object monObjet|int col_sizeN160062|V lines_getN161466|V cols_getN161741|V widths_getN161835"
 }} 
 ,
 { "ligne" : {"" : ""

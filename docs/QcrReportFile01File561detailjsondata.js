@@ -124,7 +124,7 @@ var maDataBlocs = {
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00063] For method nextBatch list of called methods Object monObjet|java.nio.channels.FileChannel fileRecords_channelN174786|java.lang.Long logHeaderBuffer_getLongN175217"
+ , "c3" : "QC-JAV000007[00063] For method nextBatch list of called methods Object monObjet|java.nio.channels.FileChannel fileRecords_channelN174786|java.lang.Long logHeaderBuffer_getLongN175217|V logHeaderBuffer_getN175834|int batch_sizeInBytesN176386"
 }} 
 ,
 { "ligne" : {"" : ""

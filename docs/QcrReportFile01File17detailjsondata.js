@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/Metadata.java 192 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/Metadata.java 194 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.xml" 
  , "fic3"  : "" 
 }
@@ -512,7 +512,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : { "" : ""
@@ -693,6 +693,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#167"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00167] For method updateLastSeenEpochIfNewer list of called methods Object monObjet|V lastSeenLeaderEpochs_getN248000"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#168"
  , "c2" : "MAJOR"
@@ -808,7 +815,7 @@ var maDataBlocs = {
  , "c1" : "00208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#208"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00208] For method partitionMetadataIfCurrent list of called methods Object monObjet|java.util.Optional&lt;MetadataResponse.PartitionMetadata&gt; cache_partitionMetadataN249951"
+ , "c3" : "QC-JAV000007[00208] For method partitionMetadataIfCurrent list of called methods Object monObjet|V lastSeenLeaderEpochs_getN249828"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -843,7 +850,7 @@ var maDataBlocs = {
  , "c1" : "00227"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#227"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00227] For method currentLeader list of called methods Object monObjet|java.util.Optional&lt;MetadataResponse.PartitionMetadata&gt; partitionMetadataIfCurrentN250691"
+ , "c3" : "QC-JAV000007[00227] For method currentLeader list of called methods Object monObjet|java.util.Optional partitionMetadataIfCurrentN250691|V maybeMetadata_getN251039"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1025,7 +1032,7 @@ var maDataBlocs = {
  , "c1" : "00317"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#317"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00317] For method handleMetadataResponse list of called methods Object monObjet|org.apache.kafka.clients.MetadataCache metadata_topicN256386|org.apache.kafka.clients.MetadataCache metadata_topicIdN256461|java.util.Map&lt;java.lang.Integer,org.apache.kafka.common.Node&gt; metadataResponse_brokersByIdN258645"
+ , "c3" : "QC-JAV000007[00317] For method handleMetadataResponse list of called methods Object monObjet|org.apache.kafka.clients.MetadataCache metadata_topicN256386|org.apache.kafka.clients.MetadataCache metadata_topicIdN256461|V oldTopicIds_getN256861|java.util.Map metadataResponse_brokersByIdN258645"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1117,6 +1124,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#388"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00388] For method updateLatestMetadata arguments MetadataResponse.PartitionMetadata  partitionMetadata|boolean  hasReliableLeaderEpoch|Uuid  topicId|Uuid  oldTopicId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00388"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#388"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00388] For method updateLatestMetadata list of called methods Object monObjet|V lastSeenLeaderEpochs_getN260041"
 }} 
 ,
 { "ligne" : {"" : ""

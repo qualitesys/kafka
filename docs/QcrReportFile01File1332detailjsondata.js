@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java 51 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java 53 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.xml" 
  , "fic3"  : "" 
 }
@@ -228,7 +228,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "6"
 }}
  ] 
 ,
@@ -238,6 +238,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#51"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00051] For method broker arguments int  nodeId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#51"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00051] For method broker list of called methods Object monObjet|V changedBrokers_getN165393"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -426,7 +433,7 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00110] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration getBrokerOrThrowN168559"
+ , "c3" : "QC-JAV000007[00110] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration getBrokerOrThrowN168559|org.apache.kafka.metadata.BrokerRegistration curRegistration_cloneWithN169429"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -469,6 +476,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#120"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.image.ClusterDelta.replay@POLYN168466 the MagicNumber/String  'value for inControlledShutdown field: %d' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#130"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00130] For method apply list of called methods Object monObjet|V changedBrokers_getN170317"
 }} 
 ,
 { "ligne" : {"" : ""

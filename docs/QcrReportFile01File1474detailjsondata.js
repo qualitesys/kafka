@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Class.java.html" 
- , "texte" : "File secujava/java.lang.Class.java 462 rule violations " 
+ , "texte" : "File secujava/java.lang.Class.java 561 rule violations " 
  , "fic2"  : "./qc/secujava/java.lang.Class.java.xml" 
  , "fic3"  : "" 
 }
@@ -1470,12 +1470,42 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999995"
+ , "c3" : "Recursivity with depth over 1 between method xx and method yy"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "30"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "13"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1521,6 +1551,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "57"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -1529,6 +1566,13 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00236"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#236"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00236] For method toString list of called methods Object monObjet|boolean isInterfaceN1063131"
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00237"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#237"
@@ -1548,6 +1592,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#237"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00237] In method java.lang.Class.toString@POLYN1063056 the MagicNumber/String  'class ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00274"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#274"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00274] For method toGenericString list of called methods Object monObjet|java.lang.Class component_getComponentTypeN1065029|int getModifiersN1065270|java.lang.reflect.TypeVariable[] component_getTypeParametersN1066420"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1826,6 +1877,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00566"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#566"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00566] For method forName list of called methods Object monObjet|java.lang.Class module_getClassLoaderN1076390"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00566"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#566"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00566] The argument module is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1971,6 +2029,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01001"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1001"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01001] For method getTypeParameters list of called methods Object monObjet|ClassRepository getGenericInfoN1090399"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01003"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1003"
  , "c2" : "MAJOR"
@@ -1982,6 +2047,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1006"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01006] In method java.lang.Class.getTypeParameters@POLYN1090324 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01055"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1055"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01055] For method getGenericSuperclass list of called methods Object monObjet|ClassRepository getGenericInfoN1092350"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2010,6 +2082,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1085"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01085] In method java.lang.Class.getPackage@POLYN1092856 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01115"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1115"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01115] For method getPackageName list of called methods Object monObjet|boolean isArrayN1094285|java.lang.String c_getNameN1094550"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2069,6 +2148,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01183"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1183"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01183] For method getInterfaces list of called methods Object monObjet|ReflectionData reflectionDataN1096881|java.lang.Class[] getInterfaces0N1097241"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01185"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1185"
  , "c2" : "MAJOR"
@@ -2080,6 +2166,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1190"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01190] In method java.lang.Class.getInterfaces@POLYN1096763 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01249"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1249"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01249] For method getGenericInterfaces list of called methods Object monObjet|ClassRepository getGenericInfoN1099212"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2097,6 +2190,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01281"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1281"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01281] For method elementType list of called methods Object monObjet|java.lang.Class c_getComponentTypeN1100392"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01282"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1282"
  , "c2" : "MAJOR"
@@ -2108,6 +2208,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1384"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01384] For method setSigners arguments Object[]  signers"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01424"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1424"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01424] For method getEnclosingMethod list of called methods Object monObjet|java.lang.Class.EnclosingMethodInfo getEnclosingMethodInfoN1104554|java.lang.Class toClassN1104991|java.lang.Class toClassN1105493|java.lang.Class enclosingInfo_getEnclosingClassN1105628|java.lang.reflect.Method[] enclosingCandidate_privateGetDeclaredMethodsN1106072|ReflectionFactory getReflectionFactoryN1106317"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2171,6 +2278,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1473"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01473] In method java.lang.Class.getEnclosingMethod@POLYN1104467 the MagicNumber/String  'Enclosing method not found' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01479"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1479"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01479] For method getEnclosingMethodInfo list of called methods Object monObjet|java.lang.Object[] getEnclosingMethod0N1107079"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2335,6 +2449,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01582"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1582"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01582] For method getEnclosingConstructor list of called methods Object monObjet|java.lang.Class.EnclosingMethodInfo getEnclosingMethodInfoN1111379|java.lang.Class toClassN1112197|java.lang.Class enclosingInfo_getEnclosingClassN1112332|java.lang.reflect.Constructor[] enclosingCandidate_privateGetDeclaredConstructorsN1112791|ReflectionFactory getReflectionFactoryN1112958"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01585"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1585"
  , "c2" : "MAJOR"
@@ -2398,6 +2519,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01648"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1648"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01648] For method getDeclaringClass list of called methods Object monObjet|java.lang.Class getDeclaringClass0N1114098"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01651"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1651"
  , "c2" : "MAJOR"
@@ -2423,6 +2551,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1656"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01656] In method java.lang.Class.getDeclaringClass@POLYN1113991 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01679"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1679"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01679] For method getEnclosingClass list of called methods Object monObjet|java.lang.Class.EnclosingMethodInfo getEnclosingMethodInfoN1115199|java.lang.Class getDeclaringClass0N1115382|java.lang.Class enclosingInfo_getEnclosingClassN1115483"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2475,10 +2610,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01732"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1732"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01732] For method getSimpleName list of called methods Object monObjet|ReflectionData reflectionDataN1116841|java.lang.String getSimpleName0N1117073"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01735"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1735"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01735] In method java.lang.Class.getSimpleName@POLYN1116745 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01741"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1741"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01741] For method getSimpleName0 list of called methods Object monObjet|java.lang.String getSimpleBinaryNameN1117399|java.lang.String getNameN1117538"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2531,6 +2680,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01800"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1800"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01800] For method getCanonicalName list of called methods Object monObjet|ReflectionData reflectionDataN1119589|java.lang.String getCanonicalName0N1119821"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01803"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1803"
  , "c2" : "MAJOR"
@@ -2542,6 +2698,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1806"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01806] In method java.lang.Class.getCanonicalName@POLYN1119493 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01809"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1809"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01809] For method getCanonicalName0 list of called methods Object monObjet|java.lang.Class getComponentTypeN1120114|java.lang.Class getEnclosingClassN1120514|java.lang.String enclosingClass_getCanonicalNameN1120718|java.lang.String getSimpleNameN1120892"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2608,6 +2771,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01882"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1882"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01882] For method getSimpleBinaryName list of called methods Object monObjet|java.lang.String getSimpleBinaryName0N1122750"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01884"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1884"
  , "c2" : "MAJOR"
@@ -2633,6 +2803,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1898"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01898] In method java.lang.Class.isTopLevelClass@POLYN1123062 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01912"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1912"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01912] For method hasEnclosingMethodInfo list of called methods Object monObjet|java.lang.Object[] getEnclosingMethod0N1123507"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2762,6 +2939,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "02201"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#2201"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02201] For method getField list of called methods Object monObjet|java.lang.reflect.Field getField0N1134402"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "02204"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#2204"
  , "c2" : "MAJOR"
@@ -2794,6 +2978,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#2311"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02311] For method getMethod arguments String  name|Class&lt;? &gt;  ...parameterTypes"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02311"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#2311"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02311] For method getMethod list of called methods Object monObjet|java.lang.reflect.Method getMethod0N1138853"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2993,6 +3184,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "02697"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#2697"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02697] For method getDeclaredField list of called methods Object monObjet|java.lang.reflect.Field searchFieldsN1151802"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "02700"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#2700"
  , "c2" : "MAJOR"
@@ -3032,6 +3230,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#2762"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02762] For method getDeclaredMethod arguments String  name|Class&lt;? &gt;  ...parameterTypes"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02762"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#2762"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02762] For method getDeclaredMethod list of called methods Object monObjet|java.lang.reflect.Method searchMethodsN1154193"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3077,6 +3282,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "02787"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#2787"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02787] For method getDeclaredPublicMethods list of called methods Object monObjet|java.lang.reflect.Method[] privateGetDeclaredMethodsN1155046|ReflectionFactory getReflectionFactoryN1155134"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "02788"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#2788"
  , "c2" : "MAJOR"
@@ -3116,6 +3328,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#2913"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02913] For method getResourceAsStream arguments String  name"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02913"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#2913"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02913] For method getResourceAsStream list of called methods Object monObjet|java.lang.String resolveNameN1159393|Module getModuleN1159479"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3168,6 +3387,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03009"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3009"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03009] For method getResource list of called methods Object monObjet|java.lang.String resolveNameN1162903|Module getModuleN1162989"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "03017"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3017"
  , "c2" : "MAJOR"
@@ -3200,6 +3426,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3049"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03049] For method isOpenToCaller arguments String  name|Class&lt;? &gt;  caller"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03049"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3049"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03049] For method isOpenToCaller list of called methods Object monObjet|Module getModuleN1164459"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3249,6 +3482,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3096"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[03096] In method java.lang.Class.getProtectionDomain@POLYN1165836 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03103"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3103"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03103] For method protectionDomain list of called methods Object monObjet|java.security.ProtectionDomain getProtectionDomain0N1166311"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3331,6 +3571,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "03193"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3193"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03193] For method checkPackageAccessForPermittedSubclasses list of called methods Object monObjet|java.lang.String c_getPackageNameN1170444"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03193"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3193"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[03193] The argument sm is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -3361,6 +3608,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3218"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03218] For method resolveName arguments String  name"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03218"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3218"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03218] For method resolveName list of called methods Object monObjet|java.lang.String getPackageNameN1171082|int baseName_lengthN1171227|java.lang.String name_substringN1171740"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3427,6 +3681,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03309"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3309"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03309] For method reflectionData list of called methods Object monObjet|V reflectionData_getN1174802"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "03314"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3314"
  , "c2" : "MAJOR"
@@ -3452,6 +3713,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3323"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03323] For method newReflectionData arguments SoftReference&lt;ReflectionData&lt;T &gt; &gt;  oldReflectionData|int  classRedefinedCount"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03323"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3323"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03323] For method newReflectionData list of called methods Object monObjet|V oldReflectionData_getN1175839"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3490,6 +3758,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03356"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3356"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03356] For method getGenericInfo list of called methods Object monObjet|java.lang.String getGenericSignature0N1176515"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "03358"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3358"
  , "c2" : "MAJOR"
@@ -3525,6 +3800,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03389"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3389"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03389] For method privateGetDeclaredFields list of called methods Object monObjet|ReflectionData reflectionDataN1177510"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "03392"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3392"
  , "c2" : "MAJOR"
@@ -3543,6 +3825,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3398"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[03398] In method java.lang.Class.privateGetDeclaredFields@POLYN1177357 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03411"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3411"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03411] For method privateGetPublicFields list of called methods Object monObjet|ReflectionData reflectionDataN1178421|java.lang.Class getSuperclassN1179185"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3609,6 +3898,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03460"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3460"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03460] For method privateGetDeclaredConstructors list of called methods Object monObjet|ReflectionData reflectionDataN1180182|java.lang.reflect.Constructor[] getDeclaredConstructors0N1180887"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "03463"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3463"
  , "c2" : "MAJOR"
@@ -3651,6 +3947,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03494"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3494"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03494] For method privateGetDeclaredMethods list of called methods Object monObjet|ReflectionData reflectionDataN1181417"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "03497"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3497"
  , "c2" : "MAJOR"
@@ -3669,6 +3972,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3503"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[03503] In method java.lang.Class.privateGetDeclaredMethods@POLYN1181264 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03516"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3516"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03516] For method privateGetPublicMethods list of called methods Object monObjet|ReflectionData reflectionDataN1182328|java.lang.Class getSuperclassN1182894"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3739,6 +4049,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3572"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03572] For method getField0 arguments String  name"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03572"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3572"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03572] For method getField0 list of called methods Object monObjet|java.lang.reflect.Field searchFieldsN1184358|java.lang.Class[] getInterfacesN1184594|java.lang.Class getSuperclassN1185051"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3819,6 +4136,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03605"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3605"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03605] For method searchMethods list of called methods Object monObjet|ReflectionFactory getReflectionFactoryN1185581"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "03616"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3616"
  , "c2" : "MAJOR"
@@ -3854,6 +4178,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03628"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3628"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03628] For method getMethod0 list of called methods Object monObjet|PublicMethods.MethodList getMethodsRecursiveN1186628"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "03631"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3631"
  , "c2" : "MAJOR"
@@ -3886,6 +4217,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3639"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03639] For method getMethodsRecursive arguments String  name|Class&lt;? &gt;[]  parameterTypes|boolean  includeStatic"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03639"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3639"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03639] For method getMethodsRecursive list of called methods Object monObjet|java.lang.reflect.Method[] privateGetDeclaredMethodsN1187111|java.lang.Class getSuperclassN1187499"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3928,6 +4266,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3674"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03674] For method getConstructor0 arguments Class&lt;? &gt;[]  parameterTypes|int  which"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03674"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3674"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03674] For method getConstructor0 list of called methods Object monObjet|ReflectionFactory getReflectionFactoryN1188299|java.lang.reflect.Constructor[] privateGetDeclaredConstructorsN1188393"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4017,6 +4362,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "03714"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3714"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03714] For method copyFields list of called methods Object monObjet|ReflectionFactory getReflectionFactoryN1190073"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03714"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3714"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[03714] The argument arg is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -4033,6 +4385,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3723"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03723] For method copyMethods arguments Method[]  arg"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03723"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3723"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03723] For method copyMethods list of called methods Object monObjet|ReflectionFactory getReflectionFactoryN1190693"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4218,6 +4577,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03912"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3912"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03912] For method getEnumConstants list of called methods Object monObjet|T[] getEnumConstantsSharedN1197756"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "03914"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3914"
  , "c2" : "MAJOR"
@@ -4285,6 +4651,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3945"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[03945] In method java.lang.Class.getEnumConstantsShared@POLYN1198144 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03958"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3958"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03958] For method enumConstantDirectory list of called methods Object monObjet|T[] getEnumConstantsSharedN1199846"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4372,6 +4745,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "04150"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#4150"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04150] For method annotationData list of called methods Object monObjet|java.lang.Class.AnnotationData createAnnotationDataN1206793"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "04152"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#4152"
  , "c2" : "MAJOR"
@@ -4404,6 +4784,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#4168"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04168] For method createAnnotationData arguments int  classRedefinedCount"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04168"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#4168"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04168] For method createAnnotationData list of called methods Object monObjet|java.lang.Class getSuperclassN1207362|java.lang.Class.AnnotationData superClass_annotationDataN1207687"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4460,6 +4847,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#4247"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[04247] In method java.lang.Class.getAnnotatedSuperclass@POLYN1210253 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04325"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#4325"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04325] For method getNestHost list of called methods Object monObjet|java.lang.Class getNestHost0N1213428"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4526,6 +4920,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "04417"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#4417"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04417] For method getNestMembers list of called methods Object monObjet|java.lang.Class[] getNestMembers0N1216897"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "04425"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#4425"
  , "c2" : "MAJOR"
@@ -4551,6 +4952,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#4432"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[04432] In method java.lang.Class.getNestMembers@POLYN1216611 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04494"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#4494"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04494] For method descriptorString list of called methods Object monObjet|java.lang.String getNameN1219970|java.lang.String getNameN1220704"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4673,6 +5081,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "04566"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#4566"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04566] For method describeConstable list of called methods Object monObjet|boolean isArrayN1222546"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04620"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#4620"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04620] For method getPermittedSubclasses list of called methods Object monObjet|java.lang.Class[] getPermittedSubclasses0N1224716"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "04622"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#4622"
  , "c2" : "MAJOR"
@@ -4761,6 +5183,314 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#4677"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[04677] In method java.lang.Class.isSealed@POLYN1226856 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04691"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#4691"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04691] For method getClassFileVersion list of called methods Object monObjet|boolean isArrayN1227573"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04705"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#4705"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04705] For method getClassAccessFlagsRaw list of called methods Object monObjet|boolean isArrayN1228058"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Class.getEnclosingClass@POLYN1115112"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Class.checkPackageAccess@POLYN1168427"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Class.getMethodsRecursive@POLYN1186937"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Class.getResourceAsStream@POLYN1159297"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.lang.Class.createAnnotationData@POLYN1207026 ending with method java.lang.Class.annotationData@POLYN1206376"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.lang.Class.createAnnotationData@POLYN1207026"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.lang.Class.annotationData@POLYN1206376"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.lang.Class.annotationData@POLYN1206376 ending with method java.lang.Class.createAnnotationData@POLYN1207026"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.lang.Class.annotationData@POLYN1206376"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.lang.Class.createAnnotationData@POLYN1207026"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Class.protectionDomain@POLYN1166220"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Class.cast@POLYN1200893"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01694"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1694"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01694] In the recursive method java.lang.Class.getEnclosingClass@POLYN1115112 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01700"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1700"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01700] In the recursive method java.lang.Class.getEnclosingClass@POLYN1115112 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01701"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1701"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01701] In the recursive method java.lang.Class.getEnclosingClass@POLYN1115112 the MagicNumber/String 'Malformed enclosing method information' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01706"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1706"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01706] In the recursive method java.lang.Class.getEnclosingClass@POLYN1115112 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01707"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1707"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01707] In the recursive method java.lang.Class.getEnclosingClass@POLYN1115112 the MagicNumber/String 'removal' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01709"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1709"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01709] In the recursive method java.lang.Class.getEnclosingClass@POLYN1115112 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01711"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#1711"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01711] In the recursive method java.lang.Class.getEnclosingClass@POLYN1115112 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03179"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3179"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03179] In the recursive method java.lang.Class.checkPackageAccess@POLYN1168427 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03643"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3643"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03643] In the recursive method java.lang.Class.getMethodsRecursive@POLYN1186937 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03649"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3649"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03649] In the recursive method java.lang.Class.getMethodsRecursive@POLYN1186937 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03656"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3656"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03656] In the recursive method java.lang.Class.getMethodsRecursive@POLYN1186937 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03662"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3662"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03662] In the recursive method java.lang.Class.getMethodsRecursive@POLYN1186937 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03665"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3665"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03665] In the recursive method java.lang.Class.getMethodsRecursive@POLYN1186937 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02921"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#2921"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[02921] In the recursive method java.lang.Class.getResourceAsStream@POLYN1159297 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02931"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#2931"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[02931] In the recursive method java.lang.Class.getResourceAsStream@POLYN1159297 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02937"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#2937"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[02937] In the recursive method java.lang.Class.getResourceAsStream@POLYN1159297 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02937"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#2937"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[02937] In the recursive method java.lang.Class.getResourceAsStream@POLYN1159297 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02941"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#2941"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[02941] In the recursive method java.lang.Class.getResourceAsStream@POLYN1159297 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02947"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#2947"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[02947] In the recursive method java.lang.Class.getResourceAsStream@POLYN1159297 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04172"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#4172"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[04172] In the recursive method java.lang.Class.createAnnotationData@POLYN1207026 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04173"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#4173"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[04173] In the recursive method java.lang.Class.createAnnotationData@POLYN1207026 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04179"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#4179"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[04179] In the recursive method java.lang.Class.createAnnotationData@POLYN1207026 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04182"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#4182"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[04182] In the recursive method java.lang.Class.createAnnotationData@POLYN1207026 the MagicNumber/String 12 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04190"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#4190"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[04190] In the recursive method java.lang.Class.createAnnotationData@POLYN1207026 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04151"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#4151"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[04151] In the recursive method java.lang.Class.annotationData@POLYN1206376 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04154"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#4154"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[04154] In the recursive method java.lang.Class.annotationData@POLYN1206376 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03105"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03105] In the recursive method java.lang.Class.protectionDomain@POLYN1166220 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03106"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03106] In the recursive method java.lang.Class.protectionDomain@POLYN1166220 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03111"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3111"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03111] In the recursive method java.lang.Class.protectionDomain@POLYN1166220 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03990"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3990"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03990] In the recursive method java.lang.Class.cast@POLYN1200893 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

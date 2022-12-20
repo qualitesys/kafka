@@ -580,7 +580,7 @@ var maDataBlocs = {
  , "c1" : "00200"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00200] For method main list of called methods Object monObjet|java.lang.Long res_getLongN204803|java.lang.Long res_getLongN205562|java.lang.Long res_getLongN205939"
+ , "c3" : "QC-JAV000007[00200] For method main list of called methods Object monObjet|org.apache.kafka.trogdor.rest.UptimeResponse client_uptimeN201712|org.apache.kafka.trogdor.rest.AgentStatusResponse client_statusN202737"
 }} 
 ,
 { "ligne" : {"" : ""

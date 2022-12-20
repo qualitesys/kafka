@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java 89 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java 96 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.xml" 
  , "fic3"  : "" 
 }
@@ -177,6 +177,82 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1891Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1891&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.get@POLYN617315.return" , "java.util.HashMap.put@POLYN620675.value"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00167]"
+ , "c3" : ["java.util.HashMap.get@POLYN617315.return" , "---java.util.HashMap.get@POLYN617315" , "org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755.deadline"]
+ , "c4" : "//QC-JAVCWE099[00167] In org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755[00167] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00182]"
+ , "c3" : ["org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755.deadline" , "---java.util.HashMap.put@POLYN620675" , "java.util.HashMap.put@POLYN620675.value"]
+ , "c4" : "//QC-JAVCWE099[00182] In org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN193755[00182] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 
@@ -239,7 +315,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "8"
 }}
  ] 
 ,
@@ -277,6 +353,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#108"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00108] For method readyToProcess arguments long  wallClockTime"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#108"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00108] For method readyToProcess list of called methods Object monObjet|V idlePartitionDeadlines_getN196566"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -504,6 +587,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00209"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#209"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00209] For method partitionTimestamp list of called methods Object monObjet|V partitionQueues_getN198079"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00212"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#212"
  , "c2" : "MAJOR"
@@ -529,6 +619,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#218"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00218] For method updatePartitions arguments Set&lt;TopicPartition &gt;  newInputPartitions|Function&lt;TopicPartition ,RecordQueue &gt;  recordQueueCreator"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#218"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00218] For method updatePartitions list of called methods Object monObjet|java.util.Set partitionQueues_entrySetN198749"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -564,6 +661,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#240"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00240] For method setPartitionTime arguments TopicPartition  partition|long  partitionTime"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#240"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00240] For method setPartitionTime list of called methods Object monObjet|V partitionQueues_getN200067"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -651,6 +755,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00296"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#296"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00296] For method addRawRecords list of called methods Object monObjet|V partitionQueues_getN202130|int recordQueue_sizeN202424|int recordQueue_addRawRecordsN202504"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#299"
  , "c2" : "MAJOR"
@@ -700,6 +811,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00334"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#334"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00334] For method headRecordOffset list of called methods Object monObjet|V partitionQueues_getN203474"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00337"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#337"
  , "c2" : "MAJOR"
@@ -725,6 +843,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#347"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00347] For method numBuffered arguments TopicPartition  partition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00347"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#347"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00347] For method numBuffered list of called methods Object monObjet|V partitionQueues_getN203959"
 }} 
 ,
 { "ligne" : {"" : ""

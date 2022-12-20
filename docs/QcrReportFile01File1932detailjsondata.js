@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java 382 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java 340 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.xml" 
  , "fic3"  : "" 
 }
@@ -411,6 +411,151 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1932Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1932&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.getKey@POLYN606336.return" , "java.util.HashMap.put@POLYN620675.key"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1932Seq2.html#seq2"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1932&numSeq=2"
+ , "c2" : "2"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.getValue@POLYN606427.return" , "java.util.concurrent.ConcurrentHashMap.addAll@POLYN1668368.c"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00703]"
+ , "c3" : ["java.util.HashMap.getKey@POLYN606336.return" , "---java.util.HashMap.getKey@POLYN606336" , "org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateClientStatesMap@POLYN390098.uuid"]
+ , "c4" : "//QC-JAVCWE099[00703] In org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateClientStatesMap@POLYN390098[00703] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00708]"
+ , "c3" : ["org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateClientStatesMap@POLYN390098.uuid" , "---java.util.HashMap.put@POLYN620675" , "java.util.HashMap.put@POLYN620675.key"]
+ , "c4" : "//QC-JAVCWE099[00708] In org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateClientStatesMap@POLYN390098[00708] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "2" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00549]"
+ , "c3" : ["java.util.HashMap.getValue@POLYN606427.return" , "---java.util.HashMap.getValue@POLYN606427" , "org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateTasksForMaps@POLYN383214.partitions"]
+ , "c4" : "//QC-JAVCWE099[00549] In org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateTasksForMaps@POLYN383214[00549] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00557]"
+ , "c3" : ["org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateTasksForMaps@POLYN383214.partitions" , "---java.util.concurrent.ConcurrentHashMap.addAll@POLYN1668368" , "java.util.concurrent.ConcurrentHashMap.addAll@POLYN1668368.c"]
+ , "c4" : "//QC-JAVCWE099[00557] In org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateTasksForMaps@POLYN383214[00557] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 
@@ -429,16 +574,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999995"
- , "c3" : "Recursivity with depth over 1 between method xx and method yy"
- , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "77"
+ , "c4" : "44"
 }}
 ,
 { "ligne" : { "" : ""
@@ -452,7 +590,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "16"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : { "" : ""
@@ -480,7 +618,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "10"
+ , "c4" : "13"
 }}
  ] 
 ,
@@ -577,6 +715,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00202"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#202"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00202] For method configure list of called methods Object monObjet|java.lang.String assignorConfiguration_logPrefixN368237|int assignorConfiguration_configuredMetadataVersionN368454|org.apache.kafka.streams.processor.internals.assignment.ReferenceContainer assignorConfiguration_referenceContainerN368553|org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.AssignmentConfigs assignorConfiguration_assignmentConfigsN369467|java.lang.String assignorConfiguration_userEndPointN369614|org.apache.kafka.streams.processor.internals.InternalTopicManager assignorConfiguration_internalTopicManagerN369688|org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer assignorConfiguration_copartitionedTopicsEnforcerN369762|RebalanceProtocol assignorConfiguration_rebalanceProtocolN369836|org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.AssignmentListener assignorConfiguration_assignmentListenerN369976"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00210"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#210"
  , "c2" : "MAJOR"
@@ -664,7 +809,7 @@ var maDataBlocs = {
  , "c1" : "00310"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#310"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00310] For method assign list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo SubscriptionInfo_decodeN374197|int updateMinReceivedVersionN374568|int updateMinSupportedVersionN374675"
+ , "c3" : "QC-JAV000007[00310] For method assign list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo SubscriptionInfo_decodeN374197|int info_versionN374316|int updateMinReceivedVersionN374568|int updateMinSupportedVersionN374675|java.util.UUID info_processIdN375309|V clientMetadataMap_getN375387|int allOwnedPartitions_sizeN375942"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -958,7 +1103,7 @@ var maDataBlocs = {
  , "c1" : "00566"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#566"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00566] For method checkAllPartitions list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; fullMetadata_partitionsForTopicN385274"
+ , "c3" : "QC-JAV000007[00566] For method checkAllPartitions list of called methods Object monObjet|java.util.List fullMetadata_partitionsForTopicN385274"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1056,7 +1201,7 @@ var maDataBlocs = {
  , "c1" : "00596"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#596"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00596] For method assignTasksToClients list of called methods Object monObjet|boolean populateClientStatesMapN387582|org.apache.kafka.streams.processor.internals.assignment.TaskAssignor createTaskAssignorN388496"
+ , "c3" : "QC-JAV000007[00596] For method assignTasksToClients list of called methods Object monObjet|boolean populateClientStatesMapN387582|java.util.Set partitionsForTask_keySetN388152"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1120,6 +1265,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#648"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00648] For method createTaskAssignor arguments boolean  lagComputationSuccessful"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00648"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#648"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00648] For method createTaskAssignor list of called methods Object monObjet|V taskAssignorSupplier_getN389299"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1197,6 +1349,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#721"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00721] For method computeEndOffsetSumsByTask arguments Map&lt;TopicPartition ,ListOffsetsResultInfo &gt;  endOffsets|Map&lt;TopicPartition ,Long &gt;  sourceChangelogEndOffsets|ChangelogTopics  changelogTopics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00721"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#721"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00721] For method computeEndOffsetSumsByTask list of called methods Object monObjet|V sourceChangelogEndOffsets_getN393226|V endOffsets_getN393407|V taskEndOffsetSums_getN393760"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1350,7 +1509,7 @@ var maDataBlocs = {
  , "c1" : "00790"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#790"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00790] For method computeNewAssignment list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; assignTasksToThreadsN397672|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; assignTasksToThreadsN397931|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; assignTasksToThreadsN398190|boolean addClientAssignmentsN398966"
+ , "c3" : "QC-JAV000007[00790] For method computeNewAssignment list of called methods Object monObjet|java.util.Map assignTasksToThreadsN397672|java.util.Map assignTasksToThreadsN397931|java.util.Map assignTasksToThreadsN398190|boolean addClientAssignmentsN398966"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1546,7 +1705,7 @@ var maDataBlocs = {
  , "c1" : "00896"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#896"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00896] For method addClientAssignments list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.processor.TaskId&gt; populateActiveTaskAndPartitionsListsN401817|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; buildStandbyTaskMapN402106|boolean time_millisecondsN403019"
+ , "c3" : "QC-JAV000007[00896] For method addClientAssignments list of called methods Object monObjet|V activeTaskAssignments_getN401477|java.util.Set populateActiveTaskAndPartitionsListsN401817|java.util.Map buildStandbyTaskMapN402106"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1805,7 +1964,7 @@ var maDataBlocs = {
  , "c1" : "01078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1078"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01078] For method assignTasksToThreads list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; assignment_getN409584|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; assignment_getN410938|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; assignment_getN411671|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; assignment_getN412910"
+ , "c3" : "QC-JAV000007[01078] For method assignTasksToThreads list of called methods Object monObjet|java.util.Collection threadLoad_valuesN408649|java.util.Collection assignment_getN409584|java.util.Collection assignment_getN410938|java.util.Collection assignment_getN411671|java.util.Collection assignment_getN412910"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2092,7 +2251,7 @@ var maDataBlocs = {
  , "c1" : "01245"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1245"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01245] For method onAssignment list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo AssignmentInfo_decodeN415763|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; getActiveTasksN417140|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; getActiveTasksN417800|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.common.PartitionInfo&gt; getTopicPartitionInfoN418055|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; getActiveTasksN418360|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.common.PartitionInfo&gt; getTopicPartitionInfoN418615|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; getActiveTasksN419068|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.common.PartitionInfo&gt; getTopicPartitionInfoN419323|org.apache.kafka.common.Cluster Cluster_emptyN419765"
+ , "c3" : "QC-JAV000007[01245] For method onAssignment list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo AssignmentInfo_decodeN415763|int info_versionN416333|int info_commonlySupportedVersionN416413|java.util.Map getActiveTasksN417140|java.util.Map getActiveTasksN417800|java.util.Map info_partitionsByHostN417907|java.util.Map getTopicPartitionInfoN418055|java.util.Map getActiveTasksN418360|java.util.Map info_partitionsByHostN418467|java.util.Map info_standbyPartitionByHostN418541|java.util.Map getTopicPartitionInfoN418615|java.util.Map getActiveTasksN419068|java.util.Map info_partitionsByHostN419175|java.util.Map info_standbyPartitionByHostN419249|java.util.Map getTopicPartitionInfoN419323|long info_nextRebalanceMsN419408|org.apache.kafka.common.Cluster Cluster_emptyN419765"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2309,7 +2468,7 @@ var maDataBlocs = {
  , "c1" : "01386"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1386"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01386] For method getActiveTasks list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt; info_activeTasksN422874"
+ , "c3" : "QC-JAV000007[01386] For method getActiveTasks list of called methods Object monObjet|V partitions_getN422775|java.util.List info_activeTasksN422874"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2477,7 +2636,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkMetadataVersions@POLYN380483"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.ClientMetadata.addPreviousTasksAndOffsetSums@POLYN366101"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2485,20 +2644,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assign@POLYN373130"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateTasksForMaps@POLYN383214"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkAllPartitions@POLYN384891"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2519,48 +2664,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assignTasksToClients@POLYN386243"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assign@POLYN373130 ending with method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assignTasksToClients@POLYN386243"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assign@POLYN373130"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assignTasksToClients@POLYN386243"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateActiveTaskAndPartitionsLists@POLYN403759"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.buildStandbyTaskMap@POLYN406236"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.addClientAssignments@POLYN400477"
 }} 
 ,
@@ -2574,29 +2677,8 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assignTasksToClients@POLYN386243 ending with method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assign@POLYN373130"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assignTasksToClients@POLYN386243"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assign@POLYN373130"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.maybeScheduleFollowupRebalance@POLYN420077"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateTasksForMaps@POLYN383214"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2604,13 +2686,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.AssignedPartition.hashCode@POLYN365095"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.ClientMetadata.addPreviousTasksAndOffsetSums@POLYN366101"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2632,69 +2707,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1440"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01440] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.updateMinSupportedVersion@POLYN424845 the MagicNumber/String 'Current minimum supported version remains at {}, last seen supported version was {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00468"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#468"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00468] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkMetadataVersions@POLYN380483 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00470"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#470"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00470] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkMetadataVersions@POLYN380483 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00471"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#471"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00471] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkMetadataVersions@POLYN380483 the MagicNumber/String 'Received a future -version probing- subscription -version: {}-.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00472"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#472"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00472] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkMetadataVersions@POLYN380483 the MagicNumber/String ' Sending assignment back -with supported version {}-.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00478"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#478"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00478] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkMetadataVersions@POLYN380483 the MagicNumber/String 'Received a future -version probing- subscription -version: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00479"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#479"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00479] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkMetadataVersions@POLYN380483 the MagicNumber/String '- and an incompatible pre Kafka 2.0 subscription -version: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00480"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#480"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00480] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkMetadataVersions@POLYN380483 the MagicNumber/String '- at the same time.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00485"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#485"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00485] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkMetadataVersions@POLYN380483 the MagicNumber/String 'Downgrade metadata to version {}. Latest supported version is {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00490"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#490"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00490] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkMetadataVersions@POLYN380483 the MagicNumber/String 'Downgrade latest supported metadata to version {}. Latest supported version is {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2789,55 +2801,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00554"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#554"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00554] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateTasksForMaps@POLYN383214 the MagicNumber/String 'Partition {} is assigned to more than one tasks: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00573"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#573"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00573] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkAllPartitions@POLYN384891 the MagicNumber/String 'No partitions found for topic {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00579"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#579"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00579] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkAllPartitions@POLYN384891 the MagicNumber/String 'Partition {} is not assigned to any tasks: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00580"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#580"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00580] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkAllPartitions@POLYN384891 the MagicNumber/String ' Possible causes of a partition not getting assigned' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00581"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#581"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00581] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkAllPartitions@POLYN384891 the MagicNumber/String ' is that another topic defined in the topology has not been' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00582"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#582"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00582] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkAllPartitions@POLYN384891 the MagicNumber/String ' created when starting your streams application,' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00583"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#583"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00583] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkAllPartitions@POLYN384891 the MagicNumber/String ' resulting in no tasks created for this topology at all.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00727"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#727"
  , "c2" : "BLOCKER"
@@ -2877,69 +2840,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#699"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00699] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateClientStatesMap@POLYN390098 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00603"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#603"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00603] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assignTasksToClients@POLYN386243 the MagicNumber/String 'The stateful tasks should not be populated before assigning tasks to clients' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00622"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#622"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00622] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assignTasksToClients@POLYN386243 the MagicNumber/String 'All members participating in this rebalance: \n{}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00624"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#624"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00624] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assignTasksToClients@POLYN386243 the MagicNumber/String ': ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00630"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#630"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00630] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assignTasksToClients@POLYN386243 the MagicNumber/String 'Assigning tasks {} including stateful {} to clients {} with number of replicas {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00640"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#640"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00640] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assignTasksToClients@POLYN386243 the MagicNumber/String 'Assigned tasks {} including stateful {} to clients as: \n{}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00642"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#642"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00642] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assignTasksToClients@POLYN386243 the MagicNumber/String '=' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00999"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#999"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00999] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateActiveTaskAndPartitionsLists@POLYN403759 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01005"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1005"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01005] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateActiveTaskAndPartitionsLists@POLYN403759 the MagicNumber/String 'Removing task {} from {} active assignment until it is safely revoked in followup rebalance' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1056"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01056] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.buildStandbyTaskMap@POLYN406236 the MagicNumber/String 'Adding removed stateful active task {} as a standby for {} before it is revoked in followup rebalance' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3097,66 +2997,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01349"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1349"
+ , "c1" : "00554"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#554"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01349] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.maybeScheduleFollowupRebalance@POLYN420077 the MagicNumber/String 'Requested to schedule immediate rebalance due to version probing.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01350"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1350"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01350] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.maybeScheduleFollowupRebalance@POLYN420077 the MagicNumber/String 0L MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01352"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1352"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01352] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.maybeScheduleFollowupRebalance@POLYN420077 the MagicNumber/String 'Requested to schedule immediate rebalance to update group with new host endpoint = {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01353"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1353"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01353] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.maybeScheduleFollowupRebalance@POLYN420077 the MagicNumber/String 0L MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01354"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1354"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01354] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.maybeScheduleFollowupRebalance@POLYN420077 the MagicNumber/String 0L MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01355"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1355"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01355] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.maybeScheduleFollowupRebalance@POLYN420077 the MagicNumber/String 'Requested to schedule immediate rebalance for new tasks to be safely revoked from current owner.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01356"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1356"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01356] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.maybeScheduleFollowupRebalance@POLYN420077 the MagicNumber/String 0L MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01358"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1358"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01358] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.maybeScheduleFollowupRebalance@POLYN420077 the MagicNumber/String 'Requested to schedule probing rebalance for {} ms.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01361"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1361"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01361] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.maybeScheduleFollowupRebalance@POLYN420077 the MagicNumber/String 'No followup rebalance was requested, resetting the rebalance schedule.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00554] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateTasksForMaps@POLYN383214 the MagicNumber/String 'Partition {} is assigned to more than one tasks: {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

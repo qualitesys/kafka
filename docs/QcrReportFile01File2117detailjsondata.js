@@ -103,6 +103,7 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
+{ "ligne" :  "R0:org.apache.kafka.streams.state.internals.RocksDbIterator.this" }
 ]
 ,
 "data12b" : [
@@ -167,7 +168,7 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00060] For method makeNext list of called methods Object monObjet|KeyValue&lt;Bytes,byte[]&gt; getKeyValueN152199"
+ , "c3" : "QC-JAV000007[00060] For method makeNext list of called methods Object monObjet|org.apache.kafka.streams.KeyValue getKeyValueN152199"
 }} 
 ,
 { "ligne" : {"" : ""

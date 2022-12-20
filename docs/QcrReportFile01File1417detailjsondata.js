@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java 68 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java 70 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.xml" 
  , "fic3"  : "" 
 }
@@ -114,23 +114,52 @@ var maDataBlocs = {
 "data12a" : [
 { "ligne" :  "R0:org.apache.kafka.raft.ReplicatedCounter.this" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166527.newLeader" }
+{ "ligne" :  "R1:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN162770.reader" }
+,
+{ "ligne" :  "R2:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN165236.reader" }
+,
+{ "ligne" :  "R3:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166527.newLeader" }
 ]
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166527 (R0 in line [00169],R1 in line [00169])" }
+{ "ligne" : "S0:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN162770 (R0 in line [00076],R1 in line [00076])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.raft.QuorumState.isLeader@POLYN231945" }
+{ "ligne" : "S0:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN162770 (R0 in line [00076],R1 in line [00076])" }
+,
+{ "ligne" : "S0:org.apache.kafka.raft.Batch.lastOffset@POLYN161886" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166527 (R0 in line [00169],R1 in line [00169])" }
+{ "ligne" : "S1:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN165236 (R0 in line [00139],R2 in line [00139])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166527 (R0 in line [00169],R1 in line [00169])" }
+{ "ligne" : "S1:org.apache.kafka.snapshot.RecordsSnapshotReader.next@POLYN154951" }
+ ]
+ } }
 ,
-{ "ligne" : "S1:org.apache.kafka.raft.QuorumState.isLeader@POLYN231945" }
+{ "sequence" : { "noseq" : "2" , "pas" : [
+{ "ligne" : "S2:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166527 (R0 in line [00169],R3 in line [00169])" }
+,
+{ "ligne" : "S2:org.apache.kafka.raft.QuorumState.isLeader@POLYN231945" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "3" , "pas" : [
+{ "ligne" : "S3:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN165236 (R0 in line [00139],R2 in line [00139])" }
+,
+{ "ligne" : "S3:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN165236 (R0 in line [00139],R2 in line [00139])" }
+,
+{ "ligne" : "S3:org.apache.kafka.snapshot.RecordsSnapshotReader.next@POLYN154951" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "4" , "pas" : [
+{ "ligne" : "S4:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166527 (R0 in line [00169],R3 in line [00169])" }
+,
+{ "ligne" : "S4:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166527 (R0 in line [00169],R3 in line [00169])" }
+,
+{ "ligne" : "S4:org.apache.kafka.raft.QuorumState.isLeader@POLYN231945" }
  ]
  } }
 ]
@@ -143,7 +172,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -481,7 +510,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166527.newLeader"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN162770.reader"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN165236.reader"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166527.newLeader"
 }} 
 ,
 { "ligne" : {"" : ""

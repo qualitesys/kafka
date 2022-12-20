@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java 22 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java 24 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.xml" 
  , "fic3"  : "" 
 }
@@ -114,6 +114,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -136,6 +143,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#47"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00047] For method serializeParts arguments String  topic|Change&lt;T &gt;  data"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#47"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00047] For method serializeParts list of called methods Object monObjet|org.apache.kafka.common.serialization.Serde innerSerdeN153732"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -185,6 +199,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#58"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00058] For method deserializeParts arguments String  topic|Change&lt;byte[] &gt;  serialChange"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#58"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00058] For method deserializeParts list of called methods Object monObjet|org.apache.kafka.common.serialization.Serde innerSerdeN154639"
 }} 
 ,
 { "ligne" : {"" : ""

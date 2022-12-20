@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java 23 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java 26 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -128,6 +128,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
+}}
  ] 
 ,
 "data13b" : [
@@ -136,6 +143,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#46"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00046] For method generateNextProducerId arguments int  brokerId|long  brokerEpoch"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#46"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00046] For method generateNextProducerId list of called methods Object monObjet|T nextProducerBlock_getN153602|long block_nextBlockFirstIdN154051"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -164,6 +178,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#65"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00065] For method replay arguments ProducerIdsRecord  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#65"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00065] For method replay list of called methods Object monObjet|T nextProducerBlock_getN154589"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -206,6 +227,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#76"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00076] For method iterator arguments long  epoch"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#76"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00076] For method iterator list of called methods Object monObjet|T nextProducerBlock_getN155536"
 }} 
 ,
 { "ligne" : {"" : ""

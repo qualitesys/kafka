@@ -235,7 +235,7 @@ var maDataBlocs = {
  , "c1" : "00245"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#245"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00245] For method deserializeTopicPartitionAssignment list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.MemberData assignment_getStringN220228"
+ , "c3" : "QC-JAV000007[00245] For method deserializeTopicPartitionAssignment list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.MemberData assignment_getStringN220228|boolean struct_hasFieldN220667"
 }} 
 ,
 { "ligne" : {"" : ""

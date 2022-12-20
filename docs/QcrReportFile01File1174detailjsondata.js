@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java 53 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java 57 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -241,7 +241,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -324,6 +324,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#91"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00091] For method putConnectorConfig list of called methods Object monObjet|V connectors_getN167182"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#93"
  , "c2" : "MAJOR"
@@ -352,6 +359,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#103"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00103] For method removeConnectorConfig list of called methods Object monObjet|V connectors_removeN167739"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#106"
  , "c2" : "MAJOR"
@@ -377,6 +391,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#111"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00111] For method removeTaskConfigs arguments String  connector"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#111"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00111] For method removeTaskConfigs list of called methods Object monObjet|V connectors_getN168090"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -418,7 +439,7 @@ var maDataBlocs = {
  , "c1" : "00124"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#124"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00124] For method putTaskConfigs list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.connect.util.ConnectorTaskId,java.util.Map&lt;java.lang.String,java.lang.String&gt;&gt; taskConfigListAsMapN169120"
+ , "c3" : "QC-JAV000007[00124] For method putTaskConfigs list of called methods Object monObjet|V connectors_getN168821|java.util.Map taskConfigListAsMapN169120"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -461,6 +482,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#141"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00141] For method putTargetState arguments String  connector|TargetState  state"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00141"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#141"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00141] For method putTargetState list of called methods Object monObjet|V connectors_getN169648"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectInputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectInputStream.java 864 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectInputStream.java 865 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.ObjectInputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -649,7 +649,7 @@ var maDataBlocs = {
  , "c2" : "2"
  , "c3" : "6"
  , "c4" : "3"
- , "c5" : ["java.lang.Object.toString@POLYN292446.return" , "java.io.ObjectInputStream.readEnum@POLYN844243.name"]
+ , "c5" : ["java.lang.StringBuilder.toString@POLYN235468.return" , "java.io.ObjectInputStream.readEnum@POLYN844243.name"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -842,7 +842,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "6"
  , "sourcenoligne" : "[03388]"
- , "c3" : ["java.lang.Object.toString@POLYN292446.return" , "---java.lang.Object.toString@POLYN292446" , "java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN908831.return"]
+ , "c3" : ["java.lang.StringBuilder.toString@POLYN235468.return" , "---java.lang.StringBuilder.toString@POLYN235468" , "java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN908831.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1400,7 +1400,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "40"
+ , "c4" : "41"
 }}
  ] 
 ,
@@ -1682,7 +1682,7 @@ var maDataBlocs = {
  , "c1" : "00739"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#739"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00739] For method resolveProxyClass list of called methods Object monObjet|ClassLoader latestUserDefinedLoaderN798362"
+ , "c3" : "QC-JAV000007[00739] For method resolveProxyClass list of called methods Object monObjet|ClassLoader latestUserDefinedLoaderN798362|java.lang.Class Class_forNameN798860"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2095,7 +2095,7 @@ var maDataBlocs = {
  , "c1" : "01418"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1418"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01418] For method verifySubclass list of called methods Object monObjet|java.lang.Class&lt;?&gt; getClassN821604|java.lang.Boolean Boolean_valueOfN822332"
+ , "c3" : "QC-JAV000007[01418] For method verifySubclass list of called methods Object monObjet|java.lang.Class getClassN821604|V Caches_subclassAudits_getN822158|java.lang.Boolean Boolean_valueOfN822332"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5876,6 +5876,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3662"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03662] For method markException arguments int  handle|ClassNotFoundException  ex"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03662"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3662"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03662] For method markException list of called methods Object monObjet|int dlist_sizeN922226"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java 42 rule violations " 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java 43 rule violations " 
  , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.xml" 
  , "fic3"  : "" 
 }
@@ -108,7 +108,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -272,6 +272,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#106"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00106] For method accept arguments List&lt;String &gt;  globComponents|int  componentIndex|MetadataNode  node|String[]  path"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#106"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00106] For method accept list of called methods Object monObjet|V globComponents_getN164660|java.lang.String globComponent_componentN165709"
 }} 
 ,
 { "ligne" : {"" : ""

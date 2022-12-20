@@ -294,7 +294,7 @@ var maDataBlocs = {
  , "c1" : "00097"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00097] For method executeFailed list of called methods Object monObjet|java.util.concurrent.Future&lt;java.lang.Void&gt; context_reportN193542"
+ , "c3" : "QC-JAV000007[00097] For method executeFailed list of called methods Object monObjet|java.util.concurrent.Future context_reportN193542"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -322,7 +322,7 @@ var maDataBlocs = {
  , "c1" : "00114"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#114"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00114] For method executeFailed list of called methods Object monObjet|java.util.concurrent.Future&lt;java.lang.Void&gt; context_reportN194413"
+ , "c3" : "QC-JAV000007[00114] For method executeFailed list of called methods Object monObjet|java.util.concurrent.Future context_reportN194413"
 }} 
 ,
 { "ligne" : {"" : ""

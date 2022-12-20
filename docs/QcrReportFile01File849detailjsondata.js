@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java 64 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java 65 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.xml" 
  , "fic3"  : "" 
 }
@@ -142,7 +142,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -295,6 +295,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#83"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00083] For method getName list of called methods Object monObjet|java.lang.String r_applyN169840"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#85"
  , "c2" : "MAJOR"
@@ -403,7 +410,7 @@ var maDataBlocs = {
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#129"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00129] For method apply list of called methods Object monObjet|java.lang.String distinguishedName_replaceAllN172125|int result_toLowerCaseN172431|int result_toUpperCaseN172627"
+ , "c3" : "QC-JAV000007[00129] For method apply list of called methods Object monObjet|java.lang.String distinguishedName_replaceAllN172125|java.lang.String result_toLowerCaseN172431|java.lang.String result_toUpperCaseN172627"
 }} 
 ,
 { "ligne" : {"" : ""

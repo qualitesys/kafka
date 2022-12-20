@@ -243,7 +243,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -271,7 +271,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -413,7 +413,7 @@ var maDataBlocs = {
  , "c1" : "00347"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#347"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00347] For method asJsonSchema list of called methods Object monObjet|ObjectNode asJsonSchemaN289672"
+ , "c3" : "QC-JAV000007[00347] For method asJsonSchema list of called methods Object monObjet|V fromConnectSchemaCache_getN287000|V JSON_NODE_FACTORY_objectNodeN288847|ObjectNode asJsonSchemaN289672"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -504,7 +504,7 @@ var maDataBlocs = {
  , "c1" : "00428"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#428"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00428] For method asConnectSchema list of called methods Object monObjet|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_boolN292661|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int8N292792|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int16N292923|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int32N293054|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int64N293185|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_float32N293316|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_float64N293447|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_bytesN293578|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_stringN293709|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_arrayN294115|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_mapN294762|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_structN294996"
+ , "c3" : "QC-JAV000007[00428] For method asConnectSchema list of called methods Object monObjet|V toConnectSchemaCache_getN292053|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_boolN292661|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int8N292792|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int16N292923|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int32N293054|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int64N293185|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_float32N293316|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_float64N293447|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_bytesN293578|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_stringN293709|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_arrayN294115|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_mapN294762|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_structN294996|org.apache.kafka.connect.data.Schema builder_buildN298433"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -708,6 +708,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#561"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00561] For method convertToJson arguments Schema  schema|Object  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00561"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#561"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00561] For method convertToJson list of called methods Object monObjet|V LOGICAL_CONVERTERS_getN300207"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -987,7 +994,7 @@ var maDataBlocs = {
  , "c1" : "00676"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#676"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00676] For method convertToConnect list of called methods Object monObjet|org.apache.kafka.connect.data.Schema.Type schema_typeN306998"
+ , "c3" : "QC-JAV000007[00676] For method convertToConnect list of called methods Object monObjet|org.apache.kafka.connect.data.Schema.Type schema_typeN306998|V TO_CONNECT_CONVERTERS_getN308602|V LOGICAL_CONVERTERS_getN308988"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1107,13 +1114,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.json.JsonConverter.asJsonSchema@POLYN286810"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.json.JsonConverter.configure@POLYN283201"
 }} 
 ,
 { "ligne" : {"" : ""

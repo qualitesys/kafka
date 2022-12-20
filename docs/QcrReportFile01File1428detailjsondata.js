@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java 27 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java 33 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.xml" 
  , "fic3"  : "" 
 }
@@ -220,6 +220,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "6"
+}}
  ] 
 ,
 "data13b" : [
@@ -235,6 +242,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#106"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00106] For method appendRecord arguments T  record|ObjectSerializationCache  serializationCache"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#106"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00106] For method appendRecord list of called methods Object monObjet|int writeRecordN190220"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -266,6 +280,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00138"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#138"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00138] For method bytesNeeded list of called methods Object monObjet|int bytesNeededForRecordsN190982"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#151"
  , "c2" : "MAJOR"
@@ -294,6 +315,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00236"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#236"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00236] For method writeDefaultBatchHeader list of called methods Object monObjet|java.nio.ByteBuffer batchOutput_bufferN193851"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00257"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#257"
  , "c2" : "MAJOR"
@@ -308,6 +336,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00267"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#267"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00267] For method build list of called methods Object monObjet|java.nio.ByteBuffer batchOutput_bufferN194978"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00273"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#273"
  , "c2" : "MAJOR"
@@ -319,6 +354,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#277"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00277] For method writeRecord arguments long  offset|T  payload|ObjectSerializationCache  serializationCache"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00277"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#277"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00277] For method writeRecord list of called methods Object monObjet|int serde_recordSizeN195644|int DefaultRecord_sizeOfBodyInBytesN195760"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -361,6 +403,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#321"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00321] For method bytesNeededForRecords arguments Collection&lt;T &gt;  records|ObjectSerializationCache  serializationCache"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00321"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#321"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00321] For method bytesNeededForRecords list of called methods Object monObjet|int DefaultRecord_sizeOfBodyInBytesN197465"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileRecords.java 102 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileRecords.java 105 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.xml" 
  , "fic3"  : "" 
 }
@@ -408,7 +408,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "10"
 }}
  ] 
 ,
@@ -690,7 +690,7 @@ var maDataBlocs = {
  , "c1" : "00277"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#277"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00277] For method downConvert list of called methods Object monObjet|org.apache.kafka.common.record.ConvertedRecords&lt;org.apache.kafka.common.record.MemoryRecords&gt; RecordsUtil_downConvertN239453"
+ , "c3" : "QC-JAV000007[00277] For method downConvert list of called methods Object monObjet|org.apache.kafka.common.record.ConvertedRecords RecordsUtil_downConvertN239453"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -736,6 +736,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00315"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#315"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00315] For method searchForOffsetWithSize list of called methods Object monObjet|long batch_lastOffsetN241328"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00321"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#321"
  , "c2" : "MAJOR"
@@ -747,6 +754,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#335"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00335] For method searchForTimestamp arguments long  targetTimestamp|int  startingPosition|long  startingOffset"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00335"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#335"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00335] For method searchForTimestamp list of called methods Object monObjet|long record_timestampN242415"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -768,6 +782,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#355"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00355] For method largestTimestampAfter arguments int  startingPosition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00355"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#355"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00355] For method largestTimestampAfter list of called methods Object monObjet|long batch_maxTimestampN243355|long batch_lastOffsetN243554|int batch_partitionLeaderEpochN243628"
 }} 
 ,
 { "ligne" : {"" : ""

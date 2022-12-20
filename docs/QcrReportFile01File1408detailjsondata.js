@@ -1086,20 +1086,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.QuorumState.initialize@POLYN213776"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.QuorumState.transitionTo@POLYN228158"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.QuorumState.epoch@POLYN218544"
 }} 
 ,
@@ -1108,6 +1094,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.QuorumState.transitionToResigned@POLYN219990"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.QuorumState.initialize@POLYN213776"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.QuorumState.transitionTo@POLYN228158"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1157,6 +1157,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.QuorumState.resignedStateOrThrow@POLYN230910"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00274"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#274"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00274] In the recursive method org.apache.kafka.raft.QuorumState.transitionToResigned@POLYN219990 the MagicNumber/String 'Invalid transition to Resigned state from ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#289"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.raft.QuorumState.transitionToResigned@POLYN219990 the MagicNumber/String 'Completed transition to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1297,20 +1311,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#479"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00479] In the recursive method org.apache.kafka.raft.QuorumState.transitionTo@POLYN228158 the MagicNumber/String 'Completed transition to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#274"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00274] In the recursive method org.apache.kafka.raft.QuorumState.transitionToResigned@POLYN219990 the MagicNumber/String 'Invalid transition to Resigned state from ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00289"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#289"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.raft.QuorumState.transitionToResigned@POLYN219990 the MagicNumber/String 'Completed transition to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

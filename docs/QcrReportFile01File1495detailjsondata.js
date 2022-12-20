@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.util.HashMap.java.html" 
- , "texte" : "File secujava/java.util.HashMap.java 823 rule violations " 
+ , "texte" : "File secujava/java.util.HashMap.java 857 rule violations " 
  , "fic2"  : "./qc/secujava/java.util.HashMap.java.xml" 
  , "fic3"  : "" 
 }
@@ -501,10 +501,448 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1495Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1495&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "3"
+ , "c4" : "3"
+ , "c5" : ["java.util.HashMap.newNode@POLYN691081.return" , "java.util.HashMap.afterNodeAccess@POLYN693006.p"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1495Seq2.html#seq2"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1495&numSeq=2"
+ , "c2" : "2"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.compute@POLYN656638.tab" , "java.util.HashMap.treeify@POLYN701012.tab"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1495Seq3.html#seq3"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1495&numSeq=3"
+ , "c2" : "3"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.computeIfAbsent@POLYN651506.tab" , "java.util.HashMap.treeify@POLYN701012.tab"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1495Seq4.html#seq4"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1495&numSeq=4"
+ , "c2" : "4"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.merge@POLYN660563.tab" , "java.util.HashMap.treeify@POLYN701012.tab"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1495Seq5.html#seq5"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1495&numSeq=5"
+ , "c2" : "5"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.putVal@POLYN621198.tab" , "java.util.HashMap.treeify@POLYN701012.tab"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1495Seq6.html#seq6"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1495&numSeq=6"
+ , "c2" : "6"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.capacity@POLYN667933.return" , "java.io.ObjectOutputStream.writeInt@POLYN571987.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00640]"
+ , "c3" : ["java.util.HashMap.newNode@POLYN691081.return" , "---java.util.HashMap.newNode@POLYN691081" , "java.util.HashMap.putVal@POLYN621198.p"]
+ , "c4" : "//QC-JAVCWZ099[00640] In java.util.HashMap.putVal@POLYN621198[00640] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00634]"
+ , "c3" : ["java.util.HashMap.putVal@POLYN621198.p" , "---dummymethode" , "java.util.HashMap.putVal@POLYN621198.e"]
+ , "c4" : "//QC-JAVCWZ099[00634] In java.util.HashMap.putVal@POLYN621198[00634] source or target data PATHtainted (java.util.HashMap)"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00655]"
+ , "c3" : ["java.util.HashMap.putVal@POLYN621198.e" , "---java.util.HashMap.afterNodeAccess@POLYN693006" , "java.util.HashMap.afterNodeAccess@POLYN693006.p"]
+ , "c4" : "//QC-JAVCWZ099[00655] In java.util.HashMap.putVal@POLYN621198[00655] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "2" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01210]"
+ , "c3" : ["java.util.HashMap.compute@POLYN656638.tab" , "---java.util.HashMap.treeifyBin@POLYN629748" , "java.util.HashMap.treeifyBin@POLYN629748.tab"]
+ , "c4" : "//QC-JAVCWZ099[01210] In java.util.HashMap.compute@POLYN656638[01210] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00770]"
+ , "c3" : ["java.util.HashMap.treeifyBin@POLYN629748.tab" , "---java.util.HashMap.treeify@POLYN701012" , "java.util.HashMap.treeify@POLYN701012.tab"]
+ , "c4" : "//QC-JAVCWZ099[00770] In java.util.HashMap.treeifyBin@POLYN629748[00770] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "3" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01138]"
+ , "c3" : ["java.util.HashMap.computeIfAbsent@POLYN651506.tab" , "---java.util.HashMap.treeifyBin@POLYN629748" , "java.util.HashMap.treeifyBin@POLYN629748.tab"]
+ , "c4" : "//QC-JAVCWZ099[01138] In java.util.HashMap.computeIfAbsent@POLYN651506[01138] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00770]"
+ , "c3" : ["java.util.HashMap.treeifyBin@POLYN629748.tab" , "---java.util.HashMap.treeify@POLYN701012" , "java.util.HashMap.treeify@POLYN701012.tab"]
+ , "c4" : "//QC-JAVCWZ099[00770] In java.util.HashMap.treeifyBin@POLYN629748[00770] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "4" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01269]"
+ , "c3" : ["java.util.HashMap.merge@POLYN660563.tab" , "---java.util.HashMap.treeifyBin@POLYN629748" , "java.util.HashMap.treeifyBin@POLYN629748.tab"]
+ , "c4" : "//QC-JAVCWZ099[01269] In java.util.HashMap.merge@POLYN660563[01269] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00770]"
+ , "c3" : ["java.util.HashMap.treeifyBin@POLYN629748.tab" , "---java.util.HashMap.treeify@POLYN701012" , "java.util.HashMap.treeify@POLYN701012.tab"]
+ , "c4" : "//QC-JAVCWZ099[00770] In java.util.HashMap.treeifyBin@POLYN629748[00770] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "5" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00642]"
+ , "c3" : ["java.util.HashMap.putVal@POLYN621198.tab" , "---java.util.HashMap.treeifyBin@POLYN629748" , "java.util.HashMap.treeifyBin@POLYN629748.tab"]
+ , "c4" : "//QC-JAVCWZ099[00642] In java.util.HashMap.putVal@POLYN621198[00642] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00770]"
+ , "c3" : ["java.util.HashMap.treeifyBin@POLYN629748.tab" , "---java.util.HashMap.treeify@POLYN701012" , "java.util.HashMap.treeify@POLYN701012.tab"]
+ , "c4" : "//QC-JAVCWZ099[00770] In java.util.HashMap.treeifyBin@POLYN629748[00770] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "6" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01356]"
+ , "c3" : ["java.util.HashMap.capacity@POLYN667933.return" , "---java.util.HashMap.capacity@POLYN667933" , "java.util.HashMap.writeObject@POLYN668597.buckets"]
+ , "c4" : "//QC-JAVCWZ099[01356] In java.util.HashMap.writeObject@POLYN668597[01356] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01359]"
+ , "c3" : ["java.util.HashMap.writeObject@POLYN668597.buckets" , "---java.io.ObjectOutputStream.writeInt@POLYN571987" , "java.io.ObjectOutputStream.writeInt@POLYN571987.val"]
+ , "c4" : "//QC-JAVCWZ099[01359] In java.util.HashMap.writeObject@POLYN668597[01359] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 
 "data14" : [
+]
+, 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
 ]
 , 
 "data13a" : [
@@ -523,10 +961,24 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -562,6 +1014,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "60"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "28"
 }}
  ] 
 ,
@@ -616,6 +1075,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00336"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#336"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00336] For method hash list of called methods Object monObjet|int key_hashCodeN608577"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00338"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#338"
  , "c2" : "MAJOR"
@@ -648,6 +1114,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#344"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00344] For method comparableClassFor arguments Object  x"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00344"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#344"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00344] For method comparableClassFor list of called methods Object monObjet|java.lang.Class x_getClassN609116"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -875,6 +1348,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00498"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#498"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00498] For method putMapEntries list of called methods Object monObjet|int m_sizeN614937|int tableSizeForN615558"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00511"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#511"
  , "c2" : "MAJOR"
@@ -928,6 +1408,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#553"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00553] For method get arguments Object  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00553"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#553"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00553] For method get list of called methods Object monObjet|Node getNodeN617497"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1110,6 +1597,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#623"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00623] For method putVal arguments int  hash|K  key|V  value|boolean  onlyIfAbsent|boolean  evict"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00623"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#623"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00623] For method putVal list of called methods Object monObjet|Node[] resizeN621814|Node newNodeN622145|Node newNodeN623351"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1519,6 +2013,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00753"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#753"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00753] For method treeifyBin list of called methods Object monObjet|TreeNode replacementTreeNodeN630640"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00755"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#755"
  , "c2" : "MAJOR"
@@ -1635,6 +2136,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#795"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00795] For method remove arguments Object  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00795"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#795"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00795] For method remove list of called methods Object monObjet|Node removeNodeN632312"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2184,6 +2692,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01014"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1014"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01014] For method contains list of called methods Object monObjet|Node getNodeN646518"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01016"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1016"
  , "c2" : "MAJOR"
@@ -2317,6 +2832,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01053"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1053"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01053] For method getOrDefault list of called methods Object monObjet|Node getNodeN649150"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01055"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1055"
  , "c2" : "MAJOR"
@@ -2387,6 +2909,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01069"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1069"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01069] For method replace list of called methods Object monObjet|Node getNodeN650252"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01071"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1071"
  , "c2" : "MAJOR"
@@ -2436,6 +2965,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01081"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1081"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01081] For method replace list of called methods Object monObjet|Node getNodeN651078"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01083"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1083"
  , "c2" : "MAJOR"
@@ -2461,6 +2997,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1093"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01093] For method computeIfAbsent arguments K  key|Function&lt;? super K ,?  extends V &gt;  mappingFunction"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01093"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1093"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01093] For method computeIfAbsent list of called methods Object monObjet|Node[] resizeN652581|Node newNodeN654870"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2639,6 +3182,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01146"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1146"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01146] For method computeIfPresent list of called methods Object monObjet|Node getNodeN655856"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01152"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1152"
  , "c2" : "MAJOR"
@@ -2713,6 +3263,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1167"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01167] For method compute arguments K  key|BiFunction&lt;? super K ,? super V ,?  extends V &gt;  remappingFunction"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01167"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1167"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01167] For method compute list of called methods Object monObjet|Node[] resizeN657735|Node newNodeN660068"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2902,6 +3459,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1220"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01220] For method merge arguments K  key|V  value|BiFunction&lt;? super V ,? super V ,?  extends V &gt;  remappingFunction"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01220"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1220"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01220] For method merge list of called methods Object monObjet|Node[] resizeN661795|Node newNodeN664166"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3213,10 +3777,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01354"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1354"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01354] For method writeObject list of called methods Object monObjet|int capacityN668718"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01368"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1368"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01368] For method readObject arguments java.io.ObjectInputStream  s"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01368"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1368"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01368] For method readObject list of called methods Object monObjet|int s_readIntN669594"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3514,6 +4092,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01520"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1520"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01520] For method trySplit list of called methods Object monObjet|int getFenceN677504"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01521"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1521"
  , "c2" : "MAJOR"
@@ -3647,6 +4232,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01556"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1556"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01556] For method tryAdvance list of called methods Object monObjet|int getFenceN680469"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01561"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1561"
  , "c2" : "MAJOR"
@@ -3721,6 +4313,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1579"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01579] In method java.util.HashMap.KeySpliterator.characteristics@POLYN681244 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01592"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1592"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01592] For method trySplit list of called methods Object monObjet|int getFenceN682114"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3857,6 +4456,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01628"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1628"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01628] For method tryAdvance list of called methods Object monObjet|int getFenceN685079"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01633"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1633"
  , "c2" : "MAJOR"
@@ -3931,6 +4537,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1651"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01651] In method java.util.HashMap.ValueSpliterator.characteristics@POLYN685854 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01663"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1663"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01663] For method trySplit list of called methods Object monObjet|int getFenceN686739"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4064,6 +4677,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1699"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01699] For method tryAdvance arguments Consumer&lt;? super Map.Entry&lt;K ,V &gt; &gt;  action"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01699"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1699"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01699] For method tryAdvance list of called methods Object monObjet|int getFenceN689786"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4375,6 +4995,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01849"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1849"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01849] For method find list of called methods Object monObjet|java.lang.Class comparableClassForN698883|int compareComparablesN699007"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01852"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1852"
  , "c2" : "MAJOR"
@@ -4522,6 +5149,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01890"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1890"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01890] For method tieBreakOrder list of called methods Object monObjet|java.lang.Class a_getClassN700508"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01893"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1893"
  , "c2" : "MAJOR"
@@ -4568,6 +5202,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1904"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01904] For method treeify arguments Node&lt;K ,V &gt;[]  tab"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01904"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1904"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01904] For method treeify list of called methods Object monObjet|java.lang.Class comparableClassForN702810|int compareComparablesN702934|int tieBreakOrderN703086"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4762,6 +5403,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01950"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1950"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01950] For method untreeify list of called methods Object monObjet|Node map_replacementNodeN704607"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01950"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1950"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01950] The argument map is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -4813,6 +5461,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1966"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01966] For method putTreeVal arguments HashMap&lt;K ,V &gt;  map|Node&lt;K ,V &gt;[]  tab|int  h|K  k|V  v"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01966"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1966"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01966] For method putTreeVal list of called methods Object monObjet|java.lang.Class comparableClassForN706494|int compareComparablesN706618|int tieBreakOrderN707611|TreeNode map_newTreeNodeN708174"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6325,6 +6980,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1775"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[01775] Void method afterNodeRemoval is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.util.HashMap.replaceAll@POLYN665838"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01297"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1297"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01297] In the recursive method java.util.HashMap.replaceAll@POLYN665838 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01299"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1299"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01299] In the recursive method java.util.HashMap.replaceAll@POLYN665838 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01299"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1299"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01299] In the recursive method java.util.HashMap.replaceAll@POLYN665838 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01301"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1301"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01301] In the recursive method java.util.HashMap.replaceAll@POLYN665838 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01302"
+ , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1302"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01302] In the recursive method java.util.HashMap.replaceAll@POLYN665838 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

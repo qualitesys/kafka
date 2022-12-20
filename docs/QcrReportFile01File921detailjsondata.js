@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Utils.java 307 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Utils.java 308 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.xml" 
  , "fic3"  : "" 
 }
@@ -616,7 +616,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "3"
  , "c4" : "2"
- , "c5" : ["java.io.InputStream.read@POLYN245566.return" , "java.io.InputStream.read@POLYN245566.off"]
+ , "c5" : ["java.io.BufferedInputStream.read@POLYN244052.return" , "java.io.BufferedInputStream.read@POLYN244052.off"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -632,8 +632,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[01117]"
- , "c3" : ["java.io.InputStream.read@POLYN245566.return" , "---java.io.InputStream.read@POLYN245566" , "org.apache.kafka.common.utils.Utils.readFully@POLYN454711.bytesRead"]
- , "c4" : "//QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN454711[01117] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c3" : ["java.io.BufferedInputStream.read@POLYN244052.return" , "---java.io.BufferedInputStream.read@POLYN244052" , "org.apache.kafka.common.utils.Utils.readFully@POLYN454711.bytesRead"]
+ , "c4" : "//QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN454711[01117] source data PATHtainted (java.io.BufferedInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -648,8 +648,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[01117]"
- , "c3" : ["org.apache.kafka.common.utils.Utils.readFully@POLYN454711.currentPosition" , "---java.io.InputStream.read@POLYN245566" , "java.io.InputStream.read@POLYN245566.off"]
- , "c4" : "//QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN454711[01117] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c3" : ["org.apache.kafka.common.utils.Utils.readFully@POLYN454711.currentPosition" , "---java.io.BufferedInputStream.read@POLYN244052" , "java.io.BufferedInputStream.read@POLYN244052.off"]
+ , "c4" : "//QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN454711[01117] source data PATHtainted (java.io.BufferedInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -762,7 +762,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -2263,6 +2263,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1110"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01110] For method readFully arguments FileChannel  channel|ByteBuffer  destinationBuffer|long  position"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01110"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1110"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01110] For method readFully list of called methods Object monObjet|int channel_readN455142"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/CandidateState.java 39 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/CandidateState.java 41 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.xml" 
  , "fic3"  : "" 
 }
@@ -349,6 +349,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "9"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -402,6 +409,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#131"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00131] For method recordGrantedVote list of called methods Object monObjet|V voteStates_getN180223"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#133"
  , "c2" : "MAJOR"
@@ -434,6 +448,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#150"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00150] For method recordRejectedVote arguments int  remoteNodeId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#150"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00150] For method recordRejectedVote list of called methods Object monObjet|V voteStates_getN181099"
 }} 
 ,
 { "ligne" : {"" : ""

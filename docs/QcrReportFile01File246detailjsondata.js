@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java 298 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java 286 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.xml" 
  , "fic3"  : "" 
 }
@@ -321,6 +321,82 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File246Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=246&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.get@POLYN617315.return" , "java.util.HashMap.put@POLYN620675.value"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00214]"
+ , "c3" : ["java.util.HashMap.get@POLYN617315.return" , "---java.util.HashMap.get@POLYN617315" , "org.apache.kafka.clients.producer.internals.Sender.addToInflightBatches@POLYN303929.inflightBatchList"]
+ , "c4" : "//QC-JAVCWE099[00214] In org.apache.kafka.clients.producer.internals.Sender.addToInflightBatches@POLYN303929[00214] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00217]"
+ , "c3" : ["org.apache.kafka.clients.producer.internals.Sender.addToInflightBatches@POLYN303929.inflightBatchList" , "---java.util.HashMap.put@POLYN620675" , "java.util.HashMap.put@POLYN620675.value"]
+ , "c4" : "//QC-JAVCWE099[00217] In org.apache.kafka.clients.producer.internals.Sender.addToInflightBatches@POLYN303929[00217] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 
@@ -341,7 +417,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "61"
+ , "c4" : "48"
 }}
 ,
 { "ligne" : { "" : ""
@@ -355,7 +431,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "8"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -383,7 +459,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "11"
 }}
  ] 
 ,
@@ -420,7 +496,7 @@ var maDataBlocs = {
  , "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#160"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00160] For method maybeRemoveFromInflightBatches list of called methods Object monObjet|org.apache.kafka.clients.NodeApiVersions inFlightBatches_getN301466"
+ , "c3" : "QC-JAV000007[00160] For method maybeRemoveFromInflightBatches list of called methods Object monObjet|V inFlightBatches_getN301466"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -449,6 +525,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#178"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00178] For method getExpiredInflightBatches arguments long  now"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00178"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#178"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00178] For method getExpiredInflightBatches list of called methods Object monObjet|java.util.Set inFlightBatches_entrySetN302433"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -518,7 +601,7 @@ var maDataBlocs = {
  , "c1" : "00212"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#212"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00212] For method addToInflightBatches list of called methods Object monObjet|org.apache.kafka.clients.NodeApiVersions inFlightBatches_getN304138"
+ , "c3" : "QC-JAV000007[00212] For method addToInflightBatches list of called methods Object monObjet|V inFlightBatches_getN304138"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -707,7 +790,7 @@ var maDataBlocs = {
  , "c1" : "00331"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#331"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00331] For method sendProducerData list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getExpiredInflightBatchesN310922"
+ , "c3" : "QC-JAV000007[00331] For method sendProducerData list of called methods Object monObjet|java.util.List getExpiredInflightBatchesN310922"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1043,7 +1126,7 @@ var maDataBlocs = {
  , "c1" : "00549"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#549"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00549] For method handleProduceResponse list of called methods Object monObjet|org.apache.kafka.common.requests.RequestHeader response_requestHeaderN318645"
+ , "c3" : "QC-JAV000007[00549] For method handleProduceResponse list of called methods Object monObjet|org.apache.kafka.common.requests.RequestHeader response_requestHeaderN318645|int requestHeader_correlationIdN318720|V batches_getN321207"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1273,6 +1356,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00691"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#691"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00691] For method failBatch list of called methods Object monObjet|V recordErrorMap_getN328482"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00691"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#691"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00691] The argument batch is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1428,7 +1518,7 @@ var maDataBlocs = {
  , "c1" : "00796"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#796"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00796] For method sendProduceRequest list of called methods Object monObjet|byte apiVersions_maxUsableProduceMagicN331691|java.lang.String transactionManager_transactionalIdN333448|org.apache.kafka.common.requests.ProduceRequest.Builder ProduceRequest_forMagicN333534|java.lang.String Integer_toStringN334001|org.apache.kafka.clients.ClientRequest client_newClientRequestN334095"
+ , "c3" : "QC-JAV000007[00796] For method sendProduceRequest list of called methods Object monObjet|byte apiVersions_maxUsableProduceMagicN331691|byte batch_magicN331915|org.apache.kafka.common.record.MemoryRecords batch_recordsN332220|org.apache.kafka.common.record.MemoryRecords batch_recordsN332376|java.lang.String transactionManager_transactionalIdN333448|org.apache.kafka.common.requests.ProduceRequest.Builder ProduceRequest_forMagicN333534|java.lang.String Integer_toStringN334001|org.apache.kafka.clients.ClientRequest client_newClientRequestN334095"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1728,6 +1818,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00962"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#962"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00962] For method updateProduceRequestMetrics list of called methods Object monObjet|java.lang.String batch_topicPartition_topicN342695"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00962"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#962"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00962] The argument batches is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2009,20 +2106,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN308495"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.Sender.addToInflightBatches@POLYN304544"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN331244"
 }} 
 ,
@@ -2073,97 +2156,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#321"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00321] In the recursive method org.apache.kafka.clients.producer.internals.Sender.runOnce@POLYN307305 the MagicNumber/String 'Authentication exception while processing transactional request' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00344"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#344"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00344] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN308495 the MagicNumber/String 'Requesting metadata update due to unknown leader topics from the batched records: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00358"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#358"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00358] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN308495 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00364"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#364"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00364] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN308495 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00388"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#388"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00388] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN308495 the MagicNumber/String 'Expired {} batches in accumulator' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00390"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#390"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00390] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN308495 the MagicNumber/String ' record-s- for ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00390"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#390"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00390] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN308495 the MagicNumber/String 'Expiring ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00391"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#391"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00391] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN308495 the MagicNumber/String ' ms has passed since batch creation' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00391"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#391"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00391] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN308495 the MagicNumber/String ':' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00392"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#392"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00392] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN308495 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00393"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#393"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00393] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN308495 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00407"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#407"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00407] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN308495 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00409"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#409"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00409] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN308495 the MagicNumber/String 'Nodes with data ready to send: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00414"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#414"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00414] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN308495 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

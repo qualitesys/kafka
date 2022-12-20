@@ -94,6 +94,13 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
+{ "ligne" :  "R0:org.apache.kafka.clients.ApiVersions.this" }
+,
+{ "ligne" :  "R1:org.apache.kafka.clients.ApiVersions.update@POLYN148557.nodeId" }
+,
+{ "ligne" :  "R2:org.apache.kafka.clients.ApiVersions.update@POLYN148557.nodeApiVersions" }
+,
+{ "ligne" :  "R3:org.apache.kafka.clients.ApiVersions.remove@POLYN148829.nodeId" }
 ]
 ,
 "data12b" : [

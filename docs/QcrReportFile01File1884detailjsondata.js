@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java 15 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java 13 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.xml" 
  , "fic3"  : "" 
 }
@@ -102,35 +102,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -158,7 +135,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -174,7 +151,7 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00067] For method initialize list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; stateMgr_initializeN162871|java.util.Map&lt;java.lang.String,java.lang.String&gt; topology_storeToChangelogTopicN162988|org.apache.kafka.streams.processor.internals.SourceNode&lt;?,?&gt; topology_sourceN163269"
+ , "c3" : "QC-JAV000007[00067] For method initialize list of called methods Object monObjet|java.util.Set stateMgr_initializeN162871|java.util.Map topology_storeToChangelogTopicN162988|V storeNameToTopic_getN163145|org.apache.kafka.streams.processor.internals.SourceNode topology_sourceN163269"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -196,6 +173,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#94"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00094] For method update arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#94"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00094] For method update list of called methods Object monObjet|V deserializers_getN164066|org.apache.kafka.clients.consumer.ConsumerRecord sourceNodeAndDeserializer_deserializeN164222"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -245,27 +229,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#148"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.processor.internals.GlobalStateUpdateTask.initTopology@POLYN166302 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStateUpdateTask.close@POLYN165745"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#133"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateUpdateTask.close@POLYN165745 the MagicNumber/String 'Deleting global task directory after detecting corruption.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#136"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00136] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateUpdateTask.close@POLYN165745 the MagicNumber/String 'Failed to delete global task directory after detecting corruption.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

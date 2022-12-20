@@ -217,7 +217,7 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00046] For method generateAndWrite list of called methods Object monObjet|java.util.Iterator&lt;org.apache.kafka.message.StructRegistry.StructInfo&gt; structRegistry_structsN229211"
+ , "c3" : "QC-JAV000007[00046] For method generateAndWrite list of called methods Object monObjet|java.util.Iterator structRegistry_structsN229211"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -294,7 +294,7 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00083] For method generateRead list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN231734|java.lang.String String_formatN231942"
+ , "c3" : "QC-JAV000007[00083] For method generateRead list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN231734|java.lang.String String_formatN231942|org.apache.kafka.message.Versions field_versionsN232364"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java 19 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java 21 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.xml" 
  , "fic3"  : "" 
 }
@@ -150,6 +150,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "12"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -161,10 +168,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#91"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00091] For method joinMerger list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters mergeProcessorParametersN173298"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#99"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00099] For method writeToTopology arguments InternalTopologyBuilder  topologyBuilder"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#99"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00099] For method writeToTopology list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters thisProcessorParametersN173559|org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters otherProcessorParametersN173651|org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters mergeProcessorParametersN173743"
 }} 
 ,
 { "ligne" : {"" : ""

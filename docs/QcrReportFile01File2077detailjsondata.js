@@ -174,7 +174,7 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00044] For method range list of called methods Object monObjet|TreeMap&lt;Bytes,byte[]&gt; toTreeMapN167273|java.util.Iterator&lt;org.apache.kafka.common.utils.Bytes&gt; getIteratorN167366"
+ , "c3" : "QC-JAV000007[00044] For method range list of called methods Object monObjet|java.util.TreeMap toTreeMapN167273|java.util.Iterator getIteratorN167366"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -244,7 +244,7 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00060] For method reverseRange list of called methods Object monObjet|TreeMap&lt;Bytes,byte[]&gt; toTreeMapN168368|java.util.Iterator&lt;org.apache.kafka.common.utils.Bytes&gt; getIteratorN168461"
+ , "c3" : "QC-JAV000007[00060] For method reverseRange list of called methods Object monObjet|java.util.TreeMap toTreeMapN168368|java.util.Iterator getIteratorN168461"
 }} 
 ,
 { "ligne" : {"" : ""

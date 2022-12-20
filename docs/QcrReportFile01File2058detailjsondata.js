@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java 97 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java 122 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.xml" 
  , "fic3"  : "" 
 }
@@ -282,7 +282,30 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999995"
+ , "c3" : "Recursivity with depth over 1 between method xx and method yy"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "6"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -309,6 +332,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "15"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "13"
 }}
  ] 
 ,
@@ -370,6 +400,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00202"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#202"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00202] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.InternalProcessorContext ProcessorContextUtils_asInternalProcessorContextN232783|java.lang.String ProcessorContextUtils_changelogForN232876"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#209"
  , "c2" : "MINOR"
@@ -377,10 +414,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00209"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#209"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00209] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.InternalProcessorContext ProcessorContextUtils_asInternalProcessorContextN233214|java.lang.String ProcessorContextUtils_changelogForN233307"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00215"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#215"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00215] For method init arguments StateStore  root"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00215"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#215"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00215] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId context_taskIdN233593|org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl context_metricsN233687|org.apache.kafka.common.metrics.Sensor StateStoreMetrics_suppressionBufferSizeSensorN233761|org.apache.kafka.common.metrics.Sensor StateStoreMetrics_suppressionBufferCountSensorN233920|org.apache.kafka.streams.processor.TaskId context_taskIdN234309"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -412,6 +463,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00261"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#261"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00261] For method flush list of called methods Object monObjet|V index_getN235352|V sortedMap_getN235606"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00266"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#266"
  , "c2" : "MAJOR"
@@ -437,6 +495,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#281"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00281] For method logValue arguments Bytes  key|BufferKey  bufferKey|BufferValue  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00281"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#281"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00281] For method logValue list of called methods Object monObjet|java.nio.ByteBuffer value_serializeN236063"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -521,6 +586,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#314"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00314] For method restoreBatch arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  batch"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00314"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#314"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00314] For method restoreBatch list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes Bytes_wrapN237629|V index_removeN237841|V sortedMap_removeN238013|long computeRecordSizeN238179|boolean sortedMap_isEmptyN238400|org.apache.kafka.common.header.Headers record_headersN238597|boolean index_containsKeyN238797|boolean index_containsKeyN240231"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -652,6 +724,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00396"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#396"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00396] For method evictWhile list of called methods Object monObjet|java.util.Set sortedMap_entrySetN241129"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00396"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#396"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00396] The argument predicate is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -755,10 +834,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00450"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#450"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00450] For method priorValueForBuffered list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes Bytes_wrapN243976|byte[] internalPriorValueForBufferedN244250"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00469"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#469"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00469] For method internalPriorValueForBuffered arguments Bytes  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00469"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#469"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00469] For method internalPriorValueForBuffered list of called methods Object monObjet|V index_getN244802|V sortedMap_getN245112"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -787,6 +880,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#480"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00480] For method put arguments long  time|Record&lt;K ,Change&lt;V &gt; &gt;  record|ProcessorRecordContext  recordContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00480"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#480"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00480] For method put list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes Bytes_wrapN245655|org.apache.kafka.streams.state.internals.BufferValue getBufferedN246023|byte[] buffered_priorValueN246302"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -825,6 +925,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00508"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#508"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00508] For method getBuffered list of called methods Object monObjet|V index_getN246857"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00510"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#510"
  , "c2" : "MAJOR"
@@ -843,6 +950,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#513"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00513] For method cleanPut arguments long  time|Bytes  key|BufferValue  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00513"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#513"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00513] For method cleanPut list of called methods Object monObjet|V index_getN247220|long computeRecordSizeN247807|V sortedMap_putN247939"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -871,6 +985,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#549"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00549] For method computeRecordSize arguments Bytes  key|BufferValue  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00549"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#549"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00549] For method computeRecordSize list of called methods Object monObjet|byte[] key_getN248897|long value_residentMemorySizeEstimateN249056"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -990,6 +1111,90 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#576"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00576] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.toString@POLYN249446 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.put@POLYN245246 ending with method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.cleanPut@POLYN247063"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.put@POLYN245246"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.cleanPut@POLYN247063"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.cleanPut@POLYN247063 ending with method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.put@POLYN245246"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.cleanPut@POLYN247063"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.put@POLYN245246"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00483"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#483"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00483] In the recursive method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.put@POLYN245246 the MagicNumber/String 'value cannot be null' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00484"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#484"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00484] In the recursive method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.put@POLYN245246 the MagicNumber/String 'recordContext cannot be null' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00491"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#491"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00491] In the recursive method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.put@POLYN245246 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00519"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#519"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00519] In the recursive method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.cleanPut@POLYN247063 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00530"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#530"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00530] In the recursive method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.cleanPut@POLYN247063 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00530"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#530"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00530] In the recursive method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.cleanPut@POLYN247063 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

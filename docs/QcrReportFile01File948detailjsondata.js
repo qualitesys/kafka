@@ -283,7 +283,7 @@ var maDataBlocs = {
  , "c1" : "00102"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#102"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00102] For method projectStruct list of called methods Object monObjet|java.lang.Object source_fieldN177098|java.lang.Object sourceStruct_getN177265"
+ , "c3" : "QC-JAV000007[00102] For method projectStruct list of called methods Object monObjet|java.lang.String targetField_nameN177023|java.lang.Object source_fieldN177098|java.lang.Object sourceStruct_getN177265"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -542,7 +542,7 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00159] For method projectPrimitive list of called methods Object monObjet|byte numberRecord_byteValueN182001|short numberRecord_shortValueN182124|int numberRecord_intValueN182247|long numberRecord_longValueN182370|float numberRecord_floatValueN182493|double numberRecord_doubleValueN182616"
+ , "c3" : "QC-JAV000007[00159] For method projectPrimitive list of called methods Object monObjet|byte numberRecord_byteValueN182001|short numberRecord_shortValueN182124"
 }} 
 ,
 { "ligne" : {"" : ""

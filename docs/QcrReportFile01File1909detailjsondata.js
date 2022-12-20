@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java 51 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java 48 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.xml" 
  , "fic3"  : "" 
 }
@@ -195,7 +195,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "13"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -209,7 +209,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -379,7 +379,7 @@ var maDataBlocs = {
  , "c1" : "00198"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#198"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00198] For method updateHead list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerRecord&lt;java.lang.Object,java.lang.Object&gt; recordDeserializer_deserializeN177287"
+ , "c3" : "QC-JAV000007[00198] For method updateHead list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerRecord recordDeserializer_deserializeN177287|long consumerRecordSizeInBytesN178699"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -502,13 +502,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.RecordQueue.clear@POLYN176424"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#143"
  , "c2" : "BLOCKER"
@@ -583,20 +576,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#239"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00239] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.updateHead@POLYN176815 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#189"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.clear@POLYN176424 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00190] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.clear@POLYN176424 the MagicNumber/String 0L MUST BE CONVERTED to const"
 }} 
 ]
 , 

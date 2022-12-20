@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java 75 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java 69 rule violations " 
  , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.xml" 
  , "fic3"  : "" 
 }
@@ -176,13 +176,6 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -193,7 +186,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -237,7 +230,7 @@ var maDataBlocs = {
  , "c1" : "00043"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00043] For method registerMessageType list of called methods Object monObjet|java.util.Optional&lt;java.lang.Short&gt; spec_apiKeyN167324"
+ , "c3" : "QC-JAV000007[00043] For method registerMessageType list of called methods Object monObjet|java.util.Optional spec_apiKeyN167324|V apis_putN167419"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -707,48 +700,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.MetadataRecordTypeGenerator.write@POLYN175390"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#47"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#48"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132 the MagicNumber/String 'Duplicate metadata record entry for type ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#49"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132 the MagicNumber/String '. New ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#49"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132 the MagicNumber/String '. Original claimant: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#50"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.message.MetadataRecordTypeGenerator.registerMessageType@POLYN167132 the MagicNumber/String 'claimant: ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

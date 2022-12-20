@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java 69 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java 65 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -123,6 +123,159 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1303Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1303&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.Map.getValue@POLYN433024.return" , "java.util.HashMap.put@POLYN620675.value"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1303Seq2.html#seq2"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1303&numSeq=2"
+ , "c2" : "2"
+ , "c3" : "3"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.containsKey@POLYN619992.return" , "java.util.Map.putAll.m"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00272]"
+ , "c3" : ["java.util.Map.getValue@POLYN433024.return" , "---java.util.Map.getValue@POLYN433024" , "org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208307.entityName"]
+ , "c4" : "//QC-JAVCWE099[00272] In org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208307[00272] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00277]"
+ , "c3" : ["org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208307.entityName" , "---java.util.HashMap.put@POLYN620675" , "java.util.HashMap.put@POLYN620675.value"]
+ , "c4" : "//QC-JAVCWE099[00277] In org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208307[00277] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "2" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00191]"
+ , "c3" : ["java.util.HashMap.containsKey@POLYN619992.return" , "---java.util.HashMap.containsKey@POLYN619992" , "org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204511.hasUser"]
+ , "c4" : "//QC-JAVCWE099[00191] In org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204511[00191] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00209]"
+ , "c3" : ["org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204511.hasUser" , "---dummymethode" , "org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204511.configKeys"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00217]"
+ , "c3" : ["org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204511.configKeys" , "---java.util.Map.putAll" , "java.util.Map.putAll.m"]
+ , "c4" : "//QC-JAVCWE099[00217] In org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204511[00217] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 
@@ -143,7 +296,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "5"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -157,7 +310,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -185,7 +338,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -242,6 +395,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#102"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00102] For method replay list of called methods Object monObjet|V clientQuotaData_getN199944"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#102"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00102] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -285,7 +445,7 @@ var maDataBlocs = {
  , "c1" : "00121"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00121] For method alterClientQuotaEntity list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError validateEntityN201190|org.apache.kafka.common.requests.ApiError configKeysForEntityTypeN201626|org.apache.kafka.common.requests.ApiError validateQuotaKeyValueN203499"
+ , "c3" : "QC-JAV000007[00121] For method alterClientQuotaEntity list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError validateEntityN201190|org.apache.kafka.common.requests.ApiError configKeysForEntityTypeN201626|boolean clientQuotaData_containsKeyN202521|org.apache.kafka.common.requests.ApiError validateQuotaKeyValueN203499|V currentQuotas_getN203829"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -376,7 +536,7 @@ var maDataBlocs = {
  , "c1" : "00188"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#188"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00188] For method configKeysForEntityType list of called methods Object monObjet|org.apache.kafka.common.config.ConfigDef QuotaConfigs_ipConfigsN205492|org.apache.kafka.common.config.ConfigDef QuotaConfigs_userConfigsN205854|org.apache.kafka.common.config.ConfigDef QuotaConfigs_userConfigsN205997|org.apache.kafka.common.config.ConfigDef QuotaConfigs_clientConfigsN206140"
+ , "c3" : "QC-JAV000007[00188] For method configKeysForEntityType list of called methods Object monObjet|boolean entity_containsKeyN204715|boolean entity_containsKeyN204817|boolean entity_containsKeyN204919|org.apache.kafka.common.config.ConfigDef QuotaConfigs_ipConfigsN205492|org.apache.kafka.common.config.ConfigDef QuotaConfigs_userConfigsN205854|org.apache.kafka.common.config.ConfigDef QuotaConfigs_userConfigsN205997|org.apache.kafka.common.config.ConfigDef QuotaConfigs_clientConfigsN206140"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -432,7 +592,7 @@ var maDataBlocs = {
  , "c1" : "00221"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#221"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00221] For method validateQuotaKeyValue list of called methods Object monObjet|java.lang.Double Double_valueOfN207219"
+ , "c3" : "QC-JAV000007[00221] For method validateQuotaKeyValue list of called methods Object monObjet|V validKeys_getN206650|java.lang.Double Double_valueOfN207219"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -632,45 +792,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199361"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00323"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#323"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00323] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.ClientQuotaControlIterator.next@POLYN210936 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#103"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199361 the MagicNumber/String 2 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#107"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199361 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#108"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199361 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#113"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199361 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

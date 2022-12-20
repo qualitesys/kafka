@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java 36 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java 37 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.xml" 
  , "fic3"  : "" 
 }
@@ -131,7 +131,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -168,7 +168,7 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00047] For method canProcessTask list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId task_idN156120"
+ , "c3" : "QC-JAV000007[00047] For method canProcessTask list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId task_idN156120|V topologyNameToErrorMetadata_getN156520"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -232,6 +232,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.html#84"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00084] For method canProcessTask arguments Task  task|long  now"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.html#84"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00084] For method canProcessTask list of called methods Object monObjet|V tasksToErrorTime_getN158088"
 }} 
 ,
 { "ligne" : {"" : ""

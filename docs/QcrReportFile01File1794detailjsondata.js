@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java 57 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java 64 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.xml" 
  , "fic3"  : "" 
 }
@@ -78,6 +78,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "10"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "7"
+}}
  ] 
 ,
 "data13b" : [
@@ -138,10 +145,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#67"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00067] For method configure list of called methods Object monObjet|boolean upgradeFromV0N175977"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#71"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00071] For method upgradeFromV0 arguments Map&lt;String ,? &gt;  configs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#71"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00071] For method upgradeFromV0 list of called methods Object monObjet|V configs_getN176182"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -184,6 +205,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#103"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00103] For method serialize arguments String  ignored|SubscriptionWrapper&lt;K &gt;  data"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#103"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00103] For method serialize list of called methods Object monObjet|byte data_getVersionN177721"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -245,6 +273,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#121"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00121] For method serializePrimaryKey list of called methods Object monObjet|V primaryKeySerializationPseudoTopicSupplier_getN178406"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#121"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00121] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -261,6 +296,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#132"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00132] For method serializeCommon arguments SubscriptionWrapper&lt;K &gt;  data|byte  version|int  extraLength"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#132"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00132] For method serializeCommon list of called methods Object monObjet|byte[] serializePrimaryKeyN178764|java.nio.ByteBuffer data_getHashN179728"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -350,6 +392,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00159"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#159"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00159] For method serializeV1 list of called methods Object monObjet|java.nio.ByteBuffer serializeCommonN180573"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#159"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00159] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -380,6 +429,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#188"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00188] For method deserialize arguments String  ignored|byte[]  data"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#188"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00188] For method deserialize list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes ByteBuffer_wrapN182010|V buf_getN182109|java.lang.Long buf_getLongN182917|java.lang.Long buf_getLongN183022|V primaryKeySerializationPseudoTopicSupplier_getN183804|T primaryKeyDeserializer_deserializeN183887"
 }} 
 ,
 { "ligne" : {"" : ""

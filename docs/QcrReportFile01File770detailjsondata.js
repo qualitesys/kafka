@@ -463,7 +463,7 @@ var maDataBlocs = {
  , "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00194] For method createSaslServer list of called methods Object monObjet|SaslServer createSaslKerberosServerN262667"
+ , "c3" : "QC-JAV000007[00194] For method createSaslServer list of called methods Object monObjet|V subjects_getN262379|V callbackHandlers_getN262478|SaslServer createSaslKerberosServerN262667"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -512,7 +512,7 @@ var maDataBlocs = {
  , "c1" : "00213"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#213"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00213] For method createSaslKerberosServer list of called methods Object monObjet|java.lang.String SaslClientAuthenticator_firstPrincipalN263719"
+ , "c3" : "QC-JAV000007[00213] For method createSaslKerberosServer list of called methods Object monObjet|java.lang.String SaslClientAuthenticator_firstPrincipalN263719|java.lang.String kerberosName_serviceNameN264103|java.lang.String kerberosName_hostNameN264183"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -729,7 +729,7 @@ var maDataBlocs = {
  , "c1" : "00413"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#413"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00413] For method handleSaslToken list of called methods Object monObjet|org.apache.kafka.common.network.ByteBufferSend ByteBufferSend_sizePrefixedN273090|org.apache.kafka.common.requests.RequestHeader RequestHeader_parseN273383"
+ , "c3" : "QC-JAV000007[00413] For method handleSaslToken list of called methods Object monObjet|org.apache.kafka.common.network.ByteBufferSend ByteBufferSend_sizePrefixedN273090|org.apache.kafka.common.requests.RequestHeader RequestHeader_parseN273383|ApiKeys header_apiKeyN273477|short header_apiVersionN273552|org.apache.kafka.common.requests.RequestAndSize requestContext_parseRequestN273904"
 }} 
 ,
 { "ligne" : {"" : ""

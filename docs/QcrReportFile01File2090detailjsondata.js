@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java 124 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java 122 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.xml" 
  , "fic3"  : "" 
 }
@@ -408,7 +408,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "14"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -422,7 +422,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "5"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -450,7 +450,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
@@ -675,6 +675,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#157"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00157] For method put list of called methods Object monObjet|long node_sizeN194180|long node_sizeN194894"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#157"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00157] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -806,6 +813,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00235"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#235"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00235] For method evict list of called methods Object monObjet|long eldest_sizeN197092"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00236"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#236"
  , "c2" : "MAJOR"
@@ -872,7 +886,7 @@ var maDataBlocs = {
  , "c1" : "00262"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#262"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00262] For method delete list of called methods Object monObjet|org.apache.kafka.streams.state.internals.LRUCacheEntry cache_removeN198319"
+ , "c3" : "QC-JAV000007[00262] For method delete list of called methods Object monObjet|org.apache.kafka.streams.state.internals.LRUCacheEntry cache_removeN198319|long node_sizeN198657"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -907,7 +921,7 @@ var maDataBlocs = {
  , "c1" : "00283"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#283"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00283] For method keyRange list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.utils.Bytes&gt; computeSubSetN199178"
+ , "c3" : "QC-JAV000007[00283] For method keyRange list of called methods Object monObjet|java.util.Set computeSubSetN199178"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -935,7 +949,7 @@ var maDataBlocs = {
  , "c1" : "00288"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#288"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00288] For method reverseKeyRange list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.utils.Bytes&gt; computeSubSetN199549"
+ , "c3" : "QC-JAV000007[00288] For method reverseKeyRange list of called methods Object monObjet|java.util.Set computeSubSetN199549"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1222,13 +1236,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202156"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.NamedCache.isEmpty@POLYN198869"
 }} 
 ,
@@ -1307,27 +1314,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#145"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.flush@POLYN191208 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00346"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00346] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202156 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00347"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#347"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00347] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202156 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00348"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#348"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00348] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202156 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

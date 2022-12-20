@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java 451 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java 439 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.xml" 
  , "fic3"  : "" 
 }
@@ -597,17 +597,11 @@ var maDataBlocs = {
 ,
 { "ligne" : "S0:org.apache.kafka.streams.KafkaStreams.replaceStreamThread@POLYN512772" }
 ,
-{ "ligne" : "S0:org.apache.kafka.streams.KafkaStreams.closeToError@POLYN557676" }
+{ "ligne" : "S0:org.apache.kafka.streams.KafkaStreams.addStreamThread@POLYN536665 (R2 in line [01039],R1 in line [01051])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.streams.KafkaStreams.start@POLYN550767 (R0 in line [01832])" }
+{ "ligne" : "S0:org.apache.kafka.streams.KafkaStreams.getNextThreadIndex@POLYN546254 (R3 in line [01215])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.streams.KafkaStreams.start@POLYN550767 (R0 in line [01832])" }
-,
-{ "ligne" : "S0:org.apache.kafka.streams.KafkaStreams.setState@POLYN505909 (R1 in line [00322])" }
-,
-{ "ligne" : "S0:org.apache.kafka.streams.KafkaStreams.setState@POLYN505909 (R1 in line [00322])" }
-,
-{ "ligne" : "S0:java.lang.Object.notifyAll@POLYN294461" }
+{ "ligne" : "S0:java.util.Map.remove@POLYN428612" }
  ]
  } }
 ,
@@ -620,356 +614,16 @@ var maDataBlocs = {
 ,
 { "ligne" : "S1:org.apache.kafka.streams.KafkaStreams.addStreamThread@POLYN536665 (R2 in line [01039],R1 in line [01051])" }
 ,
+{ "ligne" : "S1:org.apache.kafka.streams.KafkaStreams.addStreamThread@POLYN536665 (R2 in line [01039],R1 in line [01051])" }
+,
 { "ligne" : "S1:org.apache.kafka.streams.KafkaStreams.getNextThreadIndex@POLYN546254 (R3 in line [01215])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.common.header.Headers.remove@POLYN152004" }
- ]
- } }
-,
-{ "sequence" : { "noseq" : "2" , "pas" : [
-{ "ligne" : "S2:org.apache.kafka.streams.KafkaStreams.handleStreamsUncaughtException@POLYN514609" }
-,
-{ "ligne" : "S2:org.apache.kafka.streams.KafkaStreams.replaceStreamThread@POLYN512772" }
-,
-{ "ligne" : "S2:org.apache.kafka.streams.KafkaStreams.replaceStreamThread@POLYN512772" }
-,
-{ "ligne" : "S2:org.apache.kafka.streams.KafkaStreams.addStreamThread@POLYN536665 (R2 in line [01039],R1 in line [01051])" }
-,
-{ "ligne" : "S2:org.apache.kafka.streams.KafkaStreams.start@POLYN550767 (R0 in line [01832])" }
-,
-{ "ligne" : "S2:org.apache.kafka.streams.KafkaStreams.start@POLYN550767 (R0 in line [01832])" }
-,
-{ "ligne" : "S2:org.apache.kafka.streams.processor.internals.GlobalStreamThread.start@POLYN215560" }
- ]
- } }
-,
-{ "sequence" : { "noseq" : "3" , "pas" : [
-{ "ligne" : "S3:org.apache.kafka.streams.KafkaStreams.handleStreamsUncaughtException@POLYN514609" }
-,
-{ "ligne" : "S3:org.apache.kafka.streams.KafkaStreams.replaceStreamThread@POLYN512772" }
-,
-{ "ligne" : "S3:org.apache.kafka.streams.KafkaStreams.replaceStreamThread@POLYN512772" }
-,
-{ "ligne" : "S3:org.apache.kafka.streams.KafkaStreams.addStreamThread@POLYN536665 (R2 in line [01039],R1 in line [01051])" }
-,
-{ "ligne" : "S3:org.apache.kafka.streams.KafkaStreams.addStreamThread@POLYN536665 (R2 in line [01039],R1 in line [01051])" }
-,
-{ "ligne" : "S3:org.apache.kafka.streams.KafkaStreams.getNextThreadIndex@POLYN546254 (R3 in line [01215])" }
-,
-{ "ligne" : "S3:org.apache.kafka.common.header.Headers.remove@POLYN152004" }
+{ "ligne" : "S1:java.util.Map.remove@POLYN428612" }
  ]
  } }
 ]
 ,
 "data12c" : [
-{ "sequence " : {
-     "noseq" : "1" ,
-     "lignes" : [ 
-{ "ligne" : { 
-    "pas" : "1"
- ,  "c1" : "R0"
- ,  "c2" : "R1"
- ,  "c3" : ""
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "2"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S0 org.apache.kafka.streams.KafkaStreams.handleStreamsUncaughtException@POLYN514609"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "3"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S0 org.apache.kafka.streams.KafkaStreams.replaceStreamThread@POLYN512772"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "4"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S0 org.apache.kafka.streams.KafkaStreams.replaceStreamThread@POLYN512772"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "5"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S0 org.apache.kafka.streams.KafkaStreams.closeToError@POLYN557676"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "6"
- ,  "c1" : "1"
- ,  "c2" : ""
- ,  "c3" : "S0 org.apache.kafka.streams.KafkaStreams.start@POLYN550767/line[01832]"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "7"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S0 org.apache.kafka.streams.KafkaStreams.start@POLYN550767/line[01832]"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "8"
- ,  "c1" : ""
- ,  "c2" : "2"
- ,  "c3" : "S0 org.apache.kafka.streams.KafkaStreams.setState@POLYN505909/line[00322]"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "9"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S0 org.apache.kafka.streams.KafkaStreams.setState@POLYN505909/line[00322]"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "10"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S0 java.lang.Object.notifyAll@POLYN294461"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "11"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : ""
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "12"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S1 org.apache.kafka.streams.KafkaStreams.handleStreamsUncaughtException@POLYN514609"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "13"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S1 org.apache.kafka.streams.KafkaStreams.replaceStreamThread@POLYN512772"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "14"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S1 org.apache.kafka.streams.KafkaStreams.replaceStreamThread@POLYN512772"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "15"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S1 org.apache.kafka.streams.KafkaStreams.addStreamThread@POLYN536665/line[01039]"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "16"
- ,  "c1" : ""
- ,  "c2" : "1"
- ,  "c3" : "S1 org.apache.kafka.streams.KafkaStreams.addStreamThread@POLYN536665/line[01051]"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "17"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S1 org.apache.kafka.streams.KafkaStreams.getNextThreadIndex@POLYN546254/line[01215]"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "18"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S1 org.apache.kafka.common.header.Headers.remove@POLYN152004"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "19"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : ""
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "20"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S2 org.apache.kafka.streams.KafkaStreams.handleStreamsUncaughtException@POLYN514609"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "21"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S2 org.apache.kafka.streams.KafkaStreams.replaceStreamThread@POLYN512772"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "22"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S2 org.apache.kafka.streams.KafkaStreams.replaceStreamThread@POLYN512772"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "23"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S2 org.apache.kafka.streams.KafkaStreams.addStreamThread@POLYN536665/line[01039]"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "24"
- ,  "c1" : ""
- ,  "c2" : "1"
- ,  "c3" : "S2 org.apache.kafka.streams.KafkaStreams.addStreamThread@POLYN536665/line[01051]"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "25"
- ,  "c1" : "2"
- ,  "c2" : ""
- ,  "c3" : "S2 org.apache.kafka.streams.KafkaStreams.start@POLYN550767/line[01832]"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "26"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S2 org.apache.kafka.streams.KafkaStreams.start@POLYN550767/line[01832]"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "27"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S2 org.apache.kafka.streams.processor.internals.GlobalStreamThread.start@POLYN215560"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "28"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : ""
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "29"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S3 org.apache.kafka.streams.KafkaStreams.handleStreamsUncaughtException@POLYN514609"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "30"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S3 org.apache.kafka.streams.KafkaStreams.replaceStreamThread@POLYN512772"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "31"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S3 org.apache.kafka.streams.KafkaStreams.replaceStreamThread@POLYN512772"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "32"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S3 org.apache.kafka.streams.KafkaStreams.addStreamThread@POLYN536665/line[01039]"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "33"
- ,  "c1" : ""
- ,  "c2" : "1"
- ,  "c3" : "S3 org.apache.kafka.streams.KafkaStreams.addStreamThread@POLYN536665/line[01051]"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "34"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S3 org.apache.kafka.streams.KafkaStreams.addStreamThread@POLYN536665/line[01039]"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "35"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S3 org.apache.kafka.streams.KafkaStreams.addStreamThread@POLYN536665/line[01051]"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "36"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S3 org.apache.kafka.streams.KafkaStreams.getNextThreadIndex@POLYN546254/line[01215]"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "37"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : "S3 org.apache.kafka.common.header.Headers.remove@POLYN152004"
-  } //  fin detail ligne
-} // fin ligne
-,
-{ "ligne" : { 
-    "pas" : "38"
- ,  "c1" : ""
- ,  "c2" : ""
- ,  "c3" : ""
-  } //  fin detail ligne
-} // fin ligne
-  ] // fin lignes
- }} // fin sequence
 ]
 , 
 "data13a" : [
@@ -977,7 +631,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "5"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -991,7 +645,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "124"
+ , "c4" : "113"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1005,7 +659,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "19"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1040,7 +694,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "14"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1963,6 +1617,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1103"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01103] For method removeStreamThread list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN539663|long validateMillisecondDurationN539778"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01104"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1104"
  , "c2" : "MAJOR"
@@ -1980,7 +1641,7 @@ var maDataBlocs = {
  , "c1" : "01109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1109"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01109] For method removeStreamThread list of called methods Object monObjet|long getCacheSizePerThreadN542159|org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult adminClient_removeMembersFromConsumerGroupN542749"
+ , "c3" : "QC-JAV000007[01109] For method removeStreamThread list of called methods Object monObjet|java.util.Optional streamThread_getGroupInstanceIDN540852|long getCacheSizePerThreadN542159|org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult adminClient_removeMembersFromConsumerGroupN542749"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2721,6 +2382,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00001] For method close list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN558821|long validateMillisecondDurationN558936"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.KafkaStreams.close@POLYN558704 the MagicNumber/String  'timeout' should be converted to const"
 }} 
@@ -2764,7 +2432,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method close list of called methods Object monObjet|boolean time_millisecondsN560315|boolean closeN560395|Consumer&lt;byte[],byte[]&gt; clientSupplier_getConsumerN560507|org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult adminClient_removeMembersFromConsumerGroupN561304"
+ , "c3" : "QC-JAV000007[00001] For method close list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN559922|long validateMillisecondDurationN560045|boolean time_millisecondsN560315|boolean closeN560395|org.apache.kafka.clients.consumer.Consumer clientSupplier_getConsumerN560507|org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult adminClient_removeMembersFromConsumerGroupN561304"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2897,7 +2565,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method allLocalStorePartitionLags list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.admin.ListOffsetsResult.ListOffsetsResultInfo&gt; fetchEndOffsetsN575547"
+ , "c3" : "QC-JAV000007[00001] For method allLocalStorePartitionLags list of called methods Object monObjet|java.util.Map fetchEndOffsetsN575547|V allChangelogPositions_getOrDefaultN575959"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3162,13 +2830,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Potential deadlock between R0 and R1"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.KafkaStreams.replaceStreamThread@POLYN512772"
 }} 
@@ -3178,20 +2839,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.KafkaStreams.start@POLYN550767"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.KafkaStreams.setState@POLYN505909"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.KafkaStreams.processStreamThread@POLYN570764"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3226,14 +2873,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.KafkaStreams.close@POLYN555580"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.KafkaStreams.waitOnState@POLYN504621"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.KafkaStreams.waitOnState@POLYN504621"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.KafkaStreams.close@POLYN555580"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3426,83 +3073,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00328"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#328"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00328] In the recursive method org.apache.kafka.streams.KafkaStreams.setState@POLYN505909 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00332"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#332"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00332] In the recursive method org.apache.kafka.streams.KafkaStreams.setState@POLYN505909 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00335"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#335"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00335] In the recursive method org.apache.kafka.streams.KafkaStreams.setState@POLYN505909 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00338"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#338"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00338] In the recursive method org.apache.kafka.streams.KafkaStreams.setState@POLYN505909 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00342"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#342"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00342] In the recursive method org.apache.kafka.streams.KafkaStreams.setState@POLYN505909 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00344"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#344"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00344] In the recursive method org.apache.kafka.streams.KafkaStreams.setState@POLYN505909 the MagicNumber/String ' to ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00344"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#344"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00344] In the recursive method org.apache.kafka.streams.KafkaStreams.setState@POLYN505909 the MagicNumber/String ': Unexpected state transition from ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00344"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#344"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00344] In the recursive method org.apache.kafka.streams.KafkaStreams.setState@POLYN505909 the MagicNumber/String 'Stream-client ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00346"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00346] In the recursive method org.apache.kafka.streams.KafkaStreams.setState@POLYN505909 the MagicNumber/String 'State transition from {} to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00353"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#353"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00353] In the recursive method org.apache.kafka.streams.KafkaStreams.setState@POLYN505909 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00357"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#357"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00357] In the recursive method org.apache.kafka.streams.KafkaStreams.setState@POLYN505909 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00417"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#417"
  , "c2" : "BLOCKER"
@@ -3685,6 +3255,48 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00285"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#285"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00285] In the recursive method org.apache.kafka.streams.KafkaStreams.waitOnState@POLYN504621 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00286"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#286"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00286] In the recursive method org.apache.kafka.streams.KafkaStreams.waitOnState@POLYN504621 the MagicNumber/String 0L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00294"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#294"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00294] In the recursive method org.apache.kafka.streams.KafkaStreams.waitOnState@POLYN504621 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00297"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#297"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00297] In the recursive method org.apache.kafka.streams.KafkaStreams.waitOnState@POLYN504621 the MagicNumber/String 'Cannot transit to {} within {}ms' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00298"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#298"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00298] In the recursive method org.apache.kafka.streams.KafkaStreams.waitOnState@POLYN504621 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00311"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#311"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00311] In the recursive method org.apache.kafka.streams.KafkaStreams.waitOnState@POLYN504621 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
  , "c2" : "BLOCKER"
@@ -3801,48 +3413,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.KafkaStreams.close@POLYN555580 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00285"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#285"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00285] In the recursive method org.apache.kafka.streams.KafkaStreams.waitOnState@POLYN504621 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00286"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#286"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00286] In the recursive method org.apache.kafka.streams.KafkaStreams.waitOnState@POLYN504621 the MagicNumber/String 0L MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00294"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#294"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00294] In the recursive method org.apache.kafka.streams.KafkaStreams.waitOnState@POLYN504621 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#297"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00297] In the recursive method org.apache.kafka.streams.KafkaStreams.waitOnState@POLYN504621 the MagicNumber/String 'Cannot transit to {} within {}ms' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00298"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#298"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00298] In the recursive method org.apache.kafka.streams.KafkaStreams.waitOnState@POLYN504621 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00311"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#311"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00311] In the recursive method org.apache.kafka.streams.KafkaStreams.waitOnState@POLYN504621 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

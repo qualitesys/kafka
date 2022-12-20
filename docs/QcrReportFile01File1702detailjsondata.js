@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java 121 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java 119 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.xml" 
  , "fic3"  : "" 
 }
@@ -204,6 +204,82 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1702Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1702&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.get@POLYN617315.return" , "java.util.HashMap.put@POLYN620675.key"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00322]"
+ , "c3" : ["java.util.HashMap.get@POLYN617315.return" , "---java.util.HashMap.get@POLYN617315" , "org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.mergeDuplicateSourceNodes@POLYN241451.topicPattern"]
+ , "c4" : "//QC-JAVCWE099[00322] In org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.mergeDuplicateSourceNodes@POLYN241451[00322] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00324]"
+ , "c3" : ["org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.mergeDuplicateSourceNodes@POLYN241451.topicPattern" , "---java.util.HashMap.put@POLYN620675" , "java.util.HashMap.put@POLYN620675.key"]
+ , "c4" : "//QC-JAVCWE099[00324] In org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.mergeDuplicateSourceNodes@POLYN241451[00324] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 
@@ -224,7 +300,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "4"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -238,7 +314,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -266,7 +342,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -538,6 +614,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00276"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#276"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00276] For method buildAndOptimizeTopology list of called methods Object monObjet|V graphNodePriorityQueue_removeN240704"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#290"
  , "c2" : "MAJOR"
@@ -577,6 +660,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#298"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.buildAndOptimizeTopology@POLYN239993 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00308"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#308"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00308] For method mergeDuplicateSourceNodes list of called methods Object monObjet|java.util.Optional currentSourceNode_topicPatternN242330|V patternsToSourceNodes_getN242664|V topicsToSourceNodes_getN243367"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -667,7 +757,7 @@ var maDataBlocs = {
  , "c1" : "00364"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#364"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00364] For method maybeOptimizeRepartitionOperations list of called methods Object monObjet|java.lang.String getFirstRepartitionTopicNameN245195|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN245694"
+ , "c3" : "QC-JAV000007[00364] For method maybeOptimizeRepartitionOperations list of called methods Object monObjet|java.util.Set keyChangingOperationsToOptimizableRepartitionNodes_entrySetN244485"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -842,7 +932,7 @@ var maDataBlocs = {
  , "c1" : "00435"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#435"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00435] For method maybeUpdateKeyChangingRepartitionNodeMap list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN248534"
+ , "c3" : "QC-JAV000007[00435] For method maybeUpdateKeyChangingRepartitionNodeMap list of called methods Object monObjet|java.util.Set keyChangingOperationsToOptimizableRepartitionNodes_entrySetN248164"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1091,38 +1181,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN237876"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00537"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#537"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00537] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.findParentNodeMatching@POLYN253135 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#236"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00236] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN237876 the MagicNumber/String 'parent node can't be null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00237"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#237"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00237] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN237876 the MagicNumber/String 'child node can't be null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#240"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00240] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN237876 the MagicNumber/String 'Parent node collection can't be empty' MUST BE CONVERTED to const"
 }} 
 ]
 , 

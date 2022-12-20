@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java 29 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java 31 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.xml" 
  , "fic3"  : "" 
 }
@@ -155,6 +155,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -201,6 +208,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#69"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00069] For method stats list of called methods Object monObjet|double percentile_percentileN161913"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#75"
  , "c2" : "MAJOR"
@@ -212,6 +226,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#81"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00081] For method value arguments MetricConfig  config|long  now|double  quantile"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#81"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00081] For method value list of called methods Object monObjet|float[] sample_histogram_countsN163269"
 }} 
 ,
 { "ligne" : {"" : ""

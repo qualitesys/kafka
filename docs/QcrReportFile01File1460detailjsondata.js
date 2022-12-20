@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectOutputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectOutputStream.java 526 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectOutputStream.java 527 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.ObjectOutputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -1622,7 +1622,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "14"
+ , "c4" : "15"
 }}
  ] 
 ,
@@ -2226,7 +2226,7 @@ var maDataBlocs = {
  , "c1" : "01040"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1040"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01040] For method verifySubclass list of called methods Object monObjet|java.lang.Class&lt;?&gt; getClassN579350|java.lang.Boolean Boolean_valueOfN580078"
+ , "c3" : "QC-JAV000007[01040] For method verifySubclass list of called methods Object monObjet|java.lang.Class getClassN579350|V Caches_subclassAudits_getN579904|java.lang.Boolean Boolean_valueOfN580078"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4614,6 +4614,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#2457"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[02457] In method java.io.ObjectOutputStream.DebugTraceInfoStack.push@POLYN647248 the MagicNumber/String  '\t- ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02463"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#2463"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02463] For method toString list of called methods Object monObjet|int stack_sizeN647698"
 }} 
 ,
 { "ligne" : {"" : ""

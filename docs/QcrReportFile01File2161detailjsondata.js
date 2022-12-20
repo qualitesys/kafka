@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html" 
- , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java 20 rule violations " 
+ , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java 25 rule violations " 
  , "fic2"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.xml" 
  , "fic3"  : "" 
 }
@@ -161,6 +161,13 @@ var maDataBlocs = {
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "14"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "5"
+}}
  ] 
 ,
 "data13b" : [
@@ -193,6 +200,27 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#79"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00079] For method readValue list of called methods Object monObjet|TestRecord readRecordN176695"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00089"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#89"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00089] For method readKeyValue list of called methods Object monObjet|TestRecord readRecordN177060"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#131"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00131] For method readKeyValuesToMap list of called methods Object monObjet|TestRecord readRecordN179048"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#136"
  , "c2" : "MAJOR"
@@ -204,6 +232,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#137"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.TestOutputTopic.readKeyValuesToMap@POLYN178712 the MagicNumber/String  'Null keys not allowed with readKeyValuesToMap method' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00149"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#149"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00149] For method readKeyValuesToList list of called methods Object monObjet|org.apache.kafka.streams.KeyValue readKeyValueN179923"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00164"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#164"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00164] For method readValuesToList list of called methods Object monObjet|V readValueN180456"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java 75 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java 76 rule violations " 
  , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.xml" 
  , "fic3"  : "" 
 }
@@ -318,7 +318,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "7"
 }}
  ] 
 ,
@@ -510,6 +510,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#215"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.connect.data.Struct.put@POLYN197829 the MagicNumber/String  'field cannot be null.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00227"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#227"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00227] For method validate list of called methods Object monObjet|org.apache.kafka.connect.data.Schema field_schemaN198673"
 }} 
 ,
 { "ligne" : {"" : ""

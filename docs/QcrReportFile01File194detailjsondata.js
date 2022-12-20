@@ -159,7 +159,7 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00088] For method assign list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; AbstractPartitionAssignor_partitionsN172808"
+ , "c3" : "QC-JAV000007[00088] For method assign list of called methods Object monObjet|V partitionsPerTopic_getN172356|java.util.List AbstractPartitionAssignor_partitionsN172808"
 }} 
 ,
 { "ligne" : {"" : ""

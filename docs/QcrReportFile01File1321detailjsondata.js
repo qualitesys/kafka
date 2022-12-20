@@ -170,7 +170,7 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00088] For method reasonNotSupported list of called methods Object monObjet|org.apache.kafka.clients.NodeApiVersions apiVersions_getN163085"
+ , "c3" : "QC-JAV000007[00088] For method reasonNotSupported list of called methods Object monObjet|V localSupportedFeatures_getOrDefaultN162230|org.apache.kafka.clients.NodeApiVersions apiVersions_getN163085|java.util.Map nodeVersions_supportedFeaturesN163418"
 }} 
 ,
 { "ligne" : {"" : ""

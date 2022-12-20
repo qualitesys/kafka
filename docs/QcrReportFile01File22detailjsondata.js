@@ -284,7 +284,7 @@ var maDataBlocs = {
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00127] For method latestUsableVersion list of called methods Object monObjet|java.util.Optional&lt;ApiVersion&gt; ApiVersionsResponse_intersectN183540"
+ , "c3" : "QC-JAV000007[00127] For method latestUsableVersion list of called methods Object monObjet|V supportedVersions_getN183425|java.util.Optional ApiVersionsResponse_intersectN183540"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -445,7 +445,7 @@ var maDataBlocs = {
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#192"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00192] For method apiVersionToText list of called methods Object monObjet|short Utils_minN188560"
+ , "c3" : "QC-JAV000007[00192] For method apiVersionToText list of called methods Object monObjet|V supportedVersions_getN188079|short Utils_minN188560"
 }} 
 ,
 { "ligne" : {"" : ""

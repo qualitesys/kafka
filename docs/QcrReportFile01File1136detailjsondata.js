@@ -458,7 +458,7 @@ var maDataBlocs = {
  , "c1" : "00191"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#191"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00191] For method newConnector list of called methods Object monObjet|Class&lt;? extends Connector&gt; connectorClassN220016"
+ , "c3" : "QC-JAV000007[00191] For method newConnector list of called methods Object monObjet|java.lang.Class connectorClassN220016"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -563,7 +563,7 @@ var maDataBlocs = {
  , "c1" : "00252"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#252"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00252] For method newConverter list of called methods Object monObjet|Class&lt;?&gt; config_getClassN223335|boolean WorkerConfig_KEY_CONVERTER_CLASS_CONFIG_equalsN224065|org.apache.kafka.connect.storage.Converter config_originalsWithPrefixN224283|ClassLoader compareAndSwapLoadersN224711"
+ , "c3" : "QC-JAV000007[00252] For method newConverter list of called methods Object monObjet|java.lang.Class config_getClassN223335|boolean WorkerConfig_KEY_CONVERTER_CLASS_CONFIG_equalsN224065|org.apache.kafka.connect.storage.Converter config_originalsWithPrefixN224283|ClassLoader compareAndSwapLoadersN224711"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -766,7 +766,7 @@ var maDataBlocs = {
  , "c1" : "00394"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#394"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00394] For method newConfigProvider list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; config_originalsStringsN229326|org.apache.kafka.common.config.provider.ConfigProvider config_originalsWithPrefixN230749|ClassLoader compareAndSwapLoadersN230872"
+ , "c3" : "QC-JAV000007[00394] For method newConfigProvider list of called methods Object monObjet|java.util.Map config_originalsStringsN229326|V originalConfig_getN229928|org.apache.kafka.common.config.provider.ConfigProvider config_originalsWithPrefixN230749|ClassLoader compareAndSwapLoadersN230872"
 }} 
 ,
 { "ligne" : {"" : ""

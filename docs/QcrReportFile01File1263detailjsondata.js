@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java 126 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java 128 rule violations " 
  , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.xml" 
  , "fic3"  : "" 
 }
@@ -123,6 +123,82 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1263Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1263&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.get@POLYN617315.return" , "java.util.HashMap.put@POLYN620675.value"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00100]"
+ , "c3" : ["java.util.HashMap.get@POLYN617315.return" , "---java.util.HashMap.get@POLYN617315" , "org.apache.kafka.message.SchemaGenerator.generateSchemas@POLYN204469.messageInfo"]
+ , "c4" : "//QC-JAVCWE099[00100] In org.apache.kafka.message.SchemaGenerator.generateSchemas@POLYN204469[00100] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00105]"
+ , "c3" : ["org.apache.kafka.message.SchemaGenerator.generateSchemas@POLYN204469.messageInfo" , "---java.util.HashMap.put@POLYN620675" , "java.util.HashMap.put@POLYN620675.value"]
+ , "c4" : "//QC-JAVCWE099[00105] In org.apache.kafka.message.SchemaGenerator.generateSchemas@POLYN204469[00105] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 
@@ -185,7 +261,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "6"
 }}
  ] 
 ,
@@ -201,7 +277,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method generateSchemas list of called methods Object monObjet|org.apache.kafka.message.Versions message_flexibleVersionsN203809|java.util.Iterator&lt;org.apache.kafka.message.StructSpec&gt; structRegistry_commonStructsN203939"
+ , "c3" : "QC-JAV000007[00082] For method generateSchemas list of called methods Object monObjet|org.apache.kafka.message.Versions message_flexibleVersionsN203809|java.util.Iterator structRegistry_commonStructsN203939"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -229,7 +305,7 @@ var maDataBlocs = {
  , "c1" : "00097"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00097] For method generateSchemas list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN204624"
+ , "c3" : "QC-JAV000007[00097] For method generateSchemas list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN204624|V messages_getN204738|short versions_lowestN205940"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -292,7 +368,7 @@ var maDataBlocs = {
  , "c1" : "00128"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00128] For method generateSchemaForVersion list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN206687|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN206947|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN207886"
+ , "c3" : "QC-JAV000007[00128] For method generateSchemaForVersion list of called methods Object monObjet|java.util.List struct_fieldsN206687|java.util.List struct_fieldsN206947|java.util.List struct_fieldsN207886"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -404,7 +480,7 @@ var maDataBlocs = {
  , "c1" : "00174"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#174"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00174] For method generateTaggedFieldsSchemaForVersion list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN209384|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN209644|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN210312"
+ , "c3" : "QC-JAV000007[00174] For method generateTaggedFieldsSchemaForVersion list of called methods Object monObjet|java.util.List struct_fieldsN209384|java.util.List struct_fieldsN209644|java.util.List struct_fieldsN210312"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -905,10 +981,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00334"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#334"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00334] For method floorVersion list of called methods Object monObjet|V messages_getN218911"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00345"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#345"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00345] For method writeSchema arguments String  className|CodeBuffer  buffer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00345"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#345"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00345] For method writeSchema list of called methods Object monObjet|V messages_getN219287|short versions_lowestN219460|V messageInfo_schemaForVersion_getN219643|short versions_lowestN220937"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -360,7 +360,7 @@ var maDataBlocs = {
  , "c1" : "00209"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#209"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00209] For method buildAllTopicMetadataRequest list of called methods Object monObjet|org.apache.kafka.common.requests.MetadataRequest.Builder MetadataRequest_Builder_allTopicsN193591"
+ , "c3" : "QC-JAV000007[00209] For method buildAllTopicMetadataRequest list of called methods Object monObjet|org.apache.kafka.common.requests.MetadataRequest.Builder MetadataRequest_Builder_allTopicsN193591|java.nio.ByteBuffer metadataRequest_serializeN193897"
 }} 
 ,
 { "ligne" : {"" : ""

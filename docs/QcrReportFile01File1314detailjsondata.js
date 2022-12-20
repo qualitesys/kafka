@@ -317,7 +317,7 @@ var maDataBlocs = {
  , "c1" : "00150"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00150] For method updateFeature list of called methods Object monObjet|org.apache.kafka.clients.NodeApiVersions metadataVersion_getN196133|java.util.Optional&lt;java.lang.String&gt; quorumFeatures_reasonNotSupportedN196550"
+ , "c3" : "QC-JAV000007[00150] For method updateFeature list of called methods Object monObjet|V metadataVersion_getN196133|V finalizedVersions_getN196246|java.util.Optional quorumFeatures_reasonNotSupportedN196550"
 }} 
 ,
 { "ligne" : {"" : ""

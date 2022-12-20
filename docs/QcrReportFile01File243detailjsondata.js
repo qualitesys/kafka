@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java 55 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java 56 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.xml" 
  , "fic3"  : "" 
 }
@@ -209,7 +209,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S2:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN164028 (R0 in line [00130],R5 in line [00130],R6 in line [00130],R7 in line [00130],R8 in line [00130])" }
 ,
-{ "ligne" : "S2:java.lang.Object.notifyAll@POLYN294461" }
+{ "ligne" : "S2:java.util.HashMap.remove@POLYN649661" }
  ]
  } }
 ,
@@ -267,6 +267,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "7"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -395,6 +402,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#98"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00098] For method retainTopic arguments String  topic|boolean  isInternal|long  nowMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#98"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00098] For method retainTopic list of called methods Object monObjet|V topics_getN162512"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -241,7 +241,7 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00072] For method compareSegmentedKeys list of called methods Object monObjet|long segmentIdN152568|int Long_compareN152798|byte[] cacheKey_getN152998|byte[] storeKey_getN153084"
+ , "c3" : "QC-JAV000007[00072] For method compareSegmentedKeys list of called methods Object monObjet|long segmentIdN152568|org.apache.kafka.common.utils.Bytes ByteBuffer_wrapN152659|int Long_compareN152798|byte[] cacheKey_getN152998|byte[] storeKey_getN153084"
 }} 
 ,
 { "ligne" : {"" : ""

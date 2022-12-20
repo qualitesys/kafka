@@ -197,7 +197,7 @@ var maDataBlocs = {
  , "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00120] For method configure list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; JaasOptionsUtils_getOptionsN190543|org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidator AccessTokenValidatorFactory_createN191113"
+ , "c3" : "QC-JAV000007[00120] For method configure list of called methods Object monObjet|java.util.Map JaasOptionsUtils_getOptionsN190543|V VERIFICATION_KEY_RESOLVER_CACHE_computeIfAbsentN190847|org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidator AccessTokenValidatorFactory_createN191113"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java 17 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java 20 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.xml" 
  , "fic3"  : "" 
 }
@@ -153,7 +153,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -163,6 +163,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#33"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00033] For method get arguments TopicPartition  topicPartition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#33"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00033] For method get list of called methods Object monObjet|V topicPartitions_getN150015"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -208,6 +215,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#54"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00054] For method lastAckedOffset list of called methods Object monObjet|V topicPartitions_getN150846"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#56"
  , "c2" : "MAJOR"
@@ -219,6 +233,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#63"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00063] For method lastAckedSequence arguments TopicPartition  topicPartition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#63"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00063] For method lastAckedSequence list of called methods Object monObjet|V topicPartitions_getN151298"
 }} 
 ,
 { "ligne" : {"" : ""

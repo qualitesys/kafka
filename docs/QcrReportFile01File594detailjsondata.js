@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java 28 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java 29 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -234,7 +234,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -328,6 +328,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#89"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00089] For method updateErrorCounts arguments Map&lt;Errors ,Integer &gt;  errorCounts|Errors  error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#89"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00089] For method updateErrorCounts list of called methods Object monObjet|V errorCounts_getOrDefaultN186064"
 }} 
 ,
 { "ligne" : {"" : ""

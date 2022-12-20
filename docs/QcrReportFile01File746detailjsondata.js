@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/JaasContext.java 62 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/JaasContext.java 63 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.xml" 
  , "fic3"  : "" 
 }
@@ -203,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -318,6 +318,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#175"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00175] For method load arguments JaasContext.Type  contextType|String  listenerContextName|String  globalContextName|Password  dynamicJaasConfig"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#175"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00175] For method load list of called methods Object monObjet|AppConfigurationEntry[] jaasConfig_getAppConfigurationEntryN175211"
 }} 
 ,
 { "ligne" : {"" : ""

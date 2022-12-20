@@ -115,7 +115,7 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00053] For method partitionGroups list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; metadata_partitionsForTopicN157615"
+ , "c3" : "QC-JAV000007[00053] For method partitionGroups list of called methods Object monObjet|java.util.Map metadata_partitionsForTopicN157615"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -213,7 +213,7 @@ var maDataBlocs = {
  , "c1" : "00081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00081] For method maxNumPartitions list of called methods Object monObjet|int metadata_partitionsForTopicN158588"
+ , "c3" : "QC-JAV000007[00081] For method maxNumPartitions list of called methods Object monObjet|int metadata_partitionsForTopicN158588|int partitions_sizeN158949"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.PrintWriter.java.html" 
- , "texte" : "File secujava/java.io.PrintWriter.java 88 rule violations " 
+ , "texte" : "File secujava/java.io.PrintWriter.java 91 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.PrintWriter.java.xml" 
  , "fic3"  : "" 
 }
@@ -509,9 +509,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1468Seq3.html#seq3"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1468&numSeq=3"
  , "c2" : "3"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.io.PrintWriter.println@POLYN352131.x" , "java.io.PrintWriter.write@POLYN342580.buf"]
+ , "c3" : "3"
+ , "c4" : "3"
+ , "c5" : ["java.lang.String.valueOf@POLYN911738.return" , "java.io.PrintWriter.write@POLYN343572.s"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -524,6 +524,21 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1468Seq4.html#seq4"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1468&numSeq=4"
  , "c2" : "4"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.PrintWriter.println@POLYN352131.x" , "java.io.PrintWriter.write@POLYN342580.buf"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1468Seq5.html#seq5"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1468&numSeq=5"
+ , "c2" : "5"
  , "c3" : "2"
  , "c4" : "2"
  , "c5" : ["java.io.PrintWriter.append@POLYN361245.'null'" , "java.io.Writer.write@POLYN189816.c"]
@@ -648,6 +663,68 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "3" , "contenu" : [ 
 { "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00754]"
+ , "c3" : ["java.lang.String.valueOf@POLYN911738.return" , "---java.lang.String.valueOf@POLYN911738" , "java.io.PrintWriter.println@POLYN353114.s"]
+ , "c4" : "//QC-JAVCWZ099[00754] In java.io.PrintWriter.println@POLYN353114[00754] target data PATHtainted (java.io.PrintWriter.print)"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00756]"
+ , "c3" : ["java.io.PrintWriter.println@POLYN353114.s" , "---java.io.PrintWriter.print@POLYN348071" , "java.io.PrintWriter.print@POLYN348071.s"]
+ , "c4" : "//QC-JAVCWZ099[00756] In java.io.PrintWriter.println@POLYN353114[00756] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00603]"
+ , "c3" : ["java.io.PrintWriter.print@POLYN348071.s" , "---java.io.PrintWriter.write@POLYN343572" , "java.io.PrintWriter.write@POLYN343572.s"]
+ , "c4" : "//QC-JAVCWZ099[00603] In java.io.PrintWriter.print@POLYN348071[00603] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "4" , "contenu" : [ 
+{ "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00725]"
  , "c3" : ["java.io.PrintWriter.println@POLYN352131.x" , "---java.io.PrintWriter.print@POLYN347607" , "java.io.PrintWriter.print@POLYN347607.s"]
@@ -700,7 +777,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "4" , "contenu" : [ 
+ "seq" : "5" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[01002]"
@@ -778,14 +855,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1417,6 +1494,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PrintWriter.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.PrintWriter.checkError@POLYN340008"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.PrintWriter.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.PrintWriter.printf@POLYN354603"
 }} 
 ,
@@ -1432,6 +1516,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.PrintWriter.java.html#473"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00473] In the recursive method java.io.PrintWriter.write@POLYN343572 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00356"
+ , "c1link" : "./qc/secujava/java.io.PrintWriter.java.html#356"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00356] In the recursive method java.io.PrintWriter.checkError@POLYN340008 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00362"
+ , "c1link" : "./qc/secujava/java.io.PrintWriter.java.html#362"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00362] In the recursive method java.io.PrintWriter.checkError@POLYN340008 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

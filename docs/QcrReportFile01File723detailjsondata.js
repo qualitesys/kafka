@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java 31 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java 32 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -173,6 +173,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -265,6 +272,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#115"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00115] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00137"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#137"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00137] For method topicStates list of called methods Object monObjet|V topicStates_computeIfAbsentN181011"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -427,7 +427,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -455,7 +455,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -562,7 +562,7 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00143] For method convertActiveToStandby list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.StandbyTask standbyTaskCreator_createStandbyTaskFromActiveN197931"
+ , "c3" : "QC-JAV000007[00143] For method convertActiveToStandby list of called methods Object monObjet|java.util.Set activeTasksPerPartition_entrySetN197361"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -685,6 +685,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00217"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#217"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00217] For method removeTaskBeforeClosing list of called methods Object monObjet|java.util.Set activeTasksPerPartition_entrySetN201390"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00235"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#235"
  , "c2" : "MINOR"
@@ -766,13 +773,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#349"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00349] The argument task is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.Tasks.clear@POLYN201937"
 }} 
 ,
 { "ligne" : {"" : ""

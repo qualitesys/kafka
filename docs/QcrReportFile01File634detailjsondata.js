@@ -244,7 +244,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method validate list of called methods Object monObjet|java.util.List&lt;DeleteAclsResponseData.DeleteAclsFilterResult&gt; filterResultsN167932|java.util.List&lt;DeleteAclsResponseData.DeleteAclsFilterResult&gt; filterResultsN168374"
+ , "c3" : "QC-JAV000007[00085] For method validate list of called methods Object monObjet|java.util.List filterResultsN167932|java.util.List filterResultsN168374"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -279,7 +279,7 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00104] For method filterResult list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.common.errors.ApiException&gt; result_exceptionN169164|java.util.Collection&lt;org.apache.kafka.server.authorizer.AclDeleteResult.AclBindingDeleteResult&gt; result_aclBindingDeleteResultsN169411"
+ , "c3" : "QC-JAV000007[00104] For method filterResult list of called methods Object monObjet|java.util.Optional result_exceptionN169164|java.util.Collection result_aclBindingDeleteResultsN169411"
 }} 
 ,
 { "ligne" : {"" : ""

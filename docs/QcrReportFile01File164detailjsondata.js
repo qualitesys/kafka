@@ -271,7 +271,7 @@ var maDataBlocs = {
  , "c1" : "00107"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00107] For method handleResponse list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.CoordinatorKey CoordinatorKey_byGroupIdN176352|java.util.Set&lt;AclOperation&gt; validAclOperationsN177299|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment ConsumerProtocol_deserializeAssignmentN177685"
+ , "c3" : "QC-JAV000007[00107] For method handleResponse list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.CoordinatorKey CoordinatorKey_byGroupIdN176352|java.util.Set validAclOperationsN177299|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment ConsumerProtocol_deserializeAssignmentN177685"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java 62 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java 64 rule violations " 
  , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.xml" 
  , "fic3"  : "" 
 }
@@ -318,7 +318,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -481,7 +481,7 @@ var maDataBlocs = {
  , "c1" : "00216"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#216"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00216] For method validateValue list of called methods Object monObjet|java.util.List&lt;Class&lt;?&gt;&gt; expectedClassesForN204269"
+ , "c3" : "QC-JAV000007[00216] For method validateValue list of called methods Object monObjet|java.util.List expectedClassesForN204269"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -606,6 +606,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00267"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#267"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00267] For method expectedClassesFor list of called methods Object monObjet|V LOGICAL_TYPE_CLASSES_getN207080|V SCHEMA_TYPE_CLASSES_getOrDefaultN207251"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00267"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#267"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00267] The argument schema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -713,6 +720,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#330"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00330] For method schemaType arguments Class&lt;? &gt;  klass"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00330"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#330"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00330] For method schemaType list of called methods Object monObjet|V JAVA_CLASS_SCHEMA_TYPES_getN210298"
 }} 
 ,
 { "ligne" : {"" : ""

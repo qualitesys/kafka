@@ -180,7 +180,7 @@ var maDataBlocs = {
  , "c1" : "00586"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerConfig.java.html#586"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00586] For method postProcessParsedConfig list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; CommonClientConfigs_postProcessReconnectBackoffConfigsN246621"
+ , "c3" : "QC-JAV000007[00586] For method postProcessParsedConfig list of called methods Object monObjet|java.util.Map CommonClientConfigs_postProcessReconnectBackoffConfigsN246621"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java 14 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java 15 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.xml" 
  , "fic3"  : "" 
 }
@@ -110,6 +110,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -118,6 +125,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#34"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00034] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#34"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00034] For method configure list of called methods Object monObjet|V configs_getN146947|V configs_getN147098"
 }} 
 ,
 { "ligne" : {"" : ""

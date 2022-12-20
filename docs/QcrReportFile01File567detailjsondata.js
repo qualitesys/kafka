@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java 157 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java 158 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.xml" 
  , "fic3"  : "" 
 }
@@ -586,7 +586,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -655,6 +655,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#102"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00102] For method validBytes list of called methods Object monObjet|int batch_sizeInBytesN264254"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#103"
  , "c2" : "MAJOR"
@@ -700,7 +707,7 @@ var maDataBlocs = {
  , "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00161] For method filterTo list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecords.BatchFilterResult filterBatchN267593|org.apache.kafka.common.record.MemoryRecordsBuilder buildRetainedRecordsIntoN268939"
+ , "c3" : "QC-JAV000007[00161] For method filterTo list of called methods Object monObjet|int batch_sizeInBytesN267255|byte batch_magicN267408|org.apache.kafka.common.record.MemoryRecords.BatchFilterResult filterBatchN267593|byte batch_magicN268080|java.util.OptionalLong batch_deleteHorizonMsN268818|org.apache.kafka.common.record.MemoryRecordsBuilder buildRetainedRecordsIntoN268939|org.apache.kafka.common.record.MemoryRecords builder_buildN269091|int records_sizeInBytesN269166|org.apache.kafka.common.record.MemoryRecordsBuilder.RecordsInfo builder_infoN269598|java.nio.ByteBuffer bufferOutputStream_bufferN270821"
 }} 
 ,
 { "ligne" : {"" : ""

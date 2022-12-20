@@ -230,7 +230,7 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00148] For method summarize list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.trogdor.workload.Histogram.PercentileSummary&gt; summarizePercentilesN172137"
+ , "c3" : "QC-JAV000007[00148] For method summarize list of called methods Object monObjet|java.util.List summarizePercentilesN172137"
 }} 
 ,
 { "ligne" : {"" : ""

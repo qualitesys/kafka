@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/MetadataNode.java 63 rule violations " 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/MetadataNode.java 68 rule violations " 
  , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.xml" 
  , "fic3"  : "" 
 }
@@ -93,6 +93,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "5"
+}}
  ] 
 ,
 "data13b" : [
@@ -101,6 +108,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#30"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00030] For method mkdirs arguments String  ...names"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#30"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00030] For method mkdirs list of called methods Object monObjet|V node_children_getN158076"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -157,6 +171,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#50"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00050] For method rmrf arguments String  ...names"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#50"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00050] For method rmrf list of called methods Object monObjet|V node_children_getN159234"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -237,6 +258,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#66"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00066] For method create list of called methods Object monObjet|V children_getN159913"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#68"
  , "c2" : "MAJOR"
@@ -262,6 +290,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#91"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00091] For method directory arguments String  ...names"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#91"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00091] For method directory list of called methods Object monObjet|V node_children_getN161379"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -325,6 +360,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#107"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00107] For method file arguments String  ...names"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#107"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00107] For method file list of called methods Object monObjet|V node_children_getN162357|org.apache.kafka.shell.MetadataNode node_childN162821"
 }} 
 ,
 { "ligne" : {"" : ""

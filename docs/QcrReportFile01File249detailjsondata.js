@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java 487 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java 495 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -850,21 +850,23 @@ var maDataBlocs = {
 ,
 { "ligne" :  "R8:org.apache.kafka.clients.producer.internals.TransactionManager.requestEpochBumpForPartition@POLYN377606.tp" }
 ,
-{ "ligne" :  "R9:org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN372050.topicPartition" }
+{ "ligne" :  "R9:org.apache.kafka.clients.producer.internals.TransactionManager.authenticationFailed@POLYN393355.e" }
 ,
-{ "ligne" :  "R10:org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379977.topicPartition" }
+{ "ligne" :  "R10:org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN372050.topicPartition" }
 ,
-{ "ligne" :  "R11:org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379977.increment" }
+{ "ligne" :  "R11:org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379977.topicPartition" }
 ,
-{ "ligne" :  "R12:org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383821.batch" }
+{ "ligne" :  "R12:org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379977.increment" }
 ,
-{ "ligne" :  "R13:org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383821.response" }
+{ "ligne" :  "R13:org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383821.batch" }
 ,
-{ "ligne" :  "R14:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869.topicPartition" }
+{ "ligne" :  "R14:org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383821.response" }
 ,
-{ "ligne" :  "R15:org.apache.kafka.clients.producer.internals.TransactionManager.addInFlightBatch@POLYN380371.batch" }
+{ "ligne" :  "R15:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869.topicPartition" }
 ,
-{ "ligne" :  "R16:org.apache.kafka.clients.producer.internals.TransactionManager.retry@POLYN393177.request" }
+{ "ligne" :  "R16:org.apache.kafka.clients.producer.internals.TransactionManager.addInFlightBatch@POLYN380371.batch" }
+,
+{ "ligne" :  "R17:org.apache.kafka.clients.producer.internals.TransactionManager.retry@POLYN393177.request" }
 ]
 ,
 "data12b" : [
@@ -920,86 +922,106 @@ var maDataBlocs = {
  } }
 ,
 { "sequence" : { "noseq" : "5" , "pas" : [
-{ "ligne" : "S5:org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN372050 (R0 in line [00327],R9 in line [00327])" }
+{ "ligne" : "S5:org.apache.kafka.clients.producer.internals.TransactionManager.authenticationFailed@POLYN393355 (R0 in line [00810],R9 in line [00810])" }
 ,
-{ "ligne" : "S5:org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN400070" }
+{ "ligne" : "S5:org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.fatalError@POLYN406610" }
+,
+{ "ligne" : "S5:org.apache.kafka.clients.producer.internals.TransactionalRequestResult.fail@POLYN148475" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "6" , "pas" : [
-{ "ligne" : "S6:org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379977 (R0 in line [00521],R10 in line [00521],R11 in line [00521])" }
+{ "ligne" : "S6:org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN372050 (R0 in line [00327],R10 in line [00327])" }
 ,
-{ "ligne" : "S6:org.apache.kafka.clients.producer.internals.TransactionManager.sequenceNumber@POLYN379611 (R0 in line [00510])" }
-,
-{ "ligne" : "S6:org.apache.kafka.clients.producer.internals.TxnPartitionMap.getOrCreate@POLYN150310" }
+{ "ligne" : "S6:org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN400070" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "7" , "pas" : [
-{ "ligne" : "S7:org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383821 (R0 in line [00599],R12 in line [00599],R13 in line [00599])" }
+{ "ligne" : "S7:org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379977 (R0 in line [00521],R11 in line [00521],R12 in line [00521])" }
 ,
-{ "ligne" : "S7:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateLastAckedSequence@POLYN382086" }
+{ "ligne" : "S7:org.apache.kafka.clients.producer.internals.TransactionManager.sequenceNumber@POLYN379611 (R0 in line [00510])" }
+,
+{ "ligne" : "S7:org.apache.kafka.clients.producer.internals.TxnPartitionMap.getOrCreate@POLYN150310" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "8" , "pas" : [
-{ "ligne" : "S8:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869 (R0 in line [00426],R14 in line [00426])" }
+{ "ligne" : "S8:org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383821 (R0 in line [00599],R13 in line [00599],R14 in line [00599])" }
 ,
-{ "ligne" : "S8:org.apache.kafka.clients.producer.internals.TxnPartitionMap.startSequencesAtBeginning@POLYN151645" }
+{ "ligne" : "S8:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateLastAckedSequence@POLYN382086" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "9" , "pas" : [
-{ "ligne" : "S9:org.apache.kafka.clients.producer.internals.TransactionManager.addInFlightBatch@POLYN380371 (R0 in line [00528],R15 in line [00528])" }
+{ "ligne" : "S9:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869 (R0 in line [00426],R15 in line [00426])" }
 ,
-{ "ligne" : "S9:org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN149918" }
+{ "ligne" : "S9:org.apache.kafka.clients.producer.internals.TxnPartitionMap.startSequencesAtBeginning@POLYN151645" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "10" , "pas" : [
-{ "ligne" : "S10:org.apache.kafka.clients.producer.internals.TransactionManager.retry@POLYN393177 (R0 in line [00805],R16 in line [00805])" }
+{ "ligne" : "S10:org.apache.kafka.clients.producer.internals.TransactionManager.addInFlightBatch@POLYN380371 (R0 in line [00528],R16 in line [00528])" }
 ,
-{ "ligne" : "S10:org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.setRetry@POLYN409469" }
+{ "ligne" : "S10:org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN149918" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "11" , "pas" : [
-{ "ligne" : "S11:org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN384968 (R0 in line [00624],R2 in line [00624],R3 in line [00624],R4 in line [00624])" }
+{ "ligne" : "S11:org.apache.kafka.clients.producer.internals.TransactionManager.retry@POLYN393177 (R0 in line [00805],R17 in line [00805])" }
 ,
-{ "ligne" : "S11:org.apache.kafka.clients.producer.internals.TransactionManager.maybeTransitionToErrorState@POLYN384373 (R0 in line [00610],R5 in line [00610])" }
-,
-{ "ligne" : "S11:org.apache.kafka.clients.producer.internals.TransactionManager.transitionToAbortableError@POLYN374373 (R0 in line [00386],R6 in line [00386])" }
-,
-{ "ligne" : "S11:org.apache.kafka.clients.producer.internals.TransactionManager.transitionToAbortableError@POLYN374373 (R0 in line [00386],R6 in line [00386])" }
-,
-{ "ligne" : "S11:currentState==State.ABORTING_TRANSACTION" }
+{ "ligne" : "S11:org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.setRetry@POLYN409469" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "12" , "pas" : [
-{ "ligne" : "S12:org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN372050 (R0 in line [00327],R9 in line [00327])" }
+{ "ligne" : "S12:org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN384968 (R0 in line [00624],R2 in line [00624],R3 in line [00624],R4 in line [00624])" }
 ,
-{ "ligne" : "S12:org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN372050 (R0 in line [00327],R9 in line [00327])" }
+{ "ligne" : "S12:org.apache.kafka.clients.producer.internals.TransactionManager.maybeTransitionToErrorState@POLYN384373 (R0 in line [00610],R5 in line [00610])" }
 ,
-{ "ligne" : "S12:org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN400070" }
+{ "ligne" : "S12:org.apache.kafka.clients.producer.internals.TransactionManager.transitionToAbortableError@POLYN374373 (R0 in line [00386],R6 in line [00386])" }
+,
+{ "ligne" : "S12:org.apache.kafka.clients.producer.internals.TransactionManager.transitionToAbortableError@POLYN374373 (R0 in line [00386],R6 in line [00386])" }
+,
+{ "ligne" : "S12:currentState==State.ABORTING_TRANSACTION" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "13" , "pas" : [
-{ "ligne" : "S13:org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383821 (R0 in line [00599],R12 in line [00599],R13 in line [00599])" }
+{ "ligne" : "S13:org.apache.kafka.clients.producer.internals.TransactionManager.authenticationFailed@POLYN393355 (R0 in line [00810],R9 in line [00810])" }
 ,
-{ "ligne" : "S13:org.apache.kafka.clients.producer.internals.TransactionManager.removeInFlightBatch@POLYN381794 (R0 in line [00557],R7 in line [00557])" }
+{ "ligne" : "S13:org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.fatalError@POLYN406610" }
 ,
-{ "ligne" : "S13:org.apache.kafka.clients.producer.internals.TransactionManager.hasInflightBatches@POLYN388082 (R0 in line [00692])" }
+{ "ligne" : "S13:org.apache.kafka.clients.producer.internals.TransactionManager.transitionToFatalError@POLYN374859 (R0 in line [00397],R1 in line [00397])" }
+,
+{ "ligne" : "S13:org.apache.kafka.clients.producer.internals.TransactionalRequestResult.fail@POLYN148475" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "14" , "pas" : [
-{ "ligne" : "S14:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869 (R0 in line [00426],R14 in line [00426])" }
+{ "ligne" : "S14:org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN372050 (R0 in line [00327],R10 in line [00327])" }
 ,
-{ "ligne" : "S14:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869 (R0 in line [00426],R14 in line [00426])" }
+{ "ligne" : "S14:org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN372050 (R0 in line [00327],R10 in line [00327])" }
 ,
-{ "ligne" : "S14:org.apache.kafka.clients.producer.internals.TxnPartitionMap.startSequencesAtBeginning@POLYN151645" }
+{ "ligne" : "S14:org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN400070" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "15" , "pas" : [
+{ "ligne" : "S15:org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383821 (R0 in line [00599],R13 in line [00599],R14 in line [00599])" }
+,
+{ "ligne" : "S15:org.apache.kafka.clients.producer.internals.TransactionManager.removeInFlightBatch@POLYN381794 (R0 in line [00557],R7 in line [00557])" }
+,
+{ "ligne" : "S15:org.apache.kafka.clients.producer.internals.TransactionManager.hasInflightBatches@POLYN388082 (R0 in line [00692])" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "16" , "pas" : [
+{ "ligne" : "S16:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869 (R0 in line [00426],R15 in line [00426])" }
+,
+{ "ligne" : "S16:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869 (R0 in line [00426],R15 in line [00426])" }
+,
+{ "ligne" : "S16:org.apache.kafka.clients.producer.internals.TxnPartitionMap.startSequencesAtBeginning@POLYN151645" }
  ]
  } }
 ]
@@ -1012,7 +1034,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "17"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1075,7 +1097,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "9"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2145,6 +2167,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00718"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#718"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00718] For method maybeResolveSequences list of called methods Object monObjet|java.util.Set partitionsWithUnresolvedSequences_keySetN389463"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00720"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#720"
  , "c2" : "MAJOR"
@@ -2964,6 +2993,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1097"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01097] For method handleCachedTransactionRequestResult list of called methods Object monObjet|V transactionalRequestResultSupplier_getN405206"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1098"
  , "c2" : "CRITICAL"
@@ -3202,6 +3238,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01276"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1276"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01276] For method handleResponse list of called methods Object monObjet|Errors initProducerIdResponse_errorN411020"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01285"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1285"
  , "c2" : "MAJOR"
@@ -3227,6 +3270,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1329"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01329] For method handleResponse arguments AbstractResponse  response"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01329"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1329"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01329] For method handleResponse list of called methods Object monObjet|java.util.Map addPartitionsToTxnResponse_errorsN413586"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3335,6 +3385,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01446"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1446"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01446] For method handleResponse list of called methods Object monObjet|V coordinators_getN418908"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01464"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1464"
  , "c2" : "CRITICAL"
@@ -3433,6 +3490,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01508"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1508"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01508] For method handleResponse list of called methods Object monObjet|Errors endTxnResponse_errorN421634"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01531"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1531"
  , "c2" : "MAJOR"
@@ -3479,6 +3543,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1623"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01623] For method handleResponse arguments AbstractResponse  response"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01623"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1623"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01623] For method handleResponse list of called methods Object monObjet|java.util.Map txnOffsetCommitResponse_errorsN427230"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3639,56 +3710,63 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R9 : org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN372050.topicPartition"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R9 : org.apache.kafka.clients.producer.internals.TransactionManager.authenticationFailed@POLYN393355.e"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R10 : org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379977.topicPartition"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R10 : org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN372050.topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R11 : org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379977.increment"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R11 : org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379977.topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R12 : org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383821.batch"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R12 : org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379977.increment"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R13 : org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383821.response"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R13 : org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383821.batch"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R14 : org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869.topicPartition"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R14 : org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383821.response"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R15 : org.apache.kafka.clients.producer.internals.TransactionManager.addInFlightBatch@POLYN380371.batch"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R15 : org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869.topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R16 : org.apache.kafka.clients.producer.internals.TransactionManager.retry@POLYN393177.request"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R16 : org.apache.kafka.clients.producer.internals.TransactionManager.addInFlightBatch@POLYN380371.batch"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R17 : org.apache.kafka.clients.producer.internals.TransactionManager.retry@POLYN393177.request"
 }} 
 ,
 { "ligne" : {"" : ""

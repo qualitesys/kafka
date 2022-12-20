@@ -220,7 +220,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00075] For method fetchSessions list of called methods Object monObjet|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; TimeFirstSessionKeySchema_fromN168979"
+ , "c3" : "QC-JAV000007[00075] For method fetchSessions list of called methods Object monObjet|java.util.List segments_segmentsN168263"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -325,7 +325,7 @@ var maDataBlocs = {
  , "c1" : "00121"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00121] For method getWriteBatches list of called methods Object monObjet|long SessionKeySchema_extractEndTimestampN170959|long SessionKeySchema_extractEndTimestampN171448"
+ , "c3" : "QC-JAV000007[00121] For method getWriteBatches list of called methods Object monObjet|long SessionKeySchema_extractEndTimestampN170959|long SessionKeySchema_extractEndTimestampN171448|long segments_segmentIdN171567|S segments_getOrCreateSegmentIfLiveN171666"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -272,7 +272,7 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00092] For method readFrom list of called methods Object monObjet|java.nio.ByteBuffer memoryPool_tryAllocateN164027"
+ , "c3" : "QC-JAV000007[00092] For method readFrom list of called methods Object monObjet|int channel_readN162805|java.nio.ByteBuffer memoryPool_tryAllocateN164027|int channel_readN164372"
 }} 
 ,
 { "ligne" : {"" : ""

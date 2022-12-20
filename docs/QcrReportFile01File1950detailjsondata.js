@@ -664,7 +664,7 @@ var maDataBlocs = {
  , "c1" : "00275"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#275"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00275] For method encodePartitionsByHostAsDictionary list of called methods Object monObjet|java.util.Map&lt;java.lang.String,?&gt; partitionsByHost_valuesN230762|java.util.Map&lt;java.lang.String,java.lang.Integer&gt; encodeTopicDictionaryAndGetN231009"
+ , "c3" : "QC-JAV000007[00275] For method encodePartitionsByHostAsDictionary list of called methods Object monObjet|java.util.Collection partitionsByHost_valuesN230762"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -678,7 +678,7 @@ var maDataBlocs = {
  , "c1" : "00282"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#282"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00282] For method encodeActiveAndStandbyHostPartitions list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Integer&gt; encodeTopicDictionaryAndGetN231676"
+ , "c3" : "QC-JAV000007[00282] For method encodeActiveAndStandbyHostPartitions list of called methods Object monObjet|java.util.Map encodeTopicDictionaryAndGetN231676"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1021,7 +1021,7 @@ var maDataBlocs = {
  , "c1" : "00445"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#445"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00445] For method decodePartitionsByHostUsingDictionary list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,java.lang.String&gt; decodeTopicIndexAndGetN242270|java.util.Map&lt;org.apache.kafka.streams.state.HostInfo,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; decodeHostPartitionMapUsingDictionaryN242363"
+ , "c3" : "QC-JAV000007[00445] For method decodePartitionsByHostUsingDictionary list of called methods Object monObjet|java.util.Map decodeTopicIndexAndGetN242270|java.util.Map decodeHostPartitionMapUsingDictionaryN242363"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1042,7 +1042,7 @@ var maDataBlocs = {
  , "c1" : "00451"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#451"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00451] For method decodeActiveAndStandbyHostPartitions list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,java.lang.String&gt; decodeTopicIndexAndGetN242624|java.util.Map&lt;org.apache.kafka.streams.state.HostInfo,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; decodeHostPartitionMapUsingDictionaryN242717|java.util.Map&lt;org.apache.kafka.streams.state.HostInfo,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; decodeHostPartitionMapUsingDictionaryN242832"
+ , "c3" : "QC-JAV000007[00451] For method decodeActiveAndStandbyHostPartitions list of called methods Object monObjet|java.util.Map decodeTopicIndexAndGetN242624|java.util.Map decodeHostPartitionMapUsingDictionaryN242717|java.util.Map decodeHostPartitionMapUsingDictionaryN242832"
 }} 
 ,
 { "ligne" : {"" : ""

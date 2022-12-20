@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsRequest.java 6 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsRequest.java 5 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -98,7 +98,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -142,7 +142,7 @@ var maDataBlocs = {
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsRequest.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00068] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN152281"
+ , "c3" : "QC-JAV000007[00068] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN152281|Errors apiError_errorN152375|java.lang.String apiError_messageN152470"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -150,13 +150,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsRequest.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterUserScramCredentialsRequest.Builder.toString@POLYN151355"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsRequest.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterUserScramCredentialsRequest.getErrorResponse@POLYN152159"
 }} 
 ]
 , 

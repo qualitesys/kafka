@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/Stores.java 62 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/Stores.java 66 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.xml" 
  , "fic3"  : "" 
 }
@@ -161,6 +161,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "11"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "4"
+}}
  ] 
 ,
 "data13b" : [
@@ -291,6 +298,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00216"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#216"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00216] For method persistentWindowStore list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN250013|long validateMillisecondDurationN250128|java.lang.String prepareMillisCheckFailMsgPrefixN250241|long validateMillisecondDurationN250356"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00221"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#221"
  , "c2" : "MAJOR"
@@ -417,6 +431,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00281"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#281"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00281] For method inMemoryWindowStore list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN253032|long validateMillisecondDurationN253147|java.lang.String prepareMillisCheckFailMsgPrefixN253409|long validateMillisecondDurationN253524"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00285"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#285"
  , "c2" : "MAJOR"
@@ -501,6 +522,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00317"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#317"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00317] For method persistentSessionStore list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN254713|long validateMillisecondDurationN254828"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#319"
  , "c2" : "MAJOR"
@@ -533,6 +561,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#337"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00337] For method inMemorySessionStore arguments String  name|Duration  retentionPeriod"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00337"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#337"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00337] For method inMemorySessionStore list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN255694|long validateMillisecondDurationN255809"
 }} 
 ,
 { "ligne" : {"" : ""

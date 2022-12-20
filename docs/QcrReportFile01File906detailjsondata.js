@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java 22 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java 23 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.xml" 
  , "fic3"  : "" 
 }
@@ -140,7 +140,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -199,6 +199,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#109"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00109] For method createSignalHandler arguments Map&lt;String ,Object &gt;  jvmSignalHandlers"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#109"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00109] For method createSignalHandler list of called methods Object monObjet|V jvmSignalHandlers_getN159110"
 }} 
 ,
 { "ligne" : {"" : ""

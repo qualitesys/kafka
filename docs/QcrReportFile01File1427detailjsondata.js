@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java 48 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java 52 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.xml" 
  , "fic3"  : "" 
 }
@@ -274,6 +274,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "12"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "4"
+}}
  ] 
 ,
 "data13b" : [
@@ -390,6 +397,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00182"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#182"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00182] For method maybeAllocateBatch list of called methods Object monObjet|java.util.OptionalInt currentBatch_bytesNeededN218342"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#186"
  , "c2" : "MAJOR"
@@ -408,6 +422,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#195"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.raft.internals.BatchAccumulator.maybeAllocateBatch@POLYN218006 the MagicNumber/String  'The total record(s) size of %d exceeds the maximum allowed batch size of %d' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00209"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#209"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00209] For method completeCurrentBatch list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecords currentBatch_buildN219004"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -495,6 +516,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00348"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#348"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00348] For method startNewBatch list of called methods Object monObjet|java.nio.ByteBuffer memoryPool_tryAllocateN222901"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00350"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#350"
  , "c2" : "MAJOR"
@@ -555,6 +583,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#442"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.raft.internals.BatchAccumulator.drainCompleted@POLYN225549 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00466"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#466"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00466] For method close list of called methods Object monObjet|java.util.List drainN226557"
 }} 
 ,
 { "ligne" : {"" : ""

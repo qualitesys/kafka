@@ -304,7 +304,7 @@ var maDataBlocs = {
  , "c1" : "00209"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#209"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00209] For method materializeTopics list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; expandTopicNameN191439|java.lang.String[] topicName_splitN192008"
+ , "c3" : "QC-JAV000007[00209] For method materializeTopics list of called methods Object monObjet|java.util.Set expandTopicNameN191439|java.lang.String[] topicName_splitN192008"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -409,7 +409,7 @@ var maDataBlocs = {
  , "c1" : "00239"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#239"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00239] For method expandTopicName list of called methods Object monObjet|java.util.HashSet&lt;java.lang.String&gt; StringExpander_expandN192996"
+ , "c3" : "QC-JAV000007[00239] For method expandTopicName list of called methods Object monObjet|java.util.HashSet StringExpander_expandN192996"
 }} 
 ,
 { "ligne" : {"" : ""

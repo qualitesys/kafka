@@ -124,7 +124,7 @@ var maDataBlocs = {
  , "c1" : "00034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00034] For method deserialize list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes buffer_getIntN156264"
+ , "c3" : "QC-JAV000007[00034] For method deserialize list of called methods Object monObjet|V buffer_getN155662|V buffer_getIntN156264"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -194,7 +194,7 @@ var maDataBlocs = {
  , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00062] For method serialize list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; position_getTopicsN157698|byte[] topic_getBytesN158409|java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; position_getPartitionPositionsN158760|java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; position_getPartitionPositionsN159830"
+ , "c3" : "QC-JAV000007[00062] For method serialize list of called methods Object monObjet|java.util.Set position_getTopicsN157698"
 }} 
 ,
 { "ligne" : {"" : ""

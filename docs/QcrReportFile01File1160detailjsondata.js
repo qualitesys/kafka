@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java 148 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java 149 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.xml" 
  , "fic3"  : "" 
 }
@@ -300,7 +300,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -442,7 +442,7 @@ var maDataBlocs = {
  , "c1" : "00149"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#149"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00149] For method createConnector list of called methods Object monObjet|java.lang.String createRequest_nameN237848|java.util.Map&lt;java.lang.String,java.lang.String&gt; createRequest_configN238109"
+ , "c3" : "QC-JAV000007[00149] For method createConnector list of called methods Object monObjet|java.lang.String createRequest_nameN237848|java.util.Map createRequest_configN238109"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -947,6 +947,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#380"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00380] For method checkAndPutConnectorConfigName arguments String  connectorName|Map&lt;String ,String &gt;  connectorConfig"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00380"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#380"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00380] For method checkAndPutConnectorConfigName list of called methods Object monObjet|V connectorConfig_getN254424"
 }} 
 ,
 { "ligne" : {"" : ""

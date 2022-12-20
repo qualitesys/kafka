@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html" 
- , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java 203 rule violations " 
+ , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java 202 rule violations " 
  , "fic2"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.xml" 
  , "fic3"  : "" 
 }
@@ -332,7 +332,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "15"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : { "" : ""
@@ -346,7 +346,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "6"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -381,7 +381,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "9"
 }}
  ] 
 ,
@@ -705,7 +705,7 @@ var maDataBlocs = {
  , "c1" : "00543"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#543"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00543] For method pipeRecord list of called methods Object monObjet|org.apache.kafka.common.TopicPartition getInputTopicOrPatternPartitionN413902"
+ , "c3" : "QC-JAV000007[00543] For method pipeRecord list of called methods Object monObjet|org.apache.kafka.common.TopicPartition getInputTopicOrPatternPartitionN413902|V globalPartitionsByInputTopic_getN413993"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -748,6 +748,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#565"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00565] For method enqueueTaskRecord arguments String  inputTopic|TopicPartition  topicOrPatternPartition|long  timestamp|byte[]  key|byte[]  value|Headers  headers"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00565"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#565"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00565] For method enqueueTaskRecord list of called methods Object monObjet|V offsetsByTopicOrPatternPartition_getN415047"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -905,6 +912,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00655"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#655"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00655] For method getInputTopicOrPatternPartition list of called methods Object monObjet|V partitionsByInputTopic_getN418847"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00661"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#661"
  , "c2" : "MAJOR"
@@ -915,7 +929,7 @@ var maDataBlocs = {
  , "c1" : "00671"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#671"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00671] For method captureOutputsAndReEnqueueInternalResults list of called methods Object monObjet|org.apache.kafka.common.TopicPartition getInputTopicOrPatternPartitionN420079"
+ , "c3" : "QC-JAV000007[00671] For method captureOutputsAndReEnqueueInternalResults list of called methods Object monObjet|org.apache.kafka.common.TopicPartition getInputTopicOrPatternPartitionN420079|V globalPartitionsByInputTopic_getN420170"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -996,6 +1010,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00726"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#726"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00726] For method getRecordsQueue list of called methods Object monObjet|V outputRecordsByTopic_getN421903"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00728"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#728"
  , "c2" : "MAJOR"
@@ -1034,7 +1055,7 @@ var maDataBlocs = {
  , "c1" : "00806"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#806"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00806] For method readRecord list of called methods Object monObjet|Queue&lt;ProducerRecord&lt;byte[],byte[]&gt;&gt; getRecordsQueueN425332"
+ , "c3" : "QC-JAV000007[00806] For method readRecord list of called methods Object monObjet|java.util.Queue getRecordsQueueN425332"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1146,7 +1167,7 @@ var maDataBlocs = {
  , "c1" : "00849"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#849"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00849] For method getQueueSize list of called methods Object monObjet|Queue&lt;ProducerRecord&lt;byte[],byte[]&gt;&gt; getRecordsQueueN428474"
+ , "c3" : "QC-JAV000007[00849] For method getQueueSize list of called methods Object monObjet|java.util.Queue getRecordsQueueN428474"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1671,27 +1692,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN419388"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.commit@POLYN416675"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.getQueueSize@POLYN428299"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN411065"
 }} 
 ,
@@ -1699,7 +1699,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.WindowStoreFacade.backwardFetch@POLYN447064"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.WindowStoreFacade.fetch@POLYN446622"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.TestDriverProducer.commitTransaction@POLYN449296"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.WindowStoreFacade.backwardFetchAll@POLYN447848"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.WindowStoreFacade.fetchAll@POLYN447506"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1749,41 +1777,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1114"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01114] In the recursive method org.apache.kafka.streams.TopologyTestDriver.close@POLYN439106 the MagicNumber/String ' {} configuration during TopologyTestDriver#close--.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00685"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#685"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00685] In the recursive method org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN419388 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00696"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#696"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00696] In the recursive method org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN419388 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00618"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#618"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00618] In the recursive method org.apache.kafka.streams.TopologyTestDriver.commit@POLYN416675 the MagicNumber/String 'dummy-app-id' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00851"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#851"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00851] In the recursive method org.apache.kafka.streams.TopologyTestDriver.getQueueSize@POLYN428299 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00853"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#853"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00853] In the recursive method org.apache.kafka.streams.TopologyTestDriver.getQueueSize@POLYN428299 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

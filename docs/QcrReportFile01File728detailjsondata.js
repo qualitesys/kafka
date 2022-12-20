@@ -288,7 +288,7 @@ var maDataBlocs = {
  , "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#173"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00173] For method getErrorResponse list of called methods Object monObjet|java.util.List&lt;TxnOffsetCommitResponseTopic&gt; getErrorResponseTopicsN178027"
+ , "c3" : "QC-JAV000007[00173] For method getErrorResponse list of called methods Object monObjet|java.util.List getErrorResponseTopicsN178027"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java 112 rule violations " 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java 113 rule violations " 
  , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.xml" 
  , "fic3"  : "" 
 }
@@ -167,7 +167,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -379,7 +379,7 @@ var maDataBlocs = {
  , "c1" : "00132"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00132] For method printTargets list of called methods Object monObjet|boolean targetFiles_isEmptyN187860"
+ , "c3" : "QC-JAV000007[00132] For method printTargets list of called methods Object monObjet|int targetFiles_sizeN187695|boolean targetFiles_isEmptyN187860"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -470,7 +470,7 @@ var maDataBlocs = {
  , "c1" : "00154"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00154] For method printEntries list of called methods Object monObjet|org.apache.kafka.shell.LsCommandHandler.ColumnSchema calculateColumnSchemaN189130"
+ , "c3" : "QC-JAV000007[00154] For method printEntries list of called methods Object monObjet|org.apache.kafka.shell.LsCommandHandler.ColumnSchema calculateColumnSchemaN189130|int columnSchema_numColumnsN189238|V entries_getN190106|int columnSchema_columnWidthN190366"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -562,6 +562,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#186"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00186] For method calculateColumnSchema arguments OptionalInt  screenWidth|List&lt;String &gt;  entries"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00186"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#186"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00186] For method calculateColumnSchema list of called methods Object monObjet|V entries_getN192168"
 }} 
 ,
 { "ligne" : {"" : ""

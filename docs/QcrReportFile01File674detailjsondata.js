@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java 72 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java 75 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -236,6 +236,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -410,6 +417,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#203"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00203] For method addToForgottenTopicMap arguments List&lt;TopicIdPartition &gt;  toForget|Map&lt;String ,FetchRequestData.ForgottenTopic &gt;  forgottenTopicMap"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00203"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#203"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00203] For method addToForgottenTopicMap list of called methods Object monObjet|V forgottenTopicMap_getN208635"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -625,6 +639,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00350"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#350"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00350] For method fetchData list of called methods Object monObjet|V topicNames_getN216825"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#350"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00350] The argument topicNames is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -662,6 +683,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#388"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00388] For method forgottenTopics arguments Map&lt;Uuid ,String &gt;  topicNames"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00388"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#388"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00388] For method forgottenTopics list of called methods Object monObjet|V topicNames_getN218452"
 }} 
 ,
 { "ligne" : {"" : ""

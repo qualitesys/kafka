@@ -2341,7 +2341,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method toLowerCase list of called methods Object monObjet|int codePointAtN887471|int Character_charCountN887688|int codePointAtN889245|int Character_charCountN889330|int Character_toLowerCaseN889750|char[] Character_toCharsN890308|char[] Character_toCharsN890522"
+ , "c3" : "QC-JAV000007[00001] For method toLowerCase list of called methods Object monObjet|int codePointAtN887471|int Character_charCountN887688|int codePointAtN889245|int Character_charCountN889330|int Character_toLowerCaseN889750|int Character_toCharsN890308|char[] Character_toCharsN890522"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2453,7 +2453,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method toUpperCase list of called methods Object monObjet|int codePointAtN895052|int Character_charCountN895137|int Character_toUpperCaseExN895309|int codePointAtN896918|int Character_charCountN897003|int Character_toUpperCaseExN897377|char[] Character_toUpperCaseCharArrayN897930|char[] Character_toCharsN898099|char[] Character_toCharsN898313"
+ , "c3" : "QC-JAV000007[00001] For method toUpperCase list of called methods Object monObjet|int codePointAtN895052|int Character_charCountN895137|int Character_toUpperCaseExN895309|int codePointAtN896918|int Character_charCountN897003|int Character_toUpperCaseExN897377|char[] Character_toUpperCaseCharArrayN897930|int Character_toCharsN898099|char[] Character_toCharsN898313"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java 104 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java 102 rule violations " 
  , "fic2"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.xml" 
  , "fic3"  : "" 
 }
@@ -413,7 +413,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "7"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -427,7 +427,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -455,7 +455,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "14"
+ , "c4" : "16"
 }}
  ] 
 ,
@@ -604,21 +604,21 @@ var maDataBlocs = {
  , "c1" : "00193"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#193"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00193] For method findSourceTopicPartitions list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; listTopicsN240947"
+ , "c3" : "QC-JAV000007[00193] For method findSourceTopicPartitions list of called methods Object monObjet|java.util.Set listTopicsN240947"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#204"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00204] For method findTargetTopicPartitions list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; listTopicsN241487"
+ , "c3" : "QC-JAV000007[00204] For method findTargetTopicPartitions list of called methods Object monObjet|java.util.Set listTopicsN241487"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00216"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#216"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00216] For method refreshTopicPartitions list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; findSourceTopicPartitionsN242243|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; findTargetTopicPartitionsN242331"
+ , "c3" : "QC-JAV000007[00216] For method refreshTopicPartitions list of called methods Object monObjet|java.util.List findSourceTopicPartitionsN242243|java.util.List findTargetTopicPartitionsN242331"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -667,21 +667,21 @@ var maDataBlocs = {
  , "c1" : "00261"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#261"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00261] For method loadTopicPartitions list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; findSourceTopicPartitionsN244695|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; findTargetTopicPartitionsN244761"
+ , "c3" : "QC-JAV000007[00261] For method loadTopicPartitions list of called methods Object monObjet|java.util.List findSourceTopicPartitionsN244695|java.util.List findTargetTopicPartitionsN244761"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00267"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#267"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00267] For method refreshKnownTargetTopics list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; findTargetTopicPartitionsN244890"
+ , "c3" : "QC-JAV000007[00267] For method refreshKnownTargetTopics list of called methods Object monObjet|java.util.List findTargetTopicPartitionsN244890"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00272"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#272"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00272] For method topicsBeingReplicated list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; toTopicsN245052"
+ , "c3" : "QC-JAV000007[00272] For method topicsBeingReplicated list of called methods Object monObjet|java.util.Set toTopicsN245052"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -702,14 +702,21 @@ var maDataBlocs = {
  , "c1" : "00287"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#287"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00287] For method syncTopicAcls list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.common.acl.AclBinding&gt; listTopicAclBindingsN245820"
+ , "c3" : "QC-JAV000007[00287] For method syncTopicAcls list of called methods Object monObjet|java.util.Collection listTopicAclBindingsN245820"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#299"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00299] For method syncTopicConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.Config&gt; describeTopicConfigsN246629"
+ , "c3" : "QC-JAV000007[00299] For method syncTopicConfigs list of called methods Object monObjet|java.util.Map describeTopicConfigsN246629|java.util.Set sourceConfigs_entrySetN246764"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00311"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#311"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00311] For method computeAndCreateTopicPartitions list of called methods Object monObjet|java.util.Set sourceTopicToPartitionCounts_keySetN248287|java.util.Set knownSourceTopics_streamN248756"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -737,7 +744,7 @@ var maDataBlocs = {
  , "c1" : "00354"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#354"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00354] For method createNewTopics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.Config&gt; describeTopicConfigsN250730|java.lang.String formatRemoteTopicN250975|java.util.Map&lt;java.lang.String,java.lang.String&gt; configToMapN251212"
+ , "c3" : "QC-JAV000007[00354] For method createNewTopics list of called methods Object monObjet|java.util.Map describeTopicConfigsN250730|java.lang.String formatRemoteTopicN250975|V sourceTopicToPartitionCounts_getN251061|java.util.Map configToMapN251212"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -876,6 +883,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00414"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#414"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00414] For method updateTopicConfigs list of called methods Object monObjet|java.util.Set topicConfigs_entrySetN254536"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00414"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#414"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00414] The argument topicConfigs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -982,7 +996,7 @@ var maDataBlocs = {
  , "c1" : "00450"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#450"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00450] For method targetConfig list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.clients.admin.ConfigEntry&gt; sourceConfig_entriesN257374"
+ , "c3" : "QC-JAV000007[00450] For method targetConfig list of called methods Object monObjet|java.util.Collection sourceConfig_entriesN257374"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1122,13 +1136,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN254369"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.configToMap@POLYN254060"
 }} 
 ,
@@ -1137,27 +1144,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN259920"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00418"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#418"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00418] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN254369 the MagicNumber/String 'Syncing configs for {} topics.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00420"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#420"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00420] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN254369 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00421"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#421"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00421] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.updateTopicConfigs@POLYN254369 the MagicNumber/String 'Could not alter configuration of topic {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

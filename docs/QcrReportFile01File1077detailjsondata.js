@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java 24 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java 27 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.xml" 
  , "fic3"  : "" 
 }
@@ -182,7 +182,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -198,7 +198,7 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00092] For method validate list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; parseTopicsListN173481"
+ , "c3" : "QC-JAV000007[00092] For method validate list of called methods Object monObjet|V props_getN173297|java.util.List parseTopicsListN173481|V props_getN173920"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -274,6 +274,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#127"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00127] For method hasTopicsConfig list of called methods Object monObjet|V props_getN174560"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#127"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00127] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -288,6 +295,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#132"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00132] For method hasTopicsRegexConfig list of called methods Object monObjet|V props_getN174852"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#132"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00132] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -297,6 +311,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#137"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00137] For method hasDlqTopicConfig arguments Map&lt;String ,String &gt;  props"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00137"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#137"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00137] For method hasDlqTopicConfig list of called methods Object monObjet|V props_getN175144"
 }} 
 ,
 { "ligne" : {"" : ""

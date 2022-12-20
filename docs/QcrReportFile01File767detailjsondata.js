@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java 134 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java 135 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.xml" 
  , "fic3"  : "" 
 }
@@ -379,7 +379,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
@@ -577,7 +577,7 @@ var maDataBlocs = {
  , "c1" : "00338"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#338"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00338] For method reauthenticate list of called methods Object monObjet|org.apache.kafka.common.network.NetworkReceive reauthenticationContext_networkReceiveN259446"
+ , "c3" : "QC-JAV000007[00338] For method reauthenticate list of called methods Object monObjet|org.apache.kafka.common.requests.ApiVersionsResponse previousSaslClientAuthenticator_reauthInfo_apiVersionsResponseN259198|org.apache.kafka.common.network.NetworkReceive reauthenticationContext_networkReceiveN259446"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -682,7 +682,7 @@ var maDataBlocs = {
  , "c1" : "00433"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#433"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00433] For method sendSaslClientToken list of called methods Object monObjet|byte[] createSaslTokenN263317|org.apache.kafka.common.network.ByteBufferSend ByteBufferSend_sizePrefixedN263691"
+ , "c3" : "QC-JAV000007[00433] For method sendSaslClientToken list of called methods Object monObjet|byte[] createSaslTokenN263317|org.apache.kafka.common.network.ByteBufferSend ByteBufferSend_sizePrefixedN263691|org.apache.kafka.common.network.Send request_toSendN264076"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -760,6 +760,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#502"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.common.security.authenticator.SaslClientAuthenticator.close@POLYN266459 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00506"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#506"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00506] For method receiveToken list of called methods Object monObjet|Errors response_errorN267017|java.lang.String response_errorMessageN267242|long response_sessionLifetimeMsN267480"
 }} 
 ,
 { "ligne" : {"" : ""

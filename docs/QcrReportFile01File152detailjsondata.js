@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java 63 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java 66 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.xml" 
  , "fic3"  : "" 
 }
@@ -239,7 +239,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -270,6 +270,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method unmap arguments K  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00001] For method unmap list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy handler_lookupStrategyN221609|java.util.OptionalInt lookupScope_destinationBrokerIdN221723"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -373,6 +380,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00001] For method onResponse list of called methods Object monObjet|ApiResult handler_handleResponseN225718|org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy handler_lookupStrategyN226125"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00001] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -382,13 +396,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method onFailure arguments long  currentTimeMs|RequestSpec&lt;K &gt;  spec|Throwable  t"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method onFailure list of called methods Object monObjet|ApiResult&lt;org.apache.kafka.common.TopicPartition,java.lang.Void&gt; spec_keys_streamN227462|ApiResult&lt;org.apache.kafka.common.TopicPartition,java.lang.Void&gt; spec_keys_streamN227788"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -417,6 +424,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method clearInflightRequest arguments long  currentTimeMs|RequestSpec&lt;K &gt;  spec"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00001] For method clearInflightRequest list of called methods Object monObjet|V requestStates_getN228350"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -655,6 +669,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method remove arguments V  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00001] For method remove list of called methods Object monObjet|V map_getN236697"
 }} 
 ,
 { "ligne" : {"" : ""
