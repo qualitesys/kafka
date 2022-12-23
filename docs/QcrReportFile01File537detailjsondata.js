@@ -161,7 +161,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00055] For method writeRawTags list of called methods Object monObjet|int field_tagN149370"
+ , "c3" : "QC-JAV000007[00055] For method writeRawTags list of called methods Object monObjet|T iter_nextN149295|int field_tagN149370"
 }} 
 ,
 { "ligne" : {"" : ""

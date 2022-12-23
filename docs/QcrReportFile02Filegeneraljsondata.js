@@ -1374,7 +1374,6 @@ var mavar =
 ' { "namespace":"java.io" , "classe":"FileReader" , "nbMethodes":"3" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"java.io" , "classe":"InputStream" , "nbMethodes":"9" , "nbComplexite":"2.34"} ,' + 
 ' { "namespace":"java.io" , "classe":"InputStreamReader" , "nbMethodes":"9" , "nbComplexite":"1.34"} ,' + 
-' { "namespace":"java.io" , "classe":"ObjectInputStream" , "nbMethodes":"65" , "nbComplexite":"3.94"} ,' + 
 ' { "namespace":"java.io" , "classe":"ObjectOutputStream" , "nbMethodes":"56" , "nbComplexite":"2.99"} ,' + 
 ' { "namespace":"java.io" , "classe":"OutputStream" , "nbMethodes":"5" , "nbComplexite":"2.21"} ,' + 
 ' { "namespace":"java.io" , "classe":"OutputStreamWriter" , "nbMethodes":"11" , "nbComplexite":"1.28"} ,' + 
@@ -1388,8 +1387,6 @@ var mavar =
 ' { "namespace":"java.io" , "classe":"Writer" , "nbMethodes":"12" , "nbComplexite":"1.59"} ,' + 
 ' { "namespace":"java.lang" , "classe":"Boolean" , "nbMethodes":"14" , "nbComplexite":"1.08"} ,' + 
 ' { "namespace":"java.lang" , "classe":"Byte" , "nbMethodes":"20" , "nbComplexite":"1.15"} ,' + 
-' { "namespace":"java.lang" , "classe":"Character" , "nbMethodes":"93" , "nbComplexite":"1.60"} ,' + 
-' { "namespace":"java.lang" , "classe":"Class" , "nbMethodes":"158" , "nbComplexite":"2.61"} ,' + 
 ' { "namespace":"java.lang" , "classe":"Comparable" , "nbMethodes":"1" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"java.lang" , "classe":"Double" , "nbMethodes":"25" , "nbComplexite":"1.33"} ,' + 
 ' { "namespace":"java.lang" , "classe":"Error" , "nbMethodes":"5" , "nbComplexite":"1.00"} ,' + 
@@ -1413,7 +1410,6 @@ var mavar =
 ' { "namespace":"java.util" , "classe":"HashMap" , "nbMethodes":"51" , "nbComplexite":"4.22"} ,' + 
 ' { "namespace":"java.util" , "classe":"Hashtable" , "nbMethodes":"44" , "nbComplexite":"3.28"} ,' + 
 ' { "namespace":"java.util" , "classe":"Map" , "nbMethodes":"25" , "nbComplexite":"1.73"} ,' + 
-' { "namespace":"java.util.concurrent" , "classe":"ConcurrentHashMap" , "nbMethodes":"73" , "nbComplexite":"5.96"} ,' + 
 ' { "namespace":"java.util.concurrent" , "classe":"ConcurrentMap" , "nbMethodes":"11" , "nbComplexite":"3.37"} ,' + 
 ' { "namespace":"javax.servlet" , "classe":"ServletRequest" , "nbMethodes":"29" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"javax.servlet" , "classe":"ServletResponse" , "nbMethodes":"15" , "nbComplexite":"1.00"} ,' + 

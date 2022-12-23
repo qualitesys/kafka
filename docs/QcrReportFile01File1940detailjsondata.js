@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java 295 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java 297 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -663,7 +663,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "10"
 }}
  ] 
 ,
@@ -1574,6 +1574,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00733"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#733"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00733] For method releaseLockedDirectoriesForTasks list of called methods Object monObjet|T taskIdIterator_nextN369620"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00733"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#733"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00733] The argument tasksToUnlock is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1583,6 +1590,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#736"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00736] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00748"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#748"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00748] For method releaseLockedUnassignedTaskDirectories list of called methods Object monObjet|T taskIdIterator_nextN370235"
 }} 
 ,
 { "ligne" : {"" : ""

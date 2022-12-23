@@ -125,9 +125,7 @@ var maDataBlocs = {
 { "sequence" : { "noseq" : "0" , "pas" : [
 { "ligne" : "S0:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN162770 (R0 in line [00076],R1 in line [00076])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN162770 (R0 in line [00076],R1 in line [00076])" }
-,
-{ "ligne" : "S0:org.apache.kafka.raft.Batch.lastOffset@POLYN161886" }
+{ "ligne" : "S0:java.util.Hashtable.next@POLYN475832" }
  ]
  } }
 ,
@@ -146,20 +144,29 @@ var maDataBlocs = {
  } }
 ,
 { "sequence" : { "noseq" : "3" , "pas" : [
-{ "ligne" : "S3:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN165236 (R0 in line [00139],R2 in line [00139])" }
+{ "ligne" : "S3:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN162770 (R0 in line [00076],R1 in line [00076])" }
 ,
-{ "ligne" : "S3:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN165236 (R0 in line [00139],R2 in line [00139])" }
+{ "ligne" : "S3:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN162770 (R0 in line [00076],R1 in line [00076])" }
 ,
-{ "ligne" : "S3:org.apache.kafka.snapshot.RecordsSnapshotReader.next@POLYN154951" }
+{ "ligne" : "S3:java.util.Hashtable.next@POLYN475832" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "4" , "pas" : [
-{ "ligne" : "S4:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166527 (R0 in line [00169],R3 in line [00169])" }
+{ "ligne" : "S4:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN165236 (R0 in line [00139],R2 in line [00139])" }
 ,
-{ "ligne" : "S4:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166527 (R0 in line [00169],R3 in line [00169])" }
+{ "ligne" : "S4:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN165236 (R0 in line [00139],R2 in line [00139])" }
 ,
-{ "ligne" : "S4:org.apache.kafka.raft.QuorumState.isLeader@POLYN231945" }
+{ "ligne" : "S4:org.apache.kafka.snapshot.RecordsSnapshotReader.next@POLYN154951" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "5" , "pas" : [
+{ "ligne" : "S5:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166527 (R0 in line [00169],R3 in line [00169])" }
+,
+{ "ligne" : "S5:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166527 (R0 in line [00169],R3 in line [00169])" }
+,
+{ "ligne" : "S5:org.apache.kafka.raft.QuorumState.isLeader@POLYN231945" }
  ]
  } }
 ]

@@ -193,7 +193,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method checkSupplier list of called methods Object monObjet|java.lang.Class supplier_getClassN155721"
+ , "c3" : "QC-JAV000007[00085] For method checkSupplier list of called methods Object monObjet|Class supplier_getClassN155721"
 }} 
 ,
 { "ligne" : {"" : ""

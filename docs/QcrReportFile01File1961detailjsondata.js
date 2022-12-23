@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java 93 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java 94 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.xml" 
  , "fic3"  : "" 
 }
@@ -203,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -339,6 +339,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#150"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00150] For method balanceTasksOverThreads arguments SortedMap&lt;UUID ,ClientState &gt;  clientStates|Function&lt;ClientState ,Set&lt;TaskId &gt; &gt;  currentAssignmentAccessor|BiConsumer&lt;ClientState ,TaskId &gt;  taskUnassignor|BiConsumer&lt;ClientState ,TaskId &gt;  taskAssignor|BiPredicate&lt;ClientState ,ClientState &gt;  taskMovementAttemptPredicate"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#150"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00150] For method balanceTasksOverThreads list of called methods Object monObjet|T sourceIterator_nextN184686"
 }} 
 ,
 { "ligne" : {"" : ""

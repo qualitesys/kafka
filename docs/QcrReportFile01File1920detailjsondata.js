@@ -320,7 +320,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S1:org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN255547 (R0 in line [00001],R2 in line [00001])" }
 ,
-{ "ligne" : "S1:java.util.HashMap.remove@POLYN649661" }
+{ "ligne" : "S1:java.util.Hashtable.remove@POLYN448040" }
  ]
  } }
 ,
@@ -346,7 +346,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S3:org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN255547 (R0 in line [00001],R2 in line [00001])" }
 ,
-{ "ligne" : "S3:java.util.HashMap.remove@POLYN649661" }
+{ "ligne" : "S3:java.util.Hashtable.remove@POLYN448040" }
  ]
  } }
 ]

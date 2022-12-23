@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java 161 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java 162 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -363,7 +363,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -1219,7 +1219,7 @@ var maDataBlocs = {
  , "c1" : "00560"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#560"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00560] For method getNext list of called methods Object monObjet|java.util.Iterator setRecordIteratorN258297"
+ , "c3" : "QC-JAV000007[00560] For method getNext list of called methods Object monObjet|java.util.Iterator setRecordIteratorN258297|T recordIterator_nextN258534"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1234,6 +1234,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#564"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00564] In method org.apache.kafka.streams.state.internals.InMemoryWindowStore.InMemoryWindowStoreIteratorWrapper.getNext@POLYN258145 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00571"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#571"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00571] For method setRecordIterator list of called methods Object monObjet|T segmentIterator_nextN259081|T currentSegment_getValueN259502|T currentSegment_getValueN259868"
 }} 
 ,
 { "ligne" : {"" : ""

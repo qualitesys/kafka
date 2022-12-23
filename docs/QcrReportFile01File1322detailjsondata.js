@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 586 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 587 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -552,7 +552,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "30"
+ , "c4" : "31"
 }}
  ] 
 ,
@@ -2990,7 +2990,7 @@ var maDataBlocs = {
  , "c1" : "01483"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1483"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01483] For method createPartitions list of called methods Object monObjet|V topicsByName_getN568520|V topics_getN568762|java.util.Collection topicInfo_parts_valuesN570236|int topicInfo_parts_sizeN570987|org.apache.kafka.metadata.placement.ReplicaPlacer clusterControl_replicaPlacerN572598|V placements_getN573130|V isrs_getN573245"
+ , "c3" : "QC-JAV000007[01483] For method createPartitions list of called methods Object monObjet|V topicsByName_getN568520|V topics_getN568762|java.util.Collection topicInfo_parts_valuesN570236|T iterator_nextN570559|int topicInfo_parts_sizeN570987|org.apache.kafka.metadata.placement.ReplicaPlacer clusterControl_replicaPlacerN572598|V placements_getN573130|V isrs_getN573245"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3375,7 +3375,7 @@ var maDataBlocs = {
  , "c1" : "01621"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1621"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01621] For method generateLeaderAndIsrUpdates list of called methods Object monObjet|int records_sizeN576596|V topics_getN577104|V topic_parts_getN577433"
+ , "c3" : "QC-JAV000007[01621] For method generateLeaderAndIsrUpdates list of called methods Object monObjet|int records_sizeN576596|T iterator_nextN577029|V topics_getN577104|V topic_parts_getN577433"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3943,6 +3943,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1877"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01877] In method org.apache.kafka.controller.ReplicationControlManager.getOngoingPartitionReassignment@POLYN589624 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01902"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1902"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01902] For method next list of called methods Object monObjet|T iterator_nextN591167"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -179,7 +179,7 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00091] For method generateBatch list of called methods Object monObjet|java.util.Iterator section_iteratorN158756|int batch_sizeN158981"
+ , "c3" : "QC-JAV000007[00091] For method generateBatch list of called methods Object monObjet|T sectionIterator_nextN158525|java.util.Iterator section_iteratorN158756|T batchIterator_nextN158833|int batch_sizeN158981"
 }} 
 ,
 { "ligne" : {"" : ""

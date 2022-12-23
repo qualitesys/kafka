@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java 27 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java 26 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.xml" 
  , "fic3"  : "" 
 }
@@ -128,7 +128,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -187,13 +187,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#100"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00100] For method unmapJava7Or8 arguments MethodHandles.Lookup  lookup"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#100"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00100] For method unmapJava7Or8 list of called methods Object monObjet|java.lang.Class Class_forNameN163089"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -263,7 +256,7 @@ var maDataBlocs = {
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#125"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00125] For method unmapJava9 list of called methods Object monObjet|java.lang.Class Class_forNameN164758|V f_getN165230"
+ , "c3" : "QC-JAV000007[00125] For method unmapJava9 list of called methods Object monObjet|V f_getN165230"
 }} 
 ,
 { "ligne" : {"" : ""

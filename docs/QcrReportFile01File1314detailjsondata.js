@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java 86 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java 87 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -203,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "6"
 }}
  ] 
 ,
@@ -647,6 +647,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#294"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN202204 the MagicNumber/String  'Setting feature {} to {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00316"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#316"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00316] For method next list of called methods Object monObjet|T iterator_nextN205142"
 }} 
 ,
 { "ligne" : {"" : ""

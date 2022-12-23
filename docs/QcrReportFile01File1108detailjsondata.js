@@ -1424,7 +1424,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method assignConnectors list of called methods Object monObjet|V workerAssignment_getN330507|int first_connectorsSizeN330768"
+ , "c3" : "QC-JAV000007[00001] For method assignConnectors list of called methods Object monObjet|V workerAssignment_getN330507|int first_connectorsSizeN330768|T load_nextN331343"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1501,7 +1501,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method assignTasks list of called methods Object monObjet|V workerAssignment_getN332193|int first_tasksSizeN332454"
+ , "c3" : "QC-JAV000007[00001] For method assignTasks list of called methods Object monObjet|V workerAssignment_getN332193|int first_tasksSizeN332454|T load_nextN333029"
 }} 
 ,
 { "ligne" : {"" : ""

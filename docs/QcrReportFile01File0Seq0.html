@@ -339,10 +339,10 @@ console.log('apres declaration function draw');
       for (var liIndJ=0; liIndJ<contenu.length; liIndJ++) {
          if        (typeof(contenu[liIndJ].ligne.c2)!='undefined') {
             mesNoeuds.push({niv : contenu[liIndJ].ligne.c1 , libelle : contenu[liIndJ].ligne.c2, risk : contenu[liIndJ].ligne.c5});
-         } else if (typeof(contenu[liIndJ].ligne.c3)!='undefined') {
+         } else if (typeof(contenu[liIndJ].ligne.c3)!='undefined' && 0<contenu[liIndJ].ligne.c3.length) {
             mesNoeuds.push({niv : contenu[liIndJ].ligne.c1 , libelle : contenu[liIndJ].ligne.c3[1], risk : contenu[liIndJ].ligne.c5});
          } else {
-            console.log('erreur sur data09b.c2 ou .c3');
+            console.log('erreur sur data09b.c2 ou .c3 sur indice '+liIndJ+'/'+contenu.length);
          }
       }
     }

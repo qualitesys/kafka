@@ -209,7 +209,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S2:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN164028 (R0 in line [00130],R5 in line [00130],R6 in line [00130],R7 in line [00130],R8 in line [00130])" }
 ,
-{ "ligne" : "S2:java.util.HashMap.remove@POLYN649661" }
+{ "ligne" : "S2:java.util.Hashtable.remove@POLYN448040" }
  ]
  } }
 ,

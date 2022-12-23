@@ -210,7 +210,7 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00061] For method recordsIterator list of called methods Object monObjet|Iterable batchesN163803"
+ , "c3" : "QC-JAV000007[00061] For method recordsIterator list of called methods Object monObjet|Iterable batchesN163803|T batches_nextN164238"
 }} 
 ,
 { "ligne" : {"" : ""

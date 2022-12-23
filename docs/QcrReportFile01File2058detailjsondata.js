@@ -725,7 +725,7 @@ var maDataBlocs = {
  , "c1" : "00396"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#396"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00396] For method evictWhile list of called methods Object monObjet|java.util.Set sortedMap_entrySetN241129"
+ , "c3" : "QC-JAV000007[00396] For method evictWhile list of called methods Object monObjet|java.util.Set sortedMap_entrySetN241129|V next_getValueN242238|long computeRecordSizeN243073|T delegate_nextN243289"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -275,7 +275,7 @@ var maDataBlocs = {
  , "c1" : "00084"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00084] For method run list of called methods Object monObjet|V shell_getN152702"
+ , "c3" : "QC-JAV000007[00084] For method run list of called methods Object monObjet|V shell_getN152702|T iter_nextN152930"
 }} 
 ,
 { "ligne" : {"" : ""
