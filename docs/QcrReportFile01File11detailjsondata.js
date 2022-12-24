@@ -148,7 +148,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.util.HashMap.remove@POLYN639647.return" , "java.util.HashMap.put@POLYN610661.value"]
+ , "c5" : ["java.util.HashMap.remove@POLYN649661.return" , "java.util.HashMap.put@POLYN620675.value"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -164,7 +164,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00299]"
- , "c3" : ["java.util.HashMap.remove@POLYN639647.return" , "---java.util.HashMap.remove@POLYN639647" , "org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN246334.nextData"]
+ , "c3" : ["java.util.HashMap.remove@POLYN649661.return" , "---java.util.HashMap.remove@POLYN649661" , "org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN246334.nextData"]
  , "c4" : "//QC-JAVCWE099[00299] In org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN246334[00299] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
@@ -172,7 +172,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00338]"
- , "c3" : ["org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN246334.nextData" , "---java.util.HashMap.put@POLYN610661" , "java.util.HashMap.put@POLYN610661.value"]
+ , "c3" : ["org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN246334.nextData" , "---java.util.HashMap.put@POLYN620675" , "java.util.HashMap.put@POLYN620675.value"]
  , "c4" : "//QC-JAVCWE099[00338] In org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN246334[00338] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
@@ -456,7 +456,7 @@ var maDataBlocs = {
  , "c1" : "00269"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#269"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00269] For method build list of called methods Object monObjet|T iter_nextN248213|V next_removeN248438"
+ , "c3" : "QC-JAV000007[00269] For method build list of called methods Object monObjet|V next_removeN248438"
 }} 
 ,
 { "ligne" : {"" : ""

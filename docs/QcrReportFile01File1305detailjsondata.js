@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java 106 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java 105 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -195,6 +195,82 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1305Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1305&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.Map.getKey@POLYN432691.return" , "java.util.HashMap.get@POLYN617315.key"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00191]"
+ , "c3" : ["java.util.Map.getKey@POLYN432691.return" , "---java.util.Map.getKey@POLYN432691" , "org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN229381.key"]
+ , "c4" : "//QC-JAVCWE099[00191] In org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN229381[00191] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00195]"
+ , "c3" : ["org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN229381.key" , "---java.util.HashMap.get@POLYN617315" , "java.util.HashMap.get@POLYN617315.key"]
+ , "c4" : "//QC-JAVCWE099[00195] In org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN229381[00195] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 
@@ -257,7 +333,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "10"
+ , "c4" : "9"
 }}
  ] 
 ,
@@ -798,7 +874,7 @@ var maDataBlocs = {
  , "c1" : "00395"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#395"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00395] For method describeConfigs list of called methods Object monObjet|V configData_getN242981|java.util.Set configs_entrySetN243393|T iter_nextN243613|V configs_getN243917"
+ , "c3" : "QC-JAV000007[00395] For method describeConfigs list of called methods Object monObjet|V configData_getN242981|java.util.Set configs_entrySetN243393|V configs_getN243917"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -953,13 +1029,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#452"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.controller.ConfigurationControlManager.currentControllerConfig@POLYN245365 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00470"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#470"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00470] For method next list of called methods Object monObjet|T iterator_nextN246718"
 }} 
 ,
 { "ligne" : {"" : ""

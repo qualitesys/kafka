@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java 53 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java 52 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.xml" 
  , "fic3"  : "" 
 }
@@ -228,7 +228,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -413,13 +413,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#175"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00175] For method cleanupEarlierThan arguments long  minLiveSegment"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#175"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00175] For method cleanupEarlierThan list of called methods Object monObjet|T toRemove_nextN176803"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java 169 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java 170 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.xml" 
  , "fic3"  : "" 
 }
@@ -411,6 +411,159 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File462Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=462&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "3"
+ , "c4" : "2"
+ , "c5" : ["java.util.Map.get@POLYN426239.return" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1668236.e"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File462Seq2.html#seq2"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=462&numSeq=2"
+ , "c2" : "2"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.get@POLYN617315.return" , "java.util.HashMap.remove@POLYN649661.key"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00325]"
+ , "c3" : ["java.util.Map.get@POLYN426239.return" , "---java.util.Map.get@POLYN426239" , "org.apache.kafka.common.metrics.Metrics.getSensor@POLYN289905.return"]
+ , "c4" : "//QC-JAVCWE099[00325] In org.apache.kafka.common.metrics.Metrics.getSensor@POLYN289905[00325] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00411]"
+ , "c3" : ["org.apache.kafka.common.metrics.Metrics.getSensor@POLYN289905.return" , "---org.apache.kafka.common.metrics.Metrics.getSensor@POLYN289905" , "org.apache.kafka.common.metrics.Metrics.sensor@POLYN293356.s"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00418]"
+ , "c3" : ["org.apache.kafka.common.metrics.Metrics.sensor@POLYN293356.s" , "---java.util.concurrent.ConcurrentHashMap.add@POLYN1668236" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1668236.e"]
+ , "c4" : "//QC-JAVCWE099[00418] In org.apache.kafka.common.metrics.Metrics.sensor@POLYN293356[00418] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "2" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00446]"
+ , "c3" : ["java.util.HashMap.get@POLYN617315.return" , "---java.util.HashMap.get@POLYN617315" , "org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN295450.sensor"]
+ , "c4" : "//QC-JAVCWE099[00446] In org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN295450[00446] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00455]"
+ , "c3" : ["org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN295450.sensor" , "---java.util.HashMap.remove@POLYN649661" , "java.util.HashMap.remove@POLYN649661.key"]
+ , "c4" : "//QC-JAVCWE099[00455] In org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN295450[00455] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 
@@ -422,7 +575,9 @@ var maDataBlocs = {
 ,
 { "ligne" :  "R1:org.apache.kafka.common.metrics.Metrics.this" }
 ,
-{ "ligne" :  "R2:org.apache.kafka.common.metrics.Metrics.removeReporter@POLYN301737.reporter" }
+{ "ligne" :  "R2:org.apache.kafka.common.metrics.Metrics.addReporter@POLYN301381.reporter" }
+,
+{ "ligne" :  "R3:org.apache.kafka.common.metrics.Metrics.removeReporter@POLYN301737.reporter" }
 ]
 ,
 "data12b" : [
@@ -431,7 +586,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S0:org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN295450 (R0 in line [00449],R1 in line [00450])" }
 ,
-{ "ligne" : "S0:java.util.Hashtable.get@POLYN420916" }
+{ "ligne" : "S0:java.util.HashMap.get@POLYN617315" }
  ]
  } }
 ,
@@ -442,14 +597,21 @@ var maDataBlocs = {
 ,
 { "ligne" : "S1:org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN295450 (R0 in line [00449],R1 in line [00450])" }
 ,
-{ "ligne" : "S1:java.util.Hashtable.get@POLYN420916" }
+{ "ligne" : "S1:java.util.HashMap.get@POLYN617315" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "2" , "pas" : [
-{ "ligne" : "S2:org.apache.kafka.common.metrics.Metrics.removeReporter@POLYN301737 (R1 in line [00690],R2 in line [00690])" }
+{ "ligne" : "S2:org.apache.kafka.common.metrics.Metrics.addReporter@POLYN301381 (R1 in line [00690],R2 in line [00690])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.common.metrics.JmxReporter.close@POLYN198261" }
+{ "ligne" : "S2:java.util.concurrent.ConcurrentHashMap.add@POLYN1668236" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "3" , "pas" : [
+{ "ligne" : "S3:org.apache.kafka.common.metrics.Metrics.removeReporter@POLYN301737 (R1 in line [00690],R3 in line [00690])" }
+,
+{ "ligne" : "S3:org.apache.kafka.common.metrics.JmxReporter.close@POLYN198261" }
  ]
  } }
 ]
@@ -462,7 +624,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "3"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1486,7 +1648,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.common.metrics.Metrics.removeReporter@POLYN301737.reporter"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.common.metrics.Metrics.addReporter@POLYN301381.reporter"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.common.metrics.Metrics.removeReporter@POLYN301737.reporter"
 }} 
 ,
 { "ligne" : {"" : ""

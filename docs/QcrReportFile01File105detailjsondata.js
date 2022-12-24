@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java 956 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java 955 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.xml" 
  , "fic3"  : "" 
 }
@@ -877,7 +877,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "55"
+ , "c4" : "54"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1853,13 +1853,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1079"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01079] For method maybeDrainPendingCalls arguments long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1079"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01079] For method maybeDrainPendingCalls list of called methods Object monObjet|T pendingIter_nextN1002170"
 }} 
 ,
 { "ligne" : {"" : ""

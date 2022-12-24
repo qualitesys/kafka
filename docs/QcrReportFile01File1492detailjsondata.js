@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.sql.Connection.java.html" 
- , "texte" : "File secujava/java.sql.Connection.java 1 rule violations " 
+ , "texte" : "File secujava/java.sql.Connection.java 0 rule violation " 
  , "fic2"  : "./qc/secujava/java.sql.Connection.java.xml" 
  , "fic3"  : "" 
 }
@@ -324,8 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "00999"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#999"
  , "c1" : "PreparedStatement"
  , "c2" : "prepareStatement(String;int[])"
  , "c3" : "1"
@@ -333,8 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01047"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1047"
  , "c1" : "PreparedStatement"
  , "c2" : "prepareStatement(String;String[])"
  , "c3" : "1"
@@ -342,8 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01064"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1064"
  , "c1" : "Clob"
  , "c2" : "createClob()"
  , "c3" : "1"
@@ -351,8 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01080"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1080"
  , "c1" : "Blob"
  , "c2" : "createBlob()"
  , "c3" : "1"
@@ -360,8 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01096"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1096"
  , "c1" : "NClob"
  , "c2" : "createNClob()"
  , "c3" : "1"
@@ -369,8 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01111"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1111"
  , "c1" : "SQLXML"
  , "c2" : "createSQLXML()"
  , "c3" : "1"
@@ -378,8 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01136"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1136"
  , "c1" : "boolean"
  , "c2" : "isValid(int)"
  , "c3" : "1"
@@ -387,8 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01191"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1191"
  , "c1" : "void"
  , "c2" : "setClientInfo(String;String)"
  , "c3" : "1"
@@ -396,8 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01224"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1224"
  , "c1" : "void"
  , "c2" : "setClientInfo(Properties)"
  , "c3" : "1"
@@ -405,8 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01248"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1248"
  , "c1" : "String"
  , "c2" : "getClientInfo(String)"
  , "c3" : "1"
@@ -414,8 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01265"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1265"
  , "c1" : "Properties"
  , "c2" : "getClientInfo()"
  , "c3" : "1"
@@ -423,8 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01293"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1293"
  , "c1" : "Array"
  , "c2" : "createArrayOf(String;Object[])"
  , "c3" : "1"
@@ -432,8 +432,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01310"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1310"
  , "c1" : "Struct"
  , "c2" : "createStruct(String;Object[])"
  , "c3" : "1"
@@ -441,8 +441,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01334"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1334"
  , "c1" : "void"
  , "c2" : "setSchema(String)"
  , "c3" : "1"
@@ -450,8 +450,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01345"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1345"
  , "c1" : "String"
  , "c2" : "getSchema()"
  , "c3" : "1"
@@ -459,8 +459,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01383"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1383"
  , "c1" : "void"
  , "c2" : "abort(Executor)"
  , "c3" : "1"
@@ -468,8 +468,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01475"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1475"
  , "c1" : "void"
  , "c2" : "setNetworkTimeout(Executor;int)"
  , "c3" : "1"
@@ -477,8 +477,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00987"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#987"
+ , "c5" : "01493"
+ , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1493"
  , "c1" : "int"
  , "c2" : "getNetworkTimeout()"
  , "c3" : "1"
@@ -514,24 +514,6 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
-]
-, 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999999"
- , "c3" : "Syntax analysis failure on the source code"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00987"
- , "c1link" : "./qc/secujava/java.sql.Connection.java.html#987"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999999[00987] syntax analysis failed on file /home/runner/work/kafka/kafka/secujava/java.sql.Connection.java near following tokens ` */ int getNetworkTimeout ( ) throws SQLException ; } ent object containing the * pre - compiled SQL statement that "
-}} 
 ]
 , 
 "data15" : {

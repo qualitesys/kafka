@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java 77 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java 76 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.xml" 
  , "fic3"  : "" 
 }
@@ -437,7 +437,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -510,13 +510,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#155"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00155] For method read arguments long  highestOffset|int  highestEpoch|Iterator&lt;List&lt;ApiMessageAndVersion &gt; &gt;  reader"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#155"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00155] For method read list of called methods Object monObjet|T reader_nextN190998"
 }} 
 ,
 { "ligne" : {"" : ""

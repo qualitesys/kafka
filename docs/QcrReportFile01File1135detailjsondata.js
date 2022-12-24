@@ -446,7 +446,7 @@ var maDataBlocs = {
  , "c1" : "00353"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#353"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00353] For method prunePluginName list of called methods Object monObjet|Class plugin_pluginClassN197469|int simple_lastIndexOfN197564"
+ , "c3" : "QC-JAV000007[00353] For method prunePluginName list of called methods Object monObjet|java.lang.Class plugin_pluginClassN197469|int simple_lastIndexOfN197564"
 }} 
 ,
 { "ligne" : {"" : ""

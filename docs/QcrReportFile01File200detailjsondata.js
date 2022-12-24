@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java 294 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java 293 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.xml" 
  , "fic3"  : "" 
 }
@@ -265,6 +265,21 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "2"
  , "c4" : "2"
+ , "c5" : ["java.util.HashMap.get@POLYN617315.return" , "java.util.HashMap.get@POLYN617315.key"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File200Seq2.html#seq2"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=200&numSeq=2"
+ , "c2" : "2"
+ , "c3" : "2"
+ , "c4" : "2"
  , "c5" : ["java.util.Map.isEmpty@POLYN423723.return" , "java.util.Map.put@POLYN427326.value"]
  , "c6" : ""
  , "c7" : ""
@@ -278,6 +293,60 @@ var maDataBlocs = {
 "data09b" : [
 { "sequence" : { 
  "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00974]"
+ , "c3" : ["java.util.HashMap.get@POLYN617315.return" , "---java.util.HashMap.get@POLYN617315" , "org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.processPartitionMovement@POLYN396068.oldConsumer"]
+ , "c4" : "//QC-JAVCWE099[00974] In org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.processPartitionMovement@POLYN396068[00974] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00981]"
+ , "c3" : ["org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.processPartitionMovement@POLYN396068.oldConsumer" , "---java.util.HashMap.get@POLYN617315" , "java.util.HashMap.get@POLYN617315.key"]
+ , "c4" : "//QC-JAVCWE099[00981] In org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.processPartitionMovement@POLYN396068[00981] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "2" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00286]"
@@ -410,7 +479,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "19"
+ , "c4" : "18"
 }}
  ] 
 ,
@@ -1081,13 +1150,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00501"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#501"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00501] For method getUnassignedPartitions list of called methods Object monObjet|T sortedAssignedPartitionsIter_nextN372783|T sortedAssignedPartitionsIter_nextN373209"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00502"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#502"
  , "c2" : "CRITICAL"
@@ -1119,7 +1181,7 @@ var maDataBlocs = {
  , "c1" : "00549"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#549"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00549] For method getUnassignedPartitions list of called methods Object monObjet|T sortedAssignedPartitionsIter_nextN375065|V partitionsPerTopic_getN375214|T sortedAssignedPartitionsIter_nextN375912"
+ , "c3" : "QC-JAV000007[00549] For method getUnassignedPartitions list of called methods Object monObjet|V partitionsPerTopic_getN375214"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1665,7 +1727,7 @@ var maDataBlocs = {
  , "c1" : "00885"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#885"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00885] For method performReassignments list of called methods Object monObjet|T partitionIterator_nextN392628|V currentPartitionConsumer_getN392935"
+ , "c3" : "QC-JAV000007[00885] For method performReassignments list of called methods Object monObjet|V currentPartitionConsumer_getN392935"
 }} 
 ,
 { "ligne" : {"" : ""

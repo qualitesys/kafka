@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java 40 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java 39 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -194,7 +194,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -358,13 +358,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#112"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.state.internals.ListValueStore.range@POLYN168397 the MagicNumber/String  'range not supported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#146"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00146] For method makeNext list of called methods Object monObjet|T bytesIterator_nextN170118"
 }} 
 ,
 { "ligne" : {"" : ""

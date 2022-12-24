@@ -195,6 +195,90 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1966Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1966&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "3"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.getKey@POLYN606336.return" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1668236.e"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00100]"
+ , "c3" : ["java.util.HashMap.getKey@POLYN606336.return" , "---java.util.HashMap.getKey@POLYN606336" , "org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignActive@POLYN189902.taskId"]
+ , "c4" : "//QC-JAVCWE099[00100] In org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignActive@POLYN189902[00100] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00104]"
+ , "c3" : ["org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignActive@POLYN189902.taskId" , "---org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignTaskToClient@POLYN193005" , "org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignTaskToClient@POLYN193005.taskId"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00150]"
+ , "c3" : ["org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignTaskToClient@POLYN193005.taskId" , "---java.util.concurrent.ConcurrentHashMap.add@POLYN1668236" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1668236.e"]
+ , "c4" : "//QC-JAVCWE099[00150] In org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignTaskToClient@POLYN193005[00150] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 
@@ -399,7 +483,7 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00092] For method assignActive list of called methods Object monObjet|int sumCapacityN189978|int allTaskIds_sizeN190089|T iterator_nextN191327|V previousStandbyTaskAssignment_getN191428"
+ , "c3" : "QC-JAV000007[00092] For method assignActive list of called methods Object monObjet|int sumCapacityN189978|int allTaskIds_sizeN190089|V previousStandbyTaskAssignment_getN191428"
 }} 
 ,
 { "ligne" : {"" : ""

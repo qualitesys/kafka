@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java 66 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java 64 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -322,7 +322,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -752,20 +752,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#445"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00445] In method org.apache.kafka.streams.state.internals.MeteredKeyValueStore.maybeRecordE2ELatency@POLYN259069 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00471"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#471"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00471] For method next list of called methods Object monObjet|T iter_nextN260412"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00515"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#515"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00515] For method next list of called methods Object monObjet|T iter_nextN262227"
 }} 
 ,
 { "ligne" : {"" : ""

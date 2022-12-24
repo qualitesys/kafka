@@ -8886,6 +8886,10 @@ class "java.io.InputStreamReader" {
 Nb methods :9
 Complexity :1.34
 }
+class "java.io.ObjectInputStream" {
+Nb methods :65
+Complexity :3.94
+}
 class "java.io.ObjectOutputStream" {
 Nb methods :56
 Complexity :2.99
@@ -8939,6 +8943,14 @@ Complexity :1.08
 class "java.lang.Byte" {
 Nb methods :20
 Complexity :1.15
+}
+class "java.lang.Character" {
+Nb methods :93
+Complexity :1.60
+}
+class "java.lang.Class" {
+Nb methods :158
+Complexity :2.61
 }
 class "java.lang.Comparable" {
 Nb methods :1
@@ -9023,6 +9035,10 @@ Complexity :1.00
 }
 package java.util {
 package java.util.concurrent {
+class "java.util.concurrent.ConcurrentHashMap" {
+Nb methods :73
+Complexity :5.96
+}
 class "java.util.concurrent.ConcurrentMap" {
 Nb methods :11
 Complexity :3.37

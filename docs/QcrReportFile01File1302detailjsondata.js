@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java 93 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java 92 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.xml" 
  , "fic3"  : "" 
 }
@@ -212,7 +212,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "6"
 }}
  ] 
 ,
@@ -222,13 +222,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#65"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00065] The argument topicMap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#71"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method hasNext list of called methods Object monObjet|T iterator_nextN190310"
 }} 
 ,
 { "ligne" : {"" : ""

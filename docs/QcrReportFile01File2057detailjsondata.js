@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java 109 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java 107 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -325,7 +325,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "6"
 }}
  ] 
 ,
@@ -898,13 +898,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00496"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#496"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00496] For method getNext list of called methods Object monObjet|T recordIterator_nextN240335"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00501"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#501"
  , "c2" : "MAJOR"
@@ -922,7 +915,7 @@ var maDataBlocs = {
  , "c1" : "00515"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#515"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00515] For method setAllIterators list of called methods Object monObjet|T endTimeIterator_nextN241056|T nextEndTimeEntry_getValueN241584|T nextEndTimeEntry_getValueN241950|java.util.Set subKVMap_entrySetN242185"
+ , "c3" : "QC-JAV000007[00515] For method setAllIterators list of called methods Object monObjet|java.util.Set subKVMap_entrySetN242185"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1000,13 +993,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#541"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00541] In method org.apache.kafka.streams.state.internals.InMemorySessionStore.InMemorySessionStoreIterator.setAllIterators@POLYN240794 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00546"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#546"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00546] For method setInnerIterators list of called methods Object monObjet|T keyIterator_nextN242760|T nextKeyEntry_getValueN243189|T nextKeyEntry_getValueN243590"
 }} 
 ,
 { "ligne" : {"" : ""

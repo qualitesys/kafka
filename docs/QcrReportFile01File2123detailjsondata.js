@@ -158,7 +158,7 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00070] For method hasNext list of called methods Object monObjet|boolean hasNextConditionHasNextN152612|T segments_nextN152832"
+ , "c3" : "QC-JAV000007[00070] For method hasNext list of called methods Object monObjet|boolean hasNextConditionHasNextN152612"
 }} 
 ,
 { "ligne" : {"" : ""

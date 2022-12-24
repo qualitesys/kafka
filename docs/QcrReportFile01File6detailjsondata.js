@@ -419,7 +419,7 @@ var maDataBlocs = {
  , "c1" : "00126"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#126"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00126] For method filterPreferredAddresses list of called methods Object monObjet|Class address_getClassN168803"
+ , "c3" : "QC-JAV000007[00126] For method filterPreferredAddresses list of called methods Object monObjet|java.lang.Class address_getClassN168803"
 }} 
 ,
 { "ligne" : {"" : ""

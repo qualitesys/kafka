@@ -795,7 +795,7 @@ var maDataBlocs = {
  , "c1" : "00444"
  , "c1link" : "./qc/secujava/java.lang.Integer.java.html#444"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00444] For method parseInt list of called methods Object monObjet|int s_lengthN424448|char s_charAtN424726"
+ , "c3" : "QC-JAV000007[00444] For method parseInt list of called methods Object monObjet|int s_lengthN424448|char s_charAtN424726|int Character_digitN425532"
 }} 
 ,
 { "ligne" : {"" : ""

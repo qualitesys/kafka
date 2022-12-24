@@ -1014,7 +1014,7 @@ var maDataBlocs = {
  , "c1" : "00513"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#513"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00513] For method sizeInBytes list of called methods Object monObjet|T iterator_nextN274139|long record_timestampN274409|long record_timestampN274484|int DefaultRecord_sizeInBytesN274580"
+ , "c3" : "QC-JAV000007[00513] For method sizeInBytes list of called methods Object monObjet|int record_timestampN274409|int record_timestampN274484|int DefaultRecord_sizeInBytesN274580"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1063,7 +1063,7 @@ var maDataBlocs = {
  , "c1" : "00532"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#532"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00532] For method sizeInBytes list of called methods Object monObjet|T iterator_nextN275391|long record_timestampN275523|long record_timestampN275598|int DefaultRecord_sizeInBytesN275694"
+ , "c3" : "QC-JAV000007[00532] For method sizeInBytes list of called methods Object monObjet|int record_timestampN275523|int record_timestampN275598|int DefaultRecord_sizeInBytesN275694"
 }} 
 ,
 { "ligne" : {"" : ""

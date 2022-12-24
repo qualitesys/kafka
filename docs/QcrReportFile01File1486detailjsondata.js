@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.StringBuilder.java.html" 
- , "texte" : "File secujava/java.lang.StringBuilder.java 65 rule violations " 
+ , "texte" : "File secujava/java.lang.StringBuilder.java 66 rule violations " 
  , "fic2"  : "./qc/secujava/java.lang.StringBuilder.java.xml" 
  , "fic3"  : "" 
 }
@@ -463,6 +463,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "36"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -870,6 +877,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#472"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00472] For method readObject arguments java.io.ObjectInputStream  s"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00472"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#472"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00472] For method readObject list of called methods Object monObjet|int s_readIntN236580"
 }} 
 ,
 { "ligne" : {"" : ""

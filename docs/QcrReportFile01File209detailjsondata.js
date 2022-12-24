@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java 547 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java 545 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.xml" 
  , "fic3"  : "" 
 }
@@ -429,6 +429,236 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File209Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=209&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "3"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.get@POLYN617315.return" , "java.util.HashMap.put@POLYN620675.key"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File209Seq2.html#seq2"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=209&numSeq=2"
+ , "c2" : "2"
+ , "c3" : "3"
+ , "c4" : "2"
+ , "c5" : ["java.util.Map.get@POLYN426239.return" , "java.util.HashMap.put@POLYN620675.value"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File209Seq3.html#seq3"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=209&numSeq=3"
+ , "c2" : "3"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.getKey@POLYN606336.return" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1668236.e"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00001]"
+ , "c3" : ["java.util.HashMap.get@POLYN617315.return" , "---java.util.HashMap.get@POLYN617315" , "org.apache.kafka.clients.consumer.internals.Fetcher.selectReadReplica@POLYN518274.return"]
+ , "c4" : "//QC-JAVCWE099[00001] In org.apache.kafka.clients.consumer.internals.Fetcher.selectReadReplica@POLYN518274[00001] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00001]"
+ , "c3" : ["org.apache.kafka.clients.consumer.internals.Fetcher.selectReadReplica@POLYN518274.return" , "---org.apache.kafka.clients.consumer.internals.Fetcher.selectReadReplica@POLYN518274" , "org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN520108.node"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00001]"
+ , "c3" : ["org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN520108.node" , "---java.util.HashMap.put@POLYN620675" , "java.util.HashMap.put@POLYN620675.key"]
+ , "c4" : "//QC-JAVCWE099[00001] In org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN520108[00001] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "2" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00001]"
+ , "c3" : ["java.util.Map.get@POLYN426239.return" , "---java.util.Map.get@POLYN426239" , "org.apache.kafka.clients.consumer.internals.Fetcher.sessionHandler@POLYN537847.return"]
+ , "c4" : "//QC-JAVCWE099[00001] In org.apache.kafka.clients.consumer.internals.Fetcher.sessionHandler@POLYN537847[00001] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00001]"
+ , "c3" : ["org.apache.kafka.clients.consumer.internals.Fetcher.sessionHandler@POLYN537847.return" , "---org.apache.kafka.clients.consumer.internals.Fetcher.sessionHandler@POLYN537847" , "org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN520108.handler"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00001]"
+ , "c3" : ["org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN520108.handler" , "---java.util.HashMap.put@POLYN620675" , "java.util.HashMap.put@POLYN620675.value"]
+ , "c4" : "//QC-JAVCWE099[00001] In org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN520108[00001] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "3" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01911]"
+ , "c3" : ["java.util.HashMap.getKey@POLYN606336.return" , "---java.util.HashMap.getKey@POLYN606336" , "org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN508822.tp"]
+ , "c4" : "//QC-JAVCWE099[01911] In org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN508822[01911] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01911]"
+ , "c3" : ["org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN508822.tp" , "---java.util.concurrent.ConcurrentHashMap.add@POLYN1668236" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1668236.e"]
+ , "c4" : "//QC-JAVCWE099[01911] In org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN508822[01911] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 
@@ -506,7 +736,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "25"
+ , "c4" : "23"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2642,13 +2872,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method clearBufferedDataForUnassignedPartitions list of called methods Object monObjet|T completedFetchesItr_nextN536642"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00001] The argument assignedPartitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2846,7 +3069,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method nextFetchedRecord list of called methods Object monObjet|long currentBatch_nextOffsetN542620|T batches_nextN542776|int currentBatch_partitionLeaderEpochN542850|long currentBatch_producerIdN543345|long currentBatch_nextOffsetN543875|org.apache.kafka.common.utils.CloseableIterator currentBatch_streamingIteratorN543969|org.apache.kafka.common.utils.CloseableIterator record_offsetN544440"
+ , "c3" : "QC-JAV000007[00001] For method nextFetchedRecord list of called methods Object monObjet|long currentBatch_nextOffsetN542620|int currentBatch_partitionLeaderEpochN542850|long currentBatch_producerIdN543345|long currentBatch_nextOffsetN543875|org.apache.kafka.common.utils.CloseableIterator currentBatch_streamingIteratorN543969|org.apache.kafka.common.utils.CloseableIterator record_offsetN544440"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3078,13 +3301,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method containsAbortMarker arguments RecordBatch  batch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method containsAbortMarker list of called methods Object monObjet|T batchIterator_nextN548285"
 }} 
 ,
 { "ligne" : {"" : ""

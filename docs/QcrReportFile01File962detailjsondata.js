@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java 105 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java 102 rule violations " 
  , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.xml" 
  , "fic3"  : "" 
 }
@@ -464,7 +464,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -941,13 +941,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00300"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#300"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00300] For method apply list of called methods Object monObjet|T iter_nextN220648"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00300"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#300"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00300] The argument transform is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -978,13 +971,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#320"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00320] For method apply arguments HeaderTransform  transform"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00320"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#320"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00320] For method apply list of called methods Object monObjet|T iter_nextN221507"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1174,13 +1160,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#470"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.connect.header.ConnectHeaders.checkSchemaMatches@POLYN224402 the MagicNumber/String  ' is not compatible with the schema ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00486"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#486"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00486] For method makeNext list of called methods Object monObjet|T original_nextN228014"
 }} 
 ,
 { "ligne" : {"" : ""

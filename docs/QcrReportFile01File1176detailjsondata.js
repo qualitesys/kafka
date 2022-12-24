@@ -219,7 +219,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S0:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN159723 (R0 in line [00063],R2 in line [00063])" }
 ,
-{ "ligne" : "S0:java.util.Hashtable.remove@POLYN448040" }
+{ "ligne" : "S0:java.util.HashMap.remove@POLYN649661" }
  ]
  } }
 ,

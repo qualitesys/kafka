@@ -639,7 +639,7 @@ var maDataBlocs = {
 { "sequence" : { "noseq" : "3" , "pas" : [
 { "ligne" : "S3:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN420488 (R0 in line [01023],R8 in line [01023],R9 in line [01023],R10 in line [01023])" }
 ,
-{ "ligne" : "S3:java.lang.String.format@POLYN906220" }
+{ "ligne" : "S3:java.lang.String.format@POLYN905797" }
  ]
  } }
 ,
@@ -648,7 +648,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S4:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.failureCause@POLYN438816" }
 ,
-{ "ligne" : "S4:java.util.Hashtable.get@POLYN420916" }
+{ "ligne" : "S4:java.util.HashMap.get@POLYN617315" }
  ]
  } }
 ,
