@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="586px" preserveAspectRatio="none" style="width:607px;height:586px;background:#000000;" version="1.1" viewBox="0 0 607 586" width="607px" zoomAndPan="magnify"><defs/><g><rect fill="#242503" height="1" style="stroke:#242503;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 127 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="595" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="83.875">[From string (line 479) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="153.0625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="169.3594">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="434" x="5" y="185.6563">constructor ConsumerGenerationPair(Stringconsumer,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="201.9531">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="218.25">... ( skipping 454 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="234.5469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="524" x="5" y="250.8438">:currentPartitionConsumer.putAll(preBalancePartitionConsumers);</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="267.1406">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="420" x="5" y="283.4375">:currentAssignment.put(consumer,entry.getValue());</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="358" x="5" y="299.7344">:sortedCurrentSubscriptions.add(consumer);</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="209" x="5" y="316.0313">:fixedAssignments.clear();</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="332.3281">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="348.625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="364.9219">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="595" x="5" y="381.2188">booleanperformReassignments(List&lt;TopicPartition&gt;reassignablePartitions,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="426" x="5" y="397.5156">Map&lt;String,List&lt;TopicPartition&gt;&gt;currentAssignment,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="503" x="5" y="413.8125">Map&lt;TopicPartition,ConsumerGenerationPair&gt;prevAssignment,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="360" x="5" y="430.1094">TreeSet&lt;String&gt;sortedCurrentSubscriptions,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="441" x="5" y="446.4063">Map&lt;String,List&lt;String&gt;&gt;consumer2AllPotentialTopics,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="439" x="5" y="462.7031">Map&lt;String,List&lt;String&gt;&gt;topic2AllPotentialConsumers,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="428" x="5" y="479">Map&lt;TopicPartition,String&gt;currentPartitionConsumer,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="489" x="5" y="495.2969">Map&lt;String,Integer&gt;partitionsPerTopic,inttotalPartitionCount)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="511.5938">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="5" y="527.8906">repeat</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="130" x="5" y="544.1875">:modified=false;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="538" x="5" y="560.4844">while (partitionIterator.hasNext()&amp;&amp;!isBalanced(currentAssignment,</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="576.7813">Syntax Error?</text><!--MD5=[8a9f149e9ffaaa05c303bc1895f638eb]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="586px" preserveAspectRatio="none" style="width:1065px;height:586px;background:#000000;" version="1.1" viewBox="0 0 1065 586" width="1065px" zoomAndPan="magnify"><defs/><g><rect fill="#021716" height="1" style="stroke:#021716;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 128 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="1053" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="83.875">[From string (line 313) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="153.0625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="169.3594">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="434" x="5" y="185.6563">constructor ConsumerGenerationPair(Stringconsumer,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="201.9531">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="218.25">... ( skipping 288 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="234.5469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="246" x="5" y="250.8438">totalPartitionCount)) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="267.1406">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="274" x="5" y="283.4375">if (!revocationRequired) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="299.7344">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="1053" x="5" y="316.0313">if (!initializing&amp;&amp;reassignmentPerformed&amp;&amp;getBalanceScore(currentAssignment)&gt;=getBalanceScore(preBalanceAssignment)) the ...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="332.3281">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="348.625">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="364.9219">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="381.2188">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="595" x="5" y="397.5156">booleanperformReassignments(List&lt;TopicPartition&gt;reassignablePartitions,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="426" x="5" y="413.8125">Map&lt;String,List&lt;TopicPartition&gt;&gt;currentAssignment,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="503" x="5" y="430.1094">Map&lt;TopicPartition,ConsumerGenerationPair&gt;prevAssignment,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="360" x="5" y="446.4063">TreeSet&lt;String&gt;sortedCurrentSubscriptions,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="441" x="5" y="462.7031">Map&lt;String,List&lt;String&gt;&gt;consumer2AllPotentialTopics,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="439" x="5" y="479">Map&lt;String,List&lt;String&gt;&gt;topic2AllPotentialConsumers,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="428" x="5" y="495.2969">Map&lt;TopicPartition,String&gt;currentPartitionConsumer,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="489" x="5" y="511.5938">Map&lt;String,Integer&gt;partitionsPerTopic,inttotalPartitionCount)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="527.8906">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="5" y="544.1875">repeat</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="538" x="5" y="560.4844">while (partitionIterator.hasNext()&amp;&amp;!isBalanced(currentAssignment,</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="576.7813">Syntax Error?</text><!--MD5=[dd0af6f2c04de890188014fdb84d64d8]
 @startuml
 !pragma layout smetana
 start
@@ -6,16 +6,12 @@ note right
 constructor ConsumerGenerationPair(Stringconsumer,
 intgeneration)
 end note
-:this.consumer=consumer;
-:this.generation=generation;
 end
 start
 note right
 constructor MemberData(List<TopicPartition>partitions,
 Optional<Integer>generation)
 end note
-:this.partitions=partitions;
-:this.generation=generation;
 end
 start
 note right
@@ -24,16 +20,10 @@ Integer>partitionsPerTopic,Map<String,Subscription>subscriptions)
 end note
 if (allSubscriptionsEqual(partitionsPerTopic.keySet(),
 subscriptions,consumerToOwnedPartitions,partitionsWithMultiplePreviousOwners)) then (yes) 
-:log.debug("Detected that all consumers were subscribed to same set of topics, invoking the "+
-"optimized assignment algorithm");
-:partitionsTransferringOwnership=new HashMap<>();
 :return constrainedAssign(partitionsPerTopic,
 consumerToOwnedPartitions,partitionsWithMultiplePreviousOwners);;
 stop
 else (no)
-:log.debug("Detected that not all consumers were subscribed to same set of topics, falling back to the "+
-"general case assignment algorithm");
-:partitionsTransferringOwnership=null ;
 :return generalAssign(partitionsPerTopic,
 subscriptions,consumerToOwnedPartitions);;
 stop
@@ -47,29 +37,13 @@ List<TopicPartition>>consumerToOwnedPartitions,
 Set<TopicPartition>partitionsWithMultiplePreviousOwners)
 end note
 if (subscribedTopics.isEmpty()) then (yes) 
-:subscribedTopics.addAll(subscription.topics());
 endif 
-:consumerToOwnedPartitions.put(consumer,ownedPartitions);
 if (memberData.generation.isPresent()&&memberData.generation.get()>=maxGeneration||!memberData.generation.isPresent()&&maxGeneration==DEFAULT_GENERATION) then (yes) 
 if (memberData.generation.isPresent()&&memberData.generation.get()>maxGeneration) then (yes) 
-:allPreviousPartitionsToOwner.clear();
-:partitionsWithMultiplePreviousOwners.clear();
-:consumerToOwnedPartitions.get(droppedOutConsumer)
-.clear();
-:membersOfCurrentHighestGeneration.clear();
-:maxGeneration=memberData.generation.get();
 endif 
-:membersOfCurrentHighestGeneration.add(consumer);
 if (allTopics.contains(tp.topic())) then (yes) 
 if (otherConsumer==null ) then (yes) 
-:ownedPartitions.add(tp);
 else (no)
-:log.error("Found multiple consumers {} and {} claiming the same TopicPartition {} in the "+
-"same generation {}, this will be invalidated and removed from their previous assignment.",
-consumer,otherConsumer,tp,maxGeneration);
-:consumerToOwnedPartitions.get(otherConsumer)
-.remove(tp);
-:partitionsWithMultiplePreviousOwners.add(tp);
 endif 
 endif 
 endif 
@@ -83,88 +57,41 @@ Integer>partitionsPerTopic,Map<String,List<TopicPartition>>consumerToOwnedPartit
 Set<TopicPartition>partitionsWithMultiplePreviousOwners)
 end note
 if (log.isDebugEnabled()) then (yes) 
-:log.debug("Performing constrained assign with partitionsPerTopic: {},
- consumerToOwnedPartitions: {}.",partitionsPerTopic,
-consumerToOwnedPartitions);
 endif 
 if (ownedPartitions.contains(doublyClaimedPartition)) then (yes) 
-:log.error("Found partition {} still claimed as owned by consumer {}, despite being claimed by multiple "+
-"consumers already in the same generation. Removing it from the ownedPartitions",
-doublyClaimedPartition,consumer);
-:ownedPartitions.remove(doublyClaimedPartition);
 endif 
 if (ownedPartitions.size()<minQuota) then (yes) 
 if (ownedPartitions.size()>0) then (yes) 
-:consumerAssignment.addAll(ownedPartitions);
-:assignedPartitions.addAll(ownedPartitions);
 endif 
-:unfilledMembersWithUnderMinQuotaPartitions.add(consumer);
 else (no)
-:consumerAssignment.addAll(minQuotaPartitions);
-:assignedPartitions.addAll(minQuotaPartitions);
-:allRevokedPartitions.addAll(ownedPartitions.subList(minQuota,
-ownedPartitions.size()));
 if (currentNumMembersWithOverMinQuotaPartitions<expectedNumMembersWithOverMinQuotaPartitions) then (yes) 
-:unfilledMembersWithExactlyMinQuotaPartitions.add(consumer);
 endif 
 endif 
 if (log.isDebugEnabled()) then (yes) 
-:log.debug("After reassigning previously owned partitions, unfilled members: {}, unassigned partitions: {}, "+
-"current assignment: {}",unfilledMembersWithUnderMinQuotaPartitions,
-unassignedPartitions,assignment);
 endif 
-:Collections.sort(unfilledMembersWithUnderMinQuotaPartitions);
-:Collections.sort(unfilledMembersWithExactlyMinQuotaPartitions);
 if (unfilledConsumerIter.hasNext()) then (yes) 
-:consumer=unfilledConsumerIter.next();
 else (no)
 if (unfilledMembersWithUnderMinQuotaPartitions.isEmpty()&&unfilledMembersWithExactlyMinQuotaPartitions.isEmpty()) then (yes) 
-:log.error("No more unfilled consumers to be assigned. The remaining unassigned partitions are: {}",
-unassignedPartitions.subList(currentPartitionIndex,
-unassignedPartitions.size()));
 :throw new IllegalStateException("No more unfilled consumers to be assigned.");;
 else (no)
-:unfilledConsumerIter=unfilledMembersWithUnderMinQuotaPartitions.iterator();
-:consumer=unfilledConsumerIter.next();
 endif 
 endif 
-:consumerAssignment.add(unassignedPartition);
 if (allRevokedPartitions.contains(unassignedPartition)||partitionsWithMultiplePreviousOwners.contains(unassignedPartition)) then (yes) 
-:partitionsTransferringOwnership.put(unassignedPartition,
-consumer);
 endif 
 if (currentAssignedCount==minQuota) then (yes) 
-:unfilledConsumerIter.remove();
-:unfilledMembersWithExactlyMinQuotaPartitions.add(consumer);
 endif 
 if (!unfilledMembersWithUnderMinQuotaPartitions.isEmpty()) then (yes) 
 if (currentNumMembersWithOverMinQuotaPartitions!=expectedNumMembersWithOverMinQuotaPartitions) then (yes) 
-:log.error("Current number of members with more than the minQuota partitions: {}, is less than the expected number "+
-"of members with more than the minQuota partitions: {},
- and no more partitions to be assigned to the remaining unfilled consumers: {}",
-currentNumMembersWithOverMinQuotaPartitions,
-expectedNumMembersWithOverMinQuotaPartitions,
-unfilledMembersWithUnderMinQuotaPartitions);
 :throw new IllegalStateException("We haven't reached the expected number of members with "+
 "more than the minQuota partitions, but no more partitions to be assigned");;
 else (no)
 if (assignedPartitionsCount!=minQuota) then (yes) 
-:log.error("Consumer: [{}] should have {} partitions, but got {} partitions, and no more partitions "+
-"to be assigned. The remaining unfilled consumers are: {}",
-unfilledMember,minQuota,assignedPartitionsCount,
-unfilledMembersWithUnderMinQuotaPartitions);
 :throw new IllegalStateException(String.format("Consumer: [%s] doesn't reach minQuota partitions, "+
 "and no more partitions to be assigned",unfilledMember));;
 else (no)
-:log.trace("skip over this unfilled member: [{}] because we've reached the expected number of "+
-"members with more than the minQuota partitions,
- and this member already have minQuota partitions",
-unfilledMember);
 endif 
 endif 
 endif 
-:log.info("Final assignment of partitions to consumers: \n{}",
-assignment);
 :return assignment;;
 stop
 end
@@ -174,8 +101,6 @@ List<TopicPartition>getAllTopicPartitions(Map<String,
 Integer>partitionsPerTopic,List<String>sortedAllTopics,
 inttotalPartitionsCount)
 end note
-:++i;
-:allPartitions.add(new TopicPartition(topic,i));
 :return allPartitions;;
 stop
 end
@@ -186,49 +111,17 @@ Integer>partitionsPerTopic,Map<String,Subscription>subscriptions,
 Map<String,List<TopicPartition>>currentAssignment)
 end note
 if (log.isDebugEnabled()) then (yes) 
-:log.debug("performing general assign. partitionsPerTopic: {},
- subscriptions: {}, currentAssignment: {}",
-partitionsPerTopic,subscriptions,currentAssignment);
 endif 
-:partitionMovements=new PartitionMovements();
-:prepopulateCurrentAssignments(subscriptions,
-prevAssignment);
-:partitionsPerTopic.keySet().stream().forEach(topicName->topic2AllPotentialConsumers.put(topicName,
-new ArrayList<>()));
-:consumer2AllPotentialTopics.put(consumerId,
-subscribedTopics);
-:entry.getValue().topics().stream().filter(topic->partitionsPerTopic.get(topic)!=null )
-.forEach(topic->{subscribedTopics.add(topic);topic2AllPotentialConsumers.get(topic).add(consumerId);});
 if (!currentAssignment.containsKey(consumerId)) then (yes) 
-:currentAssignment.put(consumerId,new ArrayList<>());
 endif 
-:currentPartitionConsumer.put(topicPartition,
-entry.getKey());
-:Collections.sort(sortedAllTopics,new TopicComparator(topic2AllPotentialConsumers));
 if (consumerSubscription==null ) then (yes) 
-:currentPartitionConsumer.remove(topicPartition);
-:it.remove();
 else (no)
-:Iterator<TopicPartition>partitionIter=entry.getValue()
-.iterator();
 if (!topic2AllPotentialConsumers.containsKey(partition.topic())) then (yes) 
-:partitionIter.remove();
-:currentPartitionConsumer.remove(partition);
 else (no)
-:assignedPartitions.add(partition);
 endif 
 endif 
 if (log.isDebugEnabled()) then (yes) 
-:log.debug("unassigned Partitions: {}",unassignedPartitions);
 endif 
-:sortedCurrentSubscriptions.addAll(currentAssignment.keySet());
-:balance(currentAssignment,prevAssignment,
-sortedAllPartitions,unassignedPartitions,
-sortedCurrentSubscriptions,consumer2AllPotentialTopics,
-topic2AllPotentialConsumers,currentPartitionConsumer,
-revocationRequired,partitionsPerTopic,totalPartitionsCount);
-:log.info("Final assignment of partitions to consumers: \n{}",
-currentAssignment);
 :return currentAssignment;;
 stop
 end
@@ -242,15 +135,10 @@ if (sortedAssignedPartitions.isEmpty()) then (yes)
 :return sortedAllPartitions;;
 stop
 endif 
-:Collections.sort(sortedAssignedPartitions,
-new PartitionComparator(topic2AllPotentialConsumers));
 if (shouldAddDirectly||!nextAssignedPartition.equals(topicPartition)) then (yes) 
-:unassignedPartitions.add(topicPartition);
 else (no)
 if (sortedAssignedPartitionsIter.hasNext()) then (yes) 
-:nextAssignedPartition=sortedAssignedPartitionsIter.next();
 else (no)
-:shouldAddDirectly=true;
 endif 
 endif 
 :return unassignedPartitions;;
@@ -261,22 +149,15 @@ note right
 List<TopicPartition>getUnassignedPartitions(inttotalPartitionsCount,
 Map<String,Integer>partitionsPerTopic,List<TopicPartition>sortedAssignedPartitions)
 end note
-:Collections.sort(sortedAllTopics);
 if (sortedAssignedPartitions.isEmpty()) then (yes) 
 :return getAllTopicPartitions(partitionsPerTopic,
 sortedAllTopics,totalPartitionsCount);;
 stop
 endif 
-:Collections.sort(sortedAssignedPartitions,
-Comparator.comparing(TopicPartition::topic).thenComparing(TopicPartition::partition));
-:i++;
 if (shouldAddDirectly||!(nextAssignedPartition.topic().equals(topic)&&nextAssignedPartition.partition()==i)) then (yes) 
-:unassignedPartitions.add(new TopicPartition(topic,i));
 else (no)
 if (sortedAssignedPartitionsIter.hasNext()) then (yes) 
-:nextAssignedPartition=sortedAssignedPartitionsIter.next();
 else (no)
-:shouldAddDirectly=true;
 endif 
 endif 
 :return unassignedPartitions;;
@@ -290,12 +171,8 @@ Stringconsumer,intgeneration)
 end note
 if (prevAssignment.containsKey(partition)) then (yes) 
 if (generation>prevAssignment.get(partition).generation) then (yes) 
-:prevAssignment.put(partition,new ConsumerGenerationPair(consumer,
-generation));
 endif 
 else (no)
-:prevAssignment.put(partition,new ConsumerGenerationPair(consumer,
-generation));
 endif 
 end
 start
@@ -305,11 +182,8 @@ Subscription>subscriptions,Map<TopicPartition,
 ConsumerGenerationPair>prevAssignment)
 end note
 if (subscription.userData()!=null ) then (yes) 
-:subscription.userData().rewind();
 endif 
 if (memberData.generation.isPresent()&&memberData.generation.get()<maxGeneration) then (yes) 
-:updatePrevAssignment(prevAssignment,memberData.partitions,
-consumer,memberData.generation.get());
 endif 
 end
 start
@@ -324,17 +198,11 @@ if (min>=max-1) then (yes)
 stop
 endif 
 if (allPartitions.containsKey(topicPartition)) then (yes) 
-:log.error("{} is assigned to more than one consumer.",
-topicPartition);
 endif 
-:allPartitions.put(topicPartition,entry.getKey());
 if (consumerPartitionCount==maxAssignmentSize) then (yes) 
 endif 
-:i++;
 if (!currentAssignment.get(consumer).contains(topicPartition)) then (yes) 
 if (consumerPartitionCount<otherConsumerPartitionCount) then (yes) 
-:log.debug("{} can be moved from consumer {} to consumer {} for a more balanced assignment.",
-topicPartition,otherConsumer,consumer);
 :return false;;
 stop
 endif 
@@ -349,10 +217,7 @@ List<String>allSubscribedTopics,Map<String,
 Integer>partitionsPerTopic)
 end note
 if (allSubscribedTopics.size()==partitionsPerTopic.size()) then (yes) 
-:maxAssignmentSize=totalPartitionCount;
 else (no)
-:maxAssignmentSize=allSubscribedTopics.stream().map(topic->partitionsPerTopic.get(topic)).reduce(0,
-Integer::sum);
 endif 
 :return maxAssignmentSize;;
 stop
@@ -361,11 +226,7 @@ start
 note right
 intgetBalanceScore(Map<String,List<TopicPartition>>assignment)
 end note
-:consumer2AssignmentSize.put(entry.getKey(),
-entry.getValue().size());
 while (it.hasNext())
-:it.remove();
-:score+=Math.abs(consumerAssignmentSize-otherEntry.getValue());
 endwhile
 :return score;;
 stop
@@ -379,10 +240,6 @@ Map<String,List<String>>consumer2AllPotentialTopics,
 Map<TopicPartition,String>currentPartitionConsumer)
 end note
 if (consumer2AllPotentialTopics.get(consumer).contains(partition.topic())) then (yes) 
-:sortedCurrentSubscriptions.remove(consumer);
-:currentAssignment.get(consumer).add(partition);
-:currentPartitionConsumer.put(partition,consumer);
-:sortedCurrentSubscriptions.add(consumer);
 endif 
 end
 start
@@ -403,8 +260,6 @@ Map<String,List<String>>topic2AllPotentialConsumers,
 Map<String,Integer>partitionsPerTopic,inttotalPartitionCount)
 end note
 if (currentAssignmentSize>maxAssignmentSize) then (yes) 
-:log.error("The consumer {} is assigned more partitions than the maximum possible.",
-consumer);
 endif 
 if (currentAssignmentSize<maxAssignmentSize) then (yes) 
 :return true;;
@@ -432,37 +287,17 @@ inttotalPartitionCount)
 end note
 if (topic2AllPotentialConsumers.get(partition.topic()).isEmpty()) then (yes) 
 endif 
-:assignPartition(partition,sortedCurrentSubscriptions,
-currentAssignment,consumer2AllPotentialTopics,
-currentPartitionConsumer);
 if (!canParticipateInReassignment(topic,topic2AllPotentialConsumers)) then (yes) 
-:i++;
-:fixedPartitions.add(new TopicPartition(topic,i));
 endif 
-:sortedPartitions.removeAll(fixedPartitions);
-:unassignedPartitions.removeAll(fixedPartitions);
 if (!canParticipateInReassignment(consumer,
 currentAssignment,consumer2AllPotentialTopics,
 topic2AllPotentialConsumers,partitionsPerTopic,
 totalPartitionCount)) then (yes) 
-:sortedCurrentSubscriptions.remove(consumer);
-:fixedAssignments.put(consumer,currentAssignment.remove(consumer));
 endif 
 if (!revocationRequired) then (yes) 
-:performReassignments(unassignedPartitions,
-currentAssignment,prevAssignment,sortedCurrentSubscriptions,
-consumer2AllPotentialTopics,topic2AllPotentialConsumers,
-currentPartitionConsumer,partitionsPerTopic,
-totalPartitionCount);
 endif 
 if (!initializing&&reassignmentPerformed&&getBalanceScore(currentAssignment)>=getBalanceScore(preBalanceAssignment)) then (yes) 
-:deepCopy(preBalanceAssignment,currentAssignment);
-:currentPartitionConsumer.clear();
-:currentPartitionConsumer.putAll(preBalancePartitionConsumers);
 endif 
-:currentAssignment.put(consumer,entry.getValue());
-:sortedCurrentSubscriptions.add(consumer);
-:fixedAssignments.clear();
 end
 start
 note right
@@ -476,32 +311,17 @@ Map<TopicPartition,String>currentPartitionConsumer,
 Map<String,Integer>partitionsPerTopic,inttotalPartitionCount)
 end note
 repeat
-:modified=false;
 while (partitionIterator.hasNext()&&!isBalanced(currentAssignment,
 sortedCurrentSubscriptions,consumer2AllPotentialTopics,
 partitionsPerTopic,totalPartitionCount))
 if (topic2AllPotentialConsumers.get(partition.topic()).size()<=1) then (yes) 
-:log.error("Expected more than one potential consumer for partition '{}'",
-partition);
 endif 
 if (consumer==null ) then (yes) 
-:log.error("Expected partition '{}' to be assigned to a consumer",
-partition);
 endif 
 if (prevAssignment.containsKey(partition)&&currentAssignment.get(consumer).size()>currentAssignment.get(prevAssignment.get(partition).consumer).size()+1) then (yes) 
-:reassignPartition(partition,currentAssignment,
-sortedCurrentSubscriptions,currentPartitionConsumer,
-prevAssignment.get(partition).consumer);
-:reassignmentPerformed=true;
-:modified=true;
 endif 
 if (currentAssignment.get(consumer).size()>currentAssignment.get(otherConsumer).size()+
 1) then (yes) 
-:reassignPartition(partition,currentAssignment,
-sortedCurrentSubscriptions,currentPartitionConsumer,
-consumer2AllPotentialTopics);
-:reassignmentPerformed=true;
-:modified=true;
 endif 
 endwhile
 repeat while (modified)
@@ -517,11 +337,7 @@ Map<TopicPartition,String>currentPartitionConsumer,
 Map<String,List<String>>consumer2AllPotentialTopics)
 end note
 if (consumer2AllPotentialTopics.get(anotherConsumer).contains(partition.topic())) then (yes) 
-:newConsumer=anotherConsumer;
 endif 
-:reassignPartition(partition,currentAssignment,
-sortedCurrentSubscriptions,currentPartitionConsumer,
-newConsumer);
 end
 start
 note right
@@ -531,9 +347,6 @@ TreeSet<String>sortedCurrentSubscriptions,
 Map<TopicPartition,String>currentPartitionConsumer,
 StringnewConsumer)
 end note
-:processPartitionMovement(partitionToBeMoved,
-newConsumer,currentAssignment,sortedCurrentSubscriptions,
-currentPartitionConsumer);
 end
 start
 note right
@@ -542,15 +355,6 @@ StringnewConsumer,Map<String,List<TopicPartition>>currentAssignment,
 TreeSet<String>sortedCurrentSubscriptions,
 Map<TopicPartition,String>currentPartitionConsumer)
 end note
-:sortedCurrentSubscriptions.remove(oldConsumer);
-:sortedCurrentSubscriptions.remove(newConsumer);
-:partitionMovements.movePartition(partition,
-oldConsumer,newConsumer);
-:currentAssignment.get(oldConsumer).remove(partition);
-:currentAssignment.get(newConsumer).add(partition);
-:currentPartitionConsumer.put(partition,newConsumer);
-:sortedCurrentSubscriptions.add(newConsumer);
-:sortedCurrentSubscriptions.add(oldConsumer);
 end
 start
 note right
@@ -564,15 +368,12 @@ note right
 void deepCopy(Map<String,List<TopicPartition>>source,
 Map<String,List<TopicPartition>>dest)
 end note
-:dest.clear();
-:dest.put(entry.getKey(),new ArrayList<>(entry.getValue()));
 end
 start
 note right
 Map<String,List<TopicPartition>>deepCopy(Map<String,
 List<TopicPartition>>assignment)
 end note
-:deepCopy(assignment,copy);
 :return copy;;
 stop
 end
@@ -580,14 +381,12 @@ start
 note right
 constructor TopicComparator(Map<String,List<String>>map)
 end note
-:this.map=map;
 end
 start
 note right
 intcompare(Stringo1,Stringo2)
 end note
 if (ret==0) then (yes) 
-:ret=o1.compareTo(o2);
 endif 
 :return ret;;
 stop
@@ -597,14 +396,12 @@ note right
 constructor SubscriptionComparator(Map<String,
 List<TopicPartition>>map)
 end note
-:this.map=map;
 end
 start
 note right
 intcompare(Stringo1,Stringo2)
 end note
 if (ret==0) then (yes) 
-:ret=o1.compareTo(o2);
 endif 
 :return ret;;
 stop
@@ -613,13 +410,9 @@ start
 note right
 ConsumerPairremoveMovementRecordOfPartition(TopicPartitionpartition)
 end note
-:partitionMovementsForThisTopic.get(pair)
-.remove(partition);
 if (partitionMovementsForThisTopic.get(pair).isEmpty()) then (yes) 
-:partitionMovementsForThisTopic.remove(pair);
 endif 
 if (partitionMovementsByTopic.get(topic).isEmpty()) then (yes) 
-:partitionMovementsByTopic.remove(topic);
 endif 
 :return pair;;
 stop
@@ -629,16 +422,10 @@ note right
 void addPartitionMovementRecord(TopicPartitionpartition,
 ConsumerPairpair)
 end note
-:partitionMovements.put(partition,pair);
 if (!partitionMovementsByTopic.containsKey(topic)) then (yes) 
-:partitionMovementsByTopic.put(topic,new HashMap<>());
 endif 
 if (!partitionMovementsForThisTopic.containsKey(pair)) then (yes) 
-:partitionMovementsForThisTopic.put(pair,
-new HashSet<>());
 endif 
-:partitionMovementsForThisTopic.get(pair)
-.add(partition);
 end
 start
 note right
@@ -647,11 +434,8 @@ StringoldConsumer,StringnewConsumer)
 end note
 if (partitionMovements.containsKey(partition)) then (yes) 
 if (!existingPair.srcMemberId.equals(newConsumer)) then (yes) 
-:addPartitionMovementRecord(partition,new ConsumerPair(existingPair.srcMemberId,
-newConsumer));
 endif 
 else (no)
-:addPartitionMovementRecord(partition,pair);
 endif 
 end
 start
@@ -664,8 +448,6 @@ if (!partitionMovementsByTopic.containsKey(topic)) then (yes)
 stop
 endif 
 if (partitionMovements.containsKey(partition)) then (yes) 
-:oldConsumer=partitionMovements.get(partition)
-.srcMemberId;
 endif 
 if (!partitionMovementsForThisTopic.containsKey(reversePair)) then (yes) 
 :return partition;;
@@ -689,14 +471,10 @@ if (pairs.isEmpty()) then (yes)
 stop
 endif 
 if (new ConsumerPair(src,dst).in(pairs)) then (yes) 
-:currentPath.add(src);
-:currentPath.add(dst);
 :return true;;
 stop
 endif 
 if (pair.srcMemberId.equals(src)) then (yes) 
-:reducedSet.remove(pair);
-:currentPath.add(pair.srcMemberId);
 :return isLinked(pair.dstMemberId,dst,reducedSet,
 currentPath);;
 stop
@@ -708,8 +486,6 @@ start
 note right
 booleanin(List<String>cycle,Set<List<String>>cycles)
 end note
-:superCycle.remove(superCycle.size()-1);
-:superCycle.addAll(cycle);
 if (foundCycle.size()==cycle.size()&&Collections.indexOfSubList(superCycle,
 foundCycle)!=-1) then (yes) 
 :return true;;
@@ -722,12 +498,8 @@ start
 note right
 booleanhasCycles(Set<ConsumerPair>pairs)
 end note
-:reducedPairs.remove(pair);
 if (isLinked(pair.dstMemberId,pair.srcMemberId,
 reducedPairs,path)&&!in(path,cycles)) then (yes) 
-:cycles.add(new ArrayList<>(path));
-:log.error("A cycle of length {} was found: {}",
-path.size()-1,path.toString());
 endif 
 if (cycle.size()==3) then (yes) 
 :return true;;
@@ -741,9 +513,6 @@ note right
 booleanisSticky()
 end note
 if (hasCycles(topicMovementPairs)) then (yes) 
-:log.error("Stickiness is violated for topic {}"+
-"\nPartition movements for this topic occurred among the following consumer pairs:"+
-"\n{}",topicMovements.getKey(),topicMovements.getValue().toString());
 :return false;;
 stop
 endif 
@@ -755,8 +524,6 @@ note right
 constructor ConsumerPair(StringsrcMemberId,
 StringdstMemberId)
 end note
-:this.srcMemberId=srcMemberId;
-:this.dstMemberId=dstMemberId;
 end
 start
 note right
@@ -769,8 +536,6 @@ start
 note right
 inthashCode()
 end note
-:result=prime*result+((this.srcMemberId==null )? 0:this.srcMemberId.hashCode());
-:result=prime*result+((this.dstMemberId==null )? 0:this.dstMemberId.hashCode());
 :return result;;
 stop
 end

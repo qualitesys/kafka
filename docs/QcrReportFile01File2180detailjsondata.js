@@ -999,6 +999,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.agent.WorkerManager.CompleteWorker.call@POLYN251037"
 }} 
 ,
@@ -1028,13 +1035,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.agent.WorkerManager.HaltWorker.call@POLYN254937"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1119,6 +1119,69 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#492"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00492] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.HandleWorkerHalting.call@POLYN248718 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00648"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#648"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00648] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String '{}: Shutting down WorkerManager.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00651"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#651"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00651] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String '{}: Waiting for shutdownManager quiescence...' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00655"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#655"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00655] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String '{}: Waiting for workerCleanupExecutor to terminate...' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00656"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#656"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00656] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00657"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#657"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00657] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String '{}: Waiting for stateChangeExecutor to terminate...' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00658"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#658"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00658] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00659"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#659"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00659] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String '{}: Shutting down shutdownExecutor.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00662"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#662"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00662] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String '{}: Caught exception while shutting down WorkerManager' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00665"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#665"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00665] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1266,69 +1329,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#612"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00612] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.HaltWorker.call@POLYN254937 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00648"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#648"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00648] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String '{}: Shutting down WorkerManager.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00651"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#651"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00651] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String '{}: Waiting for shutdownManager quiescence...' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00655"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#655"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00655] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String '{}: Waiting for workerCleanupExecutor to terminate...' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00656"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#656"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00656] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00657"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#657"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00657] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String '{}: Waiting for stateChangeExecutor to terminate...' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00658"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#658"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00658] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00659"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#659"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00659] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String '{}: Shutting down shutdownExecutor.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00662"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#662"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00662] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String '{}: Caught exception while shutting down WorkerManager' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00665"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#665"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00665] In the recursive method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN257014 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -719,9 +719,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1498Seq2.html#seq2"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1498&numSeq=2"
  , "c2" : "2"
- , "c3" : "5"
- , "c4" : "5"
- , "c5" : ["java.util.concurrent.ConcurrentHashMap.CounterCell.CounterCell@POLYN1551229.x" , "java.util.concurrent.ConcurrentHashMap.isEmpty@POLYN1652484.return"]
+ , "c3" : "8"
+ , "c4" : "8"
+ , "c5" : ["java.util.concurrent.ConcurrentHashMap.computeIfAbsent@POLYN1498257.1L" , "java.util.concurrent.ConcurrentHashMap.isEmpty@POLYN1652484.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -734,9 +734,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1498Seq3.html#seq3"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1498&numSeq=3"
  , "c2" : "3"
- , "c3" : "3"
- , "c4" : "3"
- , "c5" : ["java.util.concurrent.ConcurrentHashMap.initTable@POLYN1531210.tab" , "java.util.concurrent.ConcurrentHashMap.setTabAt@POLYN1451112.v"]
+ , "c3" : "8"
+ , "c4" : "8"
+ , "c5" : ["java.util.concurrent.ConcurrentHashMap.putVal@POLYN1461651.1L" , "java.util.concurrent.ConcurrentHashMap.isEmpty@POLYN1652484.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -751,7 +751,7 @@ var maDataBlocs = {
  , "c2" : "4"
  , "c3" : "3"
  , "c4" : "3"
- , "c5" : ["java.util.concurrent.ConcurrentHashMap.helpTransfer@POLYN1536278.nextTab" , "java.util.concurrent.ConcurrentHashMap.setTabAt@POLYN1451112.v"]
+ , "c5" : ["java.util.concurrent.ConcurrentHashMap.initTable@POLYN1531210.tab" , "java.util.concurrent.ConcurrentHashMap.setTabAt@POLYN1451112.v"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -764,9 +764,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1498Seq5.html#seq5"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1498&numSeq=5"
  , "c2" : "5"
- , "c3" : "4"
- , "c4" : "4"
- , "c5" : ["java.util.concurrent.ConcurrentHashMap.readObject@POLYN1486325.tab" , "java.util.concurrent.ConcurrentHashMap.setTabAt@POLYN1451112.v"]
+ , "c3" : "3"
+ , "c4" : "3"
+ , "c5" : ["java.util.concurrent.ConcurrentHashMap.helpTransfer@POLYN1536278.nextTab" , "java.util.concurrent.ConcurrentHashMap.setTabAt@POLYN1451112.v"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -779,9 +779,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1498Seq6.html#seq6"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1498&numSeq=6"
  , "c2" : "6"
- , "c3" : "5"
- , "c4" : "5"
- , "c5" : ["java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053.tab" , "java.util.concurrent.ConcurrentHashMap.setTabAt@POLYN1451112.v"]
+ , "c3" : "4"
+ , "c4" : "4"
+ , "c5" : ["java.util.concurrent.ConcurrentHashMap.readObject@POLYN1486325.tab" , "java.util.concurrent.ConcurrentHashMap.setTabAt@POLYN1451112.v"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -796,7 +796,7 @@ var maDataBlocs = {
  , "c2" : "7"
  , "c3" : "5"
  , "c4" : "5"
- , "c5" : ["java.util.concurrent.ConcurrentHashMap.helpTransfer@POLYN1536278.tab" , "java.util.concurrent.ConcurrentHashMap.setTabAt@POLYN1451112.v"]
+ , "c5" : ["java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053.tab" , "java.util.concurrent.ConcurrentHashMap.setTabAt@POLYN1451112.v"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -811,7 +811,7 @@ var maDataBlocs = {
  , "c2" : "8"
  , "c3" : "5"
  , "c4" : "5"
- , "c5" : ["java.util.concurrent.ConcurrentHashMap.transfer@POLYN1541081.nt" , "java.util.concurrent.ConcurrentHashMap.setTabAt@POLYN1451112.v"]
+ , "c5" : ["java.util.concurrent.ConcurrentHashMap.helpTransfer@POLYN1536278.tab" , "java.util.concurrent.ConcurrentHashMap.setTabAt@POLYN1451112.v"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -824,9 +824,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1498Seq9.html#seq9"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1498&numSeq=9"
  , "c2" : "9"
- , "c3" : "7"
- , "c4" : "7"
- , "c5" : ["java.util.concurrent.ConcurrentHashMap.tryPresize@POLYN1537925.nt" , "java.util.concurrent.ConcurrentHashMap.setTabAt@POLYN1451112.v"]
+ , "c3" : "5"
+ , "c4" : "5"
+ , "c5" : ["java.util.concurrent.ConcurrentHashMap.transfer@POLYN1541081.nt" , "java.util.concurrent.ConcurrentHashMap.setTabAt@POLYN1451112.v"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -839,9 +839,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1498Seq10.html#seq10"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1498&numSeq=10"
  , "c2" : "10"
- , "c3" : "4"
- , "c4" : "4"
- , "c5" : ["null" , "java.util.concurrent.ConcurrentHashMap.MapEntry.setValue@POLYN1610931.cibledummy"]
+ , "c3" : "7"
+ , "c4" : "7"
+ , "c5" : ["java.util.concurrent.ConcurrentHashMap.tryPresize@POLYN1537925.nt" , "java.util.concurrent.ConcurrentHashMap.setTabAt@POLYN1451112.v"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -856,7 +856,7 @@ var maDataBlocs = {
  , "c2" : "11"
  , "c3" : "4"
  , "c4" : "4"
- , "c5" : ["e.val" , "java.util.concurrent.ConcurrentHashMap.MapEntry.setValue@POLYN1610931.cibledummy"]
+ , "c5" : ["null" , "java.util.concurrent.ConcurrentHashMap.MapEntry.setValue@POLYN1610931.cibledummy"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -871,7 +871,7 @@ var maDataBlocs = {
  , "c2" : "12"
  , "c3" : "4"
  , "c4" : "4"
- , "c5" : ["p.val" , "java.util.concurrent.ConcurrentHashMap.MapEntry.setValue@POLYN1610931.cibledummy"]
+ , "c5" : ["e.val" , "java.util.concurrent.ConcurrentHashMap.MapEntry.setValue@POLYN1610931.cibledummy"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -884,9 +884,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1498Seq13.html#seq13"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1498&numSeq=13"
  , "c2" : "13"
- , "c3" : "3"
- , "c4" : "3"
- , "c5" : ["java.util.concurrent.ConcurrentHashMap.putVal@POLYN1461651.null" , "java.util.concurrent.ConcurrentHashMap.MapEntry.setValue@POLYN1610931.cibledummy"]
+ , "c3" : "4"
+ , "c4" : "4"
+ , "c5" : ["p.val" , "java.util.concurrent.ConcurrentHashMap.MapEntry.setValue@POLYN1610931.cibledummy"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -899,9 +899,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1498Seq14.html#seq14"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1498&numSeq=14"
  , "c2" : "14"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.concurrent.ConcurrentHashMap.computeIfAbsent@POLYN1498257.1L" , "java.util.concurrent.ConcurrentHashMap.fullAddCount@POLYN1552030.x"]
+ , "c3" : "3"
+ , "c4" : "3"
+ , "c5" : ["java.util.concurrent.ConcurrentHashMap.putVal@POLYN1461651.null" , "java.util.concurrent.ConcurrentHashMap.MapEntry.setValue@POLYN1610931.cibledummy"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -914,21 +914,6 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1498Seq15.html#seq15"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1498&numSeq=15"
  , "c2" : "15"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.concurrent.ConcurrentHashMap.putVal@POLYN1461651.1L" , "java.util.concurrent.ConcurrentHashMap.fullAddCount@POLYN1552030.x"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1498Seq16.html#seq16"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1498&numSeq=16"
- , "c2" : "16"
  , "c3" : "2"
  , "c4" : "2"
  , "c5" : ["java.util.concurrent.ConcurrentHashMap.computeIfAbsent@POLYN1498257.sourcedummy" , "java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053.check"]
@@ -1031,6 +1016,30 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "2" , "contenu" : [ 
 { "ligne" : { "" : ""
+ , "c1" : "8"
+ , "sourcenoligne" : "[01717]"
+ , "c3" : ["java.util.concurrent.ConcurrentHashMap.computeIfAbsent@POLYN1498257.1L" , "---java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053" , "java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053.x"]
+ , "c4" : "//QC-JAVCWZ099[01717] In java.util.concurrent.ConcurrentHashMap.computeIfAbsent@POLYN1498257[01717] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "7"
+ , "sourcenoligne" : "[02263]"
+ , "c3" : ["java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053.x" , "---java.util.concurrent.ConcurrentHashMap.fullAddCount@POLYN1552030" , "java.util.concurrent.ConcurrentHashMap.fullAddCount@POLYN1552030.x"]
+ , "c4" : "//QC-JAVCWZ099[02263] In java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053[02263] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "6"
+ , "sourcenoligne" : "[02534]"
+ , "c3" : ["java.util.concurrent.ConcurrentHashMap.fullAddCount@POLYN1552030.x" , "---java.util.concurrent.ConcurrentHashMap.CounterCell.CounterCell@POLYN1551229" , "java.util.concurrent.ConcurrentHashMap.CounterCell.CounterCell@POLYN1551229.x"]
+ , "c4" : "//QC-JAVCWZ099[02534] In java.util.concurrent.ConcurrentHashMap.fullAddCount@POLYN1552030[02534] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "5"
  , "sourcenoligne" : "[02505]"
  , "c3" : ["java.util.concurrent.ConcurrentHashMap.CounterCell.CounterCell@POLYN1551229.x" , "---dummymethode" , "java.util.concurrent.ConcurrentHashMap.CounterCell.value"]
@@ -1109,6 +1118,108 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "3" , "contenu" : [ 
 { "ligne" : { "" : ""
+ , "c1" : "8"
+ , "sourcenoligne" : "[01067]"
+ , "c3" : ["java.util.concurrent.ConcurrentHashMap.putVal@POLYN1461651.1L" , "---java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053" , "java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053.x"]
+ , "c4" : "//QC-JAVCWZ099[01067] In java.util.concurrent.ConcurrentHashMap.putVal@POLYN1461651[01067] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "7"
+ , "sourcenoligne" : "[02263]"
+ , "c3" : ["java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053.x" , "---java.util.concurrent.ConcurrentHashMap.fullAddCount@POLYN1552030" , "java.util.concurrent.ConcurrentHashMap.fullAddCount@POLYN1552030.x"]
+ , "c4" : "//QC-JAVCWZ099[02263] In java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053[02263] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "6"
+ , "sourcenoligne" : "[02534]"
+ , "c3" : ["java.util.concurrent.ConcurrentHashMap.fullAddCount@POLYN1552030.x" , "---java.util.concurrent.ConcurrentHashMap.CounterCell.CounterCell@POLYN1551229" , "java.util.concurrent.ConcurrentHashMap.CounterCell.CounterCell@POLYN1551229.x"]
+ , "c4" : "//QC-JAVCWZ099[02534] In java.util.concurrent.ConcurrentHashMap.fullAddCount@POLYN1552030[02534] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[02505]"
+ , "c3" : ["java.util.concurrent.ConcurrentHashMap.CounterCell.CounterCell@POLYN1551229.x" , "---dummymethode" , "java.util.concurrent.ConcurrentHashMap.CounterCell.value"]
+ , "c4" : "//QC-JAVCWZ099[02505] In java.util.concurrent.ConcurrentHashMap.CounterCell.CounterCell@POLYN1551229[02505] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap)"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[02514]"
+ , "c3" : ["java.util.concurrent.ConcurrentHashMap.CounterCell.value" , "---dummymethode" , "java.util.concurrent.ConcurrentHashMap.sumCount@POLYN1551357.sum"]
+ , "c4" : "//QC-JAVCWZ099[02514] In java.util.concurrent.ConcurrentHashMap.sumCount@POLYN1551357[02514] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap)"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[02517]"
+ , "c3" : ["java.util.concurrent.ConcurrentHashMap.sumCount@POLYN1551357.sum" , "---dummymethode" , "java.util.concurrent.ConcurrentHashMap.sumCount@POLYN1551357.return"]
+ , "c4" : "//QC-JAVCWZ099[02517] In java.util.concurrent.ConcurrentHashMap.sumCount@POLYN1551357[02517] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap)"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00917]"
+ , "c3" : ["java.util.concurrent.ConcurrentHashMap.sumCount@POLYN1551357.return" , "---java.util.concurrent.ConcurrentHashMap.sumCount@POLYN1551357" , "java.util.concurrent.ConcurrentHashMap.isEmpty@POLYN1456560.return"]
+ , "c4" : "//QC-JAVCWZ099[00917] In java.util.concurrent.ConcurrentHashMap.isEmpty@POLYN1456560[00917] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[04389]"
+ , "c3" : ["java.util.concurrent.ConcurrentHashMap.isEmpty@POLYN1456560.return" , "---java.util.concurrent.ConcurrentHashMap.isEmpty@POLYN1456560" , "java.util.concurrent.ConcurrentHashMap.isEmpty@POLYN1652484.return"]
+ , "c4" : "//QC-JAVCWZ099[04389] In java.util.concurrent.ConcurrentHashMap.CollectionView.isEmpty@POLYN1652484[04389] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "4" , "contenu" : [ 
+{ "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[02240]"
  , "c3" : ["java.util.concurrent.ConcurrentHashMap.initTable@POLYN1531210.tab" , "---dummymethode" , "java.util.concurrent.ConcurrentHashMap.initTable@POLYN1531210.return"]
@@ -1169,7 +1280,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "4" , "contenu" : [ 
+ "seq" : "5" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[02309]"
@@ -1231,7 +1342,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "5" , "contenu" : [ 
+ "seq" : "6" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "4"
  , "sourcenoligne" : "[01516]"
@@ -1301,7 +1412,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "6" , "contenu" : [ 
+ "seq" : "7" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "5"
  , "sourcenoligne" : "[02281]"
@@ -1379,7 +1490,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "7" , "contenu" : [ 
+ "seq" : "8" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "5"
  , "sourcenoligne" : "[02305]"
@@ -1457,7 +1568,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "8" , "contenu" : [ 
+ "seq" : "9" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "5"
  , "sourcenoligne" : "[02372]"
@@ -1535,7 +1646,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "9" , "contenu" : [ 
+ "seq" : "10" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "7"
  , "sourcenoligne" : "[02332]"
@@ -1629,7 +1740,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "10" , "contenu" : [ 
+ "seq" : "11" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "4"
  , "sourcenoligne" : "[01023]"
@@ -1699,7 +1810,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "11" , "contenu" : [ 
+ "seq" : "12" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "4"
  , "sourcenoligne" : "[01033]"
@@ -1769,7 +1880,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "12" , "contenu" : [ 
+ "seq" : "13" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "4"
  , "sourcenoligne" : "[01051]"
@@ -1839,7 +1950,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "13" , "contenu" : [ 
+ "seq" : "14" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[01068]"
@@ -1901,115 +2012,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "14" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[01717]"
- , "c3" : ["java.util.concurrent.ConcurrentHashMap.computeIfAbsent@POLYN1498257.1L" , "---java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053" , "java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053.x"]
- , "c4" : "//QC-JAVCWZ099[01717] In java.util.concurrent.ConcurrentHashMap.computeIfAbsent@POLYN1498257[01717] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[02263]"
- , "c3" : ["java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053.x" , "---java.util.concurrent.ConcurrentHashMap.fullAddCount@POLYN1552030" , "java.util.concurrent.ConcurrentHashMap.fullAddCount@POLYN1552030.x"]
- , "c4" : "//QC-JAVCWZ099[02263] In java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053[02263] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-,
-{ "sequence" : { 
  "seq" : "15" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[01067]"
- , "c3" : ["java.util.concurrent.ConcurrentHashMap.putVal@POLYN1461651.1L" , "---java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053" , "java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053.x"]
- , "c4" : "//QC-JAVCWZ099[01067] In java.util.concurrent.ConcurrentHashMap.putVal@POLYN1461651[01067] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[02263]"
- , "c3" : ["java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053.x" , "---java.util.concurrent.ConcurrentHashMap.fullAddCount@POLYN1552030" , "java.util.concurrent.ConcurrentHashMap.fullAddCount@POLYN1552030.x"]
- , "c4" : "//QC-JAVCWZ099[02263] In java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053[02263] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "16" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[01653]"
