@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java 167 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java 169 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.xml" 
  , "fic3"  : "" 
 }
@@ -358,7 +358,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "8"
 }}
  ] 
 ,
@@ -758,6 +758,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00166"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#166"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00166] For method readUnsignedVarint list of called methods Object monObjet|byte in_readByteN221718"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00166"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#166"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00166] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -879,6 +886,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#219"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00219] For method readVarlong arguments DataInput  in"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#219"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00219] For method readVarlong list of called methods Object monObjet|byte in_readByteN224008"
 }} 
 ,
 { "ligne" : {"" : ""

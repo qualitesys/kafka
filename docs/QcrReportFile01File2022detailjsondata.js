@@ -247,7 +247,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.util.HashMap.getValue@POLYN606427.return" , "java.io.PrintWriter.write@POLYN343572.s"]
+ , "c5" : ["java.util.HashMap.getValue@POLYN606427.return" , "java.io.BufferedOutputStream.write@POLYN160150.b"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -271,8 +271,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00283]"
- , "c3" : ["org.apache.kafka.streams.state.internals.AbstractDualSchemaRocksDBSegmentedBytesStore.restoreAllInternal@POLYN193037.batch" , "---java.io.PrintWriter.write@POLYN343572" , "java.io.PrintWriter.write@POLYN343572.s"]
- , "c4" : "//QC-JAVCWE099[00283] In org.apache.kafka.streams.state.internals.AbstractDualSchemaRocksDBSegmentedBytesStore.restoreAllInternal@POLYN193037[00283] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
+ , "c3" : ["org.apache.kafka.streams.state.internals.AbstractDualSchemaRocksDBSegmentedBytesStore.restoreAllInternal@POLYN193037.batch" , "---java.io.BufferedOutputStream.write@POLYN160150" , "java.io.BufferedOutputStream.write@POLYN160150.b"]
+ , "c4" : "//QC-JAVCWE099[00283] In org.apache.kafka.streams.state.internals.AbstractDualSchemaRocksDBSegmentedBytesStore.restoreAllInternal@POLYN193037[00283] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"
  , "c5" : "input"
 }}
 ,

@@ -133,7 +133,7 @@ var maDataBlocs = {
  , "c1" : "00064"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#64"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00064] For method view list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.KTableValueGetterSupplier parentKTable_valueGetterSupplierN177334"
+ , "c3" : "QC-JAV000007[00064] For method view list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.KTableValueGetterSupplier parentKTable_valueGetterSupplierN177334|org.apache.kafka.streams.state.internals.Maybe buffer_priorValueForBufferedN178335|java.lang.String[] parentValueGetterSupplier_storeNamesN178845"
 }} 
 ,
 { "ligne" : {"" : ""

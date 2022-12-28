@@ -139,6 +139,11 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
+{ "ligne" :  "R0:org.apache.kafka.connect.runtime.WorkerTransactionContext.this" }
+,
+{ "ligne" :  "R1:org.apache.kafka.connect.runtime.WorkerTransactionContext.commitTransaction@POLYN151847.record" }
+,
+{ "ligne" :  "R2:org.apache.kafka.connect.runtime.WorkerTransactionContext.abortTransaction@POLYN152211.record" }
 ]
 ,
 "data12b" : [

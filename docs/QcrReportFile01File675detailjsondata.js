@@ -240,6 +240,82 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File675Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=675&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.getValue@POLYN606427.return" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1668236.e"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00272]"
+ , "c3" : ["java.util.HashMap.getValue@POLYN606427.return" , "---java.util.HashMap.getValue@POLYN606427" , "org.apache.kafka.common.requests.FetchResponse.toMessage@POLYN204155.partitionData"]
+ , "c4" : "//QC-JAVCWE099[00272] In org.apache.kafka.common.requests.FetchResponse.toMessage@POLYN204155[00272] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00283]"
+ , "c3" : ["org.apache.kafka.common.requests.FetchResponse.toMessage@POLYN204155.partitionData" , "---java.util.concurrent.ConcurrentHashMap.add@POLYN1668236" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1668236.e"]
+ , "c4" : "//QC-JAVCWE099[00283] In org.apache.kafka.common.requests.FetchResponse.toMessage@POLYN204155[00283] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 

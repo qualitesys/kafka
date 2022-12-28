@@ -409,7 +409,7 @@ var maDataBlocs = {
 { "sequence" : { "noseq" : "7" , "pas" : [
 { "ligne" : "S7:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN228547 (R0 in line [00251],R18 in line [00251],R19 in line [00251])" }
 ,
-{ "ligne" : "S7:org.apache.kafka.connect.util.Callback.onCompletion" }
+{ "ligne" : "S7:java.util.concurrent.ConcurrentHashMap.add@POLYN1668236" }
  ]
  } }
 ,

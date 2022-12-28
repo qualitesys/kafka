@@ -825,6 +825,82 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File249Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=249&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.keySet@POLYN638862.return" , "java.util.concurrent.ConcurrentHashMap.removeAll@POLYN1658358.c"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01379]"
+ , "c3" : ["java.util.HashMap.keySet@POLYN638862.return" , "---java.util.HashMap.keySet@POLYN638862" , "org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN413382.partitions"]
+ , "c4" : "//QC-JAVCWE099[01379] In org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN413382[01379] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01386]"
+ , "c3" : ["org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN413382.partitions" , "---java.util.concurrent.ConcurrentHashMap.removeAll@POLYN1658358" , "java.util.concurrent.ConcurrentHashMap.removeAll@POLYN1658358.c"]
+ , "c4" : "//QC-JAVCWE099[01386] In org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN413382[01386] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 
@@ -862,11 +938,11 @@ var maDataBlocs = {
 ,
 { "ligne" :  "R14:org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383821.response" }
 ,
-{ "ligne" :  "R15:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869.topicPartition" }
+{ "ligne" :  "R15:org.apache.kafka.clients.producer.internals.TransactionManager.retry@POLYN393177.request" }
 ,
-{ "ligne" :  "R16:org.apache.kafka.clients.producer.internals.TransactionManager.addInFlightBatch@POLYN380371.batch" }
+{ "ligne" :  "R16:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869.topicPartition" }
 ,
-{ "ligne" :  "R17:org.apache.kafka.clients.producer.internals.TransactionManager.retry@POLYN393177.request" }
+{ "ligne" :  "R17:org.apache.kafka.clients.producer.internals.TransactionManager.addInFlightBatch@POLYN380371.batch" }
 ]
 ,
 "data12b" : [
@@ -918,6 +994,8 @@ var maDataBlocs = {
 { "ligne" : "S4:org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN384968 (R0 in line [00624],R2 in line [00624],R3 in line [00624],R4 in line [00624])" }
 ,
 { "ligne" : "S4:org.apache.kafka.clients.producer.internals.TransactionManager.requestEpochBumpForPartition@POLYN377606 (R0 in line [00468],R8 in line [00468])" }
+,
+{ "ligne" : "S4:java.util.concurrent.ConcurrentHashMap.add@POLYN1668236" }
  ]
  } }
 ,
@@ -954,23 +1032,23 @@ var maDataBlocs = {
  } }
 ,
 { "sequence" : { "noseq" : "9" , "pas" : [
-{ "ligne" : "S9:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869 (R0 in line [00426],R15 in line [00426])" }
+{ "ligne" : "S9:org.apache.kafka.clients.producer.internals.TransactionManager.retry@POLYN393177 (R0 in line [00805],R15 in line [00805])" }
 ,
-{ "ligne" : "S9:org.apache.kafka.clients.producer.internals.TxnPartitionMap.startSequencesAtBeginning@POLYN151645" }
+{ "ligne" : "S9:org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.setRetry@POLYN409469" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "10" , "pas" : [
-{ "ligne" : "S10:org.apache.kafka.clients.producer.internals.TransactionManager.addInFlightBatch@POLYN380371 (R0 in line [00528],R16 in line [00528])" }
+{ "ligne" : "S10:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869 (R0 in line [00426],R16 in line [00426])" }
 ,
-{ "ligne" : "S10:org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN149918" }
+{ "ligne" : "S10:org.apache.kafka.clients.producer.internals.TxnPartitionMap.startSequencesAtBeginning@POLYN151645" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "11" , "pas" : [
-{ "ligne" : "S11:org.apache.kafka.clients.producer.internals.TransactionManager.retry@POLYN393177 (R0 in line [00805],R17 in line [00805])" }
+{ "ligne" : "S11:org.apache.kafka.clients.producer.internals.TransactionManager.addInFlightBatch@POLYN380371 (R0 in line [00528],R17 in line [00528])" }
 ,
-{ "ligne" : "S11:org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.setRetry@POLYN409469" }
+{ "ligne" : "S11:org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN149918" }
  ]
  } }
 ,
@@ -1017,9 +1095,9 @@ var maDataBlocs = {
  } }
 ,
 { "sequence" : { "noseq" : "16" , "pas" : [
-{ "ligne" : "S16:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869 (R0 in line [00426],R15 in line [00426])" }
+{ "ligne" : "S16:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869 (R0 in line [00426],R16 in line [00426])" }
 ,
-{ "ligne" : "S16:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869 (R0 in line [00426],R15 in line [00426])" }
+{ "ligne" : "S16:org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869 (R0 in line [00426],R16 in line [00426])" }
 ,
 { "ligne" : "S16:org.apache.kafka.clients.producer.internals.TxnPartitionMap.startSequencesAtBeginning@POLYN151645" }
  ]
@@ -3752,21 +3830,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R15 : org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869.topicPartition"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R15 : org.apache.kafka.clients.producer.internals.TransactionManager.retry@POLYN393177.request"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R16 : org.apache.kafka.clients.producer.internals.TransactionManager.addInFlightBatch@POLYN380371.batch"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R16 : org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN375869.topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R17 : org.apache.kafka.clients.producer.internals.TransactionManager.retry@POLYN393177.request"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R17 : org.apache.kafka.clients.producer.internals.TransactionManager.addInFlightBatch@POLYN380371.batch"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3822,6 +3900,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN370854"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.transitionToAbortableError@POLYN374373"
 }} 
 ,
@@ -3836,7 +3921,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN370854"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN401424"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3851,13 +3936,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.updateLastAckedOffset@POLYN382842"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN401424"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4169,6 +4247,41 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00305"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN370854 the MagicNumber/String 'sendOffsetsToTransaction' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00309"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#309"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN370854 the MagicNumber/String 'Cannot send offsets if a transaction is not in progress ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00310"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#310"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00310] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN370854 the MagicNumber/String '-currentState= ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00310"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#310"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00310] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN370854 the MagicNumber/String '-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00313"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#313"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00313] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN370854 the MagicNumber/String 'Begin adding offsets {} for consumer group {} to transaction' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00388"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#388"
  , "c2" : "BLOCKER"
@@ -4246,38 +4359,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00305"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#305"
+ , "c1" : "01035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1035"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN370854 the MagicNumber/String 'sendOffsetsToTransaction' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01035] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN401424 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00309"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#309"
+ , "c1" : "01038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1038"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN370854 the MagicNumber/String 'Cannot send offsets if a transaction is not in progress ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01038] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN401424 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00310"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#310"
+ , "c1" : "01041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1041"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00310] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN370854 the MagicNumber/String '-currentState= ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00310"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#310"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00310] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN370854 the MagicNumber/String '-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00313"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#313"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00313] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN370854 the MagicNumber/String 'Begin adding offsets {} for consumer group {} to transaction' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01041] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN401424 the MagicNumber/String 'Invalid coordinator type: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4334,27 +4433,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#595"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00595] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.updateLastAckedOffset@POLYN382842 the MagicNumber/String 'Partition {} keeps lastOffset at {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1035"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01035] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN401424 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1038"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01038] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN401424 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1041"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01041] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN401424 the MagicNumber/String 'Invalid coordinator type: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

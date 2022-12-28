@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java 123 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java 130 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.xml" 
  , "fic3"  : "" 
 }
@@ -417,7 +417,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "12"
 }}
  ] 
 ,
@@ -852,6 +852,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00387"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#387"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00387] For method decodeActiveTasks list of called methods Object monObjet|int in_readIntN237844"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00387"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#387"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00387] The argument assignmentInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -875,6 +882,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#396"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00396] For method decodeStandbyTasks arguments AssignmentInfo  assignmentInfo|DataInputStream  in"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00396"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#396"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00396] For method decodeStandbyTasks list of called methods Object monObjet|int in_readIntN238449"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -915,6 +929,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00406"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#406"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00406] For method decodePartitionsByHost list of called methods Object monObjet|int in_readIntN239258"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00406"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#406"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00406] The argument assignmentInfo is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -950,6 +971,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00416"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#416"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00416] For method readTopicPartitions list of called methods Object monObjet|int in_readIntN239910"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00416"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#416"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00416] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -971,6 +999,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00425"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#425"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00425] For method decodeTopicIndexAndGet list of called methods Object monObjet|int in_readIntN240619"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00425"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#425"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00425] The argument in is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -987,6 +1022,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#434"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00434] For method decodeHostPartitionMapUsingDictionary arguments DataInputStream  in|Map&lt;Integer ,String &gt;  topicIndexDict"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00434"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#434"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00434] For method decodeHostPartitionMapUsingDictionary list of called methods Object monObjet|int in_readIntN241539"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1057,6 +1099,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#458"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00458] For method readTopicPartitions arguments DataInputStream  in|Map&lt;Integer ,String &gt;  topicIndexDict"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00458"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#458"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00458] For method readTopicPartitions list of called methods Object monObjet|int in_readIntN243126"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectInputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectInputStream.java 865 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectInputStream.java 957 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.ObjectInputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -1337,14 +1337,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999995"
  , "c3" : "Recursivity with depth over 1 between method xx and method yy"
- , "c4" : "100"
+ , "c4" : "148"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "66"
+ , "c4" : "102"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1400,7 +1400,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "41"
+ , "c4" : "49"
 }}
  ] 
 ,
@@ -3520,6 +3520,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "02401"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2401"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02401] For method readFields list of called methods Object monObjet|java.lang.Object readObject0N865543"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "02402"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2402"
  , "c2" : "MAJOR"
@@ -4892,6 +4899,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03199"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3199"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03199] For method readBooleans list of called methods Object monObjet|boolean din_readBooleanN898902"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "03204"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3204"
  , "c2" : "MAJOR"
@@ -4917,6 +4931,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3220"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03220] For method readChars arguments char[]  v|int  off|int  len"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03220"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3220"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03220] For method readChars list of called methods Object monObjet|char din_readCharN900310"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4976,6 +4997,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03242"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3242"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03242] For method readShorts list of called methods Object monObjet|short din_readShortN901837"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "03246"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3246"
  , "c2" : "MAJOR"
@@ -5029,6 +5057,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3264"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03264] For method readInts arguments int[]  v|int  off|int  len"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03264"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3264"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03264] For method readInts list of called methods Object monObjet|int din_readIntN903364"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5088,6 +5123,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03286"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3286"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03286] For method readFloats list of called methods Object monObjet|float din_readFloatN904814"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "03290"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3290"
  , "c2" : "MAJOR"
@@ -5144,6 +5186,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03306"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3306"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03306] For method readLongs list of called methods Object monObjet|long din_readLongN906345"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "03310"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3310"
  , "c2" : "MAJOR"
@@ -5197,6 +5246,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3328"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03328] For method readDoubles arguments double[]  v|int  off|int  len"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03328"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3328"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03328] For method readDoubles list of called methods Object monObjet|double din_readDoubleN907795"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6175,6 +6231,27 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readInt@POLYN807606 ending with method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN894958"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readInt@POLYN807606"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN894958"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.BlockDataInputStream.readByte@POLYN892367"
 }} 
@@ -6834,6 +6911,111 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readLong@POLYN807876 ending with method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN896266"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readLong@POLYN807876"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN896266"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readFloat@POLYN808146 ending with method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN895612"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readFloat@POLYN808146"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN895612"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readDouble@POLYN808416 ending with method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN896920"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readDouble@POLYN808416"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN896920"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readShort@POLYN807063 ending with method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN893626"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readShort@POLYN807063"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN893626"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readChar@POLYN806793 ending with method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN892972"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readChar@POLYN806793"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN892972"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999995[00001] Recursive call with depth 5 starting with method java.io.ObjectInputStream.readClass@POLYN831303 ending with method java.io.ObjectInputStream.readObject0@POLYN824106"
 }} 
 ,
@@ -6931,6 +7113,216 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readUnsignedShort@POLYN807336 ending with method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN894280"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readUnsignedShort@POLYN807336"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN894280"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.skipBytes@POLYN809944 ending with method java.io.ObjectInputStream.BlockDataInputStream.skipBytes@POLYN891869"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.skipBytes@POLYN809944"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.skipBytes@POLYN891869"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN892972 ending with method java.io.ObjectInputStream.readChar@POLYN806793"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN892972"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readChar@POLYN806793"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN896920 ending with method java.io.ObjectInputStream.readDouble@POLYN808416"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN896920"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readDouble@POLYN808416"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN895612 ending with method java.io.ObjectInputStream.readFloat@POLYN808146"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN895612"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readFloat@POLYN808146"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN894958 ending with method java.io.ObjectInputStream.readInt@POLYN807606"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN894958"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readInt@POLYN807606"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN896266 ending with method java.io.ObjectInputStream.readLong@POLYN807876"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN896266"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readLong@POLYN807876"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN893626 ending with method java.io.ObjectInputStream.readShort@POLYN807063"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN893626"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readShort@POLYN807063"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN894280 ending with method java.io.ObjectInputStream.readUnsignedShort@POLYN807336"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN894280"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readUnsignedShort@POLYN807336"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.skipBytes@POLYN891869 ending with method java.io.ObjectInputStream.skipBytes@POLYN809944"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.skipBytes@POLYN891869"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.skipBytes@POLYN809944"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.defaulted@POLYN860617"
 }} 
@@ -7003,6 +7395,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2916"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[02916] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.peekByte@POLYN884586 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03136"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3136"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03136] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN894958 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03137"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3137"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03137] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN894958 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03137"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3137"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03137] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN894958 the MagicNumber/String 4 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03138"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3138"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03138] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN894958 the MagicNumber/String 4 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03142"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3142"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03142] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN894958 the MagicNumber/String 4 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7321,6 +7748,181 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03160"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3160"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03160] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN896266 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03161"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3161"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03161] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN896266 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03161"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3161"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03161] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN896266 the MagicNumber/String 8 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03162"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03162] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN896266 the MagicNumber/String 8 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03166"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3166"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03166] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN896266 the MagicNumber/String 8 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03148"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3148"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03148] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN895612 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03149"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3149"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03149] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN895612 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03149"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3149"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03149] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN895612 the MagicNumber/String 4 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03150"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3150"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03150] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN895612 the MagicNumber/String 4 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03154"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3154"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03154] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN895612 the MagicNumber/String 4 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03172"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3172"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03172] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN896920 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03173"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3173"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03173] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN896920 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03173"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3173"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03173] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN896920 the MagicNumber/String 8 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03174"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3174"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03174] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN896920 the MagicNumber/String 8 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03178"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3178"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03178] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN896920 the MagicNumber/String 8 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03112"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03112] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN893626 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03113"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03113] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN893626 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03113"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03113] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN893626 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03114"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3114"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03114] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN893626 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03118"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3118"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03118] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN893626 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03100"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3100"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03100] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN892972 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03101"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03101] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN892972 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03101"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03101] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN892972 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03102"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03102] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN892972 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03106"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03106] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN892972 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01612"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1612"
  , "c2" : "BLOCKER"
@@ -7353,6 +7955,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#943"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00943] In the recursive method java.io.ObjectInputStream.close@POLYN805462 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03124"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03124] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN894280 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03125"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3125"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03125] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN894280 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03125"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3125"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03125] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN894280 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03126"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3126"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03126] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN894280 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03129"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3129"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03129] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN894280 the MagicNumber/String 0xFFFF MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03130"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3130"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03130] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN894280 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
