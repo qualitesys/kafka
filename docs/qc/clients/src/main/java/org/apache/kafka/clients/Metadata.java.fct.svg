@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="586px" preserveAspectRatio="none" style="width:422px;height:586px;background:#000000;" version="1.1" viewBox="0 0 422 586" width="422px" zoomAndPan="magnify"><defs/><g><rect fill="#0E1118" height="1" style="stroke:#0E1118;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 128 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="355" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="83.875">[From string (line 388) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="153.0625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="169.3594">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="355" x="5" y="185.6563">constructor Metadata(longrefreshBackoffMs,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="201.9531">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="218.25">... ( skipping 363 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="234.5469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="250.8438">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="324" x="5" y="267.1406">if (!leader.equals(that.leader)) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5" y="283.4375">:return false;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="299.7344">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="316.0313">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="276" x="5" y="332.3281">:return epoch.equals(that.epoch);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="348.625">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="364.9219">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="381.2188">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="397.5156">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5" y="413.8125">inthashCode()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="430.1094">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="119" x="5" y="446.4063">:return result;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="462.7031">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="479">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="495.2969">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="511.5938">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="122" x="5" y="527.8906">StringtoString()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="544.1875">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="381" x="5" y="560.4844">:return "LeaderAndEpoch{"+"leader="+leader+</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="576.7813">Syntax Error?</text><!--MD5=[bc034c2dd1597d481a508e59a265dc09]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="586px" preserveAspectRatio="none" style="width:422px;height:586px;background:#000000;" version="1.1" viewBox="0 0 422 586" width="422px" zoomAndPan="magnify"><defs/><g><rect fill="#100E08" height="1" style="stroke:#100E08;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 129 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="355" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="83.875">[From string (line 490) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="153.0625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="169.3594">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="355" x="5" y="185.6563">constructor Metadata(longrefreshBackoffMs,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="201.9531">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="218.25">... ( skipping 465 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="234.5469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="324" x="5" y="250.8438">if (!leader.equals(that.leader)) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5" y="267.1406">:return false;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="283.4375">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="299.7344">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="276" x="5" y="316.0313">:return epoch.equals(that.epoch);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="332.3281">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="348.625">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="364.9219">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="381.2188">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5" y="397.5156">inthashCode()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="413.8125">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="306" x="5" y="430.1094">:result=31*result+epoch.hashCode();;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="119" x="5" y="446.4063">:return result;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="462.7031">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="479">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="495.2969">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="511.5938">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="122" x="5" y="527.8906">StringtoString()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="544.1875">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="381" x="5" y="560.4844">:return "LeaderAndEpoch{"+"leader="+leader+</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="576.7813">Syntax Error?</text><!--MD5=[4ce620be1bfa14134ae0e0c9c797511e]
 @startuml
 !pragma layout smetana
 start
@@ -7,6 +7,20 @@ constructor Metadata(longrefreshBackoffMs,
 longmetadataExpireMs,LogContextlogContext,
 ClusterResourceListenersclusterResourceListeners)
 end note
+:this.log=logContext.logger(Metadata.class );;
+:this.refreshBackoffMs=refreshBackoffMs;;
+:this.metadataExpireMs=metadataExpireMs;;
+:this.lastRefreshMs=0L;;
+:this.lastSuccessfulRefreshMs=0L;;
+:this.requestVersion=0;;
+:this.updateVersion=0;;
+:this.needFullUpdate=false;;
+:this.needPartialUpdate=false;;
+:this.clusterResourceListeners=clusterResourceListeners;;
+:this.isClosed=false;;
+:this.lastSeenLeaderEpochs=new HashMap<>();;
+:this.invalidTopics=Collections.emptySet();;
+:this.unauthorizedTopics=Collections.emptySet();;
 end
 start
 note right
@@ -40,6 +54,7 @@ start
 note right
 intrequestUpdate()
 end note
+:this.needFullUpdate=true;;
 :return this.updateVersion;;
 stop
 end
@@ -47,6 +62,9 @@ start
 note right
 intrequestUpdateForNewTopics()
 end note
+:this.lastRefreshMs=0;;
+:this.needPartialUpdate=true;;
+:this.requestVersion++;;
 :return this.updateVersion;;
 stop
 end
@@ -55,13 +73,24 @@ note right
 booleanupdateLastSeenEpochIfNewer(TopicPartitiontopicPartition,
 intleaderEpoch)
 end note
+:Objects.requireNonNull(topicPartition,"TopicPartition cannot be null");;
 if (leaderEpoch<0) then (yes) 
 :throw new IllegalArgumentException("Invalid leader epoch "+
 leaderEpoch+" (must be non-negative)");;
+stop
 endif 
+:log.trace("Determining if we should replace existing epoch {} with new epoch {} for partition {}",
+oldEpoch,leaderEpoch,topicPartition);;
 if (oldEpoch==null ) then (yes) 
+:log.debug("Not replacing null epoch with new epoch {} for partition {}",
+leaderEpoch,topicPartition);;
+:updated=false;;
 else (no)
+:log.debug("Not replacing existing epoch {} with new epoch {} for partition {}",
+oldEpoch,leaderEpoch,topicPartition);;
+:updated=false;;
 endif 
+:this.needFullUpdate=this.needFullUpdate||updated;;
 :return updated;;
 stop
 end
@@ -116,36 +145,63 @@ start
 note right
 void bootstrap(List<InetSocketAddress>addresses)
 end note
+:this.needFullUpdate=true;;
+:this.updateVersion+=1;;
+:this.cache=MetadataCache.bootstrap(addresses);;
 end
 start
 note right
 void updateWithCurrentRequestVersion(MetadataResponseresponse,
 booleanisPartialUpdate,longnowMs)
 end note
+:this.update(this.requestVersion,response,
+isPartialUpdate,nowMs);;
 end
 start
 note right
 void update(intrequestVersion,MetadataResponseresponse,
 booleanisPartialUpdate,longnowMs)
 end note
+:Objects.requireNonNull(response,"Metadata response cannot be null");;
 if (isClosed()) then (yes) 
 :throw new IllegalStateException("Update requested after metadata close");;
+stop
 endif 
+:this.needPartialUpdate=requestVersion<this.requestVersion;;
+:this.lastRefreshMs=nowMs;;
+:this.updateVersion+=1;;
 if (!isPartialUpdate) then (yes) 
+:this.needFullUpdate=false;;
+:this.lastSuccessfulRefreshMs=nowMs;;
 endif 
+:this.cache=handleMetadataResponse(response,
+isPartialUpdate,nowMs);;
+:maybeSetMetadataError(cluster);;
+:this.lastSeenLeaderEpochs.keySet().removeIf(tp->!retainTopic(tp.topic(),
+false,nowMs));;
 if (!Objects.equals(previousClusterId,newClusterId)) then (yes) 
+:log.info("Cluster ID: {}",newClusterId);;
 endif 
+:clusterResourceListeners.onUpdate(cache.clusterResource());;
+:log.debug("Updated cluster metadata updateVersion {} to {}",
+this.updateVersion,this.cache);;
 end
 start
 note right
 void maybeSetMetadataError(Clustercluster)
 end note
+:clearRecoverableErrors();;
+:checkInvalidTopics(cluster);;
+:checkUnauthorizedTopics(cluster);;
 end
 start
 note right
 void checkInvalidTopics(Clustercluster)
 end note
 if (!cluster.invalidTopics().isEmpty()) then (yes) 
+:log.error("Metadata response reported invalid topics {}",
+cluster.invalidTopics());;
+:invalidTopics=new HashSet<>(cluster.invalidTopics());;
 endif 
 end
 start
@@ -153,6 +209,9 @@ note right
 void checkUnauthorizedTopics(Clustercluster)
 end note
 if (!cluster.unauthorizedTopics().isEmpty()) then (yes) 
+:log.error("Topic authorization failed for topics {}",
+cluster.unauthorizedTopics());;
+:unauthorizedTopics=new HashSet<>(cluster.unauthorizedTopics());;
 endif 
 end
 start
@@ -160,21 +219,36 @@ note right
 MetadataCachehandleMetadataResponse(MetadataResponsemetadataResponse,
 booleanisPartialUpdate,longnowMs)
 end note
+:topics.add(topicName);;
 if (!Uuid.ZERO_UUID.equals(topicId)) then (yes) 
+:topicIds.put(topicName,topicId);;
+:oldTopicId=oldTopicIds.get(topicName);;
 else (no)
+:topicId=null ;;
 endif 
 if (!retainTopic(topicName,metadata.isInternal(),
 nowMs)) then (yes) 
+:continue ;;
 endif 
 if (metadata.isInternal()) then (yes) 
+:internalTopics.add(topicName);;
 endif 
 if (metadata.error()==Errors.NONE) then (yes) 
+:updateLatestMetadata(partitionMetadata,metadataResponse.hasReliableLeaderEpochs(),
+topicId,oldTopicId).ifPresent(partitions::add);;
 if (partitionMetadata.error.exception() instanceof InvalidMetadataException) then (yes) 
+:log.debug("Requesting metadata update for partition {} due to error {}",
+partitionMetadata.topicPartition,partitionMetadata.error);;
+:requestUpdate();;
 endif 
 else (no)
 if (metadata.error().exception() instanceof InvalidMetadataException) then (yes) 
+:log.debug("Requesting metadata update for topic {} due to error {}",
+topicName,metadata.error());;
+:requestUpdate();;
 endif 
 if (metadata.error()==Errors.INVALID_TOPIC_EXCEPTION) then (yes) 
+:invalidTopics.add(topicName);;
 endif 
 endif 
 if (isPartialUpdate) then (yes) 
@@ -200,13 +274,19 @@ UuidoldTopicId)
 end note
 if (hasReliableLeaderEpoch&&partitionMetadata.leaderEpoch.isPresent()) then (yes) 
 if (topicId!=null &&!topicId.equals(oldTopicId)) then (yes) 
+:log.info("Resetting the last seen epoch of partition {} to {} since the associated topicId changed from {} to {}",
+tp,newEpoch,oldTopicId,topicId);;
+:lastSeenLeaderEpochs.put(tp,newEpoch);;
 :return Optional.of(partitionMetadata);;
 stop
 else (no)
+:log.debug("Got metadata for an older epoch {} (current is {}) for partition {},
+ not updating",newEpoch,currentEpoch,tp);;
 :return cache.partitionMetadata(tp);;
 stop
 endif 
 else (no)
+:lastSeenLeaderEpochs.remove(tp);;
 :return Optional.of(partitionMetadata.withoutLeaderEpoch());;
 stop
 endif 
@@ -215,26 +295,33 @@ start
 note right
 void maybeThrowAnyException()
 end note
+:clearErrorsAndMaybeThrowException(this::recoverableException);;
 end
 start
 note right
 void maybeThrowFatalException()
 end note
 if (metadataException!=null ) then (yes) 
+:fatalException=null ;;
 :throw metadataException;;
+stop
 endif 
 end
 start
 note right
 void maybeThrowExceptionForTopic(Stringtopic)
 end note
+:clearErrorsAndMaybeThrowException(()->recoverableExceptionForTopic(topic));;
 end
 start
 note right
 void clearErrorsAndMaybeThrowException(Supplier<KafkaException>recoverableExceptionSupplier)
 end note
+:fatalException=null ;;
+:clearRecoverableErrors();;
 if (metadataException!=null ) then (yes) 
 :throw metadataException;;
+stop
 endif 
 end
 start
@@ -265,16 +352,20 @@ start
 note right
 void clearRecoverableErrors()
 end note
+:invalidTopics=Collections.emptySet();;
+:unauthorizedTopics=Collections.emptySet();;
 end
 start
 note right
 void failedUpdate(longnow)
 end note
+:this.lastRefreshMs=now;;
 end
 start
 note right
 void fatalError(KafkaExceptionexception)
 end note
+:this.fatalException=exception;;
 end
 start
 note right
@@ -294,6 +385,7 @@ start
 note right
 void close()
 end note
+:this.isClosed=true;;
 end
 start
 note right
@@ -308,8 +400,12 @@ MetadataRequestAndVersionnewMetadataRequestAndVersion(longnowMs)
 end note
 if (!this.needFullUpdate&&this.lastSuccessfulRefreshMs+
 this.metadataExpireMs>nowMs) then (yes) 
+:request=newMetadataRequestBuilderForNewTopics();;
+:isPartialUpdate=true;;
 endif 
 if (request==null ) then (yes) 
+:request=newMetadataRequestBuilder();;
+:isPartialUpdate=false;;
 endif 
 :return new MetadataRequestAndVersion(request,
 requestVersion,isPartialUpdate);;
@@ -342,12 +438,17 @@ note right
 constructor MetadataRequestAndVersion(MetadataRequest.BuilderrequestBuilder,
 intrequestVersion,booleanisPartialUpdate)
 end note
+:this.requestBuilder=requestBuilder;;
+:this.requestVersion=requestVersion;;
+:this.isPartialUpdate=isPartialUpdate;;
 end
 start
 note right
 constructor LeaderAndEpoch(Optional<Node>leader,
 Optional<Integer>epoch)
 end note
+:this.leader=Objects.requireNonNull(leader);;
+:this.epoch=Objects.requireNonNull(epoch);;
 end
 start
 note right
@@ -379,6 +480,7 @@ start
 note right
 inthashCode()
 end note
+:result=31*result+epoch.hashCode();;
 :return result;;
 stop
 end
@@ -401,6 +503,20 @@ constructor Metadata(longrefreshBackoffMs,
 longmetadataExpireMs,LogContextlogContext,
 ClusterResourceListenersclusterResourceListeners)
 end note
+:this.log=logContext.logger(Metadata.class );;
+:this.refreshBackoffMs=refreshBackoffMs;;
+:this.metadataExpireMs=metadataExpireMs;;
+:this.lastRefreshMs=0L;;
+:this.lastSuccessfulRefreshMs=0L;;
+:this.requestVersion=0;;
+:this.updateVersion=0;;
+:this.needFullUpdate=false;;
+:this.needPartialUpdate=false;;
+:this.clusterResourceListeners=clusterResourceListeners;;
+:this.isClosed=false;;
+:this.lastSeenLeaderEpochs=new HashMap<>();;
+:this.invalidTopics=Collections.emptySet();;
+:this.unauthorizedTopics=Collections.emptySet();;
 end
 start
 note right
@@ -434,6 +550,7 @@ start
 note right
 intrequestUpdate()
 end note
+:this.needFullUpdate=true;;
 :return this.updateVersion;;
 stop
 end
@@ -441,6 +558,9 @@ start
 note right
 intrequestUpdateForNewTopics()
 end note
+:this.lastRefreshMs=0;;
+:this.needPartialUpdate=true;;
+:this.requestVersion++;;
 :return this.updateVersion;;
 stop
 end
@@ -449,13 +569,24 @@ note right
 booleanupdateLastSeenEpochIfNewer(TopicPartitiontopicPartition,
 intleaderEpoch)
 end note
+:Objects.requireNonNull(topicPartition,"TopicPartition cannot be null");;
 if (leaderEpoch<0) then (yes) 
 :throw new IllegalArgumentException("Invalid leader epoch "+
 leaderEpoch+" (must be non-negative)");;
+stop
 endif 
+:log.trace("Determining if we should replace existing epoch {} with new epoch {} for partition {}",
+oldEpoch,leaderEpoch,topicPartition);;
 if (oldEpoch==null ) then (yes) 
+:log.debug("Not replacing null epoch with new epoch {} for partition {}",
+leaderEpoch,topicPartition);;
+:updated=false;;
 else (no)
+:log.debug("Not replacing existing epoch {} with new epoch {} for partition {}",
+oldEpoch,leaderEpoch,topicPartition);;
+:updated=false;;
 endif 
+:this.needFullUpdate=this.needFullUpdate||updated;;
 :return updated;;
 stop
 end
@@ -510,36 +641,63 @@ start
 note right
 void bootstrap(List<InetSocketAddress>addresses)
 end note
+:this.needFullUpdate=true;;
+:this.updateVersion+=1;;
+:this.cache=MetadataCache.bootstrap(addresses);;
 end
 start
 note right
 void updateWithCurrentRequestVersion(MetadataResponseresponse,
 booleanisPartialUpdate,longnowMs)
 end note
+:this.update(this.requestVersion,response,
+isPartialUpdate,nowMs);;
 end
 start
 note right
 void update(intrequestVersion,MetadataResponseresponse,
 booleanisPartialUpdate,longnowMs)
 end note
+:Objects.requireNonNull(response,"Metadata response cannot be null");;
 if (isClosed()) then (yes) 
 :throw new IllegalStateException("Update requested after metadata close");;
+stop
 endif 
+:this.needPartialUpdate=requestVersion<this.requestVersion;;
+:this.lastRefreshMs=nowMs;;
+:this.updateVersion+=1;;
 if (!isPartialUpdate) then (yes) 
+:this.needFullUpdate=false;;
+:this.lastSuccessfulRefreshMs=nowMs;;
 endif 
+:this.cache=handleMetadataResponse(response,
+isPartialUpdate,nowMs);;
+:maybeSetMetadataError(cluster);;
+:this.lastSeenLeaderEpochs.keySet().removeIf(tp->!retainTopic(tp.topic(),
+false,nowMs));;
 if (!Objects.equals(previousClusterId,newClusterId)) then (yes) 
+:log.info("Cluster ID: {}",newClusterId);;
 endif 
+:clusterResourceListeners.onUpdate(cache.clusterResource());;
+:log.debug("Updated cluster metadata updateVersion {} to {}",
+this.updateVersion,this.cache);;
 end
 start
 note right
 void maybeSetMetadataError(Clustercluster)
 end note
+:clearRecoverableErrors();;
+:checkInvalidTopics(cluster);;
+:checkUnauthorizedTopics(cluster);;
 end
 start
 note right
 void checkInvalidTopics(Clustercluster)
 end note
 if (!cluster.invalidTopics().isEmpty()) then (yes) 
+:log.error("Metadata response reported invalid topics {}",
+cluster.invalidTopics());;
+:invalidTopics=new HashSet<>(cluster.invalidTopics());;
 endif 
 end
 start
@@ -547,6 +705,9 @@ note right
 void checkUnauthorizedTopics(Clustercluster)
 end note
 if (!cluster.unauthorizedTopics().isEmpty()) then (yes) 
+:log.error("Topic authorization failed for topics {}",
+cluster.unauthorizedTopics());;
+:unauthorizedTopics=new HashSet<>(cluster.unauthorizedTopics());;
 endif 
 end
 start
@@ -554,21 +715,36 @@ note right
 MetadataCachehandleMetadataResponse(MetadataResponsemetadataResponse,
 booleanisPartialUpdate,longnowMs)
 end note
+:topics.add(topicName);;
 if (!Uuid.ZERO_UUID.equals(topicId)) then (yes) 
+:topicIds.put(topicName,topicId);;
+:oldTopicId=oldTopicIds.get(topicName);;
 else (no)
+:topicId=null ;;
 endif 
 if (!retainTopic(topicName,metadata.isInternal(),
 nowMs)) then (yes) 
+:continue ;;
 endif 
 if (metadata.isInternal()) then (yes) 
+:internalTopics.add(topicName);;
 endif 
 if (metadata.error()==Errors.NONE) then (yes) 
+:updateLatestMetadata(partitionMetadata,metadataResponse.hasReliableLeaderEpochs(),
+topicId,oldTopicId).ifPresent(partitions::add);;
 if (partitionMetadata.error.exception() instanceof InvalidMetadataException) then (yes) 
+:log.debug("Requesting metadata update for partition {} due to error {}",
+partitionMetadata.topicPartition,partitionMetadata.error);;
+:requestUpdate();;
 endif 
 else (no)
 if (metadata.error().exception() instanceof InvalidMetadataException) then (yes) 
+:log.debug("Requesting metadata update for topic {} due to error {}",
+topicName,metadata.error());;
+:requestUpdate();;
 endif 
 if (metadata.error()==Errors.INVALID_TOPIC_EXCEPTION) then (yes) 
+:invalidTopics.add(topicName);;
 endif 
 endif 
 if (isPartialUpdate) then (yes) 
@@ -594,13 +770,19 @@ UuidoldTopicId)
 end note
 if (hasReliableLeaderEpoch&&partitionMetadata.leaderEpoch.isPresent()) then (yes) 
 if (topicId!=null &&!topicId.equals(oldTopicId)) then (yes) 
+:log.info("Resetting the last seen epoch of partition {} to {} since the associated topicId changed from {} to {}",
+tp,newEpoch,oldTopicId,topicId);;
+:lastSeenLeaderEpochs.put(tp,newEpoch);;
 :return Optional.of(partitionMetadata);;
 stop
 else (no)
+:log.debug("Got metadata for an older epoch {} (current is {}) for partition {},
+ not updating",newEpoch,currentEpoch,tp);;
 :return cache.partitionMetadata(tp);;
 stop
 endif 
 else (no)
+:lastSeenLeaderEpochs.remove(tp);;
 :return Optional.of(partitionMetadata.withoutLeaderEpoch());;
 stop
 endif 
@@ -609,26 +791,33 @@ start
 note right
 void maybeThrowAnyException()
 end note
+:clearErrorsAndMaybeThrowException(this::recoverableException);;
 end
 start
 note right
 void maybeThrowFatalException()
 end note
 if (metadataException!=null ) then (yes) 
+:fatalException=null ;;
 :throw metadataException;;
+stop
 endif 
 end
 start
 note right
 void maybeThrowExceptionForTopic(Stringtopic)
 end note
+:clearErrorsAndMaybeThrowException(()->recoverableExceptionForTopic(topic));;
 end
 start
 note right
 void clearErrorsAndMaybeThrowException(Supplier<KafkaException>recoverableExceptionSupplier)
 end note
+:fatalException=null ;;
+:clearRecoverableErrors();;
 if (metadataException!=null ) then (yes) 
 :throw metadataException;;
+stop
 endif 
 end
 start
@@ -659,16 +848,20 @@ start
 note right
 void clearRecoverableErrors()
 end note
+:invalidTopics=Collections.emptySet();;
+:unauthorizedTopics=Collections.emptySet();;
 end
 start
 note right
 void failedUpdate(longnow)
 end note
+:this.lastRefreshMs=now;;
 end
 start
 note right
 void fatalError(KafkaExceptionexception)
 end note
+:this.fatalException=exception;;
 end
 start
 note right
@@ -688,6 +881,7 @@ start
 note right
 void close()
 end note
+:this.isClosed=true;;
 end
 start
 note right
@@ -702,8 +896,12 @@ MetadataRequestAndVersionnewMetadataRequestAndVersion(longnowMs)
 end note
 if (!this.needFullUpdate&&this.lastSuccessfulRefreshMs+
 this.metadataExpireMs>nowMs) then (yes) 
+:request=newMetadataRequestBuilderForNewTopics();;
+:isPartialUpdate=true;;
 endif 
 if (request==null ) then (yes) 
+:request=newMetadataRequestBuilder();;
+:isPartialUpdate=false;;
 endif 
 :return new MetadataRequestAndVersion(request,
 requestVersion,isPartialUpdate);;
@@ -736,12 +934,17 @@ note right
 constructor MetadataRequestAndVersion(MetadataRequest.BuilderrequestBuilder,
 intrequestVersion,booleanisPartialUpdate)
 end note
+:this.requestBuilder=requestBuilder;;
+:this.requestVersion=requestVersion;;
+:this.isPartialUpdate=isPartialUpdate;;
 end
 start
 note right
 constructor LeaderAndEpoch(Optional<Node>leader,
 Optional<Integer>epoch)
 end note
+:this.leader=Objects.requireNonNull(leader);;
+:this.epoch=Objects.requireNonNull(epoch);;
 end
 start
 note right
@@ -773,6 +976,7 @@ start
 note right
 inthashCode()
 end note
+:result=31*result+epoch.hashCode();;
 :return result;;
 stop
 end

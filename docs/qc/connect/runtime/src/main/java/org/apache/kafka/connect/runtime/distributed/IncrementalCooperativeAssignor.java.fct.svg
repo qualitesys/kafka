@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="586px" preserveAspectRatio="none" style="width:557px;height:586px;background:#000000;" version="1.1" viewBox="0 0 557 586" width="557px" zoomAndPan="magnify"><defs/><g><rect fill="#17110C" height="1" style="stroke:#17110C;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 128 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="545" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="83.875">[From string (line 351) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="153.0625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="169.3594">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="545" x="5" y="185.6563">constructor IncrementalCooperativeAssignor(LogContextlogContext,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="201.9531">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="218.25">... ( skipping 326 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="234.5469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="250.8438">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="267.1406">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="283.4375">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="492" x="5" y="299.7344">Map&lt;String,Collection&lt;ConnectorTaskId&gt;&gt;allAssignedTasks()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="316.0313">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="209" x="5" y="332.3281">:return allAssignedTasks;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="348.625">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="364.9219">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="381.2188">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="397.5156">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="193" x="5" y="413.8125">Set&lt;String&gt;allWorkers()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="430.1094">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="157" x="5" y="446.4063">:return allWorkers;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="462.7031">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="479">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="495.2969">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="511.5938">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="122" x="5" y="527.8906">StringtoString()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="544.1875">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="497" x="5" y="560.4844">:return "ClusterAssignment{"+"newlyAssignedConnectors="+</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="576.7813">Syntax Error?</text><!--MD5=[6c12dbb345943ed57b6aabc506dec1c6]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="586px" preserveAspectRatio="none" style="width:557px;height:586px;background:#000000;" version="1.1" viewBox="0 0 557 586" width="557px" zoomAndPan="magnify"><defs/><g><rect fill="#250F02" height="1" style="stroke:#250F02;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 129 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="545" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="83.875">[From string (line 546) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="153.0625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="169.3594">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="545" x="5" y="185.6563">constructor IncrementalCooperativeAssignor(LogContextlogContext,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="201.9531">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="218.25">... ( skipping 521 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="234.5469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="250.8438">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="267.1406">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="283.4375">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="492" x="5" y="299.7344">Map&lt;String,Collection&lt;ConnectorTaskId&gt;&gt;allAssignedTasks()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="316.0313">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="209" x="5" y="332.3281">:return allAssignedTasks;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="348.625">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="364.9219">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="381.2188">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="397.5156">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="193" x="5" y="413.8125">Set&lt;String&gt;allWorkers()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="430.1094">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="157" x="5" y="446.4063">:return allWorkers;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="462.7031">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="479">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="495.2969">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="511.5938">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="122" x="5" y="527.8906">StringtoString()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="544.1875">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="497" x="5" y="560.4844">:return "ClusterAssignment{"+"newlyAssignedConnectors="+</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="576.7813">Syntax Error?</text><!--MD5=[1848f07b760dd4311ac78f70bc63af51]
 @startuml
 !pragma layout smetana
 start
@@ -6,6 +6,18 @@ note right
 constructor IncrementalCooperativeAssignor(LogContextlogContext,
 Timetime,intmaxDelay)
 end note
+:this.log=logContext.logger(IncrementalCooperativeAssignor.class );;
+:this.time=time;;
+:this.maxDelay=maxDelay;;
+:this.previousAssignment=ConnectorsAndTasks.EMPTY;;
+:this.previousRevocation=new ConnectorsAndTasks.Builder()
+.build();;
+:this.canRevoke=true;;
+:this.scheduledRebalance=0;;
+:this.candidateWorkersForReassignment=new LinkedHashSet<>();;
+:this.delay=0;;
+:this.previousGenerationId=-1;;
+:this.previousMembers=Collections.emptySet();;
 end
 start
 note right
@@ -13,6 +25,11 @@ Map<String,ByteBuffer>performAssignment(StringleaderId,
 Stringprotocol,List<JoinGroupResponseMember>allMemberMetadata,
 WorkerCoordinatorcoordinator)
 end note
+:log.debug("Performing task assignment");;
+:memberConfigs.put(member.memberId(),IncrementalCooperativeConnectProtocol.deserializeMetadata(ByteBuffer.wrap(member.metadata())));;
+:log.debug("Member configs: {}",memberConfigs);;
+:log.debug("Max config offset root: {}, local snapshot config offsets root: {}",
+maxOffset,coordinator.configSnapshot().offset());;
 if (leaderOffset==null ) then (yes) 
 :return serializeAssignments(assignments,
 protocolVersion);;
@@ -28,9 +45,12 @@ LongensureLeaderConfig(longmaxOffset,WorkerCoordinatorcoordinator)
 end note
 if (coordinator.configSnapshot().offset()<maxOffset) then (yes) 
 if (updatedSnapshot.offset()<maxOffset) then (yes) 
+:log.info("Was selected to perform assignments, but do not have latest config found in sync request. "+
+"Returning an empty configuration to trigger re-sync.");;
 :return null ;;
 stop
 else (no)
+:coordinator.configSnapshot(updatedSnapshot);;
 :return updatedSnapshot.offset();;
 stop
 endif 
@@ -44,6 +64,12 @@ Map<String,ByteBuffer>performTaskAssignment(StringleaderId,
 longmaxOffset,Map<String,ExtendedWorkerState>memberConfigs,
 WorkerCoordinatorcoordinator,shortprotocolVersion)
 end note
+:log.debug("Performing task assignment during generation: {} with memberId: {}",
+coordinator.generationId(),coordinator.memberId());;
+:coordinator.leaderState(new LeaderState(memberConfigs,
+clusterAssignment.allAssignedConnectors(),
+clusterAssignment.allAssignedTasks()));;
+:log.debug("Actual assignments: {}",assignments);;
 :return serializeAssignments(assignments,
 protocolVersion);;
 stop
@@ -54,15 +80,80 @@ ClusterAssignmentperformTaskAssignment(ClusterConfigStateconfigSnapshot,
 intlastCompletedGenerationId,intcurrentGenerationId,
 Map<String,ConnectorsAndTasks>memberAssignments)
 end note
+:log.debug("Previous assignments: {}",previousAssignment);;
 if (previousGenerationId!=lastCompletedGenerationId) then (yes) 
+:log.debug("Clearing the view of previous assignments due to generation mismatch between "+
+"previous generation ID {} and last completed generation ID {}. This can "+
+"happen if the leader fails to sync the assignment within a rebalancing round. "+
+"The following view of previous assignments might be outdated and will be "+
+"ignored by the leader in the current computation of new assignments. "+
+"Possibly outdated previous assignments: {}",
+previousGenerationId,lastCompletedGenerationId,
+previousAssignment);;
+:this.previousAssignment=ConnectorsAndTasks.EMPTY;;
 endif 
+:log.debug("Configured assignments: {}",configured);;
+:log.debug("Active assignments: {}",activeAssignments);;
 if (!previousRevocation.isEmpty()) then (yes) 
 if (previousRevocation.connectors().stream().anyMatch(c->activeAssignments.connectors().contains(c))||previousRevocation.tasks().stream().anyMatch(t->activeAssignments.tasks().contains(t))) then (yes) 
+:previousAssignment=activeAssignments;;
+:canRevoke=true;;
 endif 
+:previousRevocation.connectors().clear();;
+:previousRevocation.tasks().clear();;
 endif 
+:log.debug("Deleted assignments: {}",deleted);;
+:log.debug("Remaining (excluding deleted) active assignments: {}",
+remainingActive);;
+:log.debug("Lost assignments: {}",lostAssignments);;
+:log.debug("New assignments: {}",newSubmissions);;
+:log.debug("Complete (ignoring deletions) worker assignments: {}",
+completeWorkerAssignment);;
+:log.debug("Complete (ignoring deletions) connector assignments: {}",
+connectorAssignments);;
+:log.debug("Complete (ignoring deletions) task assignments: {}",
+taskAssignments);;
+:log.debug("Connector and task to delete assignments: {}",
+toRevoke);;
+:toRevoke.putAll(computeDuplicatedAssignments(memberAssignments,
+connectorAssignments,taskAssignments));;
+:log.debug("Connector and task to revoke assignments (include duplicated assignments): {}",
+toRevoke);;
+:completeWorkerAssignment=workerAssignment(memberAssignments,
+deleted);;
+:connectorAssignments=completeWorkerAssignment.stream().collect(Collectors.toMap(WorkerLoad::worker,
+WorkerLoad::connectors));;
+:taskAssignments=completeWorkerAssignment.stream().collect(Collectors.toMap(WorkerLoad::worker,
+WorkerLoad::tasks));;
+:handleLostAssignments(lostAssignments,newSubmissions,
+completeWorkerAssignment);;
+:canRevoke=delay==0&&canRevoke;;
+:log.debug("Can leader revoke tasks in this assignment? {} (delay: {})",
+canRevoke,delay);;
 if (canRevoke) then (yes) 
+:log.debug("Connector and task to revoke assignments: {}",
+toRevoke);;
+:toExplicitlyRevoke.forEach((worker,assignment)->{ConnectorsAndTasksexisting=toRevoke.computeIfAbsent(worker,
+v->new ConnectorsAndTasks.Builder().build());existing.connectors().addAll(assignment.connectors());existing.tasks().addAll(assignment.tasks());});;
+:canRevoke=toExplicitlyRevoke.size()==0;;
 else (no)
+:canRevoke=delay==0;;
 endif 
+:assignConnectors(completeWorkerAssignment,
+newSubmissions.connectors());;
+:assignTasks(completeWorkerAssignment,newSubmissions.tasks());;
+:log.debug("Current complete assignments: {}",
+currentWorkerAssignment);;
+:log.debug("New complete assignments: {}",
+completeWorkerAssignment);;
+:previousAssignment=computePreviousAssignment(toRevoke,
+connectorAssignments,taskAssignments,lostAssignments);;
+:previousGenerationId=currentGenerationId;;
+:previousMembers=memberAssignments.keySet();;
+:log.debug("Incremental connector assignments: {}",
+incrementalConnectorAssignments);;
+:log.debug("Incremental task assignments: {}",
+incrementalTaskAssignments);;
 :return new ClusterAssignment(incrementalConnectorAssignments,
 incrementalTaskAssignments,revokedConnectors,
 revokedTasks,diff(connectorAssignments,revokedConnectors),
@@ -75,6 +166,12 @@ Map<String,ConnectorsAndTasks>computeDeleted(ConnectorsAndTasksdeleted,
 Map<String,Collection<String>>connectorAssignments,
 Map<String,Collection<ConnectorTaskId>>taskAssignments)
 end note
+:deleted.connectors().forEach(c->toRevoke.computeIfAbsent(connectorOwners.get(c),
+v->new ConnectorsAndTasks.Builder().build()).connectors().add(c));;
+:deleted.tasks().forEach(t->toRevoke.computeIfAbsent(taskOwners.get(t),
+v->new ConnectorsAndTasks.Builder().build()).tasks().add(t));;
+:log.debug("Connectors and tasks to delete assignments: {}",
+toRevoke);;
 :return toRevoke;;
 stop
 end
@@ -85,6 +182,12 @@ ConnectorsAndTasks>toRevoke,Map<String,Collection<String>>connectorAssignments,
 Map<String,Collection<ConnectorTaskId>>taskAssignments,
 ConnectorsAndTaskslostAssignments)
 end note
+:previousAssignment.connectors().removeAll(revoked.connectors());;
+:previousAssignment.tasks().removeAll(revoked.tasks());;
+:previousRevocation.connectors().addAll(revoked.connectors());;
+:previousRevocation.tasks().addAll(revoked.tasks());;
+:previousAssignment.connectors().addAll(lostAssignments.connectors());;
+:previousAssignment.tasks().addAll(lostAssignments.tasks());;
 :return previousAssignment;;
 stop
 end
@@ -104,9 +207,16 @@ ConnectorsAndTasks>memberAssignments,Map<String,
 Collection<String>>connectorAssignments,Map<String,
 Collection<ConnectorTaskId>>taskAssignment)
 end note
+:log.debug("Duplicated assignments: {}",duplicatedAssignments);;
 if (!duplicatedAssignments.connectors().isEmpty()) then (yes) 
+:connectorAssignments.entrySet().stream().forEach(entry->{Set<String>duplicatedConnectors=new HashSet<>(duplicatedAssignments.connectors());
+:duplicatedConnectors.retainAll(entry.getValue());if (!duplicatedConnectors.isEmpty()){toRevoke.computeIfAbsent(entry.getKey(),
+v->new ConnectorsAndTasks.Builder().build()).connectors().addAll(duplicatedConnectors);}});;
 endif 
 if (!duplicatedAssignments.tasks().isEmpty()) then (yes) 
+:taskAssignment.entrySet().stream().forEach(entry->{Set<ConnectorTaskId>duplicatedTasks=new HashSet<>(duplicatedAssignments.tasks());
+:duplicatedTasks.retainAll(entry.getValue());if (!duplicatedTasks.isEmpty()){toRevoke.computeIfAbsent(entry.getKey(),
+v->new ConnectorsAndTasks.Builder().build()).tasks().addAll(duplicatedTasks);}});;
 endif 
 :return toRevoke;;
 stop
@@ -117,35 +227,75 @@ void handleLostAssignments(ConnectorsAndTaskslostAssignments,
 ConnectorsAndTasksnewSubmissions,List<WorkerLoad>completeWorkerAssignment)
 end note
 if (lostAssignments.isEmpty()) then (yes) 
+:resetDelay();;
 :return ;;
 stop
 endif 
+:log.debug("Found the following connectors and tasks missing from previous assignments: "+
+lostAssignments);;
 if (scheduledRebalance<=0&&activeMembers.containsAll(previousMembers)) then (yes) 
+:log.debug("No worker seems to have departed the group during the rebalance. The "+
+"missing assignments that the leader is detecting are probably due to some "+
+"workers failing to receive the new assignments in the previous rebalance. "+
+"Will reassign missing tasks as new tasks");;
+:newSubmissions.connectors().addAll(lostAssignments.connectors());;
+:newSubmissions.tasks().addAll(lostAssignments.tasks());;
 :return ;;
 stop
 endif 
 if (scheduledRebalance>0&&now>=scheduledRebalance) then (yes) 
+:log.debug("Delayed rebalance expired. Reassigning lost tasks");;
 if (!candidateWorkersForReassignment.isEmpty()) then (yes) 
+:candidateWorkerLoad=pickCandidateWorkerForReassignment(completeWorkerAssignment);;
 endif 
 if (!candidateWorkerLoad.isEmpty()) then (yes) 
+:log.debug("Assigning lost tasks to {} candidate workers: {}",
+candidateWorkerLoad.size(),candidateWorkerLoad.stream().map(WorkerLoad::worker).collect(Collectors.joining(",
+")));;
 if (!candidateWorkerIterator.hasNext()) then (yes) 
+:candidateWorkerIterator=candidateWorkerLoad.iterator();;
 endif 
+:log.debug("Assigning connector id {} to member {}",
+connector,worker.worker());;
+:worker.assign(connector);;
+:candidateWorkerIterator=candidateWorkerLoad.iterator();;
 if (!candidateWorkerIterator.hasNext()) then (yes) 
+:candidateWorkerIterator=candidateWorkerLoad.iterator();;
 endif 
+:log.debug("Assigning task id {} to member {}",
+task,worker.worker());;
+:worker.assign(task);;
 else (no)
+:log.debug("No single candidate worker was found to assign lost tasks. Treating lost tasks as new tasks");;
+:newSubmissions.connectors().addAll(lostAssignments.connectors());;
+:newSubmissions.tasks().addAll(lostAssignments.tasks());;
 endif 
+:resetDelay();;
 else (no)
+:candidateWorkersForReassignment.addAll(candidateWorkersForReassignment(completeWorkerAssignment));;
 if (now<scheduledRebalance) then (yes) 
+:delay=calculateDelay(now);;
+:log.debug("Delayed rebalance in progress. Task reassignment is postponed. New computed rebalance delay: {}",
+delay);;
 else (no)
+:delay=maxDelay;;
+:log.debug("Resetting rebalance delay to the max: {}. scheduledRebalance: {} now: {} diff scheduledRebalance - now: {}",
+delay,scheduledRebalance,now,scheduledRebalance-now);;
 endif 
+:scheduledRebalance=now+delay;;
 endif 
 end
 start
 note right
 void resetDelay()
 end note
+:candidateWorkersForReassignment.clear();;
+:scheduledRebalance=0;;
 if (delay!=0) then (yes) 
+:log.debug("Resetting delay from previous value: {} to 0",
+delay);;
 endif 
+:delay=0;;
 end
 start
 note right
@@ -169,11 +319,33 @@ Map<String,ConnectorsAndTasks>performTaskRevocation(ConnectorsAndTasksactiveAssi
 Collection<WorkerLoad>completeWorkerAssignment)
 end note
 if (log.isDebugEnabled()) then (yes) 
+:completeWorkerAssignment.forEach(wl->log.debug("Per worker current load size; worker: {} connectors: {} tasks: {}",
+wl.worker(),wl.connectorsSize(),wl.tasksSize()));;
 endif 
 if (!(newWorkersNum>0&&existingWorkersNum>0)) then (yes) 
+:log.debug("No task revocation required; workers with existing load: {} workers with "+
+"no load {} total workers {}",existingWorkersNum,
+newWorkersNum,totalWorkersNum);;
 :return revoking;;
 stop
 endif 
+:log.debug("Task revocation is required; workers with existing load: {} workers with "+
+"no load {} total workers {}",existingWorkersNum,
+newWorkersNum,totalWorkersNum);;
+:log.debug("Previous rounded down (floor) average number of connectors per worker {}",
+totalActiveConnectorsNum/existingWorkersNum);;
+:log.debug("New average number of connectors per worker rounded down (floor) {} and rounded up (ceil) {}",
+floorConnectors,ceilConnectors);;
+:log.debug("Previous rounded down (floor) average number of tasks per worker {}",
+totalActiveTasksNum/existingWorkersNum);;
+:log.debug("New average number of tasks per worker rounded down (floor) {} and rounded up (ceil) {}",
+floorTasks,ceilTasks);;
+:numToRevoke=existing.connectorsSize()-ceilConnectors;;
+:resources.connectors().add(connectors.next());;
+:numToRevoke=existing.tasksSize()-ceilTasks;;
+:log.debug("Tasks on worker {} is higher than ceiling,
+ so revoking {} tasks",existing,numToRevoke);;
+:resources.tasks().add(tasks.next());;
 :return revoking;;
 stop
 end
@@ -184,6 +356,10 @@ shorterror,StringleaderId,StringleaderUrl,
 longmaxOffset,ClusterAssignmentclusterAssignment,
 intdelay,shortprotocolVersion)
 end note
+:log.debug("Filling assignment: {} -> {}",
+member,assignment);;
+:groupAssignment.put(member,assignment);;
+:log.debug("Finished assignment");;
 :return groupAssignment;;
 stop
 end
@@ -202,16 +378,22 @@ note right
 ConnectorsAndTasksdiff(ConnectorsAndTasksbase,
 ConnectorsAndTasks... toSubtract)
 end note
+:connectors.removeAll(sub.connectors());;
+:tasks.removeAll(sub.tasks());;
 :return new ConnectorsAndTasks.Builder().with(connectors,
 tasks).build();;
 stop
 end
+:values.removeAll(toSubtract.getOrDefault(entry.getKey(),
+Collections.emptySet()));;
+:incremental.put(entry.getKey(),values);;
 :return incremental;;
 stop
 start
 note right
 ConnectorsAndTasksassignment(Map<String,ConnectorsAndTasks>memberAssignments)
 end note
+:log.debug("Received assignments: {}",memberAssignments);;
 :return new ConnectorsAndTasks.Builder().with(ConnectUtils.combineCollections(memberAssignments.values(),
 ConnectorsAndTasks::connectors),ConnectUtils.combineCollections(memberAssignments.values(),
 ConnectorsAndTasks::tasks)).build();;
@@ -229,20 +411,22 @@ note right
 void assignConnectors(List<WorkerLoad>workerAssignment,
 Collection<String>connectors)
 end note
-while (load.hasNext())
-if (!load.hasNext()) then (yes) 
-endif 
-endwhile
+:workerAssignment.sort(WorkerLoad.connectorComparator());;
+:while (load.hasNext()){intfirstLoad=first.connectorsSize();intupTo=IntStream.range(0,
+workerAssignment.size()).filter(i->workerAssignment.get(i).connectorsSize()>firstLoad).findFirst().orElse(workerAssignment.size());for (WorkerLoadworker:workerAssignment.subList(0,
+upTo)){Stringconnector=load.next();log.debug("Assigning connector {} to {}",
+connector,worker.worker());worker.assign(connector);if (!load.hasNext()){break ;}}};
 end
 start
 note right
 void assignTasks(List<WorkerLoad>workerAssignment,
 Collection<ConnectorTaskId>tasks)
 end note
-while (load.hasNext())
-if (!load.hasNext()) then (yes) 
-endif 
-endwhile
+:workerAssignment.sort(WorkerLoad.taskComparator());;
+:while (load.hasNext()){intfirstLoad=first.tasksSize();intupTo=IntStream.range(0,
+workerAssignment.size()).filter(i->workerAssignment.get(i).tasksSize()>firstLoad).findFirst().orElse(workerAssignment.size());for (WorkerLoadworker:workerAssignment.subList(0,
+upTo)){ConnectorTaskIdtask=load.next();log.debug("Assigning task {} to {}",
+task,worker.worker());worker.assign(task);if (!load.hasNext()){break ;}}};
 end
 start
 note right
@@ -250,7 +434,8 @@ List<WorkerLoad>workerAssignment(Map<String,
 ConnectorsAndTasks>memberAssignments,ConnectorsAndTaskstoExclude)
 end note
 :return memberAssignments.entrySet().stream()
-.map(e->new WorkerLoad.Builder(e.getKey()).with(e.getValue().connectors().stream().filter(v->!ignore.connectors().contains(v)).collect(Collectors.toList()),e.getValue().tasks().stream().filter(v->!ignore.tasks().contains(v)).collect(Collectors.toList())).build()).collect(Collectors.toList());;
+.map(e->new WorkerLoad.Builder(e.getKey()).with(e.getValue().connectors().stream().filter(v->!ignore.connectors().contains(v)).collect(Collectors.toList()),
+e.getValue().tasks().stream().filter(v->!ignore.tasks().contains(v)).collect(Collectors.toList())).build()).collect(Collectors.toList());;
 stop
 end
 start
@@ -263,6 +448,16 @@ Map<String,Collection<ConnectorTaskId>>newlyRevokedTasks,
 Map<String,Collection<String>>allAssignedConnectors,
 Map<String,Collection<ConnectorTaskId>>allAssignedTasks)
 end note
+:this.newlyAssignedConnectors=newlyAssignedConnectors;;
+:this.newlyAssignedTasks=newlyAssignedTasks;;
+:this.newlyRevokedConnectors=newlyRevokedConnectors;;
+:this.newlyRevokedTasks=newlyRevokedTasks;;
+:this.allAssignedConnectors=allAssignedConnectors;;
+:this.allAssignedTasks=allAssignedTasks;;
+:this.allWorkers=combineCollections(Arrays.asList(newlyAssignedConnectors,
+newlyAssignedTasks,newlyRevokedConnectors,
+newlyRevokedTasks,allAssignedConnectors,allAssignedTasks),
+Map::keySet,Collectors.toSet());;
 end
 start
 note right
@@ -368,6 +563,18 @@ note right
 constructor IncrementalCooperativeAssignor(LogContextlogContext,
 Timetime,intmaxDelay)
 end note
+:this.log=logContext.logger(IncrementalCooperativeAssignor.class );;
+:this.time=time;;
+:this.maxDelay=maxDelay;;
+:this.previousAssignment=ConnectorsAndTasks.EMPTY;;
+:this.previousRevocation=new ConnectorsAndTasks.Builder()
+.build();;
+:this.canRevoke=true;;
+:this.scheduledRebalance=0;;
+:this.candidateWorkersForReassignment=new LinkedHashSet<>();;
+:this.delay=0;;
+:this.previousGenerationId=-1;;
+:this.previousMembers=Collections.emptySet();;
 end
 start
 note right
@@ -375,6 +582,11 @@ Map<String,ByteBuffer>performAssignment(StringleaderId,
 Stringprotocol,List<JoinGroupResponseMember>allMemberMetadata,
 WorkerCoordinatorcoordinator)
 end note
+:log.debug("Performing task assignment");;
+:memberConfigs.put(member.memberId(),IncrementalCooperativeConnectProtocol.deserializeMetadata(ByteBuffer.wrap(member.metadata())));;
+:log.debug("Member configs: {}",memberConfigs);;
+:log.debug("Max config offset root: {}, local snapshot config offsets root: {}",
+maxOffset,coordinator.configSnapshot().offset());;
 if (leaderOffset==null ) then (yes) 
 :return serializeAssignments(assignments,
 protocolVersion);;
@@ -390,9 +602,12 @@ LongensureLeaderConfig(longmaxOffset,WorkerCoordinatorcoordinator)
 end note
 if (coordinator.configSnapshot().offset()<maxOffset) then (yes) 
 if (updatedSnapshot.offset()<maxOffset) then (yes) 
+:log.info("Was selected to perform assignments, but do not have latest config found in sync request. "+
+"Returning an empty configuration to trigger re-sync.");;
 :return null ;;
 stop
 else (no)
+:coordinator.configSnapshot(updatedSnapshot);;
 :return updatedSnapshot.offset();;
 stop
 endif 
@@ -406,6 +621,12 @@ Map<String,ByteBuffer>performTaskAssignment(StringleaderId,
 longmaxOffset,Map<String,ExtendedWorkerState>memberConfigs,
 WorkerCoordinatorcoordinator,shortprotocolVersion)
 end note
+:log.debug("Performing task assignment during generation: {} with memberId: {}",
+coordinator.generationId(),coordinator.memberId());;
+:coordinator.leaderState(new LeaderState(memberConfigs,
+clusterAssignment.allAssignedConnectors(),
+clusterAssignment.allAssignedTasks()));;
+:log.debug("Actual assignments: {}",assignments);;
 :return serializeAssignments(assignments,
 protocolVersion);;
 stop
@@ -416,15 +637,80 @@ ClusterAssignmentperformTaskAssignment(ClusterConfigStateconfigSnapshot,
 intlastCompletedGenerationId,intcurrentGenerationId,
 Map<String,ConnectorsAndTasks>memberAssignments)
 end note
+:log.debug("Previous assignments: {}",previousAssignment);;
 if (previousGenerationId!=lastCompletedGenerationId) then (yes) 
+:log.debug("Clearing the view of previous assignments due to generation mismatch between "+
+"previous generation ID {} and last completed generation ID {}. This can "+
+"happen if the leader fails to sync the assignment within a rebalancing round. "+
+"The following view of previous assignments might be outdated and will be "+
+"ignored by the leader in the current computation of new assignments. "+
+"Possibly outdated previous assignments: {}",
+previousGenerationId,lastCompletedGenerationId,
+previousAssignment);;
+:this.previousAssignment=ConnectorsAndTasks.EMPTY;;
 endif 
+:log.debug("Configured assignments: {}",configured);;
+:log.debug("Active assignments: {}",activeAssignments);;
 if (!previousRevocation.isEmpty()) then (yes) 
 if (previousRevocation.connectors().stream().anyMatch(c->activeAssignments.connectors().contains(c))||previousRevocation.tasks().stream().anyMatch(t->activeAssignments.tasks().contains(t))) then (yes) 
+:previousAssignment=activeAssignments;;
+:canRevoke=true;;
 endif 
+:previousRevocation.connectors().clear();;
+:previousRevocation.tasks().clear();;
 endif 
+:log.debug("Deleted assignments: {}",deleted);;
+:log.debug("Remaining (excluding deleted) active assignments: {}",
+remainingActive);;
+:log.debug("Lost assignments: {}",lostAssignments);;
+:log.debug("New assignments: {}",newSubmissions);;
+:log.debug("Complete (ignoring deletions) worker assignments: {}",
+completeWorkerAssignment);;
+:log.debug("Complete (ignoring deletions) connector assignments: {}",
+connectorAssignments);;
+:log.debug("Complete (ignoring deletions) task assignments: {}",
+taskAssignments);;
+:log.debug("Connector and task to delete assignments: {}",
+toRevoke);;
+:toRevoke.putAll(computeDuplicatedAssignments(memberAssignments,
+connectorAssignments,taskAssignments));;
+:log.debug("Connector and task to revoke assignments (include duplicated assignments): {}",
+toRevoke);;
+:completeWorkerAssignment=workerAssignment(memberAssignments,
+deleted);;
+:connectorAssignments=completeWorkerAssignment.stream().collect(Collectors.toMap(WorkerLoad::worker,
+WorkerLoad::connectors));;
+:taskAssignments=completeWorkerAssignment.stream().collect(Collectors.toMap(WorkerLoad::worker,
+WorkerLoad::tasks));;
+:handleLostAssignments(lostAssignments,newSubmissions,
+completeWorkerAssignment);;
+:canRevoke=delay==0&&canRevoke;;
+:log.debug("Can leader revoke tasks in this assignment? {} (delay: {})",
+canRevoke,delay);;
 if (canRevoke) then (yes) 
+:log.debug("Connector and task to revoke assignments: {}",
+toRevoke);;
+:toExplicitlyRevoke.forEach((worker,assignment)->{ConnectorsAndTasksexisting=toRevoke.computeIfAbsent(worker,
+v->new ConnectorsAndTasks.Builder().build());existing.connectors().addAll(assignment.connectors());existing.tasks().addAll(assignment.tasks());});;
+:canRevoke=toExplicitlyRevoke.size()==0;;
 else (no)
+:canRevoke=delay==0;;
 endif 
+:assignConnectors(completeWorkerAssignment,
+newSubmissions.connectors());;
+:assignTasks(completeWorkerAssignment,newSubmissions.tasks());;
+:log.debug("Current complete assignments: {}",
+currentWorkerAssignment);;
+:log.debug("New complete assignments: {}",
+completeWorkerAssignment);;
+:previousAssignment=computePreviousAssignment(toRevoke,
+connectorAssignments,taskAssignments,lostAssignments);;
+:previousGenerationId=currentGenerationId;;
+:previousMembers=memberAssignments.keySet();;
+:log.debug("Incremental connector assignments: {}",
+incrementalConnectorAssignments);;
+:log.debug("Incremental task assignments: {}",
+incrementalTaskAssignments);;
 :return new ClusterAssignment(incrementalConnectorAssignments,
 incrementalTaskAssignments,revokedConnectors,
 revokedTasks,diff(connectorAssignments,revokedConnectors),
@@ -437,6 +723,12 @@ Map<String,ConnectorsAndTasks>computeDeleted(ConnectorsAndTasksdeleted,
 Map<String,Collection<String>>connectorAssignments,
 Map<String,Collection<ConnectorTaskId>>taskAssignments)
 end note
+:deleted.connectors().forEach(c->toRevoke.computeIfAbsent(connectorOwners.get(c),
+v->new ConnectorsAndTasks.Builder().build()).connectors().add(c));;
+:deleted.tasks().forEach(t->toRevoke.computeIfAbsent(taskOwners.get(t),
+v->new ConnectorsAndTasks.Builder().build()).tasks().add(t));;
+:log.debug("Connectors and tasks to delete assignments: {}",
+toRevoke);;
 :return toRevoke;;
 stop
 end
@@ -447,6 +739,12 @@ ConnectorsAndTasks>toRevoke,Map<String,Collection<String>>connectorAssignments,
 Map<String,Collection<ConnectorTaskId>>taskAssignments,
 ConnectorsAndTaskslostAssignments)
 end note
+:previousAssignment.connectors().removeAll(revoked.connectors());;
+:previousAssignment.tasks().removeAll(revoked.tasks());;
+:previousRevocation.connectors().addAll(revoked.connectors());;
+:previousRevocation.tasks().addAll(revoked.tasks());;
+:previousAssignment.connectors().addAll(lostAssignments.connectors());;
+:previousAssignment.tasks().addAll(lostAssignments.tasks());;
 :return previousAssignment;;
 stop
 end
@@ -466,9 +764,16 @@ ConnectorsAndTasks>memberAssignments,Map<String,
 Collection<String>>connectorAssignments,Map<String,
 Collection<ConnectorTaskId>>taskAssignment)
 end note
+:log.debug("Duplicated assignments: {}",duplicatedAssignments);;
 if (!duplicatedAssignments.connectors().isEmpty()) then (yes) 
+:connectorAssignments.entrySet().stream().forEach(entry->{Set<String>duplicatedConnectors=new HashSet<>(duplicatedAssignments.connectors());
+:duplicatedConnectors.retainAll(entry.getValue());if (!duplicatedConnectors.isEmpty()){toRevoke.computeIfAbsent(entry.getKey(),
+v->new ConnectorsAndTasks.Builder().build()).connectors().addAll(duplicatedConnectors);}});;
 endif 
 if (!duplicatedAssignments.tasks().isEmpty()) then (yes) 
+:taskAssignment.entrySet().stream().forEach(entry->{Set<ConnectorTaskId>duplicatedTasks=new HashSet<>(duplicatedAssignments.tasks());
+:duplicatedTasks.retainAll(entry.getValue());if (!duplicatedTasks.isEmpty()){toRevoke.computeIfAbsent(entry.getKey(),
+v->new ConnectorsAndTasks.Builder().build()).tasks().addAll(duplicatedTasks);}});;
 endif 
 :return toRevoke;;
 stop
@@ -479,35 +784,75 @@ void handleLostAssignments(ConnectorsAndTaskslostAssignments,
 ConnectorsAndTasksnewSubmissions,List<WorkerLoad>completeWorkerAssignment)
 end note
 if (lostAssignments.isEmpty()) then (yes) 
+:resetDelay();;
 :return ;;
 stop
 endif 
+:log.debug("Found the following connectors and tasks missing from previous assignments: "+
+lostAssignments);;
 if (scheduledRebalance<=0&&activeMembers.containsAll(previousMembers)) then (yes) 
+:log.debug("No worker seems to have departed the group during the rebalance. The "+
+"missing assignments that the leader is detecting are probably due to some "+
+"workers failing to receive the new assignments in the previous rebalance. "+
+"Will reassign missing tasks as new tasks");;
+:newSubmissions.connectors().addAll(lostAssignments.connectors());;
+:newSubmissions.tasks().addAll(lostAssignments.tasks());;
 :return ;;
 stop
 endif 
 if (scheduledRebalance>0&&now>=scheduledRebalance) then (yes) 
+:log.debug("Delayed rebalance expired. Reassigning lost tasks");;
 if (!candidateWorkersForReassignment.isEmpty()) then (yes) 
+:candidateWorkerLoad=pickCandidateWorkerForReassignment(completeWorkerAssignment);;
 endif 
 if (!candidateWorkerLoad.isEmpty()) then (yes) 
+:log.debug("Assigning lost tasks to {} candidate workers: {}",
+candidateWorkerLoad.size(),candidateWorkerLoad.stream().map(WorkerLoad::worker).collect(Collectors.joining(",
+")));;
 if (!candidateWorkerIterator.hasNext()) then (yes) 
+:candidateWorkerIterator=candidateWorkerLoad.iterator();;
 endif 
+:log.debug("Assigning connector id {} to member {}",
+connector,worker.worker());;
+:worker.assign(connector);;
+:candidateWorkerIterator=candidateWorkerLoad.iterator();;
 if (!candidateWorkerIterator.hasNext()) then (yes) 
+:candidateWorkerIterator=candidateWorkerLoad.iterator();;
 endif 
+:log.debug("Assigning task id {} to member {}",
+task,worker.worker());;
+:worker.assign(task);;
 else (no)
+:log.debug("No single candidate worker was found to assign lost tasks. Treating lost tasks as new tasks");;
+:newSubmissions.connectors().addAll(lostAssignments.connectors());;
+:newSubmissions.tasks().addAll(lostAssignments.tasks());;
 endif 
+:resetDelay();;
 else (no)
+:candidateWorkersForReassignment.addAll(candidateWorkersForReassignment(completeWorkerAssignment));;
 if (now<scheduledRebalance) then (yes) 
+:delay=calculateDelay(now);;
+:log.debug("Delayed rebalance in progress. Task reassignment is postponed. New computed rebalance delay: {}",
+delay);;
 else (no)
+:delay=maxDelay;;
+:log.debug("Resetting rebalance delay to the max: {}. scheduledRebalance: {} now: {} diff scheduledRebalance - now: {}",
+delay,scheduledRebalance,now,scheduledRebalance-now);;
 endif 
+:scheduledRebalance=now+delay;;
 endif 
 end
 start
 note right
 void resetDelay()
 end note
+:candidateWorkersForReassignment.clear();;
+:scheduledRebalance=0;;
 if (delay!=0) then (yes) 
+:log.debug("Resetting delay from previous value: {} to 0",
+delay);;
 endif 
+:delay=0;;
 end
 start
 note right
@@ -531,11 +876,33 @@ Map<String,ConnectorsAndTasks>performTaskRevocation(ConnectorsAndTasksactiveAssi
 Collection<WorkerLoad>completeWorkerAssignment)
 end note
 if (log.isDebugEnabled()) then (yes) 
+:completeWorkerAssignment.forEach(wl->log.debug("Per worker current load size; worker: {} connectors: {} tasks: {}",
+wl.worker(),wl.connectorsSize(),wl.tasksSize()));;
 endif 
 if (!(newWorkersNum>0&&existingWorkersNum>0)) then (yes) 
+:log.debug("No task revocation required; workers with existing load: {} workers with "+
+"no load {} total workers {}",existingWorkersNum,
+newWorkersNum,totalWorkersNum);;
 :return revoking;;
 stop
 endif 
+:log.debug("Task revocation is required; workers with existing load: {} workers with "+
+"no load {} total workers {}",existingWorkersNum,
+newWorkersNum,totalWorkersNum);;
+:log.debug("Previous rounded down (floor) average number of connectors per worker {}",
+totalActiveConnectorsNum/existingWorkersNum);;
+:log.debug("New average number of connectors per worker rounded down (floor) {} and rounded up (ceil) {}",
+floorConnectors,ceilConnectors);;
+:log.debug("Previous rounded down (floor) average number of tasks per worker {}",
+totalActiveTasksNum/existingWorkersNum);;
+:log.debug("New average number of tasks per worker rounded down (floor) {} and rounded up (ceil) {}",
+floorTasks,ceilTasks);;
+:numToRevoke=existing.connectorsSize()-ceilConnectors;;
+:resources.connectors().add(connectors.next());;
+:numToRevoke=existing.tasksSize()-ceilTasks;;
+:log.debug("Tasks on worker {} is higher than ceiling,
+ so revoking {} tasks",existing,numToRevoke);;
+:resources.tasks().add(tasks.next());;
 :return revoking;;
 stop
 end
@@ -546,6 +913,10 @@ shorterror,StringleaderId,StringleaderUrl,
 longmaxOffset,ClusterAssignmentclusterAssignment,
 intdelay,shortprotocolVersion)
 end note
+:log.debug("Filling assignment: {} -> {}",
+member,assignment);;
+:groupAssignment.put(member,assignment);;
+:log.debug("Finished assignment");;
 :return groupAssignment;;
 stop
 end
@@ -564,16 +935,22 @@ note right
 ConnectorsAndTasksdiff(ConnectorsAndTasksbase,
 ConnectorsAndTasks... toSubtract)
 end note
+:connectors.removeAll(sub.connectors());;
+:tasks.removeAll(sub.tasks());;
 :return new ConnectorsAndTasks.Builder().with(connectors,
 tasks).build();;
 stop
 end
+:values.removeAll(toSubtract.getOrDefault(entry.getKey(),
+Collections.emptySet()));;
+:incremental.put(entry.getKey(),values);;
 :return incremental;;
 stop
 start
 note right
 ConnectorsAndTasksassignment(Map<String,ConnectorsAndTasks>memberAssignments)
 end note
+:log.debug("Received assignments: {}",memberAssignments);;
 :return new ConnectorsAndTasks.Builder().with(ConnectUtils.combineCollections(memberAssignments.values(),
 ConnectorsAndTasks::connectors),ConnectUtils.combineCollections(memberAssignments.values(),
 ConnectorsAndTasks::tasks)).build();;
@@ -591,20 +968,22 @@ note right
 void assignConnectors(List<WorkerLoad>workerAssignment,
 Collection<String>connectors)
 end note
-while (load.hasNext())
-if (!load.hasNext()) then (yes) 
-endif 
-endwhile
+:workerAssignment.sort(WorkerLoad.connectorComparator());;
+:while (load.hasNext()){intfirstLoad=first.connectorsSize();intupTo=IntStream.range(0,
+workerAssignment.size()).filter(i->workerAssignment.get(i).connectorsSize()>firstLoad).findFirst().orElse(workerAssignment.size());for (WorkerLoadworker:workerAssignment.subList(0,
+upTo)){Stringconnector=load.next();log.debug("Assigning connector {} to {}",
+connector,worker.worker());worker.assign(connector);if (!load.hasNext()){break ;}}};
 end
 start
 note right
 void assignTasks(List<WorkerLoad>workerAssignment,
 Collection<ConnectorTaskId>tasks)
 end note
-while (load.hasNext())
-if (!load.hasNext()) then (yes) 
-endif 
-endwhile
+:workerAssignment.sort(WorkerLoad.taskComparator());;
+:while (load.hasNext()){intfirstLoad=first.tasksSize();intupTo=IntStream.range(0,
+workerAssignment.size()).filter(i->workerAssignment.get(i).tasksSize()>firstLoad).findFirst().orElse(workerAssignment.size());for (WorkerLoadworker:workerAssignment.subList(0,
+upTo)){ConnectorTaskIdtask=load.next();log.debug("Assigning task {} to {}",
+task,worker.worker());worker.assign(task);if (!load.hasNext()){break ;}}};
 end
 start
 note right
@@ -612,7 +991,8 @@ List<WorkerLoad>workerAssignment(Map<String,
 ConnectorsAndTasks>memberAssignments,ConnectorsAndTaskstoExclude)
 end note
 :return memberAssignments.entrySet().stream()
-.map(e->new WorkerLoad.Builder(e.getKey()).with(e.getValue().connectors().stream().filter(v->!ignore.connectors().contains(v)).collect(Collectors.toList()),e.getValue().tasks().stream().filter(v->!ignore.tasks().contains(v)).collect(Collectors.toList())).build()).collect(Collectors.toList());;
+.map(e->new WorkerLoad.Builder(e.getKey()).with(e.getValue().connectors().stream().filter(v->!ignore.connectors().contains(v)).collect(Collectors.toList()),
+e.getValue().tasks().stream().filter(v->!ignore.tasks().contains(v)).collect(Collectors.toList())).build()).collect(Collectors.toList());;
 stop
 end
 start
@@ -625,6 +1005,16 @@ Map<String,Collection<ConnectorTaskId>>newlyRevokedTasks,
 Map<String,Collection<String>>allAssignedConnectors,
 Map<String,Collection<ConnectorTaskId>>allAssignedTasks)
 end note
+:this.newlyAssignedConnectors=newlyAssignedConnectors;;
+:this.newlyAssignedTasks=newlyAssignedTasks;;
+:this.newlyRevokedConnectors=newlyRevokedConnectors;;
+:this.newlyRevokedTasks=newlyRevokedTasks;;
+:this.allAssignedConnectors=allAssignedConnectors;;
+:this.allAssignedTasks=allAssignedTasks;;
+:this.allWorkers=combineCollections(Arrays.asList(newlyAssignedConnectors,
+newlyAssignedTasks,newlyRevokedConnectors,
+newlyRevokedTasks,allAssignedConnectors,allAssignedTasks),
+Map::keySet,Collectors.toSet());;
 end
 start
 note right
