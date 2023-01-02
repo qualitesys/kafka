@@ -506,9 +506,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1495Seq1.html#seq1"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1495&numSeq=1"
  , "c2" : "1"
- , "c3" : "3"
- , "c4" : "3"
- , "c5" : ["java.util.HashMap.newNode@POLYN691081.return" , "java.util.HashMap.afterNodeAccess@POLYN693006.p"]
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.compute@POLYN656638.tab" , "java.util.HashMap.treeify@POLYN701012.tab"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -523,7 +523,7 @@ var maDataBlocs = {
  , "c2" : "2"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.util.HashMap.compute@POLYN656638.tab" , "java.util.HashMap.treeify@POLYN701012.tab"]
+ , "c5" : ["java.util.HashMap.computeIfAbsent@POLYN651506.tab" , "java.util.HashMap.treeify@POLYN701012.tab"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -538,7 +538,7 @@ var maDataBlocs = {
  , "c2" : "3"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.util.HashMap.computeIfAbsent@POLYN651506.tab" , "java.util.HashMap.treeify@POLYN701012.tab"]
+ , "c5" : ["java.util.HashMap.merge@POLYN660563.tab" , "java.util.HashMap.treeify@POLYN701012.tab"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -553,7 +553,7 @@ var maDataBlocs = {
  , "c2" : "4"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.util.HashMap.merge@POLYN660563.tab" , "java.util.HashMap.treeify@POLYN701012.tab"]
+ , "c5" : ["java.util.HashMap.putVal@POLYN621198.tab" , "java.util.HashMap.treeify@POLYN701012.tab"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -566,21 +566,6 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1495Seq5.html#seq5"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1495&numSeq=5"
  , "c2" : "5"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.putVal@POLYN621198.tab" , "java.util.HashMap.treeify@POLYN701012.tab"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1495Seq6.html#seq6"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1495&numSeq=6"
- , "c2" : "6"
  , "c3" : "2"
  , "c4" : "2"
  , "c5" : ["java.util.HashMap.capacity@POLYN667933.return" , "java.io.ObjectOutputStream.writeInt@POLYN571987.val"]
@@ -596,68 +581,6 @@ var maDataBlocs = {
 "data09b" : [
 { "sequence" : { 
  "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00640]"
- , "c3" : ["java.util.HashMap.newNode@POLYN691081.return" , "---java.util.HashMap.newNode@POLYN691081" , "java.util.HashMap.putVal@POLYN621198.p"]
- , "c4" : "//QC-JAVCWZ099[00640] In java.util.HashMap.putVal@POLYN621198[00640] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00634]"
- , "c3" : ["java.util.HashMap.putVal@POLYN621198.p" , "---dummymethode" , "java.util.HashMap.putVal@POLYN621198.e"]
- , "c4" : "//QC-JAVCWZ099[00634] In java.util.HashMap.putVal@POLYN621198[00634] source or target data PATHtainted (java.util.HashMap)"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00655]"
- , "c3" : ["java.util.HashMap.putVal@POLYN621198.e" , "---java.util.HashMap.afterNodeAccess@POLYN693006" , "java.util.HashMap.afterNodeAccess@POLYN693006.p"]
- , "c4" : "//QC-JAVCWZ099[00655] In java.util.HashMap.putVal@POLYN621198[00655] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "2" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[01210]"
@@ -711,7 +634,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "3" , "contenu" : [ 
+ "seq" : "2" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[01138]"
@@ -765,7 +688,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "4" , "contenu" : [ 
+ "seq" : "3" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[01269]"
@@ -819,7 +742,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "5" , "contenu" : [ 
+ "seq" : "4" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00642]"
@@ -873,7 +796,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "6" , "contenu" : [ 
+ "seq" : "5" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[01356]"

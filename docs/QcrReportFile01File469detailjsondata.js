@@ -206,7 +206,7 @@ var maDataBlocs = {
 { "sequence" : { "noseq" : "0" , "pas" : [
 { "ligne" : "S0:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN186656 (R0 in line [00235],R1 in line [00235])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.common.metrics.internals.IntGaugeSuite.closed" }
+{ "ligne" : "S0:java.util.HashMap.get@POLYN617315" }
  ]
  } }
 ,
@@ -215,7 +215,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S1:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN186656 (R0 in line [00235],R1 in line [00235])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.common.metrics.internals.IntGaugeSuite.closed" }
+{ "ligne" : "S1:java.util.HashMap.get@POLYN617315" }
  ]
  } }
 ]

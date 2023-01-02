@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java 51 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java 49 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.xml" 
  , "fic3"  : "" 
 }
@@ -121,6 +121,12 @@ var maDataBlocs = {
 { "ligne" :  "R3:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.metrics" }
 ,
 { "ligne" :  "R4:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029.nowMs" }
+,
+{ "ligne" :  "R5:org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161809.prefix" }
+,
+{ "ligne" :  "R6:org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161809.id" }
+,
+{ "ligne" :  "R7:org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161809.metrics" }
 ]
 ,
 "data12b" : [
@@ -132,11 +138,31 @@ var maDataBlocs = {
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 (R0 in line [00060],R1 in line [00060],R2 in line [00060],R3 in line [00060],R4 in line [00060])" }
+{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161809 (R0 in line [00072],R5 in line [00072],R6 in line [00072],R7 in line [00072])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 (R0 in line [00060],R1 in line [00060],R2 in line [00060],R3 in line [00060],R4 in line [00060])" }
+{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163744" }
 ,
-{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162927" }
+{ "ligne" : "S1:org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN300599" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "2" , "pas" : [
+{ "ligne" : "S2:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 (R0 in line [00060],R1 in line [00060],R2 in line [00060],R3 in line [00060],R4 in line [00060])" }
+,
+{ "ligne" : "S2:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 (R0 in line [00060],R1 in line [00060],R2 in line [00060],R3 in line [00060],R4 in line [00060])" }
+,
+{ "ligne" : "S2:org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162927" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "3" , "pas" : [
+{ "ligne" : "S3:org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161809 (R0 in line [00072],R5 in line [00072],R6 in line [00072],R7 in line [00072])" }
+,
+{ "ligne" : "S3:org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161809 (R0 in line [00072],R5 in line [00072],R6 in line [00072],R7 in line [00072])" }
+,
+{ "ligne" : "S3:org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163744" }
+,
+{ "ligne" : "S3:org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN300599" }
  ]
  } }
 ]
@@ -149,7 +175,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "5"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
@@ -163,7 +189,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "12"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
@@ -177,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -451,6 +477,27 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R5 : org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161809.prefix"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R6 : org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161809.id"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R7 : org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN161809.metrics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164510"
 }} 
@@ -460,13 +507,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163744"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -509,34 +549,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#68"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN161029 the MagicNumber/String 'Error registering AppInfo mbean' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#100"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163744 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#101"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163744 the MagicNumber/String 'version' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#102"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163744 the MagicNumber/String 'commit-id' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#103"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN163744 the MagicNumber/String 'start-time-ms' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

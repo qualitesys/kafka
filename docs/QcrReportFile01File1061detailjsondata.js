@@ -1172,20 +1172,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.poll@POLYN269586"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265133"
 }} 
 ,
@@ -1207,6 +1193,20 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.poll@POLYN269586"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.commitSourceTask@POLYN275157"
 }} 
 ,
@@ -1222,76 +1222,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.convertHeaderFor@POLYN273942"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00449"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#449"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00449] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.poll@POLYN269586 the MagicNumber/String '{} failed to poll records from SourceTask. Will retry operation.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00451"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#451"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00451] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.poll@POLYN269586 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00340"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#340"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00340] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00343"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#343"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00343] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984 the MagicNumber/String '{} Nothing to send to Kafka. Polling source for additional records' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00346"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00346] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00350"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#350"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00350] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00352"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#352"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00352] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984 the MagicNumber/String '{} About to send {} records to Kafka' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00363"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#363"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00363] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00365"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#365"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00365] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984 the MagicNumber/String 'Failed to commit offsets for already-failing task' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00369"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#369"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00369] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1432,6 +1362,76 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#270"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00270] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.initializeAndStart@POLYN260541 the MagicNumber/String '{} Source task finished initialization and start' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00449"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#449"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00449] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.poll@POLYN269586 the MagicNumber/String '{} failed to poll records from SourceTask. Will retry operation.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00451"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#451"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00451] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.poll@POLYN269586 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00340"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#340"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00340] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00343"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#343"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00343] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984 the MagicNumber/String '{} Nothing to send to Kafka. Polling source for additional records' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00346"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#346"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00346] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#350"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00350] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00352"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#352"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00352] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984 the MagicNumber/String '{} About to send {} records to Kafka' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00363"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#363"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00363] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00365"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#365"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00365] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984 the MagicNumber/String 'Failed to commit offsets for already-failing task' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00369"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#369"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00369] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN262984 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -909,21 +909,6 @@ var maDataBlocs = {
  , "secu3" : "Ko"
  , "secu4" : "Ko"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1498Seq15.html#seq15"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1498&numSeq=15"
- , "c2" : "15"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.concurrent.ConcurrentHashMap.computeIfAbsent@POLYN1498257.sourcedummy" , "java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053.check"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
 ]
 ,
 "data09b" : [
@@ -1972,60 +1957,6 @@ var maDataBlocs = {
  , "sourcenoligne" : "[03500]"
  , "c3" : ["java.util.concurrent.ConcurrentHashMap.put@POLYN1461441.return" , "---java.util.concurrent.ConcurrentHashMap.put@POLYN1461441" , "java.util.concurrent.ConcurrentHashMap.MapEntry.setValue@POLYN1610931.cibledummy"]
  , "c4" : "//QC-JAVCWZ099[03500] In java.util.concurrent.ConcurrentHashMap.MapEntry.setValue@POLYN1610931[03500] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "15" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[01653]"
- , "c3" : ["java.util.concurrent.ConcurrentHashMap.computeIfAbsent@POLYN1498257.sourcedummy" , "---java.util.concurrent.ConcurrentHashMap.casTabAt@POLYN1450598" , "java.util.concurrent.ConcurrentHashMap.computeIfAbsent@POLYN1498257.binCount"]
- , "c4" : "//QC-JAVCWZ099[01653] In java.util.concurrent.ConcurrentHashMap.computeIfAbsent@POLYN1498257[01653] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[01717]"
- , "c3" : ["java.util.concurrent.ConcurrentHashMap.computeIfAbsent@POLYN1498257.binCount" , "---java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053" , "java.util.concurrent.ConcurrentHashMap.addCount@POLYN1533053.check"]
- , "c4" : "//QC-JAVCWZ099[01717] In java.util.concurrent.ConcurrentHashMap.computeIfAbsent@POLYN1498257[01717] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,

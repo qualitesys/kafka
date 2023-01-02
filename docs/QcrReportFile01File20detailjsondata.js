@@ -2187,55 +2187,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.DefaultMetadataUpdater.maybeUpdate@POLYN366426"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.leastLoadedNode@POLYN348050"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.DefaultMetadataUpdater.maybeUpdate@POLYN371034"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.newClientRequest@POLYN373319"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.doSend@POLYN341913"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.doSend@POLYN339379"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.initiateConnect@POLYN364425"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.completeResponses@POLYN345081"
 }} 
 ,
@@ -2278,7 +2229,56 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.doSend@POLYN341913"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.doSend@POLYN339379"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.handleTimedOutRequests@POLYN354138"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.DefaultMetadataUpdater.maybeUpdate@POLYN366426"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.leastLoadedNode@POLYN348050"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.DefaultMetadataUpdater.maybeUpdate@POLYN371034"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.newClientRequest@POLYN373319"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.initiateConnect@POLYN364425"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2314,6 +2314,209 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.close@POLYN347129"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00589"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#589"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00589] In the recursive method org.apache.kafka.clients.NetworkClient.completeResponses@POLYN345081 the MagicNumber/String 'Uncaught error in request completion:' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00879"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#879"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00879] In the recursive method org.apache.kafka.clients.NetworkClient.handleCompletedReceives@POLYN357642 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00883"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#883"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00883] In the recursive method org.apache.kafka.clients.NetworkClient.handleCompletedReceives@POLYN357642 the MagicNumber/String 'Received {} response from node {} for request with header {}: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00902"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#902"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00902] In the recursive method org.apache.kafka.clients.NetworkClient.handleApiVersionsResponse@POLYN359356 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00903"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#903"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00903] In the recursive method org.apache.kafka.clients.NetworkClient.handleApiVersionsResponse@POLYN359356 the MagicNumber/String 'Received error {} from node {} when making an ApiVersionsRequest with correlation id {}. Disconnecting.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00911"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#911"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00911] In the recursive method org.apache.kafka.clients.NetworkClient.handleApiVersionsResponse@POLYN359356 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00912"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#912"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00912] In the recursive method org.apache.kafka.clients.NetworkClient.handleApiVersionsResponse@POLYN359356 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00914"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#914"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00914] In the recursive method org.apache.kafka.clients.NetworkClient.handleApiVersionsResponse@POLYN359356 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00927"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#927"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00927] In the recursive method org.apache.kafka.clients.NetworkClient.handleApiVersionsResponse@POLYN359356 the MagicNumber/String 'Node {} has finalized features epoch: {}, finalized features: {}, supported features: {}, API versions: {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00768"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#768"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00768] In the recursive method org.apache.kafka.clients.NetworkClient.processDisconnection@POLYN352307 the MagicNumber/String 'Connection to node {} -{}- failed authentication due to: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00772"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#772"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00772] In the recursive method org.apache.kafka.clients.NetworkClient.processDisconnection@POLYN352307 the MagicNumber/String 'Connection to node {} -{}- terminated during authentication. This may happen ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00773"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#773"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00773] In the recursive method org.apache.kafka.clients.NetworkClient.processDisconnection@POLYN352307 the MagicNumber/String 'due to any of the following reasons: -1- Authentication failed due to invalid ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00774"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#774"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00774] In the recursive method org.apache.kafka.clients.NetworkClient.processDisconnection@POLYN352307 the MagicNumber/String 'credentials with brokers older than 1.0.0, -2- Firewall blocking Kafka TLS ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00775"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#775"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00775] In the recursive method org.apache.kafka.clients.NetworkClient.processDisconnection@POLYN352307 the MagicNumber/String 'traffic -eg it may only allow HTTPS traffic-, -3- Transient network issue.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00779"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#779"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00779] In the recursive method org.apache.kafka.clients.NetworkClient.processDisconnection@POLYN352307 the MagicNumber/String 'Connection to node {} -{}- could not be established. Broker may not be available.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00941"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#941"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00941] In the recursive method org.apache.kafka.clients.NetworkClient.handleDisconnections@POLYN361846 the MagicNumber/String 'Node {} disconnected.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00957"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#957"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00957] In the recursive method org.apache.kafka.clients.NetworkClient.handleConnections@POLYN362481 the MagicNumber/String 'Completed connection to node {}. Fetching API versions.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00960"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#960"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00960] In the recursive method org.apache.kafka.clients.NetworkClient.handleConnections@POLYN362481 the MagicNumber/String 'Completed connection to node {}. Ready.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00525"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#525"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00525] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN341913 the MagicNumber/String 'Sending {} request with header {} and timeout {} to node {}: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00484"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#484"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00484] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String ' which is not ready.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00484"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#484"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00484] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String 'Attempt to send a request to node ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00493"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#493"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00493] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00496"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#496"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00496] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String 'No version information found when sending {} with correlation id {} to node {}. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00497"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#497"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00497] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String 'Assuming version {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00508"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#508"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00508] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String 'Version mismatch when attempting to send {} with correlation id {} to {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00512"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#512"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00512] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00512"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#512"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00512] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00512"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#512"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00512] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00801"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#801"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00801] In the recursive method org.apache.kafka.clients.NetworkClient.handleTimedOutRequests@POLYN354138 the MagicNumber/String 'Disconnecting from node {} due to request timeout.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2485,76 +2688,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00525"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#525"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00525] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN341913 the MagicNumber/String 'Sending {} request with header {} and timeout {} to node {}: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00484"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#484"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00484] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String ' which is not ready.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00484"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#484"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00484] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String 'Attempt to send a request to node ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00493"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#493"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00493] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00496"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#496"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00496] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String 'No version information found when sending {} with correlation id {} to node {}. ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00497"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#497"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00497] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String 'Assuming version {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00508"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#508"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00508] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String 'Version mismatch when attempting to send {} with correlation id {} to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00512"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#512"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00512] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00512"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#512"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00512] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00512"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#512"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00512] In the recursive method org.apache.kafka.clients.NetworkClient.doSend@POLYN339379 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00995"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#995"
  , "c2" : "BLOCKER"
@@ -2566,139 +2699,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1001"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01001] In the recursive method org.apache.kafka.clients.NetworkClient.initiateConnect@POLYN364425 the MagicNumber/String 'Error connecting to node {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00589"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#589"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00589] In the recursive method org.apache.kafka.clients.NetworkClient.completeResponses@POLYN345081 the MagicNumber/String 'Uncaught error in request completion:' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00879"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#879"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00879] In the recursive method org.apache.kafka.clients.NetworkClient.handleCompletedReceives@POLYN357642 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00883"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#883"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00883] In the recursive method org.apache.kafka.clients.NetworkClient.handleCompletedReceives@POLYN357642 the MagicNumber/String 'Received {} response from node {} for request with header {}: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00902"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#902"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00902] In the recursive method org.apache.kafka.clients.NetworkClient.handleApiVersionsResponse@POLYN359356 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00903"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#903"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00903] In the recursive method org.apache.kafka.clients.NetworkClient.handleApiVersionsResponse@POLYN359356 the MagicNumber/String 'Received error {} from node {} when making an ApiVersionsRequest with correlation id {}. Disconnecting.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00911"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#911"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00911] In the recursive method org.apache.kafka.clients.NetworkClient.handleApiVersionsResponse@POLYN359356 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00912"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#912"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00912] In the recursive method org.apache.kafka.clients.NetworkClient.handleApiVersionsResponse@POLYN359356 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00914"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#914"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00914] In the recursive method org.apache.kafka.clients.NetworkClient.handleApiVersionsResponse@POLYN359356 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00927"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#927"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00927] In the recursive method org.apache.kafka.clients.NetworkClient.handleApiVersionsResponse@POLYN359356 the MagicNumber/String 'Node {} has finalized features epoch: {}, finalized features: {}, supported features: {}, API versions: {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00768"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#768"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00768] In the recursive method org.apache.kafka.clients.NetworkClient.processDisconnection@POLYN352307 the MagicNumber/String 'Connection to node {} -{}- failed authentication due to: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00772"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#772"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00772] In the recursive method org.apache.kafka.clients.NetworkClient.processDisconnection@POLYN352307 the MagicNumber/String 'Connection to node {} -{}- terminated during authentication. This may happen ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00773"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#773"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00773] In the recursive method org.apache.kafka.clients.NetworkClient.processDisconnection@POLYN352307 the MagicNumber/String 'due to any of the following reasons: -1- Authentication failed due to invalid ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00774"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#774"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00774] In the recursive method org.apache.kafka.clients.NetworkClient.processDisconnection@POLYN352307 the MagicNumber/String 'credentials with brokers older than 1.0.0, -2- Firewall blocking Kafka TLS ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00775"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#775"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00775] In the recursive method org.apache.kafka.clients.NetworkClient.processDisconnection@POLYN352307 the MagicNumber/String 'traffic -eg it may only allow HTTPS traffic-, -3- Transient network issue.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00779"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#779"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00779] In the recursive method org.apache.kafka.clients.NetworkClient.processDisconnection@POLYN352307 the MagicNumber/String 'Connection to node {} -{}- could not be established. Broker may not be available.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00941"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#941"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00941] In the recursive method org.apache.kafka.clients.NetworkClient.handleDisconnections@POLYN361846 the MagicNumber/String 'Node {} disconnected.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00957"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#957"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00957] In the recursive method org.apache.kafka.clients.NetworkClient.handleConnections@POLYN362481 the MagicNumber/String 'Completed connection to node {}. Fetching API versions.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00960"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#960"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00960] In the recursive method org.apache.kafka.clients.NetworkClient.handleConnections@POLYN362481 the MagicNumber/String 'Completed connection to node {}. Ready.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00801"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#801"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00801] In the recursive method org.apache.kafka.clients.NetworkClient.handleTimedOutRequests@POLYN354138 the MagicNumber/String 'Disconnecting from node {} due to request timeout.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

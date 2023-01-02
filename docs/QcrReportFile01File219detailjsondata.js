@@ -871,8 +871,6 @@ var maDataBlocs = {
 { "ligne" : "S7:org.apache.kafka.clients.consumer.internals.SubscriptionState.completeValidation@POLYN330222 (R0 in line [00531],R17 in line [00531])" }
 ,
 { "ligne" : "S7:org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.completeValidation@POLYN347031" }
-,
-{ "ligne" : "S7:org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.hasPosition@POLYN348102" }
  ]
  } }
 ,

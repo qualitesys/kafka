@@ -307,13 +307,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.allowedToRegister@POLYN158721"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.register@POLYN158117"
 }} 
 ,
@@ -325,10 +318,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#133"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.allowedToRegister@POLYN158721 the MagicNumber/String 'The resource {} is already registered' MUST BE CONVERTED to const"
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.allowedToRegister@POLYN158721"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -336,6 +329,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#125"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00125] In the recursive method org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.allowedToRegister@POLYN158394 the MagicNumber/String 'The resource {} is already registered' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00133"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#133"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.allowedToRegister@POLYN158721 the MagicNumber/String 'The resource {} is already registered' MUST BE CONVERTED to const"
 }} 
 ]
 , 

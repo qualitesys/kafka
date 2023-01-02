@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java 129 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java 104 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -307,7 +307,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "29"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -321,7 +321,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1022,13 +1022,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.controller.BrokerHeartbeatManager.untrack@POLYN229376 ending with method org.apache.kafka.controller.BrokerHeartbeatManager.remove@POLYN228949"
 }} 
@@ -1080,174 +1073,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#418"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00418] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233092 the MagicNumber/String 'Updated the controlled shutdown offset for broker {} to {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00532"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#532"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00532] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'Fenced broker {} has requested and been granted an immediate ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00533"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#533"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00533] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'shutdown.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00537"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#537"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00537] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'The request from broker {} to unfence has been granted ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00538"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#538"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00538] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'because it has caught up with the last committed metadata ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00539"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#539"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00539] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'offset {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00543"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#543"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00543] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'The request from broker {} to unfence cannot yet ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00544"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#544"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00544] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'be granted because it has not caught up with the last ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00545"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#545"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00545] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'committed metadata offset {}. It is still at offset {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00556"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#556"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00556] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'Unfenced broker {} has requested and been granted an ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00557"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#557"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00557] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'immediate shutdown.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00560"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#560"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00560] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'Unfenced broker {} has requested and been granted ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00561"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#561"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00561] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'fencing' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00566"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#566"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00566] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'Unfenced broker {} has requested and been granted a ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00567"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#567"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00567] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'controlled shutdown.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00570"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#570"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00570] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'Unfenced broker {} has requested and been granted an ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00571"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#571"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00571] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'immediate shutdown.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00579"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#579"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00579] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'Broker {} is in controlled shutdown state, but can not ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00580"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#580"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00580] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'shut down because more leaders still need to be moved.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00585"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#585"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00585] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'The request from broker {} to shut down has been granted ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00586"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#586"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00586] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'since the lowest active offset {} is now greater than the ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00587"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#587"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00587] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'broker's controlled shutdown offset {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00591"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#591"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00591] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'The request from broker {} to shut down can not yet be granted ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00592"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#592"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00592] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'because the lowest active offset {} is not greater than the broker's ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00593"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#593"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00593] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String 'shutdown offset {}.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

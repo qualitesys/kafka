@@ -288,21 +288,6 @@ var maDataBlocs = {
  , "secu3" : "Ko"
  , "secu4" : "Ko"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File200Seq3.html#seq3"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=200&numSeq=3"
- , "c2" : "3"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.Map.isEmpty@POLYN423723.return" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1668236.e"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
 ]
 ,
 "data09b" : [
@@ -407,60 +392,6 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00981]"
  , "c3" : ["org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.processPartitionMovement@POLYN396068.oldConsumer" , "---java.util.HashMap.get@POLYN617315" , "java.util.HashMap.get@POLYN617315.key"]
  , "c4" : "//QC-JAVCWE099[00981] In org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.processPartitionMovement@POLYN396068[00981] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "3" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00286]"
- , "c3" : ["java.util.Map.isEmpty@POLYN423723.return" , "---java.util.Map.isEmpty@POLYN423723" , "org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN355112.consumer"]
- , "c4" : "//QC-JAVCWE099[00286] In org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN355112[00286] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00234]"
- , "c3" : ["org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN355112.consumer" , "---java.util.concurrent.ConcurrentHashMap.add@POLYN1668236" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1668236.e"]
- , "c4" : "//QC-JAVCWE099[00234] In org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN355112[00234] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,

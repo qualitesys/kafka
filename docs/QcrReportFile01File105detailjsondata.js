@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java 955 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java 950 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.xml" 
  , "fic3"  : "" 
 }
@@ -828,7 +828,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "98"
+ , "c4" : "94"
 }}
 ,
 { "ligne" : { "" : ""
@@ -842,7 +842,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "21"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : { "" : ""
@@ -6787,13 +6787,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.Call.handleTimeoutFailure@POLYN993808"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.handleResponses@POLYN1009795"
 }} 
 ,
@@ -6816,13 +6809,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1019788"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCalls@POLYN1001728"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6865,6 +6851,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.hasActiveExternalCalls@POLYN1014112"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCalls@POLYN1001728"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7134,34 +7127,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00848"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#848"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00848] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.Call.handleTimeoutFailure@POLYN993808 the MagicNumber/String '{} timed out at {} after {} attempt-s-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00854"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#854"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00854] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.Call.handleTimeoutFailure@POLYN993808 the MagicNumber/String ' timed out at ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00855"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#855"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00855] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.Call.handleTimeoutFailure@POLYN993808 the MagicNumber/String ' after ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00855"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#855"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00855] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.Call.handleTimeoutFailure@POLYN993808 the MagicNumber/String ' attempt-s-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01236"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1236"
  , "c2" : "BLOCKER"
@@ -7309,13 +7274,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1081"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01081] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCalls@POLYN1001728 the MagicNumber/String 'Trying to choose nodes for {} at {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1104"
  , "c2" : "BLOCKER"
@@ -7432,6 +7390,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1322"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01322] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.hasActiveExternalCalls@POLYN1014112 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1081"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01081] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCalls@POLYN1001728 the MagicNumber/String 'Trying to choose nodes for {} at {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
